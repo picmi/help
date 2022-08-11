@@ -1,0 +1,16 @@
+{
+  "name": "PICMI help",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vitepress-tags": "^0.6.2",
+    "vue": "^3.2.37"
+  }
+}
