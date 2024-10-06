@@ -4,17 +4,17 @@
 
 ## General Questions
 
-<FAQItem question="What is PICMI?" :expandAll="expandAll" >
+<faq question="What is PICMI?" :expandAll="expandAll" >
   PICMI is a tool that connects people (your potential workforce) with you (the employer) through a streamlined hiring process. People can review detailed information about companies, such as culture and working conditions, to decide if they are a good fit.
-</FAQItem>
+</faq>
 
-<FAQItem question="How does the straight-through hiring process work?" :expandAll="expandAll">
+<faq question="How does the straight-through hiring process work?" :expandAll="expandAll">
   Our straight-through hiring process allows qualified people to receive a legally binding employment agreement instantly if they meet all the predefined criteria set by you, the employer.
-</FAQItem>
+</faq>
 
 ## Troubleshooting
 
-<FAQItem question="What should I do if a person reports they can't complete an application?" :expandAll="expandAll">
+<faq question="What should I do if a person reports they can't complete an application?" :expandAll="expandAll">
    Check the <b>application status</b> in the <b>People</b> page and then determine if the person is:
 
 1. not able to **apply** because of the sign in problems
@@ -22,21 +22,21 @@
 3. **in progress** and the contract page reports an error
 4. in **offered** status but is unable to proceed to accept
 
-</FAQItem>
+</faq>
 
-<FAQItem question="What should I do if I can't log into my account?" :expandAll="expandAll">
+<faq question="What should I do if I can't log into my account?" :expandAll="expandAll">
   If you're having trouble logging in, first make sure you're using the correct email. If you've forgotten your password, click the "Forgot Password" link on the login page to reset it.
-</FAQItem>
+</faq>
 
-<FAQItem question="Who do I contact for technical support?" :expandAll="expandAll">
+<faq question="Who do I contact for technical support?" :expandAll="expandAll">
   For technical issues, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>
-</FAQItem>
+</faq>
 
 ## Job Questions
 
-<FAQItem question="How do I manage applications?" :expandAll="expandAll">
+<faq question="How do I manage applications?" :expandAll="expandAll">
   Once you've posted a job, you can manage applications by navigating to the <b>People</b> page. Here, you'll be able to review peoples' applications.
-</FAQItem>
+</faq>
 
 <script setup lang="ts">
 import {ref} from 'vue';

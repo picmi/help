@@ -1,11 +1,11 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 import './ui-instructions.css'
-import FAQItem from '../../../components/FaqItem.vue'
+import faq from '../../../components/faq.vue'
 
 
 DefaultTheme.enhanceApp = ({ app }) => {
-    app.component('FAQItem', FAQItem)
+    app.component('faq', faq)
 }
 
 export default DefaultTheme
