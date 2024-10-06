@@ -1,31 +1,42 @@
 # Creating individual employment conditions
 
-For any jobseeker application (aka a job), the business can "override" a number of "base" values to ensure that there are individual employment conditions. All these changes should be able to be made by the business right up until the jobseeker agrees.
+For any application, the business can provide specific terms for a person. They are called **personal overrides** to
+provide individual employment conditions. Personal overrides are added over the top of any **base** field values that are
+provided.
+
+**Note:** changes can be made applications right up until the person agrees—after that changes cannot be made.
+
+## Where are the personal overrides reflected?
+
+For both the person and the business, everywhere in the context of an application these override values will be used
+instead of the base values. This includes:
+
+* job details view
+* contracts (inside the substitution fields)
 
 ## Fields that can be overridden
 
-1. **Remuneration**: the pay rate itself (and not the currency eg NZ, or frequency eg hourly—these remain the same as the job itself)
-2. **Start**: date the job is expected to begin
-3. **End**: date the job is expected to finish
-4. **Date summary**: a description of the dates or supplementary information
-5. **Valid through**: allow the application to close before the job starts
-6. **Location**: the street address of the position
-7. **Location additional details**: supplementary information about the location
-8. **Job description**: change this to rewrite the primary description—overwriting this should probably include details from the original description
-9. **Organisation name**: sometimes the contracting organisation may change
+| **Field**                       | **Description**                                                                                                               |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Remuneration**                | The pay rate itself (and not the currency eg NZ, or frequency eg hourly—these remain the same as the job itself)              |
+| **Start**                       | Date the job is expected to begin                                                                                             |
+| **End**                         | Date the job is expected to finish                                                                                            |
+| **Date summary**                | A description of the dates or supplementary information                                                                       |
+| **Valid through**               | Allow the application to close before the job starts                                                                          |
+| **Location**                    | The street address of the position                                                                                            |
+| **Location additional details** | Supplementary information about the location                                                                                  |
+| **Job description**             | Change this to rewrite the primary description—overwriting this should probably include details from the original description |
+| **Organisation name**           | Sometimes the contracting organisation may change                                                                             |
 
-## Where are the changes reflected?
+<div class="ui-instructions">
 
-For both the jobseeker and the business, everywhere in the context of a job application these override values will be used instead of the base values. This includes:
+## Change field overrides
 
-* listing details view
-* contracts (inside the substitution chips)
+1. Go to **People** page.
+2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>.
+3. Click &vellip; (vertical dots) to open the menu.
+4. Select **Edit application overrides**.
+5. Move through the [fields](#fields-that-can-be-overridden) and update values as needed.
+4. Click **Save** when you're done.
 
-## Change field override
-
-1. Go to the **People page**
-2. Select the jobseeker application
-3. Click **Edit application overrides**
-4. Enter a new __field__ value (based on above)
-5. Click **Save**
-
+</div>

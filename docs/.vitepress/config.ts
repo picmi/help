@@ -3,7 +3,7 @@ import { nav } from './nav';
 import { sidebarJobseeker } from './sidebarJobseeker';
 import { sidebarBusiness } from './sidebarBusiness';
 
-const version = '1.0.0';
+// const version = '1.0.0';
 
 export default defineConfig({
     lang: 'en-US',
@@ -12,16 +12,19 @@ export default defineConfig({
 
     lastUpdated: true,
     themeConfig: {
-        logo: { light : '/logo-no-name-outline-black.svg', dark: '/logo-no-name-outline-white.svg'},
+        logo: { light: '/logo-no-name-outline-black.svg', dark: '/logo-no-name-outline-white.svg' },
         nav: nav(),
         sidebar: {
             '/jobseeker': sidebarJobseeker(),
             '/business': sidebarBusiness(),
         },
         footer: {
-            message: 'PICMI is the simple seasonal hiring tool that helps make your job their first choice',
+            message: 'PICMI is the simple hiring tool that helps make your job their first choice',
             copyright: 'Copyright © 2018-present PICMI'
         },
+        search: {
+            provider: 'local'
+        }
     },
     head: [
         ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-196x196.png" }],
@@ -33,7 +36,10 @@ export default defineConfig({
         ['link', { rel: "icon", href: "/assets/favicons/favicon.ico" }],
         ['meta', { name: "theme-color", content: "#ffffff" }],
         // ['link', { rel: "stylesheet", href: "https://fonts.googleapis.com/icon?family=Material+Icons" }],
-        ['link', { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css" }],
+        ['link', {
+            rel: "stylesheet",
+            href: "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"
+        }],
         // ['link', { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato&display=swap" }],
     ],
 });

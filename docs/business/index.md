@@ -1,14 +1,18 @@
-## Your jobs/applications
-- [Creating a Listing](article/creating-a-listing)
-- [Preview a listing](article/previewing-a-listing)
-- [Preparing a listing ready to publish](article/preparing-a-listing-ready-publish)
-- [Duplicate a Listing](article/duplicate-a-listing)
-- [Inviting for Jobs](article/inviting-for-jobs)
-- [Changing Pay Rates for Applications](article/changing-pay-rates-for-applications)
-- [Creating individual employment conditions](article/creating-individual-employment-conditions)
+## [FAQs](faqs) 
+
+## Jobs
+- [Create job](article/creating-a-job)
+- [Duplicate a job](article/duplicate-a-job)
+- [Preview a job](article/previewing-a-job)
+- [Prepare a job ready to publish](article/preparing-a-job-ready-publish)
+
+## People Applications
+- [Invites for jobs](article/inviting-for-jobs)
+- [Change pay rates for applications](article/changing-pay-rates-for-applications)
+- [Add individual employment conditions](article/creating-individual-employment-conditions)
 
 ## Your account
-- [Creating an Account](article/creating-an-account)
+- [Create account](article/creating-an-account)
 
 ## About PICMI
 - [Getting Started](about-picmi/getting-started)

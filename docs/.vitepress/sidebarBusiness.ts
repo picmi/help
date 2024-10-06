@@ -2,16 +2,36 @@ export function sidebarBusiness() {
     return [
         {
             text: 'Getting Started',
+            collapsible: true,
             items: [
-                { text: 'Creating a Listing', link: '/business/article/creating-a-listing' },
-                { text: 'Previewing a Listing', link: '/business/article/previewing-a-listing' },
-                { text: 'Preparing a listing ready to publish', link: '/business/article/preparing-a-listing-ready-publish' },
-                { text: 'Duplicate a Listing', link: '/business/article/duplicate-a-listing' },
-                { text: 'Creating an Account', link: '/business/article/creating-an-account' },
-                { text: 'Inviting for Jobs', link: '/business/article/inviting-for-jobs' },
-                { text: 'Changing Pay Rates for Applications', link: '/business/article/changing-pay-rates-for-applications' },
-                { text: 'Creating individual employment conditions', link: '/business/article/creating-individual-employment-conditions' },
+                { text: 'FAQs', link: '/business/faqs' },
+                { text: 'Create account', link: '/business/article/creating-an-account' },
             ]
-        }
+        },
+        {
+            text: 'Jobs',
+            collapsible: true,
+            items: [
+                { text: 'Create', link: '/business/article/creating-a-job' },
+                { text: 'Duplicate', link: '/business/article/duplicate-a-job' },
+                { text: 'Preview', link: '/business/article/previewing-a-job' },
+                { text: 'Publish', link: '/business/article/preparing-a-job-ready-publish' },
+            ],
+        },
+        {
+            text: 'People',
+            collapsible: true,
+            items: [
+                { text: 'Invites', link: '/business/article/inviting-for-jobs' },
+                {
+                    text: 'Change pay rates for application',
+                    link: '/business/article/changing-pay-rates-for-applications'
+                },
+                {
+                    text: 'Add individual employment conditions',
+                    link: '/business/article/creating-individual-employment-conditions'
+                },
+            ],
+        },
     ]
 }
