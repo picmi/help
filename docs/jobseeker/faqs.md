@@ -1,18 +1,3 @@
----
-layout: doc
----
-
-<script setup lang="ts">
-import { ref } from 'vue';
-import FAQItem from '../../components/FaqItem.vue';
-
-const expandAll = ref(false)
-
-const toggleExpandAll = () => {
-  expandAll.value = !expandAll.value;
-}
-</script>
-
 # Frequently Asked Questions (FAQs)
 
 <button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
@@ -42,3 +27,13 @@ const toggleExpandAll = () => {
 <FAQItem question="What should I do if I can't log into my account?" :expandAll="expandAll">
   If you're having trouble logging in, first make sure you're using the correct email. We recommend that you use passwordless to login and this will send a code to your email address that you can use to login
 </FAQItem>
+
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const expandAll = ref(false);
+
+const toggleExpandAll = () => {
+  expandAll.value = !expandAll.value;
+}
+</script>
