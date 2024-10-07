@@ -48,7 +48,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 
 <div class="ui-instructions">
 
-## Show events (result of attempt to send data)
+## Show events detailed view (result of attempt to send data)
 
 1. Go to **People** page
 2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
@@ -59,6 +59,23 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
     * **Create**
     * **Integration name**
 6. Locate the event phase and confirm status (see [below](#phase-and-status-of-an-integration-event))
+
+</div>
+
+<div class="ui-instructions">
+
+## Show events quick view
+
+1. Go to **People** page
+2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+3. Locate **Integrations** section 
+4. Select any of the phases to view as new column titles:
+   * **Completed**
+   * **Queued**
+   * **Error**
+5. Click **Save** when you're done
+6. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
+7. Confirm by the **integration name** under each of the column titles
 
 </div>
 
