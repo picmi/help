@@ -11,6 +11,9 @@
 - [Change pay rates for applications](article/changing-pay-rates-for-applications)
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
 
+## Integrations
+- [Integration events](integrations/integration-events)
+
 ## Your account
 - [Create account](article/creating-an-account)
 

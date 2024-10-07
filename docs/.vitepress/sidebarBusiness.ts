@@ -33,5 +33,12 @@ export function sidebarBusiness() {
                 },
             ],
         },
+        {
+            text: 'Integrations',
+            collapsible: true,
+            items: [
+                { text: 'Integration events', link: '/business/integrations/integration-events' },
+            ],
+        },
     ]
 }
