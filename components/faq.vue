@@ -102,9 +102,9 @@ watch(() => props.expandAll, (newVal) => {
 }
 
 .faq-question:hover .faq-anchor,
-/*.faq-question .faq-anchor.active {
-  opacity: 1; !* Show on hover or when active *!
-}*/
+.faq-question .faq-anchor.active {
+  opacity: 1; /* Show on hover or when active */
+}
 
 .faq-answer {
   margin-top: 1rem;
