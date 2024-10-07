@@ -13,7 +13,7 @@ have different data and there are rules around that data that may mean it succee
 
 <div class="ui-instructions">
 
-## Show integrations that are already setup
+## Show integration providers that are already setup
 
 1. Go to **Jobs** page
 2. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
@@ -48,7 +48,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 
 <div class="ui-instructions">
 
-## Show result of attempt to send data
+## Show events (result of attempt to send data)
 
 1. Go to **People** page
 2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
@@ -74,11 +74,27 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 
 **Note:** CSV integrations will only show a limited set phases because the data is directly downloaded to the user
 
-## 
+<div class="ui-instructions">
+
+## Create employee manually (send data per employee)
+
+1. Go to **People** page
+2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
+3. Click &vellip; (vertical dots) to open the menu
+4. Select **Integrations**
+5. Choose which integration to show fields
+   * Select **integration name**
+   * Select **Employee (create)**
+   * Click **Submit**
+6. In the **Events** section, locate the person record by **date** and **Create** and **integration name**
+7. Locate the **field by name** and check its **value**
+8. Locate the event phase and confirm status (see [above](#phase-and-status-of-an-integration-event))
+
+</div>
 
 <div class="ui-instructions">
 
-## Setup automatic sending of data on accepted application
+## Setup automatic create employee (sending of data on accepted application)
 
 1. Go to **Jobs** page
 2. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
@@ -89,14 +105,13 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
    * Select **Active** filter
    * Select **Integration provider** filter
    * Select **Apply** on each to change setting shown
-6. Click the **Add/Change Setting**
-7. In **Add new setting** section
+7. Click the **Add/Change Setting**
+8. In **Add new setting** section
    * Select On
    * Select Integration Provider
    * Click **Change Setting** when you're done
 
 </div>
-
 
 ## FAQs
 
