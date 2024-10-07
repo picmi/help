@@ -38,6 +38,21 @@
   Once you've posted a job, you can manage applications by navigating to the <b>People</b> page. Here, you'll be able to review peoples' applications.
 </faq>
 
+## Invites
+
+<faq question="What can I do when the invite bounced as no such user?" :expandAll="expandAll">
+  No email address found is usually because there is a typo in the email address. 
+
+To remedy this:
+
+* Try and confirm where the email address error has occurred—often it is just one character added incorrectly
+* Cancel the application with a status message: "No such user"
+* Invite using the correct email address
+
+**Note:** an application cannot be moved to another email address—this is helpful to detect ongoing errors 
+</faq>
+
+
 <script setup lang="ts">
 import {ref} from 'vue';
 
