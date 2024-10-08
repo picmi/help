@@ -12,7 +12,9 @@
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
 
 ## Integrations
+- [Availble types](integrations/integrations)
 - [Integration events](integrations/integration-events)
+- [Download reports](integrations/download-reports)
 
 ## Your account
 - [Create account](article/creating-an-account)

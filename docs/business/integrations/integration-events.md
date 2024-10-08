@@ -1,5 +1,7 @@
 # Check integration status of person record
 
+These instructions refer to all integrations in which [data is sent via API](integrations.md#available-integrations)
+
 When data is shared with other systems, this is generally called an "integration". Each integration has an "integration
 provider"—these are the payroll, HRIS and on-site systems. Each time data is shared this is called an "integration
 event". Inside each event are data is "record" made up of "fields" which are the values that are shared. Each field will
@@ -7,9 +9,13 @@ have different data and there are rules around that data that may mean it succee
 
 ### General integration rules
 
+PICMI is a system of record making it the source of the original data, but it does not attempt to maintain data over
+time and keep the two systems synchronised.
+
 * only accepted applications can be integrated
 * only send data (which means make a new record) in the integration if no record exists
 * do not update existing records
+* updates to records must be done manually in the system itself with a person authorised to make the changes
 
 <div class="ui-instructions">
 
@@ -68,11 +74,11 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 
 1. Go to **People** page
 2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
-3. Locate **Integrations** section 
+3. Locate **Integrations** section
 4. Select any of the phases to view as new column titles:
-   * **Completed**
-   * **Queued**
-   * **Error**
+    * **Completed**
+    * **Queued**
+    * **Error**
 5. Click **Save** when you're done
 6. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
 7. Confirm by the **integration name** under each of the column titles
@@ -100,9 +106,9 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Integrations**
 5. Choose which integration to show fields
-   * Select **integration name**
-   * Select **Employee (create)**
-   * Click **Submit**
+    * Select **integration name**
+    * Select **Employee (create)**
+    * Click **Submit**
 6. In the **Events** section, locate the person record by **date** and **Create** and **integration name**
 7. Locate the **field by name** and check its **value**
 8. Locate the event phase and confirm status (see [above](#phase-and-status-of-an-integration-event))
@@ -119,14 +125,14 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 4. Select **Edit**
 5. In the Edit pane, **Integrations** section, select **Sync Settings**
 6. In **settings** section, confirm integration provider does not already have settings by using the search filter
-   * Select **Active** filter
-   * Select **Integration provider** filter
-   * Select **Apply** on each to change setting shown
+    * Select **Active** filter
+    * Select **Integration provider** filter
+    * Select **Apply** on each to change setting shown
 7. Click the **Add/Change Setting**
 8. In **Add new setting** section
-   * Select On
-   * Select Integration Provider
-   * Click **Change Setting** when you're done
+    * Select On
+    * Select Integration Provider
+    * Click **Change Setting** when you're done
 
 </div>
 

@@ -37,7 +37,9 @@ export function sidebarBusiness() {
             text: 'Integrations',
             collapsible: true,
             items: [
-                { text: 'Integration events', link: '/business/integrations/integration-events' },
+                { text: 'Types', link: '/business/integrations/integrations' },
+                { text: 'Events', link: '/business/integrations/integration-events' },
+                { text: 'Download reports', link: '/business/integrations/download-reports' },
             ],
         },
     ]

@@ -23,7 +23,7 @@
 ## Invites
 
 <faq question="What can I do when the invite bounced as no such user?" :expandAll="expandAll">
-  No email address found is usually because there is a typo in the email address. 
+   No email address found is usually because there is a typo in the email address. 
 
 To remedy this:
 
@@ -31,7 +31,8 @@ To remedy this:
 * Cancel the application with a status message: "No such user"
 * Invite using the correct email address
 
-**Note:** an application cannot be moved to another email address—this is helpful to detect ongoing errors 
+**Note:** an application cannot be moved to another email address—this is helpful to detect ongoing errors
+
 </faq>
 
 ## Applications
@@ -56,12 +57,29 @@ To remedy this:
   PICMI currently has over a dozen integrations available. At this stage, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
 </faq>
 
+<faq question="How can I update an existing record in an integration system?" :expandAll="expandAll">
+
+  PICMI does not update existing employee fields in an integration. see [integration rules](integrations/integration-events#general-integration-rules)
+
+</faq>
+
+<faq question="How can I bulk upload?" :expandAll="expandAll">
+
+### For API integrations
+Bulk uploading is performing it two ways. First, at application accepted the record can be automatically sent. If this setting is not turned on, at any point later, each application can be sent to the system and created if it doesn't exist. see [send data per application](integrations/integration-events.md#create-employee-manually-send-data-per-employee)
+
+### For CSV integrations
+This can be done at any time.
+
+</faq>
+
+
 ### Troubleshooting
 
 There are faults that occur in integrations (downstream systems). Remember that integrations can only occur after an accepted application.
 
 <faq question="I can't see a person in my integration" :expandAll="expandAll">
-  In this case, there is no record in the other system, but you are expecting there to be there automatically after the person accepted. 
+   In this case, there is no record in the other system, but you are expecting there to be there automatically after the person accepted. 
 
 To diagnose this:
 
@@ -70,6 +88,7 @@ To diagnose this:
 * Check the integration is set up to automatically send
 
 **Note:** these test do not apply for incorrect/unexpected data in the downstream system
+
 </faq>
 
 <faq question="A person's 'ID' is wrong" :expandAll="expandAll">
@@ -79,6 +98,7 @@ To confirm this is a problem:
 * Check that the person record details are mapped incorrectly from the PICMI side
 
 **Note:** At this stage, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
+
 </faq>
 
 <faq question="A person's data is missing" :expandAll="expandAll">
