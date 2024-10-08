@@ -20,6 +20,12 @@
   For technical issues, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>
 </faq>
 
+<faq question="How do I force refresh my view?" :expandAll="expandAll">
+
+  When there are times when you really want to ensure that everything is up-to-date, you have two options: use PICMI's **hard refresh**, **update old information** or the browser's **disable cache**. See [refresh data](article/update-old-information.md)
+
+</faq>
+
 ## Invites
 
 <faq question="What can I do when the invite bounced as no such user?" :expandAll="expandAll">

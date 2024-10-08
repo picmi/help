@@ -21,3 +21,6 @@
 
 ## About PICMI
 - [Getting Started](about-picmi/getting-started)
+
+## Troubleshooting
+- [Update old information](article/update-old-information)
