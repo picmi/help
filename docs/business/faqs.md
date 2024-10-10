@@ -57,6 +57,13 @@ To remedy this:
 
 </faq>
 
+
+<faq question="What should I do if a person reports 'This contract still needs information from your application'?" :expandAll="expandAll">
+
+   One of the fields in the contract cannot be completed. The jobseeker will see a RED area where it is broken. However, as a business fix using the steps in [checking application configuration](article/checking-application-configuration)
+
+</faq>
+
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">

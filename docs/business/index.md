@@ -10,6 +10,7 @@
 - [Invites for jobs](article/inviting-for-jobs)
 - [Change pay rates for applications](article/changing-pay-rates-for-applications)
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
+- [Checking application configuration](article/checking-application-configuration)
 
 ## Integrations
 - [Availble types](integrations/integrations)

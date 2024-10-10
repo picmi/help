@@ -31,6 +31,10 @@ export function sidebarBusiness() {
                     text: 'Add individual employment conditions',
                     link: '/business/article/creating-individual-employment-conditions'
                 },
+                {
+                    text: 'Checking application configuration',
+                    link: '/business/article/checking-application-configuration'
+                },
             ],
         },
         {
