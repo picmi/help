@@ -138,5 +138,5 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 
 ## FAQs
 
-See [integration troubleshooting](../faqs.md#integrations).
+See [integration troubleshooting](../faqs#integrations).
 
