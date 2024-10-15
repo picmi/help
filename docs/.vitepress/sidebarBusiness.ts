@@ -2,7 +2,7 @@ export function sidebarBusiness() {
     return [
         {
             text: 'Getting Started',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: 'FAQs', link: '/business/faqs' },
                 { text: 'Create account', link: '/business/article/creating-an-account' },
@@ -10,7 +10,7 @@ export function sidebarBusiness() {
         },
         {
             text: 'Jobs',
-            collapsible: true,
+            collapsed: false,
             items: [
                 { text: 'Create', link: '/business/article/creating-a-job' },
                 { text: 'Duplicate', link: '/business/article/duplicate-a-job' },
@@ -20,7 +20,7 @@ export function sidebarBusiness() {
         },
         {
             text: 'People',
-            collapsible: true,
+            collapsed: false,
             items: [
                 { text: 'Invites', link: '/business/article/inviting-for-jobs' },
                 {
@@ -39,9 +39,18 @@ export function sidebarBusiness() {
         },
         {
             text: 'Integrations',
-            collapsible: true,
+            collapsed: true,
             items: [
-                { text: 'Types', link: '/business/integrations/integrations' },
+                {
+                    text: 'Types', link: '/business/integrations/integrations',
+                    collapsed: true,
+                    items: [
+                        {
+                            text: 'Xero',
+                            link: '/business/integrations/xero/overview'
+                        },
+                    ]
+                },
                 { text: 'Events', link: '/business/integrations/integration-events' },
                 { text: 'Download reports', link: '/business/integrations/download-reports' },
             ],

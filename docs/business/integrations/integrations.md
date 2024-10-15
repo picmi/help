@@ -36,7 +36,7 @@ Integration enable PICMI to automatically send employee records to various exter
 * **CSV:** stands for comma-separated values type of file and means that data is sent indirectly such that records are
   downloaded to a file and then uploaded into the other system. PICMI call
 
-### Steps for Using Integrations with PICMI
+## Steps for Using Integrations with PICMI
 
 All integrations follow a similar setup process, with differences in two main areas:
 
@@ -66,7 +66,7 @@ You can add multiple integrations to an application. Here's how:
 6. **Verify in the Integration**:
     - Log into the other system and confirm that the data from PICMI was received correctly.
 
-### Different Ways to Authorise PICMI to Transfer Data
+## Different Ways to Authorise PICMI to Transfer Data
 
 - **Upload**: Login to the other system and manually upload data.
 - **API token**: Login to the other system and go to a page in the system that will generate a long code (API token) and then copy and paste it into PICMI to authorise the connection.
