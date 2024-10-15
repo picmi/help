@@ -51,7 +51,7 @@ To remedy this:
    Check the <b>application status</b> in the <b>People</b> page and then determine if the person is:
 
 1. not able to **apply** because of the sign in problems
-2. **in progress** and has not completed all the fields in the application
+2. **in progress** a[components](../../components)nd has not completed all the fields in the application
 3. **in progress** and the contract page reports an error
 4. in **offered** status but is unable to proceed to accept
 
