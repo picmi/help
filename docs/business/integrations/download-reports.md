@@ -8,6 +8,8 @@ When data is shared with other systems via CSV, this is generally still called a
 event". Inside each event are data is "record" made up of "fields" which are the values that are shared. Each field will
 have different data and there are rules around that data that may mean it succeeds or fails.
 
+<box>
+
 ### General integration rules
 
 PICMI is a system of record making it the source of the original data, but it does not attempt to maintain data over
@@ -20,7 +22,13 @@ time and keep the two systems synchronised.
 * PICMI does not and cannot know about the state of records in the other system (compared with
   an [API integration](integration-events.md#general-integration-rules))
 
-**Note:** reissued applications will need to return to **accepted** before downloading
+<prompt>
+
+Reissued applications will need to return to **accepted** before downloading
+
+</prompt>
+
+</box>
 
 
 <div class="ui-instructions">

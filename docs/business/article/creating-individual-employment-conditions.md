@@ -4,7 +4,11 @@ For any application, the business can provide specific terms for a person. They 
 provide individual employment conditions. Personal overrides are added over the top of any **base** field values that are
 provided.
 
-**Note:** changes can be made applications right up until the person agrees—after that changes cannot be made.
+<prompt>
+
+Changes can be made applications right up until the person agrees—after that changes cannot be made.
+
+</prompt>
 
 ## Where are the personal overrides reflected?
 

@@ -1,10 +1,10 @@
 export function sidebarBusiness() {
     return [
+        { text: 'FAQs', link: '/business/faqs' },
         {
             text: 'Getting Started',
             collapsed: true,
             items: [
-                { text: 'FAQs', link: '/business/faqs' },
                 { text: 'Create account', link: '/business/article/creating-an-account' },
             ]
         },

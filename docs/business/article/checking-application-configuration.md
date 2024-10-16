@@ -5,11 +5,15 @@ There is checking around an application to ensure that contracts can be issued a
 All application configurations must be valid for a person to receive an offer on their application. Above completing the
 fields with the correct information which can be checked when [previewing a listing](previewing-a-job).
 
-a valid application configuration must have all **fields completed** that are going to be substituted in 
+A valid application configuration must have all **fields completed** that are going to be substituted in 
 * a contract
 * all integrations configured on the job
 
-**Note:** integration validations can be turned off to get around this (not recommended)
+<prompt>
+
+Integration validations can be turned off to get around this (not recommended)
+
+</prompt>
 
 <div class="ui-instructions">
 
@@ -36,6 +40,10 @@ a valid application configuration must have all **fields completed** that are go
 | **Current Value** | The value as best as can be determined that will be provided—some values cannot be determined in this view and is left empty, other time values are shown where the data will come from |
 | **Description**   | Additional information the system has                                                                                                                                                   |
 
-**Note:** the listing will also be validated
+<prompt>
+
+The listing will also be validated
 an [inviting a person](inviting-for-jobs), [duplicating a job](duplicate-a-job) and when all fields are complete prior
 to an offer and when a person agrees.   
+
+</prompt>

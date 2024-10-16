@@ -7,7 +7,10 @@ provider"—these are the payroll, HRIS and on-site systems. Each time data is s
 event". Inside each event are data is "record" made up of "fields" which are the values that are shared. Each field will
 have different data and there are rules around that data that may mean it succeeds or fails.
 
-### General integration rules
+
+<box>
+
+## General integration rules
 
 PICMI is a system of record making it the source of the original data, but it does not attempt to maintain data over
 time and keep the two systems synchronised.
@@ -16,6 +19,8 @@ time and keep the two systems synchronised.
 * only send data (which means make a new record) in the integration if no record exists
 * do not update existing records
 * updates to records must be done manually in the system itself with a person authorised to make the changes
+
+</box>
 
 <div class="ui-instructions">
 
@@ -85,7 +90,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 
 </div>
 
-### Phase and status of an integration event
+## Phase and status of an integration event
 
 | Phase       | Description                                                                  | Status | Notes                                           |
 |-------------|------------------------------------------------------------------------------|--------|-------------------------------------------------|
@@ -95,7 +100,11 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 |             |                                                                              | 204    | employee already exists. No changes made.       |
 | Error       | the sharing request has errored (and will have a status and message as next) | 400    | failed with error that should be seen beside it |
 
-**Note:** CSV integrations will only show a limited set phases because the data is directly downloaded to the user
+<prompt>
+
+CSV integrations will only show a limited set phases because the data is directly downloaded to the user
+
+</prompt>
 
 <div class="ui-instructions">
 

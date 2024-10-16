@@ -26,6 +26,26 @@
 
 </faq>
 
+## Emails
+
+<faq question="What is an email sub-alias?" :expandAll="expandAll">
+
+A sub-alias email is a version of an email address that includes an extra part before the "@" symbol. It’s also called an "email alias", "plus address", or "tagged email". An email with a sub-alias arrives in the **same email inbox**. 
+
+Here are some example of sub-alias email for `hone.smith@example.com`
+*  `hone.smith+08-2024@example.com`
+*  `hone.smith+jobseeker@example.com`
+*  `hone.smith+employer@example.com`
+*  `hone.smith+picmi-job@example.com`
+
+</faq>
+
+<faq question="What if someone has no email?" :expandAll="expandAll">
+
+PICMI can provide access with a provisional user. see [invites](article/inviting-for-jobs.md#inviting-for-jobs)
+
+</faq>
+
 ## Invites
 
 <faq question="What can I do when the invite bounced as no such user?" :expandAll="expandAll">
