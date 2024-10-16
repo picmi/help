@@ -8,12 +8,13 @@
 
 ## People Applications
 - [Invites for jobs](article/inviting-for-jobs)
+- [Provisional users for jobs](article/provisional-user)
 - [Change pay rates for applications](article/changing-pay-rates-for-applications)
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
 - [Checking application configuration](article/checking-application-configuration)
 
 ## Integrations
-- [Availble types](integrations/integrations)
+- [Available types](integrations/integrations)
 - [Integration events](integrations/integration-events)
 - [Download reports](integrations/download-reports)
 

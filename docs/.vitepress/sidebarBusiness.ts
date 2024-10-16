@@ -23,6 +23,7 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 { text: 'Invites', link: '/business/article/inviting-for-jobs' },
+                { text: 'Provisional user', link: '/business/article/provisional-user' },
                 {
                     text: 'Change pay rates for application',
                     link: '/business/article/changing-pay-rates-for-applications'
