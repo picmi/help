@@ -9,6 +9,11 @@ export function sidebarBusiness() {
             ]
         },
         {
+            text: 'Users', collapsed: true, items: [
+                { text: 'Understanding Users', link: '/business/article/user-types' },
+            ]
+        },
+        {
             text: 'Jobs',
             collapsed: false,
             items: [
