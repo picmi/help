@@ -14,7 +14,7 @@
 - [Checking application configuration](article/checking-application-configuration)
 
 ## Integrations
-- [Available types](integrations/integrations)
+- [Available integrations](integrations/integrations)
 - [Integration events](integrations/integration-events)
 - [Download reports](integrations/download-reports)
 
