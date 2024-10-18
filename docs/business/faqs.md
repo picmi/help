@@ -55,7 +55,7 @@ To remedy this:
 
 * Try and confirm where the email address error has occurred—often it is just one character added incorrectly
 * Cancel the application with a status message: "No such email"
-* Invite using the correct email address
+* [Invite](article/inviting-for-jobs#send-invites) using the correct email address
 
 <prompt>
 
@@ -78,7 +78,7 @@ To remedy this:
 
 * Try and confirm where the email address error has occurred—these errors are usually after the '@' part of the email
 * Cancel the application with a status message: "Error in email address"
-* Invite using the correct email address
+* [Invite](article/inviting-for-jobs#send-invites) using the correct email address
 
 <prompt>
 
