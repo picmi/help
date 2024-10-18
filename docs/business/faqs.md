@@ -22,7 +22,9 @@
 
 <faq question="How do I force refresh my view?" :expandAll="expandAll">
 
-  When there are times when you really want to ensure that everything is up-to-date, you have two options: use PICMI's **hard refresh**, **update old information** or the browser's **disable cache**. See [refresh data](article/update-old-information.md)
+When there are times when you really want to ensure that everything is up-to-date, you have two options: use PICMI's *
+*hard refresh**, **update old information** or the browser's **disable cache**.
+See [refresh data](article/update-old-information.md)
 
 </faq>
 
@@ -30,13 +32,15 @@
 
 <faq question="What is an email sub-alias?" :expandAll="expandAll">
 
-A sub-alias email is a version of an email address that includes an extra part before the "@" symbol. It’s also called an "email alias", "plus address", or "tagged email". An email with a sub-alias arrives in the **same email inbox**. 
+A sub-alias email is a version of an email address that includes an extra part before the "@" symbol. It’s also called
+an "email alias", "plus address", or "tagged email". An email with a sub-alias arrives in the **same email inbox**.
 
 Here are some example of sub-alias email for `hone.smith@example.com`
-*  `hone.smith+08-2024@example.com`
-*  `hone.smith+jobseeker@example.com`
-*  `hone.smith+employer@example.com`
-*  `hone.smith+picmi-job@example.com`
+
+* `hone.smith+08-2024@example.com`
+* `hone.smith+jobseeker@example.com`
+* `hone.smith+employer@example.com`
+* `hone.smith+picmi-job@example.com`
 
 </faq>
 
@@ -68,6 +72,7 @@ An application cannot be moved to another email address—this is helpful to det
 <faq question="What can I do when the invite has delivery status notification failure?" :expandAll="expandAll">
 
 There are various errors that may be reported:
+
 * `Requested mail action aborted, mailbox not found`
 * `Unknown mail server`
 * `The email account that you tried to reach does not exist`
@@ -107,7 +112,8 @@ An application cannot be moved to another email address—this is helpful to det
 
 <faq question="What should I do if a person reports 'This contract still needs information from your application'?" :expandAll="expandAll">
 
-   One of the fields in the contract cannot be completed. The jobseeker will see a RED area where it is broken. However, as a business fix using the steps in [checking application configuration](article/checking-application-configuration)
+One of the fields in the contract cannot be completed. The jobseeker will see a RED area where it is broken. However, as
+a business fix using the steps in [checking application configuration](article/checking-application-configuration)
 
 </faq>
 
@@ -119,40 +125,53 @@ An application cannot be moved to another email address—this is helpful to det
 
 <faq question="How can I update an existing record in an integration system?" :expandAll="expandAll">
 
-  PICMI does not update existing employee fields in an integration. see [integration rules](integrations/integration-events#general-integration-rules)
+PICMI does not update existing employee fields in an integration.
+see [integration rules](integrations/integration-events#general-integration-rules)
 
 </faq>
 
 <faq question="How can I bulk upload?" :expandAll="expandAll">
 
 ### For API integrations
-Bulk uploading is performing it two ways. First, at application accepted the record can be automatically sent. If this setting is not turned on, at any point later, each application can be sent to the system and created if it doesn't exist. see [send data per application](integrations/integration-events.md#create-employee-manually-send-data-per-employee)
+
+Bulk uploading is performing it two ways. First, at application accepted the record can be automatically sent. If this
+setting is not turned on, at any point later, each application can be sent to the system and created if it doesn't
+exist.
+see [send data per application](integrations/integration-events.md#create-employee-manually-send-data-per-employee)
 
 ### For CSV integrations
+
 This can be done at any time.
 
 </faq>
 
-
 ### Troubleshooting
 
-There are faults that occur in integrations (downstream systems). Remember that integrations can only occur after an accepted application.
+There are faults that occur in integrations (downstream systems). Remember that integrations can only occur after an
+accepted application.
 
 <faq question="I can't see a person in my integration system" :expandAll="expandAll">
 
-In this case, there is no record in the other system, but you are expecting there to be there automatically after the person accepted. 
+In this case, there is no record in the other system, but you are expecting there to be there automatically after the
+person accepted.
 
 To diagnose this:
 
 * Check the person has an accepted application
 * Check that the person record details are have been sent and succeeded or failed on the expected integration
-    * To view multiple records, customise columns and view **Integrations columns** (completed, queued or error)
-    * To view a single record at a time, look in the events in **Integrations** page
-* If there is no integration status, check the integration is set up to automatically send 
+    * To view multiple records, customise columns and
+      for [quick view](integrations/integration-events.md#show-events-quick-view) **Integrations columns** (completed,
+      queued or error)
+    * To view a single record at a time, look in the events in
+      the [detailed view](integrations/integration-events.md#show-events-detailed-view-result-of-attempt-to-send-data)
+* If there is no integration status, check
+  the [integration is set up to automatically send](integrations/integration-events.md#setup-automatic-create-employee-sending-of-data-on-accepted-application)
 
 <prompt>
 
-On any integration, **create employee** can be done multiple times without causing problems. 
+On any
+integration, [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) can
+be done multiple times without causing problems.
 
 </prompt>
 
@@ -164,9 +183,12 @@ On any integration, **create employee** can be done multiple times without causi
   Different systems call the "ID" (identifier) different names ranging from staff id to external identifier. 
 
 To confirm this is a problem:
+
 * Check that the person record details are mapped incorrectly from the PICMI side
 
-**Note:** At this stage, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
+**Note:** At this stage, please reach out to our support team via
+the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
+to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
 
 </faq>
 
@@ -175,31 +197,44 @@ To confirm this is a problem:
 
 To diagnose this:
 
-* Check that the person record details are mapped from the PICMI side 
+* Check that the person record details are mapped from the PICMI side
 
-**Note:** At this stage, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
+**Note:** At this stage, please reach out to our support team via
+the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
+to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
 
 </faq>
 
 <faq question="What can I do when an integration event has an error?" :expandAll="expandAll">
-   
+
 Errors in integration events need to be analysed individually.
+
+1. First locate that there is an [error in the event] either
+   in [quick view](integrations/integration-events.md#show-events-quick-view)
+   or [detailed view](integrations/integration-events.md#show-events-detailed-view-result-of-attempt-to-send-data).
+2. Locate the specific error message on the integration event inside
+   the [detailed view](integrations/integration-events.md#show-events-detailed-view-result-of-attempt-to-send-data)
 
 To diagnose this:
 
 * Does the error look like a **field error**? This could be a configuration problem
-* Does the error contain anything "token", "refresh", "oauth" or "authentication"? Please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a> for support
+* Does the error contain anything "token", "refresh", "oauth" or "authentication"? Attempt
+  a [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) once more to
+  check that it is a **persistent error**. Please reach out to our support team
+  via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
+  to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a> for support
 
 <prompt>
 
-On any integration, **create employee** can be done multiple times without causing problems.
+On any
+integration, [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) can
+be done multiple times without causing problems.
 
 </prompt>
 
 </faq>
 
-<script setup lang="ts">
-import {ref} from 'vue';
+<script setup lang="ts">import {ref} from 'vue';
 
 const expandAll = ref(false);
 
