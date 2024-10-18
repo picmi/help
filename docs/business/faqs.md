@@ -54,10 +54,37 @@ PICMI can provide access with a provisional user. see [invites](article/inviting
 To remedy this:
 
 * Try and confirm where the email address error has occurred—often it is just one character added incorrectly
-* Cancel the application with a status message: "No such user"
+* Cancel the application with a status message: "No such email"
 * Invite using the correct email address
 
-**Note:** an application cannot be moved to another email address—this is helpful to detect ongoing errors
+<prompt>
+
+An application cannot be moved to another email address—this is helpful to detect ongoing errors
+
+</prompt>
+
+</faq>
+
+<faq question="What can I do when the invite has delivery status notification failure?" :expandAll="expandAll">
+
+There are various errors that may be reported:
+* `Requested mail action aborted, mailbox not found`
+* `Unknown mail server`
+* `The email account that you tried to reach does not exist`
+* `Recipient not found`
+* `Account or domain may not exist, they may be blacklisted`
+
+To remedy this:
+
+* Try and confirm where the email address error has occurred—these errors are usually after the '@' part of the email
+* Cancel the application with a status message: "Error in email address"
+* Invite using the correct email address
+
+<prompt>
+
+An application cannot be moved to another email address—this is helpful to detect ongoing errors
+
+</prompt>
 
 </faq>
 
