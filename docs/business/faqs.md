@@ -138,14 +138,23 @@ This can be done at any time.
 
 There are faults that occur in integrations (downstream systems). Remember that integrations can only occur after an accepted application.
 
-<faq question="I can't see a person in my integration" :expandAll="expandAll">
-   In this case, there is no record in the other system, but you are expecting there to be there automatically after the person accepted. 
+<faq question="I can't see a person in my integration system" :expandAll="expandAll">
+
+In this case, there is no record in the other system, but you are expecting there to be there automatically after the person accepted. 
 
 To diagnose this:
 
 * Check the person has an accepted application
 * Check that the person record details are have been sent and succeeded or failed on the expected integration
-* Check the integration is set up to automatically send
+    * To view multiple records, customise columns and view **Integrations columns** (completed, queued or error)
+    * To view a single record at a time, look in the events in **Integrations** page
+* If there is no integration status, check the integration is set up to automatically send 
+
+<prompt>
+
+On any integration, **create employee** can be done multiple times without causing problems. 
+
+</prompt>
 
 **Note:** these test do not apply for incorrect/unexpected data in the downstream system
 
@@ -169,6 +178,23 @@ To diagnose this:
 * Check that the person record details are mapped from the PICMI side 
 
 **Note:** At this stage, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
+
+</faq>
+
+<faq question="What can I do when an integration event has an error?" :expandAll="expandAll">
+   
+Errors in integration events need to be analysed individually.
+
+To diagnose this:
+
+* Does the error look like a **field error**? This could be a configuration problem
+* Does the error contain anything "token", "refresh", "oauth" or "authentication"? Please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a> for support
+
+<prompt>
+
+On any integration, **create employee** can be done multiple times without causing problems.
+
+</prompt>
 
 </faq>
 
