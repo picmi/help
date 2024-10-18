@@ -8,6 +8,7 @@ export function sidebarBusiness() {
                 { text: 'Create account', link: '/business/article/creating-an-account' },
                 { text: 'Understanding users', link: '/business/about-picmi/users' },
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
+                { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },
             ]
         },
         {
