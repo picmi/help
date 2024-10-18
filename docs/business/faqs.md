@@ -209,7 +209,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 
 Errors in integration events need to be analysed individually.
 
-1. First locate that there is an [error in the event] either
+1. Locate that there is an **error in the event** either
    in [quick view](integrations/integration-events.md#show-events-quick-view)
    or [detailed view](integrations/integration-events.md#show-events-detailed-view-result-of-attempt-to-send-data).
 2. Locate the specific error message on the integration event inside
