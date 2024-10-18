@@ -31,7 +31,7 @@ Reissued applications will need to return to **accepted** before downloading
 </box>
 
 
-<div class="ui-instructions">
+<instructions>
 
 ## Download reports
 
@@ -45,7 +45,7 @@ Reissued applications will need to return to **accepted** before downloading
    * Click <span class="mdi mdi-download"></span> Download to file; or
    * Click <span class="mdi mdi-content-copy"></span> Copy to clipboard
 
-</div>
+</instructions>
 
 ## Upload reports (bulk import)
 

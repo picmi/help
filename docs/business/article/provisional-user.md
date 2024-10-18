@@ -32,7 +32,7 @@ Provisional users have specific access details to log into PICMI and don't use a
 
 </box>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Add a provisional user
 
@@ -54,9 +54,9 @@ You can add more than one provisional user at a time using [Import](#import-mult
 
 </prompt>
 
-</div>
+</instructions>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Import multiple provisional users
 
@@ -81,10 +81,10 @@ You can add duplicate one provisional user (with the same name) and each will ha
 
 </prompt>
 
-</div>
+</instructions>
 
 
-<div class="ui-instructions">
+<instructions>
 
 ## Provide details to a person
 
@@ -136,5 +136,5 @@ Do not access this account yourself without permission from the person and ensur
 
 </prompt>
 
-</div>
+</instructions>
 

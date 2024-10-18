@@ -2,7 +2,7 @@
 
 Use the preview pane to ensure values are as expected.
 
-<div class="ui-instructions">
+<instructions>
 
 ## Preview job details
 
@@ -11,7 +11,7 @@ Use the preview pane to ensure values are as expected.
 3. Click on the <span class="mdi mdi-pencil-outline"></span> **job** title
 4. View the jobs details in the preview pan
 
-</div>
+</instructions>
 
 * Click **Public job** <span class="mdi mdi-open-in-new"/> to open the job separately in a new window/browser tab
 * Click <span class="mdi mdi-content-copy"/> **Copy to Clipboard**&mdash;and then paste into another browser or provide as a link to someone (eg in an email)

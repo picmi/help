@@ -22,7 +22,7 @@ time and keep the two systems synchronised.
 
 </box>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Show integration providers that are already setup
 
@@ -37,9 +37,9 @@ To add an integration, please reach out to our support team via
 the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
 to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
 
-</div>
+</instructions>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Show fields to be sent
 
@@ -54,10 +54,10 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 6. In the **Events** section, locate the person record by **date** and **Show** and **integration name**
 7. Locate the **field by name** and check its **value**
 
-</div>
+</instructions>
 
 
-<div class="ui-instructions">
+<instructions>
 
 ## Show events detailed view (result of attempt to send data)
 
@@ -71,9 +71,9 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
     * **Integration name**
 6. Locate the event phase and confirm status (see [below](#phase-and-status-of-an-integration-event))
 
-</div>
+</instructions>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Show events quick view
 
@@ -88,7 +88,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 6. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
 7. Confirm by the **integration name** under each of the column titles
 
-</div>
+</instructions>
 
 ## Phase and status of an integration event
 
@@ -106,7 +106,7 @@ CSV integrations will only show a limited set phases because the data is directl
 
 </prompt>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Create employee manually (send data per employee)
 
@@ -122,9 +122,9 @@ CSV integrations will only show a limited set phases because the data is directl
 7. Locate the **field by name** and check its **value**
 8. Locate the event phase and confirm status (see [above](#phase-and-status-of-an-integration-event))
 
-</div>
+</instructions>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Setup automatic create employee (sending of data on accepted application)
 
@@ -143,7 +143,7 @@ CSV integrations will only show a limited set phases because the data is directl
     * Select Integration Provider
     * Click **Change Setting** when you're done
 
-</div>
+</instructions>
 
 ## FAQs
 

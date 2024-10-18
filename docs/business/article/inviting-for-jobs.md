@@ -34,7 +34,7 @@ People **without** an email can be added as a [provisional user](provisional-use
 
 </box>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Send invites
 
@@ -59,4 +59,4 @@ Avoid typing an email address by using import or copy-and-paste to ensure that y
 
 </prompt>
 
-</div>
+</instructions>

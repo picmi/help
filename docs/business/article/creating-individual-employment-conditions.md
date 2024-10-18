@@ -32,7 +32,7 @@ instead of the base values. This includes:
 | **Job description**             | Change this to rewrite the primary description—overwriting this should probably include details from the original description |
 | **Organisation name**           | Sometimes the contracting organisation may change                                                                             |
 
-<div class="ui-instructions">
+<instructions>
 
 ## Change field overrides
 
@@ -43,4 +43,4 @@ instead of the base values. This includes:
 5. Move through the [fields](#fields-that-can-be-overridden) and update values as needed.
 4. Click **Save** when you're done.
 
-</div>
+</instructions>

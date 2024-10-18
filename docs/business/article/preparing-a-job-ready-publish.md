@@ -5,7 +5,7 @@ All jobs must be valid for a person to receive an offer on their application. Ab
 * have all job fields that are going to be substituted in a contract completed (eg pay rate)
 * have an application workflow (which includes the employment agreement)
 
-<div class="ui-instructions">
+<instructions>
 
 ## Check that the job is valid
 
@@ -17,6 +17,6 @@ All jobs must be valid for a person to receive an offer on their application. Ab
    * <span class="mdi mdi-check primary"></span> for success 
    * <span class="mdi mdi-exclamation"></span> for errors&mdash;ensure they are fixed before sending invites
    
-</div>
+</instructions>
 
 **Note:** the listing will also be validated an [inviting a person](inviting-for-jobs), [duplicating a job](duplicate-a-job) and when a person agrees.   

@@ -4,7 +4,7 @@ An existing listing can be duplicated to make a copy. It will contain all the de
 
 Note: **vacancy** numbers are not copied and must be set individually.
 
-<div class="ui-instructions">
+<instructions>
 
 ## To create a duplicate
 
@@ -16,9 +16,9 @@ Note: **vacancy** numbers are not copied and must be set individually.
 
 The new job should be in the list (default "_Copy of ..._"), if you can't see it click **Refresh**
 
-</div>
+</instructions>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Making final changes
 
@@ -28,7 +28,7 @@ The new job should be in the list (default "_Copy of ..._"), if you can't see it
 4. Select **Edit**
 5. Move through the [fields](creating-a-job.md#job-fields), update values and **Save** as needed
 
-</div>
+</instructions>
 
 ## Previewing
 

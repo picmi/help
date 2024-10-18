@@ -15,7 +15,7 @@ Integration validations can be turned off to get around this (not recommended)
 
 </prompt>
 
-<div class="ui-instructions">
+<instructions>
 
 ## Check that the job is valid
 
@@ -28,7 +28,7 @@ Integration validations can be turned off to get around this (not recommended)
     * <span class="mdi mdi-exclamation"></span> for errors
 6. Locate any errors in the **Passed** column
 
-</div>
+</instructions>
 
 ## Description of table
 | Column            | Description                                                                                                                                                                             |

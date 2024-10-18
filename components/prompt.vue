@@ -13,7 +13,7 @@
   </blockquote>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 blockquote.prompt {
   quotes: none;
@@ -37,7 +37,6 @@ blockquote.prompt {
     min-width: 100%;
     padding: 16px;
     border-radius: 6px;
-    color: rgba(25, 25, 28, 0.7);
     letter-spacing: 0.0015em;
     font-size: 16px;
     font-weight: 400;
@@ -50,6 +49,7 @@ blockquote.prompt {
         color: #4dbb5f;
       }
     }
+
   }
 
   &__icon {
@@ -62,9 +62,17 @@ blockquote.prompt {
       height: 24px;
     }
   }
+
+  &__content {
+    > p {
+      line-height: 24px;
+    }
+  }
 }
 
 .wt-icon {
   fill: currentColor;
 }
+
+
 </style>
