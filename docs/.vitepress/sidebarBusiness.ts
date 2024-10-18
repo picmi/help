@@ -6,11 +6,8 @@ export function sidebarBusiness() {
             collapsed: true,
             items: [
                 { text: 'Create account', link: '/business/article/creating-an-account' },
-            ]
-        },
-        {
-            text: 'Users', collapsed: true, items: [
-                { text: 'Understanding Users', link: '/business/article/user-types' },
+                { text: 'Understanding users', link: '/business/about-picmi/users' },
+                { text: 'Understanding applications', link: '/business/about-picmi/applications' },
             ]
         },
         {

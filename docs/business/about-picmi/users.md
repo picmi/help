@@ -1,11 +1,11 @@
-# Understanding users in PICMI
+# Understanding users
 
-In PICMI, a "user" refers to someone who can log into the system, with their email address used as their unique
-identifier.
+In PICMI, a **user** refers to someone who can sign in to the system, with their email address used as their unique
+identifier for their account.
 
 <prompt>
 
-PICMI only allows one user at a time to be logged in a single browser profile
+PICMI only allows **one user account at a time** to be logged in a single browser profile
 
 </prompt>
 
@@ -13,8 +13,8 @@ PICMI only allows one user at a time to be logged in a single browser profile
 
 | **User Type** | **Description**                                         | **Password** | **Passwordless** | **Provisional** |
 |---------------|---------------------------------------------------------|:------------:|:----------------:|:---------------:|
-| **Business**  | Someone working for your business                       |      ✓       |        ✓         |        ✗        |
-| **Jobseeker** | A person looking to join, or has joined, your workforce |      ✓       |        ✓         |        ✓        |
+| Business      | Someone working for your business                       |      ✓       |        ✓         |        ✗        |
+| Jobseeker     | A person looking to join, or has joined, your workforce |      ✓       |        ✓         |        ✓        |
 
 <box>
 
@@ -28,7 +28,7 @@ Users can sign in to PICMI in different ways:
 - **Provisional** This is convenient access that expires based on a relative time. A
   key and a code are provided to the person by the business. These details are known to the business but must be
   entered by the other person to access PICMI and can be provided
-  by [link, QR code or by details](provisional-user.md#type-of-access) as required.
+  by [link, QR code or by details](../article/provisional-user.md#type-of-access) as required.
 
 </box>
 
