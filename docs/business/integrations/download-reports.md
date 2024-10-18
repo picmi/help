@@ -35,7 +35,7 @@ Reissued applications will need to return to **accepted** before downloading
 
 ## Download reports
 
-1. Go to **People** page
+1. Go to **People**
 2. In the search filter, it is best to select status **Accepted** and limit to the Jobs
 3. Select <span class="mdi mdi-checkbox-marked-outline"></span> **application** rows 
 4. Click <span class="mdi mdi-cloud-download-outline"></span> **Download report**

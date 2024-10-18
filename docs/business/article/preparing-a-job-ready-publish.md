@@ -9,7 +9,7 @@ All jobs must be valid for a person to receive an offer on their application. Ab
 
 ## Check that the job is valid
 
-1. Go to **Jobs** page
+1. Go to **Jobs**
 2. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Check Configuration** 

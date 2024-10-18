@@ -40,7 +40,7 @@ People **without** an email can be added as a [provisional user](provisional-use
 
 This is the simplest way to send a single email.
 
-1. Go to **Jobs** page
+1. Go to **Jobs**
 2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
 3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
 4. Select **Send Invites**

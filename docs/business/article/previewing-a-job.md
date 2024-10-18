@@ -6,7 +6,7 @@ Use the preview pane to ensure values are as expected.
 
 ## Preview job details
 
-1. Go to **Jobs** page
+1. Go to **Jobs**
 2. Locate the row <span class="mdi mdi-checkbox-marked-outline"></span> with the **job** to duplicate
 3. Click on the <span class="mdi mdi-pencil-outline"></span> **job** title
 4. View the jobs details in the preview pan

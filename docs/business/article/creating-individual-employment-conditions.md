@@ -36,7 +36,7 @@ instead of the base values. This includes:
 
 ## Change field overrides
 
-1. Go to **People** page.
+1. Go to **People**.
 2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>.
 3. Click &vellip; (vertical dots) to open the menu.
 4. Select **Edit application overrides**.

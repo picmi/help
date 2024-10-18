@@ -8,7 +8,7 @@ Note: **vacancy** numbers are not copied and must be set individually.
 
 ## To create a duplicate
 
-1. Go to **Jobs** page
+1. Go to **Jobs**
 2. Locate the row <span class="mdi mdi-checkbox-marked-outline"></span> with the listing/job to duplicate
 3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
 4. Select **Duplicate Job**
@@ -22,7 +22,7 @@ The new job should be in the list (default "_Copy of ..._"), if you can't see it
 
 ## Making final changes
 
-1. Go to **Jobs** page
+1. Go to **Jobs**
 2. On the newly duplicated job, locate the row <span class="mdi mdi-checkbox-marked-outline"></span>
 3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
 4. Select **Edit**

@@ -19,7 +19,7 @@ Integration validations can be turned off to get around this (not recommended)
 
 ## Check that the job is valid
 
-1. Go to **People** page
+1. Go to **People**
 2. Locate the **person** row <span class="mdi mdi-checkbox-marked-outline"></span>
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Check Job Configuration**

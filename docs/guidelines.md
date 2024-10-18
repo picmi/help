@@ -20,7 +20,7 @@ The major goal for PICMI is to have clear instructions to needing images to desc
 
   **Example:**
    ```markdown
-   1. Go to **Jobs** page.
+   1. Go to **Jobs**.
    2. Click on the **job** title to start editing.
    ```
 
@@ -59,7 +59,7 @@ The major goal for PICMI is to have clear instructions to needing images to desc
    ```markdown
    ## To Create a Duplicate (Detailed Form)
    
-   1. Go to **Jobs** page.
+   1. Go to **Jobs**.
    2. Locate the row <span class="mdi mdi-checkbox-marked-outline"></span> with the **job** to duplicate.
    3. Click &vellip; (vertical dots) to open the menu.
    4. Select **Duplicate Job**.
@@ -96,7 +96,7 @@ The major goal for PICMI is to have clear instructions to needing images to desc
    ```markdown
    ## Making Final Changes (Detailed Form)
 
-   1. Go to **Jobs** page.
+   1. Go to **Jobs**.
    2. On the newly duplicated job, click on the **job** title to start editing.
    3. Move through the fields and update values as needed.
    4. Click **Save** when you're done.
