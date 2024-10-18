@@ -22,24 +22,25 @@ compliance purposes.
 
 ## Available integrations
 
-| **System**                               | **Type**          | **API** | **CSV** | **PDF**        |
-|------------------------------------------|-------------------|---------|---------|----------------|
-| [iPayroll](ipayroll)                     | Payroll           | Yes     |         |                |
-| [Tātou](tatou)                           | Onsite Management | Yes     |         |                |
-| [PayHero](payhero)                       | Payroll           | Yes     |         |                |
-| [Crystal](crystal)                       | Payroll           |         | Yes     |                |
-| [Smartly](smartly)                       | Payroll           |         | Yes     |                |
-| [AgriSmart](agrismart)                   | All in one        |         | Yes     |                |
-| [Hectre](hectre)                         | Labour Management | Yes     | Yes     |                |
-| [PaySauce](paysauce)                     | Payroll           |         | Yes     |                |
-| [MYOB IMS](myob-ims)                     | Payroll           |         | Yes     |                |
-| Immigration NZ                           | Visa              |         |         | Yes-contact us |
-| [Dataphyll](dataphyll)                   | Timesheeting      | Yes     |         |                |
-| [PackManager](packmanager)               | Labour Management |         | Yes     |                |
-| [Xero](xero)                             | Finance           | Yes     |         |                |
-| [SmoothPay](smooth-pay)                  | Payroll           | Yes     |         |                |
-| [EmploymentHero](employment-hero)        | Payroll           | Yes     |         |                |
-| [CheckWorkerRights](check-worker-rights) | Labour Management | Yes     |         |                |
+| **System**                               | **Type**          | **API** | **CSV** | **PDF**    |
+|------------------------------------------|-------------------|---------|---------|------------|
+| [AgriSmart](agrismart)                   | All in one        |         | ✓       |            |
+| [CheckWorkerRights](check-worker-rights) | Labour Management | ✓       |         |            |
+| [Crystal](crystal)                       | Payroll           |         | ✓       |            |
+| [Dataphyll](dataphyll)                   | Timesheets        | ✓       |         |            |
+| [EmploymentHero](employment-hero)        | Payroll           | ✓       |         |            |
+| [Hectre](hectre)                         | Labour Management | ✓       | ✓       |            |
+| Immigration NZ                           | Visa              |         |         | contact us |
+| [iPayroll](ipayroll)                     | Payroll           | ✓       |         |            |
+| [MYOB IMS](myob-ims)                     | Payroll           |         | ✓       |            |
+| [PackManager](packmanager)               | Labour Management |         | ✓       |            |
+| [PayHero](payhero)                       | Payroll           | ✓       |         |            |
+| [PaySauce](paysauce)                     | Payroll           |         | ✓       |            |
+| [Smartly](smartly)                       | Payroll           |         | ✓       |            |
+| [SmoothPay](smooth-pay)                  | Payroll           | ✓       |         |            |
+| [Tātou](tatou)                           | Onsite Management | ✓       |         |            |
+| [Xero](xero)                             | Finance           | ✓       |         |            |
+
 
 <prompt>
 

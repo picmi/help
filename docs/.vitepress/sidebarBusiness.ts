@@ -52,65 +52,81 @@ export function sidebarBusiness() {
                     collapsed: true,
                     items: [
                         {
-                            text: 'iPayroll',
-                            link: '/business/integrations/ipayroll'
+                            text: "API", collapsed: true, items: [
+                                {
+                                    text: 'CheckWorkerRights',
+                                    link: '/business/integrations/check-worker-rights'
+                                },
+
+                                {
+                                    text: 'Dataphyll',
+                                    link: '/business/integrations/dataphyll'
+                                },
+                                {
+                                    text: 'EmploymentHero',
+                                    link: '/business/integrations/employment-hero'
+                                },
+                                {
+                                    text: 'Hectre',
+                                    link: '/business/integrations/hectre'
+                                },
+                                {
+                                    text: 'iPayroll',
+                                    link: '/business/integrations/ipayroll'
+                                },
+                                {
+                                    text: 'PayHero',
+                                    link: '/business/integrations/payhero'
+                                },
+
+                                {
+                                    text: 'SmoothPay',
+                                    link: '/business/integrations/smooth-pay'
+                                },
+                                {
+                                    text: 'Tātou',
+                                    link: '/business/integrations/tatou'
+                                },
+                                {
+                                    text: 'Xero',
+                                    link: '/business/integrations/xero'
+                                },
+                            ]
                         },
                         {
-                            text: 'Tātou',
-                            link: '/business/integrations/tatou'
+                            text: "CSV", collapsed: true, items: [
+                                {
+                                    text: 'AgriSmart',
+                                    link: '/business/integrations/agrismart'
+                                },
+                                {
+                                    text: 'Crystal',
+                                    link: '/business/integrations/crystal'
+                                },
+                                {
+                                    text: 'Hectre',
+                                    link: '/business/integrations/hectre'
+                                },
+                                {
+                                    text: 'MYOB IMS',
+                                    link: '/business/integrations/myob-ims'
+                                },
+                                {
+                                    text: 'PackManager',
+                                    link: '/business/integrations/packmanager'
+                                },
+                                {
+                                    text: 'PaySauce',
+                                    link: '/business/integrations/paysauce'
+                                },
+                                {
+                                    text: 'Smartly',
+                                    link: '/business/integrations/smartly'
+                                },
+                            ]
                         },
-                        {
-                            text: 'PayHero',
-                            link: '/business/integrations/payhero'
-                        },
-                        {
-                            text: 'Xero',
-                            link: '/business/integrations/xero'
-                        },
-                        {
-                            text: 'CheckWorkerRights',
-                            link: '/business/integrations/check-worker-rights'
-                        },
-                        {
-                            text: 'SmoothPay',
-                            link: '/business/integrations/smooth-pay'
-                        },
-                        {
-                            text: 'EmploymentHero',
-                            link: '/business/integrations/employment-hero'
-                        },
-                        {
-                            text: 'Crystal',
-                            link: '/business/integrations/crystal'
-                        },
-                        {
-                            text: 'Smartly',
-                            link: '/business/integrations/smartly'
-                        },
-                        {
-                            text: 'AgriSmart',
-                            link: '/business/integrations/agrismart'
-                        },
-                        {
-                            text: 'Hectre',
-                            link: '/business/integrations/hectre'
-                        },
-                        {
-                            text: 'PaySauce',
-                            link: '/business/integrations/paysauce'
-                        },
-                        {
-                            text: 'MYOB IMS',
-                            link: '/business/integrations/myob-ims'
-                        },
-                        {
-                            text: 'Dataphyll',
-                            link: '/business/integrations/dataphyll'
-                        },
-                        {
-                            text: 'PackManager',
-                            link: '/business/integrations/packmanager'
-                        },
+
+
                     ]
                 },
                 { text: 'Events', link: '/business/integrations/integration-events' },
