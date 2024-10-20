@@ -26,6 +26,7 @@ export function sidebarBusiness() {
             text: 'People',
             collapsed: false,
             items: [
+                { text: 'Change status', link: '/business/article/changing-application-status' },
                 { text: 'Invites', link: '/business/article/inviting-for-jobs' },
                 { text: 'Provisional user', link: '/business/article/provisional-user' },
                 {
@@ -40,6 +41,11 @@ export function sidebarBusiness() {
                     text: 'Checking application configuration',
                     link: '/business/article/checking-application-configuration'
                 },
+                {
+                    text: 'Adding status message',
+                    link: '/business/article/adding-status-message'
+                },
+                { text: 'Add status message', link: '/business/article/adding-status-message' },
             ],
         },
         {

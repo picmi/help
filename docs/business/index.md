@@ -7,11 +7,13 @@
 - [Prepare a job ready to publish](article/preparing-a-job-ready-publish)
 
 ## People Applications
+- [Changing applications status](article/changing-application-status)
 - [Invites for jobs](article/inviting-for-jobs)
 - [Provisional users for jobs](article/provisional-user)
 - [Change pay rates for applications](article/changing-pay-rates-for-applications)
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
 - [Checking application configuration](article/checking-application-configuration)
+- [Add status message](article/adding-status-message.md)
 
 ## Integrations
 - [Available integrations](integrations/integrations)
