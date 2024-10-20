@@ -5,6 +5,7 @@ export function sidebarBusiness() {
             text: 'Getting Started',
             collapsed: true,
             items: [
+                { text: 'Recruiting people', link: '/business/about-picmi/recruiting-people' },
                 { text: 'Create account', link: '/business/article/creating-an-account' },
                 { text: 'Understanding users', link: '/business/about-picmi/users' },
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
