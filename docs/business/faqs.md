@@ -109,6 +109,21 @@ An application cannot be moved to another email address—this is helpful to det
 
 </faq>
 
+<faq question="What should I do if a person reports a different status to your view?" :expandAll="expandAll">
+
+One of the two of you do not have the latest version and to ensure you have the latest information. 
+
+* As a business user you can follow ensuring you [have the latest information](article/update-old-information)
+* The jobseeker also has similar strategies you can instruct them on
+
+<prompt>
+
+You should not change the status of the application to refresh your view.
+
+</prompt>
+
+</faq>
+
 
 <faq question="What should I do if a person reports 'This contract still needs information from your application'?" :expandAll="expandAll">
 
