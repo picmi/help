@@ -42,10 +42,9 @@ export function sidebarBusiness() {
                     link: '/business/article/checking-application-configuration'
                 },
                 {
-                    text: 'Adding status message',
-                    link: '/business/article/adding-status-message'
+                    text: 'Status messages',
+                    link: '/business/article/status-message'
                 },
-                { text: 'Add status message', link: '/business/article/adding-status-message' },
             ],
         },
         {

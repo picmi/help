@@ -11,6 +11,14 @@ Once all the criteria are met, an _offer_ is made. This offer needs to be agreed
 and
 the final acceptance, there is an _agree_ stage to allow for a legally required cooling-off period.
 
+Each application at its particular status has **status message**. A status message in PICMI provides additional information about the current stage of an application, helping both the business and the person applying to understand its progress. It keeps the business informed with extra details and can be included in **notifications** sent to individuals, ensuring clear communication about what is happening and what to expect next in the application process.
+
+<prompt>
+
+An application in PICMI has a **status** that shows its current stage. The status can be changed with an **action**, and each status can include a **status message** with more details. When the status changes, some updates also trigger **notifications** to keep everyone informed.
+
+</prompt>
+
 ## Application status
 
 In PICMI, an **application status** refers to the current stage or progress of a person's application as they move
