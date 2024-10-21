@@ -16,7 +16,7 @@ PICMI only allows **one user account at a time** to be logged in a single browse
 | Business      | Someone working for your business                       |      ✓       |        ✓         |        ✗        |
 | Jobseeker     | A person looking to join, or has joined, your workforce |      ✓       |        ✓         |        ✓        |
 
-<box>
+<explanation>
 
 ### Sign in access types
 
@@ -30,7 +30,7 @@ Users can sign in to PICMI in different ways:
   entered by the other person to access PICMI and can be provided
   by [link, QR code or by details](../article/provisional-user.md#type-of-access) as required.
 
-</box>
+</explanation>
 
 ## Important to know limitation
 
@@ -49,7 +49,7 @@ In the future, a single email will be available for both with the ability to swi
 
 </prompt>
 
-<box>
+<explanation>
 
 ## When you might need both users at the same time
 
@@ -69,7 +69,7 @@ Ways to Test the System
 
 </prompt>
 
-</box>
+</explanation>
 
 ### FAQs
 

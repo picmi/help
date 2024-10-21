@@ -19,11 +19,11 @@
 | **Primary role**     | Primary role of the individual in the organisation.           |                                         | Integration Configuration |
 | **Status**           | Employment status of the individual (e.g., active, inactive). | Inactive                                | Integration Configuration |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

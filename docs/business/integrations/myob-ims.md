@@ -59,11 +59,11 @@ Here’s the integration fields table created from your CSV data, following the 
 | **FVL next entitlement**            | Next FVL entitlement                               | Default: 10                                                                                |                           |
 | **End**                             | End flag or status                                 | Default: E. Mandatory                                                                      |                           |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

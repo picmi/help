@@ -14,11 +14,11 @@
 | **Default department** | Default department assigned to the employee  |                                                                                     | Job                       |
 | **Employment company** | Name of the company employing the individual |                                                                                     | Integration Configuration |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

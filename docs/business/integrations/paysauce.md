@@ -44,11 +44,11 @@
 | **EXTRA allowances**                                 | Any additional allowances                |                                                                                                             |                           |
 | **EXTRA other**                                      | Any other additional information         |                                                                                                             |                           |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

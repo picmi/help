@@ -29,11 +29,11 @@
 | **Sectors**          | Employee's sectors of operation                   | Pipe delimited Zero to many allowed                                              | Integration Configuration |
 | **Deactivate**       | Deactivation status of the employee               | TRUE, FALSE Default: FALSE                                                       | Integration Configuration |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

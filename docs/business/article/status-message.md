@@ -4,7 +4,7 @@ A status message is a way to provide **extra information about an application** 
 messages
 help both the business and the person applying to understand what's happening with the application.
 
-<box>
+<explanation>
 
 ### For the business
 
@@ -45,7 +45,7 @@ copying them into a new status. Additionally, you can search for status messages
 
 </prompt>
 
-</box>
+</explanation>
 
 <instructions>
 

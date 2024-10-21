@@ -37,12 +37,12 @@
 | **Working holiday visa country**     | Nationality of the employee                         |                                                                                                                     | Personal Information      |
 | **Working holiday visa start date**  | If yes, enter your visa start date                  |                                                                                                                     | Questions                 |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>
 

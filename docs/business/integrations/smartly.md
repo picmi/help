@@ -39,11 +39,11 @@
 | **Sick leave after months**       | Number of months after which sick leave is granted.                           | 0-12. Default: 0                                                                                                                                                                                                                |                                  |
 | **Email payslip**                 | Whether the employee opts to receive payslips via email.                      | 0 No, 1 Yes. Default: 1                                                                                                                                                                                                         | Integration Configuration        |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

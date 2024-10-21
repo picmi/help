@@ -3,7 +3,7 @@
 The hiring elements make the application process in PICMI that is designed to be simple and structured, guiding people through details from the organisation and the job through the workflow to the contract. Personal overrides provide flexibility to accommodate unique circumstances, ensuring that the application process is legal, fair and inclusive for everyone.
 
 
-<box>
+<explanation>
 
 ```
 Organisation
@@ -31,7 +31,7 @@ he workflow consists of various steps that the person goes through to apply for 
 ## Contract
 Once the person has successfully navigated through the workflow and met all the requirements, they will be presented with a contract. This document outlines the terms of employment, including responsibilities, salary, and other important details. The contract also allows for **dynamically added details** from the organisation, job, workflow answers as well as personal overrides.
 
-</box>
+</explanation>
 
 <prompt>
 

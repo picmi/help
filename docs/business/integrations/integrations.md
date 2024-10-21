@@ -4,7 +4,7 @@ Integration enable PICMI to automatically send employee records to various exter
 entry and ensuring consistency across all platforms. This helps keep employee information current for payroll, tax, and
 compliance purposes.
 
-<box>
+<explanation>
 
 ### How It Works
 
@@ -18,7 +18,7 @@ compliance purposes.
 3. **External System Receives the Data**: The external system receives the data as employee information and updates its
    records accordingly, making it ready for payroll processing and other administrative tasks.
 
-</box>
+</explanation>
 
 ## Available integrations
 
@@ -68,7 +68,7 @@ Each only differ by configuration
 
 <p></p>
 
-<box>
+<explanation>
 
 ### General setup process
 
@@ -88,7 +88,7 @@ Each only differ by configuration
 6. **Verify in the Integration**:
     - Log into the other system and confirm that the data from PICMI was received correctly.
 
-</box>
+</explanation>
 
 ## Different Ways to Authorise PICMI to Transfer Data
 

@@ -33,11 +33,11 @@
 | **RSE worker**                         | Whether the employee is part of the RSE (Recognised Seasonal Employer) scheme | RSE, Non-RSE                                                                                                                                                                                                                     |                           |
 | **RSE visa grant date (DD/MM/YYYY)**   | Date the employee's RSE visa was granted                                      |                                                                                                                                                                                                                                  |                           |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

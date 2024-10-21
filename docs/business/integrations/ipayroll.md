@@ -33,11 +33,11 @@
 | **Job title**                                           | Title of the individual’s position.                              |                                                       | Job                       |
 | **Pay rate**                                            | Rate of pay for the individual.                                  |                                                       | Job                       |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

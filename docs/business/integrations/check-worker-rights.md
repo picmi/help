@@ -10,11 +10,11 @@
 | **ID**            | Unique external identifier for the employee                                    |                                         | Integration Configuration |
 | **Send email**    | Prevent issuing the initial request email—reminder emails will still be issued | Default: off                            | Integration Configuration |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

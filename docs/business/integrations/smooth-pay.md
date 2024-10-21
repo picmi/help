@@ -31,11 +31,11 @@
 | **Town**             | The town or region of the employee's address                    |                                                                                                  | Personal Information      |
 | **Wage type**        | Type of wage payment for the employee                           | waged [default], variable salary, fixed salary, net salary (NZ only)                             | Integration Configuration |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

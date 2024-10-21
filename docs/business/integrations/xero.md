@@ -48,11 +48,11 @@ If you notice any discrepancies between PICMI and Xero:
   address. To handle this, PICMI will automatically create the user using a [sub-alias email](../faqs#emails) of the
   original email **adding the month and year** (eg `hone.smith+08-2024@example.com`)
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

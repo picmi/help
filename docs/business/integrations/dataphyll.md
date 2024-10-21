@@ -12,11 +12,11 @@
 | **Email address**  | Employee's email address           | Must have an entry if account type is provided and it is something other than Staff | Personal Information      |
 | **Phone number**   | Employee's phone number            | 15 digits with single spaces (no +)                                                 | Personal Information      |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

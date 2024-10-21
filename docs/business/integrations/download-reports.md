@@ -8,7 +8,7 @@ When data is shared with other systems via CSV, this is generally still called a
 event". Inside each event are data is "record" made up of "fields" which are the values that are shared. Each field will
 have different data and there are rules around that data that may mean it succeeds or fails.
 
-<box>
+<explanation>
 
 ### General integration rules
 
@@ -28,7 +28,7 @@ Reissued applications will need to return to **accepted** before downloading
 
 </prompt>
 
-</box>
+</explanation>
 
 
 <instructions>

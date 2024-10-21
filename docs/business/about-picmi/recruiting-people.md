@@ -10,7 +10,7 @@
 
 PICMI improves both by breaking the process into distinct stages and allowing small, independent improvements at each step. Choose how and when to engage, interview and onboard. And more importantly, at the heart of success and efficiency is to put the worker back in control to encourage engagement with and understanding from them. This requires the business to really clarify their criteria for suitability. The challenge is to take away unnecessary barriers to individuals being issued employment agreements immediately if they meet all the required criteria.
 
-<box>
+<explanation>
 
 ## Recruiting Pipeline
 PICMI views recruiting people as three primary phases before they are onsite: _Attract_, _Hire_, and _Onboard_. PICMI focuses on streamlining the hiring step and how it works with adjacent steps. It helps businesses of all types, whether they rely on in-house generalists, specialists, or contractors, to streamline the entire recruiting pipeline from attracting candidates to ensuring they are onboarded and ready to work onsite effectively.
@@ -21,9 +21,9 @@ In this phase, the focus is on screening and signing up people for your workforc
 ### Onboard
 This is the phase where the workforce's data is integrated into your business systems. Common problems include errors in data entry, poor communication, and inadequate training, which can lead to confusion and unprepared workers. System setup delays and cultural disconnects can also hinder successful onboarding. Although PICMI does not handle the onboarding process itself, it ensures that all necessary data for new hires is entered into relevant systems such as payroll and HR platforms. This ensures a smoother induction experience by eliminating potential data errors or system delays as people transition into being onsite and ready to work.
 
-</box>
+</explanation>
 
-<box>
+<explanation>
 
 ## People lifecycle
 The people's lifecycle is central to managing a workforce. Both the business and individuals evaluate each other throughout the process to determine if they align and agree to move forward. Below are the six key parts of the people lifecycle.
@@ -40,4 +40,4 @@ Agreement centres on finalising the contract and formalising all terms between t
 ### Induct
 Once agreements are in place, induction helps individuals transition into their roles by providing necessary training, setting up logistics such as transportation, and ensuring cultural and workplace integration is smooth.
 
-</box>
+</explanation>

@@ -8,7 +8,7 @@ event". Inside each event are data is "record" made up of "fields" which are the
 have different data and there are rules around that data that may mean it succeeds or fails.
 
 
-<box>
+<explanation>
 
 ## General integration rules
 
@@ -20,7 +20,7 @@ time and keep the two systems synchronised.
 * do not update existing records
 * updates to records must be done manually in the system itself with a person authorised to make the changes
 
-</box>
+</explanation>
 
 <instructions>
 

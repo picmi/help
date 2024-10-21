@@ -8,7 +8,7 @@ Before you send out an invitation ensure that the job and application workflow i
 
 </prompt>
 
-<box>
+<explanation>
 
 ## General process
 
@@ -32,7 +32,7 @@ People **without** an email can be added as a [provisional user](provisional-use
 
 </prompt>
 
-</box>
+</explanation>
 
 <instructions>
 

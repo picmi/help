@@ -27,11 +27,11 @@
 | **Emergency contact**       | Name of the employee's emergency contact.             |                                         | Questions                        |
 | **Emergency contact phone** | Phone number of the employee's emergency contact.     |                                         | Questions                        |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>

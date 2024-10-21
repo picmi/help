@@ -33,11 +33,11 @@
 | **Email pay slips**                               | Preference for receiving payslips via email.                                     | Email payslip to provided email address                | Integration Configuration |
 | **Payment cycle**                                 | Cycle for payment processing.                                                    | API + No Pay Cycle, No PayCycle                        | Integration Configuration |
 
-<box>
+<explanation>
 
 ### General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-</box>
+</explanation>
