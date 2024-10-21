@@ -64,7 +64,7 @@ watch(() => props.expandAll, (newVal) => {
 })
 </script>
 
-<style scoped>
+<style>
 .faq-item {
   margin-bottom: 1rem;
   border: 1px solid #ddd;
@@ -110,6 +110,10 @@ watch(() => props.expandAll, (newVal) => {
   margin-top: 1rem;
   padding-top: 0.5rem;
   border-top: 1px solid #eee;
+}
+
+.faq-answer ul, .faq-answer ol {
+  padding: 0 2.5rem;
 }
 
 .toggle-icon {

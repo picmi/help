@@ -52,6 +52,39 @@ PICMI can provide access with a provisional user. see [invites](article/inviting
 
 ## Invites
 
+<faq question="Can I invite a jobseeker to a job if they already have an invite to a job?" :expandAll="expandAll">
+
+If the jobseeker has already accepted the invite to a job, you cannot invite them again as they have already accepted the application.  see [application statuses](about-picmi/applications.md#application-status)
+
+To remedy this:
+
+* You can only invite them to a new job that they have not already accepted
+
+<prompt>
+
+Once a jobseeker accepts an application, that invite is no longer available for changes.
+
+</prompt>
+
+</faq>
+
+<faq question="I invited a jobseeker to two jobs, but one job is now closed. What should I do next?" :expandAll="expandAll">
+
+You need to change the status of the application from _invited_ to _cancelled_. see [application statuses](about-picmi/applications.md#application-status)
+
+To remedy this:
+
+* Add a [status message](article/status-message) when updating the application: "Job closed" 
+* [Update](article/changing-application-status) the application status accordingly
+
+<prompt>
+
+Once a job is closed, it's important to clearly mark the status to prevent confusion. see [job statuses](article/jobs-status)
+
+</prompt>
+
+</faq>
+
 <faq question="What can I do when the invite bounced as no such user?" :expandAll="expandAll">
    No email address found is usually because there is a typo in the email address. 
 

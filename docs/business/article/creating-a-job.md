@@ -2,7 +2,7 @@
 
 Creating a job requires a base set of information so that people know what can be expected.
 
-## Job Fields
+## Job fields
 
 | **Field**                          | **Description**                                                                                                        |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -21,7 +21,9 @@ Creating a job requires a base set of information so that people know what can b
 | **Job end date**                   | Date the job is expected to finish                                                                                     |
 | **Job summary/additional details** | Description about other information around the job start/stop or conditions                                            |
 
-## Application Information
+Also see [job status](jobs-status)
+
+## Application information
 
 In the case of an individual changes for a specific jobseeker application on a job.
 See [creating individual employment conditions](creating-individual-employment-conditions) for specific fields that can
