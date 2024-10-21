@@ -2,6 +2,7 @@
 
 ## Jobs
 - [Create job](article/creating-a-job)
+- [Understanding job status](article/jobs-status.md)
 - [Duplicate a job](article/duplicate-a-job)
 - [Preview a job](article/previewing-a-job)
 - [Prepare a job ready to publish](article/preparing-a-job-ready-publish)
