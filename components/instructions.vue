@@ -6,7 +6,7 @@
 
 <style lang="scss">
 
-.ui-instructions-box {
+.ui-instruction-box {
   margin: 48px 0 16px;
   border: 1px solid #ddd;
   padding: 1em;
