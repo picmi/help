@@ -24,14 +24,17 @@
     font-size: 1.2em;
   }
 
+
   ol {
     list-style: decimal;
-    padding-left: 1.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
   }
 
   ol li {
     margin: 0.5em 0;
   }
+
 }
 
 </style>

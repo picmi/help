@@ -64,6 +64,7 @@ blockquote.prompt {
   }
 
   &__content {
+    padding-right: 24px;
     > p {
       line-height: 24px;
     }

@@ -1,11 +1,11 @@
 <template>
-  <div class="instruction-box">
+  <div class="explanation">
     <slot></slot>
   </div>
 </template>
 
 <style lang="scss">
-.instruction-box {
+.explanation {
   display: block;
   width: 90%;
   margin: 2em;
@@ -16,6 +16,10 @@
   h2 {
     margin: unset;
     border-top: none;
+  }
+
+  > ul, > ol {
+    padding-right: 1.25rem;
   }
 }
 
