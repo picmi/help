@@ -16,8 +16,14 @@ export function sidebarBusiness() {
             text: 'Jobs',
             collapsed: false,
             items: [
-                { text: 'Create', link: '/business/article/creating-a-job' },
-                { text: 'Status', link: '/business/article/job-status' },
+                {
+                    text: 'Create',
+                    link: '/business/article/creating-a-job',
+                    collapsed: false,
+                    items: [
+                         { text: 'Status', link: '/business/article/job-status' },
+                         { text: 'Job application controls', link: '/business/article/job-application-controls' },
+                    ] },
                 { text: 'Duplicate', link: '/business/article/duplicate-a-job' },
                 { text: 'Preview', link: '/business/article/previewing-a-job' },
                 { text: 'Publish', link: '/business/article/preparing-a-job-ready-publish' },

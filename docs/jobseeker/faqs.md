@@ -28,6 +28,10 @@
   If you're having trouble logging in, first make sure you're using the correct email. We recommend that you use passwordless to login and this will send a code to your email address that you can use to login
 </faq>
 
+<faq question="What should I do if I can't log into my account?" :expandAll="expandAll">
+  If you're having trouble logging in, first make sure you're using the correct email. We recommend that you use passwordless to login and this will send a code to your email address that you can use to login
+</faq>
+
 <script setup lang="ts">
 import { ref } from 'vue';
 

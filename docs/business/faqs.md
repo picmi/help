@@ -79,7 +79,7 @@ To remedy this:
 
 <prompt>
 
-Once a job is closed, it's important to clearly mark the status to prevent confusion. see [job statuses](article/jobs-status)
+Once a job is closed, it's important to clearly mark the status to prevent confusion. see [job statuses](article/job-status)
 
 </prompt>
 
@@ -139,6 +139,21 @@ An application cannot be moved to another email address—this is helpful to det
 2. **in progress** and has not completed all the fields in the application
 3. **in progress** and the contract page reports an error
 4. in **offered** status but is unable to proceed to accept
+
+</faq>
+
+<faq question="What should I do when a individual applying reports they cannot sign and only have the option to Cancel or Refresh?" :expandAll="expandAll">
+
+This usually happens when the job has [**no vacancies**](about-picmi/applications.md#restrictions-on-actions). You can see this as a business user or as an individual applying.
+
+* As a business user, check the job itself
+* As a jobseeker, they can see it on the top-left of the workflow or in the list view
+
+<prompt>
+
+Change your vacancies by the number of people you expect
+
+</prompt>
 
 </faq>
 

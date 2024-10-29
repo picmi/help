@@ -4,7 +4,7 @@ Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a
 
 <prompt>
 
-Before you send out an invitation ensure that the job and application workflow is all correct
+Before you send out an invitation ensure that the job and application workflow is all correct and that there are enough [vacancies](../about-picmi/applications.md#restrictions-on-actions)
 
 </prompt>
 

@@ -21,7 +21,10 @@ Creating a job requires a base set of information so that people know what can b
 | **Job end date**                   | Date the job is expected to finish                                                                                     |
 | **Job summary/additional details** | Description about other information around the job start/stop or conditions                                            |
 
-Also see [job status](jobs-status)
+Also see [job status](job-status)
+Also see [job status](job-status)
+
+
 
 ## Application information
 

@@ -8,7 +8,7 @@ The hiring elements make the application process in PICMI that is designed to be
 ```
 Organisation
     ↓
-   Job
+   Job  + personal overrides
     ↓
   Workflow
     ↓
