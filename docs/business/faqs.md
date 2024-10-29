@@ -111,6 +111,7 @@ There are various errors that may be reported:
 * `The email account that you tried to reach does not exist`
 * `Recipient not found`
 * `Account or domain may not exist, they may be blacklisted`
+* `The recipient's inbox is out of storage space`
 
 To remedy this:
 
