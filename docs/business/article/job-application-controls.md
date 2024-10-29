@@ -34,7 +34,7 @@ Back in the jobs list you can also [view **job bucket** settings](#view-job-buck
 
 The status of the job bucket is viewable per job row in the Job view.
 
-1. Go to **Job**.
+1. Go to **Job**
 2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
 3. Locate **Job Bucket** section
 4. Select the columns to view (also via clear or none)

@@ -21,10 +21,17 @@ Creating a job requires a base set of information so that people know what can b
 | **Job end date**                   | Date the job is expected to finish                                                                                     |
 | **Job summary/additional details** | Description about other information around the job start/stop or conditions                                            |
 
-Also see [job status](job-status)
-Also see [job status](job-status)
+<prompt>
 
+**See also**
 
+* [job status](job-status)
+* [job application controls](job-application-controls)
+* [preview a job](previewing-a-job)
+
+</prompt>
+
+<explanation>
 
 ## Application information
 
@@ -34,3 +41,28 @@ be set.
 
 A listing can have multiple pay rates so that they can offer higher rates to more experienced people. Having multiple
 rates also requires setting up how this information is displayed. There are two places the pay rates can be displayed.
+
+</explanation>
+
+<instructions>
+
+## Create job
+
+The status of the job is viewable per job row in the Job view.
+
+1. Go to **Job**
+2. Click <span class="mdi mdi-plus">**Create Job**</span>  to start the job builder
+3. Work through the steps on the builder
+   * Use **Next** and **Back** to navigate (**Exit** to stop)
+   * Enter the field details as you go
+4. Click **Done** when finished
+
+The job will be added to the list
+
+<prompt>
+
+Often it is best to [duplicate a job](duplicate-a-job.md) rather than start new particularly because it copies across [integrations](../integrations/integrations.md)
+
+</prompt>
+
+</instructions>
