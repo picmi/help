@@ -75,6 +75,7 @@ watch(() => props.expandAll, (newVal) => {
 
 .faq-item h3 {
   margin-top: unset;
+  margin-right: .5rem;
 }
 
 .faq-question {
@@ -93,7 +94,7 @@ watch(() => props.expandAll, (newVal) => {
 .faq-anchor {
   position: absolute;
   margin-left: -0.87em;
-  text-decoration: none;
+  text-decoration: none !important;
   color: #888;
   font-size: 1.2rem;
   font-weight: 500;
