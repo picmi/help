@@ -133,12 +133,13 @@ An application cannot be moved to another email address—this is helpful to det
 </faq>
 
 <faq question="What should I do if a person reports they can't complete an application?" :expandAll="expandAll">
-   Check the <b>application status</b> in the <b>People</b> page and then determine if the person is:
+   Check the <b>application status</b> in the <b>People</b> page and then determine if the person is (and confirm that they also see this):
 
-1. not able to **apply** because of the sign in problems
-2. **in progress** and has not completed all the fields in the application
-3. **in progress** and the contract page reports an error
-4. in **offered** status but is unable to proceed to accept
+1. not able to **apply** because of the sign in problems (see [user account](about-picmi/users.md))
+1. not able to **apply** (or **proceed to accept**) because [job application controls](article/job-application-controls)
+2. **in progress** and has not completed all the fields in the application (see [check job configuration](article/checking-application-configuration))
+3. **in progress** and the contract page reports an error (also see [check job configuration](article/checking-application-configuration))
+4. in **offered** status but is unable to proceed to accept (contact PICMI)
 
 </faq>
 
@@ -146,8 +147,8 @@ An application cannot be moved to another email address—this is helpful to det
 
 This usually happens when the job has [**no vacancies**](about-picmi/applications.md#restrictions-on-actions). You can see this as a business user or as an individual applying.
 
-* As a business user, check the job itself
-* As a jobseeker, they can see it on the top-left of the workflow or in the list view
+* As a business user, check the [job application controls](article/job-application-controls)
+* As a jobseeker, they can see positions available on the top-left of the workflow or in the list view
 
 <prompt>
 
