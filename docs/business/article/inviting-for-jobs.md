@@ -60,3 +60,8 @@ Avoid typing an email address by using import or copy-and-paste to ensure that y
 </prompt>
 
 </instructions>
+
+## FAQs
+
+see [Email FAQs](../faqs#emails)
+see [Invites FAQs](../faqs.md#invites)

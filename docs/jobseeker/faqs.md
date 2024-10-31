@@ -32,6 +32,12 @@
   If you're having trouble logging in, first make sure you're using the correct email. We recommend that you use passwordless to login and this will send a code to your email address that you can use to login
 </faq>
 
+<faq question="I can't find emails from PICMI, what to do?">
+
+Rarely is the email NOT delivered, but it isn't always to your inbox because we send emails from a service provider rather than from a person. See [finding emails](../email-not-found)
+
+</faq>
+
 <script setup lang="ts">
 import { ref } from 'vue';
 

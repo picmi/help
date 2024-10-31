@@ -50,6 +50,12 @@ PICMI can provide access with a provisional user. see [invites](article/inviting
 
 </faq>
 
+<faq question="I can't find emails from PICMI, what to do?">
+
+Rarely is the email NOT delivered, but it isn't always to your inbox because we send emails from a service provider rather than from a person. See [finding emails](../email-not-found)
+
+</faq>
+
 ## Invites
 
 <faq question="Can I invite a jobseeker to a job if they already have an invite to a job?" :expandAll="expandAll">
@@ -124,6 +130,27 @@ To remedy this:
 An application cannot be moved to another email address—this is helpful to detect ongoing errors
 
 </prompt>
+
+</faq>
+
+<faq question="What should do when the person I have invited doesn't receive an email?">
+
+The main problem is that emails do get filtered in JUNK folders and are hard to find. Sending them again won't help the person
+find their email. We don't recommend to cancel and then reissue as it does not help. See [finding emails](../email-not-found) for instructions
+
+
+<prompt>
+
+[Bounced emails are NOT delivered](#what-can-i-do-when-the-invite-has-delivery-status-notification-failure) but are notified and should be cancelled
+
+</prompt>
+
+</faq>
+
+
+<faq question="Are there restrictions on emails that can be used when sending invites?">
+
+PICMI puts no restrictions on the email addresses used
 
 </faq>
 
