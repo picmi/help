@@ -35,7 +35,7 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 { text: 'Change status', link: '/business/article/changing-application-status' },
-                { text: 'Bulk change status', link: '/business/article/bulk-change-status' },
+                { text: 'Bulk change status', link: '/business/article/bulk-status-change' },
                 { text: 'Invites', link: '/business/article/inviting-for-jobs' },
                 { text: 'Provisional user', link: '/business/article/provisional-user' },
                 {
