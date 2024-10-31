@@ -11,7 +11,8 @@
 - [Prepare a job ready to publish](article/preparing-a-job-ready-publish)
 
 ## People Applications
-- [Changing applications status](article/changing-application-status)
+- [Changing application status](article/changing-application-status)
+- [Bulk applications status change](article/bulk-status-change)
 - [Job application controls](article/job-application-controls)
 - [Invites for jobs](article/inviting-for-jobs)
 - [Provisional users for jobs](article/provisional-user)

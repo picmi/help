@@ -21,9 +21,10 @@ export function sidebarBusiness() {
                     link: '/business/article/creating-a-job',
                     collapsed: false,
                     items: [
-                         { text: 'Status', link: '/business/article/job-status' },
-                         { text: 'Job application controls', link: '/business/article/job-application-controls' },
-                    ] },
+                        { text: 'Status', link: '/business/article/job-status' },
+                        { text: 'Job application controls', link: '/business/article/job-application-controls' },
+                    ]
+                },
                 { text: 'Duplicate', link: '/business/article/duplicate-a-job' },
                 { text: 'Preview', link: '/business/article/previewing-a-job' },
                 { text: 'Publish', link: '/business/article/preparing-a-job-ready-publish' },
@@ -34,6 +35,7 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 { text: 'Change status', link: '/business/article/changing-application-status' },
+                { text: 'Bulk change status', link: '/business/article/bulk-change-status' },
                 { text: 'Invites', link: '/business/article/inviting-for-jobs' },
                 { text: 'Provisional user', link: '/business/article/provisional-user' },
                 {
