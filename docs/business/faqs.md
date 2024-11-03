@@ -209,6 +209,13 @@ a business fix using the steps in [checking application configuration](article/c
 
 </faq>
 
+
+<faq question="Jobseeker (or business user) reports the error 'Business cannot apply for a job', what to do?">
+
+See [Error: Business user cannot apply for a job](article/business-user-cannot-apply-for-job.md)
+
+</faq>
+
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">

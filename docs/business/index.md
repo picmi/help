@@ -32,3 +32,4 @@
 ## Troubleshooting
 - [Update old information](article/update-old-information)
 * [Finding emails](../email-not-found)
+* [Jobseeker Error: Business user cannot apply for a job](article/business-user-cannot-apply-for-job.md)

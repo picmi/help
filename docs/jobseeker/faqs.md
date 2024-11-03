@@ -38,6 +38,13 @@ Rarely is the email NOT delivered, but it isn't always to your inbox because we 
 
 </faq>
 
+
+<faq question="I get the error 'Business cannot apply for a job', what to do?">
+
+See [Error: Business user cannot apply for a job](article/business-user-cannot-apply-for-job.md)
+
+</faq>
+
 <script setup lang="ts">
 import { ref } from 'vue';
 
