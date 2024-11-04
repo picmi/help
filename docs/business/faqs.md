@@ -165,7 +165,7 @@ The person invited can email you back because the `reply-to` in the email itself
 
 <faq question="The individual emailed back after an invitation explaining, can I hold the position? What should I do?">
 
-Given you want to keep them, [add a status message](article/status-message.md) to their application so that you can track it.
+Given you want to keep them, [change a status message](article/status-message#change-status-message-on-application) to their application so that you can track it.
 
 <prompt>
 
