@@ -1,6 +1,6 @@
 # Preparing a job ready to publish
 
-All jobs must have a valid configuration for a person to complete an application that includes, send an invite as well as recieve an offer or agree on their application. Below explains why there is more than just the fields on the job to consider in most cases that is part of [previewing a listing](previewing-a-job). By checking a configuration on a job, you can identify and resolve any issues that may prevent a jobseeker from completing an application.
+All jobs must have a valid configuration for a person to complete an application that includes, send an invite as well as receive an offer or agree on their application. Below explains why there is more than just the fields on the job to consider in most cases that is part of [previewing a listing](previewing-a-job). By checking a configuration on a job, you can identify and resolve any issues that may prevent a jobseeker from completing an application.
 
 <prompt>
 
