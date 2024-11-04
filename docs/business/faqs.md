@@ -154,6 +154,28 @@ PICMI puts no restrictions on the email addresses used
 
 </faq>
 
+
+
+<faq question="The individual emailed back after an invitation explaining, how did they get the email address?">
+
+The person invited can email you back because the `reply-to` in the email itself is set to the email address of your organisation
+
+</faq>
+
+
+<faq question="The individual emailed back after an invitation explaining, can I hold the position? What should I do?">
+
+Given you want to keep them, [add a status message](article/status-message.md) to their application so that you can track it.
+
+<prompt>
+
+You are unable to reserve a position for a specific application. If there is a restriction on positions, then if all positions are filled
+add one to the maximum in [job application controls](article/job-application-controls). Alternatively, reduce the number by one until the person is ready to apply.
+
+</prompt>
+
+</faq>
+
 ## Applications
 
 <faq question="How do I view and manage applications?" :expandAll="expandAll">
