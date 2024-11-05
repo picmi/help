@@ -250,6 +250,21 @@ If you want to maintain the original contract then **reopen** back to accepted (
 </prompt>
 </faq>
 
+<faq question="I have a person who has accepted but will require changes to be made, what so I do?">
+
+Some details need to be updated then **reissue** back to in-progress and request the changes as part of the status message.
+
+This happens often because people don't always have all the information at hand and find ways to get to agree. They just
+about always let you know and this is easily sorted later on.
+
+<prompt>
+
+* [How to change a status](https://help.picmi.io/business/article/changing-application-status.html)
+* [What changes can be made?](https://help.picmi.io/business/about-picmi/applications.html#business-actions)
+
+</prompt>
+</faq>
+
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">

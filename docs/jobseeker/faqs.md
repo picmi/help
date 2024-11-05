@@ -22,6 +22,24 @@
   Yes, you can apply to as many jobs as you want. Each job includes detailed information about the employer and position to help you decide which opportunities to pursue. But if you already have contract with one employer, ensure that jobs aren't overlapping or in conflict with each other.
 </faq>
 
+<faq question="My link has expired but I have already started/completed an application, what do I do?">
+
+You can still **sign in passwordless** with the same email address. [Sign in](https://jobs.picmi.io/#/signin) and you will taken to your list of applications.
+
+<prompt>
+
+If you use the same browser as last time, you will still be signed in when you go to [PICMI](https://jobs.picmi.io)
+
+</prompt>
+
+</faq>
+
+<faq question="My link has expired and I have never used it, what do I do?">
+
+You can **sign in passwordless** with the same email address. [Sign in](https://jobs.picmi.io/#/signin) to see your list of applications.
+
+</faq>
+
 ## Troubleshooting
 
 <faq question="What should I do if I can't log into my account?" :expandAll="expandAll">
