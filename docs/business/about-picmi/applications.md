@@ -11,11 +11,17 @@ Once all the criteria are met, an _offer_ is made. This offer needs to be agreed
 and
 the final acceptance, there is an _agree_ stage to allow for a legally required cooling-off period.
 
-Each application at its particular status has **status message**. A status message in PICMI provides additional information about the current stage of an application, helping both the business and the person applying to understand its progress. It keeps the business informed with extra details and can be included in **notifications** sent to individuals, ensuring clear communication about what is happening and what to expect next in the application process. [Learn more about status messages](../article/status-message)
+Each application at its particular status has **status message**. A status message in PICMI provides additional
+information about the current stage of an application, helping both the business and the person applying to understand
+its progress. It keeps the business informed with extra details and can be included in **notifications** sent to
+individuals, ensuring clear communication about what is happening and what to expect next in the application
+process. [Learn more about status messages](../article/status-message)
 
 <prompt>
 
-An application in PICMI has a **status** that shows its current stage. The status can be changed with an **action**, and each status can include a **status message** with more details. When the status changes, some updates also trigger **notifications** to keep everyone informed. See below for restrictions on some actions for jobseeker restrictions.
+An application in PICMI has a **status** that shows its current stage. The status can be changed with an **action**, and
+each status can include a **status message** with more details. When the status changes, some updates also trigger *
+*notifications** to keep everyone informed. See below for restrictions on some actions for jobseeker restrictions.
 
 </prompt>
 
@@ -51,8 +57,8 @@ specific messages added per person
 | In Progress             | The person is actively working on the application.                         | *Reissue*, *Cancel*                | Business can reissue the application (to send out a notification to the person again) or cancel it, moving to the cancelled application status. |
 | Offered                 | An offer has been extended to the person and is in the cooling-off period. | *Cancel*                           | Business can cancel the offer, transitioning to the cancelled offer status.                                                                     |
 | Accepted                | The person has accepted the offer .                                        | *Terminate*, *Complete*, *Reissue* | Business can terminate the application, complete the process, or reissue it to the in-progress status.                                          |
-| Completed               | The **contract** itself has been completed for the job.                    | *Reissue*, *Reopen*                | Business can reissue the application or reopen it to the accepted status.                                                                       |
-| Terminated              | The **contract** has been terminated for the job.                          | *Reissue*, *Reopen*                | Business can reissue the application or reopen it to the accepted status.                                                                       |
+| Completed               | The **contract** itself has been completed for the job.                    | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status.                                                                       |
+| Terminated              | The **contract** has been terminated for the job.                          | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the in-progress status.                                                   |
 | Cancelled (Invite)      | The invitation has been cancelled by the business.                         | *Reopen*                           | Business can reopen the cancelled invitation to transition back to the invited status.                                                          |
 | Cancelled (Application) | The application has been cancelled by the business.                        | *Reopen*                           | Business can reopen the cancelled application to transition back to the in-progress status.                                                     |
 
@@ -70,9 +76,10 @@ specific messages added per person
 
 ## Restrictions on actions
 
-Some jobseeker actions are restricted based on **Job settings**. Without restrictions, anyone with a link to a job can **apply**. See [job application controls](../article/job-application-controls)
+Some jobseeker actions are restricted based on **Job settings**. Without restrictions, anyone with a link to a job can *
+*apply**. See [job application controls](../article/job-application-controls)
 
-| **Setting**  | **Description**                                                                                                                                                                                                                                                                                                                    |
-|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Invites only | Individuals can only **apply** for a job that is linked to a person who has been invited through the PICMI system                                                                                                                                                                                                                  |
+| **Setting**  | **Description**                                                                                                                                                                                                                                                                          |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Invites only | Individuals can only **apply** for a job that is linked to a person who has been invited through the PICMI system                                                                                                                                                                        |
 | Vacancies    | The maximum number of people who have an **accepted** application for a job. When the number has been reached applications can no longer be **offered**. The calcuation is that offered, accepted and completed all count towards the total vacancies. Cancelled and terminated are not. |

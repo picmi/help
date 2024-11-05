@@ -186,10 +186,10 @@ add one to the maximum in [job application controls](article/job-application-con
    Check the <b>application status</b> in the <b>People</b> page and then determine if the person is (and confirm that they also see this):
 
 1. not able to **apply** because of the sign in problems (see [user account](about-picmi/users.md))
-1. not able to **apply** (or **proceed to accept**) because [job application controls](article/job-application-controls)
-2. **in progress** and has not completed all the fields in the application (see [check job configuration](article/checking-application-configuration))
-3. **in progress** and the contract page reports an error (also see [check job configuration](article/checking-application-configuration))
-4. in **offered** status but is unable to proceed to accept (contact PICMI)
+2. not able to **apply** (or **proceed to accept**) because [job application controls](article/job-application-controls)
+3. **in progress** and has not completed all the fields in the application (see [check job configuration](article/checking-application-configuration))
+4. **in progress** and the contract page reports an error (also see [check job configuration](article/checking-application-configuration))
+5. in **offered** status but is unable to proceed to accept (contact PICMI)
 
 </faq>
 
@@ -236,6 +236,18 @@ a business fix using the steps in [checking application configuration](article/c
 
 See [Error: Business user cannot apply for a job](article/business-user-cannot-apply-for-job.md)
 
+</faq>
+
+<faq question="I have a person who I terminated their contract who said they were unavailable to work, but now they are available and wish to work. Should I reissue their contract or reopen it?">
+
+If you want to maintain the original contract then **reopen** back to accepted (and add a status message of the reason). If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status message.
+
+<prompt>
+
+[How to change a status](https://help.picmi.io/business/article/changing-application-status.html)
+[What changes can be made?](https://help.picmi.io/business/about-picmi/applications.html#business-actions)
+
+</prompt>
 </faq>
 
 ## Integrations
