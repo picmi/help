@@ -244,8 +244,8 @@ If you want to maintain the original contract then **reopen** back to accepted (
 
 <prompt>
 
-[How to change a status](https://help.picmi.io/business/article/changing-application-status.html)
-[What changes can be made?](https://help.picmi.io/business/about-picmi/applications.html#business-actions)
+* [How to change a status](https://help.picmi.io/business/article/changing-application-status.html)
+* [What changes can be made?](https://help.picmi.io/business/about-picmi/applications.html#business-actions)
 
 </prompt>
 </faq>
