@@ -250,7 +250,7 @@ If you want to maintain the original contract then **reopen** back to accepted (
 </prompt>
 </faq>
 
-<faq question="I have a person who has accepted but will require changes to be made, what so I do?">
+<faq question="I have a person who has accepted but will require changes to be made, what do I do?">
 
 Some details need to be updated then **reissue** back to in-progress and request the changes as part of the status message. At the point of reissue the person will also receive a notification with a link back to the application.
 
@@ -270,6 +270,7 @@ about always let you know and this is easily sorted later on.
 This is change to the terms and the application must be reissued, the dates of the job changed in personal overrides and then re-agreed.
 
 <explanation>
+### Steps
 
 1. [Reissue the application](article/changing-application-status.md) and [add a status message](article/status-message.md) that dates have been changed and for them review (eg Please review new dates)
 2. [Personalise the job conditions](article/creating-individual-employment-conditions.md) (as needed)
@@ -285,6 +286,7 @@ The person on the application will be notified so ensure the date changes are do
 </explanation>
 
 </faq>
+
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">

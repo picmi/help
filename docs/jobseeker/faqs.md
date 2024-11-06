@@ -12,6 +12,23 @@
   Our straight-through hiring process allows you to receive a legally binding employment agreement instantly if you meet all the predefined criteria set by the employer.
 </faq>
 
+<faq question="I have accepted but am I really hired? What should I do next?" :expandAll="expandAll">
+  Yes, your job position is confirmed and you are hired. Your employer will be in contact with you about next steps by email or phone.
+</faq>
+
+<faq question="How do I get access to my employment agreement (contract) and job details?" :expandAll="expandAll">
+
+All the details from the application process are available to you are any time. You need remember the **email address** you used and have access to your email inbox to receive codes to sign in. Once signed in, the information is available—you'll see your list of applications.
+
+Use [this link](https://jobs.picmi.io/#/signin) to continue.
+
+<prompt>
+    
+If you use the same browser as last time, you will remain signed in until you sign out
+
+</prompt>
+</faq>
+
 ## Platform Usage
 
 <faq question="How do I sign up for PICMI?" :expandAll="expandAll">
@@ -42,12 +59,12 @@ You can **sign in passwordless** with the same email address. [Sign in](https://
 
 ## Troubleshooting
 
-<faq question="What should I do if I can't log into my account?" :expandAll="expandAll">
-  If you're having trouble logging in, first make sure you're using the correct email. We recommend that you use passwordless to login and this will send a code to your email address that you can use to login
+<faq question="What should I do if I can't sign in to my account?" :expandAll="expandAll">
+  If you're having trouble signing in, first make sure you're using the correct email. We recommend that you use passwordless to sign in and this will send a code to your email address that you can use to sign in
 </faq>
 
-<faq question="What should I do if I can't log into my account?" :expandAll="expandAll">
-  If you're having trouble logging in, first make sure you're using the correct email. We recommend that you use passwordless to login and this will send a code to your email address that you can use to login
+<faq question="What should I do if I can't sign in to my account?" :expandAll="expandAll">
+  If you're having trouble signing in, first make sure you're using the correct email. We recommend that you use passwordless to sign in and this will send a code to your email address that you can use to sign in
 </faq>
 
 <faq question="I can't find emails from PICMI, what to do?">
