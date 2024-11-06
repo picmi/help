@@ -265,6 +265,26 @@ about always let you know and this is easily sorted later on.
 </prompt>
 </faq>
 
+<faq question="How can I change the dates of a job on an accepted application?">
+
+This is change to the terms and the application must be reissued, the dates of the job changed in personal overrides and then re-agreed.
+
+<explanation>
+
+1. [Reissue the application](article/changing-application-status.md) and [add a status message](article/status-message.md) that dates have been changed and for them review (eg Please review new dates)
+2. [Personalise the job conditions](article/creating-individual-employment-conditions.md) (as needed)
+   * Job starts on
+   * Job ends on
+
+<prompt>
+
+The person on the application will be notified so ensure the date changes are done immediately
+
+</prompt>
+
+</explanation>
+
+</faq>
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">

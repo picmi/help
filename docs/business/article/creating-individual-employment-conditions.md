@@ -34,12 +34,12 @@ instead of the base values. This includes:
 
 <instructions>
 
-## Change field overrides
+## Change personal conditions
 
 1. Go to **People**.
 2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>.
 3. Click &vellip; (vertical dots) to open the menu.
-4. Select **Edit application overrides**.
+4. Select **Personal job conditions**.
 5. Move through the [fields](#fields-that-can-be-overridden) and update values as needed.
 4. Click **Save** when you're done.
 
