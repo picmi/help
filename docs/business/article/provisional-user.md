@@ -1,10 +1,12 @@
 # Adding provisional users
 
+Create provisional users when a person has **no email address currently available**. Provisional users are created with an application ready to apply for a specific job.  
+
 Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a-job.md)), it should be straight forward to add a person who does not have an email for a job. 
 
 <prompt>
 
-Only create provisional users when a person has **no email address currently available**. As a business you should help people set up an email account as quickly as possible.
+As a business you should help people set up an email account as quickly as possible.
 
 </prompt>
 
@@ -36,17 +38,18 @@ Provisional users have specific access details to log into PICMI and don't use a
 
 ## Add a provisional user
 
-This is the simplest way to add a single person.
+This is the simplest way to add a single user for a person.
 
 1. Go to **Jobs**
 2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
 3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
-4. Select **Create Provisional User**
-5. Optionally, **access code entry** type can be added now (or later)
-   * **Access code** expires in days
-   * **Short name** to be typed in a sign in
-6. Click **Create** when you are ready
-7. Click **Show Provisioner Users** to return to **People**, a new person will have been added and will be **Invited**
+4. Select **Create with provisional user**
+5. Optionally, choose your approach (from the menu top-right)
+   * QR code (choose the number of users to create)
+   * Access code (enter the name as a code and expires in days)
+6. Click **Add to list** when you are ready
+7. Click **Add user** to create the new applications with provisional users for access
+8. Return to **People**, a new person will have been added and will be **Invited**
 
 <prompt>
 
@@ -65,14 +68,22 @@ You need to have prepared a list in either **Google Sheets**, **Excel** or **CSV
 1. Go to **Jobs**
 2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
 3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
-4. Select **Create Provisional User**
-5. Click **Import**
-6. **Paste from your clipboard** the details with Name and (optionally) an expiry (otherwise it allows for 90 days)
+4. Select **Create with provisional user**
+5. Click &vellip; (vertical dots) to open the menu
+6. Locate the **Import bulk access codes** section
+7. Choose from the application spreadsheet
+   * Google
+   * Excel
+   * Numbers
+   * Csv
+6. Update **Set default expiry in days** (optionally it different from 90 days)
+6. **Paste from your clipboard** the details with Name and (optionally) an expiry (otherwise it will default to the set value)
+7. Clipboard values will now be showing in a table
 7. Select and edit (or delete) any rows
    * Name
    * Days from now expiry
-8. Click **Create** when you are done
-9. Click **Show Provisioner Users** to return to **People**, a new person will have been added and will be **Invited**
+7. Click **Add user** to create the new applications with provisional users for access
+8. Return to **People**, a new person will have been added and will be **Invited**
 
 
 <prompt>
