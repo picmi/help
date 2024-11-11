@@ -1,5 +1,10 @@
 # Integration Configuration integration overview
 
+The Employee Import Utility from MYOB will only read information from data files provided in a CSV (comma-separated-values)
+format. The format may be either in a quotation delimited format or required quotes may be inserted during the import.
+PICMI generates the report files programmatically using the "Titled Columns" without double quotes including the "Required" fields
+and other user fields. All data is validated prior to export to any known rules as listed below.
+
 ## PICMI-Integration Configuration integration fields
 
 Here’s the integration fields table created from your CSV data, following the specified formatting and guidelines:
