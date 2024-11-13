@@ -17,7 +17,7 @@
 </faq>
 
 <faq question="Who do I contact for technical support?" :expandAll="expandAll">
-  For technical issues, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>
+  For technical issues, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>
 </faq>
 
 <faq question="How do I force refresh my view?" :expandAll="expandAll">
@@ -290,7 +290,7 @@ The person on the application will be notified so ensure the date changes are do
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">
-  PICMI currently has over a dozen integrations available. At this stage, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
+  PICMI currently has over a dozen integrations available. At this stage, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
 </faq>
 
 <faq question="How can I update an existing record in an integration system?" :expandAll="expandAll">
@@ -315,7 +315,27 @@ This can be done at any time.
 
 </faq>
 
-### Troubleshooting
+## Billing
+
+<faq question="What should I do if I mistakenly send an application to the wrong person and they accept it?" :expandAll="expandAll">
+
+You will need to cancel the application and talk to us. See [handling mistaken application invitations](about-picmi/billing.md#handling-mistaken-application-invitations)
+
+</faq>
+
+<faq question="What should I do if I mistakenly send an application to the wrong person, am I charged?" :expandAll="expandAll">
+
+Yes, if you do nothing. But you can contact us through [billing support](about-picmi/billing.md#billing-support) and we can ensure you get a credit for the application. See [resolving mistaken applications](about-picmi/billing.md#resolving-mistaken-applications)
+
+</faq>
+
+<faq question="I don't think I should be charged, what should I do?" :expandAll="expandAll">
+
+First [check our guidelines](about-picmi/billing.md#per-contract-fee) that you have a different situation and then contact us through [billing support](about-picmi/billing.md#billing-support)
+
+</faq>
+
+## Troubleshooting
 
 There are faults that occur in integrations (downstream systems). Remember that integrations can only occur after an
 accepted application.
@@ -358,7 +378,7 @@ To confirm this is a problem:
 
 **Note:** At this stage, please reach out to our support team via
 the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
-to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
+to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
 
 </faq>
 
@@ -371,7 +391,7 @@ To diagnose this:
 
 **Note:** At this stage, please reach out to our support team via
 the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
-to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
+to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
 
 </faq>
 
@@ -392,7 +412,7 @@ To diagnose this:
   a [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) once more to
   check that it is a **persistent error**. Please reach out to our support team
   via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
-  to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a> for support
+  to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> for support
 
 <prompt>
 

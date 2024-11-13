@@ -6,10 +6,11 @@ export function sidebarBusiness() {
             collapsed: true,
             items: [
                 { text: 'Recruiting people', link: '/business/about-picmi/recruiting-people' },
-                { text: 'Create account', link: '/business/article/creating-an-account' },
+                { text: 'Creating an account', link: '/business/article/creating-an-account' },
                 { text: 'Understanding users', link: '/business/about-picmi/users' },
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
                 { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },
+                { text: 'Understanding billing', link: '/business/about-picmi/billing' },
             ]
         },
         {
