@@ -11,6 +11,11 @@ export function sidebarBusiness() {
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
                 { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },
                 { text: 'Understanding billing', link: '/business/about-picmi/billing' },
+                {
+                    text: 'Understanding using PICMI', collapsed: false, items: [
+                        { text: 'Search filters', link: '/business/article/search' },
+                    ]
+                }
             ]
         },
         {

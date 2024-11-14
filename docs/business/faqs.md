@@ -182,6 +182,12 @@ add one to the maximum in [job application controls](article/job-application-con
   Once you've posted a job, you can manage applications by navigating to the <b>People</b> page. Here, you'll be able to review peoples' applications.
 </faq>
 
+<faq question="I can't find an application that I'm sure exists, what happened?" :expandAll="expandAll">
+
+It is likely that the [search filter](article/search.md) has the wrong status included. Change your [search criteria in People](article/searching-for-people.md)
+
+</faq>
+
 <faq question="What should I do if a person reports they can't complete an application?" :expandAll="expandAll">
    Check the <b>application status</b> in the <b>People</b> page and then determine if the person is (and confirm that they also see this):
 
