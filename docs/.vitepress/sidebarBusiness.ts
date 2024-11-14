@@ -60,6 +60,10 @@ export function sidebarBusiness() {
                     text: 'Status messages',
                     link: '/business/article/status-message'
                 },
+                 {
+                    text: 'Search for applications',
+                    link: '/business/article/searching-for-people'
+                },
             ],
         },
         {
