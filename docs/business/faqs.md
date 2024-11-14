@@ -293,6 +293,35 @@ The person on the application will be notified so ensure the date changes are do
 
 </faq>
 
+<faq question="I want to send out an application and am still negotiating pay rates (e.g., salary), what to do?">
+
+PICMI allows sending invites for the person to start the application, but the person should not agree to the application until you both agree on the terms. Once you've both agreed on the rate, and if it differs from the rate specified for the job, add the new rate into the personal overrides. The person can then proceed to accept.
+
+Why start the application? The application provides more understanding to the person including the terms in the contract. Some people want to see the contract as much as negotiating their rates.
+
+<explanation>
+
+### Steps
+
+1. Set up the job and invite the person.
+2. The person can fill in the application but should not agree.
+3. Complete your negotiations with the person.
+4. Add personal overrides to the application for individual employment conditions.
+5. Let the person know to review the updated rates on the job, then proceed to agree.
+
+<prompt>
+
+If they agree, follow the same process after a reissue.
+
+</prompt>
+
+</explanation>
+
+</faq>
+
+
+This structure should make it easy for business users to follow each step and understand the overall process.
+
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">
