@@ -319,8 +319,11 @@ If they agree, follow the same process after a reissue.
 
 </faq>
 
+<faq question="How can I change the date format when exporting application details?">
 
-This structure should make it easy for business users to follow each step and understand the overall process.
+Change the [default date format](article/export.md#set-as-default-date-format-for-all-dates) to apply to all dates
+
+</faq>
 
 ## Integrations
 
