@@ -2,7 +2,7 @@
 
 These instructions refer to all integrations in which [data is sent via CSV](integrations.md#available-integrations).
 
-PICMI provides CSV files via **Reports**.
+PICMI provides CSV files via **Reports**. There is also [export applications details](../article/export) to create your own ad hoc extracts.
 
 When data is shared with other systems via CSV, this is generally still called an "integration". Each time data is downloaded this is called an "integration
 event". Inside each event are data is "record" made up of "fields" which are the values that are shared. Each field will

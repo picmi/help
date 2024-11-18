@@ -14,6 +14,7 @@ export function sidebarBusiness() {
                 {
                     text: 'Understanding using PICMI', collapsed: false, items: [
                         { text: 'Search filters', link: '/business/article/search' },
+                        { text: 'Dates', link: '/business/about-picmi/dates' },
                     ]
                 }
             ]
@@ -63,6 +64,10 @@ export function sidebarBusiness() {
                  {
                     text: 'Search for applications',
                     link: '/business/article/searching-for-people'
+                },
+                 {
+                    text: 'Export application details',
+                    link: '/business/article/export'
                 },
             ],
         },

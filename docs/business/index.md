@@ -23,6 +23,7 @@
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
 - [Checking application configuration](article/checking-application-configuration)
 - [Add status message](article/status-message)
+- [Export application details](article/export.md)
 
 ## Integrations
 
