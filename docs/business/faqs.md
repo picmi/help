@@ -214,12 +214,11 @@ Change your vacancies by the number of people you expect
 
 </faq>
 
-<faq question="There are no vacancies left, what should I do?" :expandAll="expandAll">
+<faq question="There are 'No Vacancies', what should I do?" :expandAll="expandAll">
 
-This usually happens when the job has [**no vacancies**](about-picmi/applications.md#restrictions-on-actions). You can see this as a business user in **Jobs** in the [**Remaining** column](article/job-application-controls.md#view-job-bucket-settings)
+This usually happens when the job has '[**No positions left**](about-picmi/applications.md#restrictions-on-actions)'. You can see this as a business user in **Jobs** in the [**Remaining**](article/job-application-controls.md#view-job-bucket-settings) column
 
 If you want to increase the number of positions in the job bucket, increase the [Maximum number of people](article/job-application-controls.md#application-controls) setting in the job
-
 
 </faq>
 
