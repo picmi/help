@@ -50,7 +50,7 @@ rates also requires setting up how this information is displayed. There are two 
 
 The status of the job is viewable per job row in the Job view.
 
-1. Go to **Job**
+1. Go to**Jobs**
 2. Click <span class="mdi mdi-plus">**Create Job**</span>  to start the job builder
 3. Work through the steps on the builder
    * Use **Next** and **Back** to navigate (**Exit** to stop)

@@ -58,7 +58,7 @@ Back in the jobs list the status is always available and you can also [view **jo
 
 The status of the job is viewable per job row in the Job view.
 
-1. Go to **Job**
+1. Go to**Jobs**
 2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
 3. Locate **Job Bucket** section
 4. Select the columns to view (also via clear or none)

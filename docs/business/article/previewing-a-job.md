@@ -17,7 +17,7 @@ Use the preview pane to ensure values are as expected.
 
 <prompt>
 
-The **Edit** pane is also available from **People** view in each row when showing the **Job**
+The **Edit** pane is also available from **People** view in each row when showing the**Jobs**
 
 </prompt>
 
