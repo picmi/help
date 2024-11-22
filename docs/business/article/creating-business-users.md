@@ -24,7 +24,7 @@ The person will be added to the organisation and notified in their email inbox
 
 <prompt>
 
-All users have the same access
+All users have the same access and get notified on an accepted application
 
 </prompt>
 
