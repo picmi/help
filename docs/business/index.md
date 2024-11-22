@@ -34,6 +34,7 @@
 ## Your account
 
 - [Create account](article/creating-an-account)
+- [Add and remove business users](article/creating-business-users)
 
 ## Troubleshooting
 

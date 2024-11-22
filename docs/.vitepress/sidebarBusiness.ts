@@ -161,5 +161,15 @@ export function sidebarBusiness() {
                 { text: 'Download reports', link: '/business/integrations/download-reports' },
             ],
         },
+        {
+            text: 'Users',
+            collapsed: true,
+            items: [
+                {
+                    text: 'Add or remove',
+                    link: '/business/article/creating-business-users',
+                },
+            ],
+        },
     ]
 }
