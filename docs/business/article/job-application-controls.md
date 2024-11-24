@@ -46,9 +46,39 @@ The status of the job bucket is viewable per job row in the Job view.
 2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
 3. Locate **Job Bucket** section
 4. Select the columns to view (also via clear or none)
-    * Remaining
-    * Vacancies
-    * Invites only
+   * Remaining
+   * Vacancies
+   * Invites only
+5. Click **Save** when you're done
+6. The columns will now show in the table for all entries
+7. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
+
+<prompt>
+
+Remaining will show **No positions left** when the maximum number of people is reached
+
+</prompt>
+
+</instructions>
+
+<instructions>
+
+## View job funnel settings
+
+The count of [application status](../about-picmi/applications.md#application-status) of the job funnel is viewable per job row in the Job view.
+
+1. Go to**Jobs**
+2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+3. Locate **Job Funnel** section
+4. Select the columns to view (also via clear or none)
+   * Invited
+   * In Progress
+   * Offered
+   * Accepted
+   * Completed
+   * Terminated
+   * Declined (job seeker)
+   * Cancelled
 5. Click **Save** when you're done
 6. The columns will now show in the table for all entries
 7. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
