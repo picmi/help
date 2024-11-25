@@ -12,19 +12,21 @@ Before you send out an invitation ensure that the job and application workflow i
 
 ## General process
 
-* select the people you want to have an invite to a job
+* use the <span class="mdi mdi-help-circle-outline">Help Tour Guide</span> to learn about the major functions
+* know the people you want to receive an invite to a job
 * only people **with an email** can receive an invite digitally (ie by email)
-* add a personal message to the email (include reusing existing ones)
+* can search for existing people who have been previously invited on other jobs 
+* add a personal message to the email (include reusing existing messages from other people)
 * only after an invite has been generated (or provisional user created), can [personal overrides](creating-individual-employment-conditions) be added to the application for individual employment conditions
-* you can send more than one email at a time
 * the outgoing email can be previewed
-* search for people who already exist
-* import multiple email records through the clipboard (as well as download templates for each) from
+* you can send more than one email at a time
+* you can import multiple email records through the clipboard (as well as download templates for each) from
   * Email application contacts list 
   * Google Sheets
   * CSV
   * Numbers
   * Excel 
+* PICMI provides downloadable templates to be used in the spreadsheet applications
 
 <prompt>
 
@@ -34,28 +36,115 @@ People **without** an email can be added as a [provisional user](provisional-use
 
 </explanation>
 
+## Send invites
+
 <instructions>
 
-## Send invites
+## Send single invite
 
 This is the simplest way to send a single email.
 
 1. Go to **Jobs**
 2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
 3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
-4. Select **Send Invites**
+4. Select **Send Invite**
 5. Click **Invite**
-6. Add Email address 
-7. Optionally more can be added
-   * Name
-   * Personal Message
-8. When you are ready, click **Send**
+6. Add
+    * Email (avoid spaces either side)
+    * Name (optional)
+7. Optionally a personal message can be added
+    * Click **Add Personal Message**
+    * Enter a message to be included in invite (note: existing messages can be reused from **Show Existing**)
+8. Click <span class="mdi mdi-account-eye-outline">Preview Email Invite</span> at anytime to view the email that will be sent 
+9. When you are ready, click **Send**
 
 Back in the list you can watch the process of the email being sent
 
 <prompt>
 
 Avoid typing an email address by using import or copy-and-paste to ensure that you don't introduce unnecessary errors—bounced email addresses will be notified and the application should be cancelled
+
+</prompt>
+
+</instructions>
+
+<instructions>
+
+## Send bulk invites from spreadsheet application
+
+You can always bring in a set of emails from your spreadsheet application. Create this information in the [import template format](#download-import-template) that you have downloaded.
+
+1. Go to **Jobs**
+2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
+3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+4. Select **Send Invite**
+5. Locate <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+6. Locate the **Bulk** section
+6. Select one of the import options
+   * Google Sheets
+   * Excel
+   * Numbers
+   * CSV Spreadsheet
+5. In your spreadsheet, select the import emails into your clipboard
+6. Right-click, **Paste** to enter the clipboard into the field
+7. The emails will be validated and entered into the list on the screen
+8. When you are ready, click **Send**
+
+In this list, you can edit and remove emails, as well as preview the email
+
+<prompt>
+
+When importing from CSV, order of **Email** first is important before **Name**
+
+</prompt>
+
+</instructions>
+
+<instructions>
+
+## Send bulk invites from mail application
+
+You can always bring in a set of emails from you mail client that has the email addreses. No import template is required just select the emails from the application contact list.
+
+1. Go to **Jobs**
+2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
+3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+4. Select **Send Invite**
+5. Locate <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+6. Locate the **Bulk** section
+6. Select the import option **Email application**
+5. In your mail application, select the import emails into your clipboard
+6. Right-click, **Paste** to enter the clipboard into the field
+7. The emails will be validated and entered into the list on the screen
+8. Now add **Personal Messages** to any of the rows
+8. When you are ready, click **Send**
+
+In this list, you can edit and remove emails, as well as preview the email
+
+</instructions>
+
+<instructions>
+
+## Download import template
+
+Adding multiple email, names and messages in a spreadsheet is usually quicker and easier! Download a CSV file or copy to clipboard to bring into your spreadsheet application
+
+1. Go to **Jobs**
+2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
+3. Click <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+4. Select **Send Invite**
+5. Locate <span class="mdi mdi-dots-vertical"/> (vertical dots) More to open menu
+6. Select **Download import template**
+7. Select the format you want:
+   * Download to file (saves as per your browser preference)
+   * Copy to clipboard
+
+Now open your spreadsheet application with either the file or copy and paste from clipboard and then file in the fields
+ready to import
+
+<prompt>
+
+Important template has three fields: **Email, Name, Message** (order is important!)
 
 </prompt>
 
