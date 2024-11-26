@@ -6,6 +6,7 @@ export function sidebarJobseeker() {
             items: [
                 { text: 'FAQs', link: '/jobseeker/faqs' },
                 { text: 'Create account', link: '/jobseeker/article/creating-an-account' },
+                { text: 'Adding a photo', link: '/jobseeker/article/adding-a-photo' },
             ]
         },
     ]

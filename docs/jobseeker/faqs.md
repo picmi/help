@@ -29,6 +29,14 @@ If you use the same browser as last time, you will remain signed in until you si
 </prompt>
 </faq>
 
+## Application 
+
+<faq question="I have been asked to provide better photos, what to do?" :expandAll="expandAll">
+
+You may need to take [clearer photos](article/adding-a-photo.md#guidelines-for-taking-photos-of-photo-ids-with-your-phone) or [just crop them differently](article/adding-a-photo.md#crop-your-photo).
+
+</faq>
+
 ## Platform Usage
 
 <faq question="How do I sign up for PICMI?" :expandAll="expandAll">

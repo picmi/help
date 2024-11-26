@@ -1,5 +1,7 @@
 ## [FAQS](faqs)
 
+* [Adding a photo](article/adding-a-photo)
+
 ## Troubleshooting
 
 * [Update old information](article/update-old-information)
