@@ -327,6 +327,33 @@ If they agree, follow the same process after a reissue.
 
 </faq>
 
+<faq question="The photos need to be improved, what to do?">
+
+It happens that photo aren't good enough and/or poorly cropped. There is [information here for jobseekers](../jobseeker/article/adding-a-photo.md#adding-a-new-photo) that they need to follow after you reissue the application for them to make updates to their photos.
+
+<explanation>
+
+### Steps
+
+1. Find the [application](article/job-application-controls.md)
+2. **Reissue** with [status message](article/status-message.md#add-new-status-message):
+   <br> Use this message and add more if needed (copy and paste) 
+
+```
+Please improve your photos. For further information use the help where photos are added or visit: https://help.picmi.io/jobseeker/article/adding-a-photo.html
+``` 
+3. Wait for the person to update and accept application
+
+<prompt>
+
+There is no charge for this process [see billing](about-picmi/billing.md)
+
+</prompt>
+
+</explanation>
+
+</faq>
+
 <faq question="How can I change the date format when exporting application details?">
 
 Change the [default date format](article/export.md#set-as-default-date-format-for-all-dates) to apply to all dates
