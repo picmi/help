@@ -25,6 +25,10 @@
 - [Add status message](article/status-message)
 - [Export application details](article/export.md)
 
+## Workflows
+
+- [Linked files](workflows/linked-files)
+
 ## Integrations
 
 - [Available integrations](integrations/integrations)

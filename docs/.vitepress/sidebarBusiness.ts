@@ -61,14 +61,21 @@ export function sidebarBusiness() {
                     text: 'Status messages',
                     link: '/business/article/status-message'
                 },
-                 {
+                {
                     text: 'Search for applications',
                     link: '/business/article/searching-for-people'
                 },
-                 {
+                {
                     text: 'Export application details',
                     link: '/business/article/export'
                 },
+            ],
+        },
+        {
+            text: 'Workflows',
+            collapsed: false,
+            items: [
+                { text: 'Linked files', link: '/business/workflows/linked-files' },
             ],
         },
         {
