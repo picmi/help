@@ -1,6 +1,27 @@
+/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
 :root {
     --vp-c-brand-1: #42b883;
     --vp-c-brand-2: #747bff;
 
     --vp-font-family-base: 'Lato', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/*
+ * Integration field tables have anchor cells in the first column
+ */
+
+/* Selects the first cell in a table row that contains an <a> tag with an href attribute */
+tr td:first-child a[href] {
+    font-weight: bold; /* Makes the text bold */
+    text-decoration: none; /* Removes underline */
+    position: relative; /* Needed for the hover effect */
+    color: black;
+}
+
+/* Adds a '#' character to the left of the <a> tag when hovering */
+tr td:first-child a[href]:hover::before {
+    content: '#'; /* Adds the '#' character */
+    position: absolute; /* Positions it relative to the <a> tag */
+    left: -12px; /* Adjusts the position to the left */
+    color: var(--vp-c-brand-1);
 }
