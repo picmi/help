@@ -90,7 +90,7 @@ support@payhero.co.nz?subject=PICMI API access&body=Please provide me with the P
 
 <faq question="I have the error Invalid API key, what should I do?">
 
-You need to ensure that you have a PICMI partner API access key. You may used your private Access Key that is self-service from the PayHero application. <a href="mailto:
+You need to ensure that you have a PICMI partner API access key. You may use your private Access Key that is self-service from the PayHero application. <a href="mailto:
 support@payhero.co.nz?subject=PICMI API access&body=Please provide me with the PICMI partner API access key">Email PayHero support for an api access key</a> (click the link to open an email template in your mail client)
 
 </faq>
