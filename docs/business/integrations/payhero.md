@@ -35,6 +35,21 @@
 
 ## API Key Management for PayHero Integration
 
+To create an employee in PayHero requires a PICMI partner API access key
+
+### Request a PICMI partner API access key
+
+The key can only be received by email from an email request to PayHero Support. Click <a href="mailto:
+support@payhero.co.nz?subject=PICMI  partner API access key&body=Please provide me with the PICMI partner API access key to be used for my organisation">this link</a> to open an email template in your mail client.
+
+> **To:** <a href="mailto:
+    support@payhero.co.nz?subject=PICMI  partner API access key&body=Please provide me with the PICMI partner API access key to be used for my organisation">support@payhero.co.nz</a><br/>
+> **Subject:** PICMI  partner API access key<br/>
+> **Body** Please provide me with the PICMI partner API access key to be used for my organisation
+
+
+<explanation>
+
 ### Who is doing what
 
 | **Actor**           | **Description**                                                                        |
@@ -65,6 +80,7 @@ email
 
 </prompt>
 
+</explanation>
 
 <explanation>
 
@@ -73,25 +89,40 @@ email
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-<faq question="How long does it take for PayHero to respond with a key?">
+<faq question="How long does it take for PayHero to respond with an API access key?">
 
-It is usually same working day, but get onto it as soon as possible. <a href="mailto:
-support@payhero.co.nz?subject=PICMI API access&body=Please provide me with the PICMI partner API access key">Email PayHero support for an api access key</a> (click the link to open an email template in your mail client)
+It is usually same working day, but get onto it as soon as possible.
 
-</faq>
+<prompt>
 
-<faq question="Where is the PICMI api key in the application?">
+See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
 
-It is not available for self-service and must be provided from PayHero support. <a href="mailto:
-support@payhero.co.nz?subject=PICMI API access&body=Please provide me with the PICMI partner API access key">Email PayHero support for an api access key</a> (click the link to open an email template in your mail client)
+</prompt>
 
 </faq>
 
+<faq question="Where is the PICMI partner API access key in the application?">
 
-<faq question="I have the error Invalid API key, what should I do?">
+It is not available for self-service and must be provided from PayHero support. 
 
-You need to ensure that you have a PICMI partner API access key. You may use your private Access Key that is self-service from the PayHero application. <a href="mailto:
-support@payhero.co.nz?subject=PICMI API access&body=Please provide me with the PICMI partner API access key">Email PayHero support for an api access key</a> (click the link to open an email template in your mail client)
+<prompt>
+
+See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
+
+</prompt>
+
+</faq>
+
+
+<faq question="I have the error 'Invalid API key', what should I do?">
+
+You need to ensure that you have a PICMI partner API access key. You may be using your private API access key that is self-service from the PayHero application. 
+
+<prompt>
+
+See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
+
+</prompt>
 
 </faq>
 
