@@ -33,11 +33,67 @@
 | [Email pay slips](#email-pay-slips)                                                           | Preference for receiving payslips via email.                                     | Email payslip to provided email address                | Integration Configuration |
 | [Payment cycle](#payment-cycle)                                                               | Cycle for payment processing.                                                    | API + No Pay Cycle, No PayCycle                        | Integration Configuration |
 
+## API Key Management for PayHero Integration
+
+### Who is doing what
+
+| **Actor**           | **Description**                                                                        |
+|---------------------|----------------------------------------------------------------------------------------|
+| **Shared Customer** | Business using both PICMI and PayHero.                                                 |
+| **PICMI**           | Integration partner facilitating the connection between shared customer and PayHero.   |
+| **PayHero Team**    | Owner of the API infrastructure, responsible for generating partner-specific API keys. |
+
+<prompt>
+
+The customer can have their own private API keys to act for themselves and provide partner keys to third-party
+like PICMI
+
+</prompt>
+
+### Responsibilities
+
+| **Actor**           | **Responsibilities**                                                                                                                                                           |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Shared Customer** | Notify PayHero that they are using PICMI as their integration partner and request a PICMI-specific API key from the PayHero team to ensure compatibility with the integration. |
+| **PICMI**           | Use the PICMI-specific API key for each request to ensure both the customer and PayHero know the request is from PICMI.                                                        |
+| **PayHero Team**    | Generate PICMI-specific API keys upon request for shared customers, ensuring they are added to the PICMI integration for verification.                                         |
+
+<prompt>
+
+The **partner API key** for PICMI is **not viewable** to the customer through the PayHero application but is provided via
+email
+
+</prompt>
+
+
 <explanation>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
+
+<faq question="How long does it take for PayHero to respond with a key?">
+
+It is usually same working day, but get onto it as soon as possible. <a href="mailto:
+support@payhero.co.nz?subject=PICMI API access&body=Please provide me with the PICMI partner API access key">Email PayHero support for an api access key</a> (click the link to open an email template in your mail client)
+
+</faq>
+
+<faq question="Where is the PICMI api key in the application?">
+
+It is not available for self-service and must be provided from PayHero support. <a href="mailto:
+support@payhero.co.nz?subject=PICMI API access&body=Please provide me with the PICMI partner API access key">Email PayHero support for an api access key</a> (click the link to open an email template in your mail client)
+
+</faq>
+
+
+<faq question="I have the error Invalid API key, what should I do?">
+
+You need to ensure that you have a PICMI partner API access key. You may used your private Access Key that is self-service from the PayHero application. <a href="mailto:
+support@payhero.co.nz?subject=PICMI API access&body=Please provide me with the PICMI partner API access key">Email PayHero support for an api access key</a> (click the link to open an email template in your mail client)
+
+</faq>
+
 
 </explanation>
