@@ -76,6 +76,16 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 { text: 'Linked files', link: '/business/workflows/linked-files' },
+                {
+                    text: 'Work status', items: [
+                        { text: 'Question options', link: '/business/workflows/questions-work-status' },
+                        { text: 'Right to work', link: '/business/workflows/right-to-work' },
+                        {
+                            text: 'Storing biometric data from documents',
+                            link: '/business/workflows/storing-biometric-data'
+                        },
+                    ]
+                },
             ],
         },
         {

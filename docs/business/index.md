@@ -28,6 +28,9 @@
 ## Workflows
 
 - [Linked files](workflows/linked-files)
+- [Work status questions](workflows/questions-work-status.md)
+  - [Right to work](workflows/right-to-work)
+  - [Storing biometric data](workflows/storing-biometric-data)
 
 ## Integrations
 
