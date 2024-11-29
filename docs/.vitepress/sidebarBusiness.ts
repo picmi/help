@@ -99,8 +99,8 @@ export function sidebarBusiness() {
                         {
                             text: "API", collapsed: true, items: [
                                 {
-                                    text: 'CheckWorkerRights',
-                                    link: '/business/integrations/check-worker-rights'
+                                    text: 'CheckWorkRights',
+                                    link: '/business/integrations/check-work-rights'
                                 },
 
                                 {

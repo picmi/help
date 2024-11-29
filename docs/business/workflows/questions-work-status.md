@@ -7,7 +7,7 @@ requirements, and the desired level of automation.
 ## **Third-party system as integration** (Australia only)
 
 - **Description**: PICMI integrates with third-party systems
-  like [CheckWorkerRights](../integrations/check-worker-rights.md) to automate work eligibility checks.
+  like [CheckWorkRights](../integrations/check-work-rights) to automate work eligibility checks.
 - **How it works**:
     - PICMI sends data to the integrated system to verify work eligibility in real-time.
     - Confirmation of eligibility is returned and stored outside PICMI for compliance records.
@@ -20,10 +20,10 @@ requirements, and the desired level of automation.
 
 ### Question design: your work status
 
-| **Question**                                                    | **Options** | **Instructions**                                                                                                                                                                                                                                                            |
-|-----------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| I have the legal right to work in Australia                     | Agree       | As part of employment law, we must confirm that you are either an Australian citizen or a visa holder with the right to work in Australia.                                                                                                                                  |
-| I agree to have my work status confirmed with CheckWorkerRights | Agree       | After this application is accepted, and prior to starting work, you are required to confirm your status. You will be contacted via email from CheckWorkerRights. This tool requires your proof of documentation and verifies against VEVO, the official government website. |
+| **Question**                                                  | **Options** | **Instructions**                                                                                                                                                                                                                                                          |
+|---------------------------------------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| I have the legal right to work in Australia                   | Agree       | As part of employment law, we must confirm that you are either an Australian citizen or a visa holder with the right to work in Australia.                                                                                                                                |
+| I agree to have my work status confirmed with CheckWorkRights | Agree       | After this application is accepted, and prior to starting work, you are required to confirm your status. You will be contacted via email from CheckWorkRights. This tool requires your proof of documentation and verifies against VEVO, the official government website. |
 
 </explanation>
 

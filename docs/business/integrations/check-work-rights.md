@@ -1,9 +1,9 @@
-# CheckWorkerRights integration overview
+# CheckWorkRights integration overview
 
-By setting up PICMI’s integration with [CheckWorkerRights](https://checkworkrights.com.au) correctly, businesses can ensure smooth, compliant hiring processes with
+By setting up PICMI’s integration with [CheckWorkRights](https://checkworkrights.com.au) correctly, businesses can ensure smooth, compliant hiring processes with
 minimal administrative burden for checking worker rights (in Australia).
 
-## PICMI-CheckWorkerRights integration fields
+## PICMI-CheckWorkRights integration fields
 
 | Field Name                                      | Description                                                                    | Validation/Constraint/Default Value | Source                    |
 |-------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------|---------------------------|
@@ -15,20 +15,20 @@ minimal administrative burden for checking worker rights (in Australia).
 
 <explanation>
 
-## How PICMI works with CheckWorkerRights
+## How PICMI works with CheckWorkRights
 
-**PICMI** integrates with CheckWorkerRights to simplify work eligibility checks as part of your hiring process. Here's how:
+**PICMI** integrates with CheckWorkRights to simplify work eligibility checks as part of your hiring process. Here's how:
 
 ## Integration options
 
-- **Manual integration**: For businesses verifying only visa holders, CheckWorkerRights integration in PICMI can be configured to
+- **Manual integration**: For businesses verifying only visa holders, CheckWorkRights integration in PICMI can be configured to
   require manual checks.
 - **Automatic integration**: When verifying both citizens and visa holders, PICMI can automatically send accepted
-  applications to CheckWorkerRights for processing.
+  applications to CheckWorkRights for processing.
 
 <prompt>
 
-PICMI recommends automatic integrations when using CheckWorkerRights but [billing](#how-checkworkerrights-CheckWorkerRights-works-around-billing) may affect your decision
+PICMI recommends automatic integrations when using CheckWorkRights but [billing](#how-checkworkerrights-CheckWorkRights-works-around-billing) may affect your decision
 
 </prompt>
 
@@ -40,8 +40,8 @@ hiring decisions and compliance checks remain distinct but aligned.
 ## Audit and compliance benefits
 
 - Since auditing and identity verification often overlap but serve different purposes, a single, streamlined process
-  through CheckWorkerRights simplifies operations.
-- Even for citizens, performing a one-time eligibility check through CheckWorkerRights provides significant compliance benefits for a
+  through CheckWorkRights simplifies operations.
+- Even for citizens, performing a one-time eligibility check through CheckWorkRights provides significant compliance benefits for a
   minimal fee.
 
 ## Best practices for work eligibility management
@@ -54,15 +54,15 @@ To ensure robust compliance, best practice recommends:
   typically require only a one-time check.
 
 
-## Why use CheckWorkerRights for all workers (including citizens)?
+## Why use CheckWorkRights for all workers (including citizens)?
 
 - **Simplifies compliance** by using one consistent process.
 - **Enhances audit readiness** and reduces risk.
 - The cost of adding citizens to the system is minimal, while the compliance improvement is substantial.
 
-## How CheckWorkerRights works around billing
+## How CheckWorkRights works around billing
 
-**CheckWorkerRights** offers flexible billing options based on the type of work eligibility checks performed.
+**CheckWorkRights** offers flexible billing options based on the type of work eligibility checks performed.
 Here’s a breakdown of how it works, simplified for easy understanding:
 
 * **Pay-As-You-Go (one-off charge)**: you are charged a one-time fee for a single check (e.g., verifying someone's work

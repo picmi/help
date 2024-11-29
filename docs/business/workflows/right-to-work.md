@@ -65,7 +65,7 @@ and avoid issues around biometric data storage.
 <prompt>
 
 See
-how [PICMI works with  CheckWorkerRights](../integrations/check-worker-rights.md#how-picmi-works-with-checkworkerrights)
+how [PICMI works with CheckWorkRights](../integrations/check-work-rights#how-picmi-works-with-checkworkerrights)
 
 </prompt>
 

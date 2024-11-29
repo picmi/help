@@ -25,7 +25,7 @@ compliance purposes.
 | **System**                               | **Type**          | **API** | **CSV** | **PDF**    |
 |------------------------------------------|-------------------|---------|---------|------------|
 | [AgriSmart](agrismart)                   | All in one        |         | ✓       |            |
-| [CheckWorkerRights](check-worker-rights) | Labour Management | ✓       |         |            |
+| [CheckWorkRights](check-work-rights) | Labour Management | ✓       |         |            |
 | [Crystal](crystal)                       | Payroll           |         | ✓       |            |
 | [Dataphyll](dataphyll)                   | Timesheets        | ✓       |         |            |
 | [EmploymentHero](employment-hero)        | Payroll           | ✓       |         |            |

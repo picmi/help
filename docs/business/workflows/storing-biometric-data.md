@@ -47,7 +47,7 @@ provide streamlined solutions for managing right-to-work compliance while ensuri
 
 Each of these systems provides unique advantages tailored to their respective jurisdictions. For New Zealand employers,
 **VisaView** and **RealMe** offer reliable, government-backed solutions for verifying identity and work rights. In
-Australia, **VEVO** ensures accurate visa checks, while **CheckWorkerRights** goes further by providing ongoing
+Australia, **VEVO** ensures accurate visa checks, while **CheckWorkRights** goes further by providing ongoing
 monitoring and automation, making it an ideal choice for businesses handling a large workforce or managing multiple visa
 holders.
 
@@ -80,9 +80,9 @@ person’s visa conditions and work entitlements.
 - **Compliance support**: Helps employers meet their legal obligations for hiring workers with valid work rights.
 - **Free service**: Accessible at no cost to employers.
 
-### CheckWorkerRights (Australia only)
+### CheckWorkRights (Australia only)
 
-CheckWorkerRights (CWR) is a third-party platform designed to manage ongoing right-to-work compliance for both temporary
+CheckWorkRights (CWR) is a third-party platform designed to manage ongoing right-to-work compliance for both temporary
 and permanent employees and uses other systems amongst them VEVO.
 
 - **Automation**: Offers automatic monitoring of visa expiry dates and changes in work eligibility.
@@ -92,7 +92,7 @@ and permanent employees and uses other systems amongst them VEVO.
 
 <prompt>
 
-See how [PICMI works with  CheckWorkerRights](../integrations/check-worker-rights.md#how-picmi-works-with-checkworkerrights)
+See how [PICMI works with  CheckWorkRights](../integrations/check-work-rights#how-picmi-works-with-checkworkerrights)
 
 </prompt>
 

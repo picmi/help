@@ -1,6 +1,6 @@
-# CheckWorkerRights integration overview
+# Agrismart integration overview
 
-## PICMI-CheckWorkerRights integration fields
+## PICMI-Agrismart integration fields
 
 | **Field Name**                         | **Description**                                                               | **Validation/Constraint/Default Value**                                                                                                                                                                                          | **Source**                |
 |----------------------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
