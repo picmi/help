@@ -1,6 +1,7 @@
 # Workflow questions for work status to manage work status checks
 
-PICMI offers flexibility for managing work status and ensuring compliance with employment regulations. Employers should assess their needs based on the scale of operations, regulatory
+PICMI offers flexibility for managing work status and ensuring compliance with employment regulations. Employers should
+assess their needs based on the scale of operations, regulatory
 requirements, and the desired level of automation.
 
 ## **Third-party system as integration** (Australia only)
@@ -21,8 +22,8 @@ requirements, and the desired level of automation.
 
 | **Question**                                                    | **Options** | **Section heading** | **Instructions**                                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------|-------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| I have the legal right to work in Australia                     | Yes / No    | Your Work Status    | As part of employment law, we must confirm that you are either an Australian citizen or a visa holder with the right to work in Australia.                                                                                                                                  |
-| I agree to have my work status confirmed with CheckWorkerRights | Yes / No    |                     | After this application is accepted, and prior to starting work, you are required to confirm your status. You will be contacted via email from CheckWorkerRights. This tool requires your proof of documentation and verifies against VEVO, the official government website. |
+| I have the legal right to work in Australia                     | Agree       | Your Work Status    | As part of employment law, we must confirm that you are either an Australian citizen or a visa holder with the right to work in Australia.                                                                                                                                  |
+| I agree to have my work status confirmed with CheckWorkerRights | Agree       |                     | After this application is accepted, and prior to starting work, you are required to confirm your status. You will be contacted via email from CheckWorkerRights. This tool requires your proof of documentation and verifies against VEVO, the official government website. |
 
 </explanation>
 
