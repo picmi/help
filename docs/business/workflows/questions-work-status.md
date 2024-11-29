@@ -18,12 +18,12 @@ requirements, and the desired level of automation.
 
 <explanation>
 
-### Question design
+### Question design: your work status
 
-| **Question**                                                    | **Options** | **Section heading** | **Instructions**                                                                                                                                                                                                                                                            |
-|-----------------------------------------------------------------|-------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| I have the legal right to work in Australia                     | Agree       | Your Work Status    | As part of employment law, we must confirm that you are either an Australian citizen or a visa holder with the right to work in Australia.                                                                                                                                  |
-| I agree to have my work status confirmed with CheckWorkerRights | Agree       |                     | After this application is accepted, and prior to starting work, you are required to confirm your status. You will be contacted via email from CheckWorkerRights. This tool requires your proof of documentation and verifies against VEVO, the official government website. |
+| **Question**                                                    | **Options** | **Instructions**                                                                                                                                                                                                                                                            |
+|-----------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| I have the legal right to work in Australia                     | Agree       | As part of employment law, we must confirm that you are either an Australian citizen or a visa holder with the right to work in Australia.                                                                                                                                  |
+| I agree to have my work status confirmed with CheckWorkerRights | Agree       | After this application is accepted, and prior to starting work, you are required to confirm your status. You will be contacted via email from CheckWorkerRights. This tool requires your proof of documentation and verifies against VEVO, the official government website. |
 
 </explanation>
 
@@ -45,11 +45,11 @@ requirements, and the desired level of automation.
 
 ### Question design
 
-| **Question**                              | **Options**                          | **Section heading** | **Instructions**                                                                                                                   |
-|-------------------------------------------|--------------------------------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| What is your work status?                 | List of visa options in jurisdiction | Working Right Visa  | If you answer that you are on a visa above, select the tick and fill in the details. Otherwise, select the cross (not applicable). |
-| If yes, enter your visa’s passport number | Open text field                      |                     |                                                                                                                                    |
-| If yes, enter your visa start date        | Date picker                          |                     |                                                                                                                                    |
-| Photo of your Passport (or ID )           | File upload                          |                     |                                                                                                                                    | 
+| **Question**                              | **Options**                          | **Instructions**                                                                                                                   |
+|-------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| What is your work status?                 | List of visa options in jurisdiction | If you answer that you are on a visa above, select the tick and fill in the details. Otherwise, select the cross (not applicable). |
+| If yes, enter your visa’s passport number | Open text field                      |                                                                                                                                    |
+| If yes, enter your visa start date        | Date picker                          |                                                                                                                                    |
+| Photo of your Passport (or ID )           | File upload                          |                                                                                                                                    | 
 
 </explanation>
