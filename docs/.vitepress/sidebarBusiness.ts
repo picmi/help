@@ -16,7 +16,8 @@ export function sidebarBusiness() {
                         { text: 'Search filters', link: '/business/article/search' },
                         { text: 'Dates', link: '/business/about-picmi/dates' },
                     ]
-                }
+                },
+                { text: 'Understanding notifications', link: '/business/article/notifications' },
             ]
         },
         {

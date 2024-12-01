@@ -1,6 +1,7 @@
 ## [FAQS](faqs)
 
 * [Adding a photo](article/adding-a-photo)
+* [Notifications](article/notifications)
 
 ## Troubleshooting
 
