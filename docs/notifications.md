@@ -1,4 +1,4 @@
-# Notifications in PICMI (Business)
+# Notifications in PICMI
 
 PICMI delivers timely and relevant notifications to enhance your experience. This feature ensures that you stay informed
 about key updates. You are able to turn on/off notifications.
