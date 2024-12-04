@@ -45,7 +45,7 @@ Employers may choose to use [third-party systems](storing-biometric-data#third-p
 
 <prompt>
 
-See how [PICMI works with CheckWorkRights](../integrations/check-work-rights#how-picmi-works-with-checkworkerrights)
+See how [PICMI works with CheckWorkRights](../integrations/check-work-rights#how-picmi-works-with-checkworkrights)
 
 </prompt>
 
