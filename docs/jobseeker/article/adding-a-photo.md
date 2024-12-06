@@ -54,6 +54,24 @@ You can make these changes to your photo to crop the image:
 - **Flip horizontally/vertically**: Flip the photo to show it from the opposite side <span class="mdi mdi-flip-horizontal"/> <span class="mdi mdi-flip-vertical"/>.
 - **Reset** <span class="mdi mdi-close"/> clears the image to start again
 
+<explanation>
+
+
+### Passport
+![](../../img/upload/passport-desktop.png)
+
+---
+
+### Photo ID
+![](../../img/upload/id-desktop.png)
+
+---
+
+### Passport
+![](../../img/upload/document-desktop.png)
+
+</explanation>
+
 ## Biometric Protection
 
 PICMI reduces the quality of your photo just enough so it can still be seen by humans but doesn't show unnecessary details. This protects your privacy while ensuring your photo can still be used for your application. The goal is to balance between showing what is necessary for the application and keeping your personal information safe.
