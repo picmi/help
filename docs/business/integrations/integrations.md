@@ -4,6 +4,15 @@ Integration enable PICMI to automatically send employee records to various exter
 entry and ensuring consistency across all platforms. This helps keep employee information current for payroll, tax, and
 compliance purposes.
 
+<prompt>
+
+There are two main ways:
+
+* directly via an API from [integration events](integration-events.md)
+* import via CSV from [download reports](download-reports.md)
+
+</prompt>
+
 <explanation>
 
 ### How It Works
@@ -22,33 +31,33 @@ compliance purposes.
 
 ## Available integrations
 
-| **System**                               | **Type**          | **API** | **CSV** | **PDF**    |
-|------------------------------------------|-------------------|---------|---------|------------|
-| [AgriSmart](agrismart)                   | All in one        |         | ✓       |            |
-| [CheckWorkRights](check-work-rights) | Labour Management | ✓       |         |            |
-| [Crystal](crystal)                       | Payroll           |         | ✓       |            |
-| [Dataphyll](dataphyll)                   | Timesheets        | ✓       |         |            |
-| [EmploymentHero](employment-hero)        | Payroll           | ✓       |         |            |
-| [Hectre](hectre)                         | Labour Management | ✓       | ✓       |            |
-| Immigration NZ                           | Visa              |         |         | contact us |
-| [iPayroll](ipayroll)                     | Payroll           | ✓       |         |            |
-| [MYOB IMS](myob-ims)                     | Payroll           |         | ✓       |            |
-| [PackManager](packmanager)               | Labour Management |         | ✓       |            |
-| [PayHero](payhero)                       | Payroll           | ✓       |         |            |
-| [PaySauce](paysauce)                     | Payroll           |         | ✓       |            |
-| [Smartly](smartly)                       | Payroll           |         | ✓       |            |
-| [SmoothPay](smooth-pay)                  | Payroll           | ✓       |         |            |
-| [Tātou](tatou)                           | Onsite Management | ✓       |         |            |
-| [Xero](xero)                             | Finance           | ✓       |         |            |
-
+| **System**                           | **Type**          | **API** | **CSV** | **PDF**    |
+|--------------------------------------|-------------------|:-------:|:-------:|------------|
+| [AgriSmart](agrismart)               | All in one        |         |    ✓    |            |
+| [CheckWorkRights](check-work-rights) | Labour Management |    ✓    |         |            |
+| [Crystal](crystal)                   | Payroll           |         |    ✓    |            |
+| [Dataphyll](dataphyll)               | Timesheets        |    ✓    |         |            |
+| [EmploymentHero](employment-hero)    | Payroll           |    ✓    |         |            |
+| [Hectre](hectre)                     | Labour Management |    ✓    |    ✓    |            |
+| Immigration NZ                       | Visa              |         |         | contact us |
+| [iPayroll](ipayroll)                 | Payroll           |    ✓    |         |            |
+| [MYOB IMS](myob-ims)                 | Payroll           |         |    ✓    |            |
+| [PackManager](packmanager)           | Labour Management |         |    ✓    |            |
+| [PayHero](payhero)                   | Payroll           |    ✓    |         |            |
+| [PaySauce](paysauce)                 | Payroll           |         |    ✓    |            |
+| [Smartly](smartly)                   | Payroll           |         |    ✓    |            |
+| [SmoothPay](smooth-pay)              | Payroll           |    ✓    |         |            |
+| [Tātou](tatou)                       | Onsite Management |    ✓    |         |            |
+| [Xero](xero)                         | Finance           |    ✓    |         |            |
 
 <prompt>
 
 **API:** stands for application programming interface and means that data is sent directly between PICMI and the other
-system. This is a machine-to-machine approach
+system. This is a machine-to-machine approach through [integration events](integration-events.md)
 
 **CSV:** stands for comma-separated values type of file and means that data is sent indirectly such that records are
-downloaded to a file and then uploaded into the other system. PICMI call
+downloaded to a file and then uploaded into the other system. Access these
+through [download reports](download-reports.md)
 
 </prompt>
 
