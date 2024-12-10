@@ -37,7 +37,7 @@ Here's the updated table with permanent links for improved navigation and refere
 
 <explanation>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)

@@ -62,9 +62,14 @@ and other user fields. All data is validated prior to export to any known rules 
 | [FVL full entitlement](#fvl-full-entitlement){#fvl-full-entitlement}                            | Full FVL entitlement                               | Default: 10                                                                                |                           |
 | [FVL next entitlement](#fvl-next-entitlement){#fvl-next-entitlement}                            | Next FVL entitlement                               | Default: 10                                                                                |                           |
 | [End](#end){#end}                                                                               | End flag or status                                 | Default: E. Mandatory                                                                      |                           |
+
+## Download Report
+
+* see [reports](download-reports.md)
+
 <explanation>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)

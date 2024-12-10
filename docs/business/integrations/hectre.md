@@ -27,9 +27,13 @@
 | [Sectors](#sectors){#sectors}                            | Employee's sectors of operation                   | Pipe delimited Zero to many allowed                                              | Integration Configuration |
 | [Deactivate](#deactivate){#deactivate}                   | Deactivation status of the employee               | TRUE, FALSE Default: FALSE                                                       | Integration Configuration |
 
+## Download Report
+
+* see [reports](download-reports.md)
+
 <explanation>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)

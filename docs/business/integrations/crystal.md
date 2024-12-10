@@ -27,9 +27,13 @@
 | [Emergency contact](#emergency-contact){#emergency-contact}                   | Name of the employee's emergency contact.             |                                                                                                                     | Questions                        |
 | [Emergency contact phone](#emergency-contact-phone){#emergency-contact-phone} | Phone number of the employee's emergency contact.     |                                                                                                                     | Questions                        |
 
+## Download Report
+
+* see [reports](download-reports.md)
+
 <explanation>
 
-General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)

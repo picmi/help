@@ -21,7 +21,7 @@
 
 <explanation>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)

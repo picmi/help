@@ -27,7 +27,7 @@ integration, users must be working in the Dataphyll Business App.
 
 <explanation>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)

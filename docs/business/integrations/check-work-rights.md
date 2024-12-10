@@ -83,7 +83,7 @@ All groups must consent to run the check and store proof of documentation
 
 </prompt>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)

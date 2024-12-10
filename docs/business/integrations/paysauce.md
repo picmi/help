@@ -44,9 +44,13 @@
 | [EXTRA allowances](#extra-allowances){#extra-allowances}                                                                                                 | Any additional allowances                |                                                                                                             |                           |
 | [EXTRA other](#extra-other){#extra-other}                                                                                                                | Any other additional information         |                                                                                                             |                           |
 
+## Download Report
+
+* see [reports](download-reports.md)
+
 <explanation>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)

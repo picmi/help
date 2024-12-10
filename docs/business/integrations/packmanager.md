@@ -15,9 +15,13 @@
 | [Employment company](#employment-company)     | Name of the company employing the individual |                                                                                     | Integration Configuration |
 | [Employment agreement](#employment-agreement) | Name of employment agreement in PackManager  |                                                                                     | Integration Configuration |
 
+## Download Report
+
+* see [reports](download-reports.md)
+
 <explanation>
 
-### General troubleshooting
+## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
