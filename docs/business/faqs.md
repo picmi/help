@@ -55,6 +55,12 @@ PICMI can provide access with a provisional user. see [invites](article/inviting
 Rarely is the email NOT delivered, but it isn't always to your inbox because we send emails from a service provider
 rather than from a person. See [finding emails](../email-not-found)
 
+<prompt>
+
+[Provisional users](article/provisional-user.md) do not receive emails!
+
+</prompt>
+
 </faq>
 
 ## Invites

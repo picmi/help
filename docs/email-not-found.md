@@ -2,6 +2,12 @@
 
 When PICMI sends emails through a service like AWS, there are a few reasons why these emails might not look or behave like those sent directly from a person. Firstly, most emails come from a general address, `hello@picmi.io`, rather than a personal email, which can make them feel less familiar. These service emails also have added security features that help prevent them from being marked as spam, increasing the chances that they'll reach your inbox. Additionally, the service can send many emails at once, which personal accounts may struggle to do without issues. Lastly, using a professional email service means that PICMI can manage important details like compliance with email regulations which personal emails don't offer. So, if you're having trouble finding an email, it might be worth checking your spam or other folders instead of assuming there's a problem with PICMI's emails
 
+<prompt>
+
+Provisional users do not receive emails!
+
+</prompt>
+
 <explanation>
 
 ## How to Find an Email You Can't See in Your Inbox
