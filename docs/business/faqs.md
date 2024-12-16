@@ -396,6 +396,13 @@ Change the [default date format](article/export.md#set-as-default-date-format-fo
 
 </faq>
 
+
+<faq question="I have reissued and no email was received?">
+
+Check that they person is not a [provisional user](article/provisional-user.md), otherwise look in [email not found](../email-not-found.md)
+
+</faq>
+
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">
