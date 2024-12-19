@@ -5,11 +5,12 @@ about key updates. You are able to turn on/off notifications.
 
 ## Notification types
 
-| Notification Type       | When You Receive It                                           | Delivery Methods |
-|-------------------------|---------------------------------------------------------------|------------------|
-| **Jobs**                | When a business creates or updates jobs                       | In-app, Email    |
-| **People Applications** | When an application progresses or status message added        | In-app, Email    |
-| **Integrations**        | When an accepted application creates and employee (or errors) | In-app, Email    |
+| Notification Type         | When You Receive It                                                                                                                  | Delivery Methods |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| **Jobs**                  | When a business creates or updates jobs                                                                                              | In-app, Email    |
+| **People Applications**   | When an application progresses or status message added                                                                               | In-app, Email    |
+| **Integrations**          | When an accepted application creates and employee (or errors)                                                                        | In-app, Email    |
+| **Applications Declined** | When a jobseeker/employee declines an invitation, cancels an in-progress application or offer, or terminates an accepted application | In-app, Email    |
 
 ## Managing your notifications
 
@@ -32,7 +33,6 @@ By default, notifications are enabled for both all delivery methods.
 5. Enable or disable <span class="mdi mdi-toggle-switch-outline"/> the delivery method
 
 </instructions>
-
 
 ## Managing messages
 
