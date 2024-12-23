@@ -416,6 +416,18 @@ see [integration rules](integrations/integration-events#general-integration-rule
 
 </faq>
 
+
+<faq question="How can I create a record if the person is already Completed?" :expandAll="expandAll">
+
+You will need to do this in three steps on each person record:
+
+1. [Reopen](about-picmi/applications.md#business-actions)
+2. [Create Employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee)
+3. [Complete](about-picmi/applications.md#business-actions)
+
+</faq>
+
+
 <faq question="How can I bulk upload?" :expandAll="expandAll">
 
 ### For API integrations
