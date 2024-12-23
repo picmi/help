@@ -1,5 +1,3 @@
-Here's the updated table with permanent links for improved navigation and reference:
-
 # iPayroll integration overview
 
 ## PICMI-iPayroll integration fields
