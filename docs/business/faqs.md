@@ -403,6 +403,33 @@ Check that they person is not a [provisional user](article/provisional-user.md),
 
 </faq>
 
+## Notifications
+
+<faq question="Why am I receiving multiple notifications saying there are no vacancies?"  :expandAll="expandAll">
+
+PICMI is designed to notify you immediately when a vacancy check is performed, ensuring that you’re kept up-to-date in real time. However, if multiple checks are performed in quick succession—such as when retries are made—you might receive multiple notifications in a short period.
+
+### Why doesn’t PICMI bundle these notifications?
+We prioritise immediate updates to ensure you have the most accurate information as soon as possible. While bundling notifications could reduce duplicates, it introduces a delay, and many customers value the immediacy of real-time updates.
+
+Additionally, determining the best bundling period is challenging because preferences vary. Some users may prefer updates every 10 minutes, while others might prefer hourly or daily summaries. Since we can only set a single time period for all customers, we’ve opted to keep notifications immediate to suit the majority.
+
+### Does this issue affect everyone?
+No, most users don’t experience multiple notifications because retries are usually less frequent. This tends to happen only in a few cases where repeated vacancy checks occur in quick succession.
+
+### What can be done to improve this?
+We’re always open to feedback and considering improvements. If you feel bundling notifications would be helpful, let us know what time period would work best for you:
+
+* 10 minutes for quick updates.
+* 1 hour for moderate consolidation.
+* End of day for a single summary.
+
+Your input can help us refine our approach and better meet your needs.
+
+If you have further questions or suggestions, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
+
+</faq>
+
 ## Integrations
 
 <faq question="How can I setup a new integration?" :expandAll="expandAll">
