@@ -53,7 +53,9 @@ PICMI integrates with iPayroll via a separate user in your organisation that has
 ## Retrieving a token
 
 iPayroll uses an oAuth process to issue a token which requires you to have a separate user with the API user access that you
-agree to issue a token
+agree to issue a token. This user is not your standard payroll user.
+
+**Note:** you can only have one integration token activated on a single user for PICMI
 
 <prompt>
 
