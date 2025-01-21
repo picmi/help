@@ -44,6 +44,10 @@
 | [Job title](#job-title){#job-title}                                                                                                                       | Title of the individual’s position.                              |                                                        | Job                       |
 | [Pay rate](#pay-rate){#pay-rate}                                                                                                                          | Rate of pay for the individual.                                  |                                                        | Job                       |
 
+## Authorisation
+
+* [OAuth](integrations.md#different-ways-to-authorise-picmi-to-transfer-data)
+
 ## How PICMI works with iPayroll
 
 PICMI integrates with iPayroll via a separate user in your organisation that has the access role [API User](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-api-user#API_User).
