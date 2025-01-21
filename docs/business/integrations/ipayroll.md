@@ -94,7 +94,7 @@ In iPayroll > Setup > Users > Add User with access Api User (see [iPayroll help]
 
 <prompt>
 
-You must the top Paymaster user to add/update users of any sort
+You must be the top Paymaster user to add/update users of any sort
 
 </prompt>
 
