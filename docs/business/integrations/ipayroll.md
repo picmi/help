@@ -92,6 +92,12 @@ Yes, a new user must be created. You are allowed to use the same password.
 
 In iPayroll > Setup > Users > Add User with access Api User (see [iPayroll help](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-roles-defined#Adding_users_to_your_iPayroll_Organisation))
 
+<prompt>
+
+You must the top Paymaster user to add/update users of any sort
+
+</prompt>
+
 </faq>
 
 <faq question="How do I know if I have an integration access?" :expandAll="expandAll">
