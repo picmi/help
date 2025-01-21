@@ -1,5 +1,16 @@
 # iPayroll integration overview
 
+## Integration configuration
+
+| Configuration                                       | Description                              | Values                                                                               |
+|-----------------------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------|
+| [Token](#cfg-token){#cfg-token}                     | Token provided for authentication        | [Retrieve the API key](#retrieving-a-token) from CheckWorkRights by application user |
+| [Employer Subsidy](#cfg-subsidy){#cfg-subsidy}      | Employer subsidy contribution tax (ESCT) | 10.5%, 17.5%, 30%, 33%, 39%                                                          |
+| [Payment Method](#cfg-payment){#cfg-payment}        | Payment method                           | Bank, Cheque, Cash                                                                   |
+| [Payment Frequency](#cfg-frequency){#cfg-frequency} | Payment frequency                        | Weekly, Fortnightly, Monthly                                                         |
+| [Cost Centre](#cfg-cost){#cfg-cost}                 | Cost Center                              | Populated from iPayroll for your organisation                                        |
+| [User Defined Group](#cfg-user){#cfg-user}          | User Defined groups                      | Populated from iPayroll for your organisation                                        |
+
 ## PICMI-iPayroll integration fields
 
 | **Field Name**                                                                                                                                            | **Description**                                                  | **Validation/Constraint/Default Value**                | **Source**                |
@@ -33,7 +44,66 @@
 | [Job title](#job-title){#job-title}                                                                                                                       | Title of the individual’s position.                              |                                                        | Job                       |
 | [Pay rate](#pay-rate){#pay-rate}                                                                                                                          | Rate of pay for the individual.                                  |                                                        | Job                       |
 
+## How PICMI works with iPayroll
+
+PICMI integrates with iPayroll via a separate user in your organisation that has the access role [API User](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-api-user#API_User).
+
+<instructions>
+
+## Retrieving a token
+
+iPayroll uses an oAuth process to issue a token which requires you to have a separate user with the API user access that you
+agree to issue a token
+
+<prompt>
+
+if you are currently signed in with your payroll user, log out first so that you can log in with your API user.
+
+</prompt>
+
+1. Use the URL provided by PICMI—if you are not logged
+2. Log in with your credentials that access to setting up an API 
+3. Click **Authorize**
+4. Provide the token back to PICMI to be added to your integration
+
+<prompt>
+
+Updating a token in PICMI is currently not self-service and requires help from PICMI
+
+</prompt>
+
+</instructions>
+
 <explanation>
+
+## FAQs
+
+<button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
+
+<faq question="I already have a log in, do I need another account for the integration?" :expandAll="expandAll">
+
+Yes, a new user must be created. You are allowed to use the same password.
+
+</faq>
+
+<faq question="How can I create an API user" :expandAll="expandAll">
+
+In iPayroll > Setup > Users > Add User with access Api User (see [iPayroll help](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-roles-defined#Adding_users_to_your_iPayroll_Organisation))
+
+</faq>
+
+<faq question="How do I know if I have an integration access?" :expandAll="expandAll">
+
+In iPayroll > Setup > Users, look for a user with naming convention [organisation number]apipicmi (eg 54443apipicmi)
+
+</faq>
+
+
+<faq question="How do I know if I have an active integration key" :expandAll="expandAll">
+
+In iPayroll > Setup > Users, look for user [organisation number]apipicmi and in the right hand icons is one for active integration (with the ability to deactivate the integration)
+
+</faq>
 
 ## General troubleshooting
 
@@ -41,3 +111,13 @@
 - [Integration FAQs](../faqs#integrations)
 
 </explanation>
+
+<script setup lang="ts">import {ref} from 'vue';
+
+const expandAll = ref(false);
+
+const toggleExpandAll = () => {
+expandAll.value = !expandAll.value;
+}
+</script>
+
