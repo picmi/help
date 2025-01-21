@@ -100,10 +100,15 @@ In iPayroll > Setup > Users, look for a user with naming convention [organisatio
 
 </faq>
 
-
 <faq question="How do I know if I have an active integration key" :expandAll="expandAll">
 
 In iPayroll > Setup > Users, look for user [organisation number]apipicmi and in the right hand icons is one for active integration (with the ability to deactivate the integration)
+
+</faq>
+
+<faq question="iPayroll says I can only have one integration key" :expandAll="expandAll">
+
+In iPayroll > Setup > Users, look for the user that in the right hand icons has an active integration (and deactivate the integration)
 
 </faq>
 
