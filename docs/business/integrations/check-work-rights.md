@@ -13,13 +13,13 @@ minimal administrative burden for checking the right to work and monitoring visa
 
 ## PICMI-CheckWorkRights integration fields
 
-| Field Name                                      | Description                                                                    | Validation/Constraint/Default Value | Source                    |
-|-------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------|---------------------------|
-| [First name](#first-name){#first-name}          | First name of the employee                                                     | Mandatory                           | Personal Information      |
-| [Last name](#last-name){#last-name}             | Last name of the employee                                                      | Mandatory                           | Personal Information      |
-| [Email address](#email-address){#email-address} | Email address of the employee                                                  | Mandatory                           | Personal Information      |
-| [ID](#id){#id}                                  | Unique external identifier for the employee                                    |                                     | Integration Configuration |
-| [Send email](#send-email){#send-email}          | Prevent issuing the initial request email—reminder emails will still be issued | Default: off                        | Integration Configuration |
+| Field Name                                      | Description                                                                                                                                                           | Validation/Constraint/Default Value | Source                    |
+|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|---------------------------|
+| [First name](#first-name){#first-name}          | First name of the employee                                                                                                                                            | Mandatory                           | Personal Information      |
+| [Last name](#last-name){#last-name}             | Last name of the employee                                                                                                                                             | Mandatory                           | Personal Information      |
+| [Email address](#email-address){#email-address} | Email address of the employee                                                                                                                                         | Mandatory                           | Personal Information      |
+| [ID](#id){#id}                                  | Unique external identifier for the employee (if set, [ensure enabled](#what-to-do-with-the-foreignkey_id-is-not-found-error-on-the-integration) with CheckWorkRights) |                                     | Integration Configuration |
+| [Send email](#send-email){#send-email}          | Prevent issuing the initial request email—reminder emails will still be issued                                                                                        | Default: off                        | Integration Configuration |
 
 <explanation>
 
@@ -155,9 +155,12 @@ because the completion rate is extremely high as it's a requirement for employme
 </faq>
 
 
-<faq question="What to do with, 'The foreignkey_id is not found' error on the integration" :expandAll="expandAll">
+<faq question="What to do with 'The foreignkey_id is not found' error on the integration?" :expandAll="expandAll">
 
-Contact PICMI and we will get it sorted behind the scenes with CheckWorkRights.
+Contact our support team via <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or
+email <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>, and we’ll handle it with CheckWorkRights. This
+is needed when setting the `external identifier` in the `create employee` integration. Right now, this setup must be
+enabled per account and isn't self-service.
 
 </faq>
 
