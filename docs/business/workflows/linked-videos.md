@@ -26,7 +26,7 @@ email <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> if you r
 
 ### Get the video link from youtube
 1. Ensure you have the file in a location that is accessible to yourself (see [how to download](#downloading-videos-eg-vimeo-→-youtube) from the web)
-2. Upload to youtube
+2. [Upload](https://support.google.com/youtube/answer/57407) to youtube
 3. **Copy the permanent link**: use this link to add the link to your workflow
 
 ### Add video step to workflow
@@ -43,9 +43,13 @@ The link remains unchanged, so workflows using this link automatically reflect t
 
 </prompt>
 
+## Using youtube for videos
+
+By uploading your videos to YouTube, you’ll have full control over your content and can update or replace videos anytime. You’ll also be able to track stats like watch time and viewer engagement. To start, [create an account](https://support.google.com/youtube/answer/161805p) on youtube.
+
 ## Using Vimeo for videos
 
-PICMI currently does not support the use of vimeo. 
+PICMI currently does not support the use of vimeo. Please [download](#downloading-videos-eg-vimeo-→-youtube) and then upload to youtube.
 
 ## Downloading videos: e.g. vimeo → youtube
 
