@@ -77,6 +77,7 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 { text: 'Linked files', link: '/business/workflows/linked-files' },
+                { text: 'Linked videos', link: '/business/workflows/linked-videos' },
                 {
                     text: 'Work status', items: [
                         { text: 'Question options', link: '/business/workflows/questions-work-status' },
