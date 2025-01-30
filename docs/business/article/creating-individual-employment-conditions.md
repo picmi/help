@@ -1,7 +1,8 @@
 # Creating individual employment conditions
 
 For any application, the business can provide specific terms for a person. They are called **personal overrides** to
-provide individual employment conditions. Personal overrides are added over the top of any **base** field values that are
+provide individual employment conditions. Personal overrides are added over the top of any **base** field values that
+are
 provided.
 
 <prompt>
@@ -20,17 +21,17 @@ instead of the base values. This includes:
 
 ## Fields that can be overridden
 
-| **Field**                       | **Description**                                                                                                               |
-|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **Remuneration**                | The pay rate itself (and not the currency eg NZ, or frequency eg hourly—these remain the same as the job itself)              |
-| **Start**                       | Date the job is expected to begin                                                                                             |
-| **End**                         | Date the job is expected to finish                                                                                            |
-| **Date summary**                | A description of the dates or supplementary information                                                                       |
-| **Valid through**               | Allow the application to close before the job starts                                                                          |
-| **Location**                    | The street address of the position                                                                                            |
-| **Location additional details** | Supplementary information about the location                                                                                  |
-| **Job description**             | Change this to rewrite the primary description—overwriting this should probably include details from the original description |
-| **Organisation name**           | Sometimes the contracting organisation may change                                                                             |
+| **Field**                       | **Description**                                                                                                                                                                        |
+|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Remuneration**                | The pay rate itself (and not the currency eg NZ, or frequency eg hourly—these remain the same as the job itself)                                                                       |
+| **Start**                       | Date the job is expected to begin                                                                                                                                                      |
+| **End**                         | Date the job is expected to finish                                                                                                                                                     |
+| **Date summary**                | A description of the dates or supplementary information. Examples are general start or end date conditions (such as weather or fruit conditions), or job-specific notification periods |
+| **Valid through**               | Allow the application to close before the job starts                                                                                                                                   |
+| **Location**                    | The street address of the position                                                                                                                                                     |
+| **Location additional details** | Supplementary information about the location                                                                                                                                           |
+| **Job description**             | Change this to rewrite the primary description—overwriting this should probably include details from the original description                                                          |
+| **Organisation name**           | Sometimes the contracting organisation may change                                                                                                                                      |
 
 <instructions>
 
