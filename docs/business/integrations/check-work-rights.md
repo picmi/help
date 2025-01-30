@@ -154,6 +154,13 @@ because the completion rate is extremely high as it's a requirement for employme
 
 </faq>
 
+
+<faq question="What to do with, 'The foreignkey_id is not found' error on the integration" :expandAll="expandAll">
+
+Contact PICMI and we will get it sorted behind the scenes with CheckWorkRights.
+
+</faq>
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
