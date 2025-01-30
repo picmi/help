@@ -49,6 +49,10 @@ The link remains unchanged, so workflows using this link automatically reflect t
 
 </prompt>
 
+## Using Microsoft OneDrive for file linking
+
+PICMI discourages using Onedrive because it does not support the use of **permanent links** (as of Jan 2025) to facilitate versions on the same shared link without updating the workflow in PICMI. 
+
 ## Processing files: DOC → PDF
 
 If the file is not yet in PDF format convert it to PDF before sharing—most applications now allow export to PDF
