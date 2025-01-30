@@ -25,7 +25,7 @@ email <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> if you r
 ## Adding a video to your workflow
 
 ### Get the video link from youtube
-1. Ensure you have the file in a location that is accessible to yourself (see [how to download](#downloading-videos-eg-vimeo--youtube) from the web)
+1. Ensure you have the file in a location that is accessible to yourself (see [how to download](#downloading-videos-eg-vimeo-→-youtube) from the web)
 2. Upload to youtube
 3. **Copy the permanent link**: use this link to add the link to your workflow
 
