@@ -38,6 +38,7 @@
 - [Available integrations](integrations/integrations)
 - [Integration events](integrations/integration-events)
 - [Download reports](integrations/download-reports)
+- [External Identifiers](integrations/external-identifiers)
 
 ## Your account
 
