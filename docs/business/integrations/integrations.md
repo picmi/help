@@ -1,8 +1,30 @@
 # Integrations
 
-Integration enable PICMI to automatically send employee records to various external systems, minimising manual data
+Integrations enable PICMI to automatically send employee records to various external systems, minimising manual data
 entry and ensuring consistency across all platforms. This helps keep employee information current for payroll, tax, and
 compliance purposes.
+
+## Overview
+
+PICMI’s core purpose is to get people from job application to a signed employment contract as quickly as possible by only collecting and sharing the necessary information. Rather than trying to do everything, PICMI focuses on this core function and hands off to other systems that specialise in subsequent steps.
+
+### How PICMI Works with other systems
+
+PICMI gathers just enough information to enable a seamless handover to systems that manage right-to-work checks, payroll, timesheets, and scheduling. While PICMI is the source of truth for job and application-specific details at the time of recording, downstream systems become the source of truth for ongoing management.
+
+<explanation>
+
+### Examples
+
+1. **Right-to-Work Checks**: PICMI collects key details from the jobseeker and may trigger a request to a system that verifies their right to work (e.g., an immigration check system). Once completed, that system holds the definitive status of their work eligibility.
+
+2. **Payroll**: PICMI collects the required details for generating the contract (e.g., pay rate, start date, bank/tax info). After the contract is signed, PICMI sends this data to the payroll system, which becomes the source of truth for pay runs, tax calculations, and bank deposits.
+
+3. **Travel Scheduling**: PICMI collects the required details necessary for the next system (e.g., for ridesharing they express interest in participating and agree to voluntary deductions). After the contract is signed, PICMI sends this data to that system, which can then manage the dynamic nature of travel.
+
+</explanation>
+
+By focusing on fast hiring while allowing specialised systems to take over for post-hire processes, businesses get the best of both worlds—speed and accuracy in hiring, plus reliable downstream management.
 
 <prompt>
 
