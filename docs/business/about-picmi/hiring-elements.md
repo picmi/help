@@ -12,7 +12,7 @@ Organisation
     ↓
   Workflow
     ↓
-Contract
+Contract (with field substitutions)
 ```
 
 ## Organisation
@@ -35,7 +35,15 @@ The workflow consists of various steps that the person goes through to apply for
 - **Videos**: There may be video content to help the person understand the role and environment better.
 
 ## Contract
-Once the person has successfully navigated through the workflow and met all the requirements, they will be presented with a contract. This document outlines the terms of employment, including responsibilities, salary, and other important details. The contract also allows for **dynamically added details** from the organisation, job, workflow answers as well as personal overrides.
+Once the person has successfully navigated through the workflow and met all the requirements, they will be presented with a contract. This document outlines the terms of employment, including responsibilities, salary, and other important details. The contract also allows for **dynamically added details** (called field substitutions which refers to content somewhere else) from the organisation, job, workflow answers as well as personal overrides.
+
+<prompt>
+
+A contract can only be personalised using field substitutions, which replace placeholders with specific details (e.g., job title, pay rate) from the organisation, job, workflow answers, or personal overrides.
+
+Currently, entire sections of the contract cannot be conditionally included or excluded. For example, if a specific clause is only relevant to leader roles, it cannot be removed for non-leader roles—it must remain in the contract but can be adjusted using field substitutions.
+
+</prompt>
 
 </explanation>
 
