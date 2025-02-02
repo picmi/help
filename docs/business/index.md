@@ -30,8 +30,13 @@
 - [Linked files](workflows/linked-files)
 - [Linked videos](workflows/linked-videos)
 - [Work status questions](workflows/questions-work-status.md)
-  - [Right to work](workflows/right-to-work)
-  - [Storing biometric data](workflows/storing-biometric-data)
+    - [Right to work](workflows/right-to-work)
+    - [Storing biometric data](workflows/storing-biometric-data)
+
+## Contract Templates
+
+- [Create](article/creating-a-contract-template.md)
+- [Duplicate](article/duplicate-a-contract-template.md)
 
 ## Integrations
 

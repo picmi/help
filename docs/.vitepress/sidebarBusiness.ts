@@ -39,7 +39,7 @@ export function sidebarBusiness() {
             ],
         },
         {
-            text: 'People',
+            text: 'People Applications',
             collapsed: false,
             items: [
                 { text: 'Change status', link: '/business/article/changing-application-status' },
@@ -88,6 +88,14 @@ export function sidebarBusiness() {
                         },
                     ]
                 },
+            ],
+        },
+        {
+            text: 'Contract Templates',
+            collapsed: true,
+            items: [
+                { text: 'Create', link: '/business/article/creating-a-contract-template' },
+                { text: 'Duplicate', link: '/business/article/duplicate-a-contract-template' },
             ],
         },
         {
