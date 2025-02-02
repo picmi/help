@@ -47,3 +47,17 @@ Currently, entire sections of the contract cannot be conditionally included or e
 
 </explanation>
 
+## FAQs
+
+<faq question="How can I update a specific section of the contract, such as the remuneration section, for a particular job role (e.g., team leaders) while ensuring the change applies globally to all contracts for that role?">
+
+In PICMI, contracts are personalised using **field substitutions**, which means you can modify specific details like remuneration by updating the **job details** or **personal overrides**. However, contracts do not currently support conditionally including or excluding entire sections based on job roles.
+
+For this scenario—updating the remuneration section specifically for team leader roles:
+
+1. **Update the job details:** Adjust the remuneration field within the team leader job so that the correct pay information is substituted in the contract.
+2. **Use personal overrides:** If specific team leaders have unique remuneration terms, you can apply personal overrides to adjust their contract details. 
+
+If you need **structurally different contracts** for different roles (e.g., a separate remuneration section for leaders vs. general workers), you would need to **create a separate job** for team leaders with its own contract template.
+
+</faq>
