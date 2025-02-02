@@ -4,6 +4,12 @@ By setting up PICMI’s integration with [CheckWorkRights](https://checkworkrigh
 ensure smooth, compliant hiring processes with
 minimal administrative burden for checking the right to work and monitoring visa conditions (in Australia).
 
+<prompt>
+
+CheckWorkRights in not available for [provisional users](../article/provisional-user.md) because they do not have a valid deliverable email address.
+
+</prompt>
+
 ## Integration configuration
 
 | Configuration                                  | Description                                                                    | Values                                                                               |
