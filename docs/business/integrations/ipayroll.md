@@ -1,5 +1,11 @@
 # iPayroll integration overview
 
+<prompt>
+
+iPayroll does not accept non-NZ addresses
+
+</prompt>
+
 ## Integration configuration
 
 | Configuration                                       | Description                              | Values                                                                               |
@@ -121,6 +127,13 @@ In iPayroll > Setup > Users, look for user [organisation number]apipicmi and in 
 In iPayroll > Setup > Users, look for the user that in the right hand icons has an active integration (and deactivate the integration)
 
 </faq>
+
+<faq question="iPayroll fails on 'Overseas employees are not allowed for this organisation'" :expandAll="expandAll">
+
+iPayroll requires a NZ address—reissue the contract
+
+</faq>
+
 
 ## General troubleshooting
 
