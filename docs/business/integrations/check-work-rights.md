@@ -6,7 +6,8 @@ minimal administrative burden for checking the right to work and monitoring visa
 
 <prompt>
 
-CheckWorkRights in not available for [provisional users](../article/provisional-user.md) because they do not have a valid deliverable email address.
+CheckWorkRights in not available for [provisional users](../article/provisional-user.md) because they do not have a
+valid deliverable email address.
 
 </prompt>
 
@@ -104,6 +105,14 @@ All groups must consent to run the check and store proof of documentation
 </prompt>
 
 <instructions>
+
+## Mixing manual scanning passports with PICMI to prevent duplicate records
+
+When scanning passports in CheckWorkRights, please **search for the employee by name first** before scanning. If they
+already exist, use the **update passport** function instead of scanning from the Home Screen. This will prevent duplicate
+records. 
+
+If the person is not already in CheckWorkRights from the PICMI integration, you can proceed with scanning as usual.
 
 ## Retrieving a token
 
