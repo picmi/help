@@ -149,7 +149,7 @@ CSV integrations will only show a limited set phases because the data is directl
 
 <faq question="The application is Completed, how can I send data?">
 
-Only application with **accepted** status can have data sent. **Reopen** the application and then **Mark as complete** when finished. See [changing application status](../article/changing-application-status.md#changing-application-status)
+Only application with **accepted** status can have data sent. **Reopen** the application and then **Mark as complete** when finished. See [changing application status](../article/changing-application-status.md#changing-application-status). (note: these can be changed via [bulk status change](../article/bulk-status-change.md))
 
 </faq>
 
