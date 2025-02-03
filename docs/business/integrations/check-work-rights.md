@@ -104,15 +104,15 @@ All groups must consent to run the check and store proof of documentation
 
 </prompt>
 
-<instructions>
-
 ## Mixing manual scanning passports with PICMI to prevent duplicate records
 
 When scanning passports in CheckWorkRights, please **search for the employee by name first** before scanning. If they
 already exist, use the **update passport** function instead of scanning from the Home Screen. This will prevent duplicate
-records. 
+records.
 
 If the person is not already in CheckWorkRights from the PICMI integration, you can proceed with scanning as usual.
+
+<instructions>
 
 ## Retrieving a token
 
