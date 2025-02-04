@@ -1,5 +1,6 @@
 ## [FAQS](faqs)
 
+* [Understanding applications](article/applications.md)
 * [Adding a photo](article/adding-a-photo)
 * [Notifications](article/notifications)
 

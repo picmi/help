@@ -57,22 +57,23 @@ specific messages added per person
 | In Progress             | The person is actively working on the application.                         | *Reissue*, *Cancel*                | Business can reissue the application (to send out a notification to the person again) or cancel it, moving to the cancelled application status. |
 | Offered                 | An offer has been extended to the person and is in the cooling-off period. | *Cancel*                           | Business can cancel the offer, transitioning to the cancelled offer status.                                                                     |
 | Accepted                | The person has accepted the offer .                                        | *Terminate*, *Complete*, *Reissue* | Business can terminate the application, complete the process, or reissue it to the in-progress status.                                          |
-| Completed               | The **contract** itself has been completed for the job.                    | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status.                                                                       |
+| Completed               | The **contract** itself has been completed for the job.                    | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status.                                                      |
 | Terminated              | The **contract** has been terminated for the job.                          | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the in-progress status.                                                   |
 | Cancelled (Invite)      | The invitation has been cancelled by the business.                         | *Reopen*                           | Business can reopen the cancelled invitation to transition back to the invited status.                                                          |
 | Cancelled (Application) | The application has been cancelled by the business.                        | *Reopen*                           | Business can reopen the cancelled application to transition back to the in-progress status.                                                     |
+| Declined                | The jobseeker has declined application (from invitation or offer)          |                                    | Business cannot perform any actions—only the jobseeker can reopen the application                                                               |
 
 ## Jobseeker actions
 
-| **Status**  | **Description**                                                          | **Action**         | **Explanation**                                                     | **Restrictions**          |
-|-------------|--------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------|---------------------------|
-| Invited     | The person has been invited to apply but hasn't done so yet.             | *Apply*, *Decline* | Can apply to progress to in progress or decline the invite.         | Invites only/No vacancies |
-| In Progress | The person is actively filling out the application.                      | *Decline*          | Actions include declining or moving to offered if criteria are met. |                           |
-| Offered     | An offer has been extended to the person after meeting all the criteria. | *Agree*, *Decline* | Can agree to accept the offer or decline it.                        | No vacancies              |
-| Accepted    | The person has agreed to the offer, now in the cooling-off period.       | *Cancel*           | Can terminate the agreement if necessary.                           |                           |
-| Declined    | The person has declined either the invitation or the offer.              | *Reopen*           | Can reopen the application or offer from declined state.            |                           |
-| Completed   | The application process is complete, and the contract has been accepted. |                    | No further actions available at this state.                         |                           | 
-| Cancelled   | The application was cancelled.                                           |                    | No further actions available at this state.                         |                           | 
+| **Status**  | **Description**                                                             | **Action**         | **Explanation**                                                     | **Restrictions**          |
+|-------------|-----------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------|---------------------------|
+| Invited     | The person has been invited to apply but hasn't started the process so yet. | *Apply*, *Decline* | Can apply to progress to in progress or decline the invite.         | Invites only/No vacancies |
+| In Progress | The person is actively filling out the application.                         | *Decline*          | Actions include declining or moving to offered if criteria are met. |                           |
+| Offered     | An offer has been extended to the person after meeting all the criteria.    | *Agree*, *Decline* | Can agree to accept the offer or decline it.                        | No vacancies              |
+| Accepted    | The person has agreed to the offer, now in the cooling-off period.          | *Cancel*           | Can terminate the agreement if necessary.                           |                           |
+| Declined    | The person has declined either the invitation or the offer.                 | *Reopen*           | Can reopen the application or offer from declined state.            |                           |
+| Completed   | The application process is marked as complete by the business.              |                    | No further actions available at this state by the jobseeker         |                           | 
+| Cancelled   | The application was cancelled (by the business)                             |                    | No further actions available at this state by the jobseeker.        |                           | 
 
 ## Restrictions on actions
 
