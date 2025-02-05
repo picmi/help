@@ -10,6 +10,7 @@ export function sidebarJobseeker() {
                 { text: 'Adding a photo', link: '/jobseeker/article/adding-a-photo' },
                 { text: 'Understanding applications', link: '/jobseeker/article/applications' },
                 { text: 'Understanding notifications', link: '/jobseeker/article/notifications' },
+                { text: 'Translate PICMI into your language', link: '/jobseeker/article/translation-support' },
             ]
         },
     ]

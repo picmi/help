@@ -11,6 +11,7 @@ Signing up is free. Use your email address or Google account.
 * [Understanding the hiring elements](hiring-elements)
 * [Understanding job status](../article/job-status)
 * [Understanding dates](dates.md)
+* [Understanding lanugage support and translation approach](language-support-translations.md)
 
 ## Billing
 * [Understanding billing](billing.md)

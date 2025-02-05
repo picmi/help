@@ -18,6 +18,10 @@ export function sidebarBusiness() {
                     ]
                 },
                 { text: 'Understanding notifications', link: '/business/article/notifications' },
+                {
+                    text: 'Language support',
+                    link: '/business/about-picmi/language-support-translations'
+                },
             ]
         },
         {
