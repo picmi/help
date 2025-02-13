@@ -6,25 +6,36 @@ compliance purposes.
 
 ## Overview
 
-PICMI’s core purpose is to get people from job application to a signed employment contract as quickly as possible by only collecting and sharing the necessary information. Rather than trying to do everything, PICMI focuses on this core function and hands off to other systems that specialise in subsequent steps.
+PICMI’s core purpose is to get people from job application to a signed employment contract as quickly as possible by
+only collecting and sharing the necessary information. Rather than trying to do everything, PICMI focuses on this core
+function and hands off to other systems that specialise in subsequent steps.
 
 ### How PICMI Works with other systems
 
-PICMI gathers just enough information to enable a seamless handover to systems that manage right-to-work checks, payroll, timesheets, and scheduling. While PICMI is the source of truth for job and application-specific details at the time of recording, downstream systems become the source of truth for ongoing management.
+PICMI gathers just enough information to enable a seamless handover to systems that manage right-to-work checks,
+payroll, timesheets, and scheduling. While PICMI is the source of truth for job and application-specific details at the
+time of recording, downstream systems become the source of truth for ongoing management.
 
 <explanation>
 
 ### Examples
 
-1. **Right-to-Work Checks**: PICMI collects key details from the jobseeker and may trigger a request to a system that verifies their right to work (e.g., an immigration check system). Once completed, that system holds the definitive status of their work eligibility.
+1. **Right-to-Work Checks**: PICMI collects key details from the jobseeker and may trigger a request to a system that
+   verifies their right to work (e.g., an immigration check system). Once completed, that system holds the definitive
+   status of their work eligibility.
 
-2. **Payroll**: PICMI collects the required details for generating the contract (e.g., pay rate, start date, bank/tax info). After the contract is signed, PICMI sends this data to the payroll system, which becomes the source of truth for pay runs, tax calculations, and bank deposits.
+2. **Payroll**: PICMI collects the required details for generating the contract (e.g., pay rate, start date, bank/tax
+   info). After the contract is signed, PICMI sends this data to the payroll system, which becomes the source of truth
+   for pay runs, tax calculations, and bank deposits.
 
-3. **Travel Scheduling**: PICMI collects the required details necessary for the next system (e.g., for ridesharing they express interest in participating and agree to voluntary deductions). After the contract is signed, PICMI sends this data to that system, which can then manage the dynamic nature of travel.
+3. **Travel Scheduling**: PICMI collects the required details necessary for the next system (e.g., for ridesharing they
+   express interest in participating and agree to voluntary deductions). After the contract is signed, PICMI sends this
+   data to that system, which can then manage the dynamic nature of travel.
 
 </explanation>
 
-By focusing on fast hiring while allowing specialised systems to take over for post-hire processes, businesses get the best of both worlds—speed and accuracy in hiring, plus reliable downstream management.
+By focusing on fast hiring while allowing specialised systems to take over for post-hire processes, businesses get the
+best of both worlds—speed and accuracy in hiring, plus reliable downstream management.
 
 <prompt>
 
@@ -53,24 +64,26 @@ There are two main ways:
 
 ## Available integrations
 
-| **System**                           | **Type**          | **API** | **CSV** | **PDF**    |
-|--------------------------------------|-------------------|:-------:|:-------:|------------|
-| [AgriSmart](agrismart)               | All in one        |         |    ✓    |            |
-| [CheckWorkRights](check-work-rights) | Labour Management |    ✓    |         |            |
-| [Crystal](crystal)                   | Payroll           |         |    ✓    |            |
-| [Dataphyll](dataphyll)               | Timesheets        |    ✓    |         |            |
-| [EmploymentHero](employment-hero)    | Payroll           |    ✓    |         |            |
-| [Hectre](hectre)                     | Labour Management |    ✓    |    ✓    |            |
-| Immigration NZ                       | Visa              |         |         | contact us |
-| [iPayroll](ipayroll)                 | Payroll           |    ✓    |         |            |
-| [MYOB IMS](myob-ims)                 | Payroll           |         |    ✓    |            |
-| [PackManager](packmanager)           | Labour Management |         |    ✓    |            |
-| [PayHero](payhero)                   | Payroll           |    ✓    |         |            |
-| [PaySauce](paysauce)                 | Payroll           |         |    ✓    |            |
-| [Smartly](smartly)                   | Payroll           |         |    ✓    |            |
-| [SmoothPay](smooth-pay)              | Payroll           |    ✓    |         |            |
-| [Tātou](tatou)                       | Onsite Management |    ✓    |         |            |
-| [Xero](xero)                         | Finance           |    ✓    |         |            |
+| **System**                                               | **Type**          | **API** | **CSV** | **PDF**    |
+|----------------------------------------------------------|-------------------|:-------:|:-------:|------------|
+| [AgriSmart](agrismart){#agrismart}                       | All in one        |         |    ✓    |            |
+| [CheckWorkRights](check-work-rights){#check-work-rights} | Labour Management |    ✓    |         |            |
+| [Crystal](crystal){#crystal}                             | Payroll           |         |    ✓    |            |
+| [Dataphyll](dataphyll){#dataphyll}                       | Timesheets        |    ✓    |         |            |
+| [EmploymentHero](employment-hero){#employment-hero}      | Payroll           |    ✓    |         |            |
+| [Hectre](hectre){#hectre}                                | Labour Management |    ✓    |    ✓    |            |
+| Immigration NZ{#immigration-nz}                          | Visa              |         |         | contact us |
+| [iPayroll](ipayroll){#ipayroll}                          | Payroll           |    ✓    |         |            |
+| [MYOB IMS](myob-ims){#myob-ims}                          | Payroll           |         |    ✓    |            |
+| [PackManager](packmanager){#packmanager}                 | Labour Management |         |    ✓    |            |
+| [PayHero](payhero){#payhero}                             | Payroll           |    ✓    |         |            |
+| [PaySauce](paysauce){#paysauce}                          | Payroll           |    ✓    |         |            |
+| [Smartly](smartly){#smartly}                             | Payroll           |         |    ✓    |            |
+| [SmoothPay](smooth-pay){#smoothpay}                      | Payroll           |    ✓    |         |            |
+| [Tātou](tatou){#tatou}                                   | Onsite Management |    ✓    |         |            |
+| [Tickbox](tickbox){#tickbox}                             | Training          |    ✓    |         |            |
+| [Xero](xero){#xero}                                      | Finance           |    ✓    |         |            |
+
 
 <prompt>
 
