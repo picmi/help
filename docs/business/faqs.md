@@ -506,6 +506,102 @@ contact us through [billing support](about-picmi/billing.md#billing-support)
 
 </faq>
 
+## PDFs
+
+<faq question="Where are the PDFs in PICMI?" :expandAll="expandAll">
+
+PICMI expects you to use the browser function to create any PDFs. See [below](#how-do-i-create-a-pdf-using-the-browser-print-function).
+
+</faq>
+
+<faq question="How do I create a PDF using the browser print function?" :expandAll="expandAll">
+
+To create a PDF using your web browser’s built-in print function:
+1. Open the webpage or document you want to save as a PDF.
+2. Press **Ctrl + P** (Windows/Linux) or **Cmd + P** (Mac) to open the print dialog.
+3. In the **Destination** or **Printer** dropdown, select **Save as PDF**.
+4. Adjust print settings if needed (e.g., layout, margins, headers/footers).
+5. Click **Save**, choose a location, and give your file a name.
+
+</faq>
+
+<faq question="Which browsers support printing to PDF?" :expandAll="expandAll">
+
+Most modern browsers support this feature, including:
+- **Google Chrome**
+- **Microsoft Edge**
+- **Mozilla Firefox** (requires an extension or virtual PDF printer)
+- **Apple Safari**
+
+</faq>
+
+<faq question="Why don’t I see the ‘Save as PDF’ option?" :expandAll="expandAll">
+
+If the option isn’t visible:
+- Ensure you have the latest version of your browser.
+- In Windows, you may need to install **Microsoft Print to PDF** (available in Settings > Devices > Printers & scanners).
+- On Mac, select **PDF > Save as PDF** from the print dialog.  
+
+</faq>
+
+<faq question="How can I remove headers and footers from the PDF?" :expandAll="expandAll">
+
+Most browsers include an option to disable headers and footers:
+- In the print dialog, look for **More settings** or **Options**.
+- Uncheck **Headers and footers** before saving.  
+  
+</faq>
+
+<faq question="How do I adjust page size, margins, or orientation?" :expandAll="expandAll">
+
+Under **More settings**, you can:
+- Change **Paper size** (e.g., A4, Letter).
+- Adjust **Margins** (Default, None, Minimum, Custom).
+- Choose **Portrait** or **Landscape** orientation.  
+
+</faq>
+
+<faq question="Can I print only selected pages?" :expandAll="expandAll">
+
+Yes! Before saving, look for the **Pages** option in the print dialog:
+- Select **All** to print the entire document.
+- Choose **Custom** to specify a page range (e.g., 1-3, 5, 7-9).  
+
+</faq>
+
+<faq question="Can I include background images and colours in the PDF?" :expandAll="expandAll">
+
+Yes! In most browsers, under **More settings**, enable **Background graphics** to include them.  
+
+</faq>
+
+<faq question="My PDF is missing content or formatting looks different. What can I do?" :expandAll="expandAll">
+
+- Try a different browser (Chrome tends to handle complex layouts better).
+- Print the page in **Landscape** mode if elements are cut off.
+- Enable **Background graphics** if images or colours are missing.
+- If interactive elements (like dropdowns) don’t appear, take a **screenshot** instead.  
+
+</faq>
+
+<faq question="Can I password-protect the PDF?" :expandAll="expandAll">
+
+The browser print function doesn’t offer password protection, but you can:
+- Use **Adobe Acrobat** or another PDF editor to set a password.
+- Upload the PDF to an online PDF security tool and apply encryption.  
+
+</faq>
+
+<faq question="How do I merge multiple PDFs after saving?" :expandAll="expandAll">
+
+You can combine PDFs using:
+- **Adobe Acrobat** (paid feature).
+- **Online tools** like Smallpdf or ILovePDF.
+- **Mac Preview** (open PDFs > File > Export as PDF).  
+
+</faq>
+
+
 ## Troubleshooting
 
 There are faults that occur in integrations (downstream systems). Remember that integrations can only occur after an
