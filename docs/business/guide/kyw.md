@@ -104,9 +104,5 @@ KYW isn’t just about compliance—it’s about **building a strong, ethical, a
 * Create fair working conditions for employees
 * Future-proof their operations with automated compliance tools
 
-<prompt>
-
- **Ready to take control of your workforce compliance?** Start by mapping your hiring structure, automating VisaView checks, and ensuring every worker has a clear, legal employment status.
-
-</prompt>
+🚀 **Ready to take control of your workforce compliance?** Start by mapping your hiring structure, automating VisaView checks, and ensuring every worker has a clear, legal employment status.
 

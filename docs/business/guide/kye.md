@@ -95,11 +95,7 @@ Technology plays a key role in making KYE efficient and scalable. One example is
 * **Scalability**—Supports high-volume industries like **agriculture, hospitality, and construction** during seasonal peaks.  
 * **Enhanced Oversight**—Allows for **real-time audits and compliance tracking** to detect risks early.
 
-<prompt>
-
- **Final Thought:** Implementing a robust KYE strategy isn’t just about meeting legal requirements—it’s about **building a strong, ethical, and transparent workforce**. By leveraging digital verification tools and real-time compliance tracking, businesses can stay ahead of regulations and protect both their reputation and employees.
-
-</prompt>
+🚀 **Final Thought:** Implementing a robust KYE strategy isn’t just about meeting legal requirements—it’s about **building a strong, ethical, and transparent workforce**. By leveraging digital verification tools and real-time compliance tracking, businesses can stay ahead of regulations and protect both their reputation and employees.
 
 
 💡 **Want to simplify workforce compliance?** Explore tools like CheckWorkRights for seamless KYE implementation!

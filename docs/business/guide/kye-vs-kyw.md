@@ -75,11 +75,7 @@ While **KYE focuses on individual employee compliance**, KYW helps businesses ma
 - **Without KYW:** Businesses may lack visibility into their indirect workforce, increasing risks of exploitation or
   regulatory breaches.
 
-<prompt>
-
- **The best compliance strategy integrates both approaches**—using KYE for direct employees and KYW for overall
-
-</prompt>
+🚀 **The best compliance strategy integrates both approaches**—using KYE for direct employees and KYW for overall
 workforce management.
 
 <prompt>
