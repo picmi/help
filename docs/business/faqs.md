@@ -514,6 +514,12 @@ PICMI expects you to use the browser function to create any PDFs. See [below](#h
 
 </faq>
 
+<faq question="Where are the PDFs in PICMI?" :expandAll="expandAll">
+
+PICMI expects you to use the browser function to create any PDFs. See [below](#how-do-i-create-a-pdf-using-the-browser-print-function).
+
+</faq>
+
 <faq question="How do I create a PDF using the browser print function?" :expandAll="expandAll">
 
 To create a PDF using your web browser’s built-in print function:
