@@ -53,7 +53,7 @@ This is the simplest way to add a single user for a person.
 
 <prompt>
 
-You can add more than one provisional user at a time using [Import](#import-multiple-provisional-users)
+You can add more than one provisional user at a time using [Import multiple new provisional users](#import-multiple-provisional-users)
 
 </prompt>
 
