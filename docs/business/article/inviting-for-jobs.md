@@ -80,7 +80,7 @@ You can always bring in a set of emails from your spreadsheet application. Creat
 4. Select **Send Invite**
 5. Locate <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
 6. Locate the **Bulk** section
-7. Select one of the import options
+7. Select one of the import options  ([download template](#download-import-template))
    * Google Sheets
    * Excel
    * Numbers

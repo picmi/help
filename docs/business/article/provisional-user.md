@@ -70,7 +70,7 @@ You need to have prepared a list in either **Google Sheets**, **Excel** or **CSV
 3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
 4. Select **Create with provisional user**
 5. Click &vellip; (vertical dots) to open the menu
-6. Locate the **Import bulk access codes** section
+6. Locate the **Import bulk access codes** section ([download template](#download-access-codes-template))
 7. Choose from the application spreadsheet
    * Google
    * Excel
