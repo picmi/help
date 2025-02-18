@@ -15,7 +15,7 @@ Looking for all [application statuses and actions](../about-picmi/applications.m
 1. Go to **People**
 2. Locate the **person** row <span class="mdi mdi-checkbox-marked-outline"></span>
 3. Click &vellip; (vertical dots) to open the menu
-4. Locate **Status Action Changes** section, select from one of the available statuses
+4. Locate **Status Change Actions** section, select from one of the available statuses
 
 <prompt>
 
