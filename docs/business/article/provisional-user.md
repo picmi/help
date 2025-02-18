@@ -61,7 +61,7 @@ You can add more than one provisional user at a time using [Import](#import-mult
 
 <instructions>
 
-## Import multiple provisional users
+## Import multiple new provisional users
 
 You need to have prepared a list in either **Google Sheets**, **Excel** or **CSV** and have it already in your clipboard
 
@@ -94,6 +94,19 @@ You can add duplicate one provisional user (with the same name) and each will ha
 
 </instructions>
 
+<instructions>
+
+## Add multiple existing provisional users
+
+See [invite via search for existing users](inviting-for-jobs.md#search-existing-people)
+
+<prompt>
+
+In the **Search applications** filter type `@noreply.picmi.io`
+
+</prompt>
+
+</instructions>
 
 <instructions>
 
@@ -144,6 +157,35 @@ The person will need click on this link (because it is not typeable)
 <prompt>
 
 Do not access this account yourself without permission from the person and ensure details are provided to **ONE person only**
+
+</prompt>
+
+</instructions>
+
+<instructions>
+
+## Download access codes template
+
+Import templates for multiple provisional users from spreadsheet application! Download a CSV file or copy to clipboard to bring into your spreadsheet application.
+
+1. Go to **Jobs**
+2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
+3. Click <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+4. Select **Create provisional user**
+5. Locate <span class="mdi mdi-dots-vertical"/> (vertical dots) More to open menu
+6. Select **Download access codes template**
+7. Select the format you want:
+   * Download to file (saves as per your browser preference)
+   * Copy to clipboard
+
+Now open your spreadsheet application with either the file or copy and paste from clipboard and then file in the fields
+ready to import
+
+<prompt>
+
+Important template has two fields: 
+* **Name**: include both first and last as to be displayed
+* **Expiry** in days, eg 30, 120 (default: 90, if nothing added)
 
 </prompt>
 
