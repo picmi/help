@@ -1,4 +1,4 @@
-`# Group hiring onsite
+# Group hiring onsite
 
 When hiring a group of workers onsite, it's important to create a smooth and efficient hiring process. This guide covers
 **setting up provisional users, preparing the environment, and working through contracts and templates**, with special
