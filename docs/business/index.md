@@ -3,6 +3,7 @@
 ## About PICMI
 
 - [Getting Started](about-picmi/getting-started)
+- [Upcoming season](article/upcoming-season.md)—inviting returning and new workers as provision users
 
 ## Jobs
 

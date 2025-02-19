@@ -22,6 +22,10 @@ export function sidebarBusiness() {
                     text: 'Language support',
                     link: '/business/about-picmi/language-support-translations'
                 },
+                {
+                    text: 'Upcoming season—returning and new workers',
+                    link: '/business/article/upcoming-season'
+                },
             ]
         },
         {
