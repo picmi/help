@@ -8,14 +8,14 @@ iPayroll does not accept non-NZ addresses
 
 ## Integration configuration
 
-| Configuration                                       | Description                              | Values                                                                               |
-|-----------------------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------|
-| [Token](#cfg-token){#cfg-token}                     | Token provided for authentication        | [Retrieve the API key](#retrieving-a-token) from CheckWorkRights by application user |
-| [Employer Subsidy](#cfg-subsidy){#cfg-subsidy}      | Employer subsidy contribution tax (ESCT) | 10.5%, 17.5%, 30%, 33%, 39%                                                          |
-| [Payment Method](#cfg-payment){#cfg-payment}        | Payment method                           | Bank, Cheque, Cash                                                                   |
-| [Payment Frequency](#cfg-frequency){#cfg-frequency} | Payment frequency                        | Weekly, Fortnightly, Monthly                                                         |
-| [Cost Centre](#cfg-cost){#cfg-cost}                 | Cost Center                              | Populated from iPayroll for your organisation                                        |
-| [User Defined Group](#cfg-user){#cfg-user}          | User Defined groups                      | Populated from iPayroll for your organisation                                        |
+| Configuration                                       | Description                              | Values                                                          |
+|-----------------------------------------------------|------------------------------------------|-----------------------------------------------------------------|
+| [Token](#cfg-token){#cfg-token}                     | Token provided for authentication        | [Retrieve the API key](#retrieving-a-token) by application user |
+| [Employer Subsidy](#cfg-subsidy){#cfg-subsidy}      | Employer subsidy contribution tax (ESCT) | 10.5%, 17.5%, 30%, 33%, 39%                                     |
+| [Payment Method](#cfg-payment){#cfg-payment}        | Payment method                           | Bank, Cheque, Cash                                              |
+| [Payment Frequency](#cfg-frequency){#cfg-frequency} | Payment frequency                        | Weekly, Fortnightly, Monthly                                    |
+| [Cost Centre](#cfg-cost){#cfg-cost}                 | Cost Center                              | Populated from iPayroll for your organisation                   |
+| [User Defined Group](#cfg-user){#cfg-user}          | User Defined groups                      | Populated from iPayroll for your organisation                   |
 
 ## PICMI-iPayroll integration fields
 
@@ -56,13 +56,15 @@ iPayroll does not accept non-NZ addresses
 
 ## How PICMI works with iPayroll
 
-PICMI integrates with iPayroll via a separate user in your organisation that has the access role [API User](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-api-user#API_User).
+PICMI integrates with iPayroll via a separate user in your organisation that has the access
+role [API User](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-api-user#API_User).
 
 <instructions>
 
 ## Retrieving a token
 
-iPayroll uses an oAuth process to issue a token which requires you to have a separate user with the API user access that you
+iPayroll uses an oAuth process to issue a token which requires you to have a separate user with the API user access that
+you
 agree to issue a token. This user is not your standard payroll user.
 
 **Note:** you can only have one integration token activated on a single user for PICMI
@@ -74,7 +76,7 @@ if you are currently signed in with your payroll user, log out first so that you
 </prompt>
 
 1. Use the URL provided by PICMI—if you are not logged
-2. Log in with your credentials that access to setting up an API 
+2. Log in with your credentials that access to setting up an API
 3. Click **Authorize**
 4. Provide the token back to PICMI to be added to your integration
 
@@ -100,7 +102,8 @@ Yes, a new user must be created. You are allowed to use the same password.
 
 <faq question="How can I create an API user" :expandAll="expandAll">
 
-In iPayroll > Setup > Users > Add User with access Api User (see [iPayroll help](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-roles-defined#Adding_users_to_your_iPayroll_Organisation))
+In iPayroll > Setup > Users > Add User with access Api User (
+see [iPayroll help](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-roles-defined#Adding_users_to_your_iPayroll_Organisation))
 
 <prompt>
 
@@ -118,13 +121,15 @@ In iPayroll > Setup > Users, look for a user with naming convention [organisatio
 
 <faq question="How do I know if I have an active integration key" :expandAll="expandAll">
 
-In iPayroll > Setup > Users, look for user [organisation number]apipicmi and in the right hand icons is one for active integration (with the ability to deactivate the integration)
+In iPayroll > Setup > Users, look for user [organisation number]apipicmi and in the right hand icons is one for active
+integration (with the ability to deactivate the integration)
 
 </faq>
 
 <faq question="iPayroll says I can only have one integration key" :expandAll="expandAll">
 
-In iPayroll > Setup > Users, look for the user that in the right hand icons has an active integration (and deactivate the integration)
+In iPayroll > Setup > Users, look for the user that in the right hand icons has an active integration (and deactivate
+the integration)
 
 </faq>
 
@@ -133,7 +138,6 @@ In iPayroll > Setup > Users, look for the user that in the right hand icons has 
 iPayroll requires a NZ address—reissue the contract
 
 </faq>
-
 
 ## General troubleshooting
 
