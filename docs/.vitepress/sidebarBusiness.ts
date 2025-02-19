@@ -26,6 +26,10 @@ export function sidebarBusiness() {
                     text: 'Upcoming season—returning and new workers',
                     link: '/business/article/upcoming-season'
                 },
+                {
+                    text: 'Group hiring onsite',
+                    link: '/business/article/group-hiring-onsite'
+                },
             ]
         },
         {

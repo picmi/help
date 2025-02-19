@@ -1,4 +1,4 @@
-# Upcoming season—inviting returning and new workers as provision users
+# Upcoming season—inviting returning and new workers as provisional users
 
 To prepare for the upcoming season, you’ll need to set up and invite both new and returning workers. These workers are
 typically grouped as new and existing users. This page will explain how to manage these groups by inviting them as
