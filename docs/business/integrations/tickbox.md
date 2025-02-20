@@ -1,7 +1,13 @@
 # Tickbox integration overview
 
 By setting up PICMI’s integration with Tickbox correctly, businesses can ensure smooth, compliant hiring processes with
-minimal administrative burden.
+minimal administrative burden for a job inductions.
+
+<prompt>
+
+Each job application in PICMI can be matched to a job type in Tickbox.
+
+</prompt>
 
 ## Integration configuration
 
@@ -13,12 +19,13 @@ minimal administrative burden.
 
 ## PICMI-Tickbox integration fields
 
-| Field Name                                      | Description                       | Validation/Constraint/Default Value | Source                    |
-|-------------------------------------------------|-----------------------------------|-------------------------------------|---------------------------|
-| [First name](#first-name){#first-name}          | First name of the employee        | Mandatory (if no email)             | Personal Information      |
-| [Last name](#last-name){#last-name}             | Last name of the employee         | Mandatory (if no email)             | Personal Information      |
-| [Email address](#email-address){#email-address} | Email address of the employee     |                                     | Personal Information      |
-| [Job](#job){#job}                               | Chosen from setup jobs in Tickbox | Default: none                       | Integration Configuration |
+| Field Name                                      | Description                                                          | Validation/Constraint/Default Value                           | Source                    |
+|-------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------|---------------------------|
+| [First name](#first-name){#first-name}          | First names of the employee                                          | Mandatory (if no email)—will not work with unicode characters | Personal Information      |
+| [Last name](#last-name){#last-name}             | Last name of the employee                                            | Mandatory (if no email)—will not work with unicode characters | Personal Information      |
+| [Email address](#email-address){#email-address} | Email address of the employee (invitation is send out automatically) |                                                               | Personal Information      |
+| [Phone](#phone){#phone}                         | Accepts only NZ domestic mobile phones                               |                                                               | Personal Information      |
+| [Job](#job){#job}                               | Chosen from setup jobs in Tickbox                                    | Default: none                                                 | Integration Configuration |
 
 <explanation>
 
