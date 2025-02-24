@@ -24,7 +24,7 @@ Each job application in PICMI can be matched to a job type in Tickbox.
 | [First name](#first-name){#first-name}          | First names of the employee                                          | Mandatory (if no email)—will not work with unicode characters | Personal Information      |
 | [Last name](#last-name){#last-name}             | Last name of the employee                                            | Mandatory (if no email)—will not work with unicode characters | Personal Information      |
 | [Email address](#email-address){#email-address} | Email address of the employee (invitation is send out automatically) |                                                               | Personal Information      |
-| [Phone](#phone){#phone}                         | Accepts only NZ domestic mobile phones                               |                                                               | Personal Information      |
+| [Phone](#phone){#phone}                         | Only receives NZ domestic mobile phones (sent as a national number)  |                                                               | Personal Information      |
 | [Job](#job){#job}                               | Chosen from setup jobs in Tickbox                                    | Default: none                                                 | Integration Configuration |
 
 <explanation>
