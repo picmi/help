@@ -112,6 +112,12 @@ records.
 
 If the person is not already in CheckWorkRights from the PICMI integration, you can proceed with scanning as usual.
 
+<prompt>
+
+Duplicate records must be manually resolved in CheckWorkRights.
+
+</prompt>
+
 <instructions>
 
 ## Retrieving a token
