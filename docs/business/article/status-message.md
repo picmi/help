@@ -79,7 +79,8 @@ two ways:
 
 * **[Existing messages](#add-existing-message) across all applications**: scan for messages that have been used in the
   same application status so that the experience is similar across people applying
-* **[Previous versions of messages](#add-previous-message) in the current application**: check that your messaging is consistent with what the
+* **[Previous versions of messages](#add-previous-message) in the current application**: check that your messaging is
+  consistent with what the
   person might be expecting based on previous communication
 
 <instructions>
@@ -183,6 +184,13 @@ Add messages that have been used on this application
 4. Choose an action on any message
     * **Show**: displays the entire message formatted
     * **Copy**: adds the text to the message editor
+
+<prompt>
+
+To resend a reminder, create a new message entry. This ensures you can track repeats. You can copy messages for this
+purpose. You may also want to add new information.
+
+</prompt>
 
 </instructions>
 
