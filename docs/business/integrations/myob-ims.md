@@ -1,11 +1,78 @@
 # Integration Configuration integration overview
 
 The Employee Import Utility from MYOB will only read information from data files provided in a CSV (
-comma-separated-values)
-format. The format may be either in a quotation delimited format or required quotes may be inserted during the import.
-PICMI generates the report files programmatically using the "Titled Columns" without double quotes including the "
-Required" fields
-and other user fields. All data is validated prior to export to any known rules as listed below.
+comma-separated-values) format. The format may be either in a quotation delimited format or required quotes may be
+inserted during the import. PICMI generates the report files programmatically using the "Titled Columns" without double
+quotes including the "Required" fields and other user fields. All data is validated prior to export to any known rules
+as listed below.
+
+<explanation>
+
+## Special considerations: managing occupation and costing codes in PICMI exports
+
+PICMI allows you to **export data as a CSV file**, which you can **edit after downloading**. Each export is set of applications which
+can have multiple types of jobs. 
+
+<prompt>
+
+While each job can have a specific integration configuration, it is not possible to download all jobs
+at once with different integration configurations. Therefore, when managing multiple occupation and costing codes we still recommend only having
+one integration configuration and make changes immediately prior to import. 
+
+</prompt>
+
+To make the process as smooth as possible, follow these steps:
+
+### Understanding How Integration Configurations Work
+
+1. **Default values**
+    - PICMI sets **default values** in the integration configuration (e.g., occupation and costing code).
+    - These values are automatically included in the CSV when exported.
+    - You **can change these values after exporting the CSV**.
+
+2. **One occupation & costing code per integration**
+    - Each **integration configuration** can only have **one occupation and one costing code**.
+    - If you have jobs with different occupations or costing codes, **you may need multiple integration configurations
+      **.
+
+3. **How to export the right data**
+    - You **download the CSV per integration configuration**.
+    - To get the correct data, **filter applications to only include those linked to the job(s) with that integration
+      configuration**.
+
+4. **Managing multiple configurations**
+    - If you have **many different occupations and costing codes**, you will need:
+        - **More setup** in PICMI to create the required integration configurations.
+        - **Careful selection** of the correct integration configuration **before each CSV download**.
+
+### PICMI’s recommendation to use single integration configuration where possible
+
+To **avoid extra setup** and make downloads simpler:
+
+- Use a **single integration configuration** where possible.
+- **After downloading the CSV, manually update occupation and costing codes** as needed.
+- This **reduces complexity** while still allowing you to customise the data.
+
+Following this approach will make managing occupations and costing codes in PICMI **easier and more efficient**.
+
+</explanation>
+
+## Integration configuration
+
+| Configuration                                                                | Description                                        | Values                                          |
+|------------------------------------------------------------------------------|----------------------------------------------------|-------------------------------------------------|
+| [Occupation](#cfg-occupation){#cfg-occupation}                               | Employee's occupation                              | Free text should correspond to MYOB IMS         |
+| [Costing Code](#cfg-costing-code){#cfg-costing-code}                         | Cost allocation code                               | Free text should correspond to MYOB IMS         |
+| [Pay Point](#cfg-pay-point){#cfg-pay-point}                                  | Pay point assigned to employee                     | Free text should correspond to MYOB IMS         |
+| [Bank Reference](#cfg-bank-reference){#cfg-bank-reference}                   | Reference for bank transactions                    | Free text                                       |
+| [Bank Particulars](#cfg-bank-particulars){#cfg-bank-particulars}             | Additional bank transaction details                | Free text                                       |
+| [Print Payslip](#cfg-print-payslip){#cfg-print-payslip}                      | Whether to print payslip                           | True / False                                    |
+| [Email Payslip](#cfg-email-payslip){#cfg-email-payslip}                      | Whether to email payslip                           | True / False                                    |
+| [Employer Subsidy Contribution Tax Rate](#cfg-subsidy-tax){#cfg-subsidy-tax} | ESCT tax rate on employer subsidy contribution     | 10.5%, 17.5%, 30%, 33%, 39%                     |
+| [Employer Subsidy Rate](#cfg-subsidy-rate){#cfg-subsidy-rate}                | Rate of employer subsidy contribution              | Percentage number (e.g., 3)                     |
+| [KiwiSaver GL Account](#cfg-kiwisaver-gl){#cfg-kiwisaver-gl}                 | General Ledger account for KiwiSaver contributions | Free text                                       |
+| [Hours Worked Per Day](#cfg-hours-day){#cfg-hours-day}                       | Standard hours worked per day                      | Numeric up to one decimal place (e.g., 8, 2.5)  |
+| [Hours Worked Per Period](#cfg-hours-period){#cfg-hours-period}              | Total hours worked in a pay period                 | Numeric up to one decimal place (e.g., 7.5, 40) |
 
 ## PICMI-Integration Configuration integration fields
 
@@ -46,7 +113,7 @@ and other user fields. All data is validated prior to export to any known rules 
 | [GSCM](#gscm){#gscm}                                                                            | GSCM flag                                          | Y, N, T, F. Default: N. Mandatory                                                          |                           |
 | [Use average daily pay](#use-average-daily-pay){#use-average-daily-pay}                         | Use of average daily pay method                    | Y, N, T, F. Default: Y. Mandatory                                                          |                           |
 | [Time in lieu units](#time-in-lieu-units){#time-in-lieu-units}                                  | Units for time in lieu                             | D, H. Default: D. Mandatory                                                                |                           |
-| [KiwiSaver entry status](#kiwisaver-entry-status){#kiwisaver-entry-status}                      | Employee's KiwiSaver entry status                  | N, A, O, E. Mandatory                                                                      | Questions                 |
+| [KiwiSaver entry status](#kiwisaver-entry-status){#kiwisaver-entry-status}                      | Employee's KiwiSaver entry status                  | N, A, O, E. Mandatory (Default to N if Working Holiday Visa is detected                    | Questions                 |
 | [KiwiSaver opt in date](#kiwisaver-opt-in-date){#kiwisaver-opt-in-date}                         | Date the employee opted into KiwiSaver             |                                                                                            | Questions                 |
 | [KiwiSaver employee active](#kiwisaver-employee-active){#kiwisaver-employee-active}             | Whether the employee is actively contributing      |                                                                                            | Questions                 |
 | [KiwiSaver employee percentage](#kiwisaver-employee-percentage){#kiwisaver-employee-percentage} | Employee's KiwiSaver contribution percentage       |                                                                                            | Integration Configuration |
