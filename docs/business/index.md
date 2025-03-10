@@ -25,6 +25,7 @@
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
 - [Checking application configuration](article/checking-application-configuration)
 - [Add status message](article/status-message)
+- [Contract and personal details](article/contract-and-personal-details.md)
 - [Export application details](article/export.md)
 
 ## Workflows

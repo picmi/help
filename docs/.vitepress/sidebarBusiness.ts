@@ -79,6 +79,10 @@ export function sidebarBusiness() {
                     link: '/business/article/searching-for-people'
                 },
                 {
+                    text: 'Contracts and personal details',
+                    link: '/business/article/contracts-and-personal-details'
+                },
+                {
                     text: 'Export application details',
                     link: '/business/article/export'
                 },
