@@ -143,6 +143,12 @@ CSV integrations will only show a limited set phases because the data is directl
     * Select Integration Provider
     * Click **Change Setting** when you're done
 
+<prompt>
+
+Use the same process by select OFF at Add new setting setup
+
+</prompt>
+
 </instructions>
 
 ## FAQs

@@ -444,6 +444,21 @@ see [integration rules](integrations/integration-events#general-integration-rule
 </faq>
 
 
+<faq question="How can I make an integration automatic?" :expandAll="expandAll">
+
+An integration sync setting can be turned ON per job
+see [integration rules](integrations/integration-events#setup-automatic-create-employee-sending-of-data-on-accepted-application)
+
+</faq>
+
+
+<faq question="How can I can I turn off an automatic integration?" :expandAll="expandAll">
+
+An integration sync setting can be turned OFF per job. Use the same process but select **OFF** at **Add new setting** step
+see [integration rules](integrations/integration-events##setup-automatic-create-employee-sending-of-data-on-accepted-application)
+
+</faq>
+
 <faq question="How can I create a record if the person is already Completed?" :expandAll="expandAll">
 
 You will need to do this in three steps on each person record:
