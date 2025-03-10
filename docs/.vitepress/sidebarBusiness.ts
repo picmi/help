@@ -80,7 +80,7 @@ export function sidebarBusiness() {
                 },
                 {
                     text: 'Contracts and personal details',
-                    link: '/business/article/contracts-and-personal-details'
+                    link: '/business/article/contract-and-personal-details'
                 },
                 {
                     text: 'Export application details',
