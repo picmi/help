@@ -4,7 +4,8 @@
 
 - [Getting Started](about-picmi/getting-started)
 - [Upcoming season](article/upcoming-season.md)—inviting returning and new workers as provision users
-- [Group hiring onsite](article/group-hiring-onsite.md)o
+- [Group hiring onsite](article/group-hiring-onsite.md)
+- [Managing different start dates](guide/managing-different-start-dates.md)
 
 ## Jobs
 

@@ -54,7 +54,7 @@ The status of the job is viewable per job row in the Job view.
 2. Click <span class="mdi mdi-plus">**Create Job**</span>  to start the job builder
 3. Work through the steps on the builder
    * Use **Next** and **Back** to navigate (**Exit** to stop)
-   * Enter the field details as you go
+   * Enter the field details as you go (see [fields](#job-fields))
 4. Click **Done** when finished
 
 The job will be added to the list
@@ -64,5 +64,25 @@ The job will be added to the list
 Often it is best to [duplicate a job](duplicate-a-job.md) rather than start new particularly because it copies across [integrations](../integrations/integrations.md)
 
 </prompt>
+
+</instructions>
+
+<instructions>
+
+## Updating job fields
+
+The status of the job is viewable per job row in the Job view.
+
+1. Go to**Jobs**
+2. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
+3. Click &vellip; (vertical dots) to open the menu
+4. Click **Edit**
+5. Work through each of the sections in the menu
+   * Use **Back** and **Save** to navigate
+   * Enter the field details as you go
+     * 
+6. Click **Done** when finished
+
+The job details will be updated on each Save
 
 </instructions>
