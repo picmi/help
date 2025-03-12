@@ -1,5 +1,6 @@
 export function nav() {
     return [
+        { text: 'PICMI', link: 'https://jobs.picmi.io' },
         { text: 'Jobseeker', link: '/jobseeker/', activeMatch: '/jobseeker/' },
         { text: 'Business', link: '/business/', activeMatch: '/business/' },
         /*
