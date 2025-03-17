@@ -497,6 +497,50 @@ Use [export details](article/export.md) to create your own CSV set of records
 
 </faq>
 
+## Integration Events
+
+<faq question="Why was a new employee record not created?" :expandAll="expandAll">
+
+The system detected that the employee already exists in the integration by matching their mapped External ID. To prevent duplicate records, it did not create a new entry.
+
+</faq>
+
+<faq question="I thought Staff IDs were randomly generated. How can they match an existing employee?" :expandAll="expandAll">
+
+External IDs are unique to each employee and are used to identify them in the system. While they are randomly generated when an employee is first created, they remain consistent for that individual to ensure proper record-keeping.
+
+</faq>
+
+<faq question="What happens if an existing employee’s details have changed?" :expandAll="expandAll">
+
+Currently, if the system detects an existing External ID, it does not update the employee’s details automatically. This prevents unintended overwrites but may require manual intervention if important updates need to be made.
+
+</faq>
+
+<faq question="How can I update an existing employee’s information?" :expandAll="expandAll">
+
+If an employee’s details have changed but the system does not create a new record, you may need to update their information manually in the integration. If you're unsure how to proceed, please contact support for assistance.
+
+</faq>
+
+<faq question="Can this process be changed so that updates are applied automatically?" :expandAll="expandAll">
+
+We are actively exploring ways to refine this process. While preventing duplicate entries is necessary, we understand the need to ensure updates are applied correctly. If you have specific requirements or feedback, we’d love to hear from you.
+
+</faq>
+
+<faq question="How do I ensure all necessary updates are transferred for an existing employee?" :expandAll="expandAll">
+
+We recommend reviewing the employee’s current details in the existing integration system and making any required updates manually. If you need help identifying what has changed, reach out to our support team.
+
+</faq>
+
+<faq question="What should I do if I still believe this is an error?" :expandAll="expandAll">
+
+If you suspect an issue with External ID generation or employee creation, please provide details (such as the affected External ID and employee information) to our support team so we can investigate further.
+
+</faq>
+
 ## Billing
 
 <faq question="What should I do if I mistakenly send an application to the wrong person and they accept it?" :expandAll="expandAll">
