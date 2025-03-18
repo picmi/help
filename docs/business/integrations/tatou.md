@@ -1,5 +1,13 @@
 # Tātou integration overview
 
+<explanation>
+
+## Uniqueness detection
+
+PICMI only checks for duplicates based on email, not Staff ID. This means that if an employee’s email is different, PICMI will assume they are a new hire, even if they are actually the same person in Tātou.
+
+</explanation>
+
 ## PICMI-Tātou integration fields
 
 | Field Name                                               | Description                                                   | Validation/Constraint/Default Value | Source                    |
