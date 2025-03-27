@@ -98,7 +98,19 @@ one.
 
 ## Authorisation
 
-* [OAuth](integrations.md#different-ways-to-authorise-picmi-to-transfer-data)
+To connect PICMI with Xero, we use **OAuth** (a simple one-click authorisation). Just make sure you sign in to both Xero and PICMI in your browser to link the two systems.
+
+[Read more about OAuth in our integrations guide](integrations.md#different-ways-to-authorise-picmi-to-transfer-data)
+
+### Key things to know about Xero's authorisation rules:
+
+- When you first connect PICMI to Xero, Xero gives us a **one-time code**. This code **expires after 5 minutes**, so it must be used quickly.
+- That one-time code lets PICMI securely request:
+  - An **access token** – this allows us to talk to Xero on your behalf.
+  - A **refresh token** – this allows us to keep that connection going over time.
+- The **access token** only lasts **30 minutes**, but don’t worry – PICMI refreshes it automatically in the background.
+- The **refresh token** lasts **60 days**, but again, you don’t need to worry – PICMI automatically refreshes it after **45 days** to keep things running smoothly.
+- If the **refresh token ever expires**, you’ll need to re-authorise PICMI by going through the connection process again.
 
 ## Troubleshooting
 
