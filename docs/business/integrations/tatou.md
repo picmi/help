@@ -29,6 +29,35 @@ PICMI only checks for duplicates based on email, not Staff ID. This means that i
 
 <explanation>
 
+## FAQ
+
+<faq question="How can I view the staff ID?" :expandAll="expandAll">
+
+The external ID in PICMI is the unique identifier assigned to an employee. You can view it by following these steps:
+
+1. Navigate to the **Integration**.
+2. Select Integration: **Tātou**
+3. Select **Employee (Show)**
+4. Click **Submit**
+5. Locate the **Staff ID** field.
+
+Alternatively:
+
+1. Go to **People**
+2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+3. Locate **Jobseeker** section
+4. Select **External Identifiers**
+5. Locate the **person** row <span class="mdi mdi-checkbox-marked-outline"></span>
+6. View the external identifiers (if there is only one then this will match the integration)
+
+<prompt>
+
+Staff ID requires a mapping and is by default setup via the External Identifier created on the integration configuration.
+
+</prompt>
+
+</faq>
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
