@@ -1,4 +1,4 @@
-# KYE vs. KYW: Understanding the Key Differences
+# KYE vs KYW: Understanding the Key Differences
 
 Workforce compliance is critical for businesses, but not all compliance frameworks are the same. Two key approaches—*
 *Know Your Employee (KYE) and Know Your Workforce (KYW)**—serve different but complementary purposes.
@@ -19,7 +19,6 @@ needs.
 | **Regulatory Focus** | Labour laws, HR policies, payroll compliance   | Workforce composition, diversity, regulatory adherence           |
 | **Use Cases**        | HR verification, payroll processing            | Workforce analytics, compliance tracking                         |
 
-
 ## Breaking Down KYE: The Employee-Focused Approach
 
 KYE ensures that **every employee is legally eligible to work** and meets company and regulatory requirements. This
@@ -28,20 +27,18 @@ operational disruptions.
 
 ### Key Components of KYE:
 
-* **Verification of right to work**—Ensuring valid visas, work permits, and residency status.  
-* **Identity confirmation**—Checking official identification and biometric verification if needed.  
-* **Payroll compliance**—Ensuring proper documentation and adherence to tax laws.  
-* **Internal security**—Background checks and employment history validation.  
+* **Verification of right to work**—Ensuring valid visas, work permits, and residency status.
+* **Identity confirmation**—Checking official identification and biometric verification if needed.
+* **Payroll compliance**—Ensuring proper documentation and adherence to tax laws.
+* **Internal security**—Background checks and employment history validation.
 * **Regulatory reporting**—Maintaining an audit trail to prove compliance with employment laws.
 
 <prompt>
 
 **Best Practice:** Automating these checks with **CheckWorkRights** or similar tools ensures a seamless compliance
-
-</prompt>
 process and reduces administrative overhead.
 
-
+</prompt>
 
 ## Understanding KYW: The Workforce-Wide Perspective
 
@@ -51,25 +48,25 @@ such as in agriculture, construction, and seasonal industries.
 
 ### Key Components of KYW:
 
-* **Tracking workforce composition**—Understanding direct and indirect workforce structure.  
-* **Real-time compliance monitoring**—Ensuring ongoing visa and work rights verification.  
-* **Diversity & inclusion reporting**—Measuring workforce demographics for compliance.  
-* **Strategic workforce planning**—Using analytics to optimise labour allocation.  
+* **Tracking workforce composition**—Understanding direct and indirect workforce structure.
+* **Real-time compliance monitoring**—Ensuring ongoing visa and work rights verification.
+* **Diversity & inclusion reporting**—Measuring workforce demographics for compliance.
+* **Strategic workforce planning**—Using analytics to optimise labour allocation.
 * **Contractor accountability**—Ensuring that third-party hiring practices meet compliance standards.
 
 <prompt>
 
-**Pro Tip:** KYW tools like **PICMI** provide **real-time workforce visibility**, reducing risks of undocumented
+**Pro Tip:** KYW tools like **PICMI** provide **real-time workforce visibility**, reducing risks of undocumented labour
+and ensuring legal hiring practices.
 
 </prompt>
-labour and ensuring legal hiring practices.
-
-
 
 ## Why Businesses Need Both KYE and KYW
 
-While **KYE focuses on individual employee compliance**, KYW helps businesses maintain **strategic workforce oversight
-**. Relying on just one approach can leave compliance gaps:
+While **KYE focuses on individual employee compliance**, KYW helps businesses maintain **strategic workforce
+oversight**.
+
+Relying on just one approach can leave compliance gaps:
 
 - **Without KYE:** Employers risk hiring workers without legal work status, leading to fines and operational issues.
 - **Without KYW:** Businesses may lack visibility into their indirect workforce, increasing risks of exploitation or
@@ -81,7 +78,6 @@ workforce management.
 <prompt>
 
 **Take Action Today:** Ensure your **hiring, workforce tracking, and compliance efforts** are future-proof by
-
-</prompt>
 implementing **KYE and KYW together**!
 
+</prompt>

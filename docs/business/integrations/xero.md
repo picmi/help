@@ -72,30 +72,40 @@ one.
 | [Start Date](#nz-start-date){#nz-start-date}                                                                                                                | Employment start date                                                          | Must follow the format YYYY-MM-DD                                                                                                     | Job                       |
 | [End Date](#nz-end-date){#nz-end-date}                                                                                                                      | Employment end date                                                            | Must follow the format YYYY-MM-DD (defaults to 7 days after if Fixed Term and empty)                                                  | Job                       |
 
-## Payroll AU: Integration configuration
+# Payroll AU: Integration configuration
 
-| Configuration                                                    | Description                          | Values                              |
-|------------------------------------------------------------------|--------------------------------------|-------------------------------------|
-| [Statement text](#cfg-au-statement-text){#cfg-au-statement-text} | Particulars for bank statements      |                                     |
-| [Employment type](#cfg-au-employment){#cfg-au-employment}        | Type of engagement with the employee | Employee, Contractor                |
-| [Address region](#cfg-au-region){#cfg-au-region}                 | Default region used if not provided  | ACT, NSW, NT, QLD, SA, TAS, VIC, WA |
+| Configuration                                                                 | Description                                                                           | Values                                                  |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [Statement text](#cfg-au-statement-text){#cfg-au-statement-text}              | The text that will appear on your employee's bank statement when they receive payment |                                                         |
+| [Employment type](#cfg-au-employment){#cfg-au-employment}                     | Type of employment with the employee                                                  | Employee, Contractor                                    |
+| [Employment basis](#cfg-au-employment-basis){#cfg-au-employment-basis}        | Basis of engagement with the employee for tax purposes                                | Full-time, part-time, casual, labour hire, non-employee |
+| [Address region](#cfg-au-region){#cfg-au-region}                              | Default region used if not provided                                                   | ACT, NSW, NT, QLD, SA, TAS, VIC, WA                     |
+| [Earnings Rate](#cfg-au-earnings-rate){#cfg-au-earnings-rate}                 | Xero unique identifier for earnings rate                                              | Optional                                                |
+| [Pay Run Calendar](#cfg-au-pay-run-calendar){#cfg-au-pay-run-calendar}        | Xero unique identifier for payroll calendar for the employee                          | Optional                                                |
+| [Super Fund](#cfg-au-super-fund){#cfg-au-super-fund}                          | Xero identifier for super fund; requires EmployeeNumber                               | Optional                                                |
+| [External Id Generator](#cfg-au-super-fund-emp-id){#cfg-au-super-fund-emp-id} | Recommended to use the 15 digit generator on the integration (for Super Fund)         | Optional                                                |
 
 ## Payroll AU: PICMI-Xero integration fields
 
-| Field Name                                                  | Description                                                   | Validation/Constraint/Default Value                    | Source               |
-|-------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|----------------------|
-| [Surname](#au-surname){#au-surname}                         | Last name of the employee                                     | Mandatory                                              | Personal Information |
-| [First Name](#au-first-name){#au-first-name}                | First name of the employee                                    | Mandatory                                              | Personal Information |
-| [Date Of Birth](#au-date-of-birth){#au-date-of-birth}       | Employee's date of birth                                      | Optional, preferred format: dd/MM/yyyy                 | Personal Information |
-| [Email](#au-email){#au-email}                               | Employee's email address                                      | Must be a valid email format                           | Personal Information |
-| [Phone Number](#au-phone-number){#au-phone-number}          | Employee's phone number                                       | Maximum 13 digits, no dashes or spaces, no '+'         | Personal Information |
-| [Address](#au-address){#au-address}                         | Employee’s home address, including street, city, and postcode | Mandatory                                              | Personal Information |
-| [Gender](#au-gender){#au-gender}                            | Gender of the employee                                        | Options: Male/Female/Non-Binary/Not Stated             | Personal Information |
-| [Job Title](#au-job-title){#au-job-title}                   | Employee’s job title                                          | Optional                                               | Job                  |
-| [Employment Type](#au-employment-type){#au-employment-type} | Type of employment for the employee                           | Optional, Fulltime, Parttime, Casual, Labourhire, etc. | Job                  |
-| [Start Date](#au-start-date){#au-start-date}                | Employment start date                                         | Optional, preferred format: YYYY-MM-DD                 | Job                  |
-| [Bank Account](#au-bank-account){#au-bank-account}          | Employee's primary bank account information                   | Optional                                               | Personal Information |
-| [Tax Declaration](#au-tax-declaration){#au-tax-declaration} | Employee’s tax declaration                                    | Optional                                               | Personal Information |
+| Field Name                                                              | Description                                                   | Validation/Constraint/Default Value                    | Source               |
+|-------------------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|----------------------|
+| [Surname](#au-surname){#au-surname}                                     | Last name of the employee                                     | Mandatory                                              | Personal Information |
+| [First Name](#au-first-name){#au-first-name}                            | First name of the employee                                    | Mandatory                                              | Personal Information |
+| [Date Of Birth](#au-date-of-birth){#au-date-of-birth}                   | Employee's date of birth                                      | Optional, preferred format: dd/MM/yyyy                 | Personal Information |
+| [Email](#au-email){#au-email}                                           | Employee's email address                                      | Must be a valid email format                           | Personal Information |
+| [Phone Number](#au-phone-number){#au-phone-number}                      | Employee's phone number                                       | Maximum 13 digits, no dashes or spaces, no '+'         | Personal Information |
+| [Address](#au-address){#au-address}                                     | Employee’s home address, including street, city, and postcode | Mandatory                                              | Personal Information |
+| [Gender](#au-gender){#au-gender}                                        | Gender of the employee                                        | Options: Male/Female/Non-Binary/Not Stated             | Personal Information |
+| [Job Title](#au-job-title){#au-job-title}                               | Employee’s job title                                          | Optional                                               | Job                  |
+| [Employment Type](#au-employment-type){#au-employment-type}             | Type of employment for the employee                           | Optional, Fulltime, Parttime, Casual, Labourhire, etc. | Job                  |
+| [Start Date](#au-start-date){#au-start-date}                            | Employment start date                                         | Optional, preferred format: YYYY-MM-DD                 | Job                  |
+| [Bank Account Name](#au-bank-account-name){#au-bank-account-name}       | The name of the bank account                                  | Optional, 32 characters maximum                        | Personal Information |
+| [Bank Account BSB](#au-bank-account-bsb){#au-bank-account-bsb}          | The BSB number of the account                                 | Optional                                               | Personal Information |
+| [Bank Account Number](#au-bank-account-number){#au-bank-account-number} | The account number                                            | Optional                                               | Personal Information |
+| [Tax Declaration](#au-tax-declaration){#au-tax-declaration}             | Employee’s tax declaration                                    | Optional                                               | Personal Information |
+| [Earnings Rate](#au-earnings-rate){#au-earnings-rate}                   | Xero unique identifier for earnings rate                      | Optional                                               | Configuration        |
+| [Pay Run Calendar](#au-pay-run-calendar){#au-pay-run-calendar}          | Xero unique identifier for payroll calendar for employee      | Optional                                               | Configuration        |
+| [Super Fund](#au-super-fund){#au-super-fund}                            | Xero identifier for super fund, requires EmployeeNumber       | Optional                                               | Configuration        |
 
 ## Authorisation
 
