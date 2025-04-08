@@ -6,6 +6,7 @@
 - [Upcoming season](article/upcoming-season.md)—inviting returning and new workers as provision users
 - [Group hiring onsite](article/group-hiring-onsite.md)
 - [Managing different start dates](guide/managing-different-start-dates.md)
+- [People changing roles and requiring new contract](guide/changing-a-role.md)
 
 ## Jobs
 

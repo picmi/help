@@ -30,6 +30,10 @@ export function sidebarBusiness() {
                     text: 'Group hiring onsite',
                     link: '/business/article/group-hiring-onsite'
                 },
+                {
+                    text: 'Changing roles',
+                    link: '/business/guide/changing-a-role'
+                },
             ]
         },
         {
