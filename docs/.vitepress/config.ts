@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { nav } from './nav';
 import { sidebarJobseeker } from './sidebarJobseeker';
 import { sidebarBusiness } from './sidebarBusiness';
+import { markdownItFaq } from '../../plugins/markdown-it-faq';
 
 // const version = '1.0.0';
 
@@ -9,7 +10,11 @@ export default defineConfig({
     lang: 'en-US',
     title: 'Help Centre',
     description: 'How can we help?',
-
+    markdown: {
+        config(md){
+            markdownItFaq(md);
+        }
+    },
     lastUpdated: true,
     themeConfig: {
         logo: { light: '/logo-no-name-outline-black.svg', dark: '/logo-no-name-outline-white.svg' },

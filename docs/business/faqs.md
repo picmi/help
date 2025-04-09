@@ -4,7 +4,7 @@
 
 ## General Questions
 
-<faq question="What is PICMI?" :expandAll="expandAll" >
+<faq question="What is PICMI?" :expandAll="expandAll">
   PICMI is a tool that connects people (your potential workforce) with you (the employer) through a streamlined hiring process. People can review detailed information about companies, such as culture and working conditions, to decide if they are a good fit.
 </faq>
 
@@ -399,7 +399,8 @@ Change the [default date format](article/export.md#set-as-default-date-format-fo
 
 <faq question="I have reissued and no email was received?">
 
-Check that they person is not a [provisional user](article/provisional-user.md), otherwise look in [email not found](../email-not-found.md)
+Check that they person is not a [provisional user](article/provisional-user.md), otherwise look
+in [email not found](../email-not-found.md)
 
 </faq>
 
@@ -407,18 +408,29 @@ Check that they person is not a [provisional user](article/provisional-user.md),
 
 <faq question="Why am I receiving multiple notifications saying there are no vacancies?"  :expandAll="expandAll">
 
-PICMI is designed to notify you immediately when a vacancy check is performed, ensuring that you’re kept up-to-date in real time. However, if multiple checks are performed in quick succession—such as when retries are made—you might receive multiple notifications in a short period.
+PICMI is designed to notify you immediately when a vacancy check is performed, ensuring that you’re kept up-to-date in
+real time. However, if multiple checks are performed in quick succession—such as when retries are made—you might receive
+multiple notifications in a short period.
 
 ### Why doesn’t PICMI bundle these notifications?
-We prioritise immediate updates to ensure you have the most accurate information as soon as possible. While bundling notifications could reduce duplicates, it introduces a delay, and many customers value the immediacy of real-time updates.
 
-Additionally, determining the best bundling period is challenging because preferences vary. Some users may prefer updates every 10 minutes, while others might prefer hourly or daily summaries. Since we can only set a single time period for all customers, we’ve opted to keep notifications immediate to suit the majority.
+We prioritise immediate updates to ensure you have the most accurate information as soon as possible. While bundling
+notifications could reduce duplicates, it introduces a delay, and many customers value the immediacy of real-time
+updates.
+
+Additionally, determining the best bundling period is challenging because preferences vary. Some users may prefer
+updates every 10 minutes, while others might prefer hourly or daily summaries. Since we can only set a single time
+period for all customers, we’ve opted to keep notifications immediate to suit the majority.
 
 ### Does this issue affect everyone?
-No, most users don’t experience multiple notifications because retries are usually less frequent. This tends to happen only in a few cases where repeated vacancy checks occur in quick succession.
+
+No, most users don’t experience multiple notifications because retries are usually less frequent. This tends to happen
+only in a few cases where repeated vacancy checks occur in quick succession.
 
 ### What can be done to improve this?
-We’re always open to feedback and considering improvements. If you feel bundling notifications would be helpful, let us know what time period would work best for you:
+
+We’re always open to feedback and considering improvements. If you feel bundling notifications would be helpful, let us
+know what time period would work best for you:
 
 * 10 minutes for quick updates.
 * 1 hour for moderate consolidation.
@@ -426,7 +438,41 @@ We’re always open to feedback and considering improvements. If you feel bundli
 
 Your input can help us refine our approach and better meet your needs.
 
-If you have further questions or suggestions, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
+If you have further questions or suggestions, please reach out to our support team via
+the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
+to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
+
+</faq>
+
+## Jobs/roles
+
+<faq question="What is the process when someone changes their role and their contract needs to be updated?" :expandAll="expandAll">
+
+When someone changes roles, the next steps depend on whether it’s a **new role** or just a **contract amendment**.
+
+- If the person is moving into a **new role**, this typically requires setting up a **new job** in PICMI.
+    - First, **complete their current job**, including an **internal status message** to explain the transition.
+    - Then, **invite them to the new job** (which may already exist or need to be created).
+
+- If it’s a **minor change** (e.g. updated pay or hours but the role remains the same), you can **reissue the contract
+  using a personal override**. In this case, a new job is not needed.
+
+You do **not** need to terminate the person’s contract. The update is handled by completing the current application and
+issuing a new one, or by using overrides to amend the existing contract.
+
+If you're unsure which actions are available at different application stages, refer
+to [Applications](about-picmi/applications.md).
+
+You can also review [Changing a person’s role](guide/changing-a-role.md) for detailed guidance on when to create a new
+job, workflow, or contract.
+
+If you need further help, please provide:
+
+- The person involved
+- The current job
+- The changes you're planning
+
+We’re happy to advise based on your specific situation.
 
 </faq>
 
@@ -454,7 +500,8 @@ see [integration rules](integrations/integration-events#setup-automatic-create-e
 
 <faq question="How can I can I turn off an automatic integration?" :expandAll="expandAll">
 
-An integration sync setting can be turned OFF per job. Use the same process but select **OFF** at **Add new setting** step
+An integration sync setting can be turned OFF per job. Use the same process but select **OFF** at **Add new setting**
+step
 see [integration rules](integrations/integration-events##setup-automatic-create-employee-sending-of-data-on-accepted-application)
 
 </faq>
@@ -487,7 +534,8 @@ This can be done at any time.
 
 <faq question="How can I download for a CSV import into another system?">
 
-Accepted records can be download as a [report](integrations/download-reports.md) from the [CSV integrations](integrations/integrations#available-integrations) type
+Accepted records can be download as a [report](integrations/download-reports.md) from
+the [CSV integrations](integrations/integrations#available-integrations) type
 
 </faq>
 
@@ -501,43 +549,51 @@ Use [export details](article/export.md) to create your own CSV set of records
 
 <faq question="Why was a new employee record not created?" :expandAll="expandAll">
 
-The system detected that the employee already exists in the integration by matching their mapped External ID. To prevent duplicate records, it did not create a new entry.
+The system detected that the employee already exists in the integration by matching their mapped External ID. To prevent
+duplicate records, it did not create a new entry.
 
 </faq>
 
 <faq question="I thought Staff IDs were randomly generated. How can they match an existing employee?" :expandAll="expandAll">
 
-External IDs are unique to each employee and are used to identify them in the system. While they are randomly generated when an employee is first created, they remain consistent for that individual to ensure proper record-keeping.
+External IDs are unique to each employee and are used to identify them in the system. While they are randomly generated
+when an employee is first created, they remain consistent for that individual to ensure proper record-keeping.
 
 </faq>
 
 <faq question="What happens if an existing employee’s details have changed?" :expandAll="expandAll">
 
-Currently, if the system detects an existing External ID, it does not update the employee’s details automatically. This prevents unintended overwrites but may require manual intervention if important updates need to be made.
+Currently, if the system detects an existing External ID, it does not update the employee’s details automatically. This
+prevents unintended overwrites but may require manual intervention if important updates need to be made.
 
 </faq>
 
 <faq question="How can I update an existing employee’s information?" :expandAll="expandAll">
 
-If an employee’s details have changed but the system does not create a new record, you may need to update their information manually in the integration. If you're unsure how to proceed, please contact support for assistance.
+If an employee’s details have changed but the system does not create a new record, you may need to update their
+information manually in the integration. If you're unsure how to proceed, please contact support for assistance.
 
 </faq>
 
 <faq question="Can this process be changed so that updates are applied automatically?" :expandAll="expandAll">
 
-We are actively exploring ways to refine this process. While preventing duplicate entries is necessary, we understand the need to ensure updates are applied correctly. If you have specific requirements or feedback, we’d love to hear from you.
+We are actively exploring ways to refine this process. While preventing duplicate entries is necessary, we understand
+the need to ensure updates are applied correctly. If you have specific requirements or feedback, we’d love to hear from
+you.
 
 </faq>
 
 <faq question="How do I ensure all necessary updates are transferred for an existing employee?" :expandAll="expandAll">
 
-We recommend reviewing the employee’s current details in the existing integration system and making any required updates manually. If you need help identifying what has changed, reach out to our support team.
+We recommend reviewing the employee’s current details in the existing integration system and making any required updates
+manually. If you need help identifying what has changed, reach out to our support team.
 
 </faq>
 
 <faq question="What should I do if I still believe this is an error?" :expandAll="expandAll">
 
-If you suspect an issue with External ID generation or employee creation, please provide details (such as the affected External ID and employee information) to our support team so we can investigate further.
+If you suspect an issue with External ID generation or employee creation, please provide details (such as the affected
+External ID and employee information) to our support team so we can investigate further.
 
 </faq>
 
@@ -569,19 +625,22 @@ contact us through [billing support](about-picmi/billing.md#billing-support)
 
 <faq question="Where are the PDFs in PICMI?" :expandAll="expandAll">
 
-PICMI expects you to use the browser function to create any PDFs. See [below](#how-do-i-create-a-pdf-using-the-browser-print-function).
+PICMI expects you to use the browser function to create any PDFs.
+See [below](#how-do-i-create-a-pdf-using-the-browser-print-function).
 
 </faq>
 
 <faq question="Where are the PDFs in PICMI?" :expandAll="expandAll">
 
-PICMI expects you to use the browser function to create any PDFs. See [below](#how-do-i-create-a-pdf-using-the-browser-print-function).
+PICMI expects you to use the browser function to create any PDFs.
+See [below](#how-do-i-create-a-pdf-using-the-browser-print-function).
 
 </faq>
 
 <faq question="How do I create a PDF using the browser print function?" :expandAll="expandAll">
 
 To create a PDF using your web browser’s built-in print function:
+
 1. Open the webpage or document you want to save as a PDF.
 2. Press **Ctrl + P** (Windows/Linux) or **Cmd + P** (Mac) to open the print dialog.
 3. In the **Destination** or **Printer** dropdown, select **Save as PDF**.
@@ -593,6 +652,7 @@ To create a PDF using your web browser’s built-in print function:
 <faq question="Which browsers support printing to PDF?" :expandAll="expandAll">
 
 Most modern browsers support this feature, including:
+
 - **Google Chrome**
 - **Microsoft Edge**
 - **Mozilla Firefox** (requires an extension or virtual PDF printer)
@@ -603,40 +663,45 @@ Most modern browsers support this feature, including:
 <faq question="Why don’t I see the ‘Save as PDF’ option?" :expandAll="expandAll">
 
 If the option isn’t visible:
+
 - Ensure you have the latest version of your browser.
-- In Windows, you may need to install **Microsoft Print to PDF** (available in Settings > Devices > Printers & scanners).
-- On Mac, select **PDF > Save as PDF** from the print dialog.  
+- In Windows, you may need to install **Microsoft Print to PDF** (available in Settings > Devices > Printers &
+  scanners).
+- On Mac, select **PDF > Save as PDF** from the print dialog.
 
 </faq>
 
 <faq question="How can I remove headers and footers from the PDF?" :expandAll="expandAll">
 
 Most browsers include an option to disable headers and footers:
+
 - In the print dialog, look for **More settings** or **Options**.
-- Uncheck **Headers and footers** before saving.  
-  
+- Uncheck **Headers and footers** before saving.
+
 </faq>
 
 <faq question="How do I adjust page size, margins, or orientation?" :expandAll="expandAll">
 
 Under **More settings**, you can:
+
 - Change **Paper size** (e.g., A4, Letter).
 - Adjust **Margins** (Default, None, Minimum, Custom).
-- Choose **Portrait** or **Landscape** orientation.  
+- Choose **Portrait** or **Landscape** orientation.
 
 </faq>
 
 <faq question="Can I print only selected pages?" :expandAll="expandAll">
 
 Yes! Before saving, look for the **Pages** option in the print dialog:
+
 - Select **All** to print the entire document.
-- Choose **Custom** to specify a page range (e.g., 1-3, 5, 7-9).  
+- Choose **Custom** to specify a page range (e.g., 1-3, 5, 7-9).
 
 </faq>
 
 <faq question="Can I include background images and colours in the PDF?" :expandAll="expandAll">
 
-Yes! In most browsers, under **More settings**, enable **Background graphics** to include them.  
+Yes! In most browsers, under **More settings**, enable **Background graphics** to include them.
 
 </faq>
 
@@ -645,27 +710,28 @@ Yes! In most browsers, under **More settings**, enable **Background graphics** t
 - Try a different browser (Chrome tends to handle complex layouts better).
 - Print the page in **Landscape** mode if elements are cut off.
 - Enable **Background graphics** if images or colours are missing.
-- If interactive elements (like dropdowns) don’t appear, take a **screenshot** instead.  
+- If interactive elements (like dropdowns) don’t appear, take a **screenshot** instead.
 
 </faq>
 
 <faq question="Can I password-protect the PDF?" :expandAll="expandAll">
 
 The browser print function doesn’t offer password protection, but you can:
+
 - Use **Adobe Acrobat** or another PDF editor to set a password.
-- Upload the PDF to an online PDF security tool and apply encryption.  
+- Upload the PDF to an online PDF security tool and apply encryption.
 
 </faq>
 
 <faq question="How do I merge multiple PDFs after saving?" :expandAll="expandAll">
 
 You can combine PDFs using:
+
 - **Adobe Acrobat** (paid feature).
 - **Online tools** like Smallpdf or ILovePDF.
-- **Mac Preview** (open PDFs > File > Export as PDF).  
+- **Mac Preview** (open PDFs > File > Export as PDF).
 
 </faq>
-
 
 ## Troubleshooting
 
