@@ -37,13 +37,13 @@ Reissued applications will need to return to **accepted** before downloading
 
 1. Go to **People**
 2. In the search filter, it is best to select status **Accepted** and limit to the Jobs
-3. Select <span class="mdi mdi-checkbox-marked-outline"></span> **application** rows 
-4. Click <span class="mdi mdi-cloud-download-outline"></span> **Download report**
+3. Select :::icon checkbox-marked-outline::: **application** rows 
+4. Click :::icon cloud-download-outline::: **Download report**
 5. In pane, locate the **integration by name**
 6. Click **Submit**
 7. When Passed record is displayed:
-   * Click <span class="mdi mdi-download"></span> Download to file; or
-   * Click <span class="mdi mdi-content-copy"></span> Copy to clipboard
+   * Click :::icon download::: Download to file; or
+   * Click :::icon content-copy::: Copy to clipboard
 
 </instructions>
 

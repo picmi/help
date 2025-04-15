@@ -45,8 +45,8 @@ You may add a message without changing the status.
 ## Select available applications
 
 1. Go to **People**
-2. Check the **person** rows <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click Bulk Status Change <span class="mdi mdi-chevron-right"></span> from the action menu to open
+2. Check the **person** rows :::icon checkbox-marked-outline:::
+3. Click Bulk Status Change :::icon chevron-right::: from the action menu to open
    the [next step](#narrow-down)
 
 ::: prompt
@@ -55,7 +55,7 @@ An individual [application can **also** be changed](changing-application-status)
 
 ## Select applications to change
 
-1. Check the **rows** <span class="mdi mdi-checkbox-marked-outline"></span> of applications to **change**
+1. Check the **rows** :::icon checkbox-marked-outline::: of applications to **change**
 
 ::: prompt
 When rows are selected, the **action menu** will be displayed above the table with available options
@@ -85,7 +85,7 @@ shown in **Update** in action menu
 
 1. Click **Add Message** in the action menu
 2. Your message in the text field will currently be empty
-3. Click **Show Existing**<span class="mdi mdi-chevron-right"></span> to bring up previous messages in a table
+3. Click **Show Existing**:::icon chevron-right::: to bring up previous messages in a table
 4. Locate an existing message in the table, or search for another
     * **Message**: text stored
     * **Visibility**: [internal or shared](#visibility)
@@ -105,7 +105,7 @@ Each new message is still changeable by clicking on the edit pencil on any **New
 
 1. Click **Update** in the action menu
 2. Repeat these steps until complete
-3. Click <span class="mdi mdi-arrow-left">Back</span> when you are done
+3. Click :::icon arrow-left Back::: when you are done
 
 ::: prompt
 When working with different sets of changes, the pending changes notification will help with further selection before

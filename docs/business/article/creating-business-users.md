@@ -12,9 +12,9 @@ These steps are quick and help keep your team organised while maintaining securi
 
 ## Create business user
 
-1. At the top-right of PICMI, click <span class="mdi mdi-account-circle-outline"></span> **User Menu**
+1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
 2. Select **All users**
-3. Click <span class="mdi mdi-plus">**Add New User**</span>  
+3. Click :::icon plus **Add New User**:::  
 3. Work through the fields
     * Email, first and last names
     * Enter the field details as you go
@@ -34,7 +34,7 @@ All users have the same access and get notified on an accepted application
 
 ## Remove a business user
 
-1. At the top-right of PICMI, click <span class="mdi mdi-account-circle-outline"></span> **User Menu**
+1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
 2. Select **All users**
 3. Locate the user, click **Delete**
 

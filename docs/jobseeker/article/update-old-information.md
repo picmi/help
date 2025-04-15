@@ -11,7 +11,7 @@ To fix this, clearing the cache is often the best solution. This removes the sav
 
 ## Refresh application status
 
-1. Click <span class="mdi mdi-refresh"></span> **Refresh** at the top-right
+1. Click :::icon refresh::: **Refresh** at the top-right
 
 <prompt>
 
@@ -25,7 +25,7 @@ If this still does not look right, continue with [update old information](#updat
 
 ## Update old information
 
-1. At the top-right of PICMI, click <span class="mdi mdi-menu"></span> **Menu**
+1. At the top-right of PICMI, click :::icon menu::: **Menu**
 2. Select **Update old information**
 3. Update the **Reset in seconds** (if longer is needed)
 4. Click **FORCE UPDATE** when you are ready

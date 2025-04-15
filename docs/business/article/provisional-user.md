@@ -30,7 +30,7 @@ Provisional users have specific access details to log into PICMI and don't use a
 * only after user have been created, can [personal overrides](creating-individual-employment-conditions) be added to the application for individual employment conditions
 * you can update the **Expiry and Access Code** at any time
 * you **Stop Access** at any time
-* you can view multiple people at once using <span class="mdi mdi-cog-outline"></span> **Customise Columns** in **People**
+* you can view multiple people at once using :::icon cog-outline::: **Customise Columns** in **People**
 
 </explanation>
 
@@ -41,8 +41,8 @@ Provisional users have specific access details to log into PICMI and don't use a
 This is the simplest way to add a single user for a person.
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Create with provisional user**
 5. Optionally, choose your approach (from the menu top-right)
    * QR code (choose the number of users to create)
@@ -66,8 +66,8 @@ You can add more than one provisional user at a time using [Import multiple new 
 You need to have prepared a list in either **Google Sheets**, **Excel** or **CSV** and have it already in your clipboard
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Create with provisional user**
 5. Click &vellip; (vertical dots) to open the menu
 6. Locate the **Import bulk access codes** section ([download template](#download-access-codes-template))
@@ -115,8 +115,8 @@ In the **Search applications** filter type `@noreply.picmi.io`
 Having created a provisional user, you need to in contact with them (because they don't have an email!)
 
 1. Go to **People**
-2. Locate the person row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the person row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Access Code, QR Code or Direct Link** and provide the person
 5. Click **Done** when finished with getting the information to the person
 
@@ -169,10 +169,10 @@ Do not access this account yourself without permission from the person and ensur
 Import templates for multiple provisional users from spreadsheet application! Download a CSV file or copy to clipboard to bring into your spreadsheet application.
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical More::: (vertical dots) to open menu
 4. Select **Create provisional user**
-5. Locate <span class="mdi mdi-dots-vertical"/> (vertical dots) More to open menu
+5. Locate :::icon dots-vertical::: (vertical dots) More to open menu
 6. Select **Download access codes template**
 7. Select the format you want:
    * Download to file (saves as per your browser preference)

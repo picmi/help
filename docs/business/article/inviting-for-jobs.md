@@ -12,7 +12,7 @@ Before you send out an invitation ensure that the job and application workflow i
 
 ## General process
 
-* use the <span class="mdi mdi-help-circle-outline">Help Tour Guide</span> to learn about the major functions
+* use the :::icon help-circle-outline Help Tour Guide::: to learn about the major functions
 * know the people you want to receive an invite to a job
 * only people **with an email** can receive an invite digitally (ie by email)
 * can search for existing people who have been previously invited on other jobs 
@@ -45,8 +45,8 @@ People **without** an email can be added as a [provisional user](provisional-use
 This is the simplest way to send a single email.
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Send Invite**
 5. Click **Invite**
 6. Add
@@ -55,7 +55,7 @@ This is the simplest way to send a single email.
 7. Optionally a personal message can be added
     * Click **Add Personal Message**
     * Enter a message to be included in invite (note: existing messages can be reused from **Show Existing**)
-8. Click <span class="mdi mdi-account-eye-outline">Preview Email Invite</span> at anytime to view the email that will be sent 
+8. Click :::icon account-eye-outline Preview Email Invite::: at anytime to view the email that will be sent 
 9. When you are ready, click **Send**
 
 Back in the list you can watch the process of the email being sent
@@ -75,10 +75,10 @@ Avoid typing an email address by using import or copy-and-paste to ensure that y
 You can always bring in a set of emails from your spreadsheet application. Create this information in the [import template format](#download-import-template) that you have downloaded.
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Send Invite**
-5. Locate <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+5. Locate :::icon dots-vertical More::: (vertical dots) to open menu
 6. Locate the **Bulk** section
 7. Select one of the import options  ([download template](#download-import-template))
    * Google Sheets
@@ -107,10 +107,10 @@ When importing from CSV, order of **Email** first is important before **Name**
 You can always bring in a set of emails from you mail client that has the email addreses. No import template is required just select the emails from the application contact list.
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Send Invite**
-5. Locate <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+5. Locate :::icon dots-vertical More::: (vertical dots) to open menu
 6. Locate the **Bulk** section
 7. Select the import option **Email application**
 8. In your mail application, select the import emails into your clipboard
@@ -130,10 +130,10 @@ In this list, you can edit and remove emails, as well as preview the email
 Invite people who have already had applications and are entered in the system.
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Send Invite**
-5. Locate <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+5. Locate :::icon dots-vertical More::: (vertical dots) to open menu
 6. Locate the **Existing** section
 7. Select the import option **Search People**
 8. Now locate one or more existing people via the search filter
@@ -141,7 +141,7 @@ Invite people who have already had applications and are entered in the system.
     * Type in a name or email in **Search applications** to narrow the search
     * Select **Jobs** to narrow people
     * Select **Dates** on each to change setting shown
-9. Select the people row <span class="mdi mdi-checkbox-marked-outline"></span> to invite
+9. Select the people row :::icon checkbox-marked-outline::: to invite
 10. Click **Add Email and Name**
 11. When you are ready, click **Send**
 
@@ -157,10 +157,10 @@ If finding returning provisional users, in the **Search applications** filter ty
 Adding multiple email, names and messages in a spreadsheet is usually quicker and easier! Download a CSV file or copy to clipboard to bring into your spreadsheet application
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical">More</span> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical More::: (vertical dots) to open menu
 4. Select **Send Invite**
-5. Locate <span class="mdi mdi-dots-vertical"/> (vertical dots) More to open menu
+5. Locate :::icon dots-vertical::: (vertical dots) More to open menu
 6. Select **Download import template**
 7. Select the format you want:
    * Download to file (saves as per your browser preference)

@@ -22,8 +22,8 @@ View **Remaining** positions for each job in Jobs under [customise columns](#vie
 ## Application controls
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Edit**
 5. Locate **Application Settings** section
 6. Click **Vacancies & Invites Only**
@@ -43,7 +43,7 @@ Back in the jobs list you can also [view **job bucket** settings](#view-job-buck
 The status of the job bucket is viewable per job row in the Job view.
 
 1. Go to**Jobs**
-2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+2. Select :::icon cog-outline::: **Customise Columns**
 3. Locate **Job Bucket** section
 4. Select the columns to view (also via clear or none)
    * Remaining
@@ -51,7 +51,7 @@ The status of the job bucket is viewable per job row in the Job view.
    * Invites only
 5. Click **Save** when you're done
 6. The columns will now show in the table for all entries
-7. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
+7. Locate the **job** row :::icon checkbox-marked-outline:::
 
 <prompt>
 
@@ -68,7 +68,7 @@ Remaining will show **No positions left** when the maximum number of people is r
 The count of [application status](../about-picmi/applications.md#application-status) of the job funnel is viewable per job row in the Job view.
 
 1. Go to**Jobs**
-2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+2. Select :::icon cog-outline::: **Customise Columns**
 3. Locate **Job Funnel** section
 4. Select the columns to view (also via clear or none)
    * Invited
@@ -81,7 +81,7 @@ The count of [application status](../about-picmi/applications.md#application-sta
    * Cancelled
 5. Click **Save** when you're done
 6. The columns will now show in the table for all entries
-7. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
+7. Locate the **job** row :::icon checkbox-marked-outline:::
 
 <prompt>
 

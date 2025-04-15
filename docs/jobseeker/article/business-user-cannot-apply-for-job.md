@@ -19,7 +19,7 @@
 
 ## Delete your business user to be a jobseeker
 
-1. At the top-right of PICMI, click <span class="mdi mdi-account-circle-outline"></span> **User Menu**
+1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
 2. Click **All Users**
 3. Locate your user, click **Delete**
 

@@ -20,12 +20,12 @@ Integration validations can be turned off to get around this (not recommended)
 ## Check that the job is valid
 
 1. Go to **People**
-2. Locate the **person** row <span class="mdi mdi-checkbox-marked-outline"></span>
+2. Locate the **person** row :::icon checkbox-marked-outline:::
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Check Job Configuration**
 5. Confirm the **Check Configuration** status
-    * <span class="mdi mdi-check primary"></span> for success
-    * <span class="mdi mdi-exclamation"></span> for errors
+    * :::icon check primary::: for success
+    * :::icon exclamation::: for errors
 6. Locate any errors in the **Passed** column
 
 </instructions>
@@ -34,7 +34,7 @@ Integration validations can be turned off to get around this (not recommended)
 | Column            | Description                                                                                                                                                                             |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Title**         | Name of the field where data is coming from                                                                                                                                             |
-| **Passed**        | <span class="mdi mdi-check-circle"></span> or Not found                                                                                                                                                 |
+| **Passed**        | :::icon check-circle::: or Not found                                                                                                                                                 |
 | **Group**         | The part of the system the field belongs to (eg name of integration, person or organisation, contract                                                                                   |
 | **Source**        | This is the place that is required the field for substitution: Integration, Contract                                                                                                    |
 | **Current Value** | The value as best as can be determined that will be provided—some values cannot be determined in this view and is left empty, other time values are shown where the data will come from |

@@ -65,11 +65,11 @@ Removing the outer parts of an image is called Cropping.
 
 There are three types of photos with preset sizes (width and height) to match:
 
-- **Photo ID** <span class="mdi mdi-card-account-details-outline"/> This is for your identification photo. The needs to
+- **Photo ID** :::icon card-account-details-outline::: This is for your identification photo. The needs to
   show your face clearly and to the edges of the card. You may need to take a second photo of the backside/
-- **Passport** <span class="mdi mdi-passport"/> This size is for your passport photo. Take one side at a time (ie there
+- **Passport** :::icon passport::: This size is for your passport photo. Take one side at a time (ie there
   are two photos). You can use the same source photo if need be and crop out one page at a time.
-- **Document** <span class="mdi mdi-cellphone-screenshot"/> This is for photos of documents, where the entire document
+- **Document** :::icon cellphone-screenshot::: This is for photos of documents, where the entire document
   must be visible and readable.
 
 These preset sizes are made to ensure that each type of photo meets the requirements for your application, keeping it
@@ -80,11 +80,11 @@ clear and professional.
 You can make these changes to your photo to crop the image:
 
 - **Zoom in/out**: Start at the default size, then zoom in or out to adjust (slider at the bottom)
-- **Rotate left/right**: Turn the photo to the left <span class="mdi mdi-rotate-left"/> or
-  right <span class="mdi mdi-rotate-right"/>.
+- **Rotate left/right**: Turn the photo to the left :::icon rotate-left::: or
+  right :::icon rotate-right:::.
 - **Flip horizontally/vertically**: Flip the photo to show it from the opposite
-  side <span class="mdi mdi-flip-horizontal"/> <span class="mdi mdi-flip-vertical"/>.
-- **Reset** <span class="mdi mdi-close"/> clears the image to start again
+  side :::icon flip-horizontal::: :::icon flip-vertical:::.
+- **Reset** :::icon close::: clears the image to start again
 
 <explanation>
 

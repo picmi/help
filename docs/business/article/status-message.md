@@ -22,7 +22,7 @@ The **active** status message is visible in the People view as a custom column f
 Status messages have two levels of visibility:
 
 * **Shared** Visible to jobseeker and triggers
-  notification ([preview available](#preview-an-email-template) <span class="mdi mdi-account-eye-outline"></span>)
+  notification ([preview available](#preview-an-email-template) :::icon account-eye-outline:::)
 * **Internal**: Business-only, not visible to jobseeker
 
 <prompt>
@@ -110,14 +110,14 @@ two ways:
 The status message is viewable per application row in the People view.
 
 1. Go to **People**.
-2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+2. Select :::icon cog-outline::: **Customise Columns**
 3. Locate **Personalise Conditions** section
 4. Select
     * **Status Message**: shows the text
     * **Message Visibility**: show shared/internal
 5. Click **Save** when you're done
 6. The **Status Message** and/or **Message Visibility** column will now show in the table for all entries
-7. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
+7. Locate the **application** row :::icon checkbox-marked-outline:::
 
 </instructions>
 
@@ -128,7 +128,7 @@ The status message is viewable per application row in the People view.
 The status message history is viewable per application.
 
 1. Go to **People**.
-2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>.
+2. Locate the **application** row :::icon checkbox-marked-outline:::.
 3. Click &vellip; (vertical dots) to open the menu.
 4. Select **Status messages**.
 2. Review the list of message in date order
@@ -151,10 +151,10 @@ Move quickly between different people's application status message by clicking o
 ## Change status message on application
 
 1. Go to **People**.
-2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>.
+2. Locate the **application** row :::icon checkbox-marked-outline:::.
 3. Click &vellip; (vertical dots) to open the menu.
 4. Select **Status messages**.
-5. Select **Change Status Message**<span class="mdi mdi-chevron-right"></span> to enter a new message
+5. Select **Change Status Message**:::icon chevron-right::: to enter a new message
 6. Changing has two main options:
    * [Add a new message](#add-new-status-message) in the text field
    * Remove active message
@@ -270,7 +270,7 @@ As part of notifications for jobseekers, an email will be sent. The email contai
 * the message added
 * a link for the jobseeker to sign back into PICMI for easy access to the application
 
-1. Select **Preview Email Template** <span class="mdi mdi-account-eye-outline"></span>
+1. Select **Preview Email Template** :::icon account-eye-outline:::
 2. Close the dialog when complete viewing
 
 </instructions>

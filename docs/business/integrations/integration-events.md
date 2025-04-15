@@ -27,7 +27,7 @@ time and keep the two systems synchronised.
 ## Show integration providers that are already setup
 
 1. Go to **Jobs**
-2. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
+2. Locate the **job** row :::icon checkbox-marked-outline:::
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Edit**
 5. In the Edit pane, **Integrations** section, select **Sync Settings**
@@ -44,7 +44,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 ## Show fields to be sent
 
 1. Go to **People**
-2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
+2. Locate the **application** row :::icon checkbox-marked-outline:::
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Integrations**
 5. Choose which integration to show fields
@@ -62,7 +62,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 ## Show events detailed view (result of attempt to send data)
 
 1. Go to **People**
-2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
+2. Locate the **application** row :::icon checkbox-marked-outline:::
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Integrations**
 5. In the **Events** section, locate the person record by
@@ -78,14 +78,14 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 ## Show events quick view
 
 1. Go to **People**
-2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+2. Select :::icon cog-outline::: **Customise Columns**
 3. Locate **Integrations** section
 4. Select any of the phases to view as new column titles:
     * **Completed**
     * **Queued**
     * **Error**
 5. Click **Save** when you're done
-6. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
+6. Locate the **application** row :::icon checkbox-marked-outline:::
 7. Confirm by the **integration name** under each of the column titles
 
 </instructions>
@@ -111,7 +111,7 @@ CSV integrations will only show a limited set phases because the data is directl
 ## Create employee manually (send data per employee)
 
 1. Go to **People**
-2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>
+2. Locate the **application** row :::icon checkbox-marked-outline:::
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Integrations**
 5. Choose which integration to show fields
@@ -129,7 +129,7 @@ CSV integrations will only show a limited set phases because the data is directl
 ## Setup automatic create employee (sending of data on accepted application)
 
 1. Go to **Jobs**
-2. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
+2. Locate the **job** row :::icon checkbox-marked-outline:::
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Edit**
 5. In the Edit pane, **Integrations** section, select **Sync Settings**

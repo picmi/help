@@ -40,12 +40,12 @@ If the job configuration includes **integrations**:
 ## Check that the job configuration is valid
 
 1. Go to **Jobs**
-2. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
+2. Locate the **job** row :::icon checkbox-marked-outline:::
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Check Configuration** 
 5. Confirm the **Validate** status
-   * <span class="mdi mdi-check primary"></span> for success 
-   * <span class="mdi mdi-exclamation"></span> for errors&mdash;ensure they are fixed before sending invites
+   * :::icon check primary::: for success 
+   * :::icon exclamation::: for errors&mdash;ensure they are fixed before sending invites
    
 </instructions>
 

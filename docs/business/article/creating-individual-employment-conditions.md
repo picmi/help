@@ -38,7 +38,7 @@ instead of the base values. This includes:
 ## Change personal conditions
 
 1. Go to **People**.
-2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>.
+2. Locate the **application** row :::icon checkbox-marked-outline:::.
 3. Click &vellip; (vertical dots) to open the menu.
 4. Select **Personal job conditions**.
 5. Move through the [fields](#fields-that-can-be-overridden) and update values as needed.

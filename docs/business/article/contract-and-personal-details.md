@@ -18,13 +18,13 @@ PICMI allows you to view all application contract and personal details saved in 
 ## View application details
 
 1. Go to **People**.
-2. Locate the **application** row <span class="mdi mdi-checkbox-marked-outline"></span>.
+2. Locate the **application** row :::icon checkbox-marked-outline:::.
 3. Click &vellip; (vertical dots) to open the menu.
 4. Select **Contract and details**.
 5. Select the tab for the information you require
-   * **Contract**: printable <span class="mdi mdi-printer"></span> (use browser print to PDF if required see [PDF FAQs](../faqs.md#how-do-i-create-a-pdf-using-the-browser-print-function))
-   * **Personal Details**: printable <span class="mdi mdi-printer"></span> and copy to CSV <span class="mdi mdi-content-copy"></span>
-   * **Personal Files**: downloadable <span class="mdi mdi-download"></span>
+   * **Contract**: printable :::icon printer::: (use browser print to PDF if required see [PDF FAQs](../faqs.md#how-do-i-create-a-pdf-using-the-browser-print-function))
+   * **Personal Details**: printable :::icon printer::: and copy to CSV :::icon content-copy:::
+   * **Personal Files**: downloadable :::icon download:::
    * **Job**
 
 <prompt>

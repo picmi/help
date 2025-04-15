@@ -44,10 +44,10 @@ The external ID in PICMI is the unique identifier assigned to an employee. You c
 Alternatively:
 
 1. Go to **People**
-2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+2. Select :::icon cog-outline::: **Customise Columns**
 3. Locate **Jobseeker** section
 4. Select **External Identifiers**
-5. Locate the **person** row <span class="mdi mdi-checkbox-marked-outline"></span>
+5. Locate the **person** row :::icon checkbox-marked-outline:::
 6. View the external identifiers (if there is only one then this will match the integration)
 
 <prompt>

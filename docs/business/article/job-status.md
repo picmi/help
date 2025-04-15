@@ -37,8 +37,8 @@ Both start and end dates are optional
 ## Update job dates
 
 1. Go to **Jobs**
-2. Locate the job row <span class="mdi mdi-checkbox-marked-outline"></span>
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the job row :::icon checkbox-marked-outline:::
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Edit**
 5. Locate **Job Details** section
 6. Click **Start and End Dates**
@@ -59,18 +59,18 @@ Back in the jobs list the status is always available and you can also [view **jo
 The status of the job is viewable per job row in the Job view.
 
 1. Go to**Jobs**
-2. Select <span class="mdi mdi-cog-outline"></span> **Customise Columns**
+2. Select :::icon cog-outline::: **Customise Columns**
 3. Locate **Job Bucket** section
 4. Select the columns to view (also via clear or none)
     * Starts on
     * Ends on
 5. Click **Save** when you're done
 6. The columns will now show in the table for all entries
-7. Locate the **job** row <span class="mdi mdi-checkbox-marked-outline"></span>
+7. Locate the **job** row :::icon checkbox-marked-outline:::
 
 <prompt>
 
-The status field is will also show <span class="mdi mdi-account-lock-outline"></span> for **No positions left** when the maximum number of people is reached
+The status field is will also show :::icon account-lock-outline::: for **No positions left** when the maximum number of people is reached
 
 </prompt>
 

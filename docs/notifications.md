@@ -18,28 +18,28 @@ By default, notifications are enabled for both all delivery methods.
 ### Manage preferences
 
 1. Sign in to your PICMI account.
-2. Click **Notifications** <span class="mdi mdi-bell-outline"/>
-3. Select **Settings** <span class="mdi mdi-cog-outline"/>
-4. Click <span class="mdi mdi-chevron-down">open</span>, in the notification type, to see delivery methods
-5. Enable or disable <span class="mdi mdi-toggle-switch-outline"/> the delivery method
+2. Click **Notifications** :::icon bell-outline:::
+3. Select **Settings** :::icon cog-outline:::
+4. Click :::icon chevron-down open:::, in the notification type, to see delivery methods
+5. Enable or disable :::icon toggle-switch-outline::: the delivery method
 
 </instructions>
 
 
 ## Managing messages
 
-The notification bell <span class="mdi mdi-bell-outline"/> will show a green dot when there are **new** messages
+The notification bell :::icon bell-outline::: will show a green dot when there are **new** messages
 
 <explanation>
 
 ### Viewing messages
 
-Click on notification bell <span class="mdi mdi-bell-outline"/> to see the list of latest messages. Messages that
+Click on notification bell :::icon bell-outline::: to see the list of latest messages. Messages that
 are new are in bold. Previously read messages are dimmed. All show how long ago the messags arrived
 
 ### Mark message as read/unread
 
-To mark a message as read, either click on the item or use the menu <span class="mdi mid-horizontal-dots"/>. Select
+To mark a message as read, either click on the item or use the menu :::icon horizontal-dots:::. Select
 between mark as read and mark as unread.
 
 ### Mark all messages as read

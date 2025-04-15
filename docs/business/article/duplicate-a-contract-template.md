@@ -13,8 +13,8 @@ Duplicating a contract is currently limited and requires additional work
 ## To create a duplicate
 
 1. Locate Menu, select **Contract Templates**
-2. Locate the row <span class="mdi mdi-checkbox-marked-outline"></span> with the contract template to duplicate
-3. Click <span class="mdi mdi-dots-vertical"/> (vertical dots) to open menu
+2. Locate the row :::icon checkbox-marked-outline::: with the contract template to duplicate
+3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Preview/edit**
 5. Select all the contract text, right click **Copy**. The existing contract template text should now in the clipboard
 6. Return back to the contract templates

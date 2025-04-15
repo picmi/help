@@ -11,7 +11,7 @@ To fix this, clearing the cache is often the best solution. This removes the sav
 
 ## Normal and hard refresh
 
-1. Locate a <span class="mdi mdi-refresh"></span> **Refresh** on the page
+1. Locate a :::icon refresh::: **Refresh** on the page
 2. Press (click) and HOLD, waiting for a menu to appear
 3. Select
    * **Normal Refresh**
@@ -29,7 +29,7 @@ If this still does not look right, continue with [update old information](#updat
 
 ## Update old information
 
-1. At the top-right of PICMI, click <span class="mdi mdi-account-circle-outline"></span> **User Menu**
+1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
 2. Select Update old information
 3. Update the **Reset in seconds** (if longer is needed)
 4. Click **FORCE UPDATE** when you are ready
