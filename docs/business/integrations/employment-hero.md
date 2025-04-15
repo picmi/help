@@ -53,12 +53,14 @@
 | [Working holiday visa country](#working-holiday-visa-country){#working-holiday-visa-country}           | Nationality of the employee                         |                                                                                                                     | Personal Information      |
 | [Working holiday visa start date](#working-holiday-visa-start-date){#working-holiday-visa-start-date}  | If yes, enter your visa start date                  |                                                                                                                     | Questions                 |
 
-<explanation>
+
 
 ## Authorisation
 
 To connect PICMI with EmploymentHero, we can either use **OAuth** (a simple one-click authorisation) or an **API key**.
 Just make sure you sign in to both EmploymentH
+
+<explanation>
 
 ### OAuth
 
@@ -80,6 +82,10 @@ For OAuth ensure that are already signed in to both systems in your browser to l
 - If the **refresh token ever expires**, you’ll need to re-authorise PICMI by going through the connection process
   again.
 
+</explanation>
+
+<explanation>
+
 ### API key
 
 The API key is copied from Employment Hero and saved in the Configuration.
@@ -90,6 +96,8 @@ The API key is copied from Employment Hero and saved in the Configuration.
 4. Click copy to clipboard
 5. Paste back in PICMI > Integration
 6. Save
+
+</explanation>
 
 ## Troubleshooting
 
@@ -106,7 +114,6 @@ If you notice any discrepancies between PICMI and EmploymentHero:
 PICMI will automatically keep your token up to date by refreshing it before it expires (at about the half-way point)
 
 </prompt>
-</explanation>
 
 <explanation>
 
