@@ -1,12 +1,12 @@
 <template>
-  <div class="ui-instruction-box">
+  <div class="instructions">
     <slot></slot>
   </div>
 </template>
 
 <style lang="scss">
 
-.ui-instruction-box {
+.instructions {
   margin: 48px 0 16px;
   border: 1px solid #ddd;
   padding: 1em;

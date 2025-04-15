@@ -4,8 +4,7 @@ Each application has a status and an optional [status message](./status-message.
 allowing you to efficiently
 manage and customise statuses across multiple applications at once.
 
-<explanation>
-
+:::explanation    
 ## Key points
 
 - **Bulk Changes:** You can change the status or message of multiple applications simultaneously.
@@ -16,8 +15,7 @@ manage and customise statuses across multiple applications at once.
 - **Reusability:** New messages can be reused across different status changes.
 - **Notifications and Counts:** The system will notify you of pending changes and display the number of applications to
   be updated.
-
-</explanation>
+:::
 
 ## Fields
 
@@ -39,14 +37,11 @@ manage and customise statuses across multiple applications at once.
 3. **Apply Status Change and Messages**: Choose the new status and add any accompanying messages.
 4. **Review and Finalise**: Continue adjusting as needed until all intended changes are complete.
 
-<prompt>
-
+::: prompt
 You may add a message without changing the status.
+:::
 
-</prompt>
-
-<instructions>
-
+:::: instructions
 ## Select available applications
 
 1. Go to **People**
@@ -54,21 +49,17 @@ You may add a message without changing the status.
 3. Click Bulk Status Change <span class="mdi mdi-chevron-right"></span> from the action menu to open
    the [next step](#narrow-down)
 
-<prompt>
-
+::: prompt
 An individual [application can **also** be changed](changing-application-status) outside of this process
-
-</prompt>
+:::
 
 ## Select applications to change
 
 1. Check the **rows** <span class="mdi mdi-checkbox-marked-outline"></span> of applications to **change**
 
-<prompt>
-
+::: prompt
 When rows are selected, the **action menu** will be displayed above the table with available options
-
-</prompt>
+:::
 
 ## Select status change action and add messages
 
@@ -76,12 +67,10 @@ When rows are selected, the **action menu** will be displayed above the table wi
     * only rows with the action listed in the **new action** will be selected
     * selected actions will be highlighted
 
-<prompt>
-
+::: prompt
 The Update column in each row will show whether is it will be updated or not. The **total number of rows affected** is
 shown in **Update** in action menu
-
-</prompt>
+:::
 
 **Add new status message**
 
@@ -108,11 +97,9 @@ shown in **Update** in action menu
 6. Update the text field if further changes are required
 7. Click **Add to Selected** when you're ready
 
-<prompt>
-
+::: prompt
 Each new message is still changeable by clicking on the edit pencil on any **New Status Message** chip
-
-</prompt>
+:::
 
 ## Review and finalise with update
 
@@ -120,11 +107,9 @@ Each new message is still changeable by clicking on the edit pencil on any **New
 2. Repeat these steps until complete
 3. Click <span class="mdi mdi-arrow-left">Back</span> when you are done
 
-<prompt>
-
+::: prompt
 When working with different sets of changes, the pending changes notification will help with further selection before
 update
+:::
 
-</prompt>
-
-</instructions>
+::::

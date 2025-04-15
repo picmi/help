@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 import { nav } from './nav';
 import { sidebarJobseeker } from './sidebarJobseeker';
 import { sidebarBusiness } from './sidebarBusiness';
-import { markdownItFaq } from '../../plugins/markdown-it-faq';
+import { explanation, faq, instructions, prompt } from '../../plugins/markdown-it-block';
+import { icon } from '../../plugins/markdown-it-inline';
 
 // const version = '1.0.0';
 
@@ -11,8 +12,12 @@ export default defineConfig({
     title: 'Help Centre',
     description: 'How can we help?',
     markdown: {
-        config(md){
-            markdownItFaq(md);
+        config(md) {
+            faq(md);
+            instructions(md);
+            explanation(md);
+            prompt(md);
+            icon(md);
         }
     },
     lastUpdated: true,

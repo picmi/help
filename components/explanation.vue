@@ -1,11 +1,11 @@
 <template>
-  <div class="explanation-box">
+  <div class="explanation">
     <slot></slot>
   </div>
 </template>
 
 <style lang="scss">
-.explanation-box {
+.explanation {
   display: block;
   width: 90%;
   margin: 2em;
