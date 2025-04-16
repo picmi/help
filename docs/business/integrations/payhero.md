@@ -58,12 +58,10 @@ support@payhero.co.nz?subject=PICMI  partner API access key&body=Please provide 
 | **PICMI**           | Integration partner facilitating the connection between shared customer and PayHero.   |
 | **PayHero Team**    | Owner of the API infrastructure, responsible for generating partner-specific API keys. |
 
-<prompt>
-
+::: prompt
 The customer can have their own private API keys to act for themselves and provide partner keys to third-party
 like PICMI
-
-</prompt>
+:::
 
 ### Responsibilities
 
@@ -73,12 +71,10 @@ like PICMI
 | **PICMI**           | Use the PICMI-specific API key for each request to ensure both the customer and PayHero know the request is from PICMI.                                                        |
 | **PayHero Team**    | Generate PICMI-specific API keys upon request for shared customers, ensuring they are added to the PICMI integration for verification.                                         |
 
-<prompt>
-
+::: prompt
 The **partner API key** for PICMI is **not viewable** to the customer through the PayHero application but is provided via
 email
-
-</prompt>
+:::
 
 </explanation>
 
@@ -93,11 +89,9 @@ email
 
 It is usually same working day, but get onto it as soon as possible.
 
-<prompt>
-
+::: prompt
 See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
-
-</prompt>
+:::
 
 </faq>
 
@@ -105,11 +99,9 @@ See [request a PICMI partner API access key](#request-a-picmi-partner-api-access
 
 It is not available for self-service and must be provided from PayHero support. 
 
-<prompt>
-
+::: prompt
 See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
-
-</prompt>
+:::
 
 </faq>
 
@@ -118,11 +110,9 @@ See [request a PICMI partner API access key](#request-a-picmi-partner-api-access
 
 You need to ensure that you have a PICMI partner API access key. You may be using your private API access key that is self-service from the PayHero application. 
 
-<prompt>
-
+::: prompt
 See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
-
-</prompt>
+:::
 
 </faq>
 

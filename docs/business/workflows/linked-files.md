@@ -43,11 +43,9 @@ To update a file without changing its link:
 2. Click **Upload new version** and select the updated file
 3. Ensure the new version is saved
 
-<prompt>
-
+::: prompt
 The link remains unchanged, so workflows using this link automatically reflect the updated file.
-
-</prompt>
+:::
 
 ## Using Microsoft OneDrive for file linking
 

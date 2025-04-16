@@ -20,11 +20,9 @@ A "signed contract" is defined as follows
 - **No additional charges for reissued contracts**: Reissued contracts do not incur an extra fee if they are agreed upon again, ensuring no duplicate billing for revisions.
 - **Charges for reused applications**: If an application is reused for another job, it will incur a separate charge, as each application is job-specific.
 
-<prompt>
-
+::: prompt
 PICMI maintains a straightforward model of charging to keep costs low for all users. We encourage our customers to recognise that disputing these costs can lead to higher costs for everyone, and we hope you’ll join us in supporting this transparent approach.
-
-</prompt>
+:::
 
 ### No activity, no charges
 
@@ -38,11 +36,9 @@ PICMI issues invoices based on usage
 
 * **Itemised transactions**: Each invoice details the number of contracts signed and the corresponding charges. Invoices are issued via Xero and include PDF attachments.
 
-<prompt>
-
+::: prompt
 Please ensure emails from Xero can be received to avoid missing invoices.
-
-</prompt>
+:::
 
 ## Payment options
 
@@ -51,11 +47,9 @@ PICMI accepts the following payment methods
 - **Bank transfer**: Bank transfer is the preferred method for New Zealand customers, with payments processed in New Zealand dollars (NZD).
 - **Bank deposit for international customers**: International customers must deposit funds into the bank account provided in the invoice and may incur additional costs for the customer that are not part of the invoice.
 
-<prompt>
-
+::: prompt
 PICMI does not currently accept credit card payments or direct debit authorisations
-
-</prompt>
+:::
 
 Adding the right particulars to bank transfers is essential for ensuring that payments are correctly attributed to your PICMI account. Here’s the recommended approach for both domestic and international transfers.
 
@@ -86,11 +80,9 @@ Adding the right particulars to bank transfers is essential for ensuring that pa
     - Verify PICMI’s bank details on your invoice to ensure accurate entry.
     - Consider adding any **SWIFT/BIC codes** if required for the transfer.
 
-<prompt>
-
+::: prompt
 For both domestic and international payments, allow time for the payment to process and confirm with PICMI if the payment does not reflect on your account after the standard processing time (typically 1-5 business days for international payments).
-
-</prompt>
+:::
 </explanation>
 
 If you have questions or special circumstances, please see [billing support](#billing-support) for additional guidance.
@@ -116,11 +108,9 @@ If you’ve sent an application to the wrong person, don’t worry—mistakes ha
 
 We won’t charge you for the incorrectly issued contract, and this adjustment will be noted on your monthly invoice. Be sure to review your invoice at the end of the month to confirm the correction has been applied.
 
-<prompt>
-
+::: prompt
 PICMI does not cover costs for people who fail to show up for reasons such as changing their mind, missing a flight, being unable to enter the country, or not responding. See our transparency pricing guidelines for why.
-
-</prompt>
+:::
 
 ## Billing support
 

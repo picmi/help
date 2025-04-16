@@ -22,11 +22,9 @@ time and keep the two systems synchronised.
 * PICMI does not and cannot know about the state of records in the other system (compared with
   an [API integration](integration-events.md#general-integration-rules))
 
-<prompt>
-
+::: prompt
 Reissued applications will need to return to **accepted** before downloading
-
-</prompt>
+:::
 
 </explanation>
 

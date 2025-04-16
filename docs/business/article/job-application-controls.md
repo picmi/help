@@ -11,11 +11,9 @@ use the **Invites only** setting. You can also set a limit on the number of appl
 | Invites only | Only people with an existing application (in invited) can **apply** for the job. This setting restricts applications to individuals who receive a specific invitation.                                                                                                                                                                         |
 | Vacancies    | Sets a maximum number of people who can have an **accepted** application for the job. When this limit is reached, no further applications will be **offered**. The total count includes people who have been offered, accepted, or completed the job. Applicants with cancelled or terminated applications are not counted towards this limit. 
 
-<prompt>
-
+::: prompt
 View **Remaining** positions for each job in Jobs under [customise columns](#view-job-bucket-settings)
-
-</prompt>
+:::
 
 <instructions>
 
@@ -53,11 +51,9 @@ The status of the job bucket is viewable per job row in the Job view.
 6. The columns will now show in the table for all entries
 7. Locate the **job** row :::icon checkbox-marked-outline:::
 
-<prompt>
-
+::: prompt
 Remaining will show **No positions left** when the maximum number of people is reached
-
-</prompt>
+:::
 
 </instructions>
 
@@ -83,10 +79,8 @@ The count of [application status](../about-picmi/applications.md#application-sta
 6. The columns will now show in the table for all entries
 7. Locate the **job** row :::icon checkbox-marked-outline:::
 
-<prompt>
-
+::: prompt
 Remaining will show **No positions left** when the maximum number of people is reached
-
-</prompt>
+:::
 
 </instructions>

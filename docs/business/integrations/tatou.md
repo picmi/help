@@ -50,11 +50,9 @@ Alternatively:
 5. Locate the **person** row :::icon checkbox-marked-outline:::
 6. View the external identifiers (if there is only one then this will match the integration)
 
-<prompt>
-
+::: prompt
 Staff ID requires a mapping and is by default setup via the External Identifier created on the integration configuration.
-
-</prompt>
+:::
 
 </faq>
 

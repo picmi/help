@@ -2,11 +2,9 @@
 
 Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a-job.md)), it should be straight forward to invite people to apply for a job. 
 
-<prompt>
-
+::: prompt
 Before you send out an invitation ensure that the job and application workflow is all correct and that there are enough [vacancies](../about-picmi/applications.md#restrictions-on-actions)
-
-</prompt>
+:::
 
 <explanation>
 
@@ -28,11 +26,9 @@ Before you send out an invitation ensure that the job and application workflow i
   * Excel 
 * PICMI provides downloadable templates to be used in the spreadsheet applications
 
-<prompt>
-
+::: prompt
 People **without** an email can be added as a [provisional user](provisional-user.md)—they are then invited or contacted by other means
-
-</prompt>
+:::
 
 </explanation>
 
@@ -60,11 +56,9 @@ This is the simplest way to send a single email.
 
 Back in the list you can watch the process of the email being sent
 
-<prompt>
-
+::: prompt
 Avoid typing an email address by using import or copy-and-paste to ensure that you don't introduce unnecessary errors—bounced email addresses will be notified and the application should be cancelled
-
-</prompt>
+:::
 
 </instructions>
 
@@ -92,11 +86,9 @@ You can always bring in a set of emails from your spreadsheet application. Creat
 
 In this list, you can edit and remove emails, as well as preview the email
 
-<prompt>
-
+::: prompt
 When importing from CSV, order of **Email** first is important before **Name**
-
-</prompt>
+:::
 
 </instructions>
 
@@ -145,11 +137,9 @@ Invite people who have already had applications and are entered in the system.
 10. Click **Add Email and Name**
 11. When you are ready, click **Send**
 
-<prompt>
-
+::: prompt
 If finding returning provisional users, in the **Search applications** filter type `@noreply.picmi.io` (as well as all statuses Completed)
-
-</prompt>
+:::
 
 
 ## Download import template
@@ -169,11 +159,9 @@ Adding multiple email, names and messages in a spreadsheet is usually quicker an
 Now open your spreadsheet application with either the file or copy and paste from clipboard and then file in the fields
 ready to import
 
-<prompt>
-
+::: prompt
 Important template has three fields: **Email, Name, Message** (order is important!)
-
-</prompt>
+:::
 
 </instructions>
 

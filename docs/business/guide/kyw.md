@@ -24,11 +24,9 @@ Modern businesses don’t just hire workers directly—they rely on **labour hir
 * Creating a **transparent record** of who is responsible for each worker
 * Preventing **blame-shifting and accountability gaps**
 
-<prompt>
-
+::: prompt
 **Pro Tip:** If you don’t know exactly where your workers are coming from, you’re at risk. Start mapping your labour supply chain today.
-
-</prompt>
+:::
 
 ### Workforce Validation & Compliance Automation
 Businesses need to know that **every worker is legally eligible** to work. With KYW, you can:
@@ -38,11 +36,9 @@ Businesses need to know that **every worker is legally eligible** to work. With 
 * Ensure **correct payroll & wage compliance**
 * Receive **real-time alerts** when a worker’s visa status changes
 
-<prompt>
-
+::: prompt
 **Did You Know?** VisaView automation is a game-changer for businesses. Instead of manually checking each worker, you can integrate real-time compliance checks into your hiring platform.
-
-</prompt>
+:::
 
 ### Enforcing Hiring Standards & Preventing Exploitation
 Worker exploitation is a growing concern, particularly in industries with complex hiring structures. KYW helps businesses:
@@ -61,11 +57,9 @@ PICMI is an advanced **digital hiring platform** that simplifies and automates w
 * Reduces **administrative burdens** through automated workflows
 * Captures **employment data for compliance audits**
 
-<prompt>
-
+::: prompt
 **Pro Tip:** PICMI ensures that hiring is **transparent and legally sound** from the start—removing the risk of undocumented workers slipping through the cracks.
-
-</prompt>
+:::
 
 ## Stronger Together: PICMI + CheckWorkRights
 While PICMI provides structured hiring and contract compliance, **CheckWorkRights** adds an extra layer of security by verifying workers' visa status in real time. Combined, they create an **unbeatable compliance system** that:
@@ -75,11 +69,9 @@ While PICMI provides structured hiring and contract compliance, **CheckWorkRight
 * **Prevents unauthorised employment** before it becomes an issue
 * **Provides a full audit trail** for regulatory compliance
 
-<prompt>
-
+::: prompt
 **Take Action Today:** The combination of **PICMI and CheckWorkRights** ensures that your workforce is **fully verified, legally compliant, and protected from exploitation**. Don’t leave compliance to chance—integrate these tools now.
-
-</prompt>
+:::
 
 ## How VisaView Automation Supports KYW
 Currently, employers must **manually check visa statuses** in VisaView. This is time-consuming, error-prone, and simply not scalable for large businesses.
@@ -91,11 +83,9 @@ With **automated VisaView integration**, businesses can:
 * Protect workers from **unfair conditions and illegal hiring**
 * Improve **business efficiency and workforce tracking**
 
-<prompt>
-
+::: prompt
 **Take Action Today:** If you rely on VisaView for compliance, it’s time to push for automation. Businesses that streamline their hiring processes **stay ahead of regulations and avoid costly penalties**.
-
-</prompt>
+:::
 
 ## Final Thoughts: Why KYW is Essential for Business
 KYW isn’t just about compliance—it’s about **building a strong, ethical, and efficient workforce**. Businesses that invest in KYW frameworks:

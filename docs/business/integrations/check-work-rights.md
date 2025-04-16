@@ -4,12 +4,10 @@ By setting up PICMI’s integration with [CheckWorkRights](https://checkworkrigh
 ensure smooth, compliant hiring processes with
 minimal administrative burden for checking the right to work and monitoring visa conditions (in Australia).
 
-<prompt>
-
+::: prompt
 CheckWorkRights in not available for [provisional users](../article/provisional-user.md) because they do not have a
 valid deliverable email address.
-
-</prompt>
+:::
 
 ## Integration configuration
 
@@ -43,12 +41,10 @@ how:
 - **Automatic integration**: When verifying both citizens and visa holders, PICMI can automatically send accepted
   applications to CheckWorkRights for processing.
 
-<prompt>
-
+::: prompt
 PICMI recommends automatic integrations when using CheckWorkRights
 but [billing](#how-checkworkerrights-CheckWorkRights-works-around-billing) may affect your decision
-
-</prompt>
+:::
 
 ## Separation of identity and hiring
 
@@ -98,11 +94,9 @@ Here’s a breakdown of how it works, simplified for easy understanding:
 | Australian Citizens | One-time check only      | Not required            |
 | Visa Holders        | One-time check initially | Ongoing checks required |
 
-<prompt>
-
+::: prompt
 All groups must consent to run the check and store proof of documentation
-
-</prompt>
+:::
 
 ## Mixing manual scanning passports with PICMI to prevent duplicate records
 
@@ -112,11 +106,9 @@ records.
 
 If the person is not already in CheckWorkRights from the PICMI integration, you can proceed with scanning as usual.
 
-<prompt>
-
+::: prompt
 Duplicate records must be manually resolved in CheckWorkRights.
-
-</prompt>
+:::
 
 <instructions>
 
@@ -131,12 +123,10 @@ Log in to [CheckWorkRights](https://app.checkworkrights.com.au) with your creden
 
 This is the key to use in PICMI
 
-<prompt>
-
+::: prompt
 Only update the key using **Refresh Key** if you are sure that what you want to do as it will cancel the previous key
 from usage and must be updated in PICMI
-
-</prompt>
+:::
 
 </instructions>
 

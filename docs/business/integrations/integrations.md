@@ -37,14 +37,12 @@ time of recording, downstream systems become the source of truth for ongoing man
 By focusing on fast hiring while allowing specialised systems to take over for post-hire processes, businesses get the
 best of both worlds—speed and accuracy in hiring, plus reliable downstream management.
 
-<prompt>
-
+::: prompt
 There are two main ways:
 
 * directly via an API from [integration events](integration-events.md)
 * import via CSV from [download reports](download-reports.md)
-
-</prompt>
+:::
 
 <explanation>
 
@@ -85,30 +83,26 @@ There are two main ways:
 | [Xero](xero){#xero}                                      | Finance           |    ✓    |         |            |
 
 
-<prompt>
-
+::: prompt
 **API:** stands for application programming interface and means that data is sent directly between PICMI and the other
 system. This is a machine-to-machine approach through [integration events](integration-events.md)
 
 **CSV:** stands for comma-separated values type of file and means that data is sent indirectly such that records are
 downloaded to a file and then uploaded into the other system. Access these
 through [download reports](download-reports.md)
-
-</prompt>
+:::
 
 ## Steps for Using Integrations with PICMI
 
 All integrations follow a similar setup process and you can add multiple integrations.
 
-<prompt>
-
+::: prompt
 Each only differ by configuration
 
 **Authorisation** (how the connection is made)
 
 **Data Sent** (type, amount, and default values of data)
-
-</prompt>
+:::
 
 <p></p>
 
@@ -141,8 +135,7 @@ platforms, in order to transfer employee data. This authorisation ensures that P
 data to these systems on your behalf. Without proper authorisation, data transfers cannot occur due to security
 restrictions put in place by most systems to protect sensitive information, such as personal details or payroll data.
 
-<prompt>
-
+::: prompt
 **Upload**: Login to the other system and manually upload data.
 
 **API token**: Login to the other system and go to a page in the system that will generate a long code (API token) and
@@ -151,8 +144,7 @@ then copy and paste it into PICMI to authorise the connection.
 **OAuth (One-click Authorisation)**: Follow a link provided by PICMI but takes you to another page, log in (if needed),
 and authorise PICMI to connect automatically. In the background, PICMI gets the access key and stores it for you against
 your account to authorise your connection
-
-</prompt>
+:::
 
 ## Troubleshooting
 

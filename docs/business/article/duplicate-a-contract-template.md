@@ -2,11 +2,9 @@
 
 An existing contract template can be duplicated to make a copy. It will contain all the details of the previous contract template. The default change is to change the name of the contract template. 
 
-<prompt>
-
+::: prompt
 Duplicating a contract is currently limited and requires additional work
-
-</prompt>
+:::
 
 <instructions>
 
@@ -23,8 +21,7 @@ Duplicating a contract is currently limited and requires additional work
 9. Click Create
 10. Right click paste to enter the existing content from the clipboard into the contract
 
-<prompt>
-
+::: prompt
 The issue is that when you copy and paste from an existing contract, the chips (field placeholders) visually look the same, but they’re still linked to the old contract details. This is why they don’t match properly in the new contract.
 
 ### To fix the validations
@@ -35,7 +32,6 @@ Update Each Field (Chip):
 2. Delete it using your keyboard.
 3. Find the correct chip in the right-hand panel and reinsert it.
 4. Once all the chips are re-added, the validate/save function will work correctly.
-
-</prompt>
+:::
 
 </instructions>

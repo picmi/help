@@ -33,12 +33,10 @@ operational disruptions.
 * **Internal security**—Background checks and employment history validation.
 * **Regulatory reporting**—Maintaining an audit trail to prove compliance with employment laws.
 
-<prompt>
-
+::: prompt
 **Best Practice:** Automating these checks with **CheckWorkRights** or similar tools ensures a seamless compliance
 process and reduces administrative overhead.
-
-</prompt>
+:::
 
 ## Understanding KYW: The Workforce-Wide Perspective
 
@@ -54,12 +52,10 @@ such as in agriculture, construction, and seasonal industries.
 * **Strategic workforce planning**—Using analytics to optimise labour allocation.
 * **Contractor accountability**—Ensuring that third-party hiring practices meet compliance standards.
 
-<prompt>
-
+::: prompt
 **Pro Tip:** KYW tools like **PICMI** provide **real-time workforce visibility**, reducing risks of undocumented labour
 and ensuring legal hiring practices.
-
-</prompt>
+:::
 
 ## Why Businesses Need Both KYE and KYW
 
@@ -75,9 +71,7 @@ Relying on just one approach can leave compliance gaps:
 🚀 **The best compliance strategy integrates both approaches**—using KYE for direct employees and KYW for overall
 workforce management.
 
-<prompt>
-
+::: prompt
 **Take Action Today:** Ensure your **hiring, workforce tracking, and compliance efforts** are future-proof by
 implementing **KYE and KYW together**!
-
-</prompt>
+:::

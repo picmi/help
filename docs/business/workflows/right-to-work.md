@@ -43,11 +43,9 @@ Employers must treat citizens the same as other workers during the verification 
 
 Employers may choose to use [third-party systems](storing-biometric-data#third-party-systems) to verify and document the right to work for all employees, including citizens. This can streamline processes and ensure consistent compliance and avoid issues around biometric data storage.
 
-<prompt>
-
+::: prompt
 See how [PICMI works with CheckWorkRights](../integrations/check-work-rights#how-picmi-works-with-checkworkrights)
-
-</prompt>
+:::
 
 ## Best practice recommendation
 

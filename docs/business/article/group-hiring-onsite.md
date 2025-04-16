@@ -48,15 +48,13 @@ considerations for second-language speakers.
 - **Then let them complete it independently**—either alone, in pairs, or in small groups.
 - **Float around to assist** where needed, helping workers complete the process efficiently.
 
-<prompt>
-
+::: prompt
 **Expected timeframes**
 
 - **Step one & two**: expect an hour or two per group depending on skills and experience
 - **Returning workers individual completion**: 2–5 minutes (only need to update new details)
 - **New workers individual completion**: Around 30 minutes (full setup required)
-
-</prompt>
+:::
 
 </explanation>
 

@@ -49,12 +49,10 @@ different purposes.
 5. **Repeatable views**: Save your setup for future use
 6. **Data transformation**: Apply formatting or masks to fit specific requirements
 
-<prompt>
-
+::: prompt
 Ready-to-use reports for specific systems are found under [Reports](../integrations/download-reports) (which
 are [CSV integrations)](../integrations/integrations.md#available-integrations)
-
-</prompt>
+:::
 
 <explanation>
 
@@ -99,12 +97,10 @@ saving time and ensuring consistent output.
 2. **Global consistency**: This ensures all date fields are aligned with a preferred format, making the data easier to
    read and compatible with downstream systems.
 
-<prompt>
-
+::: prompt
 [Dates](../about-picmi/dates.md) will be transformed to **local time of the browser** (
 see [conversion of UTC to local time](../about-picmi/dates.md#conversion-of-utc-to-local-time))
-
-</prompt>
+:::
 
 ### Date options
 

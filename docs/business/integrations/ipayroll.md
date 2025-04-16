@@ -1,10 +1,8 @@
 # iPayroll integration overview
 
-<prompt>
-
+::: prompt
 iPayroll does not accept non-NZ addresses
-
-</prompt>
+:::
 
 ## Integration configuration
 
@@ -69,22 +67,18 @@ agree to issue a token. This user is not your standard payroll user.
 
 **Note:** you can only have one integration token activated on a single user for PICMI
 
-<prompt>
-
+::: prompt
 if you are currently signed in with your payroll user, log out first so that you can log in with your API user.
-
-</prompt>
+:::
 
 1. Use the URL provided by PICMI—if you are not logged
 2. Log in with your credentials that access to setting up an API
 3. Click **Authorize**
 4. Provide the token back to PICMI to be added to your integration
 
-<prompt>
-
+::: prompt
 Updating a token in PICMI is currently not self-service and requires help from PICMI
-
-</prompt>
+:::
 
 </instructions>
 
@@ -105,11 +99,9 @@ Yes, a new user must be created. You are allowed to use the same password.
 In iPayroll > Setup > Users > Add User with access Api User (
 see [iPayroll help](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-roles-defined#Adding_users_to_your_iPayroll_Organisation))
 
-<prompt>
-
+::: prompt
 You must be the top Paymaster user to add/update users of any sort
-
-</prompt>
+:::
 
 </faq>
 

@@ -4,12 +4,10 @@ Some applications require photos. Ensure that
 you [take good photos](#guidelines-for-taking-photos-of-photo-ids-with-your-phone) and
 then [crop them well](#adding-a-photo).
 
-<prompt>
-
+::: prompt
 A well cropped photo allows PICMI to store as little information as possible and
 particularly [biometric data](#biometric-protection) to help protect you
-
-</prompt>
+:::
 
 ## How to Add a Photo
 
@@ -37,11 +35,9 @@ Your photo will appear in the photo gallery, where you can:
         4. When done, click **Save**
 3. Click **Add to Application**.
 
-<prompt>
-
+::: prompt
 Once a photo has been added to a question, you can only remove that photo by adding a new photo.
-
-</prompt>
+:::
 </instructions>
 
 ## Adding a New Photo
@@ -55,11 +51,9 @@ The photo should clearly show your face or the document details, with no obstruc
 should be well-lit, and the photo should not be blurry. For documents, ensure the full document is visible, with no
 parts cut off.
 
-<prompt>
-
+::: prompt
 Removing the outer parts of an image is called Cropping.
-
-</prompt>
+:::
 
 ## Preset Photo Sizes
 
@@ -112,13 +106,11 @@ PICMI reduces the quality of your photo just enough so it can still be seen by h
 details. This protects your privacy while ensuring your photo can still be used for your application. The goal is to
 balance between showing what is necessary for the application and keeping your personal information safe.
 
-<prompt>
-
+::: prompt
 There is no legal requirement to store you biometric data but there are legal requirements for its protection. There is
 a legal requirement of employers to prove that the person's identification has been verified as theirs. Saving a photo
 is usually how they do this.
-
-</prompt>
+:::
 
 ## Guidelines for taking photos of Photo IDs with Your phone
 

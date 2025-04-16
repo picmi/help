@@ -3,11 +3,9 @@
 By setting up PICMI’s integration with Tickbox correctly, businesses can ensure smooth, compliant hiring processes with
 minimal administrative burden for a job inductions.
 
-<prompt>
-
+::: prompt
 Each job application in PICMI can be matched to a job type in Tickbox.
-
-</prompt>
+:::
 
 ## Integration configuration
 
@@ -40,11 +38,9 @@ Each job application in PICMI can be matched to a job type in Tickbox.
 - **Automatic integration**: PICMI can automatically send on accepted applications for Tickbox to start the process of
   contacting workers.
 
-<prompt>
-
+::: prompt
 PICMI recommends automatic integrations when using Tickbox
-
-</prompt>
+:::
 
 ## Separation of identity and hiring
 

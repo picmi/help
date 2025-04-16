@@ -55,11 +55,9 @@ PICMI can provide access with a provisional user. see [invites](article/inviting
 Rarely is the email NOT delivered, but it isn't always to your inbox because we send emails from a service provider
 rather than from a person. See [finding emails](../email-not-found)
 
-<prompt>
-
+::: prompt
 [Provisional users](article/provisional-user.md) do not receive emails!
-
-</prompt>
+:::
 
 </faq>
 
@@ -74,11 +72,9 @@ To remedy this:
 
 * You can only invite them to a new job that they have not already accepted
 
-<prompt>
-
+::: prompt
 Once a jobseeker accepts an application, that invite is no longer available for changes.
-
-</prompt>
+:::
 
 </faq>
 
@@ -92,12 +88,10 @@ To remedy this:
 * Add a [status message](article/status-message) when updating the application: "Job closed"
 * [Update](article/changing-application-status) the application status accordingly
 
-<prompt>
-
+::: prompt
 Once a job is closed, it's important to clearly mark the status to prevent confusion.
 see [job statuses](article/job-status)
-
-</prompt>
+:::
 
 </faq>
 
@@ -110,11 +104,9 @@ To remedy this:
 * Cancel the application with a status message: "No such email"
 * [Invite](article/inviting-for-jobs#send-invites) using the correct email address
 
-<prompt>
-
+::: prompt
 An application cannot be moved to another email address—this is helpful to detect ongoing errors
-
-</prompt>
+:::
 
 </faq>
 
@@ -135,11 +127,9 @@ To remedy this:
 * Cancel the application with a status message: "Error in email address"
 * [Invite](article/inviting-for-jobs#send-invites) using the correct email address
 
-<prompt>
-
+::: prompt
 An application cannot be moved to another email address—this is helpful to detect ongoing errors
-
-</prompt>
+:::
 
 </faq>
 
@@ -151,12 +141,10 @@ find their email. We don't recommend to cancel and then reissue as it does not h
 See [finding emails](../email-not-found) for instructions
 
 
-<prompt>
-
+::: prompt
 [Bounced emails are NOT delivered](#what-can-i-do-when-the-invite-has-delivery-status-notification-failure) but are
 notified and should be cancelled
-
-</prompt>
+:::
 
 </faq>
 
@@ -182,14 +170,12 @@ organisation
 Given you want to keep them, [change a status message](article/status-message#change-status-message-on-application) to
 their application so that you can track it.
 
-<prompt>
-
+::: prompt
 You are unable to reserve a position for a specific application. If there is a restriction on positions, then if all
 positions are filled
 add one to the maximum in [job application controls](article/job-application-controls). Alternatively, reduce the number
 by one until the person is ready to apply.
-
-</prompt>
+:::
 
 </faq>
 
@@ -227,11 +213,9 @@ see this as a business user or as an individual applying.
 * As a business user, check the [job application controls](article/job-application-controls)
 * As a jobseeker, they can see positions available on the top-left of the workflow or in the list view
 
-<prompt>
-
+::: prompt
 Change your vacancies by the number of people you expect
-
-</prompt>
+:::
 
 </faq>
 
@@ -253,11 +237,9 @@ One of the two of you do not have the latest version and to ensure you have the 
 * As a business user you can follow ensuring you [have the latest information](article/update-old-information)
 * The jobseeker also has similar strategies you can instruct them on
 
-<prompt>
-
+::: prompt
 You should not change the status of the application to refresh your view.
-
-</prompt>
+:::
 
 </faq>
 
@@ -282,12 +264,10 @@ If you want to maintain the original contract then **reopen** back to accepted (
 If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
 message.
 
-<prompt>
-
+::: prompt
 * [How to change a status](https://help.picmi.io/business/article/changing-application-status.html)
 * [What changes can be made?](https://help.picmi.io/business/about-picmi/applications.html#business-actions)
-
-</prompt>
+:::
 </faq>
 
 <faq question="I have a person who has accepted but will require changes to be made, what do I do?">
@@ -298,12 +278,10 @@ message. At the point of reissue the person will also receive a notification wit
 This happens often because people don't always have all the information at hand and find ways to get to agree. They just
 about always let you know and this is easily sorted later on.
 
-<prompt>
-
+::: prompt
 * [How to change a status](https://help.picmi.io/business/article/changing-application-status.html)
 * [What changes can be made?](https://help.picmi.io/business/about-picmi/applications.html#business-actions)
-
-</prompt>
+:::
 </faq>
 
 <faq question="How can I change the dates of a job on an accepted application?">
@@ -321,11 +299,9 @@ then re-agreed.
     * Job starts on
     * Job ends on
 
-<prompt>
-
+::: prompt
 The person on the application will be notified so ensure the date changes are done immediately
-
-</prompt>
+:::
 
 </explanation>
 
@@ -350,11 +326,9 @@ contract. Some people want to see the contract as much as negotiating their rate
 4. Add personal overrides to the application for individual employment conditions.
 5. Let the person know to review the updated rates on the job, then proceed to agree.
 
-<prompt>
-
+::: prompt
 If they agree, follow the same process after a reissue.
-
-</prompt>
+:::
 
 </explanation>
 
@@ -380,11 +354,9 @@ Please improve your photos. For further information use the help where photos ar
 
 3. Wait for the person to update and accept application
 
-<prompt>
-
+::: prompt
 There is no charge for this process [see billing](about-picmi/billing.md)
-
-</prompt>
+:::
 
 </explanation>
 
@@ -755,13 +727,11 @@ To diagnose this:
 * If there is no integration status, check
   the [integration is set up to automatically send](integrations/integration-events.md#setup-automatic-create-employee-sending-of-data-on-accepted-application)
 
-<prompt>
-
+::: prompt
 On any
 integration, [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) can
 be done multiple times without causing problems.
-
-</prompt>
+:::
 
 **Note:** these test do not apply for incorrect/unexpected data in the downstream system
 
@@ -812,13 +782,11 @@ To diagnose this:
   via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
   to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> for support
 
-<prompt>
-
+::: prompt
 On any
 integration, [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) can
 be done multiple times without causing problems.
-
-</prompt>
+:::
 
 </faq>
 

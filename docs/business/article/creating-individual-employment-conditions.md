@@ -5,11 +5,9 @@ provide individual employment conditions. Personal overrides are added over the 
 are
 provided.
 
-<prompt>
-
+::: prompt
 Changes can be made applications right up until the person agrees—after that changes cannot be made.
-
-</prompt>
+:::
 
 ## Where are the personal overrides reflected?
 

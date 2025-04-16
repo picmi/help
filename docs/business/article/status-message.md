@@ -11,11 +11,9 @@ When the application status changes, the attached status message is no longer ac
 
 To get the full picture, always check the message history on **this application only** to see what was shared at each step of the process. When adding a message try and reuse messages as much as possible from **all applications**.
 
-<prompt>
-
+::: prompt
 The **active** status message is visible in the People view as a custom column for each application, and it's also clearly labelled in the status message history list.
-
-</prompt>
+:::
 
 ## Visibility
 
@@ -25,11 +23,9 @@ Status messages have two levels of visibility:
   notification ([preview available](#preview-an-email-template) :::icon account-eye-outline:::)
 * **Internal**: Business-only, not visible to jobseeker
 
-<prompt>
-
+::: prompt
 Notifications go to jobseekers via in-app messages and emails—the email can be previewed
-
-</prompt>
+:::
 
 <explanation>
 
@@ -51,11 +47,9 @@ Notifications go to jobseekers via in-app messages and emails—the email can be
 
 Status messages ensure that everyone involved is kept informed, making the process smoother and more transparent. 
 
-<prompt>
-
+::: prompt
 Messages can be multi-line and formatted (eg bold, bullet points).
-
-</prompt>
+:::
 
 ### Extra Details (shared)
 
@@ -80,15 +74,13 @@ Did not turn up to work
 No longer available
 ```
 
-<prompt>
-
+::: prompt
 A status message can be added to each person's application status to provide more details. The active status message is
 displayed on the People view, and shared status messages are included in **notifications** to keep everyone informed.
 
 You can view the history of status messages from previous statuses, and previous status messages can also be reused by
 copying them into a new status. Additionally, you can search for status messages across different people's applications.
-
-</prompt>
+:::
 
 </explanation>
 
@@ -138,11 +130,9 @@ The status message history is viewable per application.
     * **Deleted**: shows the current message is now empty
     * **Updated**: date when the message was stored
 
-<prompt>
-
+::: prompt
 Move quickly between different people's application status message by clicking on the person application rows rather than closing the drawer and repeating the steps above
-
-</prompt>
+:::
 
 </instructions>
 
@@ -160,11 +150,9 @@ Move quickly between different people's application status message by clicking o
    * Remove active message
 4. Click **Save** when you're done.
 
-<prompt>
-
+::: prompt
 Reuse existing message through [show existing](#copy-from-all-applications)
-
-</prompt>
+:::
 
 </instructions>
 
@@ -181,11 +169,9 @@ Add a status message and include in notifications
     * **Internal** (business-only, not visible to jobseeker)
 4. Click Confirm, when you are done
 
-<prompt>
-
+::: prompt
 You can reuse existing messages and see what you [have already sent](#copy-from-all-applications)
-
-</prompt>
+:::
 
 </instructions>
 
@@ -249,12 +235,10 @@ Add messages that have been used on this person's application
     * **Updated**: date when the message was stored
 3. Click **Copy** to add the text to the message editor
 
-<prompt>
-
+::: prompt
 To resend a reminder, create a new message entry. This ensures you can track repeats. You can copy messages for this
 purpose. You may also want to add new information.
-
-</prompt>
+:::
 
 </instructions>
 

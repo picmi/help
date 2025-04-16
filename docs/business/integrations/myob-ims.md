@@ -13,13 +13,11 @@ as listed below.
 PICMI allows you to **export data as a CSV file**, which you can **edit after downloading**. Each export is set of applications which
 can have multiple types of jobs. 
 
-<prompt>
-
+::: prompt
 While each job can have a specific integration configuration, it is not possible to download all jobs
 at once with different integration configurations. Therefore, when managing multiple occupation and costing codes we still recommend only having
 one integration configuration and make changes immediately prior to import. 
-
-</prompt>
+:::
 
 To make the process as smooth as possible, follow these steps:
 

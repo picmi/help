@@ -11,9 +11,7 @@ PICMI allows you to find and track all applications and their [status](../about-
 * **Dates**: dates that the application was last updated
 * **Jobs**: an empty job picks any job (these are from your list of jobs)
 
-<prompt>
-
+::: prompt
 If you can't find your person then it is likely your Status filter does not match their application status
-
-</prompt>
+:::
 </explanation>

@@ -2,12 +2,10 @@
 
 PICMI allows you to link external videos within your workflow. This feature is designed to provide extra information to people completing your application workflow. 
 
-<prompt>
-
+::: prompt
 PICMI currently only supports using the youtube video player. Contact our support team via <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or
 email <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> if you require another player.
-
-</prompt>
+:::
 
 ## Mechanics of linking videos
 
@@ -37,11 +35,9 @@ email <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> if you r
 
 To update a file without changing its link, use the youtube version functionality
 
-<prompt>
-
+::: prompt
 The link remains unchanged, so workflows using this link automatically reflect the updated file.
-
-</prompt>
+:::
 
 ## Using youtube for videos
 
@@ -64,10 +60,8 @@ We recommend https://www.savethevideo.com
 3. Click Start, wait for the site to do the processing (note: it may open a new tab for advertising that should be closed)
 4. In the dialog, select Merge > Merge Formats (yes, this will start the downloading)
 
-<prompt>
-
+::: prompt
 Don't use **Download** because it separates Audio and Video
-
-</prompt>
+:::
 
 </instructions>

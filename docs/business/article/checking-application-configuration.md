@@ -9,11 +9,9 @@ A valid application configuration must have all **fields completed** that are go
 * a contract
 * all integrations configured on the job
 
-<prompt>
-
+::: prompt
 Integration validations can be turned off to get around this (not recommended)
-
-</prompt>
+:::
 
 <instructions>
 
@@ -40,10 +38,8 @@ Integration validations can be turned off to get around this (not recommended)
 | **Current Value** | The value as best as can be determined that will be provided—some values cannot be determined in this view and is left empty, other time values are shown where the data will come from |
 | **Description**   | Additional information the system has                                                                                                                                                   |
 
-<prompt>
-
+::: prompt
 The listing will also be validated
 an [inviting a person](inviting-for-jobs), [duplicating a job](duplicate-a-job) and when all fields are complete prior
 to an offer and when a person agrees.   
-
-</prompt>
+:::

@@ -8,8 +8,6 @@ You can sign up using any of the following:
 * Email address
 * Google account
 
-<prompt>
-
+::: prompt
 Can't find an email, check [email not found](../../email-not-found.md) or want to [sign in](sign-in.md)?
-
-</prompt>
+:::

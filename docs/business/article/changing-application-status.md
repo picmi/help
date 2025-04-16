@@ -2,11 +2,9 @@
 
 Every application has a status which is viewed per application.
 
-<prompt>
-
+::: prompt
 Looking for all [application statuses and actions](../about-picmi/applications.md#business-actions)?
-
-</prompt>
+:::
 
 <instructions>
 
@@ -17,10 +15,8 @@ Looking for all [application statuses and actions](../about-picmi/applications.m
 3. Click &vellip; (vertical dots) to open the menu
 4. Locate **Status Change Actions** section, select from one of the available statuses
 
-<prompt>
-
+::: prompt
 Some status changes send notifications and allow you to add personal messages
-
-</prompt>
+:::
 
 </instructions>

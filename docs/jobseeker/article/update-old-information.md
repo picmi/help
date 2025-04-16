@@ -13,11 +13,9 @@ To fix this, clearing the cache is often the best solution. This removes the sav
 
 1. Click :::icon refresh::: **Refresh** at the top-right
 
-<prompt>
-
+::: prompt
 If this still does not look right, continue with [update old information](#update-old-information) below
-
-</prompt>
+:::
 
 </instructions>
 
@@ -31,11 +29,9 @@ If this still does not look right, continue with [update old information](#updat
 4. Click **FORCE UPDATE** when you are ready
 5. Continue using PICMI — usually, [Refresh](#refresh-application-status) the applications
 
-<prompt>
-
+::: prompt
 PICMI will revert to its default behaviour after the reset in seconds time
-
-</prompt>
+:::
 
 </instructions>
 

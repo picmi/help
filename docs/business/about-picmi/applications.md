@@ -17,13 +17,11 @@ its progress. It keeps the business informed with extra details and can be inclu
 individuals, ensuring clear communication about what is happening and what to expect next in the application
 process. [Learn more about status messages](../article/status-message)
 
-<prompt>
-
+::: prompt
 An application in PICMI has a **status** that shows its current stage. The status can be changed with an **action**, and
 each status can include a **status message** with more details. When the status changes, some updates also trigger *
 *notifications** to keep everyone informed. See below for restrictions on some actions for jobseeker restrictions.
-
-</prompt>
+:::
 
 ## Application status
 
@@ -42,12 +40,10 @@ them. For example, a business might send an offer, changing the status to *offer
 agree,
 progressing the status towards *accepted*.
 
-<prompt>
-
+::: prompt
 Some actions result in notifications to business users or jobseekers through email or in-app which can also have
 specific messages added per person
-
-</prompt>
+:::
 
 ## Business actions
 

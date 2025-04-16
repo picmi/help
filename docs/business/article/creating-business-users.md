@@ -22,11 +22,9 @@ These steps are quick and help keep your team organised while maintaining securi
 
 The person will be added to the organisation and notified in their email inbox
 
-<prompt>
-
+::: prompt
 All users have the same access and get notified on an accepted application
-
-</prompt>
+:::
 
 </instructions>
 
@@ -40,11 +38,9 @@ All users have the same access and get notified on an accepted application
 
 The person will no longer have access to the organisation
 
-<prompt>
-
+::: prompt
 People can be added again later
-
-</prompt>
+:::
 
 </instructions>
 

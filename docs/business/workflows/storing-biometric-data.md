@@ -90,10 +90,8 @@ and permanent employees and uses other systems amongst them VEVO.
 - **Customisable**: Tailored options for businesses of different sizes and needs.
 - **Proactive compliance**: Sends alerts and reminders, reducing the risk of non-compliance.
 
-<prompt>
-
+::: prompt
 See how [PICMI works with  CheckWorkRights](../integrations/check-work-rights#how-picmi-works-with-checkworkerrights)
-
-</prompt>
+:::
 
 

@@ -4,11 +4,9 @@ Create provisional users when a person has **no email address currently availabl
 
 Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a-job.md)), it should be straight forward to add a person who does not have an email for a job. 
 
-<prompt>
-
+::: prompt
 As a business you should help people set up an email account as quickly as possible.
-
-</prompt>
+:::
 
 <explanation>
 
@@ -51,11 +49,9 @@ This is the simplest way to add a single user for a person.
 7. Click **Add user** to create the new applications with provisional users for access
 8. Return to **People**, a new person will have been added and will be **Invited**
 
-<prompt>
-
+::: prompt
 You can add more than one provisional user at a time using [Import multiple new provisional users](#import-multiple-provisional-users)
-
-</prompt>
+:::
 
 </instructions>
 
@@ -86,11 +82,9 @@ You need to have prepared a list in either **Google Sheets**, **Excel** or **CSV
 8. Return to **People**, a new person will have been added and will be **Invited**
 
 
-<prompt>
-
+::: prompt
 You can add duplicate one provisional user (with the same name) and each will have a different access link or code—this might hard to remember who has each link!
-
-</prompt>
+:::
 
 </instructions>
 
@@ -100,11 +94,9 @@ You can add duplicate one provisional user (with the same name) and each will ha
 
 See [invite via search for existing users](inviting-for-jobs.md#search-existing-people)
 
-<prompt>
-
+::: prompt
 In the **Search applications** filter type `@noreply.picmi.io`
-
-</prompt>
+:::
 
 </instructions>
 
@@ -154,11 +146,9 @@ The person will need click on this link (because it is not typeable)
 </explanation>
 
 
-<prompt>
-
+::: prompt
 Do not access this account yourself without permission from the person and ensure details are provided to **ONE person only**
-
-</prompt>
+:::
 
 </instructions>
 
@@ -181,13 +171,11 @@ Import templates for multiple provisional users from spreadsheet application! Do
 Now open your spreadsheet application with either the file or copy and paste from clipboard and then file in the fields
 ready to import
 
-<prompt>
-
+::: prompt
 Important template has two fields: 
 * **Name**: include both first and last as to be displayed
 * **Expiry** in days, eg 30, 120 (default: 90, if nothing added)
-
-</prompt>
+:::
 
 </instructions>
 

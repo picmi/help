@@ -14,12 +14,10 @@ to track groups of workers arriving for specific jobs.
 ![upcoming season](../../assets/upcoming-season.png){width=600px}
 [Download as pdf](../../assets/upcoming-season.pdf)
 
-<prompt>
-
+::: prompt
 **[Provisional users](provisional-user.md)** in PICMI are for workers who generally don't reliably have a unique email
 address (and have agreed to have assistance)
-
-</prompt>
+:::
 
 ## Preparation
 
@@ -27,14 +25,12 @@ You've already created a job (
 ideally [duplicated](https://help.picmi.io/business/article/duplicate-a-job.html#to-create-a-duplicate)), now it should
 be straightforward to [invite](https://help.picmi.io/business/article/inviting-for-jobs.html) people to apply for a job.
                                
-<prompt>
-
+::: prompt
 Before you send out an invitation, always ensure that:
 
 * The job and application workflow are correct.
 * There are enough [vacancies](https://help.picmi.io/business/article/job-application-controls.html) available.
-               
-</prompt>
+:::
 
 ## Planning
 
@@ -82,13 +78,11 @@ See [import multiple provisional users](https://help.picmi.io/business/article/p
 
 You will have already worked out how many jobs you need (this example has three)
    
-<prompt>
-
+::: prompt
 * Harvest Workers Vanuatu 2025
 * Harvest Workers PNG 2025
 * Kiribati Crew 2025
-
-</prompt>
+:::
 
 1. Enter all the names
 2. Allocate to a job

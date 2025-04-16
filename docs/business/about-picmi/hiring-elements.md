@@ -21,11 +21,9 @@ This is the business that is issuing employment agreements.
 ## Job
 Within each organisation, there are specific roles or positions available. Each job has its own set of requirements, responsibilities, and details that a person needs to consider when applying.
 
-<prompt>
-
+::: prompt
 **Personal overrides** allow specific adjustments to be made in the application for individual employment agreements. They are special considerations that can be applied to a person's application based on their unique circumstances. These might include variations in pay rates, job description and conditions.
-
-</prompt>
+:::
 
 ## Workflow
 The workflow consists of various steps that the person goes through to apply for the job. This typically includes:
@@ -37,13 +35,11 @@ The workflow consists of various steps that the person goes through to apply for
 ## Contract
 Once the person has successfully navigated through the workflow and met all the requirements, they will be presented with a contract. This document outlines the terms of employment, including responsibilities, salary, and other important details. The contract also allows for **dynamically added details** (called field substitutions which refers to content somewhere else) from the organisation, job, workflow answers as well as personal overrides.
 
-<prompt>
-
+::: prompt
 A contract can only be personalised using field substitutions, which replace placeholders with specific details (e.g., job title, pay rate) from the organisation, job, workflow answers, or personal overrides.
 
 Currently, entire sections of the contract cannot be conditionally included or excluded. For example, if a specific clause is only relevant to leader roles, it cannot be removed for non-leader roles—it must remain in the contract but can be adjusted using field substitutions.
-
-</prompt>
+:::
 
 </explanation>
 

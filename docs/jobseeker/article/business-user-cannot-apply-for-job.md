@@ -32,11 +32,9 @@ At this point, the list of users should be empty
         - Use the invite link provided to you by **email**
         - Or, if you are **still signed in**, refresh the page to [PICMI](https://jobs.picmi.io) and select **Apply** when the job comes up
 
-<prompt>
-
+::: prompt
 If you are still seeing old information, see [update old information](update-old-information).
-
-</prompt>
+:::
 
 </explanation>
 

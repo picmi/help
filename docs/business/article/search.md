@@ -57,11 +57,9 @@ Text search is dependent on the table  but is usually the primary category of th
 
 </instructions>
 
-<prompt>
-
+::: prompt
 Remember to click Apply to refresh results, as selections don’t update automatically to allow multiple choices at once.
-
-</prompt>
+:::
 
 ## Search results
 
@@ -90,11 +88,9 @@ When sorting multiple columns at once, PICMI follows a **combined sort order**:
 - **Secondary and Additional Sorts**: Additional columns add layers of sorting. For example, if you first sort by “Date” and then by “Name,” PICMI will first sort by date and then, within each date, by name.
 - **Changing Order**: To change the order of combined sorts, click columns in the desired sequence. The numbers shown on each column header indicate the order of combined sorting.
 
-<prompt>
-
+::: prompt
 If the order is not what you expected, remove all sorts by clicking twice on each sorted column, then start again.
-
-</prompt>
+:::
 
 </explanation>
 
@@ -114,11 +110,9 @@ If the order is not what you expected, remove all sorts by clicking twice on eac
 * Look at the numbered order on columns.
 * To remove a sort, click the column heading twice.
 
-<prompt>
-
- If sorting isn’t working, try removing all sorts and restarting.
-
-</prompt>
+::: prompt
+If sorting isn’t working, try removing all sorts and restarting.
+:::
 
 </instructions>
 
@@ -126,8 +120,6 @@ If the order is not what you expected, remove all sorts by clicking twice on eac
 
 PICMI remembers your last search criteria and applies it automatically when you return.
 
-<prompt>
-
+::: prompt
 If results seem unexpected, double-check your search filters to adjust them as needed.
-
-</prompt>
+:::

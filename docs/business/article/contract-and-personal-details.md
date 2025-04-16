@@ -27,10 +27,8 @@ PICMI allows you to view all application contract and personal details saved in 
    * **Personal Files**: downloadable :::icon download:::
    * **Job**
 
-<prompt>
-
+::: prompt
 If you don't think this is the latest version, then use [update old information](update-old-information.md) and return
-
-</prompt>
+:::
 
 </instructions>

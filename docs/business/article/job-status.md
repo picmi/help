@@ -2,11 +2,9 @@
 
 A job can have three different statuses—_open, closed, or started_—based on the job's **start** and **end dates**. 
 
-<prompt>
-
+::: prompt
 Both start and end dates are optional
-
-</prompt>
+:::
 
 <explanation>
 
@@ -22,13 +20,11 @@ Both start and end dates are optional
 - The job is **closed** when it is no longer active. This usually means the end date has passed, regardless of whether a start date was set.
 - **Example**: The end date has passed, or the job has been manually closed, even if there was no start date.
 
-<prompt>
-
+::: prompt
 - **Open**: job is available for applications, hasn't started
 - **Started**: job has begun but hasn't ended
 - **Closed**: job is no longer active
-
-</prompt>
+:::
 
 </explanation>
 
@@ -68,10 +64,8 @@ The status of the job is viewable per job row in the Job view.
 6. The columns will now show in the table for all entries
 7. Locate the **job** row :::icon checkbox-marked-outline:::
 
-<prompt>
-
+::: prompt
 The status field is will also show :::icon account-lock-outline::: for **No positions left** when the maximum number of people is reached
-
-</prompt>
+:::
 
 </instructions>

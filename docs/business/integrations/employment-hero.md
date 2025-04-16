@@ -109,11 +109,9 @@ If you notice any discrepancies between PICMI and EmploymentHero:
   address. To handle this, PICMI will automatically create the user using a [sub-alias email](../faqs#emails) of the
   original email **adding the month and year** (eg `hone.smith+08-2024@example.com`)
 
-<prompt>
-
+::: prompt
 PICMI will automatically keep your token up to date by refreshing it before it expires (at about the half-way point)
-
-</prompt>
+:::
 
 <explanation>
 

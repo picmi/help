@@ -8,14 +8,12 @@ requirements, such as IRD numbers and KiwiSaver details for NZ or Tax File Numbe
 * [Payroll NZ](#payroll-nz-integration-configuration)
 * [Payroll AU](#payroll-au-integration-configuration)
 
-<prompt>
-
+::: prompt
 If your Xero organisation is not set to the correct region, the integration will not function properly.
 
 PICMI currently supports **only ONE connected app on an account at a time**. Please contact us if you require more than
 one.
-
-</prompt>
+:::
 
 ## Payroll NZ: Integration configuration
 
@@ -137,11 +135,9 @@ If you notice any discrepancies between PICMI and Xero:
   address. To handle this, PICMI will automatically create the user using a [sub-alias email](../faqs#emails) of the
   original email **adding the month and year** (eg `hone.smith+08-2024@example.com`)
 
-<prompt>
-
+::: prompt
 PICMI will automatically keep your token up to date by refreshing it before it expires (at about the half-way point)
-
-</prompt>
+:::
 
 <explanation>
 

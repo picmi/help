@@ -35,12 +35,10 @@ A job in PICMI is a “bucket” that helps track all people against that job. H
 - The onboarding process changes (e.g. different questions, videos, documents)
 - You want to gather new information for this specific role
 
-<prompt>
-
+::: prompt
 If you require the same workflow but different contracts, the workflow must currently be duplicated to cater for the two
 contracts.
-
-</prompt>
+:::
 
 ### A new contract will be created when
 

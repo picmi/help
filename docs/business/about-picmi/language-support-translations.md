@@ -8,12 +8,10 @@ users to choose their preferred translation service, and keeps PICMI’s workflo
 and videos, PICMI encourages the use of subtitles, browser-based translation tools, and dynamic content translation
 rather than maintaining multiple static language versions.
 
-<prompt>
-
+::: prompt
 PICMI is designed for third-party embedded language translation tools to help people navigate and complete workflows effectively—here's the
 instructions on [translating PICMI to your language for jobseekers](../../jobseeker/article/translation-support.md)
-
-</prompt>
+:::
 
 <explanation>
 
@@ -72,8 +70,7 @@ PICMI is designed in English and does not currently support built-in multilingua
 browser-based translation tools, such as Google Translate or Microsoft Translator, to assist with understanding the
 interface. These tools can translate page content into your preferred language in real time.
 
-<prompt>
-
+::: prompt
 **Languages not well-supported in the Pacific Islands**
 
 While external translation tools work for many languages, some Pacific Island languages may have limited or inaccurate
@@ -87,8 +84,7 @@ translations. These include:
 see [Wikipedia on Google Translate](https://en.wikipedia.org/wiki/Google_Translate#Supported_languages) all languages
 If you rely on translation, we recommend using **simplified English** in search queries and verifying important details
 with someone fluent in English.
-
-</prompt>
+:::
 
 ## Handling external files and videos in multiple languages
 

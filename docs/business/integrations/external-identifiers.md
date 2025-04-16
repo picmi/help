@@ -8,13 +8,11 @@ Integrations require a shared identifier to correlate data between PICMI and ext
 - **Alphanumeric (5-digit)** – Required by Smartly and used as the default for Tātou and Dataphyll.
 - **Numeric (7-digit)** – Potential use for integrations like Crystall and Dataphyll.
 
-<prompt>
-
+::: prompt
 **Example scenario**
 
 If a customer requires an employee to have the same external ID in both Smartly and Tātou, the most restrictive format must be used. Smartly allows only a 5-character alphanumeric ID, while Tātou has a more flexible format. Therefore, both systems will use the ID "AB56S," and no other employee will receive the same value from PICMI. These identifiers are assumed to be unique within each customer's integrations rather than globally unique across all PICMI users.
-
-</prompt>
+:::
 
 <explanation>
 

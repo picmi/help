@@ -17,11 +17,9 @@ To fix this, clearing the cache is often the best solution. This removes the sav
    * **Normal Refresh**
    * **Hard Refresh** (disable cache on all requests that are part of the refresh sequence)
 
-<prompt>
-
+::: prompt
 If this still does not look right, continue with [update old information](#update-old-information) below
-
-</prompt>
+:::
 
 </instructions>
 
@@ -35,11 +33,9 @@ If this still does not look right, continue with [update old information](#updat
 4. Click **FORCE UPDATE** when you are ready
 5. Continue using PICMI
 
-<prompt>
-
+::: prompt
 PICMI will revert to its default behaviour after the reset in seconds time
-
-</prompt>
+:::
 
 </instructions>
 

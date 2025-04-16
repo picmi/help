@@ -21,15 +21,13 @@ Creating a job requires a base set of information so that people know what can b
 | **Job end date**                   | Date the job is expected to finish                                                                                     |
 | **Job summary/additional details** | Description about other information around the job start/stop or conditions                                            |
 
-<prompt>
-
+::: prompt
 **See also**
 
 * [job status](job-status)
 * [job application controls](job-application-controls)
 * [preview a job](previewing-a-job)
-
-</prompt>
+:::
 
 <explanation>
 
@@ -59,11 +57,9 @@ The status of the job is viewable per job row in the Job view.
 
 The job will be added to the list
 
-<prompt>
-
+::: prompt
 Often it is best to [duplicate a job](duplicate-a-job.md) rather than start new particularly because it copies across [integrations](../integrations/integrations.md)
-
-</prompt>
+:::
 
 </instructions>
 

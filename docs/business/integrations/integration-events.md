@@ -100,11 +100,9 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 |             |                                                                              | 204    | employee already exists. No changes made.       |
 | Error       | the sharing request has errored (and will have a status and message as next) | 400    | failed with error that should be seen beside it |
 
-<prompt>
-
+::: prompt
 CSV integrations will only show a limited set phases because the data is directly downloaded to the user
-
-</prompt>
+:::
 
 <instructions>
 
@@ -143,11 +141,9 @@ CSV integrations will only show a limited set phases because the data is directl
     * Select Integration Provider
     * Click **Change Setting** when you're done
 
-<prompt>
-
+::: prompt
 Use the same process by select OFF at Add new setting setup
-
-</prompt>
+:::
 
 </instructions>
 

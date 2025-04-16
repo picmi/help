@@ -3,11 +3,9 @@
 In PICMI, a **user** refers to someone who can sign in to the system, with their email address used as their unique
 identifier for their account.
 
-<prompt>
-
+::: prompt
 PICMI only allows **one user account at a time** to be logged in a single browser profile
-
-</prompt>
+:::
 
 ## User types by access method
 
@@ -43,11 +41,9 @@ cannot be used for both. However, there are two practical workarounds if someone
 2. **Provisional User** – create a limited account for the jobseeker users (note: business users must use an email
    address that messages can be delivered to and accessed)
 
-<prompt>
-
+::: prompt
 In the future, a single email will be available for both with the ability to switch between them
-
-</prompt>
+:::
 
 <explanation>
 
@@ -58,16 +54,14 @@ In the future, a single email will be available for both with the ability to swi
 - A **business user** wants to experience the **jobseeker** process.
 - You need to **test** a jobseeker workflow.
 
-<prompt>
-
+::: prompt
 Ways to Test the System
 
 - To **apply for a job** use the **preview mode** to see the workflow as a jobseeker and create a **provisional user**
   to simulate the experience.
 - To **see email invitations** use the **preview option** for invites.
 - To **check the validity of an application**u use the **Check Configuration** diagnostics in PICMI.
-
-</prompt>
+:::
 
 </explanation>
 

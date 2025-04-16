@@ -17,11 +17,9 @@ about key updates. You are able to turn on/off notifications.
 
 You can manage your notification preferences for any types in the PICMI app.
 
-<prompt>
-
+::: prompt
 By default, notifications are enabled for both all delivery methods.
-
-</prompt>
+:::
 
 <instructions>
 

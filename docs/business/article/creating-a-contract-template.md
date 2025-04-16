@@ -6,11 +6,9 @@ When a person completes the application process, a resulting contract is created
 
 Since templates are designed for consistency, any changes to a contract must be made in a way that ensures the correct details appear for the right roles. The following steps will guide you through creating and updating contracts effectively.
 
-<prompt>
-
+::: prompt
 Limitations of contract substitutions: Contract templates in PICMI allow for personalised content through field substitutions, but they do not support conditionally including or excluding entire sections based on job roles or other criteria. See [hiring elements](../about-picmi/hiring-elements.md#contract)
-
-</prompt>
+:::
 
 <instructions>
 
@@ -26,11 +24,9 @@ The status of the contract template is viewable per contract template row in the
 
 The contract template will be added to the list
 
-<prompt>
-
+::: prompt
 Often it is best to [duplicate a contract template](duplicate-a-contract-template) rather than start new
-
-</prompt>
+:::
 
 </instructions>
 
@@ -44,11 +40,9 @@ Often it is best to [duplicate a contract template](duplicate-a-contract-templat
 
 The chip will be added into the text ready for dynamic text to be added
 
-<prompt>
-
+::: prompt
 The same chip can be added multiple times to a contract.
-
-</prompt>
+:::
 
 </instructions>
 
@@ -62,11 +56,9 @@ The same chip can be added multiple times to a contract.
 
 The chip will be removed from the text but not from the right-hand side, this is a separate process
 
-<prompt>
-
+::: prompt
 Removing the one chip does not remove any other of the same type from the page.
-
-</prompt>
+:::
 
 </instructions>
 
@@ -79,11 +71,9 @@ Removing the one chip does not remove any other of the same type from the page.
 
 Unselecting the chip will not remove a chip from the text, this is a separate process
 
-<prompt>
-
+::: prompt
 Always validate the document if at all unsure.
-
-</prompt>
+:::
 
 </instructions>
 
@@ -100,11 +90,9 @@ The Validate button ensures that all required field substitutions (chips) are co
 
 1. Click **Validate**
 
-<prompt>
-
+::: prompt
 If validation fails, review the chips, remove any invalid ones, and replace them using the list on the right. Once all fields match correctly, the contract can be saved and used.
-
-</prompt>
+:::
 
 </instructions>
 

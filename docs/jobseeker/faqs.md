@@ -22,11 +22,9 @@ All the details from the application process are available to you are any time. 
 
 Use [this link](https://jobs.picmi.io/#/signin) to continue.
 
-<prompt>
-    
+::: prompt
 If you use the same browser as last time, you will remain signed in until you sign out
-
-</prompt>
+:::
 </faq>
 
 ## Application 
@@ -51,11 +49,9 @@ You may need to take [clearer photos](article/adding-a-photo.md#guidelines-for-t
 
 You can still **sign in passwordless** with the same email address. [Sign in](https://jobs.picmi.io/#/signin) and you will taken to your list of applications.
 
-<prompt>
-
+::: prompt
 If you use the same browser as last time, you will still be signed in when you go to [PICMI](https://jobs.picmi.io)
-
-</prompt>
+:::
 
 </faq>
 

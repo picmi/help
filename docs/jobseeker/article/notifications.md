@@ -14,11 +14,9 @@ about key updates related to job invites and job applications. You are able to t
 
 You can manage your notification preferences for any types in the PICMI app. 
 
-<prompt>
-
+::: prompt
 By default, notifications are enabled for both all delivery methods.
-
-</prompt>
+:::
 
 <instructions>
 

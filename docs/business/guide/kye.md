@@ -11,11 +11,9 @@ Without a structured **KYE process**, businesses may unknowingly hire individual
 * **Provides an auditable record** of compliance checks, supporting industry and government regulations.  
 * **Improves transparency** across multiple employment layers, reducing the risk of underpayment and exploitation.
 
-<prompt>
-
+::: prompt
 **Did You Know?** Non-compliance with worker verification regulations can lead to **hefty fines and legal action**. Implementing a strong KYE process is a simple way to avoid these risks.
-
-</prompt>
+:::
 
 
 
@@ -28,11 +26,9 @@ Ensuring that every worker is **legally permitted to work** is the foundation of
 * **Residency & citizenship status**—Confirming eligibility for employment.  
 * **Employment restrictions**—Checking visa conditions that limit work hours or job types.
 
-<prompt>
-
+::: prompt
 **Pro Tip:** Real-time integration with government systems like **VisaView** can streamline right-to-work verification.
-
-</prompt>
+:::
 
 ### Identity Confirmation
 Verifying that workers are **who they claim to be** is crucial to preventing fraud and illegal employment.
@@ -41,11 +37,9 @@ Verifying that workers are **who they claim to be** is crucial to preventing fra
 * **Biometric verification**—Using facial recognition tools for higher security.  
 * **Secure record-keeping**—Storing copies of verified ID documents for audits.
 
-<prompt>
-
+::: prompt
 **Best Practice:** Use digital verification tools to automate ID confirmation and prevent manual errors.
-
-</prompt>
+:::
 
 ### Audit & Reporting
 A timestamped, verifiable record of every compliance check is essential for accountability.
@@ -54,11 +48,9 @@ A timestamped, verifiable record of every compliance check is essential for acco
 * **Automated audit trails**—Ensuring compliance with local labour laws.  
 * **Regulatory reporting**—Providing proof of compliance to government bodies.
 
-<prompt>
-
+::: prompt
 **Pro Tip:** Automated compliance reports make audits painless and ensure businesses stay ahead of legal obligations.
-
-</prompt>
+:::
 
 ### Ad Hoc Compliance Checks
 Regular compliance checks aren’t enough—**unplanned audits** ensure ongoing adherence to employment regulations.
@@ -67,11 +59,9 @@ Regular compliance checks aren’t enough—**unplanned audits** ensure ongoing 
 * **Random re-verifications**—Ensuring workers maintain valid employment status over time.  
 * **Instant flagging of non-compliance**—Detecting fraudulent or expired work rights before issues arise.
 
-<prompt>
-
+::: prompt
 **Did You Know?** Spot-checking compliance can help businesses avoid sudden penalties during government audits.
-
-</prompt>
+:::
 
 
 ## Tools & Approaches for KYE
@@ -81,11 +71,9 @@ Technology plays a key role in making KYE efficient and scalable. One example is
 2. **At the worksite, compliance officers scan the QR code** using a mobile app to instantly verify work rights and confirm identity.  
 3. **The system records the verification**, automatically creating an audit trail and compliance report.
 
-<prompt>
-
+::: prompt
 **Real-World Benefit:** Employers reduce manual paperwork while maintaining real-time workforce visibility.
-
-</prompt>
+:::
 
 
 ## Benefits of the KYE Approach

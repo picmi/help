@@ -3,15 +3,13 @@
 For Dataphyll customers who want to use the integration with PICMI, please note to see employees created through the
 integration, users must be working in the Dataphyll Business App.
 
-<prompt>
-
+::: prompt
 **Important:** Businesses using the Worker App will not benefit from this integration. Here’s why:
 
 * No registration link will be sent to workers for their Worker App.
 * Any registration created by a worker in the Worker App will not be connected to employees created via the PICMI
   integration.
-
-</prompt>
+:::
 
 ## PICMI-Dataphyll integration fields
 

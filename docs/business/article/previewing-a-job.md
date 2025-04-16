@@ -15,11 +15,9 @@ Use the preview pane to ensure values are as expected.
 5. Click :::icon eye-outline **Preview Job**:::
 6. Click :::icon arrow-left **Back**:::, then **Done** when you're finished
 
-<prompt>
-
+::: prompt
 The **Edit** pane is also available from **People** view in each row when showing the**Jobs**
-
-</prompt>
+:::
 
 </instructions>
 
