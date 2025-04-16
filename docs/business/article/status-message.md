@@ -131,7 +131,7 @@ The status message history is viewable per application.
 2. Locate the **application** row :::icon checkbox-marked-outline:::.
 3. Click &vellip; (vertical dots) to open the menu.
 4. Select **Status messages**.
-2. Review the list of message in date order
+5. Review the list of message in date order
     * **Message**: text stored
     * **Application status**: [status](../about-picmi/applications.md#application-status) when the message was stored
     * **Visibility**: [internal or shared](#visibility)
