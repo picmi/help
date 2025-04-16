@@ -82,34 +82,27 @@ email
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-<faq question="How long does it take for PayHero to respond with an API access key?">
-
+:::: faq How long does it take for PayHero to respond with an API access key?
 It is usually same working day, but get onto it as soon as possible.
 
 ::: prompt
 See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
 :::
+::::
 
-</faq>
-
-<faq question="Where is the PICMI partner API access key in the application?">
-
+:::: faq Where is the PICMI partner API access key in the application?
 It is not available for self-service and must be provided from PayHero support. 
 
 ::: prompt
 See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
 :::
+::::
 
-</faq>
 
-
-<faq question="I have the error 'Invalid API key', what should I do?">
-
+:::: faq I have the error 'Invalid API key', what should I do?
 You need to ensure that you have a PICMI partner API access key. You may be using your private API access key that is self-service from the PayHero application. 
 
 ::: prompt
 See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
 :::
-
-</faq>
 ::::

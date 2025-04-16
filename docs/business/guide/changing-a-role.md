@@ -117,42 +117,31 @@ The transition is now complete and fully tracked.
 
 <button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
 
-<faq question="Can I edit their old contract instead of creating a new job?" :expandAll="expandAll">
-
+::: faq Can I edit their old contract instead of creating a new job?
 No. If the role has changed, you must create a new job. PICMI contracts are job-specific and triggered by new
 applications.
+:::
 
-</faq>
-
-<faq question="Do I need a new workflow?" :expandAll="expandAll">
-
+::: faq Do I need a new workflow?
 Only if the onboarding process changes. If the steps are the same (e.g. same questions, videos, documents), you can
 reuse the existing workflow.
+:::
 
-</faq>
-
-<faq question="What if someone has multiple roles?" :expandAll="expandAll">
-
+::: faq What if someone has multiple roles?
 You can invite them to multiple jobs. Each job is tracked separately with its own contract and application process.
+:::
 
-</faq>
-
-<faq question="Do I have to complete the old job first?" :expandAll="expandAll">
-
+::: faq Do I have to complete the old job first?
 Yes. It’s best to complete the current job application and include a status message explaining why. This ensures clean
 recordkeeping.
+:::
 
-</faq>
-
-<faq question="What if only their pay or conditions change?" :expandAll="expandAll">
-
+::: faq What if only their pay or conditions change?
 If the role stays the same, use a personal override. This avoids creating a new job and still updates the contract for
 that person.
+:::
 
-</faq>
-
-<faq question="How does the contract get personalised?" :expandAll="expandAll">
-
+::: faq How does the contract get personalised?
 PICMI contracts use field substitutions, pulling details from:
 
 - The organisation
@@ -161,15 +150,12 @@ PICMI contracts use field substitutions, pulling details from:
 - Personal overrides
 
 PICMI does not currently support conditionally including or removing full sections in contracts—only substitutions.
+:::
 
-</faq>
-
-<faq question="Still not sure what to do?" :expandAll="expandAll">
-
+::: faq Still not sure what to do?
 If you're not sure whether to create a new job or use a personal override, contact PICMI Support. We’ll help guide you
 based on your situation.
-
-</faq>
+:::
 
 
 <script setup lang="ts">import {ref} from 'vue';

@@ -85,48 +85,36 @@ Updating a token in PICMI is currently not self-service and requires help from P
 
 <button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
 
-<faq question="I already have a log in, do I need another account for the integration?" :expandAll="expandAll">
-
+::: faq I already have a log in, do I need another account for the integration?
 Yes, a new user must be created. You are allowed to use the same password.
+:::
 
-</faq>
-
-<faq question="How can I create an API user" :expandAll="expandAll">
-
+:::: faq How can I create an API user
 In iPayroll > Setup > Users > Add User with access Api User (
 see [iPayroll help](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-roles-defined#Adding_users_to_your_iPayroll_Organisation))
 
 ::: prompt
 You must be the top Paymaster user to add/update users of any sort
 :::
+::::
 
-</faq>
-
-<faq question="How do I know if I have an integration access?" :expandAll="expandAll">
-
+::: faq How do I know if I have an integration access?
 In iPayroll > Setup > Users, look for a user with naming convention [organisation number]apipicmi (eg 54443apipicmi)
+:::
 
-</faq>
-
-<faq question="How do I know if I have an active integration key" :expandAll="expandAll">
-
+::: faq How do I know if I have an active integration key
 In iPayroll > Setup > Users, look for user [organisation number]apipicmi and in the right hand icons is one for active
 integration (with the ability to deactivate the integration)
+:::
 
-</faq>
-
-<faq question="iPayroll says I can only have one integration key" :expandAll="expandAll">
-
+::: faq iPayroll says I can only have one integration key
 In iPayroll > Setup > Users, look for the user that in the right hand icons has an active integration (and deactivate
 the integration)
+:::
 
-</faq>
-
-<faq question="iPayroll fails on 'Overseas employees are not allowed for this organisation'" :expandAll="expandAll">
-
+::: faq iPayroll fails on 'Overseas employees are not allowed for this organisation'
 iPayroll requires a NZ address—reissue the contract
-
-</faq>
+:::
 
 ## General troubleshooting
 

@@ -65,35 +65,26 @@ Ways to Test the System
 
 <button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
 
-<faq question="Can a business user also apply for jobs using the same email address?" :expandAll="expandAll">
-
+::: faq Can a business user also apply for jobs using the same email address?
 No, but they can use a sub-alias email address, and the emails will still come to the same inbox.
+:::
 
-</faq>
 
-
-<faq question="What’s the difference between a user with an email and one with provisional access?" :expandAll="expandAll">
-
+::: faq What’s the difference between a user with an email and one with provisional access?
 A provisional user is temporary and only valid for one application. They receive both a key and a code from the
 business, unlike regular users who sign in with an email and password or email and code.
+:::
 
-</faq>
-
-<faq question="Can I turn someone with an email login into a provisional user?" :expandAll="expandAll">
-
+::: faq Can I turn someone with an email login into a provisional user?
 Yes, if someone forgets their email password, using a provisional user allows them to continue using PICMI for a single
 application.
+:::
 
-</faq>
 
-
-<faq question="Can I switch a provisional user to an email-based login?" :expandAll="expandAll">
-
+::: faq Can I switch a provisional user to an email-based login?
 Yes, and we encourage all users to eventually use their own email for full access and communication across multiple
 applications.
-
-
-</faq>
+:::
 
 <script setup lang="ts">import {ref} from 'vue';
 

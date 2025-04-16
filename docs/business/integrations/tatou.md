@@ -28,8 +28,7 @@ PICMI only checks for duplicates based on email, not Staff ID. This means that i
 :::: explanation
 ## FAQ
 
-<faq question="How can I view the staff ID?" :expandAll="expandAll">
-
+:::: faq How can I view the staff ID?
 The external ID in PICMI is the unique identifier assigned to an employee. You can view it by following these steps:
 
 1. Navigate to the **Integration**.
@@ -50,8 +49,7 @@ Alternatively:
 ::: prompt
 Staff ID requires a mapping and is by default setup via the External Identifier created on the integration configuration.
 :::
-
-</faq>
+::::
 
 ## General troubleshooting
 

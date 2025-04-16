@@ -131,46 +131,36 @@ from usage and must be updated in PICMI
 
 <button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
 
-<faq question="What should we expect as the completion rate of Australian citizens as a percentage?" :expandAll="expandAll">
-
+::: faq What should we expect as the completion rate of Australian citizens as a percentage?
 CheckWorkRights reports that for the "vast majority of our customers the completion rate account wide is virtually 100%
 as completion is a requirement of employment"
+:::
 
-</faq>
-
-<faq question="If an applicant does not complete their CheckWorkRights submission, will their application contract be terminated in PICMI?" :expandAll="expandAll">
-
+::: faq If an applicant does not complete their CheckWorkRights submission, will their application contract be terminated in PICMI?
 No, the employment agreement in PICMI is separate to right to work status in CheckWorkRights. If an applicant does not
 complete their
 submission, the business needs to make a decision to terminate the application contract in PICMI.
+:::
 
-</faq>
-
-<faq question="What happens if an employee’s does not complete their submission or fails and turns up onsite?" :expandAll="expandAll">
-
+::: faq What happens if an employee’s does not complete their submission or fails and turns up onsite?
 When an employee’s QR code is scanned and their work rights status is not green or yellow, the employee may be refused
 entry to the site. However, CheckWorkRights provides only the visa status; it is up to the employer to make the final
 assessment.
+:::
 
-</faq>
-
-<faq question="Do you charge for applicants who do not complete the process, particularly in the case of Australian citizens?" :expandAll="expandAll">
-
+::: faq Do you charge for applicants who do not complete the process, particularly in the case of Australian citizens?
 Yes. The two fees relating to work entitlement are (1) An add fee for any employee, regardless of their completion of
 the process, and (2) The monitoring fee for known visa holders. The add fee is charged regardless of completion, but
 because the completion rate is extremely high as it's a requirement for employment in Australia.
+:::
 
-</faq>
 
-
-<faq question="What to do with 'The foreignkey_id is not found' error on the integration?" :expandAll="expandAll">
-
+::: faq What to do with 'The foreignkey_id is not found' error on the integration?
 Contact our support team via <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or
 email <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>, and we’ll handle it with CheckWorkRights. This
 is needed when setting the `external identifier` in the `create employee` integration. Right now, this setup must be
 enabled per account and isn't self-service.
-
-</faq>
+:::
 
 ## General troubleshooting
 
