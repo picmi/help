@@ -45,6 +45,7 @@
 
 ## Integrations
 
+- [Setting up integrations](integrations/setting-up-integrations.md)
 - [Available integrations](integrations/integrations)
 - [Integration events](integrations/integration-events)
 - [Download reports](integrations/download-reports)

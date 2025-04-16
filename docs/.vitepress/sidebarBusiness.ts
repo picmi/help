@@ -122,6 +122,7 @@ export function sidebarBusiness() {
             text: 'Integrations',
             collapsed: true,
             items: [
+                { text: 'Setting up', link: '/business/integrations/setting-up-integrations' },
                 {
                     text: 'Types', link: '/business/integrations/integrations',
                     collapsed: true,
