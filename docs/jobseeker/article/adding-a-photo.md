@@ -18,8 +18,7 @@ Your photo will appear in the photo gallery, where you can:
 - Zoom in to get a closer look
 - See more details, such as the file name and size
 
-<instructions>
-
+:::: instructions
 ## Add Photo to Your Application
 
 1. From your application question, click **Add Photo**
@@ -38,7 +37,7 @@ Your photo will appear in the photo gallery, where you can:
 ::: prompt
 Once a photo has been added to a question, you can only remove that photo by adding a new photo.
 :::
-</instructions>
+::::
 
 ## Adding a New Photo
 
@@ -80,8 +79,7 @@ You can make these changes to your photo to crop the image:
   side :::icon flip-horizontal::: :::icon flip-vertical:::.
 - **Reset** :::icon close::: clears the image to start again
 
-<explanation>
-
+:::: explanation
 ### Passport
 
 ![](../../img/upload/passport-desktop.png)
@@ -97,8 +95,7 @@ You can make these changes to your photo to crop the image:
 ### Passport
 
 ![](../../img/upload/document-desktop.png)
-
-</explanation>
+::::
 
 ## Biometric Protection
 

@@ -6,8 +6,7 @@ An existing contract template can be duplicated to make a copy. It will contain 
 Duplicating a contract is currently limited and requires additional work
 :::
 
-<instructions>
-
+:::: instructions
 ## To create a duplicate
 
 1. Locate Menu, select **Contract Templates**
@@ -33,5 +32,4 @@ Update Each Field (Chip):
 3. Find the correct chip in the right-hand panel and reinsert it.
 4. Once all the chips are re-added, the validate/save function will work correctly.
 :::
-
-</instructions>
+::::

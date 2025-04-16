@@ -7,8 +7,7 @@ In PICMI, this typically means setting up a **new job** for their new role and i
 explain how to decide what needs to change (job, workflow, or contract), and provide step-by-step instructions for
 managing the transition.
 
-<explanation>
-
+:::: explanation
 A job in PICMI is a “bucket” that helps track all people against that job. Here are some distinct characteristics:
 
 - A job is usually a single role
@@ -19,8 +18,7 @@ A job in PICMI is a “bucket” that helps track all people against that job. H
 - Each person's application can have personal conditions associated with it for that job
 - When the application is agreed a employment agreement contract is created complete with the general and personal
   conditions
-
-</explanation>
+::::
 
 ## When do I need a new job, workflow, or contract?
 
@@ -62,8 +60,7 @@ could be a problem for compliance audits.
 
 Handling a role change requires a bit of planning as per the decisions above, completing the setup for the new job before inviting the person
 
-<instructions>
-
+:::: instructions
 ### 1. Complete the person’s current job application
 
 Before inviting the person to their new role:
@@ -73,11 +70,9 @@ Before inviting the person to their new role:
 3. Add an **internal status message** (e.g. “Moved to new role: Assistant Supervisor”)
 
 Completing the current job ensures clean transitions and accurate records.
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ### 2. Create a new job
 
 It is often best to use existing jobs by duplicating and making changes
@@ -92,10 +87,9 @@ It is often best to use existing jobs by duplicating and making changes
 4. Review or update the **contract template** as needed
 
 You can apply **personal overrides** later for individual contract customisation.
-</instructions>
+::::
 
-<instructions>
-
+:::: instructions
 ### 3. Invite the person to the new job
 
 1. Go to the newly created job
@@ -105,10 +99,9 @@ You can apply **personal overrides** later for individual contract customisation
 5. Send the invite
 
 The person will receive a link to start the application process.
-</instructions>
+::::
 
-<instructions>
-
+:::: instructions
 ### 4. The person completes the application
 
 Completing another application is quicker than the first because most information will be already completed as it is
@@ -118,7 +111,7 @@ brought forward from previous application answers
 2. Reviews and accepts their **new contract**
 
 The transition is now complete and fully tracked.
-</instructions>
+::::
 
 ## FAQs
 

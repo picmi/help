@@ -25,8 +25,7 @@ Each job application in PICMI can be matched to a job type in Tickbox.
 | [Phone](#phone){#phone}                         | Only receives NZ domestic mobile phones (sent as a national number)  |                                                               | Personal Information      |
 | [Job](#job){#job}                               | Chosen from setup jobs in Tickbox                                    | Default: none                                                 | Integration Configuration |
 
-<explanation>
-
+:::: explanation
 ## How PICMI works with Tickbox
 
 **PICMI** integrates with Tickbox to simplify the training of employees as part of your onboarding process. Here's how:
@@ -68,5 +67,4 @@ To ensure robust compliance, best practice recommends:
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-
-</explanation>
+::::

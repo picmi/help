@@ -8,8 +8,7 @@ When data is shared with other systems via CSV, this is generally still called a
 event". Inside each event are data is "record" made up of "fields" which are the values that are shared. Each field will
 have different data and there are rules around that data that may mean it succeeds or fails.
 
-<explanation>
-
+:::: explanation
 ### General integration rules
 
 PICMI is a system of record making it the source of the original data, but it does not attempt to maintain data over
@@ -25,12 +24,10 @@ time and keep the two systems synchronised.
 ::: prompt
 Reissued applications will need to return to **accepted** before downloading
 :::
+::::
 
-</explanation>
 
-
-<instructions>
-
+:::: instructions
 ## Download reports
 
 1. Go to **People**
@@ -42,8 +39,7 @@ Reissued applications will need to return to **accepted** before downloading
 7. When Passed record is displayed:
    * Click :::icon download::: Download to file; or
    * Click :::icon content-copy::: Copy to clipboard
-
-</instructions>
+::::
 
 ## Upload reports (bulk import)
 

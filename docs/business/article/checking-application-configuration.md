@@ -13,8 +13,7 @@ A valid application configuration must have all **fields completed** that are go
 Integration validations can be turned off to get around this (not recommended)
 :::
 
-<instructions>
-
+:::: instructions
 ## Check that the job is valid
 
 1. Go to **People**
@@ -25,8 +24,7 @@ Integration validations can be turned off to get around this (not recommended)
     * :::icon check primary::: for success
     * :::icon exclamation::: for errors
 6. Locate any errors in the **Passed** column
-
-</instructions>
+::::
 
 ## Description of table
 | Column            | Description                                                                                                                                                                             |

@@ -6,8 +6,7 @@ All jobs must have a valid configuration for a person to complete an application
 The job configuration will always be validated an [inviting a person](inviting-for-jobs), [duplicating a job](duplicate-a-job) and when completing the application
 :::
 
-<explanation>
-
+:::: explanation
 ## Validating job configurations for applications
 
 Job configurations can be validated at any stage to confirm that jobseekers can successfully complete an application. Each configuration follows a set of rules with increasing complexity, depending on the presence of certain elements, like contracts or integrations.
@@ -30,11 +29,9 @@ If the job configuration includes **integrations**:
    - An organisation field
    - Personal information from the jobseeker
    - A question from the application workflow
+::::
 
-</explanation>
-
-<instructions>
-
+:::: instructions
 ## Check that the job configuration is valid
 
 1. Go to **Jobs**
@@ -44,8 +41,7 @@ If the job configuration includes **integrations**:
 5. Confirm the **Validate** status
    * :::icon check primary::: for success 
    * :::icon exclamation::: for errors&mdash;ensure they are fixed before sending invites
-   
-</instructions>
+::::
 
 **Note:**    
 

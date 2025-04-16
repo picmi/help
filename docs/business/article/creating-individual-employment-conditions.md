@@ -31,8 +31,7 @@ instead of the base values. This includes:
 | [Job description](#cfg-job-description){#cfg-job-description}                                     | Change this to rewrite the primary description—overwriting this should probably include details from the original description                                                          |
 | [Organisation name](#cfg-organisation-name){#cfg-organisation-name}                               | Sometimes the contracting organisation may change                                                                                                                                      |
 
-<instructions>
-
+:::: instructions
 ## Change personal conditions
 
 1. Go to **People**.
@@ -41,5 +40,4 @@ instead of the base values. This includes:
 4. Select **Personal job conditions**.
 5. Move through the [fields](#fields-that-can-be-overridden) and update values as needed.
 4. Click **Save** when you're done.
-
-</instructions>
+::::

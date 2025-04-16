@@ -6,8 +6,7 @@ Every application has a status which is viewed per application.
 Looking for all [application statuses and actions](../about-picmi/applications.md#business-actions)?
 :::
 
-<instructions>
-
+:::: instructions
 ## Check that the job is valid
 
 1. Go to **People**
@@ -18,5 +17,4 @@ Looking for all [application statuses and actions](../about-picmi/applications.m
 ::: prompt
 Some status changes send notifications and allow you to add personal messages
 :::
-
-</instructions>
+::::

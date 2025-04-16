@@ -6,8 +6,7 @@ A job can have three different statuses—_open, closed, or started_—based on 
 Both start and end dates are optional
 :::
 
-<explanation>
-
+:::: explanation
 ## Open
 - The job is **open** when it is available for applications and has not yet started or ended.
 - **Example**: The start date is in the future or not set, and the end date has not passed (or is not set).
@@ -25,11 +24,9 @@ Both start and end dates are optional
 - **Started**: job has begun but hasn't ended
 - **Closed**: job is no longer active
 :::
+::::
 
-</explanation>
-
-<instructions>
-
+:::: instructions
 ## Update job dates
 
 1. Go to **Jobs**
@@ -45,11 +42,9 @@ Both start and end dates are optional
 8. Click **Save** when you are done
 
 Back in the jobs list the status is always available and you can also [view **job dates** settings](#view-job-dates)
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## View job dates
 
 The status of the job is viewable per job row in the Job view.
@@ -67,5 +62,4 @@ The status of the job is viewable per job row in the Job view.
 ::: prompt
 The status field is will also show :::icon account-lock-outline::: for **No positions left** when the maximum number of people is reached
 :::
-
-</instructions>
+::::

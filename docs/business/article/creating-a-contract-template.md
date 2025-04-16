@@ -10,8 +10,7 @@ Since templates are designed for consistency, any changes to a contract must be 
 Limitations of contract substitutions: Contract templates in PICMI allow for personalised content through field substitutions, but they do not support conditionally including or excluding entire sections based on job roles or other criteria. See [hiring elements](../about-picmi/hiring-elements.md#contract)
 :::
 
-<instructions>
-
+:::: instructions
 ## Create contract template
 
 The status of the contract template is viewable per contract template row in the Contract Template view.
@@ -27,11 +26,9 @@ The contract template will be added to the list
 ::: prompt
 Often it is best to [duplicate a contract template](duplicate-a-contract-template) rather than start new
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Add a field substitution
 
 1. Locate in the text where to add the field substitution chip
@@ -43,11 +40,9 @@ The chip will be added into the text ready for dynamic text to be added
 ::: prompt
 The same chip can be added multiple times to a contract.
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Delete a field substitution in the text
 
 1. Locate in the field substitution chip
@@ -59,11 +54,9 @@ The chip will be removed from the text but not from the right-hand side, this is
 ::: prompt
 Removing the one chip does not remove any other of the same type from the page.
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Remove a chip selection from the list
 
 1. On the right side, locate in the field substitution chip in the list
@@ -74,12 +67,10 @@ Unselecting the chip will not remove a chip from the text, this is a separate pr
 ::: prompt
 Always validate the document if at all unsure.
 :::
+::::
 
-</instructions>
 
-
-<instructions>
-
+:::: instructions
 ## Validate the contract template
 
 The Validate button ensures that all required field substitutions (chips) are correctly placed in the contract before it can be saved. When you click Validate, PICMI checks:
@@ -93,17 +84,14 @@ The Validate button ensures that all required field substitutions (chips) are co
 ::: prompt
 If validation fails, review the chips, remove any invalid ones, and replace them using the list on the right. Once all fields match correctly, the contract can be saved and used.
 :::
+::::
 
-</instructions>
 
-
-<instructions>
-
+:::: instructions
 ## Save the contract template
 
 1. Click **Save**
 
 This will always validate the document first and notify of errors
-
-</instructions>
+::::
 

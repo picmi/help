@@ -53,8 +53,7 @@ PICMI does not currently accept credit card payments or direct debit authorisati
 
 Adding the right particulars to bank transfers is essential for ensuring that payments are correctly attributed to your PICMI account. Here’s the recommended approach for both domestic and international transfers.
 
-<explanation>
-
+:::: explanation
 ### Domestic Bank Transfers (New Zealand)
 
 1. **Bank Reference Field**: When initiating a bank transfer within New Zealand, use the bank’s **reference** or **particulars** field to add the following
@@ -83,7 +82,7 @@ Adding the right particulars to bank transfers is essential for ensuring that pa
 ::: prompt
 For both domestic and international payments, allow time for the payment to process and confirm with PICMI if the payment does not reflect on your account after the standard processing time (typically 1-5 business days for international payments).
 :::
-</explanation>
+::::
 
 If you have questions or special circumstances, please see [billing support](#billing-support) for additional guidance.
 
@@ -97,14 +96,12 @@ If you have questions or special circumstances, please see [billing support](#bi
 
 If you’ve sent an application to the wrong person, don’t worry—mistakes happen, especially when managing multiple hires or working under pressure. Here’s how to resolve it
 
-<explanation>
-
+:::: explanation
 ### Resolving mistaken applications
 1. **Identify the mistake** and cancel the incorrect application in PICMI and add a status message.
 2. **Send a new invite** to the correct person or correct invite to the person.
 3. **Notify PICMI** at **billing@picmi.io** with the details of the mistake.
-
-</explanation>
+::::
 
 We won’t charge you for the incorrectly issued contract, and this adjustment will be noted on your monthly invoice. Be sure to review your invoice at the end of the month to confirm the correction has been applied.
 

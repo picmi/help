@@ -7,8 +7,7 @@ A **cache** is like a storage space where frequently used data is saved to make 
 
 To fix this, clearing the cache is often the best solution. This removes the saved data, allowing PICMI to load fresh content and resolve any display or performance issues. We should only do this temporarily.
 
-<instructions>
-
+:::: instructions
 ## Normal and hard refresh
 
 1. Locate a :::icon refresh::: **Refresh** on the page
@@ -20,11 +19,9 @@ To fix this, clearing the cache is often the best solution. This removes the sav
 ::: prompt
 If this still does not look right, continue with [update old information](#update-old-information) below
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Update old information
 
 1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
@@ -36,8 +33,7 @@ If this still does not look right, continue with [update old information](#updat
 ::: prompt
 PICMI will revert to its default behaviour after the reset in seconds time
 :::
-
-</instructions>
+::::
 
 ## Disable cache in browser
 
@@ -45,8 +41,7 @@ This technique only works for as long as your **Developer Tools** are open. Once
 
 Here’s how to disable the cache in Developer Tools:
 
-<instructions>
-
+:::: instructions
 ### Chrome, Edge, and Firefox
 
 1. Open Developer Tools:
@@ -56,5 +51,4 @@ Here’s how to disable the cache in Developer Tools:
 4. Keep the Developer Tool pane open
 5. **Reload** the page using the browser button at the top-left and continue using PICMI
 6. Close **Developer Tools** to restore normal cache behaviour
-
-</instructions>
+::::

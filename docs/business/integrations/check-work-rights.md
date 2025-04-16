@@ -26,8 +26,7 @@ valid deliverable email address.
 | [ID](#id){#id}                                  | Unique external identifier for the employee (if set, [ensure enabled](#what-to-do-with-the-foreignkey_id-is-not-found-error-on-the-integration) with CheckWorkRights) |                                     | Integration Configuration |
 | [Send email](#send-email){#send-email}          | Prevent issuing the initial request email—reminder emails will still be issued                                                                                        | Default: off                        | Integration Configuration |
 
-<explanation>
-
+:::: explanation
 ## How PICMI works with CheckWorkRights
 
 **PICMI** integrates with CheckWorkRights to simplify the right to work checks as part of your hiring process. Here's
@@ -110,8 +109,7 @@ If the person is not already in CheckWorkRights from the PICMI integration, you 
 Duplicate records must be manually resolved in CheckWorkRights.
 :::
 
-<instructions>
-
+:::: instructions
 ## Retrieving a token
 
 Log in to [CheckWorkRights](https://app.checkworkrights.com.au) with your credentials that access to setting up an API
@@ -127,8 +125,7 @@ This is the key to use in PICMI
 Only update the key using **Refresh Key** if you are sure that what you want to do as it will cancel the previous key
 from usage and must be updated in PICMI
 :::
-
-</instructions>
+::::
 
 ## FAQs
 
@@ -179,8 +176,7 @@ enabled per account and isn't self-service.
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-
-</explanation>
+::::
 
 <script setup lang="ts">import {ref} from 'vue';
 

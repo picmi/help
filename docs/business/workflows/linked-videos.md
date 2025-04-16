@@ -53,8 +53,7 @@ If you already have a video in another system and do not have the source version
 
 We recommend https://www.savethevideo.com
 
-<instructions>
-
+:::: instructions
 1. Locate the webpage that contains the video to download
 2. Copy and paste the link into "video link box" https://www.savethevideo.com/home
 3. Click Start, wait for the site to do the processing (note: it may open a new tab for advertising that should be closed)
@@ -63,5 +62,4 @@ We recommend https://www.savethevideo.com
 ::: prompt
 Don't use **Download** because it separates Audio and Video
 :::
-
-</instructions>
+::::

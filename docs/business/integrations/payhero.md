@@ -48,8 +48,7 @@ support@payhero.co.nz?subject=PICMI  partner API access key&body=Please provide 
 > **Body** Please provide me with the PICMI partner API access key to be used for my organisation
 
 
-<explanation>
-
+:::: explanation
 ### Who is doing what
 
 | **Actor**           | **Description**                                                                        |
@@ -75,11 +74,9 @@ like PICMI
 The **partner API key** for PICMI is **not viewable** to the customer through the PayHero application but is provided via
 email
 :::
+::::
 
-</explanation>
-
-<explanation>
-
+:::: explanation
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
@@ -115,6 +112,4 @@ See [request a PICMI partner API access key](#request-a-picmi-partner-api-access
 :::
 
 </faq>
-
-
-</explanation>
+::::

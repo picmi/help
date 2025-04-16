@@ -10,15 +10,13 @@ Searching has three different types of selection: _text, date and select_
 
 Text search is dependent on the table  but is usually the primary category of the table eg, name or email
 
-<instructions>
-
+:::: instructions
 ## Search for value
 
 1. Click in the search field.
 2. Type values to filter results automatically.
 3. Use the "X" on the right to clear the text.
-
-</instructions>
+::::
 
 ### Date selection
   * Choose a single date.
@@ -30,14 +28,12 @@ Text search is dependent on the table  but is usually the primary category of th
       * Last fortnight
       * Last month
 
-<instructions>
-
+:::: instructions
 ## Select a date
 
 1. Choose one of the options above.
 2. Click Apply to refresh search results.
-
-</instructions>
+::::
 
 ### Drop-down selection (indicated by a chevron down)
 
@@ -45,8 +41,7 @@ Text search is dependent on the table  but is usually the primary category of th
 * When one item is selected, displays the value in bold.
 * When multiple items are selected, displays the area name with a count in bold.
 
-<instructions>
-
+:::: instructions
 ## Select from drop-down
 
 1. Click the button.
@@ -54,8 +49,7 @@ Text search is dependent on the table  but is usually the primary category of th
 3. Click Clear to remove selections.
 4. Click All to select all items.
 5. Click Apply to update results.
-
-</instructions>
+::::
 
 ::: prompt
 Remember to click Apply to refresh results, as selections don’t update automatically to allow multiple choices at once.
@@ -68,8 +62,7 @@ Results appear in either a table or a list.
 * **Table**: Displays results in columns, some of which may be sortable, with a “paging” mechanism to limit the viewable results.
 * **List**: Shows all results at once.
 
-<explanation>
-
+:::: explanation
 ### Sorting instructions
 
 Sorting in PICMI tables involves two main mechanisms:
@@ -91,11 +84,9 @@ When sorting multiple columns at once, PICMI follows a **combined sort order**:
 ::: prompt
 If the order is not what you expected, remove all sorts by clicking twice on each sorted column, then start again.
 :::
+::::
 
-</explanation>
-
-<instructions>
-
+:::: instructions
 #### Single sort on columns
 
 1. Hover over table columns and check if there’s an arrow icon.
@@ -113,8 +104,7 @@ If the order is not what you expected, remove all sorts by clicking twice on eac
 ::: prompt
 If sorting isn’t working, try removing all sorts and restarting.
 :::
-
-</instructions>
+::::
 
 ## Remembering searches
 

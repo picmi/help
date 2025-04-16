@@ -27,8 +27,7 @@ Status messages have two levels of visibility:
 Notifications go to jobseekers via in-app messages and emails—the email can be previewed
 :::
 
-<explanation>
-
+:::: explanation
 ## For the business
 
 * **Extra Details:** A status message can be used to give the business more details about the current state of an
@@ -81,8 +80,7 @@ displayed on the People view, and shared status messages are included in **notif
 You can view the history of status messages from previous statuses, and previous status messages can also be reused by
 copying them into a new status. Additionally, you can search for status messages across different people's applications.
 :::
-
-</explanation>
+::::
 
 ## Reuse existing and previous messages
 
@@ -95,8 +93,7 @@ two ways:
   consistent with what the
   person might be expecting based on previous communication
 
-<instructions>
-
+:::: instructions
 ## View status message
 
 The status message is viewable per application row in the People view.
@@ -110,11 +107,9 @@ The status message is viewable per application row in the People view.
 5. Click **Save** when you're done
 6. The **Status Message** and/or **Message Visibility** column will now show in the table for all entries
 7. Locate the **application** row :::icon checkbox-marked-outline:::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## View status messages history
 
 The status message history is viewable per application.
@@ -133,11 +128,9 @@ The status message history is viewable per application.
 ::: prompt
 Move quickly between different people's application status message by clicking on the person application rows rather than closing the drawer and repeating the steps above
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Change status message on application
 
 1. Go to **People**.
@@ -153,11 +146,9 @@ Move quickly between different people's application status message by clicking o
 ::: prompt
 Reuse existing message through [show existing](#copy-from-all-applications)
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Add new status message
 
 Add a status message and include in notifications
@@ -172,11 +163,9 @@ Add a status message and include in notifications
 ::: prompt
 You can reuse existing messages and see what you [have already sent](#copy-from-all-applications)
 :::
+::::
 
-</instructions>
-
-<explanation>
-
+:::: explanation
 ## Understanding Previous Status Messages
 
 PICMI allows you to reuse messages that have been sent previously, which can save time and help maintain consistency.
@@ -197,8 +186,7 @@ Each message also shows:
 
 By considering both where the message came from and what you want to achieve—whether it’s prompting action, offering a gentle reminder, or simply sharing information—you can confidently choose the most effective message to reuse.
 
-<instructions>
-
+:::: instructions
 ## Copy from All Applications
 
 Add messages that have been used across other people's applications
@@ -217,11 +205,9 @@ Add messages that have been used across other people's applications
     * **Application status**: [status](../about-picmi/applications.md#application-status) when the message was stored
     * **Updated**: date when the message was stored
 4. Click **Copy** to add the text to the message editor
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Copy from This Application Only
 
 Add messages that have been used on this person's application
@@ -239,13 +225,10 @@ Add messages that have been used on this person's application
 To resend a reminder, create a new message entry. This ensures you can track repeats. You can copy messages for this
 purpose. You may also want to add new information.
 :::
+::::
+::::
 
-</instructions>
-
-</explanation>
-
-<instructions>
-
+:::: instructions
 ## Preview an email template
 
 As part of notifications for jobseekers, an email will be sent. The email contains:
@@ -256,5 +239,4 @@ As part of notifications for jobseekers, an email will be sent. The email contai
 
 1. Select **Preview Email Template** :::icon account-eye-outline:::
 2. Close the dialog when complete viewing
-
-</instructions>
+::::

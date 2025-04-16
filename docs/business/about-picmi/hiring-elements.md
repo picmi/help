@@ -3,8 +3,7 @@
 The hiring elements make the application process in PICMI that is designed to be simple and structured, guiding people through details from the organisation and the job through the workflow to the contract. Personal overrides provide flexibility to accommodate unique circumstances, ensuring that the application process is legal, fair and inclusive for everyone.
 
 
-<explanation>
-
+:::: explanation
 ```
 Organisation
     ↓
@@ -40,8 +39,7 @@ A contract can only be personalised using field substitutions, which replace pla
 
 Currently, entire sections of the contract cannot be conditionally included or excluded. For example, if a specific clause is only relevant to leader roles, it cannot be removed for non-leader roles—it must remain in the contract but can be adjusted using field substitutions.
 :::
-
-</explanation>
+::::
 
 ## FAQs
 

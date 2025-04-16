@@ -29,8 +29,7 @@ Creating a job requires a base set of information so that people know what can b
 * [preview a job](previewing-a-job)
 :::
 
-<explanation>
-
+:::: explanation
 ## Application information
 
 In the case of an individual changes for a specific jobseeker application on a job.
@@ -39,11 +38,9 @@ be set.
 
 A listing can have multiple pay rates so that they can offer higher rates to more experienced people. Having multiple
 rates also requires setting up how this information is displayed. There are two places the pay rates can be displayed.
+::::
 
-</explanation>
-
-<instructions>
-
+:::: instructions
 ## Create job
 
 The status of the job is viewable per job row in the Job view.
@@ -60,11 +57,9 @@ The job will be added to the list
 ::: prompt
 Often it is best to [duplicate a job](duplicate-a-job.md) rather than start new particularly because it copies across [integrations](../integrations/integrations.md)
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Updating job fields
 
 The status of the job is viewable per job row in the Job view.
@@ -80,5 +75,4 @@ The status of the job is viewable per job row in the Job view.
 6. Click **Done** when finished
 
 The job details will be updated on each Save
-
-</instructions>
+::::

@@ -12,8 +12,7 @@
 Business accounts are only for companies managing their hiring, not for job applications and to apply for a job, you need to use a *jobseeker account*
 :::
 
-<explanation>
-
+:::: explanation
 ## How to fix it
 1. **Jobseeker**
     - The jobseeker can fix it themselves
@@ -26,8 +25,7 @@ Do not **cancel** the application and invite again—that can make it harder for
 2. **Business**
     - [Cancel](changing-application-status.md) the application with a [status message](status-message)
     - Invite by [adding a provisional user](provisional-user.md#add-a-provisional-user)
-
-</explanation>
+::::
 
 
 

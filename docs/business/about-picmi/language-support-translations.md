@@ -13,8 +13,7 @@ PICMI is designed for third-party embedded language translation tools to help pe
 instructions on [translating PICMI to your language for jobseekers](../../jobseeker/article/translation-support.md)
 :::
 
-<explanation>
-
+:::: explanation
 ## Supporting translation in PICMI
 
 PICMI is designed as an English-first application, but many jobseekers may use external translation services to
@@ -61,8 +60,7 @@ understand the interface and content. To ensure the best experience for them, PI
 
 - PICMI checks workflows in **Google Translate** and **Microsoft Translator** to identify any translation issues.
 - Adjustments are made where necessary to improve clarity.
-
-</explanation>
+::::
 
 ## Using external translators
 
@@ -109,8 +107,7 @@ we recommend relying on **dynamic external translation tools** to handle languag
 - Keeping content in one primary language reduces the complexity of managing multiple translated files.
 - Avoids the need to store, update, and maintain multiple versions of videos and documents within PICMI.
 
-<explanation>
-
+:::: explanation
 #### Examples of How This Works
 
 - **Videos**:
@@ -121,8 +118,7 @@ we recommend relying on **dynamic external translation tools** to handle languag
 - **Documents (PDFs, Guides, Policies, etc.)**:
     - Businesses can provide a **single English version** and let users apply online translation tools.
     - If required, businesses can host translated versions separately and provide links within PICMI.
-
-</explanation>
+::::
 
 ## Additional Considerations
 

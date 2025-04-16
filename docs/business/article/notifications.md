@@ -21,8 +21,7 @@ You can manage your notification preferences for any types in the PICMI app.
 By default, notifications are enabled for both all delivery methods.
 :::
 
-<instructions>
-
+:::: instructions
 ### Manage preferences
 
 1. Sign in to your PICMI account.
@@ -30,15 +29,13 @@ By default, notifications are enabled for both all delivery methods.
 3. Select **Settings** :::icon cog-outline:::
 4. Click :::icon chevron-down open:::, in the notification type, to see delivery methods
 5. Enable or disable :::icon toggle-switch-outline::: the delivery method
-
-</instructions>
+::::
 
 ## Managing messages
 
 The notification bell :::icon bell-outline::: will show a green dot when there are **new** messages
 
-<explanation>
-
+:::: explanation
 ### Viewing messages
 
 Click on notification bell :::icon bell-outline::: to see the list of latest messages. Messages that
@@ -56,5 +53,4 @@ A quick approach can be to mark all messages as read. You can only mark single m
 ### Remove message
 
 Remove messages from the list. This cannot be undone.
-
-</explanation>
+::::

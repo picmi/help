@@ -139,11 +139,9 @@ If you notice any discrepancies between PICMI and Xero:
 PICMI will automatically keep your token up to date by refreshing it before it expires (at about the half-way point)
 :::
 
-<explanation>
-
+:::: explanation
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-
-</explanation>
+::::

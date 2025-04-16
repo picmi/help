@@ -16,8 +16,7 @@ PICMI gathers just enough information to enable a seamless handover to systems t
 payroll, timesheets, and scheduling. While PICMI is the source of truth for job and application-specific details at the
 time of recording, downstream systems become the source of truth for ongoing management.
 
-<explanation>
-
+:::: explanation
 ### Examples
 
 1. **Right-to-Work Checks**: PICMI collects key details from the jobseeker and may trigger a request to a system that
@@ -31,8 +30,7 @@ time of recording, downstream systems become the source of truth for ongoing man
 3. **Travel Scheduling**: PICMI collects the required details necessary for the next system (e.g., for ridesharing they
    express interest in participating and agree to voluntary deductions). After the contract is signed, PICMI sends this
    data to that system, which can then manage the dynamic nature of travel.
-
-</explanation>
+::::
 
 By focusing on fast hiring while allowing specialised systems to take over for post-hire processes, businesses get the
 best of both worlds—speed and accuracy in hiring, plus reliable downstream management.
@@ -44,8 +42,7 @@ There are two main ways:
 * import via CSV from [download reports](download-reports.md)
 :::
 
-<explanation>
-
+:::: explanation
 ### How It Works
 
 1. **Employee Data in PICMI**: When an application is agreed, the employee’s information (such as personal details or
@@ -57,8 +54,7 @@ There are two main ways:
 
 3. **External System Receives the Data**: The external system receives the data as employee information and updates its
    records accordingly, making it ready for payroll processing and other administrative tasks.
-
-</explanation>
+::::
 
 ## Available integrations
 
@@ -106,8 +102,7 @@ Each only differ by configuration
 
 <p></p>
 
-<explanation>
-
+:::: explanation
 ### General setup process
 
 1. **Set Up Integration for Your Organisation**:
@@ -125,8 +120,7 @@ Each only differ by configuration
     - Check the events in PICMI to see when and how the data was sent.
 6. **Verify in the Integration**:
     - Log into the other system and confirm that the data from PICMI was received correctly.
-
-</explanation>
+::::
 
 ## Different Ways to Authorise PICMI to Transfer Data
 

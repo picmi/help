@@ -8,8 +8,7 @@ event". Inside each event are data is "record" made up of "fields" which are the
 have different data and there are rules around that data that may mean it succeeds or fails.
 
 
-<explanation>
-
+:::: explanation
 ## General integration rules
 
 PICMI is a system of record making it the source of the original data, but it does not attempt to maintain data over
@@ -19,11 +18,9 @@ time and keep the two systems synchronised.
 * only send data (which means make a new record) in the integration if no record exists
 * do not update existing records
 * updates to records must be done manually in the system itself with a person authorised to make the changes
+::::
 
-</explanation>
-
-<instructions>
-
+:::: instructions
 ## Show integration providers that are already setup
 
 1. Go to **Jobs**
@@ -36,11 +33,9 @@ time and keep the two systems synchronised.
 To add an integration, please reach out to our support team via
 the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
 to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.io</a>.
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Show fields to be sent
 
 1. Go to **People**
@@ -53,12 +48,10 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
     * Click **Submit**
 6. In the **Events** section, locate the person record by **date** and **Show** and **integration name**
 7. Locate the **field by name** and check its **value**
+::::
 
-</instructions>
 
-
-<instructions>
-
+:::: instructions
 ## Show events detailed view (result of attempt to send data)
 
 1. Go to **People**
@@ -70,11 +63,9 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
     * **Create**
     * **Integration name**
 6. Locate the event phase and confirm status (see [below](#phase-and-status-of-an-integration-event))
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Show events quick view
 
 1. Go to **People**
@@ -87,8 +78,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 5. Click **Save** when you're done
 6. Locate the **application** row :::icon checkbox-marked-outline:::
 7. Confirm by the **integration name** under each of the column titles
-
-</instructions>
+::::
 
 ## Phase and status of an integration event
 
@@ -104,8 +94,7 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 CSV integrations will only show a limited set phases because the data is directly downloaded to the user
 :::
 
-<instructions>
-
+:::: instructions
 ## Create employee manually (send data per employee)
 
 1. Go to **People**
@@ -119,11 +108,9 @@ CSV integrations will only show a limited set phases because the data is directl
 6. In the **Events** section, locate the person record by **date** and **Create** and **integration name**
 7. Locate the **field by name** and check its **value**
 8. Locate the event phase and confirm status (see [above](#phase-and-status-of-an-integration-event))
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Setup automatic create employee (sending of data on accepted application)
 
 1. Go to **Jobs**
@@ -144,8 +131,7 @@ CSV integrations will only show a limited set phases because the data is directl
 ::: prompt
 Use the same process by select OFF at Add new setting setup
 :::
-
-</instructions>
+::::
 
 ## FAQs
 

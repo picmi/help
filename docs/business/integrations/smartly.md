@@ -43,11 +43,9 @@
 
 * see [reports](download-reports.md)
 
-<explanation>
-
+:::: explanation
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-
-</explanation>
+::::

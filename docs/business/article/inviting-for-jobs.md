@@ -6,8 +6,7 @@ Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a
 Before you send out an invitation ensure that the job and application workflow is all correct and that there are enough [vacancies](../about-picmi/applications.md#restrictions-on-actions)
 :::
 
-<explanation>
-
+:::: explanation
 ## General process
 
 * use the :::icon help-circle-outline Help Tour Guide::: to learn about the major functions
@@ -29,13 +28,11 @@ Before you send out an invitation ensure that the job and application workflow i
 ::: prompt
 People **without** an email can be added as a [provisional user](provisional-user.md)—they are then invited or contacted by other means
 :::
-
-</explanation>
+::::
 
 ## Send invites
 
-<instructions>
-
+:::: instructions
 ## Send single invite
 
 This is the simplest way to send a single email.
@@ -59,11 +56,9 @@ Back in the list you can watch the process of the email being sent
 ::: prompt
 Avoid typing an email address by using import or copy-and-paste to ensure that you don't introduce unnecessary errors—bounced email addresses will be notified and the application should be cancelled
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Send bulk invites from spreadsheet application
 
 You can always bring in a set of emails from your spreadsheet application. Create this information in the [import template format](#download-import-template) that you have downloaded.
@@ -89,11 +84,9 @@ In this list, you can edit and remove emails, as well as preview the email
 ::: prompt
 When importing from CSV, order of **Email** first is important before **Name**
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Send bulk invites from mail application
 
 You can always bring in a set of emails from you mail client that has the email addreses. No import template is required just select the emails from the application contact list.
@@ -112,11 +105,9 @@ You can always bring in a set of emails from you mail client that has the email 
 12. When you are ready, click **Send**
 
 In this list, you can edit and remove emails, as well as preview the email
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Search Existing People
 
 Invite people who have already had applications and are entered in the system.
@@ -162,8 +153,7 @@ ready to import
 ::: prompt
 Important template has three fields: **Email, Name, Message** (order is important!)
 :::
-
-</instructions>
+::::
 
 ## FAQs
 

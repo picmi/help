@@ -8,8 +8,7 @@ In PICMI, adding or removing business users is simple and helps manage who has a
 
 These steps are quick and help keep your team organised while maintaining security.
 
-<instructions>
-
+:::: instructions
 ## Create business user
 
 1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
@@ -25,11 +24,9 @@ The person will be added to the organisation and notified in their email inbox
 ::: prompt
 All users have the same access and get notified on an accepted application
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## Remove a business user
 
 1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
@@ -41,6 +38,5 @@ The person will no longer have access to the organisation
 ::: prompt
 People can be added again later
 :::
-
-</instructions>
+::::
 

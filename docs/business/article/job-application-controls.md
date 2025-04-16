@@ -15,8 +15,7 @@ use the **Invites only** setting. You can also set a limit on the number of appl
 View **Remaining** positions for each job in Jobs under [customise columns](#view-job-bucket-settings)
 :::
 
-<instructions>
-
+:::: instructions
 ## Application controls
 
 1. Go to **Jobs**
@@ -31,11 +30,9 @@ View **Remaining** positions for each job in Jobs under [customise columns](#vie
 8. Click **Save** when you are done
 
 Back in the jobs list you can also [view **job bucket** settings](#view-job-bucket-settings)
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## View job bucket settings
 
 The status of the job bucket is viewable per job row in the Job view.
@@ -54,11 +51,9 @@ The status of the job bucket is viewable per job row in the Job view.
 ::: prompt
 Remaining will show **No positions left** when the maximum number of people is reached
 :::
+::::
 
-</instructions>
-
-<instructions>
-
+:::: instructions
 ## View job funnel settings
 
 The count of [application status](../about-picmi/applications.md#application-status) of the job funnel is viewable per job row in the Job view.
@@ -82,5 +77,4 @@ The count of [application status](../about-picmi/applications.md#application-sta
 ::: prompt
 Remaining will show **No positions left** when the maximum number of people is reached
 :::
-
-</instructions>
+::::

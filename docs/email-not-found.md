@@ -6,8 +6,7 @@ When PICMI sends emails through a service like AWS, there are a few reasons why 
 Provisional users do not receive emails!
 :::
 
-<explanation>
-
+:::: explanation
 ## How to Find an Email You Can't See in Your Inbox
 
 If you're unable to find an email in your inbox, follow these steps to locate it:
@@ -44,5 +43,4 @@ Try different combinations of words or phrases to increase your chances of findi
 
 ## 5. **Check Your Settings**
 - Review your email settings to ensure that nothing is preventing emails from appearing in your inbox. Check any rules or filters that may automatically move or delete emails.
-
-</explanation>
+::::

@@ -14,8 +14,7 @@ select:
 - **Contract substitutions**: Job or organisational details used in contracts
 - **Worker information**: Profile information about the worker
 
-<explanation>
-
+:::: explanation
 ## Key concepts
 
 ### Columns
@@ -37,8 +36,7 @@ Note: there is a [default date format](#date-options) that can be changed which 
 A [view](#managing-views) is a saved configuration of columns, values, and formats. You can save views to reuse them or
 create new ones for
 different purposes.
-
-</explanation>
+::::
 
 ## Specific features
 
@@ -54,8 +52,7 @@ Ready-to-use reports for specific systems are found under [Reports](../integrati
 are [CSV integrations)](../integrations/integrations.md#available-integrations)
 :::
 
-<explanation>
-
+:::: explanation
 ## Working with columns
 
 - **Add a column**: Include a new field in the export.
@@ -78,8 +75,7 @@ are [CSV integrations)](../integrations/integrations.md#available-integrations)
 - **Save a view**: Store your configuration for future use.
 - **Choose an existing view**: Select a saved configuration.
 - **Delete a view**: Remove a saved configuration you no longer need.
-
-</explanation>
+::::
 
 ## Set default date format
 
@@ -146,8 +142,7 @@ to meet specific requirements, ensuring the exported data is tailored for your b
 A mask modifies the raw data into a new format without changing the original value. Here are three examples to
 demonstrate how masks work:
 
-<explanation>
-
+:::: explanation
 ### Date mask
 
 A date mask changes how dates are displayed. For instance, consider a raw date `1982-05-25T00:00:00.000Z`. Applying the
@@ -181,6 +176,5 @@ Using the mask `${value} (${generator})`, the output would be:
 
 This method allows for combining fields into a readable, concise output suitable for reporting or integration. Note:
 there is no conditional logic in the templates.
-
-</explanation>
+::::
 

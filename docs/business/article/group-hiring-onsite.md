@@ -25,8 +25,7 @@ considerations for second-language speakers.
 - **Pair up workers with devices**—match those who have devices with those who don’t.
 - **Identify experienced workers who can help explain**, including providing translation if needed.
 
-<explanation>
-
+:::: explanation
 ## Working through contracts and templates
 
 ### Step one: new workers
@@ -55,8 +54,7 @@ considerations for second-language speakers.
 - **Returning workers individual completion**: 2–5 minutes (only need to update new details)
 - **New workers individual completion**: Around 30 minutes (full setup required)
 :::
-
-</explanation>
+::::
 
 ### Special considerations for second-language speakers
 

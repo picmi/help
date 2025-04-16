@@ -2,8 +2,7 @@
 
 Use the preview pane to ensure values are as expected.
 
-<instructions>
-
+:::: instructions
 ## Preview job details
 
 1. Go to **Jobs**
@@ -18,8 +17,7 @@ Use the preview pane to ensure values are as expected.
 ::: prompt
 The **Edit** pane is also available from **People** view in each row when showing the**Jobs**
 :::
-
-</instructions>
+::::
 
 * Click **Public job** :::icon open-in-new::: to open the job separately in a new window/browser tab
 * Click :::icon content-copy::: **Copy to Clipboard**&mdash;and then paste into another browser or provide as a link to someone (eg in an email)

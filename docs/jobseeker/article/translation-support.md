@@ -2,8 +2,7 @@
 
 PICMI is designed in English, but there are several ways to translate job details, contracts, and instructions into your language. You can use browser tools, mobile apps, and external services to help you understand the content.
 
-<explanation>
-
+:::: explanation
 ## On-page translation (web browsers)
 
 Most modern browsers allow you to translate entire pages into your language automatically.
@@ -25,11 +24,9 @@ Most modern browsers allow you to translate entire pages into your language auto
     - Install the Google Translate app and use the **Share** button to translate text.
 - Best for:
     - Apple users needing an easy way to translate PICMI pages.
+::::
 
-</explanation>
-
-<explanation>
-
+:::: explanation
 ## In-app translation for documents and text
 
 PICMI may include contracts, guides, and policies that are only in English. You can use translation tools to convert them into your language.
@@ -47,11 +44,9 @@ PICMI may include contracts, guides, and policies that are only in English. You 
 - View the translation directly on your screen.
 - Best for:
     - Translating physical documents or workplace signs into your language.
+::::
 
-</explanation>
-
-<explanation>
-
+:::: explanation
 ## Mobile translation (for jobseekers on phones and tablets)
 
 ### Google Translate mobile app (Android & iOS)
@@ -70,5 +65,4 @@ PICMI may include contracts, guides, and policies that are only in English. You 
 - Use **live conversation mode** to translate spoken instructions into your language.
 - Best for:
     - Quick voice-based translations for jobseekers who prefer listening in their language instead of reading English.
-
-</explanation>
+::::

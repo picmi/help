@@ -72,8 +72,7 @@ with the name copy and pasted.
 
 See [import multiple provisional users](https://help.picmi.io/business/article/provisional-user.html#import-multiple-provisional-users)
 
-<instructions>
-
+:::: instructions
 ## Table 1: new or existing planning by job
 
 You will have already worked out how many jobs you need (this example has three)
@@ -99,11 +98,9 @@ You will have already worked out how many jobs you need (this example has three)
 | XX       | Kiribati Crew 2025           |              X              |          X          |
 | XX       | Kiribati Crew 2025           |                             |          X          |
 | XX       | Kiribati Crew 2025           |              X              |                     |
+::::  
 
-</instructions>  
-
-<instructions>  
-
+:::: instructions
 ## Table 2: invite via search
 
 Create a table of all the worker by job who are existing
@@ -115,11 +112,9 @@ Create a table of all the worker by job who are existing
 | XX   | Kiribati Crew 2025           |
 | XX   | Harvest Workers PNG 2025     |
 | XX   | Kiribati Crew 2025           |
+::::  
 
-</instructions>  
-
-<instructions>  
-
+:::: instructions
 ## Table 3: csv data to create provisional user per job
 
 Each job will have a CSV data file to be imported. In practice, if there is one or two,
@@ -147,5 +142,4 @@ just [add provisional](provisional-user.md#add-a-provisional-user) user without 
 | **Name** | **Expiry** |
 |----------|:----------:|
 | XX       |    365     |
-
-</instructions>  
+::::  

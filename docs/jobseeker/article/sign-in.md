@@ -4,8 +4,7 @@
 
 As a jobseeker, you can sign in to PICMI in multiple ways:
 
-<explanation>
-
+:::: explanation
 ## 1. Using an Invite Link (Recommended)
 Some emails you receive from PICMI, including invite emails, contain a link that automatically signs you in. To use this method:
 
@@ -35,8 +34,7 @@ You can use your Google account to sign in quickly without needing a separate pa
 - Go to the PICMI sign-in page.
 - Click **Sign in with Google**.
 - Select your Google account and follow the prompts.
-
-</explanation>
+::::
 
 Each method provides a seamless and secure way to access PICMI.
 

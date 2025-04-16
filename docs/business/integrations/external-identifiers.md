@@ -14,8 +14,7 @@ Integrations require a shared identifier to correlate data between PICMI and ext
 If a customer requires an employee to have the same external ID in both Smartly and Tātou, the most restrictive format must be used. Smartly allows only a 5-character alphanumeric ID, while Tātou has a more flexible format. Therefore, both systems will use the ID "AB56S," and no other employee will receive the same value from PICMI. These identifiers are assumed to be unique within each customer's integrations rather than globally unique across all PICMI users.
 :::
 
-<explanation>
-
+:::: explanation
 ## General design
 - Each integration can have a unique identifier algorithm or type assigned to it.
 - Each identifier type follows a predefined format (e.g., 5-character alphanumeric).
@@ -30,8 +29,7 @@ If a customer requires an employee to have the same external ID in both Smartly 
 - A history of previous identifier values is maintained.
 - Identifiers are assumed to be unique across integrations for each PICMI user.
 - Workforce users (ie jobseekers) have external identifiers available to be seen by them
-
-</explanation>
+::::
 
 ## General setup and usage
 1. The integration is configured with an external identifier type (e.g., 5-digit alphanumeric for Smartly, Tātou, and Dataphyll).

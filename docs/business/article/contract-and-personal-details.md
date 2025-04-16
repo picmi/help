@@ -2,19 +2,16 @@
 
 PICMI allows you to view all application contract and personal details saved in the process, including files. Finding an application requires using the search fields correctly. Here are the [general search filter instructions](search.md).
 
-<explanation>
-
+:::: explanation
 ## Details available
 
 * **Contract**: the contract template completed as part of the application process with all the field substitutions
 * **Personal Details**: all the answers to the questions
 * **Files**: any files that were uploaded as part of the process (available for download)
 * **Job**: the job description
+::::
 
-</explanation>
-
-<instructions>
-
+:::: instructions
 ## View application details
 
 1. Go to **People**.
@@ -30,5 +27,4 @@ PICMI allows you to view all application contract and personal details saved in 
 ::: prompt
 If you don't think this is the latest version, then use [update old information](update-old-information.md) and return
 :::
-
-</instructions>
+::::

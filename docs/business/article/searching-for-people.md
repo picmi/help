@@ -2,8 +2,7 @@
 
 PICMI allows you to find and track all applications and their [status](../about-picmi/applications.md#application-status). Finding an application requires using the search fields correctly. Here are the [general search filter instructions](search.md).
 
-<explanation>
-
+:::: explanation
 ### Search fields
 
 * **Email address or name**: an empty field picks any name or email address
@@ -14,4 +13,4 @@ PICMI allows you to find and track all applications and their [status](../about-
 ::: prompt
 If you can't find your person then it is likely your Status filter does not match their application status
 :::
-</explanation>
+::::

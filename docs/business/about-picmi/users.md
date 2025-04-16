@@ -14,8 +14,7 @@ PICMI only allows **one user account at a time** to be logged in a single browse
 | Business      | Someone working for your business                       |      ✓       |        ✓         |        ✗        |
 | Jobseeker     | A person looking to join, or has joined, your workforce |      ✓       |        ✓         |        ✓        |
 
-<explanation>
-
+:::: explanation
 ### Sign in access types
 
 Users can sign in to PICMI in different ways:
@@ -27,8 +26,7 @@ Users can sign in to PICMI in different ways:
   key and a code are provided to the person by the business. These details are known to the business but must be
   entered by the other person to access PICMI and can be provided
   by [link, QR code or by details](../article/provisional-user.md#type-of-access) as required.
-
-</explanation>
+::::
 
 ## Important to know limitation
 
@@ -45,8 +43,7 @@ cannot be used for both. However, there are two practical workarounds if someone
 In the future, a single email will be available for both with the ability to switch between them
 :::
 
-<explanation>
-
+:::: explanation
 ## When you might need both users at the same time
 
 - A **business user** needs to issue contracts to themselves.
@@ -62,8 +59,7 @@ Ways to Test the System
 - To **see email invitations** use the **preview option** for invites.
 - To **check the validity of an application**u use the **Check Configuration** diagnostics in PICMI.
 :::
-
-</explanation>
+::::
 
 ### FAQs
 

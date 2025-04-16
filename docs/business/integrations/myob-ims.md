@@ -6,8 +6,7 @@ inserted during the import. PICMI generates the report files programmatically us
 quotes including the "Required" fields and other user fields. All data is validated prior to export to any known rules
 as listed below.
 
-<explanation>
-
+:::: explanation
 ## Special considerations: managing occupation and costing codes in PICMI exports
 
 PICMI allows you to **export data as a CSV file**, which you can **edit after downloading**. Each export is set of applications which
@@ -52,8 +51,7 @@ To **avoid extra setup** and make downloads simpler:
 - This **reduces complexity** while still allowing you to customise the data.
 
 Following this approach will make managing occupations and costing codes in PICMI **easier and more efficient**.
-
-</explanation>
+::::
 
 ## Integration configuration
 
@@ -132,11 +130,9 @@ Following this approach will make managing occupations and costing codes in PICM
 
 * see [reports](download-reports.md)
 
-<explanation>
-
+:::: explanation
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-
-</explanation>
+::::

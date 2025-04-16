@@ -23,11 +23,9 @@ integration, users must be working in the Dataphyll Business App.
 | [Email address](#email-address){#email-address}    | Employee's email address           | Must have an entry if account type is provided and it is something other than Staff | Personal Information      |
 | [Phone number](#phone-number){#phone-number}       | Employee's phone number            | 15 digits with single spaces (no +)                                                 | Personal Information      |
 
-<explanation>
-
+:::: explanation
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-
-</explanation>
+::::

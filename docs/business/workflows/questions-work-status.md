@@ -17,16 +17,14 @@ requirements, and the desired level of automation.
     - Provides real-time updates for ongoing right to work status and visa condition monitoring.
     - Reduces administrative burden while ensuring regulatory compliance.
 
-<explanation>
-
+:::: explanation
 ### Question design: your work status
 
 | **Question**                                                           | **Options** | **Instructions**                                                                                                                                                                                                                                                                                                                       |
 |------------------------------------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | I have the legal right to work in Australia                            | Agree       | As part of employment law, we must confirm that you are either an Australian citizen or a visa holder with the right to work in Australia.                                                                                                                                                                                             |
 | I agree to have my right to work status confirmed with CheckWorkRights | Agree       | After this application is accepted, and prior to starting work, you are required to confirm your right to work. You will be contacted via email from CheckWorkRights. This tool requires your consent to run the check and proof of documentation, and it verifies information provided against VEVO, the official government website. |
-
-</explanation>
+::::
 
 ## **PICMI as storage**
 
@@ -42,8 +40,7 @@ requirements, and the desired level of automation.
     - Aligns with privacy laws by avoiding the storage of sensitive biometric data.
     - Offers a centralised system for managing all employment-related records.
 
-<explanation>
-
+:::: explanation
 ### Question design
 
 | **Question**                              | **Options**                          | **Instructions**                                                                                                                   |
@@ -51,6 +48,5 @@ requirements, and the desired level of automation.
 | What is your work status?                 | List of visa options in jurisdiction | If you answer that you are on a visa above, select the tick and fill in the details. Otherwise, select the cross (not applicable). |
 | If yes, enter your visa’s passport number | Open text field                      |                                                                                                                                    |
 | If yes, enter your visa start date        | Date picker                          |                                                                                                                                    |
-| Photo of your Passport (or ID)            | File upload                          |                                                                                                                                    | 
-
-</explanation>
+| Photo of your Passport (or ID)            | File upload                          |                                                                                                                                    |
+::::

@@ -19,8 +19,7 @@ When exporting or displaying timestamps, converting UTC to the local time zones,
 Zealand, ensures users see dates and times correctly adjusted to their regions, considering the significant time zone
 differences and daylight saving practices in these countries.
 
-<explanation>
-
+:::: explanation
 ## How it works
 
 1. **Source format (UTC)**:  
@@ -40,8 +39,7 @@ differences and daylight saving practices in these countries.
 
 4. **Display in export or UI**:  
    The application displays the adjusted time in the user’s local time zone, ensuring relevance and accuracy.
-
-</explanation>
+::::
 
 ### Example scenario
 

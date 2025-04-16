@@ -7,14 +7,12 @@ KYW is a game-changer, particularly in industries with **contractors, subcontrac
 ## What is Know Your Workforce (KYW)?
 KYW is a **workforce compliance framework** that ensures businesses have full visibility and accountability over their entire workforce. It helps prevent issues like **illegal employment, wage theft, and visa breaches** by making sure every worker is **verified, properly documented, and fairly treated**.
 
-<explanation>
-
+:::: explanation
 **Why KYW Matters:**
 - Protects your business from **accidental non-compliance**
 - Reduces the risk of **worker exploitation**
 - Simplifies workforce management and **automates compliance checks**
-
-</explanation>
+::::
 
 ## Key Elements of KYW
 ### Mapping Your Labour Supply Chain

@@ -289,7 +289,7 @@ about always let you know and this is easily sorted later on.
 This is change to the terms and the application must be reissued, the dates of the job changed in personal overrides and
 then re-agreed.
 
-<explanation>
+:::: explanation
 ### Steps
 
 1. [Reissue the application](article/changing-application-status.md)
@@ -302,8 +302,7 @@ then re-agreed.
 ::: prompt
 The person on the application will be notified so ensure the date changes are done immediately
 :::
-
-</explanation>
+::::
 
 </faq>
 
@@ -316,8 +315,7 @@ the job, add the new rate into the personal overrides. The person can then proce
 Why start the application? The application provides more understanding to the person including the terms in the
 contract. Some people want to see the contract as much as negotiating their rates.
 
-<explanation>
-
+:::: explanation
 ### Steps
 
 1. Set up the job and invite the person.
@@ -329,8 +327,7 @@ contract. Some people want to see the contract as much as negotiating their rate
 ::: prompt
 If they agree, follow the same process after a reissue.
 :::
-
-</explanation>
+::::
 
 </faq>
 
@@ -340,8 +337,7 @@ It happens that photo aren't good enough and/or poorly cropped. There
 is [information here for jobseekers](../jobseeker/article/adding-a-photo.md#adding-a-new-photo) that they need to follow
 after you reissue the application for them to make updates to their photos.
 
-<explanation>
-
+:::: explanation
 ### Steps
 
 1. Find the [application](article/job-application-controls.md)
@@ -357,8 +353,7 @@ Please improve your photos. For further information use the help where photos ar
 ::: prompt
 There is no charge for this process [see billing](about-picmi/billing.md)
 :::
-
-</explanation>
+::::
 
 </faq>
 

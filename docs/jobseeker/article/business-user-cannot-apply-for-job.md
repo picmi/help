@@ -8,15 +8,13 @@
 - Business accounts are only for companies managing their hiring, not for job applications
 - To apply for a job, you need to use a *jobseeker account*
 
-<explanation>
-
+:::: explanation
 ## How to fix it
 1. **Delete the Incorrect Business Account**
     - Log in to the account you created (you will be already signed in given the error above)
     - Delete this business account from the organisation settings using the instructions below
 
-<instructions>
-
+:::: instructions
 ## Delete your business user to be a jobseeker
 
 1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
@@ -24,8 +22,7 @@
 3. Locate your user, click **Delete**
 
 At this point, the list of users should be empty
-
-</instructions>
+::::
 
 2. **Reapply with a Jobseeker Account**
     - Reopen PICMI through one of these options:
@@ -35,8 +32,7 @@ At this point, the list of users should be empty
 ::: prompt
 If you are still seeing old information, see [update old information](update-old-information).
 :::
-
-</explanation>
+::::
 
 
 

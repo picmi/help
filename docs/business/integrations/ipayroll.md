@@ -57,8 +57,7 @@ iPayroll does not accept non-NZ addresses
 PICMI integrates with iPayroll via a separate user in your organisation that has the access
 role [API User](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-api-user#API_User).
 
-<instructions>
-
+:::: instructions
 ## Retrieving a token
 
 iPayroll uses an oAuth process to issue a token which requires you to have a separate user with the API user access that
@@ -79,11 +78,9 @@ if you are currently signed in with your payroll user, log out first so that you
 ::: prompt
 Updating a token in PICMI is currently not self-service and requires help from PICMI
 :::
+::::
 
-</instructions>
-
-<explanation>
-
+:::: explanation
 ## FAQs
 
 <button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
@@ -135,8 +132,7 @@ iPayroll requires a NZ address—reissue the contract
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-
-</explanation>
+::::
 
 <script setup lang="ts">import {ref} from 'vue';
 
