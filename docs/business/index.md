@@ -23,6 +23,7 @@
 - [Job application controls](article/job-application-controls)
 - [Invites for jobs](article/inviting-for-jobs)
 - [Provisional users for jobs](article/provisional-user)
+- [Provisional users with shared email](article/provisional-user-with-shared-email.md)
 - [Change pay rates for applications](article/changing-pay-rates-for-applications)
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
 - [Checking application configuration](article/checking-application-configuration)

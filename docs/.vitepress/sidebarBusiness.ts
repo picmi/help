@@ -62,6 +62,7 @@ export function sidebarBusiness() {
                 { text: 'Bulk change status', link: '/business/article/bulk-status-change' },
                 { text: 'Invites', link: '/business/article/inviting-for-jobs' },
                 { text: 'Provisional user', link: '/business/article/provisional-user' },
+                { text: 'Provisional user with shared email', link: '/business/article/provisional-user-with-shared-email' },
                 {
                     text: 'Change pay rates for application',
                     link: '/business/article/changing-pay-rates-for-applications'
