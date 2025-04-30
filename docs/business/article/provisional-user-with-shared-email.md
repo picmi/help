@@ -8,6 +8,19 @@ Provisional users with a shared email requires all the people completing the app
 Using this approach requires the business to [send instructions](#reference-instructions-to-third-patry) to the third-party institution with access code and access keys and for the person to enter the email address into their application. 
 :::
 
+::: explanation
+## Summary Steps
+
+1. [Understand what a Provisional User is](#what-is-a-provisional-user)  
+2. [Set up the provisional users](./provisional-user.md#adding-provisional-users)
+3. [Enable Admin Columns](#enabling-provisional-user-columns): customize your admin table to track provisional users effectively.
+4. [Determine the shared email address](#shared-email-context): all provisional users enter the same monitored email address.
+5. [Send Instructions to Third Parties](#reference-instructions-to-third-party): share access credentials by updated and send the [template document](../../assets/Provisional%20User's%20credentials—Template.docx).
+6. [Guide Users to Sign In](#how-a-provisional-user-signs-in): use the access code and name at [jobs.picmi.io/go](http://jobs.picmi.io/go) to begin.
+7. [Use Shared Email in the Application](#what-email-should-be-used): all communication will go to the shared inbox.
+8. Monitor that all people have correctly entered the [Email](#enabling-provisional-user-columns) address in the People page
+:::
+
 ## What is a Provisional User?
 
 A **Provisional User** is someone who accesses a PICMI job application using an **access code** and their **name**, rather than a full account.
