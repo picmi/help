@@ -26,14 +26,16 @@
 | [Dashboard access](#dashboard-access){#dashboard-access} | Level of access the employee has to the dashboard | None, Regular, Power, Full Default: None                                         | Integration Configuration |
 | [Sectors](#sectors){#sectors}                            | Employee's sectors of operation                   | Pipe delimited Zero to many allowed                                              | Integration Configuration |
 | [Deactivate](#deactivate){#deactivate}                   | Deactivation status of the employee               | TRUE, FALSE Default: FALSE                                                       | Integration Configuration |
+| [Government ID](#govt){#govt}                            | Government Identifier                             | Empty                                                                            | Integration Configuration |
 
 ## Download Report
 
 * see [reports](download-reports.md)
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::
