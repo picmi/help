@@ -20,6 +20,11 @@ export default defineConfig({
             icon(md);
         }
     },
+    ignoreDeadLinks: [
+        (url) => {
+            return url.toLowerCase().includes('template.docx')
+        }
+    ],
     lastUpdated: true,
     themeConfig: {
         logo: { light: '/logo-no-name-outline-black.svg', dark: '/logo-no-name-outline-white.svg' },
