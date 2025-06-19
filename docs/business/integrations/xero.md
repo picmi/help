@@ -85,25 +85,39 @@ one.
 
 ## Payroll AU: PICMI-Xero integration fields
 
-| Field Name                                                              | Description                                                   | Validation/Constraint/Default Value                    | Source               |
-|-------------------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|----------------------|
-| [Surname](#au-surname){#au-surname}                                     | Last name of the employee                                     | Mandatory                                              | Personal Information |
-| [First Name](#au-first-name){#au-first-name}                            | First name of the employee                                    | Mandatory                                              | Personal Information |
-| [Date Of Birth](#au-date-of-birth){#au-date-of-birth}                   | Employee's date of birth                                      | Optional, preferred format: dd/MM/yyyy                 | Personal Information |
-| [Email](#au-email){#au-email}                                           | Employee's email address                                      | Must be a valid email format                           | Personal Information |
-| [Phone Number](#au-phone-number){#au-phone-number}                      | Employee's phone number                                       | Maximum 13 digits, no dashes or spaces, no '+'         | Personal Information |
-| [Address](#au-address){#au-address}                                     | Employee’s home address, including street, city, and postcode | Mandatory                                              | Personal Information |
-| [Gender](#au-gender){#au-gender}                                        | Gender of the employee                                        | Options: Male/Female/Non-Binary/Not Stated             | Personal Information |
-| [Job Title](#au-job-title){#au-job-title}                               | Employee’s job title                                          | Optional                                               | Job                  |
-| [Employment Type](#au-employment-type){#au-employment-type}             | Type of employment for the employee                           | Optional, Fulltime, Parttime, Casual, Labourhire, etc. | Job                  |
-| [Start Date](#au-start-date){#au-start-date}                            | Employment start date                                         | Optional, preferred format: YYYY-MM-DD                 | Job                  |
-| [Bank Account Name](#au-bank-account-name){#au-bank-account-name}       | The name of the bank account                                  | Optional, 32 characters maximum                        | Personal Information |
-| [Bank Account BSB](#au-bank-account-bsb){#au-bank-account-bsb}          | The BSB number of the account                                 | Optional                                               | Personal Information |
-| [Bank Account Number](#au-bank-account-number){#au-bank-account-number} | The account number                                            | Optional                                               | Personal Information |
-| [Tax Declaration](#au-tax-declaration){#au-tax-declaration}             | Employee’s tax declaration                                    | Optional                                               | Personal Information |
-| [Earnings Rate](#au-earnings-rate){#au-earnings-rate}                   | Xero unique identifier for earnings rate                      | Optional                                               | Configuration        |
-| [Pay Run Calendar](#au-pay-run-calendar){#au-pay-run-calendar}          | Xero unique identifier for payroll calendar for employee      | Optional                                               | Configuration        |
-| [Super Fund](#au-super-fund){#au-super-fund}                            | Xero identifier for super fund, requires EmployeeNumber       | Optional                                               | Configuration        |
+| Field Name                                                              | Description                                                                                                                                                                                                                                        | Validation/Constraint/Default Value                    | Source               |
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|----------------------|
+| [Surname](#au-surname){#au-surname}                                     | Last name of the employee                                                                                                                                                                                                                          | Mandatory                                              | Personal Information |
+| [First Name](#au-first-name){#au-first-name}                            | First name of the employee                                                                                                                                                                                                                         | Mandatory                                              | Personal Information |
+| [Date Of Birth](#au-date-of-birth){#au-date-of-birth}                   | Employee's date of birth                                                                                                                                                                                                                           | Optional, preferred format: dd/MM/yyyy                 | Personal Information |
+| [Email](#au-email){#au-email}                                           | Employee's email address                                                                                                                                                                                                                           | Must be a valid email format                           | Personal Information |
+| [Phone Number](#au-phone-number){#au-phone-number}                      | Employee's phone number                                                                                                                                                                                                                            | Maximum 13 digits, no dashes or spaces, no '+'         | Personal Information |
+| [Address](#au-address){#au-address}                                     | Employee’s home address, including street, city, and postcode. From customer requests, "No Address" option is available so people can complete that will fail an integration and requires reissue to full information to provided for integration. | Mandatory                                              | Personal Information |
+| [Gender](#au-gender){#au-gender}                                        | Gender of the employee                                                                                                                                                                                                                             | Options: Male/Female/Non-Binary/Not Stated             | Personal Information |
+| [Job Title](#au-job-title){#au-job-title}                               | Employee’s job title                                                                                                                                                                                                                               | Optional                                               | Job                  |
+| [Employment Type](#au-employment-type){#au-employment-type}             | Type of employment for the employee                                                                                                                                                                                                                | Optional, Fulltime, Parttime, Casual, Labourhire, etc. | Job                  |
+| [Start Date](#au-start-date){#au-start-date}                            | Employment start date                                                                                                                                                                                                                              | Optional, preferred format: YYYY-MM-DD                 | Job                  |
+| [Bank Account Name](#au-bank-account-name){#au-bank-account-name}       | The name of the bank account                                                                                                                                                                                                                       | Optional, 32 characters maximum                        | Personal Information |
+| [Bank Account BSB](#au-bank-account-bsb){#au-bank-account-bsb}          | The BSB number of the account                                                                                                                                                                                                                      | Optional                                               | Personal Information |
+| [Bank Account Number](#au-bank-account-number){#au-bank-account-number} | The account number                                                                                                                                                                                                                                 | Optional                                               | Personal Information |
+| [Tax Declaration](#au-tax-declaration){#au-tax-declaration}             | Employee’s tax declaration                                                                                                                                                                                                                         | Optional                                               | Personal Information |
+| [Earnings Rate](#au-earnings-rate){#au-earnings-rate}                   | Xero unique identifier for earnings rate                                                                                                                                                                                                           | Optional                                               | Configuration        |
+| [Pay Run Calendar](#au-pay-run-calendar){#au-pay-run-calendar}          | Xero unique identifier for payroll calendar for employee                                                                                                                                                                                           | Optional                                               | Configuration        |
+| [Super Fund](#au-super-fund){#au-super-fund}                            | Xero identifier for super fund, requires EmployeeNumber                                                                                                                                                                                            | Optional                                               | Configuration        |
+
+# Special Tax File Numbers (TFNs) in Australia
+
+In some situations, **special or placeholder TFNs** are used when an individual doesn't yet have a regular TFN or
+qualifies for an exemption. These are commonly used in **payroll, superannuation, and ATO reporting**.
+
+| TFN Code    | Description                                                                    |
+|-------------|--------------------------------------------------------------------------------|
+| 000 000 000 | No TFN provided; not eligible for exemption. Tax must be withheld at max rate. |
+| 111 111 111 | TFN application is in progress; valid for 28 days only.                        |
+| 333 333 333 | Individual is under 18 and earns less than the tax-free threshold.             |
+| 444 444 444 | Individual receives certain government pensions or benefits and is exempt.     |
+
+Xero does not necessarily accept these values and applications will need to be reissued.
 
 ## Authorisation
 
@@ -140,8 +154,9 @@ PICMI will automatically keep your token up to date by refreshing it before it e
 :::
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::
