@@ -1,12 +1,11 @@
-# Check integration status of person record
+# Check the integration status of an individual record
 
 These instructions refer to all integrations in which [data is sent via API](integrations.md#available-integrations)
 
 When data is shared with other systems, this is generally called an "integration". Each integration has an "integration
-provider"—these are the payroll, HRIS and on-site systems. Each time data is shared this is called an "integration
-event". Inside each event are data is "record" made up of "fields" which are the values that are shared. Each field will
-have different data and there are rules around that data that may mean it succeeds or fails.
-
+provider"—these are the payroll, HRIS and on-site systems. Each time data is shared, this is called an "integration
+event". Inside each event are data called a "record" made up of "fields" which are the values that are shared. Each field will
+have different values, and there are rules around that data that may mean it succeeds or fails.
 
 :::: explanation
 ## General integration rules
@@ -14,7 +13,7 @@ have different data and there are rules around that data that may mean it succee
 PICMI is a system of record making it the source of the original data, but it does not attempt to maintain data over
 time and keep the two systems synchronised.
 
-* only accepted applications can be integrated
+* only **accepted**, **completed** or **terminated** applications can be integrated
 * only send data (which means make a new record) in the integration if no record exists
 * do not update existing records
 * updates to records must be done manually in the system itself with a person authorised to make the changes
@@ -91,14 +90,14 @@ to <a href="mailto:hello+support@picmi.com" target="_blank">hello+support@picmi.
 | Error       | the sharing request has errored (and will have a status and message as next) | 400    | failed with error that should be seen beside it |
 
 ::: prompt
-CSV integrations will only show a limited set phases because the data is directly downloaded to the user
+CSV integrations will only show a limited set of phases because the data is directly downloaded to the user
 :::
 
 :::: instructions
-## Create employee manually (send data per employee)
+## Create an employee manually (send data per employee)
 
 1. Go to **People**
-2. Locate the **application** row :::icon checkbox-marked-outline:::
+2. Locate the **application** row :::icon checkbox-marked-outline::: with status Accepted, Completed or Terminated
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Integrations**
 5. Choose which integration to show fields
@@ -111,7 +110,7 @@ CSV integrations will only show a limited set phases because the data is directl
 ::::
 
 :::: instructions
-## Setup automatic create employee (sending of data on accepted application)
+## Setup an automatic create-employee event (sending of data on accepted application)
 
 1. Go to **Jobs**
 2. Locate the **job** row :::icon checkbox-marked-outline:::
@@ -135,8 +134,8 @@ Use the same process by select OFF at Add new setting setup
 
 ## FAQs
 
-::: faq The application is Completed, how can I send data?
-Only application with **accepted** status can have data sent. **Reopen** the application and then **Mark as complete** when finished. See [changing application status](../article/changing-application-status.md#changing-application-status). (note: these can be changed via [bulk status change](../article/bulk-status-change.md))
+::: faq The application is not in Accepted, Completed or Terminated, how can I send data?
+Only applications that have been **accepted** can have data sent—includes **completed** and **terminated**. 
 :::
 
 See [integration troubleshooting](../faqs#integrations).
