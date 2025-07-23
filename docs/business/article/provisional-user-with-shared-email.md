@@ -15,7 +15,7 @@ Using this approach requires the business to [send instructions](#reference-inst
 2. [Set up the provisional users](./provisional-user.md#adding-provisional-users)
 3. [Enable admin columns](#enabling-provisional-user-columns): customize your admin table to track provisional users effectively.
 4. [Determine the shared email address](#shared-email-context): all provisional users enter the same monitored email address.
-5. [Send instructions to third parties](#reference-instructions-to-third-party): share access credentials by updated and send the [template document](../../assets/Provisional-User-Credentials-Template.docx).
+5. [Send instructions to third parties](#reference-instructions-to-third-party): share access credentials by updated and send the <a href="../../assets/Provisional-User-Credentials-Template.docx" download>:::icon download::: Download Word Document</a>.
 6. [Guide users to sign in](#how-a-provisional-user-signs-in): use the access code and name at [jobs.picmi.io/go](http://jobs.picmi.io/go) to begin.
 7. [Use shared email in the application](#what-email-should-be-used): all communication will go to the shared inbox.
 8. Monitor that all people have correctly entered the [`Email`](#enabling-provisional-user-columns) address in the People page
@@ -89,7 +89,7 @@ All job offers, contracts, and follow-ups will be sent here.
 
 A sample credentials sheet for provisional users can be found here:
 
-<a href="../../assets/Provisional%20User's%20credentials—Template.docx" download>:::icon download::: Download Word Document</a>
+<a href="../../assets/Provisional-User-Credentials-Template.docx" download>:::icon download::: Download Word Document</a>
 
 ## Terms of use
 
