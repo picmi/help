@@ -89,7 +89,7 @@ All job offers, contracts, and follow-ups will be sent here.
 
 A sample credentials sheet for provisional users can be found here:
 
-:::icon download::: Download Word Document [pdf](/assets/Provisional-User-Credentials-Template.pdf) | <a href="/assets/Provisional-User-Credentials-Template.docx" download>docx</a>
+:::icon download::: Download Document [pdf](/assets/Provisional-User-Credentials-Template.pdf) | <a href="/assets/Provisional-User-Credentials-Template.docx" download>docx</a>
 
 ![](../../img/Provisional-User-Credentials-Template.png)
 
