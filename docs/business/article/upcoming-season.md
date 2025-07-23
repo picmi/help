@@ -21,7 +21,7 @@ address (and have agreed to have assistance)
 
 ::: explanation
 
-## Summary Steps for Returning Workers
+## Summary Steps for Returning Workers (Provisional Users)
 
 Returning workers need to be handled slightly differently from new workers. The steps below provide an overview to
 ensure both new and existing provisional users are correctly invited, tracked, and updated for the job. Follow these

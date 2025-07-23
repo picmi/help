@@ -32,7 +32,7 @@ application.
    People page
 
 ::: prompt
-See our guide to [returning workers](upcoming-season.md#summary-steps-for-returning-workers)
+See our guide to [returning workers](upcoming-season.md#summary-steps-for-returning-workers-provisional-users)
 :::
 
 ::::
