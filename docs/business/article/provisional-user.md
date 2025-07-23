@@ -50,6 +50,29 @@ You can add more than one provisional user at a time using [Import multiple new 
 ::::
 
 :::: instructions
+## View provisional user details
+
+This is the simplest way to add a single user for a person.
+
+1. Go to **Jobs**
+2. Select :::icon cog-outline::: **Customise Columns**
+3. Locate the **Provisional User** section
+4. Select the columns to view (also via clear or none):
+   * **Provisional User** – indicates whether the person is a provisional user (yes/no)
+   * **Access Key** – a unique identifier (typically a name or code) used by the business to identify the provisional user
+   * **Access Code** – the system-generated code the provisional user needs, paired with the access key
+   * **Active Access** – shows whether the provisional user’s access is currently active
+   * **Access Expires** – the date or number of days remaining before the user’s access expires
+5. Click **Save** when you're done
+6. The columns will now be shown in the table for all entries
+7. Locate the **person** row :::icon checkbox-marked-outline:::
+
+::: prompt
+Using custom columns allows you to see more than one person at a time, but at this stage only one person at a time can be updated
+:::
+::::
+
+:::: instructions
 ## Import multiple new provisional users
 
 You need to have prepared a list in either **Google Sheets**, **Excel** or **CSV** and have it already in your clipboard
@@ -114,7 +137,7 @@ The person will need to type these into a browser
 :::: explanation
 ## QR Code
 
-The person will need scan the QR code for themselves (on a phone)
+The person will need to scan the QR code for themselves (on a phone)
 
 * directly from your screen
 * downloaded and provided to them (but remember, not by email!)
@@ -123,7 +146,7 @@ The person will need scan the QR code for themselves (on a phone)
 :::: explanation
 ## Direct link
 
-The person will need click on this link (because it is not typeable)
+The person will need to click on this link (because it is not typeable)
 
 * supply the link via a message (such SMS/txt, Facebook, WhatsApp)
 ::::
@@ -135,9 +158,26 @@ Do not access this account yourself without permission from the person and ensur
 ::::
 
 :::: instructions
+## Update existing provisional user
+
+1. Go to **People**
+2. Ensure that [provisional user columns are showing](#view-provisional-user-details)
+3. Locate the person row :::icon checkbox-marked-outline:::
+4. Click :::icon dots-vertical::: (vertical dots) to open menu
+5. Select **Update expiry and access key** and provide the person
+   * **Expires in (days)** – the new duration (in days) for which the access will remain valid
+   * **Access Key** – update or confirm the unique identifier used to identify the provisional user
+6. Click **Save** when finished
+
+::: prompt
+You can stop access via the **Stop access** option on each provisional user 
+:::
+::::
+
+:::: instructions
 ## Download access codes template
 
-Import templates for multiple provisional users from spreadsheet application! Download a CSV file or copy to clipboard to bring into your spreadsheet application.
+Import templates for multiple provisional users from the spreadsheet application! Download a CSV file or copy to clipboard to bring into your spreadsheet application.
 
 1. Go to **Jobs**
 2. Locate the job row :::icon checkbox-marked-outline:::

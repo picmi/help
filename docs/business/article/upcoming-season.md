@@ -19,6 +19,37 @@ to track groups of workers arriving for specific jobs.
 address (and have agreed to have assistance)
 :::
 
+::: explanation
+
+## Summary Steps for Returning Workers
+
+Returning workers need to be handled slightly differently from new workers. The steps below provide an overview to
+ensure both new and existing provisional users are correctly invited, tracked, and updated for the job. Follow these
+steps to avoid duplicate records and ensure access codes remain valid. Note there is a [worked example below](#preparation).
+
+1. Identify and plan the total number of workers, separating new and returning workers (e.g. 5 new and 6 existing
+   workers)
+2. [Create the new job](creating-a-job.md#create-job) in PICMI where both sets of workers will be invited
+3. Invite the new workers by creating provisional users through
+   the [create provisional user](provisional-user.md#add-a-provisional-user) process one at a time
+   or [bulk creation](provisional-user.md#add-multiple-existing-provisional-users) (e.g. invite 5 new workers)
+4. Invite the returning workers by using the [job's invite option](inviting-for-jobs.md#send-invites), searching for
+   their [existing provisional user](inviting-for-jobs.md#search-existing-people)
+   accounts (emails ending with "@noreply.picmi.io" and identifying them through their access code) and adding them to
+   the new job (e.g. invite 6 existing workers)
+5. [Review all provisional users](provisional-user.md#view-provisional-user-details) (new and returning) to confirm (
+   or [update](provisional-user.md#update-existing-provisional-user)) that their access codes and expiry dates are
+   valid for the current job period (e.g. all 11 workers)
+
+Continue with processing and monitoring the workers:
+
+6. [Guide users to sign in](#how-a-provisional-user-signs-in): use the access code and name
+   at [jobs.picmi.io/go](http://jobs.picmi.io/go) to begin.
+7. [Use shared email in the application](#what-email-should-be-used): all communication will go to the shared inbox.
+8. Monitor that all people have correctly entered the [`Email`](#enabling-provisional-user-columns) address in the People page
+
+:::
+
 ## Preparation
 
 You've already created a job (
