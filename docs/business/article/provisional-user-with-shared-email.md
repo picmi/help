@@ -13,7 +13,7 @@ third-party institution with access code and access keys and for the person to e
 application.
 :::
 
-::: explanation
+:::: explanation
 
 ## Summary Steps
 
@@ -34,7 +34,8 @@ application.
 ::: prompt
 See our guide to [returning workers](upcoming-season.md#summary-steps-for-returning-workers)
 :::
-:::
+
+::::
 
 ## What is a Provisional User?
 
