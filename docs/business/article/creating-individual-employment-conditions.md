@@ -37,7 +37,7 @@ instead of the base values. This includes:
 1. Go to **People**.
 2. Locate the **application** row :::icon checkbox-marked-outline:::.
 3. Click &vellip; (vertical dots) to open the menu.
-4. Select **Personal job conditions**.
+4. Select **Personalise job conditions**.
 5. Move through the [fields](#fields-that-can-be-overridden) and update values as needed.
 4. Click **Save** when you're done.
 ::::
