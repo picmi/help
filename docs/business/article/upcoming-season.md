@@ -11,8 +11,8 @@ The page will also cover how to allocate workers across multiple jobs, including
 particularly useful when sourcing a workforce from different places who arrive at different times, allowing businesses
 to track groups of workers arriving for specific jobs.
 
-![upcoming season](../../public/assets/upcoming-season.png){width=600px}
-[Download as pdf](../../public/assets/upcoming-season.pdf)
+![upcoming season](/assets/upcoming-season.png){width=600px}
+[Download as pdf](/assets/upcoming-season.pdf)
 
 ::: prompt
 **[Provisional users](provisional-user.md)** in PICMI are for workers who generally don't reliably have a unique email
