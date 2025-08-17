@@ -1,10 +1,15 @@
 # SmoothPay integration overview
 
+::: prompt
+**Warning:** Bank Account is not yet supported by the PICMI-SmoothPay integration through the API—it is a known issue to SmoothPay.
+:::
+
 ## PICMI-SmoothPay integration fields
+
 
 | Field Name                                               | Description                                                     | Validation/Constraint/Default Value                                                              | Source                    |
 |----------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------|
-| [Id](#id){#id}                                           | Unique identifier for the employee in the integration system    | Mandatory                                                                                        | Integration Configuration |
+| [Id](#id){#id}                                           | Unique identifier for the employee in the integration system    | **Mandatory**                                                                                    | Integration Configuration |
 | [First name](#first-name){#first-name}                   | The first name of the employee                                  | (special characters are optionally stripped if set in configuration)                             | Personal Information      |
 | [Surname](#surname){#surname}                            | The surname of the employee                                     | (special characters are optionally stripped if set in configuration)                             | Personal Information      |
 | [Email](#email){#email}                                  | Email address of the employee                                   |                                                                                                  | Job                       |
@@ -26,15 +31,16 @@
 | [Pre-tax earnings](#pre-tax-earnings){#pre-tax-earnings} | Pre-tax earnings of the employee                                |                                                                                                  | Personal Information      |
 | [Visa status](#visa-status){#visa-status}                | Employment visa status of the employee                          |                                                                                                  | Questions                 |
 | [Start date](#start-date){#start-date}                   | The start date of the employee’s contract                       | Format: YYYY-MM-DD start date, defaults to today                                                 | Job                       |
-| [Family name](#family-name){#family-name}                | The last name of the employee                                   | Mandatory                                                                                        | Personal Information      |
+| [Family name](#family-name){#family-name}                | The last name of the employee                                   | **Mandatory**                                                                                    | Personal Information      |
 | [Tax code](#tax-code){#tax-code}                         | The tax code applicable to the employee                         | NZ: CAE, EDW, M, MSL, ME, MESL, ND [default], NSW, S, SSL, SB, SBSL, SH, SHSL, ST, STSL, STC, WT | Personal Information      |
 | [IRD number](#ird-number){#ird-number}                   | The IRD number for tax purposes                                 |                                                                                                  | Questions                 |
 | [Town](#town){#town}                                     | The town or region of the employee's address                    |                                                                                                  | Personal Information      |
 | [Wage type](#wage-type){#wage-type}                      | Type of wage payment for the employee                           | waged [default], variable salary, fixed salary, net salary (NZ only)                             | Integration Configuration |
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::
