@@ -1,5 +1,13 @@
 # Crystal integration overview
 
+## Crystal: Integration configuration
+
+| Configuration                                                                                                                      | Description                                                                                         | Values                                                        |
+|------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [Employer Subsidy Contribution Tax Rate](#cfg-employer-subsidy-contribution-tax-rate){#cfg-employer-subsidy-contribution-tax-rate} | Tax rate that will be deducted from Superannuation Employer Contribution, expressed as a percentage | Crystal/NZ tax rates lookup                                   |
+| [Employer Subsidy Rate](#cfg-employer-subsidy-rate){#cfg-employer-subsidy-rate}                                                    | Subsidy rate that will be provided by employers, expressed as a percentage                          | Employer subsidy rates                                        |
+| [Email payslips](#cfg-email-pay-slips-crystal){#cfg-email-pay-slips-crystal}                                                       | Set email payslips to 'Y' or 'N'                                                                    | Send email payslips via email; Do NOT send payslips via email |
+
 ## PICMI-Crystal integration fields
 
 | **Field Name**                                                        | **Description**                                       | **Validation/Constraint/Default Value**                                                                             | **Source**                       |
@@ -21,9 +29,9 @@
 | [IRD Number (000-000-000)](#ird-number){#ird-number}                  | IRD number of the employee.                           | Format: 000-000-000                                                                                                 | Questions                        |
 | [Tax Code](#tax-code){#tax-code}                                      | Tax code assigned to the employee.                    | NZ IRD                                                                                                              | Questions                        |
 | [WT - Tax Rate](#wt-tax-rate){#wt-tax-rate}                           | Withholding tax rate.                                 |                                                                                                                     | Crystal                          |
-| [Branch](#branch){#branch}                                            | Branch assignment.                                    | Not mapped                                                                                                                    | Crystal                          |
-| [Department](#department){#department}                                | Department assignment.                                | Not mapped                                                                                                                    | Crystal                          |
-| [Annual Salary](#annual-salary){#annual-salary}                       | Annual salary for the employee.                       | Not mapped                                                                                                                    | Contract/Job                     |
+| [Branch](#branch){#branch}                                            | Branch assignment.                                    | Not mapped                                                                                                          | Crystal                          |
+| [Department](#department){#department}                                | Department assignment.                                | Not mapped                                                                                                          | Crystal                          |
+| [Annual Salary](#annual-salary){#annual-salary}                       | Annual salary for the employee.                       | Not mapped                                                                                                          | Contract/Job                     |
 | [Hourly Rate](#hourly-rate-for-wages){#hourly-rate-for-wages}         | Hourly wage rate for the employee.                    |                                                                                                                     | Contract/Job                     |
 | [Pay Frequency](#pay-frequency){#pay-frequency}                       | Frequency of payments for the employee.               |                                                                                                                     | Crystal                          |
 | [Bank Account Number](#bank-account-number){#bank-account-number}     | Bank account number of the employee.                  | Format: 00-0000-0000000-00                                                                                          | Questions                        |

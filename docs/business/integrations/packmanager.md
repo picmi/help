@@ -1,5 +1,13 @@
 # PackManager integration overview
 
+## PackManager: Integration configuration
+
+| Configuration                                                                                        | Description                                                              | Values                                                                                  |
+|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [Supervisor](#cfg-packmanager-supervisor){#cfg-packmanager-supervisor}                               |                                                                          | Text (required)                                                                         |
+| [Employment agreement](#cfg-packmanager-employment-agreement){#cfg-packmanager-employment-agreement} | Employment agreement items from PackManager                              | Text (optional)                                                                         |
+| [Convert name to simple characters](#cfg-packmanager-convert-name){#cfg-packmanager-convert-name}    | Used to ensure bank account names are acceptable to banks on integration | Leave name as typed by the job seeker; Send name without macrons and special characters |
+
 ## PICMI-PackManager integration fields
 
 | **Field Name**                                | **Description**                              | **Validation/Constraint/Default Value**                                             | **Source**                |
@@ -20,8 +28,9 @@
 * see [reports](download-reports.md)
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::

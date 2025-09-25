@@ -1,5 +1,11 @@
 # Hectre integration overview
 
+## API Hectre: Integration configuration
+
+| Configuration                                             | Description        | Values          |
+|-----------------------------------------------------------|--------------------|-----------------|
+| [Orchard](#cfg-hectre-orchard-id){#cfg-hectre-orchard-id} | Id for the orchard | Text (optional) |
+
 ## API PICMI-Hectre integration fields
 
 | **Field Name**                                  | **Description**                    | **Validation/Constraint/Default Value**   | **Source**           |
@@ -9,6 +15,16 @@
 | [Employee ID](#employee-id){#employee-id}       | Unique identifier for the employee | Mandatory Derived from MD5 hash of email  | Personal Information |
 | [Date of birth](#date-of-birth){#date-of-birth} | Employee's date of birth           | yyyy-MM-dd                                | Job                  |
 | [Phone number](#phone-number){#phone-number}    | Employee's phone number            | 15 digits with single spaces, no '+' sign | Personal Information |
+
+## CSV Hectre: Integration configuration
+
+| Configuration                                                                  | Description                                                                                                                  | Values                        |
+|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| [Account Type](#cfg-hectre-account-type){#cfg-hectre-account-type}             |                                                                                                                              | Hectre account types          |
+| [Dashboard Access](#cfg-hectre-dashboard-access){#cfg-hectre-dashboard-access} |                                                                                                                              | Hectre dashboard access types |
+| [Deactivate](#cfg-hectre-deactivate){#cfg-hectre-deactivate}                   |                                                                                                                              | Hectre deactivate types       |
+| [Sectors](#cfg-hectre-sectors){#cfg-hectre-sectors}                            | If included, sector names must match those listed in Hectre. For multiple sectors, separate by the pipe character: "Cherries | Pears".                       | Text (optional, pipe-delimited list)  |
+| [Contractors](#cfg-hectre-contractors){#cfg-hectre-contractors}                | If included, must match one of the Contractors stored in the Hectre system.                                                  | Text (optional, single value) |
 
 ## CSV PICMI-Hectre integration fields
 

@@ -1,10 +1,21 @@
 # Tātou integration overview
 
 :::: explanation
+
 ## Uniqueness detection
 
-PICMI only checks for duplicates based on email, not Staff ID. This means that if an employee’s email is different, PICMI will assume they are a new hire, even if they are actually the same person in Tātou.
+PICMI only checks for duplicates based on email, not Staff ID. This means that if an employee’s email is different,
+PICMI will assume they are a new hire, even if they are actually the same person in Tātou.
 ::::
+
+## Tatou: Integration configuration
+
+| Configuration                                                                                                 | Description                                    | Values                  |
+|---------------------------------------------------------------------------------------------------------------|------------------------------------------------|-------------------------|
+| [Security token](#cfg-tatou-token){#cfg-tatou-token}                                                          | Integrations available in the system           | Text (required)         |
+| [Default contract type](#cfg-tatou-default-contract-type){#cfg-tatou-default-contract-type}                   | Contract type to apply to all applications     | Casual                  |
+| [Default role](#cfg-tatou-default-role){#cfg-tatou-default-role}                                              | Tatou roles available on this organisation     | Tatou roles             |
+| [Default employee status on creation](#cfg-tatou-default-employee-status){#cfg-tatou-default-employee-status} | Tatou employee status set on employee creation | Tatou employee statuses |
 
 ## PICMI-Tātou integration fields
 
@@ -26,6 +37,7 @@ PICMI only checks for duplicates based on email, not Staff ID. This means that i
 | [Status](#status){#status}                               | Employment status of the individual (e.g., active, inactive). | Inactive                            | Integration Configuration |
 
 :::: explanation
+
 ## FAQ
 
 :::: faq How can I view the staff ID?
@@ -47,7 +59,8 @@ Alternatively:
 6. View the external identifiers (if there is only one then this will match the integration)
 
 ::: prompt
-Staff ID requires a mapping and is by default setup via the External Identifier created on the integration configuration.
+Staff ID requires a mapping and is by default setup via the External Identifier created on the integration
+configuration.
 :::
 ::::
 
@@ -55,4 +68,4 @@ Staff ID requires a mapping and is by default setup via the External Identifier 
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::

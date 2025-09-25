@@ -1,5 +1,16 @@
 # Smartly integration overview
 
+## Smartly: Integration configuration
+
+| Configuration                                                                                   | Description                                                                | Values                                                        |
+|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------|
+| [Employer Subsidy for KiwiSaver](#cfg-smartly-employer-subsidy){#cfg-smartly-employer-subsidy}  | Subsidy rate that will be provided by employers, expressed as a percentage | Employer subsidy rates                                        |
+| [Contract type](#cfg-smartly-contract-type){#cfg-smartly-contract-type}                         | Contract Type (also known as Tenure)                                       | Smartly remuneration/tenure types                             |
+| [Anniversary Region](#cfg-smartly-anniversary-region){#cfg-smartly-anniversary-region}          | When the public holiday is for the region                                  | Smartly regions                                               |
+| [Email payslips](#cfg-smartly-email-pay-slips){#cfg-smartly-email-pay-slips}                    | Set email payslips to 'Y' or 'N'                                           | Send email payslips via email; Do NOT send payslips via email |
+| [Pay group description](#cfg-smartly-pay-group-description){#cfg-smartly-pay-group-description} | This must match Smartly                                                    | Text (required)                                               |
+| [Employee Type](#cfg-smartly-employee-type){#cfg-smartly-employee-type}                         | This must match Smartly                                                    | Text (required)                                               |
+
 ## PICMI-Smartly integration fields
 
 | Field Name                                                                                      | Description                                                                   | Validation/Constraint/Default Value                                                                                                                                                                                              | Source                           |
@@ -44,8 +55,9 @@
 * see [reports](download-reports.md)
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::

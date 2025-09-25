@@ -1,5 +1,29 @@
 # PaySauce integration overview
 
+## PaySauce: Integration configuration
+
+| Configuration                                                                                                                   | Description                                                                | Values                          |
+|---------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------|
+| [KiwiSaver Employer Contribution](#cfg-paysauce-kiwisaver-employer-contribution){#cfg-paysauce-kiwisaver-employer-contribution} | The rate that the company contributes towards each employee's KiwiSaver    | PaySauce employer subsidy types |
+| [Next financial year](#cfg-paysauce-next-financial-year){#cfg-paysauce-next-financial-year}                                     | Usually on the next 31st of March                                          | Date (required)                 |
+| [Payment type](#cfg-paysauce-payment-type){#cfg-paysauce-payment-type}                                                          | Subsidy rate that will be provided by employers, expressed as a percentage | PaySauce payment types          |
+| [Payment taxable](#cfg-paysauce-payment-taxable){#cfg-paysauce-payment-taxable}                                                 |                                                                            | True / False                    |
+| [Leave type](#cfg-paysauce-leave-type){#cfg-paysauce-leave-type}                                                                |                                                                            | PaySauce leave types            |
+| [Leave paid 8%](#cfg-paysauce-leave-paid-8){#cfg-paysauce-leave-paid-8}                                                         | Is 8% Holiday Pay paid on top of pay rate?                                 | True / False                    |
+| [Standard hours per pay period](#cfg-paysauce-standard-hours){#cfg-paysauce-standard-hours}                                     | Enter in hours                                                             | Number (hours)                  |
+| [Standard days per pay period](#cfg-paysauce-standard-days){#cfg-paysauce-standard-days}                                        | Enter in days                                                              | Number (days)                   |
+| [Leave anniversary](#cfg-paysauce-leave-anniversary){#cfg-paysauce-leave-anniversary}                                           |                                                                            | Date (required)                 |
+| [Payment hours quantity](#cfg-paysauce-payment-hours){#cfg-paysauce-payment-hours}                                              | Default number of hours                                                    | Number                          |
+| [Entitled leave](#cfg-paysauce-entitled-leave){#cfg-paysauce-entitled-leave}                                                    | Default number of hours                                                    | Number                          |
+| [Accrued leave](#cfg-paysauce-accrued-leave){#cfg-paysauce-accrued-leave}                                                       | Default number of hours                                                    | Number                          |
+| [Total taxable income in current anniversary year](#cfg-paysauce-total-taxable-income){#cfg-paysauce-total-taxable-income}      | Default value                                                              | Number (currency or amount)     |
+| [Annual leave taken](#cfg-paysauce-annual-leave-taken){#cfg-paysauce-annual-leave-taken}                                        | Default number of hours                                                    | Number                          |
+| [Sick anniversary](#cfg-paysauce-sick-anniversary){#cfg-paysauce-sick-anniversary}                                              |                                                                            | Date (required)                 |
+| [Accrued alternative leave](#cfg-paysauce-accrued-alternative-leave){#cfg-paysauce-accrued-alternative-leave}                   | Default number of hours                                                    | Number                          |
+| [Extra deductions](#cfg-paysauce-extra-deductions){#cfg-paysauce-extra-deductions}                                              | Default regular deductions to be added                                     | Text                            |
+| [Extra allowances](#cfg-paysauce-extra-allowances){#cfg-paysauce-extra-allowances}                                              | Default extra allowances to be added                                       | Text                            |
+| [Extra other](#cfg-paysauce-extra-other){#cfg-paysauce-extra-other}                                                             | Default other that aren't covered in the deductions or allowances          | Text                            |
+
 ## PICMI-PaySauce integration fields
 
 | **Field Name**                                                                                                                                           | **Description**                          | **Validation/Constraint/Default Value**                                                                     | **Source**                |
@@ -49,8 +73,9 @@
 * see [reports](download-reports.md)
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::

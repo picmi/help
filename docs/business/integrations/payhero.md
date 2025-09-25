@@ -1,5 +1,22 @@
 # PayHero integration overview
 
+## PayHero: Integration configuration
+
+## PayHero: Integration configuration
+
+| Configuration                                                                                                                      | Description                                                                                            | Values                                                                              |
+|------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [API key](#cfg-api-key){#cfg-api-key}                                                                                              | Partner API key used to authenticate requests to PayHero                                               | Text (required)                                                                     |
+| [Employer Subsidy Contribution Tax Rate](#cfg-employer-subsidy-contribution-tax-rate){#cfg-employer-subsidy-contribution-tax-rate} | Tax rate deducted from Superannuation Employer Contribution, expressed as a percentage                 | PayHero/NZ tax rates lookup                                                         |
+| [Default pay cycle](#cfg-default-pay-cycle){#cfg-default-pay-cycle}                                                                | PayHero pay cycle applied on employee creation                                                         | PayHero pay cycles                                                                  |
+| [Email payslips](#cfg-email-pay-slips){#cfg-email-pay-slips}                                                                       | Send payslips via email                                                                                | Send email payslips if there is a provided email address; Never send email payslips |
+| [Default employee status on creation](#cfg-default-employee-status){#cfg-default-employee-status}                                  | PayHero employee status applied on employee creation                                                   | PayHero employee statuses                                                           |
+| [Add holiday pay as you go](#cfg-holiday-pay-as-you-go){#cfg-holiday-pay-as-you-go}                                                | Whether to apply Holiday Pay As You Go                                                                 | Yes, apply holiday pay as you go; No, do not apply holiday pay as you go            |
+| [Employee label](#cfg-employee-label){#cfg-employee-label}                                                                         | Static label applied to all employees created via PICMI                                                | Label is added to the employee                                                      |
+| [Employee label color](#cfg-employee-label-color){#cfg-employee-label-color}                                                       | Hex color code for the static label (defaults to PICMI’s spring green: #25ce81)                        | Hex color                                                                           |
+| [Add role-based label](#cfg-add-role-label){#cfg-add-role-label}                                                                   | Automatically apply a label based on the employee’s role in PICMI                                      | Yes, apply role-based labels; No, do not apply role-based labels (uses Job Title)   |
+| [Role label color](#cfg-role-label-color){#cfg-role-label-color}                                                                   | Hex color code for automatically applied role-based labels (defaults to PICMI’s spring green: #25ce81) | Hex color                                                                           |
+
 ## PICMI-PayHero integration fields
 
 | Field Name                                                                                    | **Description**                                                                  | **Validation/Constraint/Default Value**                | **Source**                |
@@ -40,15 +57,19 @@ To create an employee in PayHero requires a PICMI partner API access key
 ### Request a PICMI partner API access key
 
 The key can only be received by email from an email request to PayHero Support. Click <a href="mailto:
-support@payhero.co.nz?subject=PICMI  partner API access key&body=Please provide me with the PICMI partner API access key to be used for my organisation">this link</a> to open an email template in your mail client.
+support@payhero.co.nz?subject=PICMI partner API access key&body=Please provide me with the PICMI partner API access key
+to be used for my organisation">this link</a> to open an email template in your mail client.
 
 > **To:** <a href="mailto:
-    support@payhero.co.nz?subject=PICMI  partner API access key&body=Please provide me with the PICMI partner API access key to be used for my organisation">support@payhero.co.nz</a><br/>
-> **Subject:** PICMI  partner API access key<br/>
+> support@payhero.co.nz?subject=PICMI partner API access key&body=Please provide me with the PICMI partner API access
+> key
+> to be used for my organisation">support@payhero.co.nz</a><br/>
+> **Subject:** PICMI partner API access key<br/>
 > **Body** Please provide me with the PICMI partner API access key to be used for my organisation
 
 
 :::: explanation
+
 ### Who is doing what
 
 | **Actor**           | **Description**                                                                        |
@@ -71,12 +92,14 @@ like PICMI
 | **PayHero Team**    | Generate PICMI-specific API keys upon request for shared customers, ensuring they are added to the PICMI integration for verification.                                         |
 
 ::: prompt
-The **partner API key** for PICMI is **not viewable** to the customer through the PayHero application but is provided via
+The **partner API key** for PICMI is **not viewable** to the customer through the PayHero application but is provided
+via
 email
 :::
 ::::
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
@@ -91,16 +114,16 @@ See [request a PICMI partner API access key](#request-a-picmi-partner-api-access
 ::::
 
 :::: faq Where is the PICMI partner API access key in the application?
-It is not available for self-service and must be provided from PayHero support. 
+It is not available for self-service and must be provided from PayHero support.
 
 ::: prompt
 See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
 :::
 ::::
 
-
 :::: faq I have the error 'Invalid API key', what should I do?
-You need to ensure that you have a PICMI partner API access key. You may be using your private API access key that is self-service from the PayHero application. 
+You need to ensure that you have a PICMI partner API access key. You may be using your private API access key that is
+self-service from the PayHero application.
 
 ::: prompt
 See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)

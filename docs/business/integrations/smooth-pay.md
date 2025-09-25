@@ -1,11 +1,28 @@
 # SmoothPay integration overview
 
 ::: prompt
-**Warning:** Bank Account is not yet supported by the PICMI-SmoothPay integration through the API—it is a known issue to SmoothPay.
+**Warning:** Bank Account is not yet supported by the PICMI-SmoothPay integration through the API—it is a known issue to
+SmoothPay.
 :::
 
-## PICMI-SmoothPay integration fields
+## SmoothPay: Integration configuration
 
+| Configuration                                                                                 | Description                                                                                         | Values                                                                                  |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [API key](#cfg-smoothpay-api-key){#cfg-smoothpay-api-key}                                     | Integrations available in the system                                                                | Text (required)                                                                         |
+| [Contract Type](#cfg-smoothpay-contract-type){#cfg-smoothpay-contract-type}                   |                                                                                                     | SmoothPay contract types                                                                |
+| [Employment Type](#cfg-smoothpay-employment-type){#cfg-smoothpay-employment-type}             |                                                                                                     | SmoothPay employment types                                                              |
+| [Payment Type](#cfg-smoothpay-payment-type){#cfg-smoothpay-payment-type}                      |                                                                                                     | SmoothPay payment types                                                                 |
+| [Employer Subsidy Contribution Tax Rate](#cfg-smoothpay-esct){#cfg-smoothpay-esct}            | Tax rate that will be deducted from Superannuation Employer Contribution, expressed as a percentage | SmoothPay tax rates                                                                     |
+| [Payslip Type](#cfg-smoothpay-payslip-type){#cfg-smoothpay-payslip-type}                      |                                                                                                     | SmoothPay payslip types                                                                 |
+| [Wage Type](#cfg-smoothpay-wage-type){#cfg-smoothpay-wage-type}                               |                                                                                                     | SmoothPay wage types                                                                    |
+| [Days per week](#cfg-smoothpay-days-per-week){#cfg-smoothpay-days-per-week}                   |                                                                                                     | Number                                                                                  |
+| [Hours per day](#cfg-smoothpay-hours-per-day){#cfg-smoothpay-hours-per-day}                   |                                                                                                     | Number                                                                                  |
+| [Hours per week](#cfg-smoothpay-hours-per-week){#cfg-smoothpay-hours-per-week}                |                                                                                                     | Number                                                                                  |
+| [Irregular (NZ only)](#cfg-smoothpay-irregular){#cfg-smoothpay-irregular}                     | Important for NZ Holidays Act interpretation of Ordinary Weekly Earnings                            | Yes; No                                                                                 |
+| [Convert name to simple characters](#cfg-smoothpay-convert-name){#cfg-smoothpay-convert-name} | Used to ensure bank account names are acceptable to banks on integration                            | Leave name as typed by the job seeker; Send name without macrons and special characters |
+
+## PICMI-SmoothPay integration fields
 
 | Field Name                                               | Description                                                     | Validation/Constraint/Default Value                                                              | Source                    |
 |----------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------|

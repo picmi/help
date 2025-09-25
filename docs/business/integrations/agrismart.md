@@ -1,5 +1,15 @@
 # Agrismart integration overview
 
+## AgriSmart: Integration configuration
+
+| Configuration                                                                           | Description                                                                                  | Values                        |
+|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------|
+| [Employee Subsidy Rate](#cfg-employee-subsidy-rate){#cfg-employee-subsidy-rate}         | Subsidy rate that will be provided by employers, expressed as a percentage                   | Employer subsidy rates        |
+| [Employee Type](#cfg-employee-type){#cfg-employee-type}                                 | Employee type for payments                                                                   | AgriSmart employee types      |
+| [Payment frequency](#cfg-payment-frequency-agrismart){#cfg-payment-frequency-agrismart} | Payment frequency                                                                            | AgriSmart payment frequencies |
+| [Access Level](#cfg-access-level){#cfg-access-level}                                    | Access Level                                                                                 | AgriSmart access levels       |
+| [Remuneration type](#cfg-remuneration-type-agrismart){#cfg-remuneration-type-agrismart} | Remuneration type for payments. Currently defaulted to 'Per Unit' for hour rates (read-only) | Per Unit                      |
+
 ## PICMI-Agrismart integration fields
 
 | **Field Name**                                                                                             | **Description**                                                               | **Validation/Constraint/Default Value**                                                                                                                                                                                          | **Source**                |
@@ -38,8 +48,9 @@
 * see [reports](download-reports.md)
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::

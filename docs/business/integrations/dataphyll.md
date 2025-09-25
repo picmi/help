@@ -9,7 +9,13 @@ integration, users must be working in the Dataphyll Business App.
 * No registration link will be sent to workers for their Worker App.
 * Any registration created by a worker in the Worker App will not be connected to employees created via the PICMI
   integration.
-:::
+  :::
+
+## Dataphyll: Integration configuration
+
+| Configuration                                                     | Description                  | Values          |
+|-------------------------------------------------------------------|------------------------------|-----------------|
+| [Authorisation Token](#cfg-dataphyll-token){#cfg-dataphyll-token} | Token for the orchard access | Text (required) |
 
 ## PICMI-Dataphyll integration fields
 
@@ -24,8 +30,9 @@ integration, users must be working in the Dataphyll Business App.
 | [Phone number](#phone-number){#phone-number}       | Employee's phone number            | 15 digits with single spaces (no +)                                                 | Personal Information      |
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::
