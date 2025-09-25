@@ -97,6 +97,8 @@ export function sidebarBusiness() {
             text: 'Workflows',
             collapsed: false,
             items: [
+                { text: 'Adding questions', link: '/business/workflows/questions' },
+                { text: 'Updating workflows', link: '/business/workflows/updating-workflows' },
                 { text: 'Linked files', link: '/business/workflows/linked-files' },
                 { text: 'Linked videos', link: '/business/workflows/linked-videos' },
                 {
