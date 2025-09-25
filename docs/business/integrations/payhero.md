@@ -2,8 +2,6 @@
 
 ## PayHero: Integration configuration
 
-## PayHero: Integration configuration
-
 | Configuration                                                                                                                      | Description                                                                                            | Values                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [API key](#cfg-api-key){#cfg-api-key}                                                                                              | Partner API key used to authenticate requests to PayHero                                               | Text (required)                                                                     |
