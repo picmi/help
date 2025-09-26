@@ -50,7 +50,11 @@
 
 ## API Key Management for PayHero Integration
 
-To create an employee in PayHero requires a PICMI partner API access key
+To create an employee in PayHero requires a PICMI partner API access key.
+
+::: prompt
+PICMI supports only one API access key to be used across all PayHero integrations on an organisation. Please contact PICMI support if you require more than one API access key for your organisation.
+:::
 
 ### Request a PICMI partner API access key
 
