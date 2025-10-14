@@ -15,7 +15,7 @@ Limitations of contract substitutions: Contract templates in PICMI allow for per
 
 The status of the contract template is viewable per contract template row in the Contract Template view.
 
-1. Locate **Menu**, select **Contract Templates**
+1. Locate **Menu**, select **Contracts**
 2. Click **Create Contract Template**
 3. Enter a name
 4. Click Create

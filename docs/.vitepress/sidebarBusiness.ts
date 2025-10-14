@@ -119,6 +119,7 @@ export function sidebarBusiness() {
             items: [
                 { text: 'Create', link: '/business/article/creating-a-contract-template' },
                 { text: 'Duplicate', link: '/business/article/duplicate-a-contract-template' },
+                { text: 'Print', link: '/business/article/print-a-contract-template' },
             ],
         },
         {

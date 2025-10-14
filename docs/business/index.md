@@ -43,6 +43,7 @@
 
 - [Create](article/creating-a-contract-template.md)
 - [Duplicate](article/duplicate-a-contract-template.md)
+- [Print](article/print-a-contract-template.md)
 
 ## Integrations
 

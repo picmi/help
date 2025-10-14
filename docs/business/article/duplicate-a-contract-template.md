@@ -9,7 +9,7 @@ Duplicating a contract is currently limited and requires additional work
 :::: instructions
 ## To create a duplicate
 
-1. Locate Menu, select **Contract Templates**
+1. Locate Menu, select **Contracts**
 2. Locate the row :::icon checkbox-marked-outline::: with the contract template to duplicate
 3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Preview/edit**
