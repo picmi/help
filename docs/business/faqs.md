@@ -84,7 +84,7 @@ see [job statuses](article/job-status)
 ::::
 
 :::: faq What can I do when the invite bounced as no such user?
-No email address found is usually because there is a typo in the email address. 
+No email address found usually is because there is a typo in the email address. 
 
 To remedy this:
 
@@ -228,8 +228,24 @@ If some details need to be updated then **reissue** back to in-progress and requ
 message.
 
 ::: prompt
-* [How to change a status](https://help.picmi.io/business/article/changing-application-status.html)
-* [What changes can be made?](https://help.picmi.io/business/about-picmi/applications.html#business-actions)
+* [How to change a status](article/changing-application-status)
+* [What changes can be made?](about-picmi/applications#business-actions)
+:::
+::::
+
+:::: faq I have accepted an applicant but now realise they aren’t suitable. How can I stop them from working or reapplying?
+If you need to prevent an applicant from continuing or reapplying, you have two options:
+* **Terminate** the application – use this when the applicant is not suitable.
+* **Complete** the application – use this when you simply want to close it without progressing further.
+
+Both options lock the application so the person cannot apply for the job again.
+
+You can also add a message when changing the status to explain your decision. This will be included in the email to the applicant, as well as stored against the application for later reference.
+
+::: prompt
+* [How to change a status](article/changing-application-status)
+* [What changes can be made?](about-picmi/applications#business-actions)
+* [what is a status message?](article/status-message)
 :::
 ::::
 
@@ -241,8 +257,8 @@ This happens often because people don't always have all the information at hand 
 about always let you know and this is easily sorted later on.
 
 ::: prompt
-* [How to change a status](https://help.picmi.io/business/article/changing-application-status.html)
-* [What changes can be made?](https://help.picmi.io/business/about-picmi/applications.html#business-actions)
+* [How to change a status](article/changing-application-status)
+* [What changes can be made?](about-picmi/applications#business-actions)
 :::
 ::::
 
