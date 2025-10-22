@@ -448,7 +448,7 @@ setting is not turned on, at any point later, each application can be sent to th
 exist.
 see [send data per application](integrations/integration-events.md#create-employee-manually-send-data-per-employee)
 
-### For CSV integrations
+### For CSV Report integrations (downloads)
 
 This can be done at any time.
 :::
