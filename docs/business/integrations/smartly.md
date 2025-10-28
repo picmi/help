@@ -5,12 +5,23 @@
 | Configuration                                                                                   | Description                                                                | Values                                                                                  |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | [Employer Subsidy for KiwiSaver](#cfg-smartly-employer-subsidy){#cfg-smartly-employer-subsidy}  | Subsidy rate that will be provided by employers, expressed as a percentage | Employer subsidy rates                                                                  |
-| [Contract type](#cfg-smartly-contract-type){#cfg-smartly-contract-type}                         | Contract Type (also known as Tenure)                                       | Smartly remuneration/tenure types                                                       |
+| [Contract type](#cfg-smartly-contract-type){#cfg-smartly-contract-type}                         | Contract Type (also known as Tenure)                                       | Smartly remuneration/tenure types (see [contract types](#contract-types) below)         |
 | [Anniversary Region](#cfg-smartly-anniversary-region){#cfg-smartly-anniversary-region}          | When the public holiday is for the region                                  | Smartly regions                                                                         |
 | [Email payslips](#cfg-smartly-email-pay-slips){#cfg-smartly-email-pay-slips}                    | Set email payslips to 'Y' or 'N'                                           | Send email payslips via email; Do NOT send payslips via email                           |
 | [Pay group description](#cfg-smartly-pay-group-description){#cfg-smartly-pay-group-description} | This must match Smartly                                                    | Text (required)                                                                         |
 | [Employee Type](#cfg-smartly-employee-type){#cfg-smartly-employee-type}                         | This must match Smartly                                                    | Text (required)                                                                         |
 | [Convert name to simple characters](#cfg-smoothpay-convert-name){#cfg-smoothpay-convert-name}   | Used to ensure bank account names are acceptable to banks on integration   | Leave name as typed by the job seeker; Send name without macrons and special characters |
+
+### Contract types
+
+| Smartly Code | PICMI Configuration    |
+|--------------|------------------------|
+| 1            | Full Time              |
+| 2            | Part Time              |
+| 3            | Casual                 |
+| 4            | Working Proprietor     |
+| 13           | Fixed Term - Full Time |
+| 14           | Fixed Term - Part Time |
 
 ## PICMI-Smartly integration fields
 
