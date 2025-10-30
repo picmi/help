@@ -55,6 +55,14 @@ rather than from a person. See [finding emails](../email-not-found)
 
 ## Invites
 
+:::: faq How do I cancel a job invite for people?
+Change their application status with the [Cancel action](article/changing-application-status). 
+
+::: prompt
+Need to learn about [application statuses](about-picmi/applications.md#application-status)?
+:::
+::::
+
 :::: faq Can I invite a jobseeker to a job if they already have an invite to a job?
 If the jobseeker has already accepted the invite to a job, you cannot invite them again as they have already accepted
 the application. see [application statuses](about-picmi/applications.md#application-status)
