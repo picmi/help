@@ -415,6 +415,17 @@ If you need further help, please provide:
 We’re happy to advise based on your specific situation.
 :::
 
+::: faq I want to remove a position/role (job) from the active list, what should I do?
+Ensure that the job status is **closed** and that the **closed filter** is not selected.
+
+See [Job Status](./article/job-status.md)
+:::
+
+::: faq I want to close a job, what should I do?
+Update the **end date** of the job to a date prior to today.
+
+See [update job dates](./article/job-status.md#update-job-dates) in job status
+:::
 ## Integrations
 
 ::: faq How can I setup a new integration?
