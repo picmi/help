@@ -20,7 +20,7 @@ time and keep the two systems synchronised.
 ::::
 
 :::: instructions
-## Show integration providers that are already setup
+## Show integration providers that are already active
 
 1. Go to **Jobs**
 2. Locate the **job** row :::icon checkbox-marked-outline:::

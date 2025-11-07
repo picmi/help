@@ -142,7 +142,7 @@ your account to authorise your connection
 
 ## Troubleshooting
 
-If you notice any discrepancies between PICMI and Xero:
+If you notice any discrepancies between PICMI and an an integration:
 
 - **Check Events**: Review
   the [data transfer events](integration-events#show-events-detailed-view-result-of-attempt-to-send-data) in PICMI to

@@ -1,16 +1,64 @@
 # Integrations Page
 
 The **Integrations** page in PICMI allows your organisation to connect with external systems like payroll providers and
-reporting tools. This page explains how to view, configure, and manage these integrations. Actual integration are
-listed [here](integrations.md)
+reporting tools—see [here](integrations.md#how-it-works) for more details. This page explains how to view, configure, and manage these integrations. Actual integration are
+listed [here](integrations.md) and general steps are explained [here](integrations.md#steps-for-using-integrations-with-picmi).
 
+## Connecting PICMI to Other Systems
+Sharing data with other systems is an important part of how PICMI works. To do this, each integration connects through a job on the applications you are wanting to share data from.
+
+Before PICMI can send data to another system, you need to turn on the sync setting for that integration in the job. Once it’s on, PICMI also checks that your application workflow collects all the information needed for a successful export.
+
+:::prompt
+PICMI won’t let you send out **invites** until this setup is complete and confirmed as correct — this helps ensure everything runs smoothly when data is shared later.
+:::
+
+::: explanation
+## Understanding Integrations in PICMI
+
+Integrations let PICMI share information automatically with other systems — such as payroll, HR, or recruitment tools — so you don’t have to re-enter the same data manually.
+
+Some systems require login details or API credentials so PICMI can connect securely. You’ll enter these when setting up the integration for the first time.
+
+Each integration has three main parts:
+
+### Defaults
+The Defaults section defines core settings specific to this integration. These values are required for the integration to work correctly.
+
+In some cases, different jobs might need different default settings — for example, you might have one integration for casual jobs and another for permanent jobs if they use different data or identifiers.
+
+Common examples include:
+* Integration name – an optional name to help you identify the integration.
+* External Identifier Generator – controls how PICMI creates unique record IDs when sharing data.
+* Turn off Application Validation – allows you to disable PICMI’s automatic data checks before syncing.
+* Disabled – stops the integration from running when turned on.
+
+### Configuration
+The Configuration section contains the detailed options that control how PICMI connects and communicates with the external system.
+
+Each integration has a different set of configuration fields, depending on what the connected system needs. PICMI has carefully designed these settings to match the specific requirements of each integration — you’ll only see the options that are relevant.
+
+Some configuration values may:
+* Define the type of account or access level to use (e.g. “Staff”, “Contractor”, or “None”).
+* Control what data or records to include (e.g. “Sectors” or “Job categories”).
+* Specify how records are updated or deactivated in the external system.
+
+In many cases, some values are fetched directly from the external system itself, but this only happens once your credentials are entered and verified. For example, once your API key or login token is saved, PICMI can retrieve a list of valid departments, teams, or job types from that system for you to select.
+
+### Mappings
+Mappings define how PICMI’s data connects to the fields in the external system.
+
+PICMI automatically creates default mappings that usually “just work.” For instance, PICMI might automatically map Given Name to First Name or Email to Email Address.
+
+If needed, you can customise mappings to match your specific requirements — for example, to map additional fields or rename existing ones. This ensures that information flows smoothly and accurately between systems.
+:::
 ## Overview
 
 The Integrations list displays all available integrations, their type, and when they were last modified. You can use
 this area to enable, disable, or adjust settings for each provider.
 
 ::: prompt
-Each integration is either API-based (automated) or Report-based (manual CSV data import).
+Each integration is either API-based (automated between PICMI and the other system) or Report-based (manual CSV data import where you download from PICMI as a file and provide that to the other system (often via email to support and sometimes as an upload).
 :::
 
 ::: instructions
