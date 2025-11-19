@@ -230,6 +230,31 @@ a business fix using the steps in [checking application configuration](article/c
 See [Error: Business user cannot apply for a job](article/business-user-cannot-apply-for-job.md)
 :::
 
+:::: faq How do I update a staff member’s pay rate if their application was accepted with the wrong rate?
+To correct the pay rate, you’ll need to update the pay rate in the appropriate place and then **Reissue** the application.
+
+There are two possible scenarios:
+
+1. Individual staff need a different pay rate
+
+Update their pay rate using **Personalised Conditions**.
+
+2. The job was set up with the wrong pay rate
+
+Update the job pay rate so all future applicants receive the correct rate as well.
+
+After updating the pay rate in the correct location, you can then Reissue the application with a status message, and the staff member will need to accept it again for the updated rate to take effect.
+
+::: prompt
+* [Personalise the job conditions](article/creating-individual-employment-conditions.md) (Pay rate)
+* [Edit job pay rate](./article/creating-a-job.md#updating-job-fields)
+* [Reissue the application](article/changing-application-status.md)
+  and [add a status message](article/status-message.md) that pay rates have been changed and for them review (eg Please
+  review new pay rates and accept)
+
+:::
+::::
+
 :::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are available and wish to work. Should I reissue their contract or reopen it?
 If you want to maintain the original contract then **reopen** back to accepted (and add a status message of the reason).
 If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
