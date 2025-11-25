@@ -53,6 +53,12 @@ rather than from a person. See [finding emails](../email-not-found)
 :::
 ::::
 
+
+::: faq Do applicants receive a signed contract in their confirmation email?
+No, applicants do not receive a signed contract in their confirmation email. They are already
+in PICMI and can download the contract.
+:::
+
 ## Invites
 
 :::: faq How do I cancel a job invite for people?
