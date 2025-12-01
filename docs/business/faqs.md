@@ -20,10 +20,14 @@ If you're having trouble logging in, first make sure you're using the correct em
 For technical issues, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>
 :::
 
-::: faq How do I force refresh my view?
+::: faq How do I force a refresh my view?
 When there are times when you really want to ensure that everything is up-to-date, you have two options: use PICMI's *
 *hard refresh**, **update old information** or the browser's **disable cache**.
 See [refresh data](article/update-old-information.md)
+:::
+
+:::faq How can I write better emails to help us help you faster?
+See our [guide on writing emails to help us diagnose the issue](../how-write-emails.md)
 :::
 
 ## Emails
@@ -164,8 +168,7 @@ their application so that you can track it.
 
 ::: prompt
 You are unable to reserve a position for a specific application. If there is a restriction on positions, then if all
-positions are filled
-add one to the maximum in [job application controls](article/job-application-controls). Alternatively, reduce the number
+positions are filled, add one to the maximum in [job application controls](article/job-application-controls). Alternatively, reduce the number
 by one until the person is ready to apply.
 :::
 ::::
@@ -181,7 +184,15 @@ It is likely that the [search filter](article/search.md) has the wrong status in
 your [search criteria in People](article/searching-for-people.md)
 :::
 
-::: faq What should I do if a person reports they can't complete an application?
+:::faq What should I do if a person reports that they don't have the correct pay rate? (and you have changed the rate in personal overrides)
+First check the <b>Personal Overrides</b> in the <b>People</b> page to confirm that the rate is correct. If it is:
+
+1. Instruct the person to use Update Contract above the contract in the application workflow.
+2. If there is still a problem, instruct them to use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help Centre.
+3. If the person still has issues, contact PICMI.
+:::
+
+:::: faq What should I do if a person reports they can't complete an application?
 Check the <b>application status</b> in the <b>People</b> page and then determine if the person is (and confirm that they also see this):
 
 1. not able to **apply** because of the sign in problems (see [user account](about-picmi/users.md))
@@ -190,8 +201,17 @@ Check the <b>application status</b> in the <b>People</b> page and then determine
    see [check job configuration](article/checking-application-configuration))
 4. **in progress** and the contract page reports an error (also
    see [check job configuration](article/checking-application-configuration))
-5. in **offered** status but is unable to proceed to accept (contact PICMI)
+5. in **offered** status but is unable to proceed to accept, instruct them to use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help Centre.
+6. in **offered** status and has typed "I agree" and there is an error "Whoops, something went wrong"
+   1. Check Comletion Status 
+   2. Do the checks (job configuration and vacancies) above to ensure the job is still available
+   3. Still a problem? Instruct them to use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help Centre.
+   4. If the person still has issues, contact PICMI. 
+
+::: prompt
+When contacting PICMI, see our [guide on writing emails to help us diagnose the issue](../how-write-emails.md)
 :::
+::::
 
 :::: faq What should I do when a individual applying reports they cannot sign and only have the option to Cancel or Refresh?
 This usually happens when the job has [**no vacancies**](about-picmi/applications.md#restrictions-on-actions). You can
@@ -215,10 +235,10 @@ the [Maximum number of people](article/job-application-controls.md#application-c
 :::
 
 :::: faq What should I do if a person reports a different status to your view?
-One of the two of you do not have the latest version and to ensure you have the latest information.
+One of the two of you does not have the latest version and to ensure you have the latest information.
 
 * As a business user you can follow ensuring you [have the latest information](article/update-old-information)
-* The jobseeker also has similar strategies you can instruct them on
+* The jobseeker also has similar strategies of [update to the latest information](../jobseeker/article/update-old-information.md) you can instruct them on
 
 ::: prompt
 You should not change the status of the application to refresh your view.
