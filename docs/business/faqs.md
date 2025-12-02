@@ -203,8 +203,8 @@ Check the <b>application status</b> in the <b>People</b> page and then determine
    see [check job configuration](article/checking-application-configuration))
 5. in **offered** status but is unable to proceed to accept, instruct them to use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help Centre.
 6. in **offered** status and has typed "I agree" and there is an error "Whoops, something went wrong"
-   1. Check Comletion Status 
-   2. Do the checks (job configuration and vacancies) above to ensure the job is still available
+   1. Check Completion Status 
+   2. Complete the checks above (job configuration and vacancies) to ensure the job is still available
    3. Still a problem? Instruct them to use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help Centre.
    4. If the person still has issues, contact PICMI. 
 
