@@ -5,19 +5,25 @@
 ## General Questions
 
 ::: faq What is PICMI?
-  PICMI is a tool that connects people (your potential workforce) with you (the employer) through a streamlined hiring process. People can review detailed information about companies, such as culture and working conditions, to decide if they are a good fit.
+PICMI is a tool that connects people (your potential workforce) with you (the employer) through a streamlined hiring
+process. People can review detailed information about companies, such as culture and working conditions, to decide if
+they are a good fit.
 :::
 
 ::: faq How does the straight-through hiring process work?
-Our straight-through hiring process allows qualified people to receive a legally binding employment agreement instantly if they meet all the predefined criteria set by you, the employer.
+Our straight-through hiring process allows qualified people to receive a legally binding employment agreement instantly
+if they meet all the predefined criteria set by you, the employer.
 :::
 
 ::: faq What should I do if I can't log into my account?
-If you're having trouble logging in, first make sure you're using the correct email. If you've forgotten your password, click the "Forgot Password" link on the login page to reset it.
+If you're having trouble logging in, first make sure you're using the correct email. If you've forgotten your password,
+click the "Forgot Password" link on the login page to reset it.
 :::
 
 ::: faq Who do I contact for technical support?
-For technical issues, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>
+For technical issues, please reach out to our support team via
+the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
+to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>
 :::
 
 ::: faq How do I force a refresh my view?
@@ -42,7 +48,7 @@ Here are some example of sub-alias email for `hone.smith@example.com`
 * `hone.smith+jobseeker@example.com`
 * `hone.smith+employer@example.com`
 * `hone.smith+picmi-job@example.com`
-:::
+  :::
 
 ::: faq What if someone has no email?
 PICMI can provide access with a provisional user. see [invites](article/inviting-for-jobs.md#inviting-for-jobs)
@@ -57,7 +63,6 @@ rather than from a person. See [finding emails](../email-not-found)
 :::
 ::::
 
-
 ::: faq Do applicants receive a signed contract in their confirmation email?
 No, applicants do not receive a signed contract in their confirmation email. They are already
 in PICMI and can download the contract.
@@ -66,7 +71,7 @@ in PICMI and can download the contract.
 ## Invites
 
 :::: faq How do I cancel a job invite for people?
-Change their application status with the [Cancel action](article/changing-application-status). 
+Change their application status with the [Cancel action](article/changing-application-status).
 
 ::: prompt
 Need to learn about [application statuses](about-picmi/applications.md#application-status)?
@@ -102,7 +107,7 @@ see [job statuses](article/job-status)
 ::::
 
 :::: faq What can I do when the invite bounced as no such user?
-No email address found usually is because there is a typo in the email address. 
+No email address found usually is because there is a typo in the email address.
 
 To remedy this:
 
@@ -142,25 +147,20 @@ person
 find their email. We don't recommend to cancel and then reissue as it does not help.
 See [finding emails](../email-not-found) for instructions
 
-
 ::: prompt
 [Bounced emails are NOT delivered](#what-can-i-do-when-the-invite-has-delivery-status-notification-failure) but are
 notified and should be cancelled
 :::
 ::::
 
-
 ::: faq Are there restrictions on emails that can be used when sending invites?
 PICMI puts no restrictions on the email addresses used
 :::
-
-
 
 ::: faq The individual emailed back after an invitation explaining, how did they get the email address?
 The person invited can email you back because the `reply-to` in the email itself is set to the email address of your
 organisation
 :::
-
 
 :::: faq The individual emailed back after an invitation explaining, can I hold the position? What should I do?
 Given you want to keep them, [change a status message](article/status-message#change-status-message-on-application) to
@@ -168,7 +168,8 @@ their application so that you can track it.
 
 ::: prompt
 You are unable to reserve a position for a specific application. If there is a restriction on positions, then if all
-positions are filled, add one to the maximum in [job application controls](article/job-application-controls). Alternatively, reduce the number
+positions are filled, add one to the maximum in [job application controls](article/job-application-controls).
+Alternatively, reduce the number
 by one until the person is ready to apply.
 :::
 ::::
@@ -176,7 +177,8 @@ by one until the person is ready to apply.
 ## Applications
 
 ::: faq How do I view and manage applications?
-Once you've posted a job, you can manage applications by navigating to the <b>People</b> page. Here, you'll be able to review peoples' applications.
+Once you've posted a job, you can manage applications by navigating to the <b>People</b> page. Here, you'll be able to
+review peoples' applications.
 :::
 
 ::: faq I can't find an application that I'm sure exists, what happened?
@@ -184,16 +186,20 @@ It is likely that the [search filter](article/search.md) has the wrong status in
 your [search criteria in People](article/searching-for-people.md)
 :::
 
-:::faq What should I do if a person reports that they don't have the correct pay rate? (and you have changed the rate in personal overrides)
+:::faq What should I do if a person reports that they don't have the correct pay rate? (and you have changed the rate in
+personal overrides)
 First check the <b>Personal Overrides</b> in the <b>People</b> page to confirm that the rate is correct. If it is:
 
 1. Instruct the person to use Update Contract above the contract in the application workflow.
-2. If there is still a problem, instruct them to use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help Centre.
+2. If there is still a problem, instruct them to
+   use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help
+   Centre.
 3. If the person still has issues, contact PICMI.
-:::
+   :::
 
 :::: faq What should I do if a person reports they can't complete an application?
-Check the <b>application status</b> in the <b>People</b> page and then determine if the person is (and confirm that they also see this):
+Check the <b>application status</b> in the <b>People</b> page and then determine if the person is (and confirm that they
+also see this):
 
 1. not able to **apply** because of the sign in problems (see [user account](about-picmi/users.md))
 2. not able to **apply** (or **proceed to accept**) because [job application controls](article/job-application-controls)
@@ -201,19 +207,24 @@ Check the <b>application status</b> in the <b>People</b> page and then determine
    see [check job configuration](article/checking-application-configuration))
 4. **in progress** and the contract page reports an error (also
    see [check job configuration](article/checking-application-configuration))
-5. in **offered** status but is unable to proceed to accept, instruct them to use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help Centre.
+5. in **offered** status but is unable to proceed to accept, instruct them to
+   use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help
+   Centre.
 6. in **offered** status and has typed "I agree" and there is an error "Whoops, something went wrong"
-   1. Check Completion Status 
-   2. Complete the checks above (job configuration and vacancies) to ensure the job is still available
-   3. Still a problem? Instruct them to use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help Centre.
-   4. If the person still has issues, contact PICMI. 
+    1. Check Completion Status
+    2. Complete the checks above (job configuration and vacancies) to ensure the job is still available
+    3. Still a problem? Instruct them to
+       use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help
+       Centre.
+    4. If the person still has issues, contact PICMI.
 
 ::: prompt
 When contacting PICMI, see our [guide on writing emails to help us diagnose the issue](../how-write-emails.md)
 :::
 ::::
 
-:::: faq What should I do when a individual applying reports they cannot sign and only have the option to Cancel or Refresh?
+:::: faq What should I do when a individual applying reports they cannot sign and only have the option to Cancel or
+Refresh?
 This usually happens when the job has [**no vacancies**](about-picmi/applications.md#restrictions-on-actions). You can
 see this as a business user or as an individual applying.
 
@@ -234,39 +245,45 @@ If you want to increase the number of positions in the job bucket, increase
 the [Maximum number of people](article/job-application-controls.md#application-controls) setting in the job
 :::
 
-::: faq Someone can't complete (In Progress) because there are 'No Positions Left', what should I do?
-This happens when the job has '[no vancancies](about-picmi/applications.md#restrictions-on-actions)'. 
+:::: faq Someone can't complete (In Progress) because there are 'No Positions Left', what should I do?
+This happens when the job has '[no vancancies](about-picmi/applications.md#restrictions-on-actions)'.
 
 1. Either, increase the number of positions or (probably) cancel the application.
 2. For both, the person should be informed via a status message.
-   * When updating positions, add a status message to explain the change and have the person complete the application process (note: the email will contain a link back into PICMI)
-   * When cancelling, add a status message to explain why.
+    * When updating positions, add a status message to explain the change and have the person complete the application
+      process (note: the email will contain a link back into PICMI)
+    * When cancelling, add a status message to explain why.
+
+:::prompt
+Once the person has completed the application process, they will be able to proceed to accept, agreed and the
+application with be in Accepted status.
 :::
+::::
 
 :::: faq What should I do if a person reports a different status to your view?
 One of the two of you does not have the latest version and to ensure you have the latest information.
 
 * As a business user you can follow ensuring you [have the latest information](article/update-old-information)
-* The jobseeker also has similar strategies of [update to the latest information](../jobseeker/article/update-old-information.md) you can instruct them on
+* The jobseeker also has similar strategies
+  of [update to the latest information](../jobseeker/article/update-old-information.md) you can instruct them on
 
 ::: prompt
 You should not change the status of the application to refresh your view.
 :::
 ::::
 
-
 ::: faq What should I do if a person reports 'This contract still needs information from your application'?
 One of the fields in the contract cannot be completed. The jobseeker will see a RED area where it is broken. However, as
 a business fix using the steps in [checking application configuration](article/checking-application-configuration)
 :::
-
 
 ::: faq Jobseeker (or business user) reports the error 'Business cannot apply for a job', what to do?
 See [Error: Business user cannot apply for a job](article/business-user-cannot-apply-for-job.md)
 :::
 
 :::: faq How do I update a staff member’s pay rate if their application was accepted with the wrong rate?
-To correct the pay rate, you’ll need to update the pay rate in the appropriate place and then **Reissue** the application.
+To correct the pay rate, you’ll need to update the pay rate in the appropriate place and then **Reissue** the
+application.
 
 There are two possible scenarios:
 
@@ -278,9 +295,11 @@ Update their pay rate using **Personalised Conditions**.
 
 Update the job pay rate so all future applicants receive the correct rate as well.
 
-After updating the pay rate in the correct location, you can then Reissue the application with a status message, and the staff member will need to accept it again for the updated rate to take effect.
+After updating the pay rate in the correct location, you can then Reissue the application with a status message, and the
+staff member will need to accept it again for the updated rate to take effect.
 
 ::: prompt
+
 * [Personalise the job conditions](article/creating-individual-employment-conditions.md) (Pay rate)
 * [Edit job pay rate](./article/creating-a-job.md#updating-job-fields)
 * [Reissue the application](article/changing-application-status.md)
@@ -290,32 +309,38 @@ After updating the pay rate in the correct location, you can then Reissue the ap
 :::
 ::::
 
-:::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are available and wish to work. Should I reissue their contract or reopen it?
+:::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are
+available and wish to work. Should I reissue their contract or reopen it?
 If you want to maintain the original contract then **reopen** back to accepted (and add a status message of the reason).
 If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
 message.
 
 ::: prompt
+
 * [How to change a status](article/changing-application-status)
 * [What changes can be made?](about-picmi/applications#business-actions)
-:::
-::::
+  :::
+  ::::
 
-:::: faq I have accepted an applicant but now realise they aren’t suitable. How can I stop them from working or reapplying?
+:::: faq I have accepted an applicant but now realise they aren’t suitable. How can I stop them from working or
+reapplying?
 If you need to prevent an applicant from continuing or reapplying, you have two options:
+
 * **Terminate** the application – use this when the applicant is not suitable.
 * **Complete** the application – use this when you simply want to close it without progressing further.
 
 Both options lock the application so the person cannot apply for the job again.
 
-You can also add a message when changing the status to explain your decision. This will be included in the email to the applicant, as well as stored against the application for later reference.
+You can also add a message when changing the status to explain your decision. This will be included in the email to the
+applicant, as well as stored against the application for later reference.
 
 ::: prompt
+
 * [How to change a status](article/changing-application-status)
 * [What changes can be made?](about-picmi/applications#business-actions)
 * [what is a status message?](article/status-message)
-:::
-::::
+  :::
+  ::::
 
 :::: faq I have a person who has accepted but will require changes to be made, what do I do?
 Some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
@@ -325,16 +350,18 @@ This happens often because people don't always have all the information at hand 
 about always let you know and this is easily sorted later on.
 
 ::: prompt
+
 * [How to change a status](article/changing-application-status)
 * [What changes can be made?](about-picmi/applications#business-actions)
-:::
-::::
+  :::
+  ::::
 
 ::::: faq How can I change the dates of a job on an accepted application?
 This is change to the terms and the application must be reissued, the dates of the job changed in personal overrides and
 then re-agreed.
 
 :::: explanation
+
 ### Steps
 
 1. [Reissue the application](article/changing-application-status.md)
@@ -359,6 +386,7 @@ Why start the application? The application provides more understanding to the pe
 contract. Some people want to see the contract as much as negotiating their rates.
 
 :::: explanation
+
 ### Steps
 
 1. Set up the job and invite the person.
@@ -379,6 +407,7 @@ is [information here for jobseekers](../jobseeker/article/adding-a-photo.md#addi
 after you reissue the application for them to make updates to their photos.
 
 :::: explanation
+
 ### Steps
 
 1. Find the [application](article/job-application-controls.md)
@@ -400,7 +429,6 @@ There is no charge for this process [see billing](about-picmi/billing.md)
 ::: faq How can I change the date format when exporting application details?
 Change the [default date format](article/export.md#set-as-default-date-format-for-all-dates) to apply to all dates
 :::
-
 
 ::: faq I have reissued and no email was received?
 Check that they person is not a [provisional user](article/provisional-user.md), otherwise look
@@ -486,10 +514,13 @@ Update the **end date** of the job to a date prior to today.
 
 See [update job dates](./article/job-status.md#update-job-dates) in job status
 :::
+
 ## Integrations
 
 ::: faq How can I setup a new integration?
-PICMI currently has over a dozen integrations available. At this stage, please reach out to our support team via the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
+PICMI currently has over a dozen integrations available. At this stage, please reach out to our support team via
+the <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or send an email
+to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
 :::
 
 ::: faq How can I update an existing record in an integration system?
@@ -497,12 +528,10 @@ PICMI does not update existing employee fields in an integration.
 see [integration rules](integrations/integration-events#general-integration-rules)
 :::
 
-
 ::: faq How can I make an integration automatic?
 An integration sync setting can be turned ON per job
 see [integration rules](integrations/integration-events#setup-automatic-create-employee-sending-of-data-on-accepted-application)
 :::
-
 
 ::: faq How can I can I turn off an automatic integration?
 An integration sync setting can be turned OFF per job. Use the same process but select **OFF** at **Add new setting**
@@ -516,10 +545,10 @@ You will need to do this in three steps on each person record:
 1. [Reopen](about-picmi/applications.md#business-actions)
 2. [Create Employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee)
 3. [Complete](about-picmi/applications.md#business-actions)
-:::
-
+   :::
 
 ::: faq How can I bulk upload?
+
 ### For API integrations
 
 Bulk uploading is performing it two ways. First, at application accepted the record can be automatically sent. If this
@@ -617,7 +646,7 @@ To create a PDF using your web browser’s built-in print function:
 3. In the **Destination** or **Printer** dropdown, select **Save as PDF**.
 4. Adjust print settings if needed (e.g., layout, margins, headers/footers).
 5. Click **Save**, choose a location, and give your file a name.
-:::
+   :::
 
 ::: faq Which browsers support printing to PDF?
 Most modern browsers support this feature, including:
@@ -626,7 +655,7 @@ Most modern browsers support this feature, including:
 - **Microsoft Edge**
 - **Mozilla Firefox** (requires an extension or virtual PDF printer)
 - **Apple Safari**
-:::
+  :::
 
 ::: faq Why don’t I see the ‘Save as PDF’ option?
 If the option isn’t visible:
@@ -635,14 +664,14 @@ If the option isn’t visible:
 - In Windows, you may need to install **Microsoft Print to PDF** (available in Settings > Devices > Printers &
   scanners).
 - On Mac, select **PDF > Save as PDF** from the print dialog.
-:::
+  :::
 
 ::: faq How can I remove headers and footers from the PDF?
 Most browsers include an option to disable headers and footers:
 
 - In the print dialog, look for **More settings** or **Options**.
 - Uncheck **Headers and footers** before saving.
-:::
+  :::
 
 ::: faq How do I adjust page size, margins, or orientation?
 Under **More settings**, you can:
@@ -650,32 +679,33 @@ Under **More settings**, you can:
 - Change **Paper size** (e.g., A4, Letter).
 - Adjust **Margins** (Default, None, Minimum, Custom).
 - Choose **Portrait** or **Landscape** orientation.
-:::
+  :::
 
 ::: faq Can I print only selected pages?
 Yes! Before saving, look for the **Pages** option in the print dialog:
 
 - Select **All** to print the entire document.
 - Choose **Custom** to specify a page range (e.g., 1-3, 5, 7-9).
-:::
+  :::
 
 ::: faq Can I include background images and colours in the PDF?
 Yes! In most browsers, under **More settings**, enable **Background graphics** to include them.
 :::
 
 ::: faq My PDF is missing content or formatting looks different. What can I do?
+
 - Try a different browser (Chrome tends to handle complex layouts better).
 - Print the page in **Landscape** mode if elements are cut off.
 - Enable **Background graphics** if images or colours are missing.
 - If interactive elements (like dropdowns) don’t appear, take a **screenshot** instead.
-:::
+  :::
 
 ::: faq Can I password-protect the PDF?
 The browser print function doesn’t offer password protection, but you can:
 
 - Use **Adobe Acrobat** or another PDF editor to set a password.
 - Upload the PDF to an online PDF security tool and apply encryption.
-:::
+  :::
 
 ::: faq How do I merge multiple PDFs after saving?
 You can combine PDFs using:
@@ -683,7 +713,7 @@ You can combine PDFs using:
 - **Adobe Acrobat** (paid feature).
 - **Online tools** like Smallpdf or ILovePDF.
 - **Mac Preview** (open PDFs > File > Export as PDF).
-:::
+  :::
 
 ## Troubleshooting
 
@@ -716,7 +746,7 @@ be done multiple times without causing problems.
 :::
 
 ::: faq A person's 'ID' is wrong
-Different systems call the "ID" (identifier) different names ranging from staff id to external identifier. 
+Different systems call the "ID" (identifier) different names ranging from staff id to external identifier.
 
 To confirm this is a problem:
 
@@ -728,7 +758,8 @@ to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
 :::
 
 ::: faq A person's data is missing
-Each integration is able to match the persons record details on PICMI side to the fields in the integration. These may get out of date and need to be checked that they exist to transfer the data.
+Each integration is able to match the persons record details on PICMI side to the fields in the integration. These may
+get out of date and need to be checked that they exist to transfer the data.
 
 To diagnose this:
 
