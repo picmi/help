@@ -226,12 +226,21 @@ Change your vacancies by the number of people you expect
 ::::
 
 ::: faq There are 'No Vacancies', what should I do?
-This usually happens when the job has '[**No positions left**](about-picmi/applications.md#restrictions-on-actions)'.
-You can see this as a business user in **Jobs** in the [**Remaining
-**](article/job-application-controls.md#view-job-bucket-settings) column
+This usually happens when the job has '[No positions left](about-picmi/applications.md#restrictions-on-actions)'.
+You can see this as a business user in **Jobs** in the [Remaining
+](article/job-application-controls.md#view-job-bucket-settings) column.
 
 If you want to increase the number of positions in the job bucket, increase
 the [Maximum number of people](article/job-application-controls.md#application-controls) setting in the job
+:::
+
+::: faq Someone can't complete (In Progress) because there are 'No Positions Left', what should I do?
+This happens when the job has '[no vancancies](about-picmi/applications.md#restrictions-on-actions)'. 
+
+1. Either, increase the number of positions or (probably) cancel the application.
+2. For both, the person should be informed via a status message.
+   * When updating positions, add a status message to explain the change and have the person complete the application process (note: the email will contain a link back into PICMI)
+   * When cancelling, add a status message to explain why.
 :::
 
 :::: faq What should I do if a person reports a different status to your view?
