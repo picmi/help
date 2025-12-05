@@ -1,6 +1,6 @@
 # EmploymentHero integration overview
 
-## EmploymentHero: integration onfiguration
+## EmploymentHero: integration configuration
 
 | Configuration                                                                            | Description                                                                      | Values                                                             |
 |------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|--------------------------------------------------------------------|
