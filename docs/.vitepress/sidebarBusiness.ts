@@ -188,6 +188,10 @@ export function sidebarBusiness() {
                                     link: '/business/integrations/hectre'
                                 },
                                 {
+                                    text: 'KeyLink',
+                                    link: '/business/integrations/keylink'
+                                },
+                                {
                                     text: 'MYOB IMS',
                                     link: '/business/integrations/myob-ims'
                                 },
@@ -202,6 +206,10 @@ export function sidebarBusiness() {
                                 {
                                     text: 'Smartly',
                                     link: '/business/integrations/smartly'
+                                },
+                                {
+                                    text: 'SnapGrow',
+                                    link: '/business/integrations/snapgrow'
                                 },
                             ]
                         },
