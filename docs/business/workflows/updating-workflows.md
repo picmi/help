@@ -49,7 +49,7 @@ This means one update can improve the experience for all future applicants acros
 
 ::: prompt
 If you only want to change the workflow for one specific
-job, [duplicate the workflow](creating-a-workflow#step-3-duplicate-your-base-workflow) and assign it to that job only.
+job, [duplicate the workflow](../guide/workflows/creating-a-workflow#step-3-duplicate-your-base-workflow) and assign it to that job only.
 :::
 
 #### Best practice
