@@ -1,10 +1,8 @@
 # Check the integration status of an individual record
 
-These instructions refer to all integrations in which [data is sent via API](integrations.md#available-integrations)
-
 When data is shared with other systems, this is generally called an "integration". Each integration has an "integration
 provider"—these are the payroll, HRIS and on-site systems. Each time data is shared, this is called an "integration
-event". Inside each event are data called a "record" made up of "fields" which are the values that are shared. Each field will
+event". Inside each event is data called a "record" made up of "fields" which are the values that are shared. Each field will
 have different values, and there are rules around that data that may mean it succeeds or fails.
 
 :::: explanation

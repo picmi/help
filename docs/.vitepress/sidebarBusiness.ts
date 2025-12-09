@@ -305,8 +305,8 @@ export function sidebarBusiness() {
 
                     ]
                 },
-                { text: 'Events', link: '/business/integrations/integration-events' },
                 { text: 'Download reports', link: '/business/integrations/download-reports' },
+                { text: 'Events', link: '/business/integrations/integration-events' },
                 { text: 'External Identifiers', link: '/business/integrations/external-identifiers' },
             ],
         },

@@ -65,12 +65,12 @@ Each integration is either API-based (automated between PICMI and the other syst
 
 ## View and Customise the Integrations List
 
-1. Go to **Configuration > Integrations**.
+1. Go to **Setup > Integrations**.
 2. You’ll see a table listing all integration providers configured for your organisation.
 3. Use the column headers to sort by **Name**, **Type**, or **Last Modified**.
 4. Click :::icon cog-outline::: **Customise Columns** to show or hide optional columns like:
     - **Disabled**
-    - **Sync Settings**
+    - **Jobs**
 5. Click **Save** to apply your column preferences.
 
 :::
@@ -86,6 +86,7 @@ Each integration has its own settings accessible via the **Edit Drawer**.
     - **Default Settings**: General toggle settings.
     - **Configuration**: API credentials or connection options.
     - **Mappings**: Link your internal data to fields in the provider’s system.
+    - **Sync Settings**: Link your integration to jobs to sync data.
 3. At the bottom, use **Test** to verify the connection is active.
 4. Click **Done** to close the drawer when finished.
    :::
@@ -127,7 +128,7 @@ This section only appears for integrations that support OAuth (e.g. Xero, iPayro
 :::
 
 ::: prompt
-There is a ::: icon content-copy Copy to Clipboard::: if you wish to look at the url
+There is a :::icon content-copy Copy to Clipboard::: if you wish to look at the url
 :::
 
 ## Field Mappings
@@ -161,6 +162,61 @@ external platform.
 Be sure to map critical identifiers (name, email, ID) to ensure successful syncs.
 :::
 
+
+## Sync Settings
+
+Sync settings define which jobs will sync data to the external system. You can also change Sync Setting on a job itself.
+
+:::prompt
+Linking a job to an integration is important to ensure data is correctly captured so that it can be sent to other systems. Without this
+step, uploads can unnecessarily fail.
+:::
+
+::: instructions
+### Add or Edit Sync Settings
+
+1. From the **Integrations** page, click on a provider (e.g. **Crystal**, **EmploymentHero**).
+2. In the integration drawer, go to the **Sync Settings** section.
+3. Click **Add Sync Setting** to connect a job to this integration.
+4. In the **Add Sync Setting** panel:
+   - Select one or more **Employment Jobs** you want to sync (e.g. "General Farm Hand", "Harvest Hand").
+   - **For API integrations only**: Choose the sync mode:
+     - **Automatic Sync**: PICMI will automatically send accepted applications to the external system as soon as they're accepted.
+     - **Manual Update**: You control when data is sent, allowing you to review and manually trigger the sync for each application.
+5. Click **Save** to confirm your changes.
+:::
+
+::: prompt
+**Report integrations** (CSV-based) do not have Manual/Automatic options—data is always exported on demand when you download the report.
+:::
+
+::: instructions
+### View Active Sync Settings
+
+1. Open the integration and go to **Sync Settings**.
+2. The table displays:
+   - **JOB**: The name of the connected employment job
+   - **STATUS**: Current job status (e.g. `STARTED`, `OPEN`, `CLOSED`)
+   - **ACTION**: Delete icon to remove the sync setting
+3. Use **Rows per page** to adjust how many settings are shown.
+4. Use the pagination controls to navigate through multiple settings.
+:::
+
+::: instructions
+### Remove a Sync Setting
+
+1. Locate the job in the **Sync Settings** table.
+2. Click the :::icon delete-outline::: **Delete** icon in the **ACTION** column.
+3. Confirm the removal when prompted.
+4. Click **Save** to apply the changes.
+
+:::
+
+::: prompt
+Once a sync setting is added and saved, PICMI will allow download reports from that job to the external system according to the integration's configuration.
+:::
+
+
 ## Tips for Integration Management
 
 :::: explanation
@@ -169,5 +225,6 @@ Be sure to map critical identifiers (name, email, ID) to ensure successful syncs
 - **Report Integrations** work best when importing structured data like timesheets via CSV.
 - Use **Test Connection** before performing your first sync.
 - Revisit **Mappings** when adding new onboarding fields or changing workflows.
+- Add multiple jobs to **Sync Setting**.
 
 ::::
