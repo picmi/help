@@ -1,4 +1,4 @@
-# Changing a person’s role in PICMI
+# Changing a person’s role/job in PICMI (and issuing a new contract)
 
 When someone in your organisation changes roles, it’s important to ensure their employment details—particularly the
 contract—accurately reflect their new responsibilities, pay, and working conditions.

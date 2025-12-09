@@ -22,4 +22,4 @@ The **Edit** pane is also available from **People** view in each row when showin
 * Click **Public job** :::icon open-in-new::: to open the job separately in a new window/browser tab
 * Click :::icon content-copy::: **Copy to Clipboard**&mdash;and then paste into another browser or provide as a link to someone (eg in an email)
 
-Also check that it is [valid and ready to be published](preparing-a-job-ready-publish)
+Also check that it is [valid and ready to be published](../guide/jobs/preparing-a-job-ready-publish.md)

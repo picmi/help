@@ -491,7 +491,7 @@ issuing a new one, or by using overrides to amend the existing contract.
 If you're unsure which actions are available at different application stages, refer
 to [Applications](about-picmi/applications.md).
 
-You can also review [Changing a person’s role](guide/changing-a-role.md) for detailed guidance on when to create a new
+You can also review [Changing a person’s role](guide/jobs/changing-a-role.md) for detailed guidance on when to create a new
 job, workflow, or contract.
 
 If you need further help, please provide:

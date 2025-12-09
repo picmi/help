@@ -33,7 +33,7 @@ requirements, and the desired level of automation.
 - **How it works**:
     - Employers get applicants to fill in their identification details and provide an image of the relevant document
     - Employers perform manual verification (e.g., via
-      [third-party systems](storing-biometric-data#third-party-systems) or face-to-face checks) after the application
+      [third-party systems](../about-picmi/storing-biometric-data.md#third-party-systems) or face-to-face checks) after the application
     - PICMI acts as a central repository for compliance documentation.
 - **Advantages**:
     - Simplifies record-keeping and audit readiness.

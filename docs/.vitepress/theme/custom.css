@@ -4,6 +4,20 @@
     --vp-c-brand-2: #747bff;
 
     --vp-font-family-base: 'Lato', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --vp-layout-max-width: 1920px;
+}
+
+.VPDoc:not(.has-sidebar) .container {
+    max-width: 1584px !important;
+}
+
+.VPDoc:not(.has-sidebar) .content {
+    max-width: 1264px !important;
+}
+
+.VPDoc.has-aside .content-container {
+    max-width: 1168px !important;
 }
 
 /*
@@ -25,3 +39,5 @@ tr td:first-child a[href]:hover::before {
     left: -12px; /* Adjusts the position to the left */
     color: var(--vp-c-brand-1);
 }
+
+

@@ -32,9 +32,35 @@ After clicking +, select from:
     - Enter a Heading (short title candidates will see).
     - Optionally add Subheading/body content using the editor (bullets, bold, links).
 
-Best practice:
+:::explanation
+## Updating workflows across multiple jobs
+
+When you update a workflow, the changes apply to all jobs using that workflow.
+
+**How workflow updates work:**
+
+- Changes to a workflow affect **all jobs** assigned to that workflow
+- **Active applications** continue using the workflow version from when they started
+- **New applicants** see the updated workflow immediately
+- You don't need to update individual jobs after changing a workflow
+
+This means one update can improve the experience for all future applicants across multiple jobs.
+:::
+
+::: prompt
+If you only want to change the workflow for one specific
+job, [duplicate the workflow](creating-a-workflow#step-3-duplicate-your-base-workflow) and assign it to that job only.
+:::
+
+#### Best practice
 - Keep headings short and meaningful.
 
-Troubleshooting
+:::faq Too many questions?
+
+Every additional question reduces completion rates. Be ruthless about only collecting essential information during the
+application stage.
+:::
+
+#### Troubleshooting
 - Can’t add an item: Ensure you are in Edit mode (not Preview).
 - Long pages: Split content with Section Headings or move some items to another page for better completion rates.

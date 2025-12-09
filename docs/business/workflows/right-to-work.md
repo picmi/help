@@ -33,7 +33,7 @@ Employers must confirm an individual’s citizenship status. Accepted proof may 
 
 ### Maintain records
 
-Employers should retain copies of the evidence provided—[storing documents with biometric](storing-biometric-data) is not necessarily needed. Maintaining these records ensures compliance in case of audits or investigations by government agencies.
+Employers should retain copies of the evidence provided—[storing documents with biometric](../about-picmi/storing-biometric-data.md) is not necessarily needed. Maintaining these records ensures compliance in case of audits or investigations by government agencies.
 
 ### Avoid discrimination
 
@@ -41,7 +41,7 @@ Employers must treat citizens the same as other workers during the verification 
 
 ### Optional use of verification systems
 
-Employers may choose to use [third-party systems](storing-biometric-data#third-party-systems) to verify and document the right to work for all employees, including citizens. This can streamline processes and ensure consistent compliance and avoid issues around biometric data storage.
+Employers may choose to use [third-party systems](../about-picmi/storing-biometric-data.md#third-party-systems) to verify and document the right to work for all employees, including citizens. This can streamline processes and ensure consistent compliance and avoid issues around biometric data storage.
 
 ::: prompt
 See how [PICMI works with CheckWorkRights](../integrations/check-work-rights#how-picmi-works-with-checkworkrights)

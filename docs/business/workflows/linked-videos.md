@@ -2,8 +2,20 @@
 
 PICMI allows you to link external videos within your workflow. This feature is designed to provide extra information to people completing your application workflow. 
 
+PICMI doesn't host video files directly, so you'll need to use a video platform.
+
+:::explanation
+**Common video hosting options:**
+
+- **YouTube** – Free, reliable, easy to embed
+- **Vimeo** – Professional option with privacy controls
+- **Google Drive** – Good for internal videos with access restrictions
+
+Make sure your video is publicly accessible or properly shared so applicants can view it.
+:::
+
 ::: prompt
-PICMI currently only supports using the youtube video player. Contact our support team via <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or
+PICMI currently only supports using the **youtube video player**. Contact our support team via <a href="https://www.picmi.io/contact-us" target="_blank">Contact Us</a> or
 email <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> if you require another player.
 :::
 
@@ -28,12 +40,23 @@ email <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> if you r
 3. **Copy the permanent link**: use this link to add the link to your workflow
 
 ### Add video step to workflow
-1. In the workflow, add a Video item
-2. Use the link above
+
+Now add the video to your workflow using the link you copied in the previous step.
+
+:::instructions
+
+1. Go to **Setup** → **Workflows**
+2. Open the workflow you want to update
+3. Navigate to the appropriate section (usually Health & Safety or Induction)
+4. Add a new content block
+5. Paste your video link or embed code
+6. Add a description above the video explaining what it covers
+7. Click **Save**
+   :::
 
 ### Updating files
 
-To update a file without changing its link, use the youtube version functionality
+To update a file without changing its link, use the youtube **version** functionality
 
 ::: prompt
 The link remains unchanged, so workflows using this link automatically reflect the updated file.

@@ -6,7 +6,6 @@ export function sidebarBusiness() {
             collapsed: true,
             items: [
                 { text: 'Recruiting people', link: '/business/about-picmi/recruiting-people' },
-                { text: 'Creating an account', link: '/business/article/creating-an-account' },
                 { text: 'Understanding users', link: '/business/about-picmi/users' },
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
                 { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },
@@ -18,21 +17,100 @@ export function sidebarBusiness() {
                     ]
                 },
                 { text: 'Understanding notifications', link: '/business/article/notifications' },
+                { text: 'Storing biometric data', link: '/business/about-picmi/storing-biometric-data' },
                 {
                     text: 'Language support',
                     link: '/business/about-picmi/language-support-translations'
                 },
+                { text: 'Understanding workflows', link: '/business/about-picmi/understanding-workflows' },
+                {
+                    text: 'Understanding items on workflows',
+                    link: '/business/about-picmi/understanding-workflow-items'
+                },
+                { text: 'Creating an account', link: '/business/article/creating-an-account' },
+            ]
+        },
+        {
+            text: 'Guides',
+            collapsed: false,
+            items: [
                 {
                     text: 'Upcoming season—returning and new workers',
-                    link: '/business/article/upcoming-season'
+                    link: '/business/guide/upcoming-season'
                 },
                 {
                     text: 'Group hiring onsite',
-                    link: '/business/article/group-hiring-onsite'
+                    link: '/business/guide/group-hiring-onsite'
                 },
                 {
-                    text: 'Changing roles',
-                    link: '/business/guide/changing-a-role'
+                    text: 'Workflows',
+                    collapsed: true,
+                    items: [
+                        {
+                            text: 'Creating a workflow',
+                            link: '/business/guide/workflows/creating-a-workflow'
+                        },
+                        {
+                            text: 'Updating documents on a workflow',
+                            link: '/business/guide/workflows/updating-workflow-documents'
+                        },
+                    ],
+                },
+                {
+                    text: 'Proposals',
+                    collapsed: true,
+                    items: [
+                        {
+                            text: 'Kiwifruit template',
+                            link: '/business/guide/services/kiwifruit-template'
+                        },
+                        {
+                            text: 'Orchard profile & services required',
+                            link: '/business/guide/services/orchard-profile-and-services-required'
+                        },
+                    ]
+                },
+                {
+                    text: 'Jobs',
+                    collapsed: true,
+                    items: [
+                        {
+                            text: 'Changing a person\'s role/job',
+                            link: '/business/guide/jobs/changing-a-role'
+                        },
+                        {
+                            text: 'Preparing a job to publish',
+                            link: '/business/guide/jobs/preparing-a-job-ready-publish'
+                        },
+                    ]
+                },
+                {
+                    text: 'Pre-employment',
+                    collapsed: true,
+                    items: [
+                        {
+                            text: 'Google forms',
+                            link: '/business/guide/pre-employment/googleforms'
+                        },
+                    ]
+                },
+                {
+                    text: 'Know Your Workforce',
+                    collapsed: true,
+                    items: [
+                        {
+                            text: 'KYW (Know Your Workforce)',
+                            link: '/business/guide/kyw/kyw'
+                        },
+                        {
+                            text: 'KYE (Know Your Employee)',
+                            link: '/business/guide/kyw/kye'
+                        },
+                        {
+                            text: 'KYE vs KYW',
+                            link: '/business/guide/kyw/kye-vs-kyw'
+                        },
+                    ]
                 },
             ]
         },
@@ -62,7 +140,10 @@ export function sidebarBusiness() {
                 { text: 'Bulk change status', link: '/business/article/bulk-status-change' },
                 { text: 'Invites', link: '/business/article/inviting-for-jobs' },
                 { text: 'Provisional user', link: '/business/article/provisional-user' },
-                { text: 'Provisional user with shared email', link: '/business/article/provisional-user-with-shared-email' },
+                {
+                    text: 'Provisional user with shared email',
+                    link: '/business/article/provisional-user-with-shared-email'
+                },
                 {
                     text: 'Change pay rates for application',
                     link: '/business/article/changing-pay-rates-for-applications'
@@ -99,18 +180,25 @@ export function sidebarBusiness() {
             items: [
                 { text: 'Adding questions', link: '/business/workflows/questions' },
                 { text: 'Updating workflows', link: '/business/workflows/updating-workflows' },
-                { text: 'Linked files', link: '/business/workflows/linked-files' },
-                { text: 'Linked videos', link: '/business/workflows/linked-videos' },
+                { text: 'Removing from workflows', link: '/business/workflows/removing-from-workflows' },
+                { text: 'Validating Workflows', link: '/business/workflows/validating-workflows' },
+                {
+                    text: 'Documents', collapsed: false, items: [
+                        { text: 'Linked files', link: '/business/workflows/linked-files' },
+                        { text: 'Linked videos', link: '/business/workflows/linked-videos' },
+                    ]
+                },
                 {
                     text: 'Work status', items: [
                         { text: 'Question options', link: '/business/workflows/questions-work-status' },
                         { text: 'Right to work', link: '/business/workflows/right-to-work' },
                         {
                             text: 'Storing biometric data from documents',
-                            link: '/business/workflows/storing-biometric-data'
+                            link: '/business/about-picmi/storing-biometric-data'
                         },
                     ]
                 },
+                { text: 'Updates CheatSheet', link: '/business/workflows/workflows-cheatsheet' },
             ],
         },
         {

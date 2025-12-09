@@ -32,4 +32,4 @@ Use the preview pane to ensure values are as expected [here](previewing-a-job)
 
 ## Check that the job is valid
 
-Check that it is valid as per [here](preparing-a-job-ready-publish)
+Check that it is valid as per [here](../guide/jobs/preparing-a-job-ready-publish.md)

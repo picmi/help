@@ -3,10 +3,10 @@
 ## About PICMI
 
 - [Getting Started](about-picmi/getting-started)
-- [Upcoming season](article/upcoming-season.md)—inviting returning and new workers as provision users
-- [Group hiring onsite](article/group-hiring-onsite.md)
+- [Upcoming season](guide/upcoming-season.md)—inviting returning and new workers as provision users
+- [Group hiring onsite](guide/group-hiring-onsite.md)
 - [Managing different start dates](guide/managing-different-start-dates.md)
-- [People changing roles and requiring new contract](guide/changing-a-role.md)
+- [People changing roles and requiring new contract](guide/jobs/changing-a-role.md)
 
 ## Jobs
 
@@ -14,7 +14,7 @@
 - [Understanding job status](article/job-status)
 - [Duplicate a job](article/duplicate-a-job)
 - [Preview a job](article/previewing-a-job)
-- [Prepare a job ready to publish](article/preparing-a-job-ready-publish)
+- [Prepare a job ready to publish](guide/jobs/preparing-a-job-ready-publish.md)
 
 ## People Applications
 
@@ -37,7 +37,7 @@
 - [Linked videos](workflows/linked-videos)
 - [Work status questions](workflows/questions-work-status.md)
     - [Right to work](workflows/right-to-work)
-    - [Storing biometric data](workflows/storing-biometric-data)
+    - [Storing biometric data](about-picmi/storing-biometric-data.md)
 
 ## Contract Templates
 

@@ -15,7 +15,7 @@ to track groups of workers arriving for specific jobs.
 [Download as pdf](/assets/upcoming-season.pdf)
 
 ::: prompt
-**[Provisional users](provisional-user.md)** in PICMI are for workers who generally don't reliably have a unique email
+**[Provisional users](../article/provisional-user.md)** in PICMI are for workers who generally don't reliably have a unique email
 address (and have agreed to have assistance)
 :::
 
@@ -29,16 +29,16 @@ steps to avoid duplicate records and ensure access codes remain valid. Note ther
 
 1. Identify and plan the total number of workers, separating new and returning workers (e.g. 5 new and 6 existing
    workers)
-2. [Create the new job](creating-a-job.md#create-job) in PICMI where both sets of workers will be invited
+2. [Create the new job](../article/creating-a-job.md#create-job) in PICMI where both sets of workers will be invited
 3. Invite the new workers by creating provisional users through
-   the [create provisional user](provisional-user.md#add-a-provisional-user) process one at a time
-   or [bulk creation](provisional-user.md#add-multiple-existing-provisional-users) (e.g. invite 5 new workers)
-4. Invite the returning workers by using the [job's invite option](inviting-for-jobs.md#send-invites), searching for
-   their [existing provisional user](inviting-for-jobs.md#search-existing-people)
+   the [create provisional user](../article/provisional-user.md#add-a-provisional-user) process one at a time
+   or [bulk creation](../article/provisional-user.md#add-multiple-existing-provisional-users) (e.g. invite 5 new workers)
+4. Invite the returning workers by using the [job's invite option](../article/inviting-for-jobs.md#send-invites), searching for
+   their [existing provisional user](../article/inviting-for-jobs.md#search-existing-people)
    accounts (emails ending with "@noreply.picmi.io" and identifying them through their access code) and adding them to
    the new job (e.g. invite 6 existing workers)
-5. [Review all provisional users](provisional-user.md#view-provisional-user-details) (new and returning) to confirm (
-   or [update](provisional-user.md#update-existing-provisional-user)) that their access codes and expiry dates are
+5. [Review all provisional users](../article/provisional-user.md#view-provisional-user-details) (new and returning) to confirm (
+   or [update](../article/provisional-user.md#update-existing-provisional-user)) that their access codes and expiry dates are
    valid for the current job period (e.g. all 11 workers)
 
 Continue with processing and monitoring the workers:
@@ -149,7 +149,7 @@ Create a table of all the worker by job who are existing
 ## Table 3: csv data to create provisional user per job
 
 Each job will have a CSV data file to be imported. In practice, if there is one or two,
-just [add provisional](provisional-user.md#add-a-provisional-user) user without import.
+just [add provisional](../article/provisional-user.md#add-a-provisional-user) user without import.
 
 ### Harvest Workers Vanuatu 2025
 
