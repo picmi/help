@@ -1,20 +1,24 @@
 # Integration Configuration integration overview
 
-The Employee Import Utility from MYOB will only read information from data files provided in a CSV (comma-separated-values) format. The format may be either in a quotation-delimited format or required quotes may be
+The Employee Import Utility from MYOB will only read information from data files provided in a CSV (
+comma-separated-values) format. The format may be either in a quotation-delimited format or required quotes may be
 inserted during the import. PICMI generates the report files programmatically using the "Titled Columns" without double
 quotes including the "Required" fields and other user fields. All data is validated prior to export to any known rules
 as listed below.
 
 :::: explanation
+
 ## Special considerations: managing occupation and costing codes in PICMI exports
 
-PICMI allows you to **export data as a CSV file**, which you can **edit after downloading**. Each export is set of applications which
-can have multiple types of jobs. 
+PICMI allows you to **export data as a CSV file**, which you can **edit after downloading**. Each export is set of
+applications which
+can have multiple types of jobs.
 
 ::: prompt
 While each job can have a specific integration configuration, it is not possible to download all jobs
-at once with different integration configurations. Therefore, when managing multiple occupation and costing codes we still recommend only having
-one integration configuration and make changes immediately prior to import. 
+at once with different integration configurations. Therefore, when managing multiple occupation and costing codes we
+still recommend only having
+one integration configuration and make changes immediately prior to import.
 :::
 
 To make the process as smooth as possible, follow these steps:
@@ -116,22 +120,23 @@ Following this approach will make managing occupations and costing codes in PICM
 | [KiwiSaver contrib GL account](#kiwisaver-contrib-gl-account){#kiwisaver-contrib-gl-account}    | General ledger account for KiwiSaver contributions |                                                                                            | Integration Configuration |
 | [KiwiSaver opt out](#kiwisaver-opt-out){#kiwisaver-opt-out}                                     | Whether the employee opted out of KiwiSaver        |                                                                                            | Questions                 |
 | [KiwiSaver opt out date](#kiwisaver-opt-out-date){#kiwisaver-opt-out-date}                      | Date the employee opted out of KiwiSaver           |                                                                                            | Questions                 |
-| [Sick leave units](#sick-leave-units){#sick-leave-units}                                        | Units for sick leave                               | D, H. Default: D                                                                           |                           |
-| [SL full entitlement](#sl-full-entitlement){#sl-full-entitlement}                               | Full sick leave entitlement                        | Default: 10                                                                                |                           |
-| [SL next entitlement](#sl-next-entitlement){#sl-next-entitlement}                               | Next sick leave entitlement                        | Default: 10                                                                                |                           |
-| [SL maximum](#sl-maximum){#sl-maximum}                                                          | Maximum sick leave entitlement                     | Default: 20                                                                                |                           |
-| [FVL recording method](#fvl-recording-method){#fvl-recording-method}                            | Method for recording FVL                           | D, H. Default: D                                                                           |                           |
-| [FVL full entitlement](#fvl-full-entitlement){#fvl-full-entitlement}                            | Full FVL entitlement                               | Default: 10                                                                                |                           |
-| [FVL next entitlement](#fvl-next-entitlement){#fvl-next-entitlement}                            | Next FVL entitlement                               | Default: 10                                                                                |                           |
-| [End](#end){#end}                                                                               | End flag or status                                 | Default: E. Mandatory                                                                      |                           |
+| [Sick leave units](#sick-leave-units){#sick-leave-units}                                        | Units for sick leave                               | D, H. Recommended: D                                                                       | Integration Configuration |
+| [SL full entitlement](#sl-full-entitlement){#sl-full-entitlement}                               | Full sick leave entitlement                        | Recommended: 10                                                                            | Integration Configuration |
+| [SL next entitlement](#sl-next-entitlement){#sl-next-entitlement}                               | Next sick leave entitlement                        | Recommended: 10                                                                            | Integration Configuration |
+| [SL maximum](#sl-maximum){#sl-maximum}                                                          | Maximum sick leave entitlement                     | Recommended: 20                                                                            | Integration Configuration |
+| [FVL recording method](#fvl-recording-method){#fvl-recording-method}                            | Method for recording FVL                           | D, H. Recommended: D                                                                       | Integration Configuration |
+| [FVL full entitlement](#fvl-full-entitlement){#fvl-full-entitlement}                            | Full FVL entitlement                               | Recommended: 10                                                                            | Integration Configuration |
+| [FVL next entitlement](#fvl-next-entitlement){#fvl-next-entitlement}                            | Next FVL entitlement                               | Recommended: 10                                                                            | Integration Configuration |
+| [End](#end){#end}                                                                               | End flag or status                                 | Recommended: E. Mandatory                                                                  | Integration Configuration |
 
 ## Download Report
 
 * see [reports](download-reports.md)
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::
