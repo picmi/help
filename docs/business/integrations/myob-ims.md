@@ -127,7 +127,7 @@ Following this approach will make managing occupations and costing codes in PICM
 | [FVL recording method](#fvl-recording-method){#fvl-recording-method}                            | Method for recording FVL                           | D, H. Recommended: D                                                                       | Integration Configuration |
 | [FVL full entitlement](#fvl-full-entitlement){#fvl-full-entitlement}                            | Full FVL entitlement                               | Recommended: 10                                                                            | Integration Configuration |
 | [FVL next entitlement](#fvl-next-entitlement){#fvl-next-entitlement}                            | Next FVL entitlement                               | Recommended: 10                                                                            | Integration Configuration |
-| [End](#end){#end}                                                                               | End flag or status                                 | Recommended: E. Mandatory                                                                  | Integration Configuration |
+| [End](#end){#end}                                                                               | End flag or status                                 | E. Mandatory                                                                               |                           |
 
 ## Download Report
 
