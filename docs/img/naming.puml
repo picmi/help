@@ -1,0 +1,43 @@
+@startuml
+title Decision flow: New Application vs Reissue vs New Job
+
+start
+
+:What changed?;
+
+if (Is the worker doing a different job?) then (Yes)
+  :Create/Invite a NEW APPLICATION;
+  :Person completes application workflow;
+  :Application accepted;
+  stop
+else (No)
+
+  if (Is this a new season\non an existing job?) then (Yes)
+    :Create a NEW JOB with the new dates;
+    :Invite worker to the new job;
+    :Person completes application workflow;
+    :Application accepted;
+    stop
+  else (No)
+
+    if (Only pay or conditions changed?) then (Yes)
+      :Update job conditions OR personal conditions;
+      :Reissue agreement;
+      :Person completes agreement workflow;
+      :Agreement accepted;
+      stop
+    else (Not sure)
+      :Contact PICMI support with:
+
+      * worker name
+      * current job
+      * intended change
+      * whether dates or role changed;
+      stop
+    endif
+
+  endif
+
+endif
+
+@enduml

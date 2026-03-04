@@ -35,6 +35,10 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 {
+                    text: 'Understanding Jobs, Roles, Contracts, and Applications',
+                    link: '/business/guide/understanding-picmi-vs-you'
+                },
+                {
                     text: 'Upcoming season—returning and new workers',
                     link: '/business/guide/upcoming-season'
                 },
@@ -111,6 +115,10 @@ export function sidebarBusiness() {
                             link: '/business/guide/kyw/kye-vs-kyw'
                         },
                     ]
+                },
+                {
+                    text: 'Bank Account Numbers (NZ)',
+                    link: '/business/guide/bank-account'
                 },
             ]
         },
