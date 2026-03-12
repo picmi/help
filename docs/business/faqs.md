@@ -309,8 +309,7 @@ staff member will need to accept it again for the updated rate to take effect.
 :::
 ::::
 
-:::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are
-available and wish to work. Should I reissue their contract or reopen it?
+:::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are available and wish to work. Should I reissue their contract or reopen it?
 If you want to maintain the original contract then **reopen** back to accepted (and add a status message of the reason).
 If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
 message.
@@ -319,11 +318,10 @@ message.
 
 * [How to change a status](article/changing-application-status)
 * [What changes can be made?](about-picmi/applications#business-actions)
-  :::
-  ::::
+:::
+::::
 
-:::: faq I have accepted an applicant but now realise they aren’t suitable. How can I stop them from working or
-reapplying?
+:::: faq I have accepted an applicant but now realise they aren’t suitable. How can I stop them from working or reapplying?
 If you need to prevent an applicant from continuing or reapplying, you have two options:
 
 * **Terminate** the application – use this when the applicant is not suitable.
@@ -338,9 +336,33 @@ applicant, as well as stored against the application for later reference.
 
 * [How to change a status](article/changing-application-status)
 * [What changes can be made?](about-picmi/applications#business-actions)
-* [what is a status message?](article/status-message)
-  :::
-  ::::
+* [What is a status message?](article/status-message)
+:::
+::::
+
+:::: faq I have accepted an applicant on a job but now realise they need to be on another job?
+Applications cannot be **transferred** from one job to another. If the person should be working on a different job, you will need to cancel the current application and invite them again to the correct job.
+
+Steps
+1.	**Cancel** the current application and **include a status message** explaining the situation.
+For example:
+    > You have been accepted on the incorrect job. We are cancelling this application and will send you a new invite.
+2.	**Invite** the person to the correct job. You may also want to **add a status message**.
+    > Your previously entered information will still be available — please review, complete, and accept the new application.
+
+When they open the new application, previously entered information will already be available for review.
+
+::: prompt
+* [How to change a status](article/changing-application-status)
+* [What changes can be made?](about-picmi/applications#business-actions)
+* [What is a status message?](article/status-message)
+:::
+
+::: explanation
+**Note:** If this happened due to a genuine mistake, you can contact PICMI support to request either a credit or that the cancelled application is not charged.
+:::
+
+::::
 
 :::: faq I have a person who has accepted but will require changes to be made, what do I do?
 Some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
