@@ -46,12 +46,52 @@ Some configuration values may:
 In many cases, some values are fetched directly from the external system itself, but this only happens once your credentials are entered and verified. For example, once your API key or login token is saved, PICMI can retrieve a list of valid departments, teams, or job types from that system for you to select.
 
 ### Mappings
-Mappings define how PICMI’s data connects to the fields in the external system.
 
-PICMI automatically creates default mappings that usually “just work.” For instance, PICMI might automatically map Given Name to First Name or Email to Email Address.
+Mappings tell PICMI how to send your application data to another system. They connect the answers collected in your workflow to the correct fields in the integration. Mappings are saved as part of the integration setup and are specific to each integration. This means each provider (like Xero or EmploymentHero) will have its own set of fields and requirements.
 
-If needed, you can customise mappings to match your specific requirements — for example, to map additional fields or rename existing ones. This ensures that information flows smoothly and accurately between systems.
+You can think of mappings as a link between two sides:
+- **Source**: the data in PICMI (e.g. answers to questions or job fields)
+- **Target**: the matching field in the external system (e.g. “First Name” or “Email Address”)
+
+Both sides must match correctly for data to sync successfully.
+
+::::instructions
+#### How Mappings Are Set Up
+
+There are two ways mappings can be created:
+
+##### 1. Automatic (recommended)
+- PICMI creates a default set of mappings for you.
+- It uses built-in rules to match your workflow questions and job fields to the correct integration fields.
+- In most cases, these defaults will work without any changes.
+
+##### 2. Manual
+- You can create or adjust mappings yourself.
+- This lets you choose exactly which PICMI field connects to which integration field.
+- Useful if you have custom questions or need more control.
+
+#### How PICMI Matches Fields
+
+When using automatic mappings, PICMI uses internal rules (defined per integration) to decide:
+- Whether to match a **question answer** or a **job field**
+- Which fields are most likely to correspond (e.g. “Given Name” → “First Name”)
+
+These rules are designed to minimise setup and ensure common fields are matched correctly.
+
+::: prompt
+#### Important Warning: Duplicate Questions
+
+If you have multiple questions with very similar wording, PICMI may:
+- Match the wrong question, or
+- Fail to match correctly
+
+To avoid this:
+- Remove duplicate or very similar questions in your question library
+- Then reset or review your mappings
+
+This helps ensure the correct data is always sent to the integration.
 :::
+
 ## Overview
 
 The Integrations list displays all available integrations, their type, and when they were last modified. You can use

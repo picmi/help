@@ -105,6 +105,49 @@ one.
 | [Pay Run Calendar](#au-pay-run-calendar){#au-pay-run-calendar}          | Xero unique identifier for payroll calendar for employee      | Optional                                               | Configuration        |
 | [Super Fund](#au-super-fund){#au-super-fund}                            | Xero identifier for super fund, requires EmployeeNumber       | Optional                                               | Configuration        |
 
+## Payroll AU: mapping targets and default sources
+
+The table below explains the main mapping targets used by the Xero Payroll AU integration.
+
+- **Mapping target** is the field PICMI sends to Xero.
+- **Xero field** is the label used in this guide.
+- **Mapping source (default)** shows the field or workflow question PICMI will try to use automatically when a default
+  mapping exists.
+- If the default source says **Manual mapping**, you should choose the source field yourself.
+
+::: prompt
+This table reflects the defaults proven in code and tests for the Xero Payroll AU integration. Some fields support
+automatic matching, but the exact question or source field may depend on your workflow setup. If a field does not map as
+expected, review the mapping manually.
+:::
+
+| Mapping target       | Xero field                                          | Mapping source (default)                                                                                       |
+|----------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| `FirstNames`         | First Name                                          | `Worker GivenName`                                                                                             |
+| `Surname`            | Surname                                             | `Worker FamilyName`                                                                                            |
+| `Birthdate`          | Date Of Birth                                       | Workflow question: `What is your date of birth?`                                                               |
+| `Email`              | Email                                               | `Worker Email`                                                                                                 |
+| `Phone`              | Phone Number                                        | `Worker Phone`                                                                                                 |
+| `Gender`             | Gender                                              | Automatic default mapping supported workflow question `What is your gender?`; falls back to the `Not Stated`   |
+| `AddressPostal`      | Address                                             | Workflow question: `What is your postal address?`                                                              |
+| `Title`              | Job Title                                           | Automatic default mapping supported; falls back to the `Job Title` when building the Xero employee             |
+| `StartDate`          | Start Date                                          | `Job StartDate`                                                                                                |
+| `Remuneration`       | Remuneration / Pay Rate                             | Automatic default mapping supported; falls back to the `Job Remuneration` when available                       |
+| `Bank`               | Bank Account BSB                                    | Workflow question: `BSB number`                                                                                |
+| `BankAccount`        | Bank Account Number                                 | Workflow question: `Account number`                                                                            |
+| `BankAccountName`    | Bank Account Name                                   | Workflow question: `Your account name`                                                                         |
+| `TaxNumber`          | Tax Declaration / TFN                               | Workflow question: `If yes, enter your TFN`                                                                    |
+| `TaxType`            | Tax Declaration / TFN Type                          | Workflow question: `Do you have a TFN?`                                                                        |
+| `TaxResidency`       | Tax Declaration / Tax Residency                     | Workflow question: `What is your tax residency status?`                                                        |
+| `TaxFree`            | Tax Declaration / Tax-free threshold                | Workflow question: `Do you want to claim the tax-free threshold from this payer?`                              |
+| `TaxRepayment`       | Tax Declaration / Study or training loan repayments | Workflow question: `Do you have a study or training loan that requires repayments?`                            |
+| `SuperContributions` | Super Fund selection                                | Workflow question: `Which super fund should we pay your superannuation contributions into?`                    |
+| `SuperName`          | Super Fund name                                     | Workflow question: `What is the name of the super fund? (Required for existing or private self-managed funds)` |
+| `SuperAccount`       | Super member or account number                      | Workflow question: `What is the member or account number for your Existing Super Fund?`                        |
+| `EmployeeId`         |                                                     | Manual mapping                                                                                                 |
+| `Nationality`        |                                                     | Manual mapping                                                                                                 |
+| `VisaStart`          |                                                     | Manual mapping                                                                                                 |
+
 # Special Tax File Numbers (TFNs) in Australia
 
 In some situations, **special or placeholder TFNs** are used when an individual doesn't yet have a regular TFN or
@@ -154,8 +197,9 @@ PICMI will automatically keep your token up to date by refreshing it before it e
 :::
 
 :::: explanation
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::
