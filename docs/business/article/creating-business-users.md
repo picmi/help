@@ -11,8 +11,8 @@ These steps are quick and help keep your team organised while maintaining securi
 :::: instructions
 ## Create business user
 
-1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
-2. Select **All users**
+1. At the top of PICMI, click **Setup**
+2. Select **Users**
 3. Click :::icon plus **Add New User**:::  
 3. Work through the fields
     * Email, first and last names
@@ -29,8 +29,8 @@ All users have the same access and get notified on an accepted application
 :::: instructions
 ## Remove a business user
 
-1. At the top-right of PICMI, click :::icon account-circle-outline::: **User Menu**
-2. Select **All users**
+1. At the top of PICMI, click **Setup**
+2. Select **Users**
 3. Locate the user, click **Delete**
 
 The person will no longer have access to the organisation
