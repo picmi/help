@@ -1,6 +1,6 @@
 # Adding provisional users
 
-Create provisional users when a person has **no email address currently available**. Provisional users are created with an application ready to apply for a specific job.  
+Create provisional users when a person has **no email address currently available**. Provisional users are created with an application ready to apply for a specific job. Other than access details and no emails sent until the person enters a deliverable email address on their profile, they are identical to a normal user.
 
 Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a-job.md)), it should be straight forward to add a person who does not have an email for a job. 
 

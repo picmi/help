@@ -457,6 +457,14 @@ Check that they person is not a [provisional user](article/provisional-user.md),
 in [email not found](../email-not-found.md)
 :::
 
+::: faq Can I Reissue for a provisional user?
+Yes, you can Reissue for a provisional user. You will need to be in contact with them and perhaps [provide access](article/provisional-user.md#type-of-access).
+
+You should [confirm that the access details](article/provisional-user.md#view-provisional-user-details) are not expired. [Update existing provision user](article/provisional-user.md#update-existing-provisional-user) if needed.
+
+Other than access details and no emails sent until the person enters a deliverable email address on their profile, they are identical to a normal user. 
+:::
+
 ## Notifications
 
 ::: faq Why am I receiving multiple notifications saying there are no vacancies?
