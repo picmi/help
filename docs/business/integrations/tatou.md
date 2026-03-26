@@ -1,5 +1,9 @@
 # Tātou integration overview
 
+::: prompt 
+PICMI currently only supports one Tātou integration for a single organisation. Contact us if you need to set up multiple.
+:::
+
 :::: explanation
 
 ## Uniqueness detection

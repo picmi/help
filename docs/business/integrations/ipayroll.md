@@ -4,6 +4,9 @@
 iPayroll does not accept non-NZ addresses
 :::
 
+::: prompt
+PICMI currently only supports one iPayroll integration for a single organisation. Contact us if you need to set up multiple.
+:::
 ## Integration configuration
 
 | Configuration                                       | Description                              | Values                                                          |
