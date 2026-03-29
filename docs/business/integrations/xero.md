@@ -160,7 +160,7 @@ qualifies for an exemption. These are commonly used in **payroll, superannuation
 | 333 333 333 | Individual is under 18 and earns less than the tax-free threshold.             |
 | 444 444 444 | Individual receives certain government pensions or benefits and is exempt.     |
 
-Xero does not necessarily accept these values and applications will need to be reissued.
+See the [Tax File Number (TFN) & Exemptions](tfn) section for detailed information.
 
 ## Authorisation
 
