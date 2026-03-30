@@ -223,7 +223,7 @@ When contacting PICMI, see our [guide on writing emails to help us diagnose the 
 :::
 ::::
 
-:::: faq What should I do when a individual applying reports they cannot sign and only have the option to Cancel or
+:::: faq What should I do when an individual applying reports they cannot sign and only have the option to Cancel or
 Refresh?
 This usually happens when the job has [**no vacancies**](about-picmi/applications.md#restrictions-on-actions). You can
 see this as a business user or as an individual applying.
@@ -271,6 +271,14 @@ One of the two of you does not have the latest version and to ensure you have th
 You should not change the status of the application to refresh your view.
 :::
 ::::
+
+::: faq Why is the jobseeker being asked to complete the application again?
+Applications in PICMI are organisation-specific. A jobseeker’s previous application, answers, or accepted contracts from another organisation are not carried over.
+
+If a jobseeker applies to your organisation—even if they have worked with you under a different entity or previously completed an application elsewhere—they will go through the application process again. This is expected system behaviour and ensures each application is handled independently.
+
+Within your organisation, if the jobseeker submits subsequent applications or an application is reissued, their answers will persist and be available without needing to be re-entered.
+:::
 
 ::: faq What should I do if a person reports 'This contract still needs information from your application'?
 One of the fields in the contract cannot be completed. The jobseeker will see a RED area where it is broken. However, as

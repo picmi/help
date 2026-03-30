@@ -32,6 +32,14 @@ If you use the same browser as last time, you will remain signed in until you si
 You may need to take [clearer photos](article/adding-a-photo.md#guidelines-for-taking-photos-of-photo-ids-with-your-phone) or [just crop them differently](article/adding-a-photo.md#crop-your-photo).
 :::
 
+::: faq Why do I have to fill out my application again for a new employer?
+Each application is specific to the organisation you are applying to. Even if you have previously completed an application or accepted a contract with another employer, that information is not shared across organisations.
+
+This means you will need to complete the application answers again, including answering questions and reviewing any contracts, when applying for a new job with a different organisation.
+
+However, within the same organisation, if there are subsequent applications or an application is reissued, your previously provided answers will be retained and available.
+:::
+
 ## Platform Usage
 
 ::: faq How do I sign up for PICMI?
