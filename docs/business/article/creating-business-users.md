@@ -26,6 +26,47 @@ All users have the same access and get notified on an accepted application
 :::
 ::::
 
+::: explanation
+
+## Suggested onboarding topics (depending on role)
+
+### [Getting Started](../about-picmi/getting-started) / Core Concepts
+- Understanding how jobs, workflows, and contract templates link together
+- Creating a job
+- Inviting job seekers (URL, QR code, or direct invite)
+- Validating job setup and configuration
+
+### Jobseeker Experience
+- Viewing the platform from the jobseeker’s perspective (preview workflows)
+- Understanding how job seekers move through the application and signing process
+- Seeing how job seekers complete onboarding
+
+### Managing Applications
+- Tracking job seekers
+- Managing application statuses
+- Adding status messages
+- Using filters, views, and exports on the People page
+
+### Workflows & Contracts
+- Previewing and editing workflows (questions, pages, personal information)
+- Understanding how workflows impact integrations
+- Managing contract templates (and how changes can affect completion)
+
+### Notifications & Day-to-Day Use
+- Understanding how notifications work
+- Monitoring progress and activity
+
+### Integrations & Payroll (if relevant)
+- Understanding integrations and data flow
+- Exporting data and payroll setup
+
+### Help Centre Resources
+- [FAQs](../faqs)
+- Getting Started for understanding more about concepts
+- Guides to features (Jobs, Applications, Contract Templates, Workflows)
+
+:::
+
 :::: instructions
 ## Remove a business user
 
