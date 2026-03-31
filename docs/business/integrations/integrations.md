@@ -4,6 +4,10 @@ Integrations enable PICMI to automatically send employee records to various exte
 entry and ensuring consistency across all platforms. This helps keep employee information current for payroll, tax, and
 compliance purposes.
 
+::: prompt
+[Employer KiwiSaver Subsidy Rates](../guide/kiwisaver-subsidy-rates) were changed as at 1 April 2026
+:::
+
 ## Overview
 
 PICMI’s core purpose is to get people from job application to a signed employment contract as quickly as possible by
@@ -146,7 +150,7 @@ your account to authorise your connection
 
 ## Troubleshooting
 
-If you notice any discrepancies between PICMI and an an integration:
+If you notice any discrepancies between PICMI and an integration:
 
 - **Check Events**: Review
   the [data transfer events](integration-events#show-events-detailed-view-result-of-attempt-to-send-data) in PICMI to

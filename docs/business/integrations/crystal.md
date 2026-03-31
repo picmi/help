@@ -2,11 +2,11 @@
 
 ## Crystal: Integration configuration
 
-| Configuration                                                                                                                      | Description                                                                                         | Values                                                        |
-|------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [Employer Subsidy Contribution Tax Rate](#cfg-employer-subsidy-contribution-tax-rate){#cfg-employer-subsidy-contribution-tax-rate} | Tax rate that will be deducted from Superannuation Employer Contribution, expressed as a percentage | Crystal/NZ tax rates lookup                                   |
-| [Employer Subsidy Rate](#cfg-employer-subsidy-rate){#cfg-employer-subsidy-rate}                                                    | Subsidy rate that will be provided by employers, expressed as a percentage                          | Employer subsidy rates                                        |
-| [Email payslips](#cfg-email-pay-slips-crystal){#cfg-email-pay-slips-crystal}                                                       | Set email payslips to 'Y' or 'N'                                                                    | Send email payslips via email; Do NOT send payslips via email |
+| Configuration                                                                                                                      | Description                                                                                         | Values                                                                                |
+|------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [Employer Subsidy Contribution Tax Rate](#cfg-employer-subsidy-contribution-tax-rate){#cfg-employer-subsidy-contribution-tax-rate} | Tax rate that will be deducted from Superannuation Employer Contribution, expressed as a percentage | Crystal/NZ tax rates lookup  (see [here](../guide/kiwisaver-subsidy-rates) from more) |
+| [Employer Subsidy Rate](#cfg-employer-subsidy-rate){#cfg-employer-subsidy-rate}                                                    | Subsidy rate that will be provided by employers, expressed as a percentage                          | Employer subsidy rates                                                                |
+| [Email payslips](#cfg-email-pay-slips-crystal){#cfg-email-pay-slips-crystal}                                                       | Set email payslips to 'Y' or 'N'                                                                    | Send email payslips via email; Do NOT send payslips via email                         |
 
 ## PICMI-Crystal integration fields
 

@@ -120,6 +120,10 @@ export function sidebarBusiness() {
                     text: 'Bank Account Numbers (NZ)',
                     link: '/business/guide/bank-account'
                 },
+               {
+                    text: 'Employer KiwiSaver Subsidy Rates (Effective 1 April 2026)',
+                    link: '/business/guide/kiwisaver-subsidy-rates'
+                },
             ]
         },
         {
