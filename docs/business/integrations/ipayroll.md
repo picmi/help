@@ -5,18 +5,21 @@ iPayroll does not accept non-NZ addresses
 :::
 
 ::: prompt
-PICMI currently only supports one iPayroll integration for a single organisation. Contact us if you need to set up multiple.
+PICMI currently only supports one iPayroll integration for a single organisation. Contact us if you need to set up
+multiple.
 :::
+
 ## Integration configuration
 
-| Configuration                                       | Description                              | Values                                                          |
-|-----------------------------------------------------|------------------------------------------|-----------------------------------------------------------------|
-| [Token](#cfg-token){#cfg-token}                     | Token provided for authentication        | [Retrieve the API key](#retrieving-a-token) by application user |
-| [Employer Subsidy](#cfg-subsidy){#cfg-subsidy}      | Employer subsidy contribution tax (ESCT) | 10.5%, 17.5%, 30%, 33%, 39%                                     |
-| [Payment Method](#cfg-payment){#cfg-payment}        | Payment method                           | Bank, Cheque, Cash                                              |
-| [Payment Frequency](#cfg-frequency){#cfg-frequency} | Payment frequency                        | Weekly, Fortnightly, Monthly                                    |
-| [Cost Centre](#cfg-cost){#cfg-cost}                 | Cost Center                              | Populated from iPayroll for your organisation                   |
-| [User Defined Group](#cfg-user){#cfg-user}          | User Defined groups                      | Populated from iPayroll for your organisation                   |
+| Configuration                                                                                          | Description                              | Values                                                                |
+|--------------------------------------------------------------------------------------------------------|------------------------------------------|-----------------------------------------------------------------------|
+| [Token](#cfg-token){#cfg-token}                                                                        | Token provided for authentication        | [Retrieve the API key](#retrieving-a-token) by application user       |
+| [Employer Subsidy Contribution Tax Rate](#cfg-subsidy-contribution-tax){#cfg-subsidy-contribution-tax} | Employer subsidy contribution tax (ESCT) | 10.5%, 17.5%, 30%, 33%, 39%                                           |
+| [Employer Subsidy Rate](#cfg-subsidy){#cfg-subsidy}                                                    | Employer subsidy                         | 0, 3.0, 3.5  (see [here](../guide/kiwisaver-subsidy-rates) from more) |
+| [Payment Method](#cfg-payment){#cfg-payment}                                                           | Payment method                           | Bank, Cheque, Cash                                                    |
+| [Payment Frequency](#cfg-frequency){#cfg-frequency}                                                    | Payment frequency                        | Weekly, Fortnightly, Monthly                                          |
+| [Cost Centre](#cfg-cost){#cfg-cost}                                                                    | Cost Center                              | Populated from iPayroll for your organisation                         |
+| [User Defined Group](#cfg-user){#cfg-user}                                                             | User Defined groups                      | Populated from iPayroll for your organisation                         |
 
 ## PICMI-iPayroll integration fields
 
@@ -61,6 +64,7 @@ PICMI integrates with iPayroll via a separate user in your organisation that has
 role [API User](https://support.ipayroll.co.nz/portal/en/kb/articles/user-access-api-user#API_User).
 
 :::: instructions
+
 ## Retrieving a token
 
 iPayroll uses an oAuth process to issue a token which requires you to have a separate user with the API user access that
@@ -84,6 +88,7 @@ Updating a token in PICMI is currently not self-service and requires help from P
 ::::
 
 :::: explanation
+
 ## FAQs
 
 <button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
@@ -123,7 +128,7 @@ iPayroll requires a NZ address—reissue the contract
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-::::
+  ::::
 
 <script setup lang="ts">import {ref} from 'vue';
 

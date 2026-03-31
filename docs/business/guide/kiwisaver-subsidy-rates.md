@@ -35,6 +35,7 @@ If either condition is not met, the system will **default back to 3.5%**
 
 | Name                                                                        | Type |
 |-----------------------------------------------------------------------------|------|
+| [iPayroll](../integrations/ipayroll)                                        | API  |
 | [Xero PayrollNZ](../integrations/xero#payroll-nz-integration-configuration) | API  |
 | [Agrismart](../integrations/agrismart)                                      | CSV  |
 | [Crystal](../integrations/crystal)                                          | CSV  |
@@ -89,6 +90,7 @@ These rules ensure compliance with:
 - The expectation that **3.5% is the standard contribution**
 
 ::: explanation
+
 ## Common Scenarios
 
 ### Scenario 1: Employee at 3%, business allows 3%
