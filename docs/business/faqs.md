@@ -473,6 +473,10 @@ You should [confirm that the access details](article/provisional-user.md#view-pr
 Other than access details and no emails sent until the person enters a deliverable email address on their profile, they are identical to a normal user. 
 :::
 
+::: faq A jobseeker/worker wants their employment agreement (contract) sent to them by email
+It is is not recommended that an employer downloads the employment agreement (contract) from PICMI and then emails to the person. Instead, the employer should get the person to download the employment agreement (contract) from PICMI by following the instructions in [How do I get access to my employment agreement (contract) and job details](../jobseeker/faqs.md#how-do-i-get-access-to-my-employment-agreement-contract-and-job-details) FAQ.
+:::
+
 ## Notifications
 
 ::: faq Why am I receiving multiple notifications saying there are no vacancies?
