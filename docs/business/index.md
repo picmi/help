@@ -1,5 +1,7 @@
 ## [FAQs](faqs)
 
+- [How to write emails that help you faster](../how-write-emails)
+
 ## About PICMI
 
 - [Getting Started](about-picmi/getting-started)

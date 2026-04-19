@@ -16,14 +16,14 @@ Always check out our [FAQs](business/faqs.md) first.
 
 Before sending your email, make sure you’ve included:
 
-☐ What you were trying to do
-☐ What went wrong (expected vs actual result)
-☐ Any error messages or screenshots
-☐ Steps to reproduce the issue (if relevant)
-☐ Any recent changes that might affect it
-☐ Urgency level (optional but helpful)
-☐ Organisation / job / person details (if applicable)
-☐ Be specific in the subject line (review this after you've written the email!)
+- What you were trying to do
+- What went wrong (expected vs actual result)
+- Any error messages or screenshots
+- Steps to reproduce the issue (if relevant)
+- Any recent changes that might affect it
+- Urgency level (optional but helpful)
+- Organisation / job / person details (if applicable)
+- Be specific in the subject line (review this after you've written the email!)
 :::
 
 ## 1. Tell us what you’re trying to do

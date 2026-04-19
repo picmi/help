@@ -273,11 +273,15 @@ You should not change the status of the application to refresh your view.
 ::::
 
 ::: faq Why is the jobseeker being asked to complete the application again?
-Applications in PICMI are organisation-specific. A jobseeker’s previous application, answers, or accepted contracts from another organisation are not carried over.
+Applications in PICMI are organisation-specific. A jobseeker’s previous application, answers, or accepted contracts from
+another organisation are not carried over.
 
-If a jobseeker applies to your organisation—even if they have worked with you under a different entity or previously completed an application elsewhere—they will go through the application process again. This is expected system behaviour and ensures each application is handled independently.
+If a jobseeker applies to your organisation—even if they have worked with you under a different entity or previously
+completed an application elsewhere—they will go through the application process again. This is expected system behaviour
+and ensures each application is handled independently.
 
-Within your organisation, if the jobseeker submits subsequent applications or an application is reissued, their answers will persist and be available without needing to be re-entered.
+Within your organisation, if the jobseeker submits subsequent applications or an application is reissued, their answers
+will persist and be available without needing to be re-entered.
 :::
 
 ::: faq What should I do if a person reports 'This contract still needs information from your application'?
@@ -317,7 +321,8 @@ staff member will need to accept it again for the updated rate to take effect.
 :::
 ::::
 
-:::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are available and wish to work. Should I reissue their contract or reopen it?
+:::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are
+available and wish to work. Should I reissue their contract or reopen it?
 If you want to maintain the original contract then **reopen** back to accepted (and add a status message of the reason).
 If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
 message.
@@ -326,10 +331,11 @@ message.
 
 * [How to change a status](article/changing-application-status)
 * [What changes can be made?](about-picmi/applications#business-actions)
-:::
-::::
+  :::
+  ::::
 
-:::: faq I have accepted an applicant but now realise they aren’t suitable. How can I stop them from working or reapplying?
+:::: faq I have accepted an applicant but now realise they aren’t suitable. How can I stop them from working or
+reapplying?
 If you need to prevent an applicant from continuing or reapplying, you have two options:
 
 * **Terminate** the application – use this when the applicant is not suitable.
@@ -345,29 +351,34 @@ applicant, as well as stored against the application for later reference.
 * [How to change a status](article/changing-application-status)
 * [What changes can be made?](about-picmi/applications#business-actions)
 * [What is a status message?](article/status-message)
-:::
-::::
+  :::
+  ::::
 
 :::: faq I have accepted an applicant on a job but now realise they need to be on another job?
-Applications cannot be **transferred** from one job to another. If the person should be working on a different job, you will need to cancel the current application and invite them again to the correct job.
+Applications cannot be **transferred** from one job to another. If the person should be working on a different job, you
+will need to cancel the current application and invite them again to the correct job.
 
 Steps
-1.	**Cancel** the current application and **include a status message** explaining the situation.
-For example:
-    > You have been accepted on the incorrect job. We are cancelling this application and will send you a new invite.
-2.	**Invite** the person to the correct job. You may also want to **add a status message**.
-    > Your previously entered information will still be available — please review, complete, and accept the new application.
+
+1. **Cancel** the current application and **include a status message** explaining the situation.
+   For example:
+   > You have been accepted on the incorrect job. We are cancelling this application and will send you a new invite.
+2. **Invite** the person to the correct job. You may also want to **add a status message**.
+   > Your previously entered information will still be available — please review, complete, and accept the new
+   application.
 
 When they open the new application, previously entered information will already be available for review.
 
 ::: prompt
+
 * [How to change a status](article/changing-application-status)
 * [What changes can be made?](about-picmi/applications#business-actions)
 * [What is a status message?](article/status-message)
-:::
+  :::
 
 ::: explanation
-**Note:** If this happened due to a genuine mistake, you can contact PICMI support to request either a credit or that the cancelled application is not charged.
+**Note:** If this happened due to a genuine mistake, you can contact PICMI support to request either a credit or that
+the cancelled application is not charged.
 :::
 
 ::::
@@ -466,15 +477,22 @@ in [email not found](../email-not-found.md)
 :::
 
 ::: faq Can I Reissue for a provisional user?
-Yes, you can Reissue for a provisional user. You will need to be in contact with them and perhaps [provide access](article/provisional-user.md#type-of-access).
+Yes, you can Reissue for a provisional user. You will need to be in contact with them and
+perhaps [provide access](article/provisional-user.md#type-of-access).
 
-You should [confirm that the access details](article/provisional-user.md#view-provisional-user-details) are not expired. [Update existing provision user](article/provisional-user.md#update-existing-provisional-user) if needed.
+You should [confirm that the access details](article/provisional-user.md#view-provisional-user-details) are not
+expired. [Update existing provision user](article/provisional-user.md#update-existing-provisional-user) if needed.
 
-Other than access details and no emails sent until the person enters a deliverable email address on their profile, they are identical to a normal user. 
+Other than access details and no emails sent until the person enters a deliverable email address on their profile, they
+are identical to a normal user.
 :::
 
 ::: faq A jobseeker/worker wants their employment agreement (contract) sent to them by email
-It is is not recommended that an employer downloads the employment agreement (contract) from PICMI and then emails to the person. Instead, the employer should get the person to download the employment agreement (contract) from PICMI by following the instructions in [How do I get access to my employment agreement (contract) and job details](../jobseeker/faqs.md#how-do-i-get-access-to-my-employment-agreement-contract-and-job-details) FAQ.
+It is is not recommended that an employer downloads the employment agreement (contract) from PICMI and then emails to
+the person. Instead, the employer should get the person to download the employment agreement (contract) from PICMI by
+following the instructions
+in [How do I get access to my employment agreement (contract) and job details](../jobseeker/faqs.md#how-do-i-get-access-to-my-employment-agreement-contract-and-job-details)
+FAQ.
 :::
 
 ## Notifications
@@ -533,7 +551,8 @@ issuing a new one, or by using overrides to amend the existing contract.
 If you're unsure which actions are available at different application stages, refer
 to [Applications](about-picmi/applications.md).
 
-You can also review [Changing a person’s role](guide/jobs/changing-a-role.md) for detailed guidance on when to create a new
+You can also review [Changing a person’s role](guide/jobs/changing-a-role.md) for detailed guidance on when to create a
+new
 job, workflow, or contract.
 
 If you need further help, please provide:
@@ -831,11 +850,15 @@ To diagnose this:
   to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> for support
 
 ::: prompt
-On any
-integration, [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) can
-be done multiple times without causing problems.
+On any integration, [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) can be done multiple times without causing problems.
 :::
 ::::
+
+## Contacting us
+
+::: faq How can I write emails to get help fast?
+Use this guide to [write emails to get help fast](../how-write-emails.md).
+:::
 
 <script setup lang="ts">import {ref} from 'vue';
 
