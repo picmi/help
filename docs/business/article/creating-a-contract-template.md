@@ -1,8 +1,8 @@
 # Creating a contract template
 
-In PICMI, **contracts** are generated from contract templates, which act as reusable blueprints for employment agreements. These templates contain field substitutions (chips) that dynamically pull in details from the organisation, job, workflow answers, and personal overrides.
+In PICMI, **contracts** are generated from **contract templates**, which act as reusable blueprints for employment agreements. These templates contain **field substitutions** that dynamically pull in details from the organisation, job, workflow answers, and personal overrides.
 
-When a person completes the application process, a resulting contract is created. This contract is personalised with the specific details for that job and individual, replacing the placeholders from the template with actual data. Once signed, it becomes a legally binding agreement.
+When a person completes the application process, a resulting contract is created. This contract is personalised with the specific details for that job and individual, replacing the placeholders from the template with actual data. Once signed, it becomes a legally binding agreement. Note that at the same time, all the details from the workflow are also stored which can be thought of as schedule or appendices to the contract. 
 
 Since templates are designed for consistency, any changes to a contract must be made in a way that ensures the correct details appear for the right roles. The following steps will guide you through creating and updating contracts effectively.
 

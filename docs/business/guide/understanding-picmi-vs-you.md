@@ -17,17 +17,18 @@ This guide explains PICMI terms and the correct action to take.
 
 Use this table to translate common workplace language into PICMI concepts.
 
-| **What you might mean**    | **Words often used**                              | **PICMI term**                     | **What it means in PICMI**                                                                                  | **Example**                 |
-|----------------------------|---------------------------------------------------|------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------|
-| Type of work someone does  | Role, Position, Contract                          | **Job**                            | A defined job type in PICMI with its own defaults (conditions) including workflow with contract template    | Packer, Packer              |
-| A person's record/profile  | Employee record, Staff profile, Worker, Jobseeker | **Person** or **Worker**           | The person's profile in PICMI; can have multiple applications over time                                     | Maria Smith                 |
-| Starting someone in a job  | Hire, Onboard, Sign up                            | **Application (accepted)**         | The worker accepts a specific job; this creates the active employment arrangement for that job              | Maria accepts Packer        |
-| The legal paperwork        | Contract, Agreement, Employment Agreement         | **Contract**                       | The legal agreement document generated from an accepted application                                         | Casual employment agreement |
-| Moving to different work   | Role change, New role                             | **New job → New application**      | If the job changes, PICMI treats it as a new employment arrangement                                         | Picker → Packer             |
-| Default pay for the work   | Rate for the role                                 | **Job's Pay Rate**                 | Default pay/terms for anyone doing that job                                                                 | Packers $24/hr              |
-| Special pay for one person | Different rate                                    | **Personal conditions → Pay Rate** | Overrides job defaults for a specific person's application                                                  | Sarah $26/hr on same job    |
-| Changing terms (same work) | Update contract, change rates, update pay         | **Reissue application**            | Regenerate the contract (employment agreement) for the same job/application after changing conditions/dates | Pay rise, date update       |
-| Work period                | Contract dates                                    | **Application dates**              | Start/end dates attached to the application (either via job or personal overrides)                          | 1 Mar – 30 Jun              |
+| **What you might mean**                | **Words often used**                              | **PICMI term**                     | **What it means in PICMI**                                                                                  | **Example**                 |
+|----------------------------------------|---------------------------------------------------|------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------|
+| Type of work someone does              | Role, Position, Contract                          | **Job**                            | A defined job type in PICMI with its own defaults (conditions) including workflow with contract template    | Packer, Packer              |
+| A person's record/profile              | Employee record, Staff profile, Worker, Jobseeker | **Person** or **Worker**           | The person's profile in PICMI; can have multiple applications over time                                     | Maria Smith                 |
+| Starting someone in a job              | Hire, Onboard, Sign up                            | **Application (accepted)**         | The worker accepts a specific job; this creates the active employment arrangement for that job              | Maria accepts Packer        |
+| The legal paperwork                    | Contract, Agreement, Employment Agreement         | **Contract**                       | The legal agreement document **generated** from an accepted application                                     | Casual employment agreement |
+| The contract blueprint to be completed | Contract, Agreement, Employment Agreement         | **Contract Template**              | The legal agreement document **before it is completed** with the individual details (substitution fields)   | Casual employment agreement |
+| Moving to different work               | Role change, New role                             | **New job → New application**      | If the job changes, PICMI treats it as a new employment arrangement                                         | Picker → Packer             |
+| Default pay for the work               | Rate for the role                                 | **Job's Pay Rate**                 | Default pay/terms for anyone doing that job                                                                 | Packers $24/hr              |
+| Special pay for one person             | Different rate                                    | **Personal conditions → Pay Rate** | Overrides job defaults for a specific person's application                                                  | Sarah $26/hr on same job    |
+| Changing terms (same work)             | Update contract, change rates, update pay         | **Reissue application**            | Regenerate the contract (employment agreement) for the same job/application after changing conditions/dates | Pay rise, date update       |
+| Work period                            | Contract dates                                    | **Application dates**              | Start/end dates attached to the application (either via job or personal overrides)                          | 1 Mar – 30 Jun              |
 
 ## How PICMI Organises Employment
 
@@ -200,160 +201,9 @@ Create a **new job with the new date range**, then invite the worker to that job
 
 ![New Application vs Reissue](../../img/naming.png)
 
-## FAQs
+::: explanation
 
-<button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
+## General troubleshooting
 
-::: faq If someone changes roles, what does PICMI need to know?
-Whether it's a **different job** (new application) or the **same job** with different pay or conditions (reissue
-agreement).
-:::
-
-::: faq Why does a new job require a new application?
-Because PICMI treats each **job as a separate employment arrangement**.  
-When a worker accepts a job, PICMI generates an **employment agreement** based on that job's conditions.  
-If the job changes, a **new application and new agreement** are required.
-:::
-
-::: faq What does contrac mean in PICMI?
-In everyday language, people often say **"contract"** when they mean the type of work or arrangement.
-
-In **PICMI**, a **contract** specifically refers to the **employment agreement document** generated when a worker
-accepts an application.
-
-So:
-
-| Everyday Meaning           | PICMI Meaning                            |
-|----------------------------|------------------------------------------|
-| Contract = job arrangement | Contract = employment agreement document |
-
-:::
-
-::: faq Can anyone have multiple applications?
-Yes.
-
-A **person can have multiple applications over time**, each linked to a specific job and employment agreement.
-
-Example:
-
-| Worker | Job    | Dates   |
-|--------|--------|---------|
-| Maria  | Picker | Jan–Feb |
-| Maria  | Packer | Feb–Apr |
-| Maria  | Grader | May–Jun |
-
-:::
-
-::: faq What if someone just gets a pay rise?
-If the worker is still doing the **same job**, you usually **do not need a new application**.
-
-Instead:
-
-1. Update the **job conditions** (for everyone), or **personal conditions** (for one worker).
-2. **Reissue the employment agreement**.
-
-### What if someone moves teams but does the same job?
-
-If the **job itself hasn't changed**, you can normally **reissue the agreement** rather than creating a new application
-
-### What if different workers doing the same job are paid differently?
-
-Use **personal conditions** to override the **job conditions** for a specific worker.
-
-Example:
-
-| Worker | Job    | Pay    |
-|--------|--------|--------|
-| John   | Packer | $24 hr |
-| Sarah  | Packer | $26 hr |
-
-The job rate stays **$24/hr**, but Sarah's **personal conditions override it**.
-:::
-
-::: faq How do I decide whether to create a new application or reissue the agreement?
-
-| Situation                                | What to do                                  |
-|------------------------------------------|---------------------------------------------|
-| Worker changes to a different job        | Create a **new application**                |
-| Worker stays in same job but pay changes | **Update conditions and reissue agreement** |
-| Pay changes for everyone doing that job  | **Update job conditions**                   |
-| Pay changes for one worker only          | **Update personal conditions**              |
-
-:::
-
-::: faq What if I'm unsure whether to create new application or reissue?
-If you're unsure which process to follow, contact **PICMI support** with:
-
-- Person's name
-- Current job
-- What you want to change
-- Whether the change affects **one person or the whole job**
-
-We can guide you on the correct process.
-:::
-
-::: faq Why can't I invite a worker back to the same job?
-Because their **application to that job is already complete**.  
-PICMI prevents duplicate applications for the same job.
-
-Instead, create a **new job for the new date range**.
-:::
-
-::: faq The role is the same. Why do I need a new job?
-Even if the **activity is the same**, PICMI tracks employment by **job period**.
-
-Each season or date range is treated as a **separate job** so agreements and reporting remain accurate.
-:::
-
-::: faq What is the easiest way to create the new job?
-Use the **Duplicate Job** feature.
-
-This copies:
-
-- job conditions
-- agreement templates
-- settings
-
-You only need to update the **dates and job name**.
-:::
-
-::: faq Do I need new agreements for returning workers?
-Yes.
-
-When a worker accepts a **new job application**, PICMI generates a **new employment agreement** for that work period.
-:::
-
-::: faq Should I include dates in job names?
-Yes, this is recommended.
-
-Adding dates or seasons helps distinguish jobs and avoid confusion.
-
-Example:
-
-- Packer – 2024 Season
-- Packer – 2025 Season
+- [Changing Jobs, Roles, Contracts, and Applications FAQs](../faqs#changing-jobs-roles-contracts-and-applications)
   :::
-
-::: faq Can a worker have multiple applications?
-Yes.
-
-Workers commonly have **multiple applications over time**, especially for seasonal work.
-
-Example:
-
-| Worker | Job           | Dates   |
-|--------|---------------|---------|
-| John   | Packer – 2024 | Jan–Mar |
-| John   | Packer – 2025 | Jan–Mar |
-
-Each application represents a **separate employment period**.
-:::
-
-<script setup lang="ts">import {ref} from 'vue';
-
-const expandAll = ref(false);
-
-const toggleExpandAll = () => {
-expandAll.value = !expandAll.value;
-}
-</script>

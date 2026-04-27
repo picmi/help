@@ -576,6 +576,153 @@ Update the **end date** of the job to a date prior to today.
 See [update job dates](./article/job-status.md#update-job-dates) in job status
 :::
 
+## Changing Jobs, Roles, Contracts, and Applications
+
+::: faq If someone changes roles, what does PICMI need to know?
+Whether it's a **different job** (new application) or the **same job** with different pay or conditions (reissue
+agreement).
+:::
+
+::: faq Why does a new job require a new application?
+Because PICMI treats each **job as a separate employment arrangement**.  
+When a worker accepts a job, PICMI generates an **employment agreement** based on that job's conditions.  
+If the job changes, a **new application and new agreement** are required.
+:::
+
+::: faq What does contrac mean in PICMI?
+In everyday language, people often say **"contract"** when they mean the type of work or arrangement.
+
+In **PICMI**, a **contract** specifically refers to the **employment agreement document** generated when a worker
+accepts an application.
+
+So:
+
+| Everyday Meaning           | PICMI Meaning                            |
+|----------------------------|------------------------------------------|
+| Contract = job arrangement | Contract = employment agreement document |
+
+:::
+
+::: faq Can anyone have multiple applications?
+Yes.
+
+A **person can have multiple applications over time**, each linked to a specific job and employment agreement.
+
+Example:
+
+| Worker | Job    | Dates   |
+|--------|--------|---------|
+| Maria  | Picker | Jan–Feb |
+| Maria  | Packer | Feb–Apr |
+| Maria  | Grader | May–Jun |
+
+:::
+
+::: faq What if someone just gets a pay rise?
+If the worker is still doing the **same job**, you usually **do not need a new application**.
+
+Instead:
+
+1. Update the **job conditions** (for everyone), or **personal conditions** (for one worker).
+2. **Reissue the employment agreement**.
+
+### What if someone moves teams but does the same job?
+
+If the **job itself hasn't changed**, you can normally **reissue the agreement** rather than creating a new application
+
+### What if different workers doing the same job are paid differently?
+
+Use **personal conditions** to override the **job conditions** for a specific worker.
+
+Example:
+
+| Worker | Job    | Pay    |
+|--------|--------|--------|
+| John   | Packer | $24 hr |
+| Sarah  | Packer | $26 hr |
+
+The job rate stays **$24/hr**, but Sarah's **personal conditions override it**.
+:::
+
+::: faq How do I decide whether to create a new application or reissue the agreement?
+
+| Situation                                | What to do                                  |
+|------------------------------------------|---------------------------------------------|
+| Worker changes to a different job        | Create a **new application**                |
+| Worker stays in same job but pay changes | **Update conditions and reissue agreement** |
+| Pay changes for everyone doing that job  | **Update job conditions**                   |
+| Pay changes for one worker only          | **Update personal conditions**              |
+
+:::
+
+::: faq What if I'm unsure whether to create new application or reissue?
+If you're unsure which process to follow, contact **PICMI support** with:
+
+- Person's name
+- Current job
+- What you want to change
+- Whether the change affects **one person or the whole job**
+
+We can guide you on the correct process.
+:::
+
+::: faq Why can't I invite a worker back to the same job?
+Because their **application to that job is already complete**.  
+PICMI prevents duplicate applications for the same job.
+
+Instead, create a **new job for the new date range**.
+:::
+
+::: faq The role is the same. Why do I need a new job?
+Even if the **activity is the same**, PICMI tracks employment by **job period**.
+
+Each season or date range is treated as a **separate job** so agreements and reporting remain accurate.
+:::
+
+::: faq What is the easiest way to create the new job?
+Use the **Duplicate Job** feature.
+
+This copies:
+
+- job conditions
+- agreement templates
+- settings
+
+You only need to update the **dates and job name**.
+:::
+
+::: faq Do I need new agreements for returning workers?
+Yes.
+
+When a worker accepts a **new job application**, PICMI generates a **new employment agreement** for that work period.
+:::
+
+::: faq Should I include dates in job names?
+Yes, this is recommended.
+
+Adding dates or seasons helps distinguish jobs and avoid confusion.
+
+Example:
+
+- Packer – 2024 Season
+- Packer – 2025 Season
+  :::
+
+::: faq Can a worker have multiple applications?
+Yes.
+
+Workers commonly have **multiple applications over time**, especially for seasonal work.
+
+Example:
+
+| Worker | Job           | Dates   |
+|--------|---------------|---------|
+| John   | Packer – 2024 | Jan–Mar |
+| John   | Packer – 2025 | Jan–Mar |
+
+Each application represents a **separate employment period**.
+:::
+
 ## Integrations
 
 ::: faq How can I setup a new integration?
