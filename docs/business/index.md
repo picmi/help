@@ -44,6 +44,10 @@
 ## Contract Templates
 
 - [Create](article/creating-a-contract-template.md)
+- [Search](article/search-contract-templates.md)
+- [Preview/edit](article/preview-and-edit-a-contract-template.md)
+- [Insert fields](article/insert-fields-in-a-contract-template.md)
+- [Navigate inserted](article/navigate-inserted-fields-in-a-contract-template.md)
 - [Duplicate](article/duplicate-a-contract-template.md)
 - [Print](article/print-a-contract-template.md)
 
@@ -67,3 +71,4 @@
 * [Finding emails](../email-not-found)
 * [Jobseeker Error: Business user cannot apply for a job](article/business-user-cannot-apply-for-job.md)
 * [Understanding search filters](article/search.md)
+* [Customise columns](article/customise-columns.md)

@@ -1,9 +1,9 @@
-# Duplicate a Contract Template
+# Duplicate a Contract Template (by copy and paste)
 
-An existing contract template can be duplicated to make a copy. It will contain all the details of the previous contract template. The default change is to change the name of the contract template. 
+An existing contract template can be copy-and-pasted to make a duplicate. It will contain all the details of the previous contract template. The default change is to change the name of the contract template. 
 
 ::: prompt
-Duplicating a contract is currently limited and requires additional work
+Duplicating a contract may result in some fi
 :::
 
 :::: instructions
@@ -13,7 +13,7 @@ Duplicating a contract is currently limited and requires additional work
 2. Locate the row :::icon checkbox-marked-outline::: with the contract template to duplicate
 3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Preview/edit**
-5. Select all the contract text, right click **Copy**. The existing contract template text should now in the clipboard
+5. Select **all** the contract text, right click **Copy**. The existing contract template text should now in the clipboard
 6. Return back to the contract templates
 7. Click **Create Contract Template**
 8. Enter a name
@@ -21,15 +21,14 @@ Duplicating a contract is currently limited and requires additional work
 10. Right click paste to enter the existing content from the clipboard into the contract
 
 ::: prompt
-The issue is that when you copy and paste from an existing contract, the chips (field placeholders) visually look the same, but they’re still linked to the old contract details. This is why they don’t match properly in the new contract.
+In a copy and paste, if a field (and is a question) and is not currently a question for an organisation, the field will display as an error.
 
-### To fix the validations
+### To fix the error
 
-Update Each Field (Chip):
+1. Use the :::icon chevron-double-down::: button to locate the erroring field
+2. Click :::icon close-circle::: to remove the field from the document
+3. Cycle through all erroring fields
 
-1. Click to the right of each chip.
-2. Delete it using your keyboard.
-3. Find the correct chip in the right-hand panel and reinsert it.
-4. Once all the chips are re-added, the validate/save function will work correctly.
+The :::icon chevron-double-down::: button will no longer be shown when complete.
 :::
 ::::

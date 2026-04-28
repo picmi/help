@@ -2,6 +2,10 @@
 
 In PICMI, tables or lists of data can be filtered based on specific criteria, known as *search filters*. Familiarising yourself with search functions helps locate information quickly, though each area may offer different filter options.
 
+::: prompt
+To change which details are shown in a table without changing the search results, see [Customise columns](customise-columns.md).
+:::
+
 ## A search interaction
 
 Searching has three different types of selection: _text, date and select_

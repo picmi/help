@@ -13,6 +13,7 @@ export function sidebarBusiness() {
                 {
                     text: 'Understanding using PICMI', collapsed: false, items: [
                         { text: 'Search filters', link: '/business/article/search' },
+                        { text: 'Customise columns', link: '/business/article/customise-columns' },
                         { text: 'Dates', link: '/business/about-picmi/dates' },
                     ]
                 },
@@ -218,6 +219,13 @@ export function sidebarBusiness() {
             collapsed: true,
             items: [
                 { text: 'Create', link: '/business/article/creating-a-contract-template' },
+                { text: 'Search', link: '/business/article/search-contract-templates' },
+                { text: 'Preview/edit', link: '/business/article/preview-and-edit-a-contract-template' },
+                { text: 'Insert fields', link: '/business/article/insert-fields-in-a-contract-template' },
+                {
+                    text: 'Navigate inserted',
+                    link: '/business/article/navigate-inserted-fields-in-a-contract-template'
+                },
                 { text: 'Duplicate', link: '/business/article/duplicate-a-contract-template' },
                 { text: 'Print', link: '/business/article/print-a-contract-template' },
             ],
