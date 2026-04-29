@@ -1,6 +1,8 @@
 # Navigate inserted fields in a contract template
 
-Use **Navigate Inserted :::icon crosshairs-gps:::** mode to move through the field substitutions already placed in a contract template. This makes it easier to find each field in the contract without scanning all available chips.
+Use **Navigate Inserted :::icon crosshairs-gps:::** mode to move through the field substitutions already placed in a contract template. This makes it easier to find each field in the contract without scanning all available chips. 
+
+Also see [**Insert Fields :::icon plus-circle-outline:::** mode](insert-fields-in-a-contract-template.md).
 
 ::: prompt
 Use field groups and search text to narrow the field set down

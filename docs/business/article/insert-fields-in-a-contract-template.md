@@ -1,6 +1,8 @@
 # Insert fields in a contract template
 
-Field substitutions are inserted into a contract template using **Insert Fields :::icon plus-circle-outline:::** mode. These fields appear as chips and are replaced with actual job, organisation, workflow, or personal details when a contract is generated.
+Field substitutions are inserted into a contract template using **Insert Fields :::icon plus-circle-outline:::** mode. These fields appear as chips and are replaced with actual job, organisation, workflow, or personal details when a contract is generated. 
+
+Also see [**Navigate Inserted :::icon crosshairs-gps:::** mode](navigate-inserted-fields-in-a-contract-template.md).
 
 ::: prompt
 Use field groups and search text to narrow the field set down
