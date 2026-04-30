@@ -2,29 +2,9 @@
 
 Field substitutions are inserted into a contract template using **Insert Fields :::icon plus-circle-outline:::** mode. These fields appear as chips and are replaced with actual job, organisation, workflow, or personal details when a contract is generated. 
 
-Also see [**Navigate Inserted :::icon crosshairs-gps:::** mode](navigate-inserted-fields-in-a-contract-template.md).
-
-::: prompt
-Use field groups and search text to narrow the field set down
-:::
-
-:::: explanation
-## Field groups
-
-Available chips are grouped by source, such as:
-
-* **Information (Individual)**: personal details for the person completing the contract
-* **Listing**: details taken from the job or listing
-* **Organisation**: details taken from the organisation
-* **Question**: values collected from workflow questions
-
-Selected chips remain visible in the lists so you can see what has already been used.
-
-## Search text
-
-Type text in the search field to further narrow the field selection
-
-::::
+Also see
+* [Field groups and search text](filter-fields-by-group-label-in-a-contract-template.md)
+* [Navigate Inserted :::icon crosshairs-gps:::](navigate-inserted-fields-in-a-contract-template.md) mode
 
 :::: instructions
 ## Switch to insert mode

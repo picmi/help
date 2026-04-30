@@ -223,6 +223,10 @@ export function sidebarBusiness() {
                 { text: 'Preview/edit', link: '/business/article/preview-and-edit-a-contract-template' },
                 { text: 'Insert fields', link: '/business/article/insert-fields-in-a-contract-template' },
                 {
+                    text: 'Field chip filters',
+                    link: '/business/article/filter-fields-by-group-label-in-a-contract-template'
+                },
+                {
                     text: 'Navigate inserted',
                     link: '/business/article/navigate-inserted-fields-in-a-contract-template'
                 },

@@ -47,6 +47,7 @@
 - [Search](article/search-contract-templates.md)
 - [Preview/edit](article/preview-and-edit-a-contract-template.md)
 - [Insert fields](article/insert-fields-in-a-contract-template.md)
+- [Field chip filters](article/filter-fields-by-group-label-in-a-contract-template.md)
 - [Navigate inserted](article/navigate-inserted-fields-in-a-contract-template.md)
 - [Duplicate](article/duplicate-a-contract-template.md)
 - [Print](article/print-a-contract-template.md)
