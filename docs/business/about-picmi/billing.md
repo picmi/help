@@ -94,13 +94,13 @@ If you have questions or special circumstances, please see [billing support](#bi
 
 ## Handling mistaken application invitations
 
-If you’ve sent an application to the wrong person, don’t worry—mistakes happen, especially when managing multiple hires or working under pressure. Here’s how to resolve it
+If you’ve sent an application to the wrong person (or the wrong application to someone), don’t worry—mistakes happen, especially when managing multiple hires or working under pressure. Here’s how to resolve it
 
 :::: explanation
 ### Resolving mistaken applications
-1. **Identify the mistake** and cancel the incorrect application in PICMI and add a status message.
-2. **Send a new invite** to the correct person or correct invite to the person.
-3. **Notify PICMI** at **billing@picmi.io** with the details of the mistake.
+1. **Identify the mistake** and Cancel (or Terminate when in accepted) the incorrect application in PICMI and add a status message.
+2. **Send a new invite** to the correct person or correct job invite to the person.
+3. **Notify PICMI** at **billing@picmi.io** with the details of the mistake if the application has been in Accepted.
 ::::
 
 We won’t charge you for the incorrectly issued contract, and this adjustment will be noted on your monthly invoice. Be sure to review your invoice at the end of the month to confirm the correction has been applied.

@@ -818,8 +818,8 @@ External ID and employee information) to our support team so we can investigate 
 
 ## Billing
 
-::: faq What should I do if I mistakenly send an application to the wrong person and they accept it?
-You will need to cancel the application and talk to us.
+::: faq What should I do if I mistakenly send an application to the wrong person (or the wrong application to someone), and they accept it?
+It is recommended that you Terminate the application (and add a status message) and talk to us to ensure you get a credit.
 See [handling mistaken application invitations](about-picmi/billing.md#handling-mistaken-application-invitations)
 :::
 
