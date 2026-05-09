@@ -250,9 +250,9 @@ This happens when the job has '[no vancancies](about-picmi/applications.md#restr
 
 1. Either, increase the number of positions or (probably) cancel the application.
 2. For both, the person should be informed via a status message.
-    * When updating positions, add a status message to explain the change and have the person complete the application
+    * When updating positions, [add a status message](article/status-message.md) to explain the change and have the person complete the application
       process (note: the email will contain a link back into PICMI)
-    * When cancelling, add a status message to explain why.
+    * When cancelling, [add a status message](article/status-message.md) to explain why.
 
 :::prompt
 Once the person has completed the application process, they will be able to proceed to accept, agreed and the
@@ -323,7 +323,7 @@ staff member will need to accept it again for the updated rate to take effect.
 
 :::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are
 available and wish to work. Should I reissue their contract or reopen it?
-If you want to maintain the original contract then **reopen** back to accepted (and add a status message of the reason).
+If you want to maintain the original contract then **reopen** back to accepted (and [add a status message](article/status-message.md) of the reason).
 If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
 message.
 
@@ -363,7 +363,7 @@ Steps
 1. **Cancel** the current application and **include a status message** explaining the situation.
    For example:
    > You have been accepted on the incorrect job. We are cancelling this application and will send you a new invite.
-2. **Invite** the person to the correct job. You may also want to **add a status message**.
+2. **Invite** the person to the correct job. You may also want to [add a status message](article/status-message.md).
    > Your previously entered information will still be available — please review, complete, and accept the new
    application.
 
@@ -488,17 +488,26 @@ are identical to a normal user.
 :::
 
 ::: faq A jobseeker/worker wants their employment agreement (contract) sent to them by email
-It is is not recommended that an employer downloads the employment agreement (contract) from PICMI and then emails to
+It is not recommended that an employer downloads the employment agreement (contract) from PICMI and then emails to
 the person. Instead, the employer should get the person to download the employment agreement (contract) from PICMI by
 following the instructions
 in [How do I get access to my employment agreement (contract) and job details](../jobseeker/faqs.md#how-do-i-get-access-to-my-employment-agreement-contract-and-job-details)
 FAQ.
 :::
 
+:::: faq The person needs a new link, how can I resend an email?
+
+Do **not** cancel and reissue the invite just to send another email, as this will not solve the problem. Instead, [add a status message](article/status-message.md) on the application around the conditions of why you are sending the email. The email itself will be sent with a new link that opens the application.
+
+::: prompt
+A person will only need a new link after 30 days.
+:::
+::::
+
 ## Notifications
 
 ::: faq Why am I receiving multiple notifications saying there are no vacancies?
-PICMI is designed to notify you immediately when a vacancy check is performed, ensuring that you’re kept up-to-date in
+PICMI is designed to notify you immediately when a vacancy check is performed, ensuring that you’re kept up to date in
 real time. However, if multiple checks are performed in quick succession—such as when retries are made—you might receive
 multiple notifications in a short period.
 
@@ -819,7 +828,7 @@ External ID and employee information) to our support team so we can investigate 
 ## Billing
 
 ::: faq What should I do if I mistakenly send an application to the wrong person (or the wrong application to someone), and they accept it?
-It is recommended that you Terminate the application (and add a status message) and talk to us to ensure you get a credit.
+It is recommended that you Terminate the application (and [add a status message](article/status-message.md)) and talk to us to ensure you get a credit.
 See [handling mistaken application invitations](about-picmi/billing.md#handling-mistaken-application-invitations)
 :::
 
