@@ -9,6 +9,7 @@
 - [Group hiring onsite](guide/group-hiring-onsite.md)
 - [Managing different start dates](guide/managing-different-start-dates.md)
 - [People changing roles and requiring new contract](guide/jobs/changing-a-role.md)
+- [Understanding vacancies, capacity types, and invites only](about-picmi/understanding-vacancies.md)
 
 ## Jobs
 

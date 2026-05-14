@@ -9,6 +9,10 @@ export function sidebarBusiness() {
                 { text: 'Understanding users', link: '/business/about-picmi/users' },
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
                 { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },
+                {
+                    text: 'Understanding vacancies, capacity types, and invites only',
+                    link: '/business/about-picmi/understanding-vacancies'
+                },
                 { text: 'Understanding billing', link: '/business/about-picmi/billing' },
                 {
                     text: 'Understanding using PICMI', collapsed: false, items: [
@@ -121,7 +125,7 @@ export function sidebarBusiness() {
                     text: 'Bank Account Numbers (NZ)',
                     link: '/business/guide/bank-account'
                 },
-               {
+                {
                     text: 'Employer KiwiSaver Subsidy Rates (Effective 1 April 2026)',
                     link: '/business/guide/kiwisaver-subsidy-rates'
                 },

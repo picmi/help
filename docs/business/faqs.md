@@ -585,6 +585,162 @@ Update the **end date** of the job to a date prior to today.
 See [update job dates](./article/job-status.md#update-job-dates) in job status
 :::
 
+## Vacancies, capacity types, and invites only
+
+::: faq What happens if the maximum is blank?
+If the maximum is blank, the vacancy is generally treated as unlimited.
+
+This means there is no fixed number of places to fill.
+:::
+
+::: faq What happens if the maximum is zero?
+A maximum of zero means the vacancy is closed or unavailable.
+
+No places are available.
+:::
+
+::: faq What is the difference between capped placements and active workforce?
+The main difference is how completed workers are treated.
+
+| Scenario                          | Capped placements | Active workforce       |
+|-----------------------------------|-------------------|------------------------|
+| Worker is offered                 | Counts            | Counts                 |
+| Worker accepts                    | Counts            | Counts                 |
+| Worker completes                  | Still counts      | Usually does not count |
+| Capacity reopens after completion | No                | Yes                    |
+
+Use capped placements when you care about the total number of placements.
+
+Use active workforce when you care about the number of people currently active.
+:::
+
+::: faq Does an invited person consume a vacancy place?
+Usually, no.
+
+An invitation does not normally consume capacity. It only gives someone access or asks them to apply.
+
+Capacity is usually consumed later, when the person is offered or accepted.
+:::
+
+::: faq Does an in-progress application consume a vacancy place?
+Usually, no.
+
+An in-progress application means the person has started but has not yet been offered or accepted.
+:::
+
+::: faq Does an offer consume a vacancy place?
+Yes.
+
+An offer normally reserves a place so that the organisation does not over-offer beyond the vacancy limit.
+:::
+
+::: faq Does an accepted person consume a vacancy place?
+Yes.
+
+An accepted person has committed to the opportunity and counts against capacity.
+:::
+
+::: faq Does a completed person consume a vacancy place?
+It depends on the capacity type.
+
+For **capped placements**, yes. Completed people count because the quota is based on total placements.
+
+For **active workforce**, usually no. Completed people have finished and no longer occupy current workforce capacity.
+:::
+
+::: faq Can I change the maximum later?
+Yes, but the maximum generally cannot be reduced below the number of places already committed.
+
+For example, if there are already 8 counted applications, you should not reduce the maximum to 5, because that would
+create more committed people than available places.
+:::
+
+::: faq Can I increase the maximum later?
+Yes.
+
+Increasing the maximum can reopen availability.
+
+Example:
+
+```
+Current maximum: 10
+Counted applications: 10
+Remaining: 0
+```
+
+If you increase the maximum to 15:
+
+```
+New maximum: 15
+Counted applications: 10
+Remaining: 5
+```
+:::
+
+::: faq Can I use Invites Only with unlimited vacancies?
+Yes.
+
+Invites only and capacity type are separate controls.
+
+You can have:
+
+```
+Capacity type: Unlimited
+Invites only: Yes
+```
+
+This means only invited people can apply, but there is no fixed cap on how many invited people can be accepted.
+:::
+
+::: faq Is Invites Only the same as a vacancy limit?
+No.
+
+Invites only controls **who can apply**.
+
+Vacancy capacity controls **how many people can be accepted**.
+:::
+
+::: faq Which capacity type should I use for a fixed seasonal intake?
+Use **capped placements**.
+
+Example:
+
+```
+Capacity type: Capped placements
+Maximum: Total number required
+```
+:::
+
+::: faq Which capacity type should I use for ongoing recruitment?
+Use **active workforce** if you are maintaining a target active headcount.
+
+Use **unlimited** if there is no target or cap and you simply want recruitment to remain open.
+:::
+
+::: faq How do I temporarily close recruitment?
+Set the maximum to zero.
+
+```
+Maximum: 0
+```
+:::
+
+::: faq Can a vacancy have start and end dates?
+Yes.
+
+Start and end dates describe the period the vacancy applies to.
+
+For example:
+
+```
+Start date: 1 June
+End date: 31 August
+```
+
+This can be used for seasonal recruitment windows.
+:::
+
+
 ## Changing Jobs, Roles, Contracts, and Applications
 
 ::: faq If someone changes roles, what does PICMI need to know?
