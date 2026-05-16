@@ -2,7 +2,7 @@
 
 An existing listing can be duplicated to make a copy. It will contain all the details of the previous job. The default change is to change the name of the job. The application workflow remains the same. All fields that can be changed specific to the new job.
 
-Note: **vacancy** numbers are not copied and must be set individually.
+Note: intake capacity settings are not copied and must be set individually.
 
 :::: instructions
 ## To create a duplicate

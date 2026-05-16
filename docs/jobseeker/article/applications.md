@@ -39,7 +39,7 @@ Depending on your application status, you can take different actions:
 
 ## Restrictions on applying
 
-Some jobs may have restrictions on who can apply:
+Some opportunities may have intake restrictions:
 
 - **Invites only** – You can only apply if you received an invitation from the organisation.
-- **Vacancies** – If the job has reached its maximum number of accepted applications, no more offers can be made.
+- **Intake availability** – If intake is closed or capacity is full, no further offers can be made.

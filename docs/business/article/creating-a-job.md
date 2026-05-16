@@ -24,8 +24,8 @@ Creating a job requires a base set of information so that people know what can b
 ::: prompt
 **See also**
 
-* [job status](job-status)
-* [job application controls](job-application-controls)
+* [opportunity status](opportunity-status)
+* [opportunity controls](opportunity-controls)
 * [preview a job](previewing-a-job)
 :::
 

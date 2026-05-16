@@ -60,7 +60,7 @@ be straightforward to [invite](https://help.picmi.io/business/article/inviting-f
 Before you send out an invitation, always ensure that:
 
 * The job and application workflow are correct.
-* There are enough [vacancies](https://help.picmi.io/business/article/job-application-controls.html) available.
+* There is enough intake availability configured (capacity model and capacity limit).
 :::
 
 ## Planning

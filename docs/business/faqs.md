@@ -212,7 +212,7 @@ also see this):
    Centre.
 6. in **offered** status and has typed "I agree" and there is an error "Whoops, something went wrong"
     1. Check Completion Status
-    2. Complete the checks above (job configuration and vacancies) to ensure the job is still available
+    2. Complete the checks above (job configuration and intake availability) to ensure the job is still available
     3. Still a problem? Instruct them to
        use [update to the latest information](../jobseeker/article/update-old-information.md) instructions in the Help
        Centre.
@@ -225,28 +225,28 @@ When contacting PICMI, see our [guide on writing emails to help us diagnose the 
 
 :::: faq What should I do when an individual applying reports they cannot sign and only have the option to Cancel or
 Refresh?
-This usually happens when the job has [**no vacancies**](about-picmi/applications.md#restrictions-on-actions). You can
+This usually happens when the job has **no intake availability** (capacity reached or intake closed). You can
 see this as a business user or as an individual applying.
 
 * As a business user, check the [job application controls](article/job-application-controls)
 * As a jobseeker, they can see positions available on the top-left of the workflow or in the list view
 
 ::: prompt
-Change your vacancies by the number of people you expect
+Adjust intake capacity settings based on the number of people you expect
 :::
 ::::
 
-::: faq There are 'No Vacancies', what should I do?
+::: faq There is 'No Intake Availability', what should I do?
 This usually happens when the job has '[No positions left](about-picmi/applications.md#restrictions-on-actions)'.
 You can see this as a business user in **Jobs** in the [Remaining
 ](article/job-application-controls.md#view-job-bucket-settings) column.
 
 If you want to increase the number of positions in the job bucket, increase
-the [Maximum number of people](article/job-application-controls.md#application-controls) setting in the job
+the [Capacity Limit](article/job-application-controls.md#application-controls) setting in the job
 :::
 
 :::: faq Someone can't complete (In Progress) because there are 'No Positions Left', what should I do?
-This happens when the job has '[no vancancies](about-picmi/applications.md#restrictions-on-actions)'.
+This happens when the job has no intake availability.
 
 1. Either, increase the number of positions or (probably) cancel the application.
 2. For both, the person should be informed via a status message.
@@ -506,8 +506,8 @@ A person will only need a new link after 30 days.
 
 ## Notifications
 
-::: faq Why am I receiving multiple notifications saying there are no vacancies?
-PICMI is designed to notify you immediately when a vacancy check is performed, ensuring that you’re kept up to date in
+::: faq Why am I receiving multiple notifications saying there is no intake availability?
+PICMI is designed to notify you immediately when an intake availability check is performed, ensuring that you’re kept up to date in
 real time. However, if multiple checks are performed in quick succession—such as when retries are made—you might receive
 multiple notifications in a short period.
 
@@ -524,7 +524,7 @@ period for all customers, we’ve opted to keep notifications immediate to suit 
 ### Does this issue affect everyone?
 
 No, most users don’t experience multiple notifications because retries are usually less frequent. This tends to happen
-only in a few cases where repeated vacancy checks occur in quick succession.
+only in a few cases where repeated intake availability checks occur in quick succession.
 
 ### What can be done to improve this?
 
@@ -585,36 +585,36 @@ Update the **end date** of the job to a date prior to today.
 See [update job dates](./article/job-status.md#update-job-dates) in job status
 :::
 
-## Vacancies, capacity types, and invites only
+## Intake, capacity models, and invites only
 
-::: faq What happens if the maximum is blank?
-If the maximum is blank, the vacancy is generally treated as unlimited.
+::: faq What happens if the capacity limit is blank?
+If the capacity limit is blank, intake is generally treated as unlimited.
 
-This means there is no fixed number of places to fill.
+This means there is no fixed number of placements or allocations to fill.
 :::
 
-::: faq What happens if the maximum is zero?
-A maximum of zero means the vacancy is closed or unavailable.
+::: faq What happens if the capacity limit is zero?
+A capacity limit of zero means the intake has zero configured capacity.
 
-No places are available.
+No placements or allocations are available.
 :::
 
-::: faq What is the difference between capped placements and active workforce?
-The main difference is how completed workers are treated.
+::: faq What is the difference between Fixed Capacity and Active Allocation?
+The main difference is how completed or inactive engagements are treated.
 
-| Scenario                          | Capped placements | Active workforce       |
-|-----------------------------------|-------------------|------------------------|
-| Worker is offered                 | Counts            | Counts                 |
-| Worker accepts                    | Counts            | Counts                 |
-| Worker completes                  | Still counts      | Usually does not count |
-| Capacity reopens after completion | No                | Yes                    |
+| Scenario                              | Fixed Capacity    | Active Allocation      |
+|---------------------------------------|-------------------|------------------------|
+| Person is offered                     | Counts            | Counts                 |
+| Person accepts                        | Counts            | Counts                 |
+| Person completes/finishes engagement  | Still counts      | Usually does not count |
+| Availability reopens after completion | No                | Yes                    |
 
-Use capped placements when you care about the total number of placements.
+Use Fixed Capacity when you care about total placements or engagements.
 
-Use active workforce when you care about the number of people currently active.
+Use Active Allocation when you care about currently active participation.
 :::
 
-::: faq Does an invited person consume a vacancy place?
+::: faq Does an invited person consume intake capacity?
 Usually, no.
 
 An invitation does not normally consume capacity. It only gives someone access or asks them to apply.
@@ -622,122 +622,121 @@ An invitation does not normally consume capacity. It only gives someone access o
 Capacity is usually consumed later, when the person is offered or accepted.
 :::
 
-::: faq Does an in-progress application consume a vacancy place?
+::: faq Does an in-progress application consume intake capacity?
 Usually, no.
 
 An in-progress application means the person has started but has not yet been offered or accepted.
 :::
 
-::: faq Does an offer consume a vacancy place?
+::: faq Does an offer consume intake capacity?
 Yes.
 
-An offer normally reserves a place so that the organisation does not over-offer beyond the vacancy limit.
+An offer normally reserves capacity so the organisation does not over-allocate beyond the capacity limit.
 :::
 
-::: faq Does an accepted person consume a vacancy place?
+::: faq Does an accepted person consume intake capacity?
 Yes.
 
 An accepted person has committed to the opportunity and counts against capacity.
 :::
 
-::: faq Does a completed person consume a vacancy place?
-It depends on the capacity type.
+::: faq Does a completed person consume intake capacity?
+It depends on the capacity model.
 
-For **capped placements**, yes. Completed people count because the quota is based on total placements.
+For **Fixed Capacity**, yes. Completed people count because the quota is based on total placements or engagements.
 
-For **active workforce**, usually no. Completed people have finished and no longer occupy current workforce capacity.
+For **Active Allocation**, usually no. Completed people have finished and no longer occupy current active allocation.
 :::
 
-::: faq Can I change the maximum later?
-Yes, but the maximum generally cannot be reduced below the number of places already committed.
+::: faq Can I change the capacity limit later?
+Yes, but it generally cannot be reduced below already committed placements.
 
-For example, if there are already 8 counted applications, you should not reduce the maximum to 5, because that would
-create more committed people than available places.
+For example, if there are already 8 counted applications, reducing the limit to 5 creates more committed people than available places.
 :::
 
-::: faq Can I increase the maximum later?
+::: faq Can I increase the capacity limit later?
 Yes.
 
-Increasing the maximum can reopen availability.
+Increasing the capacity limit can reopen availability.
 
 Example:
 
 ```
-Current maximum: 10
+Current capacity limit: 10
 Counted applications: 10
 Remaining: 0
 ```
 
-If you increase the maximum to 15:
+If you increase the capacity limit to 15:
 
 ```
-New maximum: 15
+New capacity limit: 15
 Counted applications: 10
 Remaining: 5
 ```
 :::
 
-::: faq Can I use Invites Only with unlimited vacancies?
+::: faq Can I use Invites Only with unlimited intake?
 Yes.
 
-Invites only and capacity type are separate controls.
+Invites only and capacity model are separate controls.
 
 You can have:
 
 ```
-Capacity type: Unlimited
+Capacity Model: Unlimited
 Invites only: Yes
 ```
 
-This means only invited people can apply, but there is no fixed cap on how many invited people can be accepted.
+This means only invited people can apply, with no fixed cap on accepted people.
 :::
 
-::: faq Is Invites Only the same as a vacancy limit?
+::: faq Is Invites Only the same as a capacity limit?
 No.
 
 Invites only controls **who can apply**.
 
-Vacancy capacity controls **how many people can be accepted**.
+Capacity controls **how many people can be accepted or allocated**.
 :::
 
-::: faq Which capacity type should I use for a fixed seasonal intake?
-Use **capped placements**.
+::: faq Which capacity model should I use for a fixed seasonal intake?
+Use **Fixed Capacity**.
 
 Example:
 
 ```
-Capacity type: Capped placements
-Maximum: Total number required
+Capacity Model: Fixed Capacity
+Capacity Limit: Total number required
 ```
 :::
 
-::: faq Which capacity type should I use for ongoing recruitment?
-Use **active workforce** if you are maintaining a target active headcount.
+::: faq Which capacity model should I use for ongoing recruitment or service delivery?
+Use **Active Allocation** if you are maintaining a target active headcount or active participant/service level.
 
-Use **unlimited** if there is no target or cap and you simply want recruitment to remain open.
+Use **Unlimited** if there is no target or cap and you want intake to remain open.
 :::
 
-::: faq How do I temporarily close recruitment?
-Set the maximum to zero.
+::: faq How do I temporarily close intake?
+Set **Intake Closed** to true.
 
 ```
-Maximum: 0
+Intake Closed: true
 ```
 :::
 
-::: faq Can a vacancy have start and end dates?
+::: faq Can intake have start and end dates?
 Yes.
 
-Start and end dates describe the period the vacancy applies to.
+Intake Start Date and Intake End Date describe the period the intake applies to.
 
 For example:
 
 ```
-Start date: 1 June
-End date: 31 August
+Intake Start Date: 1 June
+Intake End Date: 31 August
 ```
 
-This can be used for seasonal recruitment windows.
+This can be used for seasonal recruitment, service periods, or programme windows.
 :::
 
 

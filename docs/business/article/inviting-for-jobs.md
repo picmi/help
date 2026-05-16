@@ -3,7 +3,7 @@
 Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a-job.md)), it should be straight forward to invite people to apply for a job. 
 
 ::: prompt
-Before you send out an invitation ensure that the job and application workflow is all correct and that there are enough [vacancies](../about-picmi/applications.md#restrictions-on-actions)
+Before you send out an invitation ensure that the job and application workflow is all correct and that intake availability is sufficient for the opportunity. See [restrictions on actions](../about-picmi/applications.md#restrictions-on-actions).
 :::
 
 :::: explanation

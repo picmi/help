@@ -11,7 +11,7 @@ export function sidebarBusiness() {
                 { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },
                 {
                     text: 'Understanding vacancies, capacity types, and invites only',
-                    link: '/business/about-picmi/understanding-vacancies'
+                    link: '/business/about-picmi/understanding-intake'
                 },
                 { text: 'Understanding billing', link: '/business/about-picmi/billing' },
                 {

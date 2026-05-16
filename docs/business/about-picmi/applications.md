@@ -63,9 +63,9 @@ specific messages added per person
 
 | **Status**  | **Description**                                                             | **Action**         | **Explanation**                                                     | **Restrictions**          |
 |-------------|-----------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------|---------------------------|
-| Invited     | The person has been invited to apply but hasn't started the process so yet. | *Apply*, *Decline* | Can apply to progress to in progress or decline the invite.         | Invites only/No vacancies |
+| Invited     | The person has been invited to apply but hasn't started the process so yet. | *Apply*, *Decline* | Can apply to progress to in progress or decline the invite.         | Invites only/No intake availability |
 | In Progress | The person is actively filling out the application.                         | *Decline*          | Actions include declining or moving to offered if criteria are met. |                           |
-| Offered     | An offer has been extended to the person after meeting all the criteria.    | *Agree*, *Decline* | Can agree to accept the offer or decline it.                        | No vacancies              |
+| Offered     | An offer has been extended to the person after meeting all the criteria.    | *Agree*, *Decline* | Can agree to accept the offer or decline it.                        | No intake availability              |
 | Accepted    | The person has agreed to the offer, now in the cooling-off period.          | *Cancel*           | Can terminate the agreement if necessary.                           |                           |
 | Declined    | The person has declined either the invitation or the offer.                 | *Reopen*           | Can reopen the application or offer from declined state.            |                           |
 | Completed   | The application process is marked as complete by the business.              |                    | No further actions available at this state by the jobseeker         |                           | 
@@ -73,10 +73,10 @@ specific messages added per person
 
 ## Restrictions on actions
 
-Some jobseeker actions are restricted based on **Job settings**. Without restrictions, anyone with a link to a job can *
-*apply**. See [job application controls](../article/job-application-controls)
+Some jobseeker actions are restricted based on **opportunity intake settings**. Without restrictions, anyone with a link to an opportunity can apply. See [job application controls](../article/job-application-controls).
 
-| **Setting**  | **Description**                                                                                                                                                                                                                                                                          |
-|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Invites only | Individuals can only **apply** for a job that is linked to a person who has been invited through the PICMI system                                                                                                                                                                        |
-| Vacancies    | The maximum number of people who have an **accepted** application for a job. When the number has been reached applications can no longer be **offered**. The calcuation is that offered, accepted and completed all count towards the total vacancies. Cancelled and terminated are not. |
+| **Setting** | **Description** |
+|---|---|
+| Invites only | Individuals can only apply when they have been invited through PICMI. |
+| Capacity Model + Capacity Limit | Availability is calculated by the intake configuration. In common Fixed Capacity scenarios, offered, accepted, and completed applications count toward the configured limit, while cancelled and terminated do not. |
+| Intake Closed | Intake is paused regardless of available capacity. |

@@ -5,13 +5,13 @@ about key updates. You are able to turn on/off notifications.
 
 ## Notification types
 
-| Notification Type         | When You Receive It                                                                                                                  | Delivery Methods |
-|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| **Jobs**                  | When a business creates or updates jobs                                                                                              | In-app, Email    |
-| **Integrations**          | When an accepted application creates and employee (or errors)                                                                        | In-app, Email    |
-| **People Applications**   | When an application progresses or status message added                                                                               | In-app, Email    |
-| **Applications Declined** | When a jobseeker/employee declines an invitation, cancels an in-progress application or offer, or terminates an accepted application | In-app, Email    |
-| **Job Vacancies**         | When a jobseeker/employee tries to apply when there are no vacancies (too many emails? see [faqs](../faqs.md#notifications)? )       | In-app, Email    |
+| Notification Type               | When You Receive It                                                                                                                                           | Delivery Methods |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| **Jobs**                        | When a business creates or updates jobs                                                                                                                       | In-app, Email    |
+| **Integrations**                | When an accepted application creates and employee (or errors)                                                                                                 | In-app, Email    |
+| **People Applications**         | When an application progresses or status message added                                                                                                        | In-app, Email    |
+| **Applications Declined**       | When a jobseeker/employee declines an invitation, cancels an in-progress application or offer, or terminates an accepted application                          | In-app, Email    |
+| **Opportunity Intake Capacity** | When someone tries to apply but intake is unavailable due to intake closed or no remaining capacity (too many emails? see [faqs](../faqs.md#notifications)? ) | In-app, Email    |
 
 ## Managing your notifications
 
@@ -22,6 +22,7 @@ By default, notifications are enabled for both all delivery methods.
 :::
 
 ::: instructions
+
 ### Manage preferences
 
 1. Sign in to your PICMI account.
@@ -29,13 +30,14 @@ By default, notifications are enabled for both all delivery methods.
 3. Select **Settings** :::icon cog-outline:::
 4. Click :::icon chevron-down open:::, in the notification type, to see delivery methods
 5. Enable or disable :::icon toggle-switch-outline::: the delivery method
-:::
+   :::
 
 ## Managing messages
 
 The notification bell :::icon bell-outline::: will show a green dot when there are **new** messages
 
 ::: explanation
+
 ### Viewing messages
 
 Click on notification bell :::icon bell-outline::: to see the list of latest messages. Messages that
