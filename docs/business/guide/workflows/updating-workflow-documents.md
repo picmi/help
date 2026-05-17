@@ -116,7 +116,7 @@ access them.
 
 After updating your workflow documents, consider:
 
-- [Previewing a job](../../article/previewing-a-job) to see the applicant experience
+- [Previewing a job](../../article/opportunity-preview) to see the applicant experience
 - [Preparing a job ready to publish](../jobs/preparing-a-job-ready-publish) with your updated workflow
 - [Updating workflows](../../workflows/updating-workflows) for more advanced editing
 

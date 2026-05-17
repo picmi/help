@@ -5,14 +5,16 @@
 ## General Questions
 
 ::: faq What is PICMI?
-PICMI is a tool that connects people (your potential workforce) with you (the employer) through a streamlined hiring
-process. People can review detailed information about companies, such as culture and working conditions, to decide if
-they are a good fit.
+PICMI is an opportunity and engagement platform. It helps organisations manage opportunities, intake, applications,
+placements, and ongoing participation across employment and services contexts.
+
+Opportunities can include jobs, service engagements, programme participation, and workforce allocations.
 :::
 
 ::: faq How does the straight-through hiring process work?
-Our straight-through hiring process allows qualified people to receive a legally binding employment agreement instantly
-if they meet all the predefined criteria set by you, the employer.
+PICMI supports straight-through engagement decisions. When a participant meets the predefined criteria for an
+opportunity, PICMI can progress them directly to the relevant agreement stage (for example, employment or service
+agreement).
 :::
 
 ::: faq What should I do if I can't log into my account?
@@ -36,6 +38,27 @@ See [refresh data](article/update-old-information.md)
 See our [guide on writing emails to help us diagnose the issue](../how-write-emails.md)
 :::
 
+## Users
+
+::: faq Can a business user also apply for opportunities using the same email address?
+No, but they can use a sub-alias email address, and the emails will still come to the same inbox.
+:::
+
+::: faq What’s the difference between a user with an email and one with provisional access?
+A provisional user is temporary and only valid for one application. They receive both a key and a code from the
+business, unlike regular users who sign in with an email and password or email and code.
+:::
+
+::: faq Can I turn someone with an email login into a provisional user?
+Yes, if someone forgets their email password, using a provisional user allows them to continue using PICMI for a single
+application.
+:::
+
+::: faq Can I switch a provisional user to an email-based login?
+Yes, and we encourage all users to eventually use their own email for full access and communication across multiple
+applications.
+:::
+
 ## Emails
 
 ::: faq What is an email sub-alias?
@@ -51,7 +74,7 @@ Here are some example of sub-alias email for `hone.smith@example.com`
   :::
 
 ::: faq What if someone has no email?
-PICMI can provide access with a provisional user. see [invites](article/inviting-for-jobs.md#inviting-for-jobs)
+PICMI can provide access with a provisional user. see [invites](article/opportunity-send-invite.md#opportunity-send-invite)
 :::
 
 :::: faq I can't find emails from PICMI, what to do?
@@ -102,7 +125,7 @@ To remedy this:
 
 ::: prompt
 Once a job is closed, it's important to clearly mark the status to prevent confusion.
-see [job statuses](article/job-status)
+see [job statuses](article/opportunity-status)
 :::
 ::::
 
@@ -113,7 +136,7 @@ To remedy this:
 
 * Try and confirm where the email address error has occurred—often it is just one character added incorrectly
 * Cancel the application with a status message: "No such email"
-* [Invite](article/inviting-for-jobs#send-invites) using the correct email address
+* [Invite](article/opportunity-send-invite#send-invites) using the correct email address
 
 ::: prompt
 An application cannot be moved to another email address—this is helpful to detect ongoing errors
@@ -134,7 +157,7 @@ To remedy this:
 
 * Try and confirm where the email address error has occurred—these errors are usually after the '@' part of the email
 * Cancel the application with a status message: "Error in email address"
-* [Invite](article/inviting-for-jobs#send-invites) using the correct email address
+* [Invite](article/opportunity-send-invite#send-invites) using the correct email address
 
 ::: prompt
 An application cannot be moved to another email address—this is helpful to detect ongoing errors
@@ -168,7 +191,7 @@ their application so that you can track it.
 
 ::: prompt
 You are unable to reserve a position for a specific application. If there is a restriction on positions, then if all
-positions are filled, add one to the maximum in [job application controls](article/job-application-controls).
+positions are filled, add one to the maximum in [job application controls](article/opportunity-controls).
 Alternatively, reduce the number
 by one until the person is ready to apply.
 :::
@@ -201,8 +224,8 @@ First check the <b>Personal Overrides</b> in the <b>People</b> page to confirm t
 Check the <b>application status</b> in the <b>People</b> page and then determine if the person is (and confirm that they
 also see this):
 
-1. not able to **apply** because of the sign in problems (see [user account](about-picmi/users.md))
-2. not able to **apply** (or **proceed to accept**) because [job application controls](article/job-application-controls)
+1. not able to **apply** because of the sign in problems (see [user account](about-picmi/understanding-users.md))
+2. not able to **apply** (or **proceed to accept**) because [job application controls](article/opportunity-controls)
 3. **in progress** and has not completed all the fields in the application (
    see [check job configuration](article/checking-application-configuration))
 4. **in progress** and the contract page reports an error (also
@@ -228,7 +251,7 @@ Refresh?
 This usually happens when the job has **no intake availability** (capacity reached or intake closed). You can
 see this as a business user or as an individual applying.
 
-* As a business user, check the [job application controls](article/job-application-controls)
+* As a business user, check the [job application controls](article/opportunity-controls)
 * As a jobseeker, they can see positions available on the top-left of the workflow or in the list view
 
 ::: prompt
@@ -239,10 +262,10 @@ Adjust intake capacity settings based on the number of people you expect
 ::: faq There is 'No Intake Availability', what should I do?
 This usually happens when the job has '[No positions left](about-picmi/applications.md#restrictions-on-actions)'.
 You can see this as a business user in **Jobs** in the [Remaining
-](article/job-application-controls.md#view-job-bucket-settings) column.
+](article/opportunity-controls.md#view-job-bucket-settings) column.
 
 If you want to increase the number of positions in the job bucket, increase
-the [Capacity Limit](article/job-application-controls.md#application-controls) setting in the job
+the [Capacity Limit](article/opportunity-controls.md#application-controls) setting in the job
 :::
 
 :::: faq Someone can't complete (In Progress) because there are 'No Positions Left', what should I do?
@@ -313,7 +336,7 @@ staff member will need to accept it again for the updated rate to take effect.
 ::: prompt
 
 * [Personalise the job conditions](article/creating-individual-employment-conditions.md) (Pay rate)
-* [Edit job pay rate](./article/creating-a-job.md#updating-job-fields)
+* [Edit job pay rate](./article/opportunity-create.md#updating-job-fields)
 * [Reissue the application](article/changing-application-status.md)
   and [add a status message](article/status-message.md) that pay rates have been changed and for them review (eg Please
   review new pay rates and accept)
@@ -451,7 +474,7 @@ after you reissue the application for them to make updates to their photos.
 
 ### Steps
 
-1. Find the [application](article/job-application-controls.md)
+1. Find the [application](article/opportunity-controls.md)
 2. **Reissue** with [status message](article/status-message.md#add-new-status-message):
    <br> Use this message and add more if needed (copy and paste)
 
@@ -576,13 +599,13 @@ We’re happy to advise based on your specific situation.
 ::: faq I want to remove a position/role (job) from the active list, what should I do?
 Ensure that the job status is **closed** and that the **closed filter** is not selected.
 
-See [Job Status](./article/job-status.md)
+See [Job Status](./article/opportunity-status.md)
 :::
 
 ::: faq I want to close a job, what should I do?
 Update the **end date** of the job to a date prior to today.
 
-See [update job dates](./article/job-status.md#update-job-dates) in job status
+See [update job dates](./article/opportunity-status.md#update-job-dates) in job status
 :::
 
 ## Intake, capacity models, and invites only

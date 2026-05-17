@@ -1,26 +1,27 @@
 # Understanding Workflows
 
 A **workflow** in PICMI is the structured series of steps that a person follows to complete an application for either
-employment or service agreements. Workflows guide applicants through all necessary information collection, declarations,
-and documentation before presenting them with a contract.
+employment or service agreements. Workflows guide participants through all necessary information collection,
+declarations,
+and documentation before presenting them with an agreement.
 
 ## What is a workflow?
 
 Workflows are the backbone of PICMI's application process. They ensure that:
 
 - All required information is collected consistently
-- Applicants understand the role, organisation, and expectations
-- Compliance requirements are met before contracts are issued
+- Participants understand the opportunity, organisation, and expectations
+- Compliance requirements are met before agreements are issued
 - The process is fair, legal, and inclusive for everyone
 
 ::: prompt
-Workflows sit between the job/proposal and the contract in PICMI's structure: **Organisation → Job/Proposal → Workflow →
-Contract**
+Workflows sit between the opportunity and the agreement in PICMI's structure: **Organisation → Opportunity → Workflow →
+Agreement**
 :::
 
 ## Workflow structure: Pages and items
 
-Every workflow is organised into **pages**, and each page contains **items** that applicants interact with or review.
+Every workflow is organised into **pages**, and each page contains **items** that participants interact with or review.
 
 :::prompt
 PICMI has industry-standard workflows that have been tested and approved by the PICMI team ready for you to use. They
@@ -43,14 +44,14 @@ Pages group related content together to make the application process manageable 
 
 Each page contains **items** that serve different purposes:
 
-| Item Type           | Purpose                                                                         |
-|---------------------|---------------------------------------------------------------------------------|
-| **Questions**       | Collect information from applicants (text, dates, files, choices, declarations) |
-| **Information**     | Display known fields or details the applicant needs to review                   |
-| **Section Heading** | Break up content with titles and explanatory text                               |
-| **Section Image**   | Show visual content like photos or diagrams                                     |
-| **Section Video**   | Embed video content to explain roles or environments                            |
-| **Section Data**    | Present structured data or tables                                               |
+| Item Type           | Purpose                                                                           |
+|---------------------|-----------------------------------------------------------------------------------|
+| **Questions**       | Collect information from participants (text, dates, files, choices, declarations) |
+| **Information**     | Display known fields or details the participant needs to review                   |
+| **Section Heading** | Break up content with titles and explanatory text                                 |
+| **Section Image**   | Show visual content like photos or diagrams                                       |
+| **Section Video**   | Embed video content to explain roles or environments                              |
+| **Section Data**    | Present structured data or tables                                                 |
 
 ::: prompt
 Items appear in the order you configure them within each page. Thoughtful ordering improves completion rates.
@@ -224,5 +225,5 @@ active applications.
 - [Updating workflows](../workflows/updating-workflows)
 - [Adding questions](../workflows/questions)
 - [Creating a contract template](../article/creating-a-contract-template)
-- [Understanding the hiring elements](hiring-elements)
+- [Understanding the engagement elements](hiring-elements)
 - [Kiwifruit Services Agreement Workflow](../guide/services/kiwifruit-template)

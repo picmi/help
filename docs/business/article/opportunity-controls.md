@@ -27,7 +27,7 @@ View **Remaining** availability for each opportunity in Jobs under [customise co
 1. Go to either:
    * **Employment** > **Jobs**
    * **Services** > **Proposals**
-2. Locate the job row :::icon checkbox-marked-outline:::
+2. Locate a row :::icon checkbox-marked-outline:::
 3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Edit**
 5. Locate **Application Settings** section
@@ -73,7 +73,7 @@ Remaining will show **No availability left** when the capacity limit is reached
 ## View funnel settings
 
 The count of [application status](../about-picmi/applications.md#application-status) of the opportunity funnel is
-viewable per row in Jobs.
+viewable per row.
 
 1. Go to either:
    * **Employment** > **Jobs**

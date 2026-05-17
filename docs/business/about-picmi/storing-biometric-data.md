@@ -91,7 +91,7 @@ and permanent employees and uses other systems amongst them VEVO.
 - **Proactive compliance**: Sends alerts and reminders, reducing the risk of non-compliance.
 
 ::: prompt
-See how [PICMI works with  CheckWorkRights](../integrations/check-work-rights#how-picmi-works-with-checkworkerrights)
+See how [PICMI works with CheckWorkRights](../integrations/check-work-rights.md#how-picmi-works-with-checkworkrights)
 :::
 
 

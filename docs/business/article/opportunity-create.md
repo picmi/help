@@ -1,0 +1,81 @@
+# Creating an opportunity
+
+Creating an opportunity (employment job or service proposal) requires a base set of information so that people know what
+can be expected.
+
+## Fields
+
+| **Field**                       | **Description**                                                                                                        |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| **Title**                       |                                                                                                                        |
+| **Work hours**                  |                                                                                                                        |
+| **Description**                 | The primary description of the job or service                                                                          |
+| **Summary**                     | Additional information about the job that can be useful                                                                |
+| **Pay rate/remuneration**       | The amount of money to be paid and the frequency (usually hourly). It is defaulted to your organisation local currency |
+| **Location**                    | The street address of the position/job/role                                                                            |
+| **Location additional details** | Supplementary information about the location                                                                           |
+| **Location photos**             | Photos to be shown about the job                                                                                       |
+| **Location phone number**       | Any contact phone number for jobseekers about the job                                                                  |
+| **Start date**                  | Date the job is expected to begin                                                                                      |
+| **End date**                    | Date the job is expected to finish                                                                                     |
+| **Summary/additional details**  | Description about other information around the job start/stop or conditions                                            |
+
+::: prompt
+**See also**
+
+* [opportunity status](opportunity-status)
+* [opportunity controls](opportunity-controls) for managing intake 
+* [preview a job](opportunity-preview)
+  :::
+
+:::: explanation
+
+## Application information
+
+In the case of an individual changes for a specific jobseeker application on a job.
+See [creating individual employment conditions](creating-individual-employment-conditions) for specific fields that can
+be set.
+
+A listing can have multiple pay rates so that they can offer higher rates to more experienced people. Having multiple
+rates also requires setting up how this information is displayed. There are two places the pay rates can be displayed.
+::::
+
+:::: instructions
+
+## Create opportunity
+
+1. Go to either:
+    * **Employment** > **Jobs**
+    * **Services** > **Proposals**
+2. Click :::icon plus **Create**:::  to start the job builder
+3. Work through the steps on the builder
+    * Use **Next** and **Back** to navigate (**Exit** to stop)
+    * Enter the field details as you go (see [fields](#fields))
+4. Click **Done** when finished
+
+It will be added to the list
+
+::: prompt
+Often it is best to [duplicate](opportunity-duplicate.md) rather than start new particularly because it copies
+across [integrations](../integrations/integrations.md)
+:::
+::::
+
+:::: instructions
+
+## Updating fields
+
+1. Go to either:
+    * **Employment** > **Jobs**
+    * **Services** > **Proposals**
+2. Locate its row :::icon checkbox-marked-outline:::
+3. Click &vellip; (vertical dots) to open the menu
+4. Click **Edit**
+5. Work through each of the sections in the menu
+    * Use **Back** and **Save** to navigate
+    * Enter the field details as you go
+        *
+6. Click **Done** when finished
+
+Any changes will be updated on each Save
+::::

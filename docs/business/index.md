@@ -13,18 +13,18 @@
 
 ## Jobs
 
-- [Create job](article/creating-a-job)
-- [Understanding job status](article/job-status)
-- [Duplicate a job](article/duplicate-a-job)
-- [Preview a job](article/previewing-a-job)
+- [Create job](article/opportunity-create)
+- [Understanding job status](article/opportunity-status)
+- [Duplicate a job](article/opportunity-duplicate)
+- [Preview a job](article/opportunity-preview)
 - [Prepare a job ready to publish](guide/jobs/preparing-a-job-ready-publish.md)
 
 ## People Applications
 
 - [Changing application status](article/changing-application-status)
 - [Bulk applications status change](article/bulk-status-change)
-- [Job application controls](article/job-application-controls)
-- [Invites for jobs](article/inviting-for-jobs)
+- [Job application controls](article/opportunity-controls)
+- [Invites for jobs](article/opportunity-send-invite)
 - [Provisional users for jobs](article/provisional-user)
 - [Provisional users with shared email](article/provisional-user-with-shared-email.md)
 - [Change pay rates for applications](article/changing-pay-rates-for-applications)

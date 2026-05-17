@@ -2,7 +2,7 @@
 
 Create provisional users when a person has **no email address currently available**. Provisional users are created with an application ready to apply for a specific job. Other than access details and no emails sent until the person enters a deliverable email address on their profile, they are identical to a normal user.
 
-Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a-job.md)), it should be straight forward to add a person who does not have an email for a job. 
+Once you've [created a job](opportunity-create.md) (ideally [duplicated](opportunity-duplicate.md)), it should be straight forward to add a person who does not have an email for a job. 
 
 ::: prompt
 As a business you should help people set up an email account as quickly as possible.
@@ -106,7 +106,7 @@ You can add duplicate one provisional user (with the same name) and each will ha
 :::: instructions
 ## Add multiple existing provisional users
 
-See [invite via search for existing users](inviting-for-jobs.md#search-existing-people)
+See [invite via search for existing users](opportunity-send-invite.md#search-existing-people)
 
 ::: prompt
 In the **Search applications** filter type `@noreply.picmi.io`

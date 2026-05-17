@@ -1,7 +1,8 @@
 # Understanding intake, capacity models, and invites only
 
-PICMI is an opportunity intake platform used for recruitment placements and service engagements. An opportunity can be a
-job, position, role, contract, service, placement, or workforce allocation.
+PICMI is an opportunity intake and engagement platform used for employment, services, placements, and participation
+management. An opportunity can be a job, position, role, contract, service, placement, programme intake, or workforce
+allocation.
 
 Each opportunity can include an **intake configuration** that controls how applications, placements, and service
 engagements are managed.
@@ -200,5 +201,5 @@ Outcome: job/position/role is advertised but is not yet open for applications.
 ## Related
 
 - [FAQs](../faqs.md#intake-capacity-models-and-invites-only)
-- [Job application controls](../article/job-application-controls.md)
+- [Job application controls](../article/opportunity-controls.md)
 - [Understanding applications](applications.md)

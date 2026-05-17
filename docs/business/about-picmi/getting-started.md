@@ -1,15 +1,18 @@
 # Getting Started
 
-## [Recruiting people](recruiting-people): three-stage model for improvement
+## [Opportunity and engagement model](opportunity-engagement)
+- [Understanding the main elements](engagement-elements.md)
+- [Recruiting People](recruiting-people): three-stage model
 
 ## [Creating an account](../article/creating-an-account.md)
 Signing up is free. Use your email address or Google account.
 
 ## Key concepts in PICMI
-* [Understanding users](users.md)
+* [Understanding users](understanding-users.md)
 * [Understanding applications](applications.md)
-* [Understanding the hiring elements](hiring-elements)
-* [Understanding job status](../article/job-status)
+* [Understanding intake, capacity models, and invites only](understanding-intake.md)
+* [Understanding the engagement elements](hiring-elements)
+* [Understanding opportunity status](../article/opportunity-status)
 * [Understanding dates](dates.md)
 * [Understanding language support and translation approach](language-support-translations.md)
 * [Understanding workflows](understanding-workflows.md)

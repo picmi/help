@@ -6,7 +6,7 @@ export function sidebarBusiness() {
             collapsed: true,
             items: [
                 { text: 'Recruiting people', link: '/business/about-picmi/recruiting-people' },
-                { text: 'Understanding users', link: '/business/about-picmi/users' },
+                { text: 'Understanding users', link: '/business/about-picmi/understanding-users' },
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
                 { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },
                 {
@@ -137,15 +137,15 @@ export function sidebarBusiness() {
             items: [
                 {
                     text: 'Create',
-                    link: '/business/article/creating-a-job',
+                    link: '/business/article/opportunity-create',
                     collapsed: false,
                     items: [
-                        { text: 'Status', link: '/business/article/job-status' },
-                        { text: 'Job application controls', link: '/business/article/job-application-controls' },
+                        { text: 'Status', link: '/business/article/opportunity-status' },
+                        { text: 'Job application controls', link: '/business/article/opportunity-controls' },
                     ]
                 },
-                { text: 'Duplicate', link: '/business/article/duplicate-a-job' },
-                { text: 'Preview', link: '/business/article/previewing-a-job' },
+                { text: 'Duplicate', link: '/business/article/opportunity-duplicate' },
+                { text: 'Preview', link: '/business/article/opportunity-preview' },
                 { text: 'Publish', link: '/business/article/preparing-a-job-ready-publish' },
             ],
         },
@@ -155,7 +155,7 @@ export function sidebarBusiness() {
             items: [
                 { text: 'Change status', link: '/business/article/changing-application-status' },
                 { text: 'Bulk change status', link: '/business/article/bulk-status-change' },
-                { text: 'Invites', link: '/business/article/inviting-for-jobs' },
+                { text: 'Invites', link: '/business/article/opportunity-send-invite' },
                 { text: 'Provisional user', link: '/business/article/provisional-user' },
                 {
                     text: 'Provisional user with shared email',

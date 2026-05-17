@@ -9,7 +9,7 @@ PICMI provides a flexible approach to managing different start dates while ensur
 
 ### Step 1: Send a single invite
 Each person should receive an invitation to the job. Even if you don’t yet know their exact start date, sending the invite ensures they can review and accept the offer when ready.  
-➡️ [Guide: Sending a single invite](../article/inviting-for-jobs.md#send-single-invite)
+➡️ [Guide: Sending a single invite](../article/opportunity-send-invite.md#send-single-invite)
 
 ### Step 2: Set personal conditions (start date)
 Once the person accepts the invite, update their personal conditions to reflect their expected start date. Since PICMI treats the **Start Date** as **“we won’t take you earlier than”**, you can set this date as the earliest possible start date while allowing flexibility for when they actually begin.  
@@ -21,7 +21,7 @@ If the start date is uncertain, an additional **Summary** field under **Start an
 
 ### Step 1: Navigate to the start and end section
 Locate the **Start and End** fields in the job settings.
-➡️ [Guide: Updating a job](../article/creating-a-job.md#updating-job-fields)
+➡️ [Guide: Updating a job](../article/opportunity-create.md#updating-job-fields)
 
 ### Step 2: Add a summary field
 Use the **Summary** field to provide details about the start date contingency.

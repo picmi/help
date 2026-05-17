@@ -29,12 +29,12 @@ steps to avoid duplicate records and ensure access codes remain valid. Note ther
 
 1. Identify and plan the total number of workers, separating new and returning workers (e.g. 5 new and 6 existing
    workers)
-2. [Create the new job](../article/creating-a-job.md#create-job) in PICMI where both sets of workers will be invited
+2. [Create the new job](../article/opportunity-create.md#create-opportunity) in PICMI where both sets of workers will be invited
 3. Invite the new workers by creating provisional users through
    the [create provisional user](../article/provisional-user.md#add-a-provisional-user) process one at a time
    or [bulk creation](../article/provisional-user.md#add-multiple-existing-provisional-users) (e.g. invite 5 new workers)
-4. Invite the returning workers by using the [job's invite option](../article/inviting-for-jobs.md#send-invites), searching for
-   their [existing provisional user](../article/inviting-for-jobs.md#search-existing-people)
+4. Invite the returning workers by using the [job's invite option](../article/opportunity-send-invite.md#send-invites), searching for
+   their [existing provisional user](../article/opportunity-send-invite.md#search-existing-people)
    accounts (emails ending with "@noreply.picmi.io" and identifying them through their access code) and adding them to
    the new job (e.g. invite 6 existing workers)
 5. [Review all provisional users](../article/provisional-user.md#view-provisional-user-details) (new and returning) to confirm (
@@ -53,8 +53,8 @@ Continue with processing and monitoring the workers:
 ## Preparation
 
 You've already created a job (
-ideally [duplicated](https://help.picmi.io/business/article/duplicate-a-job.html#to-create-a-duplicate)), now it should
-be straightforward to [invite](https://help.picmi.io/business/article/inviting-for-jobs.html) people to apply for a job.
+ideally [duplicated](https://help.picmi.io/business/article/opportunity-duplicate.html#to-create-a-duplicate)), now it should
+be straightforward to [invite](https://help.picmi.io/business/article/opportunity-send-invite.html) people to apply for a job.
                                
 ::: prompt
 Before you send out an invitation, always ensure that:
@@ -78,12 +78,12 @@ use [table 1](#table-1-new-or-existing-planning-by-job)):
 Use [table 2](#table-2-invite-via-search) and work through each **each** job:
 
 1. **Search for the users** associated with that job.
-    * Narrow [search for existing people](https://help.picmi.io/business/article/inviting-for-jobs.html#search-existing-people)
+    * Narrow [search for existing people](https://help.picmi.io/business/article/opportunity-send-invite.html#search-existing-people)
    with `@noreply.picmi.io` and job (note find specific jobs from **last year** or all)
 2. **Select and add them** to the invitation list.
 3. Review the consolidated table of users to avoid mistakes before sending invites.
 
-See [sending bulk invites](https://help.picmi.io/business/article/inviting-for-jobs.html#send-bulk-invites-from-spreadsheet-application)
+See [sending bulk invites](https://help.picmi.io/business/article/opportunity-send-invite.html#send-bulk-invites-from-spreadsheet-application)
 
 ## Inviting New Workers
 

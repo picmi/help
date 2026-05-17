@@ -3,7 +3,7 @@
 There is checking around an application to ensure that contracts can be issued and that data can be sent to any required integrations. The goal is that when the application is complete, there is no extra work to remedy errors by anyone.
 
 All application configurations must be valid for a person to receive an offer on their application. Above completing the
-fields with the correct information which can be checked when [previewing a listing](previewing-a-job).
+fields with the correct information which can be checked when [previewing a listing](opportunity-preview).
 
 A valid application configuration must have all **fields completed** that are going to be substituted in 
 * a contract
@@ -38,6 +38,6 @@ Integration validations can be turned off to get around this (not recommended)
 
 ::: prompt
 The listing will also be validated
-an [inviting a person](inviting-for-jobs), [duplicating a job](duplicate-a-job) and when all fields are complete prior
+an [inviting a person](opportunity-send-invite), [duplicating a job](opportunity-duplicate) and when all fields are complete prior
 to an offer and when a person agrees.   
 :::

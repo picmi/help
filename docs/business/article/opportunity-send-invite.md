@@ -1,9 +1,9 @@
-# Inviting for jobs
+# Sending Invites
 
-Once you've [created a job](creating-a-job.md) (ideally [duplicated](duplicate-a-job.md)), it should be straight forward to invite people to apply for a job. 
+Once you've [created an opportunity](opportunity-create.md) (ideally [duplicated](opportunity-duplicate.md)), it should be straight forward to invite people to apply for a job or service proposal. 
 
 ::: prompt
-Before you send out an invitation ensure that the job and application workflow is all correct and that intake availability is sufficient for the opportunity. See [restrictions on actions](../about-picmi/applications.md#restrictions-on-actions).
+Before you send out an invitation, ensure that the opportunity and application workflow is all correctly configured and that intake availability is enough for the opportunity. See [restrictions on actions](../about-picmi/applications.md#restrictions-on-actions).
 :::
 
 :::: explanation
@@ -33,12 +33,14 @@ People **without** an email can be added as a [provisional user](provisional-use
 ## Send invites
 
 :::: instructions
-## Send single invite
+## Send a single invite
 
 This is the simplest way to send a single email.
 
-1. Go to **Jobs**
-2. Locate the job row :::icon checkbox-marked-outline:::
+1. Go to either:
+    * **Employment** > **Jobs**
+    * **Services** > **Proposals**
+2. Locate the opportunity row :::icon checkbox-marked-outline:::
 3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Send Invite**
 5. Click **Invite**
@@ -59,12 +61,14 @@ Avoid typing an email address by using import or copy-and-paste to ensure that y
 ::::
 
 :::: instructions
-## Send bulk invites from spreadsheet application
+## Send bulk invites from a spreadsheet application
 
 You can always bring in a set of emails from your spreadsheet application. Create this information in the [import template format](#download-import-template) that you have downloaded.
 
-1. Go to **Jobs**
-2. Locate the job row :::icon checkbox-marked-outline:::
+1. Go to either:
+    * **Employment** > **Jobs**
+    * **Services** > **Proposals**
+2. Locate the opportunity row :::icon checkbox-marked-outline:::
 3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Send Invite**
 5. Locate :::icon dots-vertical More::: (vertical dots) to open menu
@@ -82,17 +86,19 @@ You can always bring in a set of emails from your spreadsheet application. Creat
 In this list, you can edit and remove emails, as well as preview the email
 
 ::: prompt
-When importing from CSV, order of **Email** first is important before **Name**
+When importing from CSV, the order of **Email** first is important before **Name**
 :::
 ::::
 
 :::: instructions
 ## Send bulk invites from mail application
 
-You can always bring in a set of emails from you mail client that has the email addreses. No import template is required just select the emails from the application contact list.
+You can always bring in a set of emails from your mail client that already has the email addresses. No import template is required, select the emails from the application contact list.
 
-1. Go to **Jobs**
-2. Locate the job row :::icon checkbox-marked-outline:::
+1. Go to either:
+    * **Employment** > **Jobs**
+    * **Services** > **Proposals**
+2. Locate the opportunity row :::icon checkbox-marked-outline:::
 3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Send Invite**
 5. Locate :::icon dots-vertical More::: (vertical dots) to open menu
@@ -112,15 +118,17 @@ In this list, you can edit and remove emails, as well as preview the email
 
 Invite people who have already had applications and are entered in the system.
 
-1. Go to **Jobs**
-2. Locate the job row :::icon checkbox-marked-outline:::
+1. Go to either:
+    * **Employment** > **Jobs**
+    * **Services** > **Proposals**
+2. Locate the opportunity row :::icon checkbox-marked-outline:::
 3. Click :::icon dots-vertical::: (vertical dots) to open menu
 4. Select **Send Invite**
 5. Locate :::icon dots-vertical More::: (vertical dots) to open menu
 6. Locate the **Existing** section
 7. Select the import option **Search People**
 8. Now locate one or more existing people via the search filter
-    * Select **Status** filter to narrow (or **All** )—you must select a status to show existing people
+    * Select **Status** filter to narrow (or **All**)—you must select a status to show existing people
     * Type in a name or email in **Search applications** to narrow the search
     * Select **Jobs** to narrow people
     * Select **Dates** on each to change setting shown
@@ -137,8 +145,10 @@ If finding returning provisional users, in the **Search applications** filter ty
 
 Adding multiple email, names and messages in a spreadsheet is usually quicker and easier! Download a CSV file or copy to clipboard to bring into your spreadsheet application
 
-1. Go to **Jobs**
-2. Locate the job row :::icon checkbox-marked-outline:::
+1. Go to either:
+    * **Employment** > **Jobs**
+    * **Services** > **Proposals**
+2. Locate the opportunity row :::icon checkbox-marked-outline:::
 3. Click :::icon dots-vertical More::: (vertical dots) to open menu
 4. Select **Send Invite**
 5. Locate :::icon dots-vertical::: (vertical dots) More to open menu

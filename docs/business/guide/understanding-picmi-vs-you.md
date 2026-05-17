@@ -20,7 +20,7 @@ Use this table to translate common workplace language into PICMI concepts.
 | **What you might mean**                | **Words often used**                              | **PICMI term**                     | **What it means in PICMI**                                                                                  | **Example**                 |
 |----------------------------------------|---------------------------------------------------|------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------|
 | Type of work someone does              | Role, Position, Contract                          | **Job**                            | A defined job type in PICMI with its own defaults (conditions) including workflow with contract template    | Packer, Packer              |
-| A person's record/profile              | Employee record, Staff profile, Worker, Jobseeker | **Person** or **Worker**           | The person's profile in PICMI; can have multiple applications over time                                     | Maria Smith                 |
+| A person's record/profile              | Employee record, Staff profile, Worker, Jobseeker | **Person** or **Participant**      | The person's profile in PICMI; can have multiple applications over time                                     | Maria Smith                 |
 | Starting someone in a job              | Hire, Onboard, Sign up                            | **Application (accepted)**         | The worker accepts a specific job; this creates the active employment arrangement for that job              | Maria accepts Packer        |
 | The legal paperwork                    | Contract, Agreement, Employment Agreement         | **Contract**                       | The legal agreement document **generated** from an accepted application                                     | Casual employment agreement |
 | The contract blueprint to be completed | Contract, Agreement, Employment Agreement         | **Contract Template**              | The legal agreement document **before it is completed** with the individual details (substitution fields)   | Casual employment agreement |
@@ -206,4 +206,5 @@ Create a **new job with the new date range**, then invite the worker to that job
 ## General troubleshooting
 
 - [Changing Jobs, Roles, Contracts, and Applications FAQs](../faqs#changing-jobs-roles-contracts-and-applications)
-  :::
+
+:::

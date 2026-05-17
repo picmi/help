@@ -15,7 +15,7 @@ Contract (with field substitutions)
 ```
 
 ## Organisation
-This is the business that is issuing employment agreements. 
+This is the business issuing employment agreements. 
 
 ## Job
 Within each organisation, there are specific roles or positions available. Each job has its own set of requirements, responsibilities, and details that a person needs to consider when applying.
