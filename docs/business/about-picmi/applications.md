@@ -1,6 +1,7 @@
 # Understanding applications
 
-In PICMI, an **application** tracks [participants'](understanding-users.md) progress through opportunity intake and engagement. It represents
+In PICMI, an **application** tracks [participants'](understanding-users.md) progress through opportunity intake and
+engagement. It represents
 how a
 participant expresses interest in an opportunity and completes required steps before placement or participation.
 Applications
@@ -54,29 +55,29 @@ specific messages added per participant
 
 ## Business actions
 
-| **Status**              | **Description**                                                                 | **Action**                         | **Explanation**                                                                                                                                      |
-|-------------------------|---------------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Invited                 | The participant has been invited to apply through the application process.      | *Cancel*                           | Business can cancel the invite, moving the application to the cancelled invite status.                                                               |
-| In Progress             | The participant is actively working on the application.                         | *Reissue*, *Cancel*                | Business can reissue the application (to send out a notification to the participant again) or cancel it, moving to the cancelled application status. |
-| Offered                 | An offer has been extended to the participant and is in the cooling-off period. | *Cancel*                           | Business can cancel the offer, transitioning to the cancelled offer status.                                                                          |
-| Accepted                | The participant has accepted the offer .                                        | *Terminate*, *Complete*, *Reissue* | Business can terminate the application, complete the process, or reissue it to the in-progress status.                                               |
-| Completed               | The **contract** itself has been completed for the job.                         | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status.                                                           |
-| Terminated              | The **contract** has been terminated for the job (business or participant).     | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the in-progress status.                                                        |
-| Cancelled (Invite)      | The invitation has been cancelled by the business.                              | *Reopen*                           | Business can reopen the cancelled invitation to transition back to the invited status.                                                               |
-| Cancelled (Application) | The application has been cancelled by the business.                             | *Reopen*                           | Business can reopen the cancelled application to transition back to the in-progress status.                                                          |
-| Declined                | The participant has declined application (from invitation or offer)             |                                    | Business cannot perform any actions—only the participant can reopen the application                                                                  |
+| **Status**              | **Description**                                                                                          | **Action**                         | **Explanation**                                                                                                                                      |
+|-------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Invited                 | The participant has been invited but has not yet started the application process.                        | *Cancel*                           | Business can cancel the invite, moving the application to the cancelled invite status.                                                               |
+| In Progress             | The participant has started the application and has not yet reached an outcome.                          | *Reissue*, *Cancel*                | Business can reissue the application (to send out a notification to the participant again) or cancel it, moving to the cancelled application status. |
+| Offered                 | The participant has met the criteria and received an offer that has not yet been accepted or declined.   | *Cancel*                           | Business can cancel the offer, transitioning to the cancelled offer status.                                                                          |
+| Accepted                | The participant has accepted the offer and the engagement is active but not yet complete.                | *Terminate*, *Complete*, *Reissue* | Business can terminate the application, complete the process, or reissue it to the in-progress status.                                               |
+| Completed               | The participant fulfilled the engagement and all required obligations successfully.                      | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status.                                                           |
+| Terminated              | The engagement ended unsuccessfully before completion and required obligations were not fully fulfilled. | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the in-progress status.                                                        |
+| Cancelled (Invite)      | The invitation was withdrawn before the participant entered the application process.                     | *Reopen*                           | Business can reopen the cancelled invitation to transition back to the invited status.                                                               |
+| Cancelled (Application) | The application was withdrawn while in progress and before reaching an outcome.                          | *Reopen*                           | Business can reopen the cancelled application to transition back to the in-progress status.                                                          |
+| Declined                | The participant chose not to continue with or accept the opportunity.                                    |                                    | Business cannot perform any actions—only the participant can reopen the application                                                                  |
 
 ## Participant actions
 
-| **Status**  | **Description**                                                                  | **Action**         | **Explanation**                                                     | **Restrictions**                    |
-|-------------|----------------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------|-------------------------------------|
-| Invited     | The participant has been invited to apply but hasn't started the process so yet. | *Apply*, *Decline* | Can apply to progress to in progress or decline the invite.         | Invites only/No intake availability |
-| In Progress | The participant is actively filling out the application.                         | *Decline*          | Actions include declining or moving to offered if criteria are met. |                                     |
-| Offered     | An offer has been extended to the participant after meeting all the criteria.    | *Agree*, *Decline* | Can agree to accept the offer or decline it.                        | No intake availability              |
-| Accepted    | The participant has agreed to the offer, now in the cooling-off period.          | *Cancel*           | Can terminate the agreement if necessary.                           |                                     |
-| Declined    | The participant has declined either the invitation or the offer.                 | *Reopen*           | Can reopen the application or offer from declined state.            |                                     |
-| Completed   | The application process is marked as complete by the business.                   |                    | No further actions available at this state by the participant       |                                     | 
-| Cancelled   | The application was cancelled (by the business)                                  |                    | No further actions available at this state by the participant.      |                                     | 
+| **Status**  | **Description**                                                                                        | **Action**         | **Explanation**                                                     | **Restrictions**                    |
+|-------------|--------------------------------------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------|-------------------------------------|
+| Invited     | The participant has been invited but has not yet started the application process.                      | *Apply*, *Decline* | Can apply to progress to in progress or decline the invite.         | Invites only/No intake availability |
+| In Progress | The participant has started the application and has not yet reached an outcome.                        | *Decline*          | Actions include declining or moving to offered if criteria are met. |                                     |
+| Offered     | The participant has met the criteria and received an offer that has not yet been accepted or declined. | *Agree*, *Decline* | Can agree to accept the offer or decline it.                        | No intake availability              |
+| Accepted    | The participant has accepted the offer and the engagement is active but not yet complete.              | *Cancel*           | Can terminate the agreement if necessary.                           |                                     |
+| Declined    | The participant chose not to continue with or accept the opportunity.                                  | *Reopen*           | Can reopen the application or offer from declined state.            |                                     |
+| Completed   | The participant fulfilled the engagement and all required obligations successfully.                    |                    | No further actions available at this state by the participant       |                                     | 
+| Cancelled   | The application or invite was cancelled before the engagement reached a final outcome.                 |                    | No further actions available at this state by the participant.      |                                     | 
 
 ## Restrictions on actions
 
