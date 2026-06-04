@@ -83,7 +83,7 @@ specific messages added per participant
 
 Some participant actions are restricted based on **opportunity intake settings**. Without restrictions, anyone with a
 link
-to an opportunity can apply. See [job application controls](../article/opportunity-controls).
+to an opportunity can apply. See [opportunity controls](../article/opportunity-controls).
 
 | **Setting**                     | **Description**                                                                                                                                                                                                     |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

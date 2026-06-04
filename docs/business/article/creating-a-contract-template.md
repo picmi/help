@@ -16,7 +16,7 @@ Since templates are designed for consistency, any changes to a contract must be 
 :::
 
 ::: prompt
-Limitations of contract substitutions: Contract templates in PICMI allow for personalised content through field substitutions, but they do not support conditionally including or excluding entire sections based on job roles or other criteria. See [hiring elements](../about-picmi/hiring-elements.md#contract)
+Limitations of contract substitutions: Contract templates in PICMI allow for personalised content through field substitutions, but they do not support conditionally including or excluding entire sections based on job roles or other criteria. See [hiring elements](../about-picmi/employment-job-elements.md#contract)
 :::
 
 :::: instructions

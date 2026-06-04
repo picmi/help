@@ -12,7 +12,7 @@ Signing up is free. Use your email address or Google account.
 * [Understanding users](understanding-users.md)
 * [Understanding applications](applications.md)
 * [Understanding intake, capacity models, and invites only](understanding-intake.md)
-* [Understanding the engagement elements](hiring-elements)
+* [Understanding the engagement elements](employment-job-elements)
 * [Understanding opportunity status](../article/opportunity-status)
 * [Understanding dates](dates.md)
 * [Understanding language support and translation approach](language-support-translations.md)

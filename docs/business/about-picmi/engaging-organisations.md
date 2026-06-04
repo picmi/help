@@ -1,7 +1,7 @@
 # Engaging organisations
 
 Engaging organisations through services is a balance between a commercial process and an organisation's operating
-context: the **services pipeline** and the **organisation lifecycle**. Successful service engagement helps both parties
+context: the **services proposals pipeline** and the **organisation/provider lifecycle**. Successful service engagement helps both parties
 understand the work, confirm capability, agree responsibilities, and move into delivery with the right information in
 place.
 
@@ -10,6 +10,12 @@ This page is specific to engaging organisations for services compared with
 a [general approach to opportunities](opportunity-engagement.md) and the employment-focused
 [Recruiting people](recruiting-people.md) model.
 :::
+
+<br/>
+
+![Engaging Organisations—three phase diagram](../../img/engaging-organisations.png)
+<p style="text-align: right"><i>Three-stage model of service engagements</i></p>
+<br/>
 
 PICMI helps services engagement by breaking the process into clear stages. Instead of treating a services agreement as a
 single document to complete at the end, PICMI lets organisations collect the right details, review requirements, and
@@ -22,8 +28,8 @@ model works when one organisation is requesting services and another organisatio
 
 ## Services Pipeline
 
-PICMI views engaging organisations as three primary phases before active service delivery: _Attract_, _Engage_, and
-_Deliver_. PICMI focuses on streamlining the engage step and how it connects with the work that happens before and
+PICMI views engaging organisations as three primary phases before active service delivery: _Attract_, _Propose_, _Partner_ and
+_Deliver_. PICMI focuses on streamlining the propose step and how it connects with the work that happens before and
 after.
 
 ### Attract
@@ -34,7 +40,7 @@ existing relationship, industry network, direct invite, seasonal planning proces
 PICMI does not force a single sourcing method. Organisations can use the channels that already work for their industry,
 then use PICMI once they need a structured way to capture information, compare requirements, and move toward agreement.
 
-### Engage
+### Propose
 
 This is where PICMI is strongest. The engage phase turns an informal service need into a structured participation
 process.
@@ -50,18 +56,23 @@ During engagement, organisations can:
 The goal is to reduce ambiguity. Each party should understand what is being provided, where it will happen, who is
 responsible, and what conditions apply before service delivery begins.
 
-### Deliver
+### Partner
 
-This is the phase where the agreed service moves into operational delivery. PICMI does not replace the systems used to
+This is the phase where the agreed service moves toward operational delivery. PICMI does not replace the systems used to
 manage day-to-day work, scheduling, supervision, invoicing, or delivery reporting.
 
 Instead, PICMI provides the agreed engagement record: the service details, declarations, documents, workflow responses,
 and signed agreement that other operational processes can rely on.
+
+
+### Onsite
+
+This is the phase where the agreed service is in operational delivery. 
 ::::
 
 :::: explanation
 
-## Organisation lifecycle
+## Organisation/Provider lifecycle
 
 The organisation lifecycle describes how two or more organisations move from initial contact to an agreed service
 engagement. The stages are similar to recruiting people, but the focus is on organisational fit, capability,
@@ -74,7 +85,7 @@ contractors, employers, subcontractors, or programme partners.
 
 Accurate organisation details matter because they flow into workflows, agreements, reporting, and compliance records.
 
-### Engage
+### Connect
 
 Share enough information for each organisation to understand the opportunity and decide whether to continue. This may
 include service expectations, location details, seasonal timing, operational constraints, and the process for completing
@@ -113,72 +124,3 @@ terms and supporting information, while operational systems and teams manage the
 
 :::: explanation
 
-## Service engagement elements
-
-PICMI uses a consistent structure for service engagements:
-
-```text
-Organisation / Provider
-         |
-Service opportunity + engagement overrides
-         |
-Workflow
-         |
-Services agreement
-```
-
-### Organisation / Provider
-
-The organisation participating in the service engagement. Depending on the scenario, this may be the organisation
-requesting services, supplying services, or both.
-
-### Service opportunity
-
-The service engagement being offered or requested. It defines the service context, such as the type of work, location,
-timing, capacity, and operational requirements.
-
-::: prompt
-**Engagement overrides** allow specific adjustments for an individual service engagement. Examples include service scope
-details, site-specific conditions, timing changes, or participant-specific agreement values.
-:::
-
-### Workflow
-
-The workflow is the structured intake path for the organisation. It can include:
-
-- **Questions**: collect required details, declarations, and confirmations
-- **Information**: present service expectations, responsibilities, and supporting guidance
-- **Documents**: collect certifications, policies, evidence, and records
-
-### Services agreement
-
-After requirements are met, PICMI presents the relevant services agreement or participation agreement. The agreement can
-use field substitutions from organisation data, opportunity data, workflow responses, and engagement overrides.
-
-::: prompt
-Field substitutions replace placeholders with known values. If materially different terms are needed for different
-service scenarios, use a separate service opportunity or agreement template rather than relying on one generic agreement.
-:::
-::::
-
-## Practical examples
-
-### Grower and contractor services
-
-A grower is invited to complete a service workflow before a contractor provides seasonal orchard work. The grower
-enters [orchard profile details, services required](../guide/services/orchard-profile-and-services-required.md), worksite information, and contact details. The contractor provides
-certifications, pay rate information, subcontractor details, and compliance documents. Once complete, both parties review
-and sign the service agreement. An example of this is the [Kiwifruit Services Agreement Workflow](../guide/services/kiwifruit-template.md)
-
-### Provider participation
-
-A provider is invited into a programme or service network. The workflow collects provider details, capability
-information, declarations, supporting documents, and agreement terms before the provider becomes active.
-
-## Related
-
-- [Opportunity and engagement model](opportunity-engagement.md)
-- [Recruiting people](recruiting-people.md)
-- [Understanding the engagement elements](engagement-elements.md)
-- [Understanding workflows](understanding-workflows.md)
-- [Kiwifruit Services Agreement Workflow](../guide/services/kiwifruit-template.md)

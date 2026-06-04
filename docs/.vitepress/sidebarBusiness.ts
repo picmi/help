@@ -5,14 +5,20 @@ export function sidebarBusiness() {
             text: 'Getting Started',
             collapsed: true,
             items: [
-                { text: 'Recruiting people', link: '/business/about-picmi/recruiting-people' },
-                { text: 'Engaging organisations', link: '/business/about-picmi/engaging-organisations' },
+                { text: 'Recruiting people (employment)', link: '/business/about-picmi/recruiting-people' },
+                { text: 'Engaging organisations (services)', link: '/business/about-picmi/engaging-organisations' },
                 { text: 'Understanding users', link: '/business/about-picmi/understanding-users' },
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
-                { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },
+                { text: 'Understanding employment jobs', link: '/business/about-picmi/employment-job-elements' },
+                { text: 'Understanding service proposals', link: '/business/about-picmi/service-proposal-elements' },
                 {
-                    text: 'Understanding vacancies, capacity types, and invites only',
+                    text: 'Understanding intake limits',
                     link: '/business/about-picmi/understanding-intake'
+                },
+                { text: 'Understanding workflows', link: '/business/about-picmi/understanding-workflows' },
+                {
+                    text: 'Understanding items on workflows',
+                    link: '/business/about-picmi/understanding-workflow-items'
                 },
                 { text: 'Understanding billing', link: '/business/about-picmi/billing' },
                 {
@@ -27,11 +33,6 @@ export function sidebarBusiness() {
                 {
                     text: 'Language support',
                     link: '/business/about-picmi/language-support-translations'
-                },
-                { text: 'Understanding workflows', link: '/business/about-picmi/understanding-workflows' },
-                {
-                    text: 'Understanding items on workflows',
-                    link: '/business/about-picmi/understanding-workflow-items'
                 },
                 { text: 'Creating an account', link: '/business/article/creating-an-account' },
             ]
@@ -73,6 +74,10 @@ export function sidebarBusiness() {
                         {
                             text: 'Kiwifruit template',
                             link: '/business/guide/services/kiwifruit-template'
+                        },
+                        {
+                            text: 'Prepare or update a Kiwifruit Services Agreement',
+                            link: '/business/guide/services/preparing-or-updating-kiwifruit-service-agreement'
                         },
                         {
                             text: 'Orchard profile & services required',
@@ -133,7 +138,7 @@ export function sidebarBusiness() {
             ]
         },
         {
-            text: 'Jobs',
+            text: 'Opportunity',
             collapsed: false,
             items: [
                 {
@@ -142,7 +147,7 @@ export function sidebarBusiness() {
                     collapsed: false,
                     items: [
                         { text: 'Status', link: '/business/article/opportunity-status' },
-                        { text: 'Job application controls', link: '/business/article/opportunity-controls' },
+                        { text: 'Opportunity controls', link: '/business/article/opportunity-controls' },
                     ]
                 },
                 { text: 'Duplicate', link: '/business/article/opportunity-duplicate' },
@@ -151,7 +156,7 @@ export function sidebarBusiness() {
             ],
         },
         {
-            text: 'People Applications',
+            text: 'Applications',
             collapsed: false,
             items: [
                 { text: 'Change status', link: '/business/article/changing-application-status' },

@@ -1,6 +1,6 @@
-### Understanding the hiring elements
+### Understanding the employment job elements
 
-The hiring elements make the application process in PICMI that is designed to be simple and structured, guiding people through details from the organisation and the job through the workflow to the contract. Personal overrides provide flexibility to accommodate unique circumstances, ensuring that the application process is legal, fair and inclusive for everyone.
+The employment job (hiring) elements make the application process in PICMI that is designed to be simple and structured, guiding people through details from the organisation and the job through the workflow to the contract. Personal overrides provide flexibility to accommodate unique circumstances, ensuring that the application process is legal, fair and inclusive for everyone.
 
 
 :::: explanation

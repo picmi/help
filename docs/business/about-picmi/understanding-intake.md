@@ -201,5 +201,5 @@ Outcome: job/position/role is advertised but is not yet open for applications.
 ## Related
 
 - [FAQs](../faqs.md#intake-capacity-models-and-invites-only)
-- [Job application controls](../article/opportunity-controls.md)
+- [Opportunity controls](../article/opportunity-controls.md)
 - [Understanding applications](applications.md)

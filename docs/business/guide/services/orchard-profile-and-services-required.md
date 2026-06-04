@@ -9,6 +9,9 @@ Much of this information is already in Canopy and can be copied from the Spray D
 have the latest information before starting.
 :::
 
+If you are also reviewing contractor documents, rates, GRASP, or GLOBALG.A.P. details, see
+[Prepare or update a Kiwifruit Services Agreement](./preparing-or-updating-kiwifruit-service-agreement.md).
+
 ## Overview
 
 The **Orchard Profile** and **Services Required** sections work together:

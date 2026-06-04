@@ -1,38 +1,72 @@
 # Kiwifruit Services Agreement Workflow
 
-PICMI provides a **pre-built workflow template** for creating and managing **Kiwifruit Services Agreements**. This workflow guides both **growers (hosts)** and **contractors (employers)** through all the necessary steps to
+PICMI provides a **pre-built workflow template** for creating and managing **Kiwifruit Services Agreements**. This
+workflow guides both **growers (hosts)** and **contractors (employers)** through all the necessary steps to
 prepare, review, and finalise a compliant agreement.
+
+## Why this workflow?
+
+A grower is not only checking whether work can be done. They are checking whether the service can be trusted.
+
+Good information helps them answer simple but important questions:
+
+- Is the subcontractor list clear?
+- Does the grower know who could work on their orchard?
+- Are the certificates current?
+- Is insurance in place?
+- Are health and safety systems clear?
+- Are pay rates and charge rates transparent?
+- Are worker welfare and social practice details ready?
+- Are GLOBALG.A.P. details correct?
+- Are the contract options clear?
+- Are the variable terms easy for the grower to scan?
+- Is there enough evidence for audit or compliance checks?
+
+A grower is not only checking whether work can be done. They are checking whether the service can be trusted. If any of the details are old, missing, or unclear, the agreement may slow down. The grower may need to ask follow-up
+questions. The contractor may need to search for documents again.
+
+The goal is to do that work once, do it well, and then keep it current.
 
 ## Overview
 
 The workflow is divided into **9 sections**.
 
-- The **first 3 sections** collect key information **from you (the grower or host)**.
-- The **next 5 sections** capture your agreement to detailed information **from the contractor**.
+- The **first 3 sections** collect key information **from the grower (or host)**.
+- The **next 5 sections** capture agreement to detailed information **from the contractor**.
 - The **final section** is the **contract itself**, where both parties review and agree to the terms.
+
+| Section | Focus on information | Direction                   |
+|---------|----------------------|-----------------------------|
+| 1-3     | Grower               | Gathered from               |
+| 4-8     | Contracter           | Provided to                 |
+| 9       | Contractor/Grower    | Provided and agreed between |
 
 Each section builds on the last — by the time you reach the end, all data, certifications, and compliance details needed
 for a complete services agreement are in place. You don't have to do them in order and everything is saved. No data is
-shared
-back to the contractor who is sending the agreement until all sections are complete and the contract is agreed.
+shared back to the contractor who is sending the agreement until all sections are complete and the contract is agreed.
 
 ::: prompt
-**Profile & Services** requires the most work with knowing your orchard profile and service required
+[**Profile & Services**](orchard-profile-and-services-required.md) requires the most work with a grower knowing their orchard profile and services required in a
+structured manner. First-time proposals may need to [prepare existing documentation](preparing-or-updating-kiwifruit-service-agreement.md).
 :::
+
+If you are preparing for a new agreement or updating an existing one, start by reviewing the contractor information in
+sections 4-9. See
+[Prepare or update a Kiwifruit Services Agreement](./preparing-or-updating-kiwifruit-service-agreement.md).
 
 ## The 9 Sections at a Glance
 
-| Step  | Section                 | Description                                                                                   |
-|-------|-------------------------|-----------------------------------------------------------------------------------------------|
-| **1** | **Contact Information** | Collects names, phone numbers, and email addresses for both the grower and contractor.        |
-| **2** | **Profile & Services**  | Captures orchard information (blocks, varieties, sizes) and the specific services required.   |
-| **3** | **Worksite**            | Records worksite addresses and regional details to support compliance and planning.           |
-| **4** | **Subcontractors**      | Identifies any subcontractors that will perform work under the agreement.                     |
-| **5** | **Certifications**      | Gathers contractor compliance documents such as **CAV**, **GAP**, **SiteWise**, or **GRASP**. |
-| **6** | **Pay Rates**           | Defines labour pay structures, rates, and conditions (e.g. hourly vs piece rate).             |
-| **7** | **GRASP**               | Adds GRASP (GLOBALG.A.P. Risk Assessment on Social Practice) details where applicable.        |
-| **8** | **GLOBALG.A.P.**        | Confirms GLOBALG.A.P. certification coverage, including producer numbers and expiry dates.    |
-| **9** | **Contract**            | Final review and signature step — both parties agree to the terms electronically.             |
+| Step  | Section                 | Description                                                                                                  |
+|-------|-------------------------|--------------------------------------------------------------------------------------------------------------|
+| **1** | **Contact Information** | Collects names, phone numbers, and email addresses for both the grower and contractor.                       |
+| **2** | **Profile & Services**  | Captures orchard information (blocks, varieties, sizes) and the specific services required.                  |
+| **3** | **Worksite**            | Records worksite addresses and regional details to support compliance and planning.                          |
+| **4** | **Subcontractors**      | Identifies any subcontractors that will perform work under the agreement (not required if no subcontracting) |
+| **5** | **Certifications**      | Gathers contractor compliance documents such as **CAV**, **GAP**, **SiteWise**, or **GRASP**.                |
+| **6** | **Pay Rates**           | Defines labour pay structures, rates, and conditions (e.g. hourly vs piece rate).                            |
+| **7** | **GRASP**               | Adds GRASP (GLOBALG.A.P. Risk Assessment on Social Practice) details where applicable.                       |
+| **8** | **GLOBALG.A.P.**        | Confirms GLOBALG.A.P. certification coverage, including producer numbers and expiry dates.                   |
+| **9** | **Contract**            | Final review and signature step — both parties agree to the terms electronically.                            |
 
 ## Sections 1–3: Grower Input
 
@@ -200,7 +234,9 @@ Transparent, traceable, and well-documented systems are now required by most pre
 The final step brings everything together into a **legally binding agreement**.
 
 :::: explanation
+
 ### 9. Contract
+
 In this step, both the **grower and contractor**:
 
 1. Review all details gathered in earlier sections.
@@ -226,3 +262,8 @@ PICMI’s **Kiwifruit Services Agreement workflow** ensures:
 
 By completing all **9 sections**, growers and contractors can form a clear, compliant, and ready-to-use service
 agreement — tailored for the kiwifruit industry.
+
+## Related
+
+- [Prepare or update a Kiwifruit Services Agreement](./preparing-or-updating-kiwifruit-service-agreement.md)
+- [Orchard Profile Information and Services Required](./orchard-profile-and-services-required.md)

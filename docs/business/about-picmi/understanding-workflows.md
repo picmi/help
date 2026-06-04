@@ -225,5 +225,5 @@ active applications.
 - [Updating workflows](../workflows/updating-workflows)
 - [Adding questions](../workflows/questions)
 - [Creating a contract template](../article/creating-a-contract-template)
-- [Understanding the engagement elements](hiring-elements)
+- [Understanding the engagement elements](employment-job-elements)
 - [Kiwifruit Services Agreement Workflow](../guide/services/kiwifruit-template)

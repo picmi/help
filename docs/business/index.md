@@ -11,20 +11,20 @@
 - [People changing roles and requiring new contract](guide/jobs/changing-a-role.md)
 - [Understanding intake, capacity models, and invites only](about-picmi/understanding-intake.md)
 
-## Jobs
+## Opportunity (Employment and Services)
 
-- [Create job](article/opportunity-create)
-- [Understanding job status](article/opportunity-status)
-- [Duplicate a job](article/opportunity-duplicate)
-- [Preview a job](article/opportunity-preview)
-- [Prepare a job ready to publish](guide/jobs/preparing-a-job-ready-publish.md)
+- [Create opportunity](article/opportunity-create)
+- [Understanding opportunity status](article/opportunity-status)
+- [Duplicate an opportunity](article/opportunity-duplicate)
+- [Preview an opportunity](article/opportunity-preview)
+- [Prepare an opportunity ready to publish](guide/jobs/preparing-a-job-ready-publish.md)
 
-## People Applications
+## Applications
 
 - [Changing application status](article/changing-application-status)
 - [Bulk applications status change](article/bulk-status-change)
-- [Job application controls](article/opportunity-controls)
-- [Invites for jobs](article/opportunity-send-invite)
+- [Opportunity controls](article/opportunity-controls)
+- [Sending invites](article/opportunity-send-invite)
 - [Provisional users for jobs](article/provisional-user)
 - [Provisional users with shared email](article/provisional-user-with-shared-email.md)
 - [Change pay rates for applications](article/changing-pay-rates-for-applications)

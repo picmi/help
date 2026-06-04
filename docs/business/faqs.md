@@ -191,7 +191,7 @@ their application so that you can track it.
 
 ::: prompt
 You are unable to reserve a position for a specific application. If there is a restriction on positions, then if all
-positions are filled, add one to the maximum in [job application controls](article/opportunity-controls).
+positions are filled, add one to the maximum in [opportunity controls](article/opportunity-controls).
 Alternatively, reduce the number
 by one until the person is ready to apply.
 :::
@@ -225,7 +225,7 @@ Check the <b>application status</b> in the <b>People</b> page and then determine
 also see this):
 
 1. not able to **apply** because of the sign in problems (see [user account](about-picmi/understanding-users.md))
-2. not able to **apply** (or **proceed to accept**) because [job application controls](article/opportunity-controls)
+2. not able to **apply** (or **proceed to accept**) because [opportunity controls](article/opportunity-controls)
 3. **in progress** and has not completed all the fields in the application (
    see [check job configuration](article/checking-application-configuration))
 4. **in progress** and the contract page reports an error (also
@@ -251,7 +251,7 @@ Refresh?
 This usually happens when the job has **no intake availability** (capacity reached or intake closed). You can
 see this as a business user or as an individual applying.
 
-* As a business user, check the [job application controls](article/opportunity-controls)
+* As a business user, check the [opportunity controls](article/opportunity-controls)
 * As a jobseeker, they can see positions available on the top-left of the workflow or in the list view
 
 ::: prompt
