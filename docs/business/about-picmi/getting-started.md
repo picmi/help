@@ -3,6 +3,7 @@
 ## [Opportunity and engagement model](opportunity-engagement)
 - [Understanding the main elements](engagement-elements.md)
 - [Recruiting People](recruiting-people): three-stage model
+- [Engaging organisations](engaging-organisations): services engagement model
 
 ## [Creating an account](../article/creating-an-account.md)
 Signing up is free. Use your email address or Google account.

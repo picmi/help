@@ -6,6 +6,7 @@ export function sidebarBusiness() {
             collapsed: true,
             items: [
                 { text: 'Recruiting people', link: '/business/about-picmi/recruiting-people' },
+                { text: 'Engaging organisations', link: '/business/about-picmi/engaging-organisations' },
                 { text: 'Understanding users', link: '/business/about-picmi/understanding-users' },
                 { text: 'Understanding applications', link: '/business/about-picmi/applications' },
                 { text: 'Understanding hiring', link: '/business/about-picmi/hiring-elements' },

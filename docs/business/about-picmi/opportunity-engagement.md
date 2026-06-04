@@ -77,5 +77,6 @@ Manage status changes, re-engagement, and completion over time.
 ::::
 
 ::: prompt
-See the PICMI-specifc [Recruitment Model](recruiting-people.md).
+See the PICMI-specific [Recruitment Model](recruiting-people.md) and
+[Services Engagement Model](engaging-organisations.md).
 :::
