@@ -259,7 +259,6 @@ Useful information includes:
 - audit records
 - pay schedules
 - invoice and payment terms
-- worker welfare records
 - training records
 - GRASP details
 - GLOBALG.A.P. details
@@ -335,7 +334,7 @@ If the answer is unclear, fix the source information before relying on it in the
 
 ## Worksheet
 
-Download the [worksheet](https://drive.google.com/file/d/1A5lcpzkpJF-oBEfnkCn8-sNqWWIAfzuH/view) to help you prepare for creating or updating your workflow.
+[View](https://docs.google.com/document/d/1Pg_4BKpLEZ2jvIevy8zkiwphGSZUD_biG0S98nR_yKo/view)(and File > Download) or [make a copy of](https://docs.google.com/document/d/1Pg_4BKpLEZ2jvIevy8zkiwphGSZUD_biG0S98nR_yKo/copy)(requires google login) the worksheet to help you prepare for creating or updating your workflow.
 
 ## FAQs
 
