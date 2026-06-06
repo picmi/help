@@ -202,9 +202,10 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 { text: 'Adding questions', link: '/business/workflows/questions' },
+                { text: 'Adding Content blocks', link: '/business/workflows/content-blocks' },
                 { text: 'Updating workflows', link: '/business/workflows/updating-workflows' },
                 { text: 'Removing from workflows', link: '/business/workflows/removing-from-workflows' },
-                { text: 'Validating Workflows', link: '/business/workflows/validating-workflows' },
+                { text: 'Validating workflows', link: '/business/workflows/validating-workflows' },
                 {
                     text: 'Documents', collapsed: false, items: [
                         { text: 'Linked files', link: '/business/workflows/linked-files' },
