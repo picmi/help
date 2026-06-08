@@ -74,7 +74,8 @@ Here are some example of sub-alias email for `hone.smith@example.com`
   :::
 
 ::: faq What if someone has no email?
-PICMI can provide access with a provisional user. see [invites](article/opportunity-send-invite.md#opportunity-send-invite)
+PICMI can provide access with a provisional user.
+see [invites](article/opportunity-send-invite.md#opportunity-send-invite)
 :::
 
 :::: faq I can't find emails from PICMI, what to do?
@@ -273,7 +274,8 @@ This happens when the job has no intake availability.
 
 1. Either, increase the number of positions or (probably) cancel the application.
 2. For both, the person should be informed via a status message.
-    * When updating positions, [add a status message](article/status-message.md) to explain the change and have the person complete the application
+    * When updating positions, [add a status message](article/status-message.md) to explain the change and have the
+      person complete the application
       process (note: the email will contain a link back into PICMI)
     * When cancelling, [add a status message](article/status-message.md) to explain why.
 
@@ -346,7 +348,8 @@ staff member will need to accept it again for the updated rate to take effect.
 
 :::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are
 available and wish to work. Should I reissue their contract or reopen it?
-If you want to maintain the original contract then **reopen** back to accepted (and [add a status message](article/status-message.md) of the reason).
+If you want to maintain the original contract then **reopen** back to accepted (
+and [add a status message](article/status-message.md) of the reason).
 If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
 message.
 
@@ -419,6 +422,24 @@ about always let you know and this is easily sorted later on.
 * [What changes can be made?](about-picmi/applications#business-actions)
   :::
   ::::
+
+:::: faq Why can't businesses directly update contract answers or employee details?
+
+Contract answers and provided information are intentionally designed so they cannot be changed by one party after
+submission. This protects the integrity of the employment record and ensures PICMI retains an accurate record of the
+information originally provided by the employee.
+
+If information needs to be updated, the business cannot edit it directly. Instead, the application must be reissued
+so the employee can review and update their own details. While businesses may already know some of this information, it
+is important that the employee provides and confirms it themselves.
+
+::: prompt
+[Reissue the application](article/changing-application-status.md)
+and [add a status message](article/status-message.md) providing update instructions
+:::
+
+::::
+
 
 ::::: faq How can I change the dates of a job on an accepted application?
 This is change to the terms and the application must be reissued, the dates of the job changed in personal overrides and
@@ -520,7 +541,9 @@ FAQ.
 
 :::: faq The person needs a new link, how can I resend an email?
 
-Do **not** cancel and reissue the invite just to send another email, as this will not solve the problem. Instead, [add a status message](article/status-message.md) on the application around the conditions of why you are sending the email. The email itself will be sent with a new link that opens the application.
+Do **not** cancel and reissue the invite just to send another email, as this will not solve the problem.
+Instead, [add a status message](article/status-message.md) on the application around the conditions of why you are
+sending the email. The email itself will be sent with a new link that opens the application.
 
 ::: prompt
 A person will only need a new link after 30 days.
@@ -530,7 +553,8 @@ A person will only need a new link after 30 days.
 ## Notifications
 
 ::: faq Why am I receiving multiple notifications saying there is no intake availability?
-PICMI is designed to notify you immediately when an intake availability check is performed, ensuring that you’re kept up to date in
+PICMI is designed to notify you immediately when an intake availability check is performed, ensuring that you’re kept up
+to date in
 real time. However, if multiple checks are performed in quick succession—such as when retries are made—you might receive
 multiple notifications in a short period.
 
@@ -625,12 +649,12 @@ No placements or allocations are available.
 ::: faq What is the difference between Fixed Capacity and Active Allocation?
 The main difference is how completed or inactive engagements are treated.
 
-| Scenario                              | Fixed Capacity    | Active Allocation      |
-|---------------------------------------|-------------------|------------------------|
-| Person is offered                     | Counts            | Counts                 |
-| Person accepts                        | Counts            | Counts                 |
-| Person completes/finishes engagement  | Still counts      | Usually does not count |
-| Availability reopens after completion | No                | Yes                    |
+| Scenario                              | Fixed Capacity | Active Allocation      |
+|---------------------------------------|----------------|------------------------|
+| Person is offered                     | Counts         | Counts                 |
+| Person accepts                        | Counts         | Counts                 |
+| Person completes/finishes engagement  | Still counts   | Usually does not count |
+| Availability reopens after completion | No             | Yes                    |
 
 Use Fixed Capacity when you care about total placements or engagements.
 
@@ -674,7 +698,8 @@ For **Active Allocation**, usually no. Completed people have finished and no lon
 ::: faq Can I change the capacity limit later?
 Yes, but it generally cannot be reduced below already committed placements.
 
-For example, if there are already 8 counted applications, reducing the limit to 5 creates more committed people than available places.
+For example, if there are already 8 counted applications, reducing the limit to 5 creates more committed people than
+available places.
 :::
 
 ::: faq Can I increase the capacity limit later?
@@ -697,6 +722,7 @@ New capacity limit: 15
 Counted applications: 10
 Remaining: 5
 ```
+
 :::
 
 ::: faq Can I use Invites Only with unlimited intake?
@@ -731,6 +757,7 @@ Example:
 Capacity Model: Fixed Capacity
 Capacity Limit: Total number required
 ```
+
 :::
 
 ::: faq Which capacity model should I use for ongoing recruitment or service delivery?
@@ -745,6 +772,7 @@ Set **Intake Closed** to true.
 ```
 Intake Closed: true
 ```
+
 :::
 
 ::: faq Can intake have start and end dates?
@@ -761,7 +789,6 @@ Intake End Date: 31 August
 
 This can be used for seasonal recruitment, service periods, or programme windows.
 :::
-
 
 ## Changing Jobs, Roles, Contracts, and Applications
 
@@ -1005,8 +1032,10 @@ External ID and employee information) to our support team so we can investigate 
 
 ## Billing
 
-::: faq What should I do if I mistakenly send an application to the wrong person (or the wrong application to someone), and they accept it?
-It is recommended that you Terminate the application (and [add a status message](article/status-message.md)) and talk to us to ensure you get a credit.
+::: faq What should I do if I mistakenly send an application to the wrong person (or the wrong application to someone),
+and they accept it?
+It is recommended that you Terminate the application (and [add a status message](article/status-message.md)) and talk to
+us to ensure you get a credit.
 See [handling mistaken application invitations](about-picmi/billing.md#handling-mistaken-application-invitations)
 :::
 
@@ -1184,7 +1213,9 @@ To diagnose this:
   to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a> for support
 
 ::: prompt
-On any integration, [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) can be done multiple times without causing problems.
+On any
+integration, [create employee](integrations/integration-events.md#create-employee-manually-send-data-per-employee) can
+be done multiple times without causing problems.
 :::
 ::::
 
