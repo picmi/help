@@ -7,7 +7,7 @@ instead of recreating it each time.
 
 Content Blocks can be used for:
 
-- Pages
+- Page Titles
 - Headings
 - Images
 - Videos
@@ -30,12 +30,12 @@ Content Blocks are for:
 
 When creating a Content Block, you must choose a **Type**.
 
-| Type        | Use for                                                                         |
-|-------------|---------------------------------------------------------------------------------|
-| **Page**    | A page-style content block with a required title                                |
-| **Heading** | A heading or title with optional supporting details                             |
-| **Image**   | A web link to an image with optional title. See [linked files](./linked-files)  |
-| **Video**   | A web link to a video with optional title.  See [linked video](./linked-videos) |
+| Type           | Use for                                                                         |
+|----------------|---------------------------------------------------------------------------------|
+| **Page Title** | A page title content block                                                      |
+| **Heading**    | A heading or title with optional supporting details                             |
+| **Image**      | A web link to an image with optional title. See [linked files](./linked-files)  |
+| **Video**      | A web link to a video with optional title.  See [linked video](./linked-videos) |
 
 :::prompt
 The fields shown on the form may change depending on the type you select.
@@ -106,17 +106,18 @@ If no type is selected, the search includes the standard Content Block types:
 - Data
 - Heading
 - Video
-- Page
+- Page Title
 
 :::: instructions
+
 ## Show more details
 
 1. Select :::icon cog-outline::: **Customise Columns**
 2. Select any of the phases to view as new column titles:
-   * **Text**
-   * **Hidden**
-   * **Last modified**
-   * **Workflows**
+    * **Text**
+    * **Hidden**
+    * **Last modified**
+    * **Workflows**
 
 ::: prompt
 Learn more about [customise columns](../article/customise-columns.md)
