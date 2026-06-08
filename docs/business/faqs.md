@@ -210,8 +210,7 @@ It is likely that the [search filter](article/search.md) has the wrong status in
 your [search criteria in People](article/searching-for-people.md)
 :::
 
-:::faq What should I do if a person reports that they don't have the correct pay rate? (and you have changed the rate in
-personal overrides)
+:::faq What should I do if a person reports that they don't have the correct pay rate? (and have personal overrides)
 First check the <b>Personal Overrides</b> in the <b>People</b> page to confirm that the rate is correct. If it is:
 
 1. Instruct the person to use Update Contract above the contract in the application workflow.
@@ -247,8 +246,8 @@ When contacting PICMI, see our [guide on writing emails to help us diagnose the 
 :::
 ::::
 
-:::: faq What should I do when an individual applying reports they cannot sign and only have the option to Cancel or
-Refresh?
+:::: faq What should I do when an individual applying reports they cannot sign and can only Cancel/Refresh?
+
 This usually happens when the job has **no intake availability** (capacity reached or intake closed). You can
 see this as a business user or as an individual applying.
 
@@ -440,11 +439,11 @@ and [add a status message](article/status-message.md) providing update instructi
 
 ::::
 
-
 ::::: faq How can I change the dates of a job on an accepted application?
 This is change to the terms and the application must be reissued, the dates of the job changed in personal overrides and
 then re-agreed.
 
+:::: explanation
 :::: explanation
 
 ### Steps
