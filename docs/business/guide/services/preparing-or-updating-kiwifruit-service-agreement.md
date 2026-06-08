@@ -41,8 +41,11 @@ See the full [Kiwifruit Services Agreement Workflow](./kiwifruit-template.md) fo
 
 ## Section 4: Subcontractors
 
-Section 4 helps the grower understand subcontracting on their orchard. If you don't use subcontracting, then this page
-can be removed from the workflow.
+Section 4 helps the grower understand subcontracting on their orchard. 
+
+::: prompt 
+If you don't use subcontracting, then it can be explicitly stated that subcontractors are not used.
+:::
 
 When a contractor uses subcontractors to deliver services, the grower needs to know who may be working on their
 property. This is not just for visibility. It also supports the grower's own responsibilities as the host.
@@ -385,11 +388,7 @@ See [Section 4: Subcontractors](#section-4-subcontractors).
 :::
 
 ::: faq I do not subcontract. What should I do?
-If subcontracting does not apply, remove the subcontractors page from the workflow.
-
-This keeps the agreement cleaner for growers because they do not need to review a section that is not relevant. Remember
-that removing the page may change the section numbering in your workflow, so check the preview before sending the
-agreement.
+If subcontracting does not apply, add explicitly that subcontractors are not used.
 
 See [Section 4: Subcontractors](#section-4-subcontractors) and [Kiwifruit Services Agreement Workflow](./kiwifruit-template.md).
 :::
