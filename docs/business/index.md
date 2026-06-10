@@ -15,12 +15,14 @@
 
 - [Create opportunity](article/opportunity-create)
 - [Understanding opportunity status](article/opportunity-status)
+- [Archiving and restoring opportunities and applications](article/archiving-and-restoring)
 - [Duplicate an opportunity](article/opportunity-duplicate)
 - [Preview an opportunity](article/opportunity-preview)
 - [Prepare an opportunity ready to publish](guide/jobs/preparing-a-job-ready-publish.md)
 
 ## Applications
 
+- [Archiving and restoring opportunities and applications](article/archiving-and-restoring)
 - [Changing application status](article/changing-application-status)
 - [Bulk applications status change](article/bulk-status-change)
 - [Opportunity controls](article/opportunity-controls)

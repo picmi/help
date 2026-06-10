@@ -153,6 +153,7 @@ export function sidebarBusiness() {
                 { text: 'Duplicate', link: '/business/article/opportunity-duplicate' },
                 { text: 'Preview', link: '/business/article/opportunity-preview' },
                 { text: 'Publish', link: '/business/article/preparing-a-job-ready-publish' },
+                { text: 'Archive and restore', link: '/business/article/archiving-and-restoring' },
             ],
         },
         {
@@ -195,6 +196,7 @@ export function sidebarBusiness() {
                     text: 'Export application details',
                     link: '/business/article/export'
                 },
+                { text: 'Archive and restore', link: '/business/article/archiving-and-restoring' },
             ],
         },
         {
