@@ -17,7 +17,7 @@ export function sidebarBusiness() {
                 },
                 { text: 'Understanding workflows', link: '/business/about-picmi/understanding-workflows' },
                 {
-                    text: 'Understanding items on workflows',
+                    text: 'Understanding workflow reusable content',
                     link: '/business/about-picmi/understanding-workflow-items'
                 },
                 { text: 'Understanding billing', link: '/business/about-picmi/billing' },
@@ -42,7 +42,7 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 {
-                    text: 'Understanding Jobs, Roles, Contracts, and Applications',
+                    text: 'Understanding jobs, roles, contracts, and applications',
                     link: '/business/guide/understanding-picmi-vs-you'
                 },
                 {
@@ -76,7 +76,7 @@ export function sidebarBusiness() {
                             link: '/business/guide/services/kiwifruit-template'
                         },
                         {
-                            text: 'Prepare or update a Kiwifruit Services Agreement',
+                            text: 'Prepare or update a kiwifruit services agreement',
                             link: '/business/guide/services/preparing-or-updating-kiwifruit-service-agreement'
                         },
                         {
@@ -128,11 +128,11 @@ export function sidebarBusiness() {
                     ]
                 },
                 {
-                    text: 'Bank Account Numbers (NZ)',
+                    text: 'Bank account numbers (NZ)',
                     link: '/business/guide/bank-account'
                 },
                 {
-                    text: 'Employer KiwiSaver Subsidy Rates (Effective 1 April 2026)',
+                    text: 'Employer kiwiSaver subsidy rates (effective 1 April 2026)',
                     link: '/business/guide/kiwisaver-subsidy-rates'
                 },
             ]
@@ -204,7 +204,7 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 { text: 'Adding questions', link: '/business/workflows/questions' },
-                { text: 'Adding Content blocks', link: '/business/workflows/content-blocks' },
+                { text: 'Adding content blocks', link: '/business/workflows/content-blocks' },
                 { text: 'Updating workflows', link: '/business/workflows/updating-workflows' },
                 { text: 'Removing from workflows', link: '/business/workflows/removing-from-workflows' },
                 { text: 'Validating workflows', link: '/business/workflows/validating-workflows' },

@@ -5,6 +5,10 @@ employment or service agreements. Workflows guide participants through all neces
 declarations,
 and documentation before presenting them with an agreement.
 
+::: prompt
+Once you understand what a workflow is, you need to understand how
+PICMI [builds workflows through reusing and combining the building blocks of underlying items](./understanding-workflow-items.md).
+
 ## What is a workflow?
 
 Workflows are the backbone of PICMI's application process. They ensure that:
@@ -25,7 +29,7 @@ Every workflow is organised into **pages**, and each page contains **items** tha
 
 :::prompt
 PICMI has industry-standard workflows that have been tested and approved by the PICMI team ready for you to use. They
-are built to be flexible and easy to adapt to your organisation's needs. PICMI finds most organisation may adjust 3-5
+are built to be flexible and easy to adapt to your organisation's needs. PICMI finds most organisations may adjust 3-5
 items to suit their needs.
 :::
 
@@ -44,14 +48,14 @@ Pages group related content together to make the application process manageable 
 
 Each page contains **items** that serve different purposes:
 
-| Item Type           | Purpose                                                                           |
-|---------------------|-----------------------------------------------------------------------------------|
-| **Questions**       | Collect information from participants (text, dates, files, choices, declarations) |
-| **Information**     | Display known fields or details the participant needs to review                   |
-| **Section Heading** | Break up content with titles and explanatory text                                 |
-| **Section Image**   | Show visual content like photos or diagrams                                       |
-| **Section Video**   | Embed video content to explain roles or environments                              |
-| **Section Data**    | Present structured data or tables                                                 |
+| Item Type                | Purpose                                                                           |
+|--------------------------|-----------------------------------------------------------------------------------|
+| **Questions**            | Collect information from participants (text, dates, files, choices, declarations) |
+| **Personal Information** | Known fields or details about the participant                                     |
+| **Heading**              | Break up content with titles and explanatory text                                 |
+| **Image**                | Show visual content like photos or diagrams                                       |
+| **Video**                | Embed video content to explain roles or environments                              |
+| **Contract**             | Embed contract template                                                           |
 
 ::: prompt
 Items appear in the order you configure them within each page. Thoughtful ordering improves completion rates.
@@ -68,7 +72,7 @@ collect:
 
 - Personal information and contact details
 - Right to work verification
-- Tax and KiwiSaver information
+- Tax and superannuation information
 - Bank account details
 - Health and safety acknowledgments
 - Role-specific declarations
@@ -140,9 +144,9 @@ relationships rather than employer-employee relationships.
 
 Regardless of type, all workflows share certain elements:
 
-### Contract templates
+### Contracts
 
-Every workflow includes a **contract template** that:
+Every workflow includes a **contract** that:
 
 - Uses field substitutions (chips) to dynamically insert data
 - Pulls information from organisation details, job details, workflow answers, and personal overrides

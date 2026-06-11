@@ -5,9 +5,28 @@
 
     --vp-font-family-base: 'Lato', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-    --vp-layout-max-width: 1920px;
+    /*--vp-layout-max-width: 1920px;*/
 }
 
+.vp-doc ul,
+.vp-doc ol {
+    /* preserved block spacing */
+    margin: 1rem 0;
+    /* more indentation */
+    padding-left: 2.5rem;
+}
+
+.vp-doc li {
+    /* slightly tighter line height */
+    line-height: 1.45;
+}
+
+/* tighter line height */
+.vp-doc li + li {
+    margin-top: 0.25rem;
+}
+
+/*
 .VPDoc:not(.has-sidebar) .container {
     max-width: 1584px !important;
 }
@@ -19,6 +38,7 @@
 .VPDoc.has-aside .content-container {
     max-width: 1168px !important;
 }
+*/
 
 /*
  * Integration field tables have anchor cells in the first column
@@ -39,5 +59,4 @@ tr td:first-child a[href]:hover::before {
     left: -12px; /* Adjusts the position to the left */
     color: var(--vp-c-brand-1);
 }
-
 

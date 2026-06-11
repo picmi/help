@@ -1,106 +1,202 @@
-# Understanding Items in Workflows (shared, specific and linked)
+# Understanding workflow reusable content
 
-PICMI [workflows](understanding-workflows.md) are built from three (plus one) layers:
+PICMI [workflows](understanding-workflows.md) are built by combining structure with reusable content.
 
-1. **Workflows**
-2. **Pages** inside each workflow
-3. **Items** on each page (such as questions, personal information fields, headings, files, and videos)
-4. (plus one) **Links on items** to external files or videos
-
-:::prompt
-Some items are **shared across many workflows**, while others belong **only to one workflow**. Updates behave differently depending on which type you are working with.  
-:::
-
-This guide explains how updates flow so you know what will change—and where.
-
-:::explanation
-## 1. Shared Items Used Across Multiple Workflows
-
-**(Example: Questions and Personal Information fields)**
-
-Some items in PICMI are used in more than one workflow. These live in a central place.
-
-### When you update these items:
-
-- The change appears in **every workflow that uses them**
-- You only need to update them once
-- This can save a lot of time
-
-### Important to know:
-
-If you edit a shared question (for example, adding options or changing the wording),  
-**all workflows using that question will immediately show the new version**.
-
-If you need that item to be different in different workflows, create a separate copy. (This is rare in practice.)
-:::
-
-::::explanation
-
-## 2. Specific Items That Belong to One Workflow
-
-**(Example: Headings, videos, file links)**
-
-These items only exist in the workflow where you added them.
-
-### When you update them:
-
-- The change happens **only in that single workflow**
-- Other workflows will not change
-- If you want the same update in other workflows, you will need to edit each one
-
-### Example:
-
-If you replace a video or update a heading, you need to make the same change everywhere it appears.  
-These items do *not* update automatically across multiple workflows.
+The workflow itself controls the participant journey: which pages they see, which items appear on each page, and the
+order those items appear in. The wording, questions, contracts, images, and videos sit underneath that structure as
+reusable building blocks.
 
 :::prompt
-PICMI is exploring shared versions of these items in the future.
+The key goal is **consistency across workflows through reuse**. When the same question, contract, content block, or file
+is needed in more than one place, link to the shared version instead of making a separate copy.
 :::
-::::
+
+## The Workflow Structure
+
+A workflow is made up of:
+
+1. **Pages**
+2. **Items** on each page
+
+This is the skeleton of the workflow. It controls grouping and order.
+
+### Pages
+
+Pages group related parts of the workflow together. For example:
+
+- Check Your Fit
+- Personal Information
+- Health & Safety
+- Right to Work
+- Agreement
+
+Changing pages changes the structure of the workflow. For example, you might add a new page, rename a page, remove a
+page, or move a page earlier or later in the workflow.
+
+### Items
+
+Items are the things placed on pages. They decide what appears in the workflow and in what order. An item might link to:
+
+- a question
+- a contract
+- a content block
+
+Changing items changes the structure inside a page. For example, you might move a question above a video, add a
+contract item to the Agreement page, or remove an image from a page.
+
+:::prompt
+Pages and items tell PICMI **where something appears**. The linked question, contract, content block, or file controls
+**what the participant sees**.
+:::
+
+## The Reusable Building Blocks
+
+Underneath the workflow structure are reusable building blocks. These are maintained separately and then linked into
+pages and items.
+
+| Building block      | What it controls                                        | Where it links                                 | Reuse example                                             |
+|---------------------|---------------------------------------------------------|------------------------------------------------|-----------------------------------------------------------|
+| **Questions**       | The wording, answer type, options, and validation        | Items on pages                                 | The same right-to-work question used in many workflows    |
+| **Contracts**       | The contract template shown or issued through a workflow | Items on pages                                 | The same employment agreement used across similar jobs    |
+| **Content blocks**  | Page titles, headings, videos, and images                | Page titles link to pages; other blocks to items | The same health and safety heading reused on many pages   |
+
+When a reusable building block is updated, every page or item linking to that building block can show the updated
+version. This is useful when the change should be consistent everywhere.
 
 :::explanation
+## Content Blocks
 
-## 3. Linked Files and Videos Stored Outside PICMI
+Content blocks are reusable pieces of workflow content. They are split into different types:
 
-**(Example: PDFs in Google Drive, videos on YouTube)**
+- **Page titles**
+- **Headings**
+- **Videos**
+- **Images**
 
-Some items in PICMI do not contain the content directly.  
-They simply **link** to a file or video stored somewhere else.
+Page titles and headings are both title content, but they are used at different levels:
 
-Think of these as a **window** to the content rather than a copy of it.
+- **Page titles** link only to pages. They name the page and do not have extra explanatory text.
+- **Headings** link to items on a page. They can include a title and optional extra text.
 
-### When you update the file at the source:
-
-- The person completing the workflow will see the new version
-- You do not need to change anything in PICMI  
-  **as long as the link stays the same**
-
-### Example:
-
-If you replace a PDF inside Google Drive but keep the same file location:  
-Every workflow using that link will show the updated PDF automatically.
-
-This can be very helpful, but it can also surprise people who expect the workflow to keep the old version.
+Video and image content blocks also link to items on a page. This means the same heading, video, or image reference can
+be reused in more than one workflow item, while the same page title can be reused across pages.
 :::
 
-## Summary Table
+## Files Linked From Content Blocks
 
-| Type of Item                                                         | What Happens When You Update It?                                  | Where Do Changes Show Up?     |
-|----------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------|
-| **Shared items** (questions, Personal Information fields)            | Update once → changes everywhere                                  | All workflows using that item |
-| **Workflow-specific items** (headings, images, videos, instructions) | Update stays only in that workflow                                | Only the workflow you edited  |
-| **Linked external files** (Drive PDFs, YouTube videos)               | Update the file in Drive/YouTube → PICMI shows the latest version | All workflows using the link  |
+Video and image content blocks can also link to files that are stored separately.
 
+For example:
 
-## Why This Matters for You
+- a video content block may link to a YouTube video
+- an image content block may link to an image file
+- a file or document shown in the workflow may be stored outside PICMI
 
-Understanding how updates work helps you:
+This creates another layer of reuse. The workflow links to a content block, and the content block links to the file.
 
-- Avoid surprises when a change appears in more than one workflow
-- Know when you must update multiple workflows manually
-- Understand why updating a PDF in Google Drive updates PICMI automatically
-- Make better choices about when to reuse items or when to ask for a separate copy
+:::prompt
+If the file changes but the link stays the same, the workflow can show the updated file without changing the workflow
+structure.
+:::
 
-This helps keep your workflows clean, consistent, and up to date.
+See [Linked files](../workflows/linked-files.md) and [Linked videos](../workflows/linked-videos.md) for more detail.
 
-If you ever need help deciding which type of item you are editing, PICMI Support is here to help.
+## How Updates Flow
+
+| What you change                     | What changes in PICMI                                  | Best used when                                           |
+|-------------------------------------|--------------------------------------------------------|----------------------------------------------------------|
+| **Pages**                           | The grouping and order of the workflow                 | The participant journey needs to change                  |
+| **Items on a page**                 | What appears on a page and in what order               | A question, contract, image, video, or heading moves     |
+| **Question**                        | The question wording, answer format, options, or rules | The same answer should be collected consistently         |
+| **Contract**                        | The contract template linked through the workflow      | Agreement wording or substitutions need to change        |
+| **Page title content block**        | The reusable title linked to a page                    | A page needs a consistent title                          |
+| **Heading content block**           | The reusable heading item and optional extra text      | A heading or short explanation should be reused          |
+| **Video or image content block**     | The reusable media reference linked to an item         | The displayed media reference should be reused           |
+| **File linked from a content block** | The underlying video, image, or downloadable file      | The source file needs to be replaced or corrected        |
+
+## Decision Tree: What Should I Change?
+
+Start with the problem you are trying to solve.
+
+### 1. Is the workflow in the wrong order or grouped incorrectly?
+
+Change the **workflow structure**.
+
+Use this when:
+
+- a page is missing
+- pages are in the wrong order
+- an item is on the wrong page
+- an item needs to move up or down
+- the workflow needs a different sequence for participants
+
+This is a pages and items change.
+
+### 2. Is the wording, question, contract, page title, heading, video reference, or image reference wrong?
+
+Change the **linked reusable building block**.
+
+Use this when:
+
+- a question needs clearer wording
+- question options or validation need to change
+- a contract template needs updated terms
+- a page title needs new wording
+- a heading title or its optional extra text needs new wording
+- a video or image content block points to the wrong media
+
+Before changing it, check whether the same building block is reused elsewhere. If it is reused, make the change only
+when the same update should appear everywhere that block is used.
+
+### 3. Is the downloadable file, video file, or image file wrong?
+
+Change the **source file**.
+
+Use this when:
+
+- the PDF has been updated
+- the video has been replaced
+- the image file is incorrect
+- the content is right, but the file itself is outdated
+
+If the file can be replaced while keeping the same permanent link, the content block and workflow do not need to change.
+
+### 4. Should this change apply everywhere or only in one workflow?
+
+Decide whether to reuse or separate.
+
+Use the existing shared building block when the change should be consistent across workflows. Create or link a separate
+building block when one workflow needs different wording, a different contract, or different media.
+
+:::explanation
+## Practical Examples
+
+**The health and safety video is on the wrong page.**
+
+Change the page item placement. The video content block may not need to change.
+
+**The same health and safety heading has a spelling mistake everywhere.**
+
+Change the shared heading content block once.
+
+**One workflow needs a different version of a question.**
+
+Create or link a separate question for that workflow instead of changing the shared question.
+
+**The PDF linked from a workflow is outdated.**
+
+Replace the source file while keeping the same permanent link, where possible.
+:::
+
+## Why This Matters
+
+Separating structure from reusable content helps you:
+
+- keep workflows consistent
+- avoid editing the same wording in many places
+- control whether a change affects one workflow or many workflows
+- update files without rebuilding the workflow
+- understand whether a problem is about structure, wording, or the source file
+
+If you are not sure which layer to change, identify what is wrong first: the workflow grouping and order, the reusable
+wording or content, or the file linked underneath it.
