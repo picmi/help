@@ -31,7 +31,7 @@
 - [Provisional users with shared email](article/provisional-user-with-shared-email.md)
 - [Change pay rates for applications](article/changing-pay-rates-for-applications)
 - [Add individual employment conditions](article/creating-individual-employment-conditions)
-- [Checking application configuration](article/checking-application-configuration)
+- [Check Configuration and field validation](article/checking-application-configuration)
 - [Add status message](article/status-message)
 - [Contract and personal details](article/contract-and-personal-details.md)
 - [Export application details](article/export.md)
@@ -58,6 +58,7 @@
 ## Integrations
 
 - [Setting up integrations](integrations/setting-up-integrations.md)
+- [Fix Check Configuration integration errors](article/checking-application-configuration#failed-integration-fields)
 - [Available integrations](integrations/integrations)
 - [Integration events](integrations/integration-events)
 - [Download reports](integrations/download-reports)

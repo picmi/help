@@ -3,7 +3,9 @@
 All jobs must have a valid configuration for a person to complete an application that includes, send an invite as well as receive an offer or agree on their application. Below explains why there is more than just the fields on the job to consider in most cases that is part of [previewing a listing](../../article/opportunity-preview). By checking a configuration on a job, you can identify and resolve any issues that may prevent a jobseeker from completing an application.
 
 ::: prompt
-The job configuration will always be validated an [inviting a person](../../article/opportunity-send-invite), [duplicating a job](../../article/opportunity-duplicate) and when completing the application
+PICMI also checks the job configuration when [inviting a person](../../article/opportunity-send-invite),
+[duplicating a job](../../article/opportunity-duplicate), making an offer, and completing an application. See
+[Check Configuration and field validation](../../article/checking-application-configuration) for detailed fixes.
 :::
 
 :::: explanation
@@ -38,8 +40,7 @@ If the job configuration includes **integrations**:
 2. Locate the **job** row :::icon checkbox-marked-outline:::
 3. Click &vellip; (vertical dots) to open the menu
 4. Select **Check Configuration** 
-5. Confirm the **Validate** status
+5. Confirm the **Check Configuration** status
    * :::icon check primary::: for success 
    * :::icon exclamation::: for errors&mdash;ensure they are fixed before sending invites
 ::::
-

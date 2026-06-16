@@ -120,7 +120,7 @@ Before using your workflow, validate that it's correctly configured.
 5. Fix any errors :::icon exclamation::: before sending invites
 :::
 
-See [checking application configuration](../../article/checking-application-configuration) for more details.
+See [Check Configuration and field validation](../../article/checking-application-configuration) for more details.
 
 **Related articles:**
 

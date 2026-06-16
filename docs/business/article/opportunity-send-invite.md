@@ -3,7 +3,10 @@
 Once you've [created an opportunity](opportunity-create.md) (ideally [duplicated](opportunity-duplicate.md)), it should be straight forward to invite people to apply for a job or service proposal. 
 
 ::: prompt
-Before you send out an invitation, ensure that the opportunity and application workflow is all correctly configured and that intake availability is enough for the opportunity. See [restrictions on actions](../about-picmi/applications.md#restrictions-on-actions).
+Before you send out an invitation, ensure that the opportunity and application workflow is correctly configured and that
+intake availability is enough for the opportunity. If **Check Configuration** appears when sending an invite, fix the
+failed rows before sending. See [Check Configuration and field validation](checking-application-configuration) and
+[restrictions on actions](../about-picmi/applications.md#restrictions-on-actions).
 :::
 
 :::: explanation

@@ -94,6 +94,13 @@ in PICMI and can download the contract.
 
 ## Invites
 
+::: faq Why did Check Configuration appear when I tried to send invites?
+PICMI checks the opportunity before sending invites so people are not invited into an application that cannot later
+produce a contract or send required integration data. Fix any failed rows, then send the invite again.
+
+See [Check Configuration and field validation](article/checking-application-configuration).
+:::
+
 :::: faq How do I cancel a job invite for people?
 Change their application status with the [Cancel action](article/changing-application-status).
 
@@ -310,7 +317,7 @@ will persist and be available without needing to be re-entered.
 
 ::: faq What should I do if a person reports 'This contract still needs information from your application'?
 One of the fields in the contract cannot be completed. The jobseeker will see a RED area where it is broken. However, as
-a business fix using the steps in [checking application configuration](article/checking-application-configuration)
+a business fix using the steps in [Check Configuration and field validation](article/checking-application-configuration)
 :::
 
 ::: faq Jobseeker (or business user) reports the error 'Business cannot apply for a job', what to do?
@@ -937,6 +944,14 @@ Each application represents a **separate employment period**.
 :::
 
 ## Integrations
+
+::: faq Why do some integration fields fail Check Configuration?
+Fields fail when an enabled integration needs the value but PICMI cannot
+find a valid source for it. Check that the workflow has the required questions or information fields, then
+check the integration mapping points to those fields.
+
+See [Check Configuration](article/checking-application-configuration).
+:::
 
 ::: faq How can I setup a new integration?
 PICMI currently has over a dozen integrations available. At this stage, please reach out to our support team via

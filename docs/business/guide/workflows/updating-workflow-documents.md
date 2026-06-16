@@ -125,5 +125,4 @@ After updating your workflow documents, consider:
 - [Creating a workflow](creating-a-workflow)
 - [Updating workflows](../../workflows/updating-workflows)
 - [Creating a contract template](../../article/creating-a-contract-template)
-- [Checking application configuration](../../article/checking-application-configuration)
-
+- [Check Configuration and field validation](../../article/checking-application-configuration)

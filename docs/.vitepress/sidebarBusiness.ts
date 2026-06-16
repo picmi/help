@@ -177,7 +177,7 @@ export function sidebarBusiness() {
                     link: '/business/article/creating-individual-employment-conditions'
                 },
                 {
-                    text: 'Checking application configuration',
+                    text: 'Check Configuration',
                     link: '/business/article/checking-application-configuration'
                 },
                 {
