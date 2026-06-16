@@ -17,17 +17,23 @@ contract template, opportunity, organisation, and integrations.
 If any fields show in the Passed column **Not found** and the Source column has **Integration**, PICMI cannot
 find where that required value should come from.
 
-For example, with PayHero, KiwiSaver fields usually need to come from workflow questions fields.
+The most likely cause is a duplicate workflow question. The question may exist, but the active workflow or integration
+mapping may be referencing a different question with the same name.
+
+For example, with PayHero, KiwiSaver fields usually need to come from workflow question fields.
 If those questions are missing, removed, or not mapped, the integration cannot pass Check Configuration.
 
 To fix this:
 
 1. Check the opportunity has the correct workflow
 2. Check the workflow includes the required questions or information fields from the Title column
-3. Check the integration mapping points to those fields
-4. If the integration should not be used for this opportunity, turn it off or remove that integration setting
+3. Check whether there are duplicate questions with the same name
+4. Check the integration mapping points to the question used by the workflow, not another duplicate
+5. If the integration should not be used for this opportunity, turn it off or remove that integration setting
 
 Save the changes and run **Check Configuration** again
+
+See [Managing Duplicate Questions](../workflows/managing-duplicate-questions.md) for more detail.
 
 ::: prompt
 A field can pass even if the applicant has not answered it yet. Check Configuration is checking that the field has a
@@ -122,6 +128,10 @@ Open the opportunity, select or create the correct workflow, save, and run **Che
 
 **Not found** means an enabled integration requires this field, but PICMI cannot find a valid source.
 
+If the missing value should come from a workflow question, this is most often caused by duplicate questions. A person may
+see the right question name in the workflow or mapping, but PICMI may be referencing a different question with the same
+name.
+
 The source might need to be:
 
 * a workflow question
@@ -135,7 +145,8 @@ Review the integration settings for the opportunity, update the mapping, save, a
 
 ::: prompt
 If a mapped workflow question was deleted or replaced, the mapping may need to be updated even though the integration
-was previously working.
+was previously working. If there are duplicate questions, check that the mapping points to the same question used by the
+workflow.
 :::
 
 ## Successful rows that need no action
@@ -163,6 +174,12 @@ contract or send required integration data.
 It usually means the active integration (eg Payroll) needs values from a mapped question (eg `KiwiSaverStatus` or `KiwiSaverRate`),
 but those fields are not mapped to a workflow question, personal field, opportunity field, integration setting, or
 default value. Fix the mapping or turn off the integration for that opportunity if it should not be used.
+:::
+
+::: faq Why does an Integration field show **Not found** when the question exists?
+The most likely cause is a duplicate question. Two questions can have the same name, so the workflow may look correct
+while it is actually referencing a different question from the one used by the integration mapping. See
+[Managing Duplicate Questions](../workflows/managing-duplicate-questions.md).
 :::
 
 ::: faq Why does a row pass when Current Value is blank?

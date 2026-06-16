@@ -204,6 +204,7 @@ export function sidebarBusiness() {
             collapsed: false,
             items: [
                 { text: 'Adding questions', link: '/business/workflows/questions' },
+                { text: 'Managing duplicate questions', link: '/business/workflows/managing-duplicate-questions' },
                 { text: 'Adding content blocks', link: '/business/workflows/content-blocks' },
                 { text: 'Updating workflows', link: '/business/workflows/updating-workflows' },
                 { text: 'Removing from workflows', link: '/business/workflows/removing-from-workflows' },

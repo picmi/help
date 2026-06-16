@@ -89,6 +89,8 @@ To avoid this:
 - Remove duplicate or very similar questions in your question library
 - Then reset or review your mappings
 
+See [Managing Duplicate Questions](../workflows/managing-duplicate-questions.md) for how to find and fix duplicates.
+
 This helps ensure the correct data is always sent to the integration.
 :::
 

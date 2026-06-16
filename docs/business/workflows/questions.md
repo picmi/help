@@ -63,6 +63,9 @@ Tip: Keep prompts short and specific (e.g., “Photo of passport page”).
 
 Edits to a question affect future use. Active, in‑progress candidate sessions may not retroactively change.
 
+When duplicating a question, rename the copy clearly before adding it to workflows or integration mappings. See
+[Managing Duplicate Questions](./managing-duplicate-questions.md).
+
 ## Organising and Finding Questions
 
 - Use the search bar to find by prompt text.

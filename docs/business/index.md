@@ -38,6 +38,7 @@
 
 ## Workflows
 
+- [Managing duplicate questions](workflows/managing-duplicate-questions.md)
 - [Linked files](workflows/linked-files)
 - [Linked videos](workflows/linked-videos)
 - [Work status questions](workflows/questions-work-status.md)
