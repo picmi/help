@@ -20,6 +20,19 @@ export default defineConfig({
             icon(md);
         }
     },
+    vite: {
+        css: {
+            preprocessorOptions: {
+                scss: {
+                    api: 'modern-compiler'
+                }
+            }
+        },
+        build: {
+            // the size of the local search file
+            chunkSizeWarningLimit: 1000
+        }
+    },
     ignoreDeadLinks: [
         (url) => {
             return url.toLowerCase().includes('template.docx')
@@ -58,4 +71,3 @@ export default defineConfig({
         // ['link', { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato&display=swap" }],
     ],
 });
-
