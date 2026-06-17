@@ -324,6 +324,11 @@
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz#3188bcb273a414b0d215fd22a58540b989b9409a"
   integrity sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==
 
+"@msgpack/msgpack@^3.1.2":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@msgpack/msgpack/-/msgpack-3.1.3.tgz#c4bff2b9539faf0882f3ee03537a7e9a4b3a7864"
+  integrity sha512-47XIizs9XZXvuJgoaJUIE2lFoID8ugvc0jzSHP+Ptfk8nTbnR8g788wv48N03Kx0UkAv559HWRQ3yzOgzlRNUA==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -344,6 +349,21 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@orama/orama@3.1.18", "@orama/orama@^3.1.16":
+  version "3.1.18"
+  resolved "https://registry.yarnpkg.com/@orama/orama/-/orama-3.1.18.tgz#c52f510c42c81f5082fd61b92af889777b26096a"
+  integrity sha512-a61ljmRVVyG5MC/698C8/FfFDw5a8LOIvyOLW5fztgUXqUpc1jOfQzOitSCbge657OgXXThmY3Tk8fpiDb4UcA==
+
+"@orama/plugin-data-persistence@^3.1.16":
+  version "3.1.18"
+  resolved "https://registry.yarnpkg.com/@orama/plugin-data-persistence/-/plugin-data-persistence-3.1.18.tgz#74ca1f3b8366055c5f67c8ae73d7e09afc6785be"
+  integrity sha512-pfBbpK96VRW/7IkdMHn2HaW3/+4k2C9Uwyup0IONNuz5bG3L1orCNFZPBmu+zcokOU2YH+IAVuQz6MlvqOe3iw==
+  dependencies:
+    "@msgpack/msgpack" "^3.1.2"
+    "@orama/orama" "3.1.18"
+    dpack "^0.6.22"
+    seqproto "^0.2.3"
 
 "@rollup/rollup-android-arm-eabi@4.24.0":
   version "4.24.0"
@@ -779,6 +799,11 @@ devlop@^1.0.0:
   integrity sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==
   dependencies:
     dequal "^2.0.0"
+
+dpack@^0.6.22:
+  version "0.6.22"
+  resolved "https://registry.yarnpkg.com/dpack/-/dpack-0.6.22.tgz#e1c863e0145d6670d92380db1dfa93a4cf97d252"
+  integrity sha512-WGPNlW2OAE7Bj0eODMpAHUcEqxrlg01e9OFZDxQodminIgC194/cRHT7K04Z1j7AUEWTeeplYGrIv/xRdwU9Hg==
 
 entities@^4.5.0:
   version "4.5.0"
@@ -1346,6 +1371,11 @@ section-matter@^1.0.0:
     extend-shallow "^2.0.1"
     kind-of "^6.0.0"
 
+seqproto@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/seqproto/-/seqproto-0.2.3.tgz#cc0c2a00e93312d08d5c2165d668f4dfe83d6edd"
+  integrity sha512-HpNyPYl7DJa2a6XQJ+MJAc6ft6Y9ZU+zRiuvTHFpLPeqvapcTAGFJyhMEIN7Y7VXhWT6NEdNVhbXFHwtaCOfCw==
+
 shiki@1.21.0, shiki@^1.13.0:
   version "1.21.0"
   resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.21.0.tgz#11debe38d5cc9c4a0e931632de574785c4677039"
@@ -1474,6 +1504,14 @@ varint@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/varint/-/varint-6.0.0.tgz#9881eb0ce8feaea6512439d19ddf84bf551661d0"
   integrity sha512-cXEIW6cfr15lFv563k4GuVuW/fiwjknytD37jIOLSdSWuOI6WnO/oKwmP2FQTU2l01LP8/M5TSAJpzUaGe3uWg==
+
+vetradocs-vitepress@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vetradocs-vitepress/-/vetradocs-vitepress-1.0.4.tgz#7fcd1713b82fe578fbaf6e6799803e0070828764"
+  integrity sha512-SLbb0SMEIYChM+uzbbaoJT57AS43vwjFs8sRgllzIIIyMfF2zs+THwyE4IFTF5lOP7eRp7KGmAicugIqmJjREg==
+  dependencies:
+    "@orama/orama" "^3.1.16"
+    "@orama/plugin-data-persistence" "^3.1.16"
 
 vfile-message@^4.0.0:
   version "4.0.2"

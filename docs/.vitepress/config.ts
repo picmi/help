@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vitepress'
 import { nav } from './nav';
 import { sidebarJobseeker } from './sidebarJobseeker';
@@ -6,6 +7,7 @@ import { explanation, faq, instructions, prompt } from '../../plugins/markdown-i
 import { icon } from '../../plugins/markdown-it-inline';
 
 // const version = '1.0.0';
+const dpackBrowserShim = fileURLToPath(new URL('./shims/dpack.ts', import.meta.url));
 
 export default defineConfig({
     lang: 'en-US',
@@ -31,6 +33,14 @@ export default defineConfig({
         build: {
             // the size of the local search file
             chunkSizeWarningLimit: 1000
+        },
+        resolve: {
+            alias: {
+                dpack: dpackBrowserShim
+            }
+        },
+        ssr: {
+            noExternal: ['vetradocs-vitepress']
         }
     },
     ignoreDeadLinks: [

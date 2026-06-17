@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import Layout from './Layout.vue'
 import './custom.css'
 import faq from '../../../components/faq.vue'
 import explanation from '../../../components/explanation.vue'
@@ -8,6 +9,7 @@ import { Theme } from 'vitepress';
 
 export default {
     extends: DefaultTheme,
+    Layout,
     enhanceApp({ app }) {
         app.component('faq', faq)
         app.component('explanation', explanation)
