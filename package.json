@@ -4,20 +4,28 @@
   "main": "index.js",
   "type": "module",
   "license": "MIT",
+  "engines": {
+    "node": ">=24 <25"
+  },
   "scripts": {
-    "docs:build-index": "node ./node_modules/vetradocs-vitepress/bin/build-index.mjs --docs ./docs --output ./docs/public/search-index.json",
+    "test": "vitest run",
+    "docs:build-index": "node ./scripts/build-search-index.ts --docs ./docs --output ./docs/public/search-index.json",
     "docs:dev": "yarn docs:build-index && vitepress dev docs",
     "docs:build": "yarn docs:build-index && vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "@types/node": "^25.9.3",
     "sass-embedded": "^1.79.5",
+    "typescript": "^6.0.3",
     "vitepress": "^1.3.4",
     "vitepress-tags": "^0.6.5",
+    "vitest": "^2.1.9",
     "vue": "^3.5.11"
   },
   "dependencies": {
-    "markdown-it-container": "^4.0.0",
-    "vetradocs-vitepress": "^1.0.4"
+    "@orama/orama": "^3.1.18",
+    "@orama/plugin-data-persistence": "^3.1.18",
+    "markdown-it-container": "^4.0.0"
   }
 }

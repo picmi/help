@@ -40,7 +40,7 @@ export default defineConfig({
             }
         },
         ssr: {
-            noExternal: ['vetradocs-vitepress']
+            noExternal: ['aiexplain-vitepress']
         }
     },
     ignoreDeadLinks: [
