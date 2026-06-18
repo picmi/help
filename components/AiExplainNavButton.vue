@@ -18,7 +18,8 @@ function openAiChat() {
       @click="openAiChat"
   >
     <span class="ai-chat-nav-button-container">
-      <span aria-hidden="true" class="mdi mdi-message-text-outline ai-chat-nav-icon" />
+<!--      <span aria-hidden="true" class="mdi mdi-message-text-outline ai-chat-nav-icon" />-->
+      <span aria-hidden="true" class="mdi mdi-star-four-points ai-chat-nav-icon" />
       <span class="ai-chat-nav-label">AI Explain</span>
     </span>
     <span aria-hidden="true" class="ai-chat-nav-keys">
@@ -88,7 +89,7 @@ function openAiChat() {
   width: auto;
   height: 22px;
   color: var(--vp-c-text-2);
-  font-family: var(--vp-font-family-base);
+  font-family: var(--vp-font-family-base),serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 22px;
