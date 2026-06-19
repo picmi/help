@@ -121,6 +121,8 @@ const searchFieldBoosts = {
 const maxSearchCandidates = 36;
 const maxContextCharsPerSource = 1800;
 
+type ApiChatMessage = Pick<AiExplainMessage, 'role' | 'content'>;
+
 export const aiExplainFocusInputEvent = 'aiexplain:focus-input';
 export const aiExplainOpenChatEvent = 'aiexplain:open-chat';
 
@@ -405,6 +407,16 @@ function createSearchExcerpt(content: string, analysis: QueryAnalysis): string {
     return `${prefix}${normalizedContent.slice(start, end)}${suffix}`;
 }
 
+function serializeMessagesForApi(): ApiChatMessage[] {
+    return messages.value
+        .filter((message) => message.content.trim().length > 0)
+        .map(({ role, content }) => ({ role, content }));
+}
+
+function replaceMessage(target: AiExplainMessage, nextMessage: AiExplainMessage): void {
+    messages.value = messages.value.map((message) => (message === target ? nextMessage : message));
+}
+
 export function useAiExplain(config: AiExplainConfig = {}) {
     configuredPaths = {
         ...configuredPaths,
@@ -544,6 +556,14 @@ export function useAiExplain(config: AiExplainConfig = {}) {
         input.value = '';
         loading.value = true;
         error.value = null;
+        let aiMsg: AiExplainMessage | null = {
+            role: 'assistant',
+            content: '',
+            prompt: messageText,
+            sources: [],
+            status: 'searching',
+        };
+        messages.value.push(aiMsg);
 
         try {
             // Get relevant context from docs
@@ -558,6 +578,13 @@ export function useAiExplain(config: AiExplainConfig = {}) {
                 ].filter(Boolean).join('\n'))
                 .join('\n---\n');
 
+            aiMsg = {
+                ...aiMsg,
+                sources: context,
+                status: 'searching',
+            };
+            replaceMessage(messages.value[messages.value.length - 1], aiMsg);
+
             // Send to API
             const headers: Record<string, string> = { 'Content-Type': 'application/json' };
             if (configuredPaths.apiKey) {
@@ -568,7 +595,7 @@ export function useAiExplain(config: AiExplainConfig = {}) {
                 method: 'POST',
                 headers,
                 body: JSON.stringify({
-                    messages: messages.value,
+                    messages: serializeMessagesForApi(),
                     context: contextText,
                 }),
             });
@@ -584,8 +611,8 @@ export function useAiExplain(config: AiExplainConfig = {}) {
             // Handle streaming response
             const reader = response.body.getReader();
             const decoder = new TextDecoder();
-            const aiMsg: AiExplainMessage = { role: 'assistant', content: '' };
-            messages.value.push(aiMsg);
+            aiMsg = { ...aiMsg, status: 'answering' };
+            replaceMessage(messages.value[messages.value.length - 1], aiMsg);
 
             while (true) {
                 const { done, value } = await reader.read();
@@ -595,15 +622,26 @@ export function useAiExplain(config: AiExplainConfig = {}) {
                 aiMsg.content += chunk;
 
                 // Update reactive state
-                messages.value = [...messages.value.slice(0, -1), { ...aiMsg }];
+                aiMsg = { ...aiMsg };
+                replaceMessage(messages.value[messages.value.length - 1], aiMsg);
             }
+
+            aiMsg = { ...aiMsg, status: 'complete' };
+            replaceMessage(messages.value[messages.value.length - 1], aiMsg);
         } catch (err: any) {
             console.error('Chat error:', err);
             error.value = err.message || 'Something went wrong';
-            messages.value.push({
-                role: 'assistant',
+            const errorMessage: AiExplainMessage = {
+                ...(aiMsg ?? { role: 'assistant', prompt: messageText, sources: [] }),
                 content: 'Sorry, I encountered an error. Please try again.',
-            });
+                status: 'complete',
+            };
+
+            if (aiMsg) {
+                replaceMessage(messages.value[messages.value.length - 1], errorMessage);
+            } else {
+                messages.value.push(errorMessage);
+            }
         } finally {
             loading.value = false;
         }

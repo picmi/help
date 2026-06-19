@@ -60,6 +60,9 @@ export interface AiExplainConfig {
 export interface AiExplainMessage {
     role: 'user' | 'assistant';
     content: string;
+    prompt?: string;
+    sources?: SearchResult[];
+    status?: 'searching' | 'answering' | 'complete';
 }
 
 export interface SearchResult {
