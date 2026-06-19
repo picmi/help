@@ -55,6 +55,7 @@ const sourcePanelModes = ref<Record<number, SourcePanelMode>>({});
 const scrollContainer = ref<HTMLElement | null>(null);
 const sidebarRef = ref<HTMLElement | null>(null);
 const inputRef = ref<HTMLTextAreaElement | null>(null);
+const hasChatContentNavigation = ref(false);
 const sourcePanelTimers = new Map<string, ReturnType<typeof setTimeout>>();
 const assistantMessageSeenAt = new Map<number, number>();
 const sourceRevealDelayMs = 1000;
@@ -66,6 +67,7 @@ const sidebarStyle = computed(() => ({
   '--aiexplain-sidebar-width': `${sidebarWidth.value}px`,
   '--aiexplain-accent-color': accentColor.value,
 }));
+const showBackdrop = computed(() => isOpen.value && !hasChatContentNavigation.value);
 
 function maxSidebarWidth() {
   if (typeof window === 'undefined') {
@@ -122,6 +124,7 @@ watch(sourcePanelModes, async () => {
 // Focus input when sidebar opens
 watch(isOpen, (open) => {
   if (open) {
+    hasChatContentNavigation.value = false;
     focusInput();
   }
 });
@@ -179,6 +182,42 @@ function handleKeydown(e: KeyboardEvent) {
   if (e.key === 'Enter' && !e.shiftKey) {
     e.preventDefault();
     sendMessage(input.value);
+  }
+}
+
+function isHelpCentreNavigationLink(anchor: HTMLAnchorElement) {
+  const href = anchor.getAttribute('href');
+
+  if (!href || href.startsWith('#') || /^(?:mailto:|tel:|javascript:)/i.test(href)) {
+    return false;
+  }
+
+  if (anchor.target && anchor.target !== '_self') {
+    return false;
+  }
+
+  if (typeof window === 'undefined') {
+    return false;
+  }
+
+  try {
+    const url = new URL(href, window.location.href);
+    const currentUrl = new URL(window.location.href);
+
+    return url.origin === currentUrl.origin && url.href !== currentUrl.href;
+  } catch {
+    return false;
+  }
+}
+
+function handleSidebarClick(event: MouseEvent) {
+  const target = event.target as Element | null;
+  const anchor = target?.closest<HTMLAnchorElement>('a[href]');
+
+  if (!anchor || !sidebarRef.value?.contains(anchor)) return;
+
+  if (isHelpCentreNavigationLink(anchor)) {
+    hasChatContentNavigation.value = true;
   }
 }
 
@@ -602,7 +641,7 @@ onBeforeUnmount(() => {
     <!-- Backdrop -->
     <Transition name="fade">
       <div
-          v-if="isOpen"
+          v-if="showBackdrop"
           class="aiexplain-backdrop"
           @click="closeChat"
       />
@@ -615,6 +654,7 @@ onBeforeUnmount(() => {
           ref="sidebarRef"
           :class="['aiexplain-sidebar', { resizing: isResizing }]"
           :style="sidebarStyle"
+          @click.capture="handleSidebarClick"
       >
         <div
             aria-label="Resize chat panel"
