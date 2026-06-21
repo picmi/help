@@ -6,9 +6,11 @@
  */
 
 import { nextTick, onMounted, onUnmounted, ref } from 'vue';
-import type { AiExplainConfig, AiExplainMessage, SearchResult } from '../types';
+import type { AiExplainConfig, AiExplainMessage, AiExplainResponseFormat, SearchResult } from '../types';
 
-type RuntimeConfig = Required<Pick<AiExplainConfig, 'indexPath' | 'apiEndpoint' | 'shortcut' | 'apiKey'>>;
+type RuntimeConfig = Required<
+    Pick<AiExplainConfig, 'indexPath' | 'apiEndpoint' | 'shortcut' | 'apiKey' | 'responseFormat'>
+>;
 
 type IndexedSearchDocument = SearchResult & {
     pageTitle?: string;
@@ -44,6 +46,7 @@ const defaultConfig: RuntimeConfig = {
     apiEndpoint: '/kb/chat',
     shortcut: 'i',
     apiKey: '',
+    responseFormat: 'markdown',
 };
 
 const searchStopWords = [
@@ -147,8 +150,24 @@ function definedRuntimeConfig(config: AiExplainConfig): Partial<RuntimeConfig> {
             apiEndpoint: config.apiEndpoint,
             shortcut: config.shortcut,
             apiKey: config.apiKey,
+            responseFormat: config.responseFormat,
         }).filter(([, value]) => value !== undefined),
     ) as Partial<RuntimeConfig>;
+}
+
+function normaliseResponseFormat(format: AiExplainResponseFormat | undefined): AiExplainResponseFormat {
+    return format === 'html' ? 'html' : 'markdown';
+}
+
+function responseFormatInstruction(format: AiExplainResponseFormat): string {
+    if (format === 'html') {
+        return 'Return the answer as concise HTML using semantic tags. Do not wrap the response in Markdown fences.';
+    }
+
+    return [
+        'Return the answer as concise Markdown.',
+        'Use paragraphs, short bullet or numbered lists when useful, inline links where helpful, and no HTML.',
+    ].join(' ');
 }
 
 function resolveSameOriginJsonUrl(indexPath: string): string {
@@ -422,6 +441,7 @@ export function useAiExplain(config: AiExplainConfig = {}) {
         ...configuredPaths,
         ...definedRuntimeConfig(config),
     };
+    configuredPaths.responseFormat = normaliseResponseFormat(configuredPaths.responseFormat);
 
     // Load the Orama index - using dynamic import to avoid SSR issues
     async function loadIndex(): Promise<void> {
@@ -556,9 +576,11 @@ export function useAiExplain(config: AiExplainConfig = {}) {
         input.value = '';
         loading.value = true;
         error.value = null;
+        const responseFormat = configuredPaths.responseFormat;
         let aiMsg: AiExplainMessage | null = {
             role: 'assistant',
             content: '',
+            format: responseFormat,
             prompt: messageText,
             sources: [],
             status: 'searching',
@@ -597,6 +619,8 @@ export function useAiExplain(config: AiExplainConfig = {}) {
                 body: JSON.stringify({
                     messages: serializeMessagesForApi(),
                     context: contextText,
+                    responseFormat,
+                    formatInstructions: responseFormatInstruction(responseFormat),
                 }),
             });
 
@@ -634,6 +658,7 @@ export function useAiExplain(config: AiExplainConfig = {}) {
             const errorMessage: AiExplainMessage = {
                 ...(aiMsg ?? { role: 'assistant', prompt: messageText, sources: [] }),
                 content: 'Sorry, I encountered an error. Please try again.',
+                format: responseFormat,
                 status: 'complete',
             };
 

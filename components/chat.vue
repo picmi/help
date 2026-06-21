@@ -8,13 +8,14 @@
 
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { aiExplainFocusInputEvent, useAiExplain } from '../composables/useAiExplain';
-import type { AiExplainMessage, SearchResult } from '../types';
+import type { AiExplainMessage, AiExplainResponseFormat, SearchResult } from '../types';
 
 const props = defineProps<{
   apiEndpoint?: string;
   indexPath?: string;
   title?: string;
   accentColor?: string;
+  responseFormat?: AiExplainResponseFormat;
 }>();
 
 const {
@@ -28,6 +29,7 @@ const {
 } = useAiExplain({
   apiEndpoint: props.apiEndpoint,
   indexPath: props.indexPath,
+  responseFormat: props.responseFormat,
 });
 
 const title = computed(() => props.title || 'AI Assistant');
@@ -485,6 +487,147 @@ function sourceContentHtml(source: SearchResult) {
   return `<p>${renderSourceInlineMarkdown(content)}</p>`;
 }
 
+function renderEscapedInlineFormatting(value: string) {
+  const codePlaceholders: string[] = [];
+  let html = escapeHtml(value)
+      .replace(/`([^`]+)`/g, (_, code: string) => {
+        const placeholder = `@@CODE${codePlaceholders.length}@@`;
+        codePlaceholders.push(`<code>${code}</code>`);
+
+        return placeholder;
+      })
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/__([^_]+)__/g, '<strong>$1</strong>')
+      .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+      .replace(/_([^_\s][^_]*?)_/g, '<em>$1</em>');
+
+  codePlaceholders.forEach((replacement, index) => {
+    html = html.replace(`@@CODE${index}@@`, replacement);
+  });
+
+  return html;
+}
+
+function renderInlineMarkdown(value: string) {
+  let html = '';
+  let lastIndex = 0;
+  const linkPattern = /\[([^\]]+)]\(([^)]+)\)/g;
+
+  for (const match of value.matchAll(linkPattern)) {
+    const index = match.index ?? 0;
+    const [fullMatch, label, target] = match;
+    const href = sourceLinkHref(target);
+
+    html += renderEscapedInlineFormatting(value.slice(lastIndex, index));
+    html += href
+        ? `<a href="${escapeHtml(href)}">${renderEscapedInlineFormatting(label)}</a>`
+        : renderEscapedInlineFormatting(label);
+    lastIndex = index + fullMatch.length;
+  }
+
+  html += renderEscapedInlineFormatting(value.slice(lastIndex));
+
+  return html;
+}
+
+function renderMarkdown(value: string) {
+  const lines = value.replace(/\r\n?/g, '\n').split('\n');
+  const blocks: string[] = [];
+  const paragraphLines: string[] = [];
+  let listType: 'ul' | 'ol' | null = null;
+  let listItems: string[] = [];
+
+  function flushParagraph() {
+    if (paragraphLines.length === 0) return;
+
+    blocks.push(`<p>${renderInlineMarkdown(paragraphLines.join(' '))}</p>`);
+    paragraphLines.length = 0;
+  }
+
+  function flushList() {
+    if (!listType || listItems.length === 0) return;
+
+    blocks.push(`<${listType}>${listItems.map((item) => `<li>${renderInlineMarkdown(item)}</li>`).join('')}</${listType}>`);
+    listType = null;
+    listItems = [];
+  }
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const rawLine = lines[index];
+    const trimmedLine = rawLine.trim();
+
+    if (trimmedLine.startsWith('```')) {
+      const codeLines: string[] = [];
+      flushParagraph();
+      flushList();
+      index += 1;
+
+      while (index < lines.length && !lines[index].trim().startsWith('```')) {
+        codeLines.push(lines[index]);
+        index += 1;
+      }
+
+      blocks.push(`<pre><code>${escapeHtml(codeLines.join('\n'))}</code></pre>`);
+      continue;
+    }
+
+    if (!trimmedLine) {
+      flushParagraph();
+      flushList();
+      continue;
+    }
+
+    const headingMatch = /^(#{1,6})\s+(.+)$/.exec(trimmedLine);
+
+    if (headingMatch) {
+      flushParagraph();
+      flushList();
+      blocks.push(`<h${headingMatch[1].length}>${renderInlineMarkdown(headingMatch[2])}</h${headingMatch[1].length}>`);
+      continue;
+    }
+
+    const unorderedListMatch = /^\s*[-*+]\s+(.+)$/.exec(rawLine);
+    const orderedListMatch = /^\s*\d+[.)]\s+(.+)$/.exec(rawLine);
+
+    if (unorderedListMatch || orderedListMatch) {
+      const nextListType = unorderedListMatch ? 'ul' : 'ol';
+      const item = (unorderedListMatch ?? orderedListMatch)?.[1] ?? '';
+
+      flushParagraph();
+
+      if (listType && listType !== nextListType) {
+        flushList();
+      }
+
+      listType = nextListType;
+      listItems.push(item);
+      continue;
+    }
+
+    flushList();
+    paragraphLines.push(trimmedLine);
+  }
+
+  flushParagraph();
+  flushList();
+
+  return blocks.join('\n');
+}
+
+function renderPlainText(value: string) {
+  return `<p>${escapeHtml(value).replace(/\n/g, '<br>')}</p>`;
+}
+
+function messageContentHtml(msg: AiExplainMessage) {
+  if (msg.role !== 'assistant') {
+    return renderPlainText(msg.content);
+  }
+
+  return (msg.format ?? props.responseFormat ?? 'markdown') === 'html'
+      ? msg.content
+      : renderMarkdown(msg.content);
+}
+
 function sourceGroupKey(source: SearchResult): SourceGroupKey {
   if (source.type === 'faq') {
     return 'faq';
@@ -720,7 +863,7 @@ onBeforeUnmount(() => {
                     v-if="msg.content"
                     key="answer"
                     class="aiexplain-message-content aiexplain-assistant-content"
-                    v-html="msg.content"
+                    v-html="messageContentHtml(msg)"
                 />
                 <div
                     v-else-if="isProcessingMessage(msg, i)"
@@ -853,7 +996,7 @@ onBeforeUnmount(() => {
               </Transition>
 
             </div>
-            <div v-else class="aiexplain-message-content aiexplain-user-content" v-html="msg.content" />
+            <div v-else class="aiexplain-message-content aiexplain-user-content" v-html="messageContentHtml(msg)" />
           </div>
 
           <!-- Loading indicator -->
@@ -1154,7 +1297,9 @@ onBeforeUnmount(() => {
 
 .aiexplain-message-content :deep(p),
 .aiexplain-message-content :deep(ul),
-.aiexplain-message-content :deep(ol) {
+.aiexplain-message-content :deep(ol),
+.aiexplain-message-content :deep(pre),
+.aiexplain-message-content :deep(blockquote) {
   margin-top: 0;
 }
 
@@ -1164,8 +1309,32 @@ onBeforeUnmount(() => {
 
 .aiexplain-message-content :deep(p:last-child),
 .aiexplain-message-content :deep(ul:last-child),
-.aiexplain-message-content :deep(ol:last-child) {
+.aiexplain-message-content :deep(ol:last-child),
+.aiexplain-message-content :deep(pre:last-child),
+.aiexplain-message-content :deep(blockquote:last-child) {
   margin-bottom: 0;
+}
+
+.aiexplain-message-content :deep(h1),
+.aiexplain-message-content :deep(h2),
+.aiexplain-message-content :deep(h3),
+.aiexplain-message-content :deep(h4),
+.aiexplain-message-content :deep(h5),
+.aiexplain-message-content :deep(h6) {
+  margin: 12px 0 7px;
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.aiexplain-message-content :deep(h1:first-child),
+.aiexplain-message-content :deep(h2:first-child),
+.aiexplain-message-content :deep(h3:first-child),
+.aiexplain-message-content :deep(h4:first-child),
+.aiexplain-message-content :deep(h5:first-child),
+.aiexplain-message-content :deep(h6:first-child) {
+  margin-top: 0;
 }
 
 .aiexplain-message-content :deep(ul),
@@ -1203,6 +1372,24 @@ onBeforeUnmount(() => {
   background: var(--vp-c-default-soft);
   border-radius: 4px;
   font-size: 0.92em;
+}
+
+.aiexplain-message-content :deep(pre) {
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  overflow-x: auto;
+  color: var(--vp-c-text-1);
+  background: var(--vp-code-block-bg, var(--vp-c-default-soft));
+  border-radius: 7px;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.aiexplain-message-content :deep(pre code) {
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  font-size: inherit;
 }
 
 .aiexplain-message-content :deep(a) {

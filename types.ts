@@ -2,6 +2,8 @@
  * AiExplain Types
  */
 
+export type AiExplainResponseFormat = 'markdown' | 'html';
+
 export interface AiExplainConfig {
     /**
      * Path to the search index JSON file (relative to public directory)
@@ -55,11 +57,18 @@ export interface AiExplainConfig {
      * API Key for the backend
      */
     apiKey?: string;
+
+    /**
+     * Preferred response format from the chat backend
+     * @default 'markdown'
+     */
+    responseFormat?: AiExplainResponseFormat;
 }
 
 export interface AiExplainMessage {
     role: 'user' | 'assistant';
     content: string;
+    format?: AiExplainResponseFormat;
     prompt?: string;
     sources?: SearchResult[];
     status?: 'searching' | 'answering' | 'complete';

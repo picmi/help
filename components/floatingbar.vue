@@ -7,12 +7,14 @@
 
 import { useAiExplain } from '../composables/useAiExplain';
 import { computed, ref } from 'vue';
+import type { AiExplainResponseFormat } from '../types';
 
 const props = defineProps<{
   apiEndpoint?: string;
   indexPath?: string;
   placeholder?: string;
   accentColor?: string;
+  responseFormat?: AiExplainResponseFormat;
   position?: 'bottom-center' | 'bottom-right' | 'bottom-left';
 }>();
 
@@ -27,6 +29,7 @@ const {
 } = useAiExplain({
   apiEndpoint: props.apiEndpoint,
   indexPath: props.indexPath,
+  responseFormat: props.responseFormat,
 });
 
 const placeholder = computed(() =>
