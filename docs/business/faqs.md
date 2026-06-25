@@ -187,7 +187,7 @@ notified and should be cancelled
 :::: faq I cancelled an invite and tried to send it again, but PICMI says the person already has an application. What should I do?
 An invite creates an application for that person against the job. Cancelling the invite changes the application status,
 but it does not remove the application. Because the application still exists, sending another invite to the same person
-for the same job is not the right action.
+for the same job is not the right action. The error you'll see is "application is already completed".
 
 Use **Reopen** if the application should be returned to the previous status. However, if the person only needs a new
 email or link, the better action is to send a **shared status message** on the existing application. This sends a
