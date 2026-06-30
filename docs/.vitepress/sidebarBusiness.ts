@@ -17,7 +17,7 @@ export function sidebarBusiness() {
                 },
                 { text: 'Understanding workflows', link: '/business/about-picmi/understanding-workflows' },
                 {
-                    text: 'Understanding workflow reusable content',
+                    text: 'Understanding workflow library items',
                     link: '/business/about-picmi/understanding-workflow-items'
                 },
                 { text: 'Understanding billing', link: '/business/about-picmi/billing' },
@@ -203,10 +203,15 @@ export function sidebarBusiness() {
             text: 'Workflows',
             collapsed: false,
             items: [
+                { text: 'Workflow builder', link: '/business/workflows/workflow-builder' },
+                { text: 'Reviewing workflow contents', link: '/business/workflows/reviewing-workflow-contents' },
+                { text: 'Previewing workflows', link: '/business/workflows/previewing-workflows' },
+                { text: 'Updating workflows', link: '/business/workflows/updating-workflows' },
                 { text: 'Adding questions', link: '/business/workflows/questions' },
+                { text: 'Adding library items', link: '/business/workflows/adding-library-items' },
+                { text: 'Creating and editing library items', link: '/business/workflows/editing-library-items' },
                 { text: 'Managing duplicate questions', link: '/business/workflows/managing-duplicate-questions' },
                 { text: 'Adding content blocks', link: '/business/workflows/content-blocks' },
-                { text: 'Updating workflows', link: '/business/workflows/updating-workflows' },
                 { text: 'Removing from workflows', link: '/business/workflows/removing-from-workflows' },
                 { text: 'Validating workflows', link: '/business/workflows/validating-workflows' },
                 {

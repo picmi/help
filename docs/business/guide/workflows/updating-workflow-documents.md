@@ -44,13 +44,15 @@ Find each workflow(s) that contains the document you need to replace.
 
 1. Go to **Setup** → **Workflows**
 2. Open each workflow that might contain the document
-3. Look through sections like Health & Safety, Induction, or Terms & Conditions
-4. Note which section contains the old document
+3. Use **Review** mode to search workflow contents
+4. Use the Library linked item indicator or locate action, where available, to find the linked document, video, image, or
+   Content Block
+5. Note which page and item contains the old content
    :::
 
 ::: prompt
-Not sure which workflows contain your document? Open each active workflow and use the preview feature to check what
-applicants see.
+Not sure which workflows contain your document? Open each active workflow and use **Review** mode to search the contents,
+then use **Preview** mode to check what participants see.
 :::
 
 ### Step 3: Update the document link or content
@@ -62,12 +64,12 @@ There are two options: update the link (in PICMI) or upload a new version (of th
 
 Replace the link of the old document with your new one.
 
-1. Open the workflow in edit mode
-2. Navigate to the section containing the document
-3. Locate the document link or embedded file
-4. Replace with your new document link or upload
+1. Open the workflow in **Edit** mode
+2. Select the page or item containing the document
+3. Review the linked Content Block or item details in the Inspector
+4. Replace the document link or upload, where the builder supports editing that item type
 5. Update any accompanying text if needed
-6. Click **Save**
+6. Save the workflow
 
 **Option 2**
 
@@ -84,18 +86,18 @@ See [updating workflows](../../workflows/updating-workflows) for detailed editin
 
 ### Step 4: Preview and verify
 
-Always check your changes before applicants see them.
+Always check your changes before participants see them.
 
 :::instructions
 
-1. Click **Preview** in the workflow editor
+1. Select **Preview** mode in the Workflow Builder
 2. Navigate to the section with your updated document
 3. Click the document link to ensure it opens correctly
 4. Verify the correct version appears
    :::
 
 ::: prompt
-Testing takes 2 minutes and prevents applicants from seeing broken links or wrong documents.
+Testing takes 2 minutes and prevents participants from seeing broken links or wrong documents.
 :::
 
 ## Frequently asked questions
@@ -106,9 +108,9 @@ Uploading a document to Google Drive doesn't automatically add it to your workfl
 embed it in the workflow editor.
 :::
 
-:::faq Link not working for applicants?
+:::faq Link not working for participants?
 
-Check your document's sharing permissions. Set links to "Anyone with the link can view" if you want all applicants to
+Check your document's sharing permissions. Set links to "Anyone with the link can view" if you want all participants to
 access them.
 :::
 
@@ -116,7 +118,7 @@ access them.
 
 After updating your workflow documents, consider:
 
-- [Previewing a job](../../article/opportunity-preview) to see the applicant experience
+- [Previewing a job](../../article/opportunity-preview) to see the participant experience
 - [Preparing a job ready to publish](../jobs/preparing-a-job-ready-publish) with your updated workflow
 - [Updating workflows](../../workflows/updating-workflows) for more advanced editing
 

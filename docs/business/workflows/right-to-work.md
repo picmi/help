@@ -15,7 +15,7 @@ Employers can confirm a person's legal right to work through government systems 
 
 ## Best practices for employers
 
-- **Pre-employment checks**: Always verify a candidate's right to work before offering or starting employment.
+- **Pre-employment checks**: Always verify a participant's right to work before offering or starting employment.
 - **Record keeping**: Maintain records of right to work checks and employment contracts to demonstrate compliance.
 - **Ongoing monitoring**: Periodically recheck right to work, especially for employees on temporary visas with expiry dates.
 

@@ -1,17 +1,17 @@
 # Questions
 
-Use Questions to collect information and documents from candidates during your Employment or Services workflows. This
-page explains what Questions are, how to create and manage them, and how they behave for candidates.
+Use Questions to collect information and documents from participants during your Employment or Services workflows. This
+page explains what Questions are, how to create and manage them, and how they behave for participants.
 
 ## What is a Question?
 
-A Question is a prompt shown to a candidate that can:
+A Question is a Library Item shown to a participant that can:
 
 - Collect text, numbers, dates, choices, or files (e.g., passport photo, manuals).
 - Be reused across multiple workflows—this means that updating the question will be applied to all workflows it appears in.
 - Be optional or required.
 
-Questions appear to candidates in the order you configure within a workflow.
+Questions appear to participants in the order you configure within a workflow.
 
 ## Types of Questions
 
@@ -22,9 +22,9 @@ Questions appear to candidates in the order you configure within a workflow.
 | [Phone](#qt-tel){#qt-tel}                             | Capture a primary contact number for updates and signing links. Ask for country code to avoid failed messages.                                          |
 | [Email](#qt-email){#qt-email}                         | Required for sending agreements and notifications. Encourage a personal, regularly checked email to reduce delays.                                      |
 | [Number](#qt-number){#qt-number}                      | For quantities, hours, or rates you’ll calculate with. Set sensible limits (e.g., minimum 0) to prevent mistakes.                                       |
-| [File](#qt-file){#qt-file}                            | Collect documents like IDs or certificates. Tell candidates the required format and quality so approvals aren’t delayed.                                |
+| [File](#qt-file){#qt-file}                            | Collect documents like IDs or certificates. Tell participants the required format and quality so approvals aren’t delayed.                              |
 | [Date](#qt-date){#qt-date}                            | For start dates, birthdays, or expiry dates. Adding limits (no future DOBs) prevents common errors.                                                     |
-| [Single select](#qt-single-select){#qt-single-select} | Let candidates choose one option (like role or site) and drive conditional steps. Keep options clear and stable for reporting.                          |
+| [Single select](#qt-single-select){#qt-single-select} | Let participants choose one option (like role or site) and drive conditional steps. Keep options clear and stable for reporting.                        |
 | [Declaration](#qt-declaration){#qt-declaration}       | For disclosures that need a “Yes” plus an explanation (e.g., medical or legal). Make the explanation required only when “Yes.”                          |
 | [Yes/no](#qt-accept){#qt-accept}                      | Quick confirmations or consents. Use precise wording if acceptance is legally binding.                                                                  |
 | [Data](#qt-data){#qt-data}                            | Capture repeatable rows (e.g., previous jobs or equipment). Define the columns you need so contracts and exports are complete.                          |
@@ -43,7 +43,7 @@ You’ll see:
 ## Creating a Question
 
 1. Click Create Question (top‑right).
-2. Enter the Prompt (what candidates see).
+2. Enter the Prompt (what participants see).
 3. Choose the Type (e.g., Text, Multiple choice, File upload).
 4. Configure options:
     - Required: prevent submission until answered.
@@ -61,7 +61,7 @@ Tip: Keep prompts short and specific (e.g., “Photo of passport page”).
     - Duplicate to create a variant without starting from scratch.
     - Archive/Delete if a question is no longer needed.
 
-Edits to a question affect future use. Active, in‑progress candidate sessions may not retroactively change.
+Edits to a question affect future use. Active, in-progress participant sessions may not retroactively change.
 
 When duplicating a question, rename the copy clearly before adding it to workflows or integration mappings. See
 [Managing Duplicate Questions](./managing-duplicate-questions.md).
@@ -72,7 +72,7 @@ When duplicating a question, rename the copy clearly before adding it to workflo
 - Filter by Type (e.g., File) or by other available filters.
 - Sort by Last modified to locate recent changes.
 - Use **customise columns** to show additional fields in the table:.
-  - **Additional Text:** Displays each question’s helper text/subtext so you can quickly review guidance shown to candidates.
+  - **Additional Text:** Displays each question’s helper text/subtext so you can quickly review guidance shown to participants.
   - **Choices:** Shows the option list for single-select questions to verify wording and coverage.
   - **Hidden:** Adds a column indicating whether the question is hidden from the main questions list.
   - **Workflows:** Lists the workflows where each question is used, helping you assess impact before editing.
@@ -80,9 +80,29 @@ When duplicating a question, rename the copy clearly before adding it to workflo
 
 ## Using Questions in Workflows
 
-- Open Setup → Workflows to add Questions to specific steps.
-- Drag to reorder within a step so candidates see them in the intended sequence.
+- Open **Setup** > **Workflows** to add Questions from the **Library** panel.
+- Add the Question before or after the selected page or item, or drag it into the workflow.
+- Use the Inspector to check required state, visibility, validation, usage, and linked item details.
 - Reuse Questions across multiple workflows to keep data consistent.
+
+## Creating or editing Questions from the Workflow Builder
+
+Supported Questions can be created or edited while you are editing a workflow.
+
+::: instructions
+
+1. Go to **Setup** > **Question**.
+2. Locate the question row, click &vellip; (vertical dots) to open the menu.
+3. Select **Edit**.
+5. Create a new Question, or select a linked Question and edit it from the Inspector where available.
+6. Save your changes.
+
+:::
+
+::: prompt
+Editing a linked Question can affect every workflow using that Question. If one workflow needs different wording,
+options, or validation, create or link a separate Question instead.
+:::
 
 ## Best Practices
 

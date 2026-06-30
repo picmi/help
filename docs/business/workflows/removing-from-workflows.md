@@ -1,31 +1,59 @@
-## Removing outdated content from workflows
+# Removing items from workflows
 
-As your processes change, you'll need to remove content that's no longer relevant.
-
-### Removing questions
-
-:::instructions
-
-1. Go to **Setup** → **Workflows**
-2. Open the workflow containing the question
-3. Locate the question you want to remove
-4. Click **⋮** (vertical dots) next to the question
-5. Select **Remove**
-6. Click **Save**
-   :::
+Remove a page or item from a workflow when participants no longer need to see it in that workflow.
 
 ::: prompt
-Removing a question from a workflow doesn't delete it from your Questions library. It's still available to add to other
-workflows.
+Removing an item from a workflow does not delete the linked Library Item. The Question, Information, Content Block, or
+Contract remains available for other workflows unless it is hidden or changed separately.
 :::
 
-### Removing documents or images
+## Remove a workflow item
 
-:::instructions
+::: instructions
 
-1. Open the workflow in edit mode
-2. Navigate to the section containing the content
-3. Select the document link, embedded file, or image
-4. Click the delete or remove option
-5. Click **Save**
-   :::
+1. Go to **Setup** > **Workflows**.
+2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
+3. Select **Edit** mode.
+4. Select the page item you want to remove.
+5. Review the linked Library Item and usage details in the Inspector.
+6. Remove the item from the workflow.
+7. Save the workflow.
+
+:::
+
+Use this for Questions, Information, Content Blocks, and Contracts that should no longer appear in this workflow.
+
+## Remove a page
+
+::: instructions
+
+1. Go to **Setup** > **Workflows**.
+2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
+3. Select **Edit** mode.
+4. Select the page you want to remove.
+5. Check the items on the page before removing it.
+6. Remove the page.
+7. Save the workflow.
+
+:::
+
+::: prompt
+Removing a page may also remove the page's items from that workflow. Check the page contents first, especially if the
+page contains required questions, contract items, or content used for compliance.
+:::
+
+## Hide an outdated Library Item
+
+Hide a Library Item when it should no longer appear in normal Library searches.
+
+::: instructions
+
+1. Open the Library Item from its setup area, or select it in the Workflow Builder if editing is available there.
+2. Set the item to hidden from lists.
+3. Save the Library Item.
+4. If the item is still linked to workflows, decide whether it should remain linked or be removed from those workflows.
+
+:::
+
+Hidden Library Items may still appear in workflows that already use them. Use **Review** mode or the Library linked item
+indicator to find where the item is still used.

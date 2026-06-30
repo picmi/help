@@ -31,7 +31,7 @@ requirements, and the desired level of automation.
 - **Description**: Employers use PICMI to securely store records of work eligibility checks and associated
   documentation.
 - **How it works**:
-    - Employers get applicants to fill in their identification details and provide an image of the relevant document
+    - Employers get participants to fill in their identification details and provide an image of the relevant document
     - Employers perform manual verification (e.g., via
       [third-party systems](../about-picmi/storing-biometric-data.md#third-party-systems) or face-to-face checks) after the application
     - PICMI acts as a central repository for compliance documentation.

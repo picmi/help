@@ -11,7 +11,7 @@ PICMI doesn't host video files directly, so you'll need to use a video platform.
 - **Vimeo** – Professional option with privacy controls
 - **Google Drive** – Good for internal videos with access restrictions
 
-Make sure your video is publicly accessible or properly shared so applicants can view it.
+Make sure your video is publicly accessible or properly shared so participants can view it.
 :::
 
 ::: prompt

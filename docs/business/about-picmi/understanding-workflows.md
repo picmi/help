@@ -2,12 +2,12 @@
 
 A **workflow** in PICMI is the structured series of steps that a person follows to complete an application for either
 employment or service agreements. Workflows guide participants through all necessary information collection,
-declarations,
-and documentation before presenting them with an agreement.
+declarations, and documentation before presenting them with an agreement.
 
 ::: prompt
 Once you understand what a workflow is, you need to understand how
 PICMI [builds workflows through reusing and combining the building blocks of underlying items](./understanding-workflow-items.md).
+:::
 
 ## What is a workflow?
 
@@ -51,15 +51,32 @@ Each page contains **items** that serve different purposes:
 | Item Type                | Purpose                                                                           |
 |--------------------------|-----------------------------------------------------------------------------------|
 | **Questions**            | Collect information from participants (text, dates, files, choices, declarations) |
-| **Personal Information** | Known fields or details about the participant                                     |
+| **Information**          | Known fields or details about the participant, organisation, or opportunity       |
 | **Heading**              | Break up content with titles and explanatory text                                 |
 | **Image**                | Show visual content like photos or diagrams                                       |
 | **Video**                | Embed video content to explain roles or environments                              |
+| **Data**                 | Show structured reusable information                                              |
 | **Contract**             | Embed contract template                                                           |
 
 ::: prompt
 Items appear in the order you configure them within each page. Thoughtful ordering improves completion rates.
 :::
+
+## Workflow Builder
+
+Manage workflows from **Setup** > **Workflows**. Opening a workflow takes you to the Workflow Builder.
+
+The Workflow Builder has three modes:
+
+| Mode        | Use it to                                                                                           |
+|-------------|-----------------------------------------------------------------------------------------------------|
+| **Preview** | Check the participant experience across desktop, tablet, and mobile frame sizes                     |
+| **Edit**    | Change workflow pages, item placement, Library Items, required state, visibility, and linked details |
+| **Review**  | Audit workflow contents in a searchable table and export the review data                            |
+
+Preview mode is for checking what participants will see. Review mode is for checking the workflow structure and item
+details as a business user. A **Review outcome** in routing is different again: it means a participant answer needs
+human review before the workflow can continue.
 
 ## Employment workflows vs Service workflows
 
@@ -152,13 +169,23 @@ Every workflow includes a **contract** that:
 - Pulls information from organisation details, job details, workflow answers, and personal overrides
 - Cannot conditionally include/exclude entire sections (only substitute specific values)
 
-### Reusable questions
+### Library Items
 
-Questions created in PICMI can be:
+Reusable cross-workflow items are managed through the Library. Library Items can include:
 
-- Used across multiple workflows
-- Updated once and applied everywhere
-- Filtered by type, hidden status, or integration mapping
+- Questions
+- Information
+- Content Blocks
+- Contracts
+
+When a Library Item is used in a workflow, the workflow controls where it appears. The Library Item controls the wording,
+content, template, answer type, validation, and other reusable details.
+
+Library Items can be:
+
+- used across multiple workflows
+- updated once when the same change should apply everywhere
+- filtered by type, hidden status, or usage
 
 ### Personal overrides
 
@@ -219,8 +246,8 @@ active applications.
 
 1. **Keep workflows concise**: Only ask for information you truly need
 2. **Group related items**: Place similar questions on the same page
-3. **Use clear section headings**: Help applicants understand what's required
-4. **Test the applicant experience**: Complete the workflow yourself to identify friction points
+3. **Use clear section headings**: Help participants understand what's required
+4. **Test the participant experience**: Complete the workflow yourself to identify friction points
 5. **Remove unnecessary content**: Especially when creating permanent workflows from casual templates
 6. **Link external files properly**: Use permanent links (Google Drive version control recommended)
 

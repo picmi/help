@@ -1,6 +1,11 @@
 # Previewing an opportunity
 
-Use the preview pane to ensure values are as expected.
+Use the opportunity preview pane to check the access and opportunity details before participants use the link.
+
+::: prompt
+This is different from workflow **Preview** mode. To preview the pages and items inside a workflow, go to **Setup** >
+**Workflows**, open the workflow, and select **Preview** mode.
+:::
 
 :::: instructions
 ## Preview details
@@ -18,3 +23,16 @@ Use the preview pane to ensure values are as expected.
 ::::
 
 Also check that it is [valid and ready to be published](../guide/jobs/preparing-a-job-ready-publish.md)
+
+## Preview the workflow experience
+
+Workflow Preview mode lets you check what participants see when they move through the workflow.
+
+Use it to:
+
+- switch between desktop, tablet, and mobile frame sizes
+- show or hide workflow navigation
+- check the same component mapping used in the actual flow for questions, Information, contracts, headings, images,
+  videos, data, and pages
+
+See [validating workflow changes](../workflows/validating-workflows.md#preview-the-participant-experience).

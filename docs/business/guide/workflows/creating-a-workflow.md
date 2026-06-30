@@ -58,8 +58,9 @@ Rather than creating a workflow from scratch, duplicate it and update the copy.
 :::instructions
 1. Go to **Setup** → **Workflows**
 2. Locate the workflow you want to base your permanent workflow on
-3. Click **⋮** (vertical dots) and select **Duplicate**
-4. Rename the duplicated workflow (e.g., "Orchard – Permanent")
+3. Click &vellip; (vertical dots) to open the menu
+4. Select **Duplicate**
+5. Rename the duplicated workflow (e.g., "Orchard – Permanent")
 :::
 
 ::: prompt
@@ -71,11 +72,21 @@ Duplicating ensures your existing casual or fixed-term workflows remain intact a
 Now update the workflow to use your new permanent contract.
 
 :::instructions
-1. Open the duplicated workflow in edit mode
-2. Locate the existing contract template
-3. Remove the old contract
-4. Add your new permanent contract template
-5. Click **Save**
+1. Go to **Setup** > **Workflows**
+2. Locate the duplicated workflow row, click &vellip; (vertical dots) to open the menu
+3. Select **Edit** mode
+4. Locate the existing contract item
+5. Review the linked contract in the Inspector
+6. Remove the old contract item from the workflow
+7. Open the **Library** panel
+8. Search for the new contract template
+9. Add the contract before or after the selected item, or drag it into the correct place
+10. Save the workflow
+:::
+
+::: prompt
+Contract search results may be filtered by the workflow's opportunity classification. If the contract is not available,
+check that the workflow and contract template are both for the same employment or services context.
 :::
 
 ## Step 5: Review and adjust workflow content
@@ -103,7 +114,7 @@ When unsure, ask: "Is this information essential?" If not, consider removing it 
 process. Please contact us if you have any questions—your questions can affect completion rates.
 :::
 
-See [updating workflows](../../workflows/updating-workflows) for detailed editing instructions.
+See [updating workflows](../../workflows/updating-workflows) for detailed Workflow Builder instructions.
 :::
 
 ## Step 6: Validate the workflow configuration
@@ -112,7 +123,7 @@ Before using your workflow, validate that it's correctly configured.
 
 :::instructions
 1. Either:
-   2. Go to **Employment** --> **Jobs**, locate a job that uses this workflow (or add)
+   1. Go to **Employment** --> **Jobs**, locate a job that uses this workflow (or add)
    2. Go to **Services** --> **Proposals**, locate a proposal that uses this workflow (or add)
 2. Click **⋮** (vertical dots) on the job row
 3. Select **Check Configuration**

@@ -36,8 +36,8 @@ Save the changes and run **Check Configuration** again
 See [Managing Duplicate Questions](../workflows/managing-duplicate-questions.md) for more detail.
 
 ::: prompt
-A field can pass even if the applicant has not answered it yet. Check Configuration is checking that the field has a
-valid source, not that the applicant has already supplied the value.
+A field can pass even if the participant has not answered it yet. Check Configuration is checking that the field has a
+valid source, not that the participant has already supplied the value.
 :::
 
 ## Run Check Configuration
@@ -79,7 +79,13 @@ Check Configuration reviews:
 * active integrations on the opportunity
 * required integration mappings and default values
 
-It does not check answers that only exist later, after the applicant completes the workflow.
+It does not check answers that only exist later, after the participant completes the workflow.
+
+::: prompt
+Use workflow **Review** mode when you need to audit the workflow's pages, item order, participant text, descriptions,
+choices, required state, and Library Item usage. Use **Check Configuration** when you need to confirm an opportunity can
+use the workflow, contract, opportunity fields, and integrations correctly.
+:::
 
 ## Failed contract fields
 
@@ -151,11 +157,11 @@ workflow.
 
 ## Successful rows that need no action
 
-Some rows may pass without showing an actual applicant value, but there is an entry in the Current Value column.
+Some rows may pass without showing an actual participant value, but there is an entry in the Current Value column.
 
 | Current Value                     | Meaning                                                  |
 |-----------------------------------|----------------------------------------------------------|
-| **Workflow (Question)**           | The applicant will answer this in the workflow           |
+| **Workflow (Question)**           | The participant will answer this in the workflow         |
 | **Workflow (Personal)**           | The value will come from a personal or information field |
 | **Opportunity**                   | The value will come from the job or proposal             |
 | **Integration (Configuration)**   | The value will come from integration settings            |
@@ -183,7 +189,7 @@ while it is actually referencing a different question from the one used by the i
 :::
 
 ::: faq Why does a row pass when Current Value is blank?
-Some values are supplied later by the applicant. A workflow question can pass because PICMI knows where the answer will
+Some values are supplied later by the participant. A workflow question can pass because PICMI knows where the answer will
 come from, even though the person has not answered yet.
 :::
 

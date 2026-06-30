@@ -1,14 +1,15 @@
-# Understanding workflow reusable content
+# Understanding workflow Library Items
 
 PICMI [workflows](understanding-workflows.md) are built by combining structure with reusable content.
 
 The workflow itself controls the participant journey: which pages they see, which items appear on each page, and the
-order those items appear in. The wording, questions, contracts, images, and videos sit underneath that structure as
-reusable building blocks.
+order those items appear in. The wording, questions, contracts, images, videos, and information sit underneath that
+structure as reusable **Library Items**.
 
 :::prompt
-The key goal is **consistency across workflows through reuse**. When the same question, contract, content block, or file
-is needed in more than one place, link to the shared version instead of making a separate copy.
+The key goal is **consistency across workflows through reuse**. When the same question, information field, contract,
+content block, or file is needed in more than one place, link to the shared Library Item instead of making a separate
+copy.
 :::
 
 ## The Workflow Structure
@@ -38,6 +39,7 @@ page, or move a page earlier or later in the workflow.
 Items are the things placed on pages. They decide what appears in the workflow and in what order. An item might link to:
 
 - a question
+- information
 - a contract
 - a content block
 
@@ -45,23 +47,23 @@ Changing items changes the structure inside a page. For example, you might move 
 contract item to the Agreement page, or remove an image from a page.
 
 :::prompt
-Pages and items tell PICMI **where something appears**. The linked question, contract, content block, or file controls
-**what the participant sees**.
+Pages and items tell PICMI **where something appears**. The linked Library Item controls **what the participant sees**.
 :::
 
-## The Reusable Building Blocks
+## The Library
 
-Underneath the workflow structure are reusable building blocks. These are maintained separately and then linked into
-pages and items.
+Underneath the workflow structure is the Library. Library Items are maintained separately and then linked into pages and
+items.
 
-| Building block      | What it controls                                        | Where it links                                 | Reuse example                                             |
-|---------------------|---------------------------------------------------------|------------------------------------------------|-----------------------------------------------------------|
-| **Questions**       | The wording, answer type, options, and validation        | Items on pages                                 | The same right-to-work question used in many workflows    |
-| **Contracts**       | The contract template shown or issued through a workflow | Items on pages                                 | The same employment agreement used across similar jobs    |
-| **Content blocks**  | Page titles, headings, videos, and images                | Page titles link to pages; other blocks to items | The same health and safety heading reused on many pages   |
+| Library Item        | What it controls                                        | Where it links                                   | Reuse example                                           |
+|---------------------|---------------------------------------------------------|--------------------------------------------------|---------------------------------------------------------|
+| **Questions**       | The wording, answer type, options, and validation        | Items on pages                                   | The same right-to-work question used in many workflows  |
+| **Information**     | Known participant, organisation, or opportunity details  | Items on pages                                   | The same bank account or organisation detail collected  |
+| **Contracts**       | The contract template shown or issued through a workflow | Items on pages                                   | The same employment agreement used across similar jobs  |
+| **Content Blocks**  | Page titles, headings, data, videos, and images          | Page titles link to pages; other blocks to items | The same health and safety heading reused on many pages |
 
-When a reusable building block is updated, every page or item linking to that building block can show the updated
-version. This is useful when the change should be consistent everywhere.
+When a Library Item is updated, every page or item linking to that Library Item can show the updated version. This is
+useful when the change should be consistent everywhere.
 
 :::explanation
 ## Content Blocks
@@ -70,16 +72,18 @@ Content blocks are reusable pieces of workflow content. They are split into diff
 
 - **Page titles**
 - **Headings**
+- **Data**
 - **Videos**
 - **Images**
 
 Page titles and headings are both title content, but they are used at different levels:
 
-- **Page titles** link only to pages. They name the page and do not have extra explanatory text.
+- **Page titles** link to pages. The participant-facing workflow heading can show the linked content block name and
+  description.
 - **Headings** link to items on a page. They can include a title and optional extra text.
 
-Video and image content blocks also link to items on a page. This means the same heading, video, or image reference can
-be reused in more than one workflow item, while the same page title can be reused across pages.
+Data, video, and image content blocks also link to items on a page. This means the same heading, data, video, or image
+reference can be reused in more than one workflow item, while the same page title can be reused across pages.
 :::
 
 ## Files Linked From Content Blocks
@@ -108,10 +112,11 @@ See [Linked files](../workflows/linked-files.md) and [Linked videos](../workflow
 | **Pages**                           | The grouping and order of the workflow                 | The participant journey needs to change                  |
 | **Items on a page**                 | What appears on a page and in what order               | A question, contract, image, video, or heading moves     |
 | **Question**                        | The question wording, answer format, options, or rules | The same answer should be collected consistently         |
+| **Information**                     | The known participant, organisation, or opportunity field | The same stored detail should be collected or shown    |
 | **Contract**                        | The contract template linked through the workflow      | Agreement wording or substitutions need to change        |
 | **Page title content block**        | The reusable title linked to a page                    | A page needs a consistent title                          |
 | **Heading content block**           | The reusable heading item and optional extra text      | A heading or short explanation should be reused          |
-| **Video or image content block**     | The reusable media reference linked to an item         | The displayed media reference should be reused           |
+| **Data, video, or image content block** | The reusable content or media reference linked to an item | The displayed content reference should be reused      |
 | **File linked from a content block** | The underlying video, image, or downloadable file      | The source file needs to be replaced or corrected        |
 
 ## Decision Tree: What Should I Change?
@@ -132,21 +137,23 @@ Use this when:
 
 This is a pages and items change.
 
-### 2. Is the wording, question, contract, page title, heading, video reference, or image reference wrong?
+### 2. Is the wording, question, information, contract, page title, heading, data, video reference, or image reference wrong?
 
-Change the **linked reusable building block**.
+Change the **linked Library Item**.
 
 Use this when:
 
 - a question needs clearer wording
 - question options or validation need to change
+- an information field is wrong for this workflow
 - a contract template needs updated terms
 - a page title needs new wording
 - a heading title or its optional extra text needs new wording
+- a data content block needs updated details
 - a video or image content block points to the wrong media
 
-Before changing it, check whether the same building block is reused elsewhere. If it is reused, make the change only
-when the same update should appear everywhere that block is used.
+Before changing it, check whether the same Library Item is reused elsewhere. If it is reused, make the change only when
+the same update should appear everywhere that Library Item is used.
 
 ### 3. Is the downloadable file, video file, or image file wrong?
 
@@ -165,8 +172,8 @@ If the file can be replaced while keeping the same permanent link, the content b
 
 Decide whether to reuse or separate.
 
-Use the existing shared building block when the change should be consistent across workflows. Create or link a separate
-building block when one workflow needs different wording, a different contract, or different media.
+Use the existing shared Library Item when the change should be consistent across workflows. Create or link a separate
+Library Item when one workflow needs different wording, information, a different contract, or different media.
 
 :::explanation
 ## Practical Examples
@@ -177,11 +184,11 @@ Change the page item placement. The video content block may not need to change.
 
 **The same health and safety heading has a spelling mistake everywhere.**
 
-Change the shared heading content block once.
+Change the shared heading Content Block once.
 
 **One workflow needs a different version of a question.**
 
-Create or link a separate question for that workflow instead of changing the shared question.
+Create or link a separate Question for that workflow instead of changing the shared Question.
 
 **The PDF linked from a workflow is outdated.**
 

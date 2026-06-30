@@ -1,6 +1,6 @@
 # Content Blocks
 
-Content Blocks are reusable pieces of content that your organisation can create, manage, and add to workflows.
+Content Blocks are reusable Library Items that your organisation can create, manage, and add to workflows.
 
 They help keep common workflow content in one place, so you can reuse the same information across multiple workflows
 instead of recreating it each time.
@@ -11,9 +11,11 @@ Content Blocks can be used for:
 - Headings
 - Images
 - Videos
+- Data
+- item content
 
 ::: prompt
-Note: workflows are also made up of [questions](./questions.md) and personal information
+Note: workflows are also made up of [questions](./questions.md), Information, and contracts.
 :::
 
 ## Why use Content Blocks?
@@ -34,6 +36,7 @@ When creating a Content Block, you must choose a **Type**.
 |----------------|---------------------------------------------------------------------------------|
 | **Page Title** | A page title content block                                                      |
 | **Heading**    | A heading or title with optional supporting details                             |
+| **Data**       | Reusable structured information shown inside the workflow                       |
 | **Image**      | A web link to an image with optional title. See [linked files](./linked-files)  |
 | **Video**      | A web link to a video with optional title.  See [linked video](./linked-videos) |
 
@@ -47,6 +50,7 @@ Depending on the type, you may need to provide:
 
 - **Title**: required for Heading and Page content blocks
 - **Additional details**: used for Heading content blocks and can contain supporting content
+- **Data value**: used for Data content blocks
 - **Web-link**: required for Image and Video content blocks; enter the URL of the image or video
 
 ::: instructions
@@ -55,11 +59,28 @@ Depending on the type, you may need to provide:
 
 To create a Content Block:
 
-1. Go to **Setup > Content Blocks**.
+1. Go to **Setup** > **Content blocks**.
 2. Select **Create Content Block**.
 3. Choose the **Type**.
 4. Complete the required fields.
 5. Save the Content Block.
+
+:::
+
+## Creating a Content Block from the Workflow Builder
+
+You can also create supported Content Blocks while editing a workflow.
+
+::: instructions
+
+1. Go to **Setup** > **Content blocks**.
+2. Locate the content block row, click &vellip; (vertical dots) to open the menu.
+3. Select **Edit** .
+5. Select the option to create a Content Block.
+6. Choose the Content Block type.
+7. Complete the required fields.
+8. Add the Content Block to the selected page or item position.
+9. Save the workflow.
 
 :::
 
@@ -78,7 +99,7 @@ You can edit an existing Content Block to update:
 
 To edit a Content Block:
 
-1. Go to **Setup > Content Blocks**.
+1. Go to **Setup** > **Content blocks**.
 2. Use one of the various methods to show the edit details pane
     * Click on the row
     * Click &vellip; (vertical dots) to open the menu, select :::icon pencil-outline **Edit**:::
@@ -88,6 +109,25 @@ To edit a Content Block:
 :::: prompt
 Any content block can be **hidden for lists**. See [hiding a content block](#hiding-a-content-block)
 ::::
+:::
+
+## Editing a linked Content Block from the Workflow Builder
+
+::: instructions
+
+1. Go to **Setup** > **Workflows**.
+2. Locate the workflow row :::icon checkbox-marked-outline:::, click &vellip; (vertical dots) to open the menu.
+3. Select **Edit** mode.
+4. Select the page or item that links to the Content Block.
+5. Review the Content Block in the Inspector.
+6. Edit the linked Content Block if the builder allows editing for that type.
+7. Save your changes.
+
+:::
+
+::: prompt
+Editing a linked Content Block can affect every workflow using that Content Block. If only one workflow needs different
+wording, media, or data, create or link a separate Content Block instead.
 :::
 
 ## Searching Content Blocks
@@ -137,6 +177,19 @@ This is useful for confirming that:
 - Image or video links are valid
 - Page-style content is suitable before being added to a workflow
 
+## Content Blocks in participant workflows
+
+Content Blocks can appear as page titles, section headings, and item content. A participant-facing workflow heading can
+show the linked Content Block name and description, depending on the block type and workflow placement.
+
+Preview the workflow after adding or editing Content Blocks to check:
+
+- the page title or heading is clear
+- the description appears where expected
+- images and videos load correctly
+- data content is readable
+- the Content Block appears in the intended workflow location
+
 ## Hiding a Content Block
 
 Content Blocks are not permanently deleted. Instead, they can be **hidden from lists**.
@@ -185,4 +238,3 @@ No. Content Blocks cannot currently be permanently deleted.
 
 If a Content Block should no longer be used, hide it from lists instead.
 :::
-
