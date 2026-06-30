@@ -3,6 +3,8 @@
 The Workflow Builder is where you manage workflow structure, preview the participant experience, and review workflow
 contents.
 
+![Workflow design hierarchy](../../img/workflow-design-hierarchy.png)
+
 ## Open the Workflow Builder
 
 ::: instructions
