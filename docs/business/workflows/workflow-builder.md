@@ -48,6 +48,8 @@ template, field, validation, or content is reused.
 
 ## Related articles
 
+- [Understanding workflows](../about-picmi/understanding-workflows.md)
+- [Understanding workflows items](../about-picmi/understanding-workflow-items.md)
 - [Updating workflows](./updating-workflows.md)
 - [Adding Library Items](./adding-library-items.md)
 - [Previewing workflows](./previewing-workflows.md)
