@@ -23,6 +23,8 @@ Workflows sit between the opportunity and the agreement in PICMI's structure: **
 Agreement**
 :::
 
+![Workflow design hierarchy](../../img/workflow-design-hierarchy.png)
+
 ## Workflow structure: Pages and items
 
 Every workflow is organised into **pages**, and each page contains **items** that participants interact with or review.
