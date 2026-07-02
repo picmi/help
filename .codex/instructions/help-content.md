@@ -8,6 +8,9 @@ These instructions apply to markdown content under `docs/`.
 - Inspect nearby pages in the same section to match terminology, level of detail, and link style.
 - Search existing content before adding a new page so you do not duplicate an existing article.
 - Decide the audience first: `business` pages are for organisations using PICMI; `jobseeker` pages are for people applying through PICMI.
+- When creating FAQs from support prompts or AI explain-window questions, do not include customer names, email
+  addresses, organisation names, exact dates, or other customer-specific details. Use the customer's wording as a
+  bridge only, then explain the answer through PICMI concepts and link to the relevant solution pages.
 
 ## Where Content Belongs
 
@@ -28,6 +31,8 @@ These instructions apply to markdown content under `docs/`.
 - Prefer concrete user actions over abstract product descriptions in task articles.
 - Use tables for field lists, statuses, settings, and comparisons when scanning matters.
 - Keep FAQ answers standalone. Do not assume the reader has visited another page first.
+- For RAG discoverability, add as many focused FAQ variants as needed to cover the likely customer question shapes,
+  including everyday business wording and the matching PICMI terms.
 
 ## PICMI Markdown Components
 

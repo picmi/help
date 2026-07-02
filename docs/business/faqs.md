@@ -814,6 +814,79 @@ This can be used for seasonal recruitment, service periods, or programme windows
 
 ## Changing Jobs, Roles, Contracts, and Applications
 
+::: faq Can I send invites for a new role while people are still working in their current role?
+Yes. If the new role is set up as a separate **job** in PICMI, you can send the invites before the current work has
+finished.
+
+In PICMI, the current job and the new job are independent. Each job has its own application, workflow, and employment
+agreement, so it is fine for the invite to be sent while the person is still active in another job.
+
+See [Sending Invites](article/opportunity-send-invite.md) and
+[Changing a person's role/job in PICMI](guide/jobs/changing-a-role.md).
+:::
+
+::: faq Can a worker have an application for a new job before their current job is completed?
+Yes. A person can have more than one application in PICMI when each application is for a different job.
+
+For example, someone may currently be working in one seasonal job and be invited to apply for a different seasonal job
+that starts later. PICMI keeps those applications separate because each one belongs to a different job.
+
+See [Understanding applications](about-picmi/applications.md) and
+[Understanding employment jobs](about-picmi/employment-job-elements.md).
+:::
+
+::: faq Do current and new roles need separate jobs when they use different workflows or contracts?
+Yes. If the current role and new role use different workflows or different employment agreement templates, set them up
+as separate jobs.
+
+A PICMI job is linked to one workflow, and that workflow contains the contract template used for the application. If the
+new role needs a different workflow or contract, the clean setup is a new job with its own workflow and contract.
+
+See [Understanding workflows](about-picmi/understanding-workflows.md) and
+[Changing a person's role/job in PICMI](guide/jobs/changing-a-role.md).
+:::
+
+::: faq Can two jobs overlap in PICMI?
+Yes. PICMI does not require one job to be completed before a person can be invited to another job.
+
+The important point is that each role or work period that needs its own agreement should be represented by its own job.
+The applications can overlap in time, or one can start shortly after the other.
+
+See [Understanding applications](about-picmi/applications.md).
+:::
+
+::: faq Does PICMI have roles, or should I think in terms of jobs?
+PICMI mainly works in terms of **jobs**, **applications**, **workflows**, and **contracts**. Your business may describe
+something as a role, position, crew, department, or work type. In PICMI, that business role is usually represented by a
+job connected to a workflow and contract.
+
+If the business role changes enough that the person needs a different agreement, create or duplicate a job and invite
+the person to that new job.
+
+See [Understanding jobs, roles, contracts, and applications](guide/understanding-picmi-vs-you.md).
+:::
+
+::: faq Can the same person apply to the same job twice?
+No. A job can only have one application per person.
+
+If the person needs a new application because they are moving to a different role, using a different contract, or
+starting a new work period, create or duplicate a separate job and invite them to that job.
+
+See [Sending Invites](article/opportunity-send-invite.md) and
+[Changing a person's role/job in PICMI](guide/jobs/changing-a-role.md).
+:::
+
+::: faq Do I need to create a new workflow or contract for every role change?
+Not always. Create a new workflow or contract only when the new job needs different application steps or different
+agreement wording.
+
+If the new role can use an existing workflow and contract template, reuse them. If only one person's pay or conditions
+are different within the same job, use personal conditions instead of creating a new workflow or contract.
+
+See [Changing a person's role/job in PICMI](guide/jobs/changing-a-role.md) and
+[Add individual employment conditions](article/creating-individual-employment-conditions.md).
+:::
+
 ::: faq If someone changes roles, what does PICMI need to know?
 Whether it's a **different job** (new application) or the **same job** with different pay or conditions (reissue
 agreement).
@@ -825,7 +898,7 @@ When a worker accepts a job, PICMI generates an **employment agreement** based o
 If the job changes, a **new application and new agreement** are required.
 :::
 
-::: faq What does contrac mean in PICMI?
+::: faq What does contract mean in PICMI?
 In everyday language, people often say **"contract"** when they mean the type of work or arrangement.
 
 In **PICMI**, a **contract** specifically refers to the **employment agreement document** generated when a worker

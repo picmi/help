@@ -274,6 +274,10 @@ PICMI is a tool that connects people (your potential workforce) with you (the em
 - **Use `<prompt>` or `<explanation>`** blocks only when needed. Avoid mixing them inside the main answer unless it adds clear value.
 - **Use lists** for step-by-step guidance or alternatives.
 - **Group related questions** under meaningful subheadings using `##`.
+- **Write for RAG and AI explain-window discovery**: add focused FAQ variants for likely customer question wording,
+  but do not include customer names, organisation names, email addresses, exact dates, or other customer-specific
+  details. Use the customer's language as a bridge, then explain the answer through PICMI concepts and link to the
+  relevant solution pages.
 
 ### Examples
 
