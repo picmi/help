@@ -1091,6 +1091,42 @@ Accepted records can be download as a [report](integrations/download-reports.md)
 the [CSV integrations](integrations/integrations#available-integrations) type
 :::
 
+::: faq Why did my payroll integration bank account format change to include dashes?
+Some payroll CSV integrations can be configured to export bank account numbers with dashes or as digits only. Where the
+setting is available, check the integration configuration before downloading the report.
+
+For MYOB IMS, bank account dashes are controlled by the **Convert Bank Account To Simple Characters** setting. When this
+setting is **False**, PICMI exports the bank account with dashes. When it is **True**, PICMI exports digits only.
+
+See [MYOB IMS bank account FAQs](integrations/myob-ims.md#why-do-bank-account-numbers-in-my-myob-ims-csv-have-dashes).
+:::
+
+::: faq Why is the leading zero missing from a bank account in my payroll CSV or upload spreadsheet?
+This is usually caused by the spreadsheet program treating the bank account as a number after the CSV is opened or
+edited. Compare the raw PICMI download with the edited upload file, and import the bank account column as text if you
+need to edit the CSV.
+
+This can happen with any CSV payroll integration that includes bank account numbers. If the raw PICMI CSV is correct but
+the spreadsheet version is missing the leading zero, the change happened after download.
+
+See [CSV report troubleshooting](integrations/download-reports.md#how-can-i-open-my-csv-without-changing-the-dates) and
+[MYOB IMS bank account troubleshooting](integrations/myob-ims.md#why-is-the-first-zero-missing-from-a-bank-account-number-after-i-open-the-csv).
+:::
+
+::: faq Why has PICMI changed a three-digit bank account suffix to two digits?
+PICMI uses the standard New Zealand payroll format with a two-digit bank suffix. If a bank displays a three-digit
+suffix, enter the last two digits only.
+
+See [Bank Account Numbers (NZ)](guide/bank-account.md).
+:::
+
+::: faq Why is KiwiSaver employer contribution exporting as 3% instead of 3.5%?
+Check the employer subsidy setting on the relevant integration configuration. From 1 April 2026, 3.5% is the standard
+employer contribution rate, while 3% is only used where it is allowed and explicitly selected.
+
+See [Employer KiwiSaver Subsidy Rates](guide/kiwisaver-subsidy-rates.md).
+:::
+
 ::: faq How can I download data from an API integration?
 Use [export details](article/export.md) to create your own CSV set of records
 :::

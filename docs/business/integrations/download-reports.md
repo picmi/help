@@ -86,14 +86,24 @@ When you open the CSV, the program guesses which one to use — and sometimes it
 :::
 
 ::: faq How can I open my CSV without changing the dates?
-To keep your dates correct:
+To keep your dates and other formatted values correct:
 
 1. **Don’t double-click** the CSV file to open it.
 2. Instead, **import** it into your spreadsheet program. During import, tell the program that the date columns are
    “text” or specify the correct format (for example `YYYY-MM-DD` or `DD/MM/YYYY`).
-3. Or, open the file in a **text editor** to check the original values.
+3. If the report includes bank account numbers, set the bank account column to “text” during import so leading zeroes
+   are not removed.
+4. Or, open the file in a **text editor** to check the original values.
 
-This way, your dates will display exactly as PICMI provided them.
+This way, your dates and bank account numbers will display exactly as PICMI provided them.
+:::
+
+::: faq Why is the leading zero missing from a bank account in my CSV?
+Spreadsheet programs often treat bank account numbers as ordinary numbers when a CSV is opened or edited. If that
+happens, a value such as `02-0340-0008252-09` or `020340000825209` may be changed or displayed without the first zero.
+
+Download the report again and compare the raw PICMI CSV with the spreadsheet file. If the raw CSV is correct, import
+the file into your spreadsheet program and set the bank account column as text before editing or saving it.
 :::
 
 ::: faq What’s the safest format for sharing data?
@@ -122,4 +132,3 @@ const toggleExpandAll = () => {
   expandAll.value = !expandAll.value;
 }
 </script>
-

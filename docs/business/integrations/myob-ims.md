@@ -136,6 +136,71 @@ Following this approach will make managing occupations and costing codes in PICM
 
 * see [reports](download-reports.md)
 
+## FAQs
+
+<button @click="toggleExpandAll">{{ expandAll ? 'Collapse All' : 'Expand All' }}</button>
+
+:::: faq Why do bank account numbers in my MYOB IMS CSV have dashes?
+This is controlled by the **Convert Bank Account To Simple Characters** setting on the MYOB IMS integration
+configuration.
+
+If **Convert Bank Account To Simple Characters** is **False**, PICMI exports bank account numbers in the standard New
+Zealand format with dashes, such as `02-0340-0008252-09`.
+
+If **Convert Bank Account To Simple Characters** is **True**, PICMI removes the dashes and exports digits only, such as
+`020340000825209`.
+
+::: prompt
+Check this setting before downloading the MYOB IMS report if the file format has changed from a previous season.
+:::
+::::
+
+:::: faq Why is the first zero missing from a bank account number after I open the CSV?
+This is usually caused by the spreadsheet program, not by PICMI. Programs like Excel, Google Sheets, and Apple Numbers
+may treat a bank account as a number and remove leading zeroes when the CSV is opened or edited.
+
+To check where the change happened:
+
+1. Download the MYOB IMS report from PICMI again.
+2. Compare the raw PICMI CSV with the spreadsheet file you are trying to import.
+3. If the raw CSV is correct, import the CSV into your spreadsheet program and set the bank account column as text.
+
+::: prompt
+When asking PICMI support to investigate, include both the raw file downloaded from PICMI and the edited file you are
+trying to upload into MYOB IMS.
+:::
+::::
+
+:::: faq Why does my MYOB IMS bank suffix show two digits when the bank account has three?
+PICMI uses the standard New Zealand payroll format with a two-digit bank suffix. If a bank displays a three-digit
+suffix, enter the **last two digits only** in PICMI.
+
+For example, if the displayed suffix is `097`, enter `97`.
+
+See [Bank Account Numbers (NZ)](../guide/bank-account.md).
+::::
+
+:::: faq What should I check if wages bounce because of a bank account suffix?
+First confirm whether the value is correct in PICMI before changing the CSV.
+
+1. Check the person's accepted application or contract details in PICMI.
+2. Confirm the bank suffix follows the two-digit PICMI format.
+3. Download a fresh MYOB IMS CSV and compare it with any spreadsheet version that was edited after download.
+4. If the raw PICMI CSV and edited upload differ, treat the bank account column as text in the spreadsheet program.
+
+If the raw PICMI CSV is wrong, contact PICMI support with the affected person's record and the raw CSV.
+::::
+
+:::: faq Why is the MYOB IMS KiwiSaver employer contribution still showing as 3% instead of 3.5%?
+Check the **Employer Subsidy Rate** setting on the MYOB IMS integration configuration. PICMI exports the employer
+subsidy from the integration configuration, subject to the KiwiSaver contribution rules.
+
+From 1 April 2026, 3.5% is the standard employer contribution rate. A 3% employer rate is only used where it is allowed
+and explicitly selected.
+
+See [Employer KiwiSaver Subsidy Rates](../guide/kiwisaver-subsidy-rates.md).
+::::
+
 :::: explanation
 
 ## General troubleshooting
@@ -143,3 +208,13 @@ Following this approach will make managing occupations and costing codes in PICM
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
   ::::
+
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const expandAll = ref(false);
+
+const toggleExpandAll = () => {
+    expandAll.value = !expandAll.value;
+}
+</script>
