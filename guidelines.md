@@ -327,6 +327,7 @@ grep -h -Eo ':::icon[[:space:]]+[^[:space:]:]+' --include='*.md' -r . \
 ```
 
 * `account-circle-outline` :::icon account-circle-outline:::
+* `account-outline` :::icon account-outline:::
 * `account-eye-outline` :::icon account-eye-outline:::
 * `account-lock-outline` :::icon account-lock-outline:::
 * `arrow-left` :::icon arrow-left:::
@@ -375,7 +376,7 @@ These examples are key workflows:
 
 ```
 1. ...
-2. User the filters to find previous messages
+2. Use the filters to find previous messages
   * **Search Messages**: look for groups of messages with similar text
   * **Status**: narrow the search based on application status
   * **Dates**: narrow the search on dates of the status message change

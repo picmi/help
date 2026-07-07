@@ -10,7 +10,7 @@ PICMI operates on a pay-as-you-go basis, meaning you only **pay for what you use
 
 ### Per contract fee
 
-For each legally binding contract signed in PICMI, a fee of **$19** in New Zealand dollars (NZD) plus any taxes is charged. This cost applies to each contract, ensuring businesses pay only for their hires through an accepted application. It is also includes the cost of storage of the data.
+For each legally binding contract signed in PICMI, a fee of **$19** in New Zealand dollars (NZD) plus any taxes is charged. This cost applies to each contract, ensuring businesses pay only for their hires through an accepted application. It also includes the cost of storage of the data.
 
 A "signed contract" is defined as follows
 
@@ -92,6 +92,9 @@ If you have questions or special circumstances, please see [billing support](#bi
 - **Maintain your own copies**: PICMI does not retain previous invoices directly in the PICMI app, so it is your responsibility to save copies for your records.
 - **Requesting historical records**: If you need past invoices, please contact the PICMI team for assistance.
 
+The [Invoices report](../article/invoices.md) in PICMI can help you review accepted applications that may be included in an invoice
+period. It is for tracking accepted application records and does not replace issued invoice records or payment history.
+
 ## Handling mistaken application invitations
 
 If you’ve sent an application to the wrong person (or the wrong application to someone), don’t worry—mistakes happen, especially when managing multiple hires or working under pressure. Here’s how to resolve it
@@ -117,3 +120,8 @@ For any billing questions or support, please
 - Reach out via our **contact page** on [picmi.io/contact](https://picmi.io/contact)
 
 Our team can assist with invoice clarification, payment adjustments, or other billing-related inquiries.
+
+## See also
+
+- [Invoices report](../article/invoices.md) for reviewing accepted applications that may be included in an invoice
+  period.

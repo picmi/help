@@ -21,6 +21,7 @@ export function sidebarBusiness() {
                     link: '/business/about-picmi/understanding-workflow-items'
                 },
                 { text: 'Understanding billing', link: '/business/about-picmi/billing' },
+                { text: 'Invoices', link: '/business/article/invoices' },
                 {
                     text: 'Understanding using PICMI', collapsed: false, items: [
                         { text: 'Search filters', link: '/business/article/search' },
