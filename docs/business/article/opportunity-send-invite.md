@@ -70,8 +70,6 @@ errors—bounced email addresses will be notified and the application should be 
 :::
 ::::
 
-:::: explanation
-
 ## Service proposal invites: how Name and Email are interpreted
 
 When you send a service invite by entering a person's **Email** and **Name**, PICMI uses the email address to look for
@@ -98,8 +96,6 @@ PICMI also checks for an existing service application for the same receiving org
 The existing-application check uses the same receiving organisation and opportunity. It does not create a new
 application or reset the existing one based on whether the current application is active, declined, cancelled, or
 completed. For example, an existing **Declined** application is returned as-is; it is not recreated or changed back to **Invited**.
-
-::::
 
 :::: instructions
 
