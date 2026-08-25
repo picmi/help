@@ -1,6 +1,7 @@
 # Sending Invites
 
-Once you've [created an opportunity](opportunity-create.md) (ideally [duplicated](opportunity-duplicate.md)), it should be straight forward to invite people to apply for a job or service proposal. 
+Once you've [created an opportunity](opportunity-create.md) (ideally [duplicated](opportunity-duplicate.md)), it should
+be straight forward to invite people to apply for a job or service proposal.
 
 ::: prompt
 Before you send out an invitation, ensure that the opportunity and application workflow is correctly configured and that
@@ -10,32 +11,37 @@ failed rows before sending. See [Check Configuration and field validation](check
 :::
 
 :::: explanation
+
 ## General process
 
 * use the :::icon help-circle-outline Help Tour Guide::: to learn about the major functions
 * know the people you want to receive an invite to a job
 * only people **with an email** can receive an invite digitally (ie by email)
-* can search for existing people who have been previously invited on other jobs 
+* can search for existing people who have been previously invited on other jobs
 * add a personal message to the email (include reusing existing messages from other people)
-* only after an invite has been generated (or provisional user created), can [personal overrides](creating-individual-employment-conditions) be added to the application for individual employment conditions
+* only after an invite has been generated (or provisional user created),
+  can [personal overrides](creating-individual-employment-conditions) be added to the application for individual
+  employment conditions
 * the outgoing email can be previewed
 * you can send more than one email at a time
 * you can import multiple email records through the clipboard (as well as download templates for each) from
-  * Email application contacts list 
-  * Google Sheets
-  * CSV
-  * Numbers
-  * Excel 
+    * Email application contacts list
+    * Google Sheets
+    * CSV
+    * Numbers
+    * Excel
 * PICMI provides downloadable templates to be used in the spreadsheet applications
 
 ::: prompt
-People **without** an email can be added as a [provisional user](provisional-user.md)—they are then invited or contacted by other means
+People **without** an email can be added as a [provisional user](provisional-user.md)—they are then invited or contacted
+by other means
 :::
 ::::
 
 ## Send invites
 
 :::: instructions
+
 ## Send a single invite
 
 This is the simplest way to send a single email.
@@ -53,20 +59,54 @@ This is the simplest way to send a single email.
 7. Optionally a personal message can be added
     * Click **Add Personal Message**
     * Enter a message to be included in invite (note: existing messages can be reused from **Show Existing**)
-8. Click :::icon account-eye-outline Preview Email Invite::: at anytime to view the email that will be sent 
+8. Click :::icon account-eye-outline Preview Email Invite::: at anytime to view the email that will be sent
 9. When you are ready, click **Send**
 
 Back in the list you can watch the process of the email being sent
 
 ::: prompt
-Avoid typing an email address by using import or copy-and-paste to ensure that you don't introduce unnecessary errors—bounced email addresses will be notified and the application should be cancelled
+Avoid typing an email address by using import or copy-and-paste to ensure that you don't introduce unnecessary
+errors—bounced email addresses will be notified and the application should be cancelled
 :::
 ::::
 
+:::: explanation
+
+## Service proposal invites: how Name and Email are interpreted
+
+When you send a service invite by entering a person's **Email** and **Name**, PICMI uses the email address to look for
+an existing employee and to identify the organisation associated with that person. The name is used for the invitee when
+PICMI creates a new user or employee record.
+
+The result depends on whether the person, organisation, or application already exists:
+
+| Situation                                                                                              | Result                                                                                                                           |
+|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| An existing employee already belongs to the target organisation                                        | PICMI creates the application for that organisation and invitee.                                                                 |
+| An existing employee is not affiliated with the target organisation                                    | PICMI creates the application, notifies the organisation to add the invitee, and reports an error. The application still exists. |
+| An existing employee is found, but the target organisation is new                                      | PICMI creates the organisation using the employee, then creates the application.                                                 |
+| No existing employee is found, and the target organisation is new or cannot be matched by email domain | PICMI creates a new user, employee, organisation, and application.                                                               |
+
+PICMI also checks for an existing service application for the same receiving organisation and opportunity:
+
+| Existing application                                                                                     | Result                                                                                          |
+|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| One matching application exists with **Invited** status                                                  | PICMI returns the existing application and sends the invitation notification again.             |
+| One matching application exists in another state, such as **In Progress**, **Accepted**, or **Declined** | PICMI returns the existing application without changing its status or sending a new invitation. |
+| More than one matching application exists                                                                | PICMI logs an error and does not return a usable application ID. The request will fail.         |
+
+The existing-application check uses the same receiving organisation and opportunity. It does not create a new
+application or reset the existing one based on whether the current application is active, declined, cancelled, or
+completed. For example, an existing **Declined** application is returned as-is; it is not recreated or changed back to **Invited**.
+
+::::
+
 :::: instructions
+
 ## Send bulk invites from a spreadsheet application
 
-You can always bring in a set of emails from your spreadsheet application. Create this information in the [import template format](#download-import-template) that you have downloaded.
+You can always bring in a set of emails from your spreadsheet application. Create this information in
+the [import template format](#download-import-template) that you have downloaded.
 
 1. Go to either:
     * **Employment** > **Jobs**
@@ -77,10 +117,10 @@ You can always bring in a set of emails from your spreadsheet application. Creat
 5. Locate :::icon dots-vertical More::: (vertical dots) to open menu
 6. Locate the **Bulk** section
 7. Select one of the import options  ([download template](#download-import-template))
-   * Google Sheets
-   * Excel
-   * Numbers
-   * CSV Spreadsheet
+    * Google Sheets
+    * Excel
+    * Numbers
+    * CSV Spreadsheet
 8. In your spreadsheet, select the import emails into your clipboard
 9. Right-click, **Paste** to enter the clipboard into the field
 10. The emails will be validated and entered into the list on the screen
@@ -94,9 +134,11 @@ When importing from CSV, the order of **Email** first is important before **Name
 ::::
 
 :::: instructions
+
 ## Send bulk invites from mail application
 
-You can always bring in a set of emails from your mail client that already has the email addresses. No import template is required, select the emails from the application contact list.
+You can always bring in a set of emails from your mail client that already has the email addresses. No import template
+is required, select the emails from the application contact list.
 
 1. Go to either:
     * **Employment** > **Jobs**
@@ -117,6 +159,7 @@ In this list, you can edit and remove emails, as well as preview the email
 ::::
 
 :::: instructions
+
 ## Search Existing People
 
 Invite people who have already had applications and are entered in the system.
@@ -140,13 +183,14 @@ Invite people who have already had applications and are entered in the system.
 11. When you are ready, click **Send**
 
 ::: prompt
-If finding returning provisional users, in the **Search applications** filter type `@noreply.picmi.io` (as well as all statuses Completed)
+If finding returning provisional users, in the **Search applications** filter type `@noreply.picmi.io` (as well as all
+statuses Completed)
 :::
-
 
 ## Download import template
 
-Adding multiple email, names and messages in a spreadsheet is usually quicker and easier! Download a CSV file or copy to clipboard to bring into your spreadsheet application
+Adding multiple email, names and messages in a spreadsheet is usually quicker and easier! Download a CSV file or copy to
+clipboard to bring into your spreadsheet application
 
 1. Go to either:
     * **Employment** > **Jobs**
@@ -157,8 +201,8 @@ Adding multiple email, names and messages in a spreadsheet is usually quicker an
 5. Locate :::icon dots-vertical::: (vertical dots) More to open menu
 6. Select **Download import template**
 7. Select the format you want:
-   * Download to file (saves as per your browser preference)
-   * Copy to clipboard
+    * Download to file (saves as per your browser preference)
+    * Copy to clipboard
 
 Now open your spreadsheet application with either the file or copy and paste from clipboard and then file in the fields
 ready to import
