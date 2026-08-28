@@ -54,9 +54,27 @@ Yes, if someone forgets their email password, using a provisional user allows th
 application.
 :::
 
-::: faq Can I switch a provisional user to an email-based login?
-Yes, and we encourage all users to eventually use their own email for full access and communication across multiple
-applications.
+::: faq Can the jobseeker/worker switch a provisional user to an email-based login?
+Yes. Once a provisional user enters a valid, deliverable email address on their profile, they can use email-based
+access and receive PICMI emails. This gives them full access and communication across multiple applications.
+See [using email-based access for provisional users](article/provisional-user.md#switch-to-email-based-access).
+:::
+
+::: faq What happens to a provisional user's applications when they switch to email-based access?
+The existing person and their applications remain associated with the same account. The person does not need to be
+created again, and their previous application history is not lost.
+:::
+
+
+::: faq Can the business still see the provisional user's old access details after conversion?
+Not necessarily. After the person switches to email-based access, the old provisional access details may no longer be
+shown as the person's current access information. If you need to retain those details for your records, note them
+before the conversion.
+:::
+
+::: faq Can I make an email question optional in a workflow?
+No. A regular **Email** question is always required in the question or workflow settings. The email
+address used for a participant's email-based account is different: it is required for email-based access. But the email can be changed in the profile.
 :::
 
 ## Emails

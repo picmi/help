@@ -38,6 +38,19 @@ You can use your Google account to sign in quickly without needing a separate pa
 
 Each method provides a seamless and secure way to access PICMI.
 
+## Using provisional access
+
+If an organisation gives you provisional access, you can use it without an email address:
+
+1. Open the access link or scan the QR code provided by the organisation.
+2. If you were given an access key and code instead, use those details to open the application.
+3. You can complete your application using the provisional access.
+
+If you have a personal email address, add it to your PICMI profile when updating your details. You can then receive
+PICMI emails and use [passwordless sign-in](#2-passwordless-sign-in) with that email address for future access.
+
+If you do not have an email address, continue using the provisional access details provided by the organisation.
+
 ## What to Do If You Can't Sign In
 - **Check your inbox** for an invite email and try the sign-in link.
 - **[Check other folders](../../email-not-found.md#1-check-other-folders)** for emails

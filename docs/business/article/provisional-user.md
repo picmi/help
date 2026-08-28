@@ -9,6 +9,18 @@ As a business you should help people set up an email account as quickly as possi
 :::
 
 :::: explanation
+## Switch to email-based access
+
+Provisional users are intended for people who do not currently have an email address available. If a worker already
+has a valid, deliverable email address, create them as an email-based user from the start.
+
+If a provisional user later provides an email address, entering it on their profile allows them to switch to
+email-based access. They can then receive PICMI emails and use the account functionality available to regular users
+across multiple applications.
+
+::::
+
+:::: explanation
 ## Type of access
 Provisional users have specific access details to log into PICMI and don't use a username and password. There are three ways to [provide access details](#provide-details-to-a-person) and all options are available to be used at any time.
 
@@ -198,4 +210,3 @@ Important template has two fields:
 * **Expiry** in days, eg 30, 120 (default: 90, if nothing added)
 :::
 ::::
-
