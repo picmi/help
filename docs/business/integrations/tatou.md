@@ -1,7 +1,8 @@
 # Tātou integration overview
 
-::: prompt 
-PICMI currently only supports one Tātou integration for a single organisation. Contact us if you need to set up multiple.
+::: prompt
+Each job may have only one active Tātou integration. Disabled integrations do not count as active. If you need help
+setting up integrations, see [Setting up integrations](setting-up-integrations.md).
 :::
 
 :::: explanation
@@ -12,14 +13,15 @@ PICMI only checks for duplicates based on email, not Staff ID. This means that i
 PICMI will assume they are a new hire, even if they are actually the same person in Tātou.
 ::::
 
-## Tatou: Integration configuration
+## Tātou: Integration configuration
 
-| Configuration                                                                                                 | Description                                    | Values                  |
-|---------------------------------------------------------------------------------------------------------------|------------------------------------------------|-------------------------|
-| [Security token](#cfg-tatou-token){#cfg-tatou-token}                                                          | Integrations available in the system           | Text (required)         |
-| [Default contract type](#cfg-tatou-default-contract-type){#cfg-tatou-default-contract-type}                   | Contract type to apply to all applications     | Casual                  |
-| [Default role](#cfg-tatou-default-role){#cfg-tatou-default-role}                                              | Tatou roles available on this organisation     | Tatou roles             |
-| [Default employee status on creation](#cfg-tatou-default-employee-status){#cfg-tatou-default-employee-status} | Tatou employee status set on employee creation | Tatou employee statuses |
+| Configuration                                                                                                 | Description                                                       | Values                  |
+|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------|
+| [Security token](#cfg-tatou-token){#cfg-tatou-token}                                                          | Integrations available in the system                              | Text (required)         |
+| [Default contract type](#cfg-tatou-default-contract-type){#cfg-tatou-default-contract-type}                   | Contract type to apply to all applications                        | Casual                  |
+| [Default earning rule](#cfg-tatou-default-earning-rule){#cfg-tatou-default-earning-rule}                      | Contract type to apply to all applications (introduced Sept 2026) | Tatou earning rules     |
+| [Default role](#cfg-tatou-default-role){#cfg-tatou-default-role}                                              | Tatou earning rules available on this organisation                | Tatou roles             |
+| [Default employee status on creation](#cfg-tatou-default-employee-status){#cfg-tatou-default-employee-status} | Tatou employee status set on employee creation                    | Tatou employee statuses |
 
 ## PICMI-Tātou integration fields
 
@@ -68,8 +70,26 @@ configuration.
 :::
 ::::
 
+:::: faq Duplicate Tātou integration error
+This error means that more than one active Tātou integration is configured on the same job. PICMI allows each job to
+have only one active Tātou integration so it knows which integration to use for employee synchronisation.
+
+Disabled integrations are ignored and do not cause this error.
+
+To fix the error:
+
+1. Open the job's [integration settings](setting-up-integrations.md#sync-settings).
+2. Leave only one Tātou integration active for the job.
+3. Disable or remove any duplicate active Tātou integrations.
+4. Try the employee synchronisation again.
+
+If the error continues after you have checked the job's integration settings, contact
+[PICMI support](https://www.picmi.io/contact-us) and include the job name and the error message.
+::::
+
 ## General troubleshooting
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-  ::::
+
+
