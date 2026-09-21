@@ -13,15 +13,52 @@ PICMI only checks for duplicates based on email, not Staff ID. This means that i
 PICMI will assume they are a new hire, even if they are actually the same person in Tātou.
 ::::
 
-## Tātou: Integration configuration
+## Configuration settings
 
-| Configuration                                                                                                 | Description                                                       | Values                  |
-|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------|
-| [Security token](#cfg-tatou-token){#cfg-tatou-token}                                                          | Integrations available in the system                              | Text (required)         |
-| [Default contract type](#cfg-tatou-default-contract-type){#cfg-tatou-default-contract-type}                   | Contract type to apply to all applications                        | Casual                  |
-| [Default earning rule](#cfg-tatou-default-earning-rule){#cfg-tatou-default-earning-rule}                      | Contract type to apply to all applications (introduced Sept 2026) | Tatou earning rules     |
-| [Default role](#cfg-tatou-default-role){#cfg-tatou-default-role}                                              | Tatou earning rules available on this organisation                | Tatou roles             |
-| [Default employee status on creation](#cfg-tatou-default-employee-status){#cfg-tatou-default-employee-status} | Tatou employee status set on employee creation                    | Tatou employee statuses |
+These settings are configured on the Tātou integration. A job is then assigned to the relevant integration, so
+different jobs can use different Tātou earning rules and settings.
+
+| Configuration                                                                                         | Description                                                                                                                         | Values                  |
+|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| [Security token](#cfg-tatou-token){#cfg-tatou-token}                                                  | Token used to connect PICMI to Tātou                                                                                                | Text (required)         |
+| [Contract type](#cfg-tatou-default-contract-type){#cfg-tatou-default-contract-type}                   | Contract type applied when an employee is created                                                                                   | Casual                  |
+| [Earning rule](#cfg-tatou-default-earning-rule){#cfg-tatou-default-earning-rule}                      | Earning rule applied when an employee is created                                                                                    | Tātou earning rules     |
+| [Role](#cfg-tatou-default-role){#cfg-tatou-default-role}                                              | Role applied when an employee is created                                                                                            | Tātou roles             |
+| [Employee status on creation](#cfg-tatou-default-employee-status){#cfg-tatou-default-employee-status} | Employee status applied when an employee is created                                                                                 | Tātou employee statuses |
+| [Topup to hourly rate](#cfg-tatou-topup-to-hourly-rate){#cfg-tatou-topup-to-hourly-rate}              | Whether Tātou tops earnings up to the agreed hourly rate                                                                            | Optional                |
+| [Weekly min earnings](#cfg-tatou-weekly-min-earnings){#cfg-tatou-weekly-min-earnings}                 | Minimum agreed weekly earnings sent to Tātou for the employment period (can be required to be greater than 0 for some earning rules | Optional; currency      |
+
+## Usage
+
+Separate Tātou integrations when business requirements call for different earning rules, roles, contract types, pay
+arrangements, or worker groups. Assign each job to the integration with the appropriate settings. For example:
+
+- **RSE – First/Second Year** job → **Tātou – RSE First/Second Year** integration
+- **RSE – Third Year+** job → **Tātou – RSE Third Year+** integration
+
+The RSE scheme is one example only. Other organisations may need separate integrations for different Tātou earning
+rules, roles, contract types, pay arrangements, or worker groups.
+
+### RSE example
+
+RSE workers in their first and second seasons must be paid at least the applicable adult minimum wage. Workers
+returning for their third or subsequent RSE seasons must be paid at least the minimum wage plus 10%. These requirements
+may require separate Tātou earning rules and integrations for first/second-season and third-or-later-season workers.
+
+As at late 2026, the RSE instructions in force from 1 April 2026 describe these requirements in [Immigration New
+Zealand's authoritative guidance](https://www.immigration.govt.nz/opsmanual/89139.htm), and the adult minimum wage is
+$23.95 per hour from 1 April 2026 according
+to [Employment New Zealand](https://www.employment.govt.nz/pay-and-hours/pay-and-wages/minimum-wage/minimum-wage-rates-and-types).
+Minimum wage rates are reviewed annually, so check the current guidance before configuring an earning rule.
+
+For example, weekly minimum earnings can be calculated from an agreed hourly rate and weekly hours:
+
+- `$25/hour × 30 hours = $750` weekly minimum earnings
+- `$27.50/hour × 30 hours = $825` weekly minimum earnings
+
+These are calculation examples only. `weekly_min_earnings` is currently configured at the integration level and is
+applied to employees created through jobs using that integration; it is not configurable per application unless that
+functionality is confirmed and implemented.
 
 ## PICMI-Tātou integration fields
 
@@ -91,5 +128,3 @@ If the error continues after you have checked the job's integration settings, co
 
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
-
-
