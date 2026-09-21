@@ -30,6 +30,13 @@ instead of the base values. This includes:
 | [Location additional details](#cfg-location-additional-details){#cfg-location-additional-details} | Supplementary information about the location                                                                                                                                           |
 | [Job description](#cfg-job-description){#cfg-job-description}                                     | Change this to rewrite the primary description—overwriting this should probably include details from the original description                                                          |
 | [Organisation name](#cfg-organisation-name){#cfg-organisation-name}                               | Sometimes the contracting organisation may change                                                                                                                                      |
+| [Top up to hourly rate](#cfg-topup-to-hourly-rate){#cfg-topup-to-hourly-rate}                      | Whether this person's earnings should be topped up to their hourly rate. See the [job settings](opportunity-create.md#job-settings) for the job-level default.                         |
+| [Weekly minimum earnings](#cfg-weekly-min-earnings){#cfg-weekly-min-earnings}                      | The minimum weekly earnings agreed for this person. See the [job settings](opportunity-create.md#job-settings) for the job-level default.                                           |
+
+For the [Tātou integration](../integrations/tatou.md), these personal overrides are passed to Tātou when the person's
+employment details are created or updated. When a personal override and job setting exist for the same field, the
+personal override takes precedence for that person. If no personal override is provided, the job setting is used; if
+neither is provided, the Tātou integration setting is used as the fallback.
 
 :::: instructions
 ## Change personal conditions

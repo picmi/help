@@ -24,9 +24,25 @@ can be expected.
 **See also**
 
 * [opportunity status](opportunity-status)
-* [opportunity controls](opportunity-controls) for managing intake 
+* [opportunity controls](opportunity-controls) for managing intake
 * [preview a job](opportunity-preview)
   :::
+
+## Job settings
+
+For jobs using the [Tātou integration](../integrations/tatou.md), the following job settings control the employment
+details sent to Tātou when an employee is created or updated:
+
+| **Field**                   | **Description**                                                           |
+|-----------------------------|---------------------------------------------------------------------------|
+| **Top up to hourly rate**   | Whether the employee's earnings should be topped up to their hourly rate. |
+| **Weekly minimum earnings** | The minimum weekly earnings agreed for the employee.                      |
+
+These are job-level defaults. To set different values for one person, use [personal
+overrides](creating-individual-employment-conditions.md#fields-that-can-be-overridden). When a job setting and a
+personal override exist for the same field, the personal override takes precedence for that person. If no personal
+override is provided, the job setting is used; if no job setting is provided, the Tātou integration setting is used as
+the fallback.
 
 :::: explanation
 

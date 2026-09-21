@@ -25,8 +25,19 @@ different jobs can use different Tātou earning rules and settings.
 | [Earning rule](#cfg-tatou-default-earning-rule){#cfg-tatou-default-earning-rule}                      | Earning rule applied when an employee is created                                                                                    | Tātou earning rules     |
 | [Role](#cfg-tatou-default-role){#cfg-tatou-default-role}                                              | Role applied when an employee is created                                                                                            | Tātou roles             |
 | [Employee status on creation](#cfg-tatou-default-employee-status){#cfg-tatou-default-employee-status} | Employee status applied when an employee is created                                                                                 | Tātou employee statuses |
-| [Topup to hourly rate](#cfg-tatou-topup-to-hourly-rate){#cfg-tatou-topup-to-hourly-rate}              | Whether Tātou tops earnings up to the agreed hourly rate                                                                            | Optional                |
-| [Weekly min earnings](#cfg-tatou-weekly-min-earnings){#cfg-tatou-weekly-min-earnings}                 | Minimum agreed weekly earnings sent to Tātou for the employment period (can be required to be greater than 0 for some earning rules | Optional; currency      |
+| [Top up to hourly rate](#cfg-tatou-topup-to-hourly-rate){#cfg-tatou-topup-to-hourly-rate} | Integration-level fallback for whether Tātou tops earnings up to the agreed hourly rate | Optional |
+| [Weekly minimum earnings](#cfg-tatou-weekly-min-earnings){#cfg-tatou-weekly-min-earnings} | Integration-level fallback for the minimum agreed weekly earnings sent to Tātou        | Optional; currency |
+
+The [job settings](../article/opportunity-create.md#job-settings) provide job-level values for these fields. You can
+set values for an individual through [personal
+overrides](../article/creating-individual-employment-conditions.md#fields-that-can-be-overridden).
+Tātou uses the most specific value available, in this order:
+
+1. Personal override
+2. Job setting
+3. Tātou integration setting
+
+The selected values are used when Tātou creates or updates the employee's employment details.
 
 ## Usage
 
@@ -56,9 +67,8 @@ For example, weekly minimum earnings can be calculated from an agreed hourly rat
 - `$25/hour × 30 hours = $750` weekly minimum earnings
 - `$27.50/hour × 30 hours = $825` weekly minimum earnings
 
-These are calculation examples only. `weekly_min_earnings` is currently configured at the integration level and is
-applied to employees created through jobs using that integration; it is not configurable per application unless that
-functionality is confirmed and implemented.
+These are calculation examples only. `weekly_min_earnings` can be configured at the integration, job, or personal
+override level. The most specific value available is applied to the employee's employment details.
 
 ## PICMI-Tātou integration fields
 
