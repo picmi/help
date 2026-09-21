@@ -29,6 +29,108 @@ The same chip can be added multiple times to a contract template.
 :::
 ::::
 
+## InformationField catalogue
+
+The following active fields are defined in PICMI's `InformationField` enum. They are grouped in the same way as the
+field groups shown in a contract template. The available groups still depend on whether the contract is for employment
+or a service proposal.
+
+### Information (Individual)
+
+| **Field**        | **Description**                                 |
+|------------------|-------------------------------------------------|
+| Given Name       | The person's first names.                       |
+| Family Name      | The person's family name.                       |
+| Middle Name      | The person's middle name.                       |
+| Nickname         | The person's nickname.                          |
+| Preferred Name   | The person's preferred name.                    |
+| Email            | The person's email address.                    |
+| Email (Verified) | Whether the person's email address is verified. |
+| Phone            | The person's phone number.                     |
+| Phone (Verified) | Whether the person's phone number is verified. |
+| Height           | The person's height in metres.                  |
+| Zone             | The person's time zone information.             |
+| Locale           | The person's locale.                            |
+| Nationality      | The person's nationality.                       |
+| Profile          | The person's profile.                           |
+| Picture          | The person's picture.                           |
+| Website          | The person's website.                           |
+| Signature        | The person's electronic signature text.         |
+
+### Listing
+
+These fields are available for employment contracts and describe the job or listing.
+
+| **Field**                    | **Description**                                                            |
+|------------------------------|----------------------------------------------------------------------------|
+| Title                        | The job title.                                                             |
+| Description (Job)            | The main job description.                                                  |
+| Date Posted (Listing)        | The date the listing was posted.                                          |
+| Valid Through (Listing)      | The date the listing is valid through.                                    |
+| Work Hours                   | The job's general work hours.                                             |
+| Remuneration                 | The job's pay rate or remuneration.                                       |
+| Street Address               | The job's street address.                                                 |
+| Location (Additional Details)| Additional location details for the job.                                  |
+| Start                        | The job start date.                                                        |
+| End                          | The job end date.                                                          |
+| Summary (Start & End)        | The job's summary of start and end dates or conditions.                    |
+| Opportunity Type Label       | The opportunity type label.                                                |
+| Incentive Compensation       | Incentive compensation details for the job.                                |
+| Benefits                     | Benefits provided for the job.                                             |
+| Special Commitments          | Special commitments for the job.                                           |
+| Top up to hourly rate        | Whether the employee's earnings should be topped up to their hourly rate.  |
+| Weekly minimum earnings      | The minimum weekly earnings agreed for the employee.                       |
+
+For Tātou, **Top up to hourly rate** and **Weekly minimum earnings** can use the job values or the person's [personal
+overrides](creating-individual-employment-conditions.md#fields-that-can-be-overridden). A personal override takes
+precedence over the job setting, and the job setting takes precedence over the [Tātou integration
+setting](../integrations/tatou.md#configuration-settings). For more information, see [Job
+settings](opportunity-create.md#job-settings).
+
+### Organisation (Sending)
+
+These fields describe the organisation sending the contract.
+
+| **Field**            | **Description**                                       |
+|----------------------|-------------------------------------------------------|
+| Name                 | The sending organisation's name.                      |
+| Description          | The sending organisation's description.               |
+| Email                | The sending organisation's email address.             |
+| Email Verified       | Whether the sending organisation's email is verified. |
+| Phone                | The sending organisation's phone number.              |
+| Phone Verified       | Whether the sending organisation's phone is verified. |
+| Zone Info            | The sending organisation's time zone information.     |
+| Locale               | The sending organisation's locale.                    |
+| Profile              | The sending organisation's profile.                   |
+| Picture              | The sending organisation's picture.                   |
+| Website              | The sending organisation's website.                   |
+| Authorised Signature | The sending organisation's authorised signature.      |
+
+### External Identifier
+
+| **Field**           | **Description**                          |
+|---------------------|------------------------------------------|
+| External Identifier | An external identifier provided by PICMI. |
+
+### Organisation (Receiving)
+
+These fields describe the organisation receiving the contract, where applicable.
+
+| **Field**            | **Description**                                        |
+|----------------------|--------------------------------------------------------|
+| Name                 | The receiving organisation's name.                     |
+| Description          | The receiving organisation's description.              |
+| Email                | The receiving organisation's email address.            |
+| Email Verified       | Whether the receiving organisation's email is verified.|
+| Phone                | The receiving organisation's phone number.             |
+| Phone Verified       | Whether the receiving organisation's phone is verified.|
+| Zone Info            | The receiving organisation's time zone information.    |
+| Locale               | The receiving organisation's locale.                   |
+| Profile              | The receiving organisation's profile.                  |
+| Picture              | The receiving organisation's picture.                  |
+| Website              | The receiving organisation's website.                  |
+| Authorised Signature | The receiving organisation's authorised signature.     |
+
 :::: instructions
 ## Find a field chip
 
