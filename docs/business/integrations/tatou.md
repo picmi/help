@@ -28,6 +28,43 @@ different jobs can use different Tātou earning rules and settings.
 | [Top up to hourly rate](#cfg-tatou-topup-to-hourly-rate){#cfg-tatou-topup-to-hourly-rate} | Integration-level fallback for whether Tātou tops earnings up to the agreed hourly rate | Optional |
 | [Weekly minimum earnings](#cfg-tatou-weekly-min-earnings){#cfg-tatou-weekly-min-earnings} | Integration-level fallback for the minimum agreed weekly earnings sent to Tātou        | Optional; currency |
 
+### Top up to hourly rate
+
+**Top up to hourly rate** controls whether Tātou tops the person's earnings up to the agreed hourly rate. The setting
+has three choices:
+
+| Choice | Meaning |
+|--------|---------|
+| **Inherit** | Use the setting from the parent level. |
+| **Yes** | Explicitly top up earnings to the agreed hourly rate. |
+| **No** | Explicitly do not top up earnings to the agreed hourly rate. |
+
+The inheritance order is:
+
+1. The Tātou integration setting provides the organisation-wide default.
+2. The job setting can inherit the integration setting or override it.
+3. A personal applicant override can inherit the job setting or explicitly override it.
+
+**Inherit** is different from **No**. Inherit delegates the decision to the parent level. No is an explicit instruction
+not to top up. Selecting **No** at any level stops inheritance and disables top-up for that level and any more specific
+level that is set to Inherit.
+
+::: prompt
+**Warning:** Selecting **No** at the integration, job, or personal override level explicitly disables top-up at that
+level. More specific settings set to **Inherit** will continue that **No** value.
+:::
+
+For example:
+
+- Integration: **Yes** → job: **Inherit** → applicant: **Inherit** = top up (**Yes** flows through both levels).
+- Integration: **Yes** → job: **No** → applicant: **Inherit** = do not top up (**No** stops inheritance at the job).
+- Integration: **Yes** → job: **Inherit** → applicant: **No** = do not top up for that applicant only.
+
+Use the integration setting when the same rule applies to multiple jobs. Set the final contractual requirement on the
+job, because the job details are used for the employment contract. Use a personal override only when an individual
+applicant has an agreed exception. If a personal override is set to Inherit, the applicant follows the job setting; if a
+job is set to Inherit, it follows the Tātou integration setting.
+
 The [job settings](../article/opportunity-create.md#job-settings) provide job-level values for these fields. You can
 set values for an individual through [personal
 overrides](../article/creating-individual-employment-conditions.md#fields-that-can-be-overridden).

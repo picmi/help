@@ -38,11 +38,32 @@ details sent to Tātou when an employee is created or updated:
 | **Top up to hourly rate**   | Whether the employee's earnings should be topped up to their hourly rate. |
 | **Weekly minimum earnings** | The minimum weekly earnings agreed for the employee.                      |
 
-These are job-level defaults. To set different values for one person, use [personal
-overrides](creating-individual-employment-conditions.md#fields-that-can-be-overridden). When a job setting and a
-personal override exist for the same field, the personal override takes precedence for that person. If no personal
-override is provided, the job setting is used; if no job setting is provided, the Tātou integration setting is used as
-the fallback.
+### Top up to hourly rate choices
+
+For **Top up to hourly rate**, choose one of:
+
+| Choice      | Meaning                                                      |
+|-------------|--------------------------------------------------------------|
+| **Inherit** | Use the setting from the integration (if available).         |
+| **Yes**     | Explicitly top up earnings to the agreed hourly rate.        |
+| **No**      | Explicitly do not top up earnings to the agreed hourly rate. |
+
+**Inherit** is not the same as **No**. Inherit follows the integration's organisation-wide default, while No is an
+explicit instruction not to top up. Selecting No at the job level stops inheritance and disables top-up for the job.
+
+Set the final contractual requirement on the job because the job details are used for the employment contract. Use the
+Tātou integration setting when the same rule applies to multiple jobs, and leave the job set to **Inherit** so it
+follows that default. Use
+a [personal override](creating-individual-employment-conditions.md#fields-that-can-be-overridden)
+only when an individual applicant has an agreed exception.
+
+For example, if the integration is set to **Yes**, a job set to **Inherit** also uses **Yes**. A personal override set
+to **Inherit** follows that job setting, while a personal override set to **No** disables top-up for that applicant
+only.
+
+These are job-level defaults. When a job setting and a personal override exist for the same field, the personal override
+takes precedence for that person. If no personal override is provided, the job setting is used; if the job is set to
+**Inherit**, the Tātou integration setting is used as the fallback.
 
 :::: explanation
 

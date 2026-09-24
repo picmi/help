@@ -30,13 +30,17 @@ instead of the base values. This includes:
 | [Location additional details](#cfg-location-additional-details){#cfg-location-additional-details} | Supplementary information about the location                                                                                                                                           |
 | [Job description](#cfg-job-description){#cfg-job-description}                                     | Change this to rewrite the primary description—overwriting this should probably include details from the original description                                                          |
 | [Organisation name](#cfg-organisation-name){#cfg-organisation-name}                               | Sometimes the contracting organisation may change                                                                                                                                      |
-| [Top up to hourly rate](#cfg-topup-to-hourly-rate){#cfg-topup-to-hourly-rate}                      | Whether this person's earnings should be topped up to their hourly rate. See the [job settings](opportunity-create.md#job-settings) for the job-level default.                         |
+| [Top up to hourly rate](#cfg-topup-to-hourly-rate){#cfg-topup-to-hourly-rate}                      | Whether this person's earnings should be topped up to their hourly rate. **Inherit** follows the job setting; **Yes** explicitly tops up; **No** explicitly does not top up. |
 | [Weekly minimum earnings](#cfg-weekly-min-earnings){#cfg-weekly-min-earnings}                      | The minimum weekly earnings agreed for this person. See the [job settings](opportunity-create.md#job-settings) for the job-level default.                                           |
 
 For the [Tātou integration](../integrations/tatou.md), these personal overrides are passed to Tātou when the person's
-employment details are created or updated. When a personal override and job setting exist for the same field, the
-personal override takes precedence for that person. If no personal override is provided, the job setting is used; if
-neither is provided, the Tātou integration setting is used as the fallback.
+employment details are created or updated. **Inherit** means the applicant follows the job setting; it does not mean
+No. **No** is an explicit instruction not to top up and stops inheritance for that applicant. When the personal
+override is Inherit, the job setting is used; when the job is also Inherit, the Tātou integration setting is used.
+
+Use a personal override only when an individual applicant has an agreed exception to the job's contractual requirement.
+For example, if the integration is **Yes** and the job is **Inherit**, the job and an applicant set to **Inherit** both
+top up. Setting that applicant's override to **No** disables top-up for that applicant only.
 
 :::: instructions
 ## Change personal conditions
