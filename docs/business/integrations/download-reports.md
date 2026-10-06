@@ -17,7 +17,8 @@ have different data and there are rules around that data that may mean it succee
 PICMI is a system of record making it the source of the original data, but it does not attempt to maintain data over
 time and keep the two systems synchronised.
 
-* Only accepted applications can have data shared
+* Only **accepted** applications are included in CSV report downloads. Completed and terminated applications are not
+  included automatically.
 * CSV reports can be generated at any time
 * PICMI records this download
 * Any upload is unable to be recorded by PICMI
@@ -25,8 +26,24 @@ time and keep the two systems synchronised.
   an [API integration](integration-events.md#general-integration-rules))
 
 ::: prompt
-Reissued applications will need to return to **accepted** before downloading
+Reissued applications will need to return to **accepted** before downloading. If a completed or terminated application
+still needs to be included, use the [CSV export workaround](#export-a-completed-or-terminated-application).
 :::
+::::
+
+:::: instructions
+
+## Export a completed or terminated application
+
+1. [Reopen the application](../about-picmi/applications.md#business-actions).
+2. Return the application to **Accepted**, if needed.
+3. Download the CSV report.
+4. Confirm that the report was created successfully.
+5. Change the application back to **Completed** or **Terminated**, as appropriate.
+
+Reopening is an internal status change. It does not invalidate the existing agreement or require the participant to sign
+again. Use **Reissue** only when the participant needs to review or accept changed information or agreement terms.
+
 ::::
 
 :::: instructions

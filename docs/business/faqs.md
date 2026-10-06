@@ -1101,13 +1101,29 @@ see [send data per application](integrations/integration-events.md#create-employ
 
 ### For CSV Report integrations (downloads)
 
-This can be done at any time.
+CSV reports can be generated at any time, but only **Accepted** applications are included automatically. Completed and
+Terminated applications need to be reopened and returned to **Accepted** before downloading, then changed back to their
+original status after the download is confirmed.
 :::
 
 ::: faq How can I download for a CSV import into another system?
 Accepted records can be download as a [report](integrations/download-reports.md) from
 the [CSV integrations](integrations/integrations#available-integrations) type
 :::
+
+::: faq How can I include a completed or terminated application in a CSV report?
+CSV reports include **Accepted** applications only. To include an application that is **Completed** or **Terminated**:
+
+1. **Reopen** the application.
+2. Return it to **Accepted**, if needed.
+3. Download the CSV report and confirm it was created successfully.
+4. Change the application back to **Completed** or **Terminated**.
+
+**Reopen** is an internal status change. It does not invalidate the existing agreement or require the participant to sign
+again. Use **Reissue** only when information or agreement terms need to be reviewed or accepted again.
+
+See [Download reports](integrations/download-reports.md#export-a-completed-or-terminated-application).
+::
 
 ::: faq Why did my payroll integration bank account format change to include dashes?
 Some payroll CSV integrations can be configured to export bank account numbers with dashes or as digits only. Where the

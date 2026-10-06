@@ -61,11 +61,24 @@ specific messages added per participant
 | In Progress             | The participant has started the application and has not yet reached an outcome.                          | *Reissue*, *Cancel*                | Business can reissue the application (to send out a notification to the participant again) or cancel it, moving to the cancelled application status. |
 | Offered                 | The participant has met the criteria and received an offer that has not yet been accepted or declined.   | *Cancel*                           | Business can cancel the offer, transitioning to the cancelled offer status.                                                                          |
 | Accepted                | The participant has accepted the offer and the engagement is active but not yet complete.                | *Terminate*, *Complete*, *Reissue* | Business can terminate the application, complete the process, or reissue it to the in-progress status.                                               |
-| Completed               | The participant fulfilled the engagement and all required obligations successfully.                      | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status.                                                           |
-| Terminated              | The engagement ended unsuccessfully before completion and required obligations were not fully fulfilled. | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the in-progress status.                                                        |
+| Completed               | The participant fulfilled the engagement and all required obligations successfully.                      | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status. Reopen changes the internal status and does not invalidate the existing agreement. |
+| Terminated              | The engagement ended before completion and required obligations were not fully fulfilled.                | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the active application flow. Reopen changes the internal status and does not invalidate the existing agreement. |
 | Cancelled (Invite)      | The invitation was withdrawn before the participant entered the application process.                     | *Reopen*                           | Business can reopen the cancelled invitation to transition back to the invited status.                                                               |
 | Cancelled (Application) | The application was withdrawn while in progress and before reaching an outcome.                          | *Reopen*                           | Business can reopen the cancelled application to transition back to the in-progress status.                                                          |
 | Declined                | The participant chose not to continue with or accept the opportunity.                                    |                                    | Business cannot perform any actions—only the participant can reopen the application                                                                  |
+
+## Reopen and Reissue
+
+These actions have different effects:
+
+* **Reopen** changes the application's internal status so the business can continue managing it. It does not change the
+  agreement, invalidate existing signatures, or require the participant to sign again.
+* **Reissue** sends the application back through the participant-facing agreement process. Use it when information or
+  agreement terms need to be updated and the participant must review or accept them again.
+
+When an application must be included in a CSV report after it has been completed or terminated, reopen it and return it
+to an eligible status before downloading the report. After the download has completed, the application can be returned to
+its original status.
 
 ## Participant actions
 

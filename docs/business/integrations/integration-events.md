@@ -11,10 +11,13 @@ have different values, and there are rules around that data that may mean it suc
 PICMI is a system of record making it the source of the original data, but it does not attempt to maintain data over
 time and keep the two systems synchronised.
 
-* only **accepted**, **completed** or **terminated** applications can be integrated
+* **Accepted**, **Completed**, and **Terminated** applications can be sent through API integrations
 * only send data (which means make a new record) in the integration if no record exists
 * do not update existing records
 * updates to records must be done manually in the system itself with a person authorised to make the changes
+
+CSV report downloads use a separate rule: only **Accepted** applications are included. See [Download reports](download-reports.md)
+for the process to include a completed or terminated application in a CSV report.
 ::::
 
 :::: instructions
@@ -133,8 +136,9 @@ Use the same process by select OFF at Add new setting setup
 ## FAQs
 
 ::: faq The application is not in Accepted, Completed or Terminated, how can I send data?
-Only applications that have been **accepted** can have data sent—includes **completed** and **terminated**. 
+For an API integration, data can be sent only when the application is **Accepted**, **Completed**, or **Terminated**.
+CSV report downloads have a separate rule and include **Accepted** applications only. See [Download reports](download-reports.md)
+for the CSV process.
 :::
 
 See [integration troubleshooting](../faqs#integrations).
-
