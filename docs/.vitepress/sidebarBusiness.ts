@@ -189,6 +189,7 @@ export function sidebarBusiness() {
                     text: 'Search for applications',
                     link: '/business/article/searching-for-people'
                 },
+                { text: 'Employment Stats', link: '/business/article/employment-stats' },
                 {
                     text: 'Contracts and personal details',
                     link: '/business/article/contract-and-personal-details'
