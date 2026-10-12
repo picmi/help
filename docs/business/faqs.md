@@ -41,7 +41,24 @@ See our [guide on writing emails to help us diagnose the issue](../how-write-ema
 ## Users
 
 ::: faq Can a business user also apply for opportunities using the same email address?
-No, but they can use a sub-alias email address, and the emails will still come to the same inbox.
+
+No. PICMI treats an account as either an **organisation/business user** or an **individual/participant user**. The same email address cannot normally be used to create a separate participant account if it already belongs to a business user.
+
+If an invitation is sent to an email address that PICMI identifies as a business user, it may show an error such as:
+
+`Cannot change user type to 'individual'. No worker found for user`
+
+This means PICMI found an existing business account for that email address and could not use it as an individual applicant. It does not necessarily mean the person is deliberately inviting themselves.
+
+Choose the option that matches the situation:
+
+* **The person is a genuine applicant:** invite an email address that is not already associated with their business account. If the organisation’s email system supports sub-aliases, an alias that delivers to the same inbox can be used as a separate PICMI participant account.
+
+* **You are testing the applicant experience:** [create a provisional user](article/provisional-user.md#add-a-provisional-user) and use the access details to test the application. This avoids reusing a business user account.
+
+* **The person has no suitable email address:** use a [provisional user](article/provisional-user.md). You can provide the applicant with the access code or direct access link. QR-code access may also be available where supported by the application.
+
+For the standard process, see [Sending invites](article/opportunity-send-invite.md).
 :::
 
 ::: faq What’s the difference between a user with an email and one with provisional access?
