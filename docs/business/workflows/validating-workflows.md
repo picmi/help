@@ -1,59 +1,44 @@
-# Validating workflow changes
+# Validate and troubleshoot workflow issues
 
-After updating a workflow, check both the participant experience and the business configuration.
+Use **Validate** after structural changes and before making a workflow live. Validation identifies workflow warnings and
+errors and shows where they occur.
 
-Use:
-
-- **Preview** mode to check what participants see
-- **Review** mode to audit workflow contents
-- **Check Configuration** to confirm an opportunity can use the workflow correctly
-
-## Preview the participant experience
+## Validate a workflow
 
 ::: instructions
 
 1. Go to **Setup** > **Workflows**.
 2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
-3. Select **Preview** mode.
-4. Check the workflow in desktop, tablet, and mobile frame sizes.
-5. Show or hide workflow navigation to check both experiences.
-6. Move through the workflow pages and confirm questions, Information, contracts, headings, images, videos, and data
-   display as expected.
+3. Select **Validate**.
+4. Review the validation results.
+5. Open the affected page or workflow item using the location shown.
+6. Follow the suggested resolution.
+7. Validate the workflow again.
 
 :::
 
-## Review workflow contents
+Warnings and errors can appear after removing a page, changing a linked Library Item, or reordering content. A warning
+may need a business decision; an error normally needs to be fixed before the workflow is used.
 
-::: instructions
+## Check the participant experience
 
-1. Go to **Setup** > **Workflows**.
-2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
-3. Select **Review** mode.
-4. Search or group the table to check related items together.
-5. Review item order, page, item type, question type, participant text, description, choices, required state, and usage.
-6. Copy the review data or download it as CSV if you need to check it outside PICMI.
+After validation, use **Preview** to check desktop, tablet, and mobile layouts. Move through every page and confirm
+required questions, participant-facing text, choices, images, videos, contracts, and any available preview scenarios.
 
-:::
+## Example
+
+If validation identifies an issue on the **Right to work** page, open that page from the issue location, inspect the
+affected passport question in the **Inspector**, apply the suggested resolution, and validate again. Then preview the
+page on mobile to check the participant experience.
 
 ::: prompt
-Use the option to remove HTML from exported descriptions when the CSV needs to be read in a spreadsheet or shared with
-people who do not need the underlying formatting.
+The exact process for changing a workflow from **Draft** to **Live** is not documented here. Confirm the publishing
+workflow with the PICMI product team.
 :::
 
-## Run Check Configuration
+## Related articles
 
-::: instructions
-
-1. Go to either:
-   - **Employment** > **Jobs**
-   - **Services** > **Proposals**
-2. Locate the opportunity row :::icon checkbox-marked-outline:::
-3. Click &vellip; (vertical dots) to open the menu.
-4. Select **Check Configuration**.
-5. Confirm validation passes :::icon check primary:::.
-6. Fix any errors :::icon exclamation::: before sending new invites.
-
-:::
-
-Check Configuration validates whether the selected opportunity has the workflow, contract, opportunity fields, and
-integration sources needed to continue. It does not replace Preview mode or Review mode.
+- [Workflow Builder overview](./workflow-builder.md)
+- [Create and organise workflow pages](./updating-workflows.md)
+- [Preview a workflow](./previewing-workflows.md)
+- [Review and export a workflow](./reviewing-workflow-contents.md)

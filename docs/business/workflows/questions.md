@@ -1,130 +1,126 @@
-# Questions
+# Create and manage reusable questions
 
-Use Questions to collect information and documents from participants during your Employment or Services workflows. This
-page explains what Questions are, how to create and manage them, and how they behave for participants.
+Questions are reusable Library Items that collect information from participants. A question can be linked to several
+workflows, so check its usage before editing it.
 
-## What is a Question?
+## Who this is for
 
-A Question is a Library Item shown to a participant that can:
+This article is for organisation and business users who create application or onboarding workflows.
 
-- Collect text, numbers, dates, choices, or files (e.g., passport photo, manuals).
-- Be reused across multiple workflows—this means that updating the question will be applied to all workflows it appears in.
-- Be optional or required.
+## Question types
 
-Questions appear to participants in the order you configure within a workflow.
+| Question type       | Use it for                                                    |
+|---------------------|---------------------------------------------------------------|
+| **Text**            | A free-text answer.                                           |
+| **Address**         | A physical or street address.                                 |
+| **Phone**           | A phone number.                                               |
+| **Email**           | An email address.                                             |
+| **Number**          | A numeric answer, such as hours or a rate.                    |
+| **NZ bank account** | A New Zealand bank account number.                            |
+| **AU bank account** | An Australian bank account number.                            |
+| **AU BSB**          | An Australian BSB or bank-routing number.                     |
+| **NZ IRD**          | A New Zealand IRD number.                                     |
+| **AU TFN**          | An Australian tax file number.                                |
+| **File**            | A file upload, such as a passport or certificate.             |
+| **Date**            | A calendar date.                                              |
+| **Single select**   | Choosing one option from a list.                              |
+| **Multi-select**    | Choosing more than one option from a list.                    |
+| **Declaration**     | Answering yes with a description, or no.                      |
+| **Accept**          | Giving an either-or answer for an acceptance or confirmation. |
+| **Table**           | Providing structured tabular data.                            |
 
-## Types of Questions
-
-|                                                       | Description                                                                                                                                             |
-|-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Text](#qt-text){#qt-text}                            | Use for short free‑text answers like names or notes. Avoid using it for emails, phone numbers, dates, or amounts so your agreements stay accurate.      |
-| [Address](#qt-address){#qt-address}                   | Collect a full postal or residential address needed on agreements and payroll records. Consider asking which address type you need (service vs postal). |
-| [Phone](#qt-tel){#qt-tel}                             | Capture a primary contact number for updates and signing links. Ask for country code to avoid failed messages.                                          |
-| [Email](#qt-email){#qt-email}                         | Required for sending agreements and notifications. Encourage a personal, regularly checked email to reduce delays.                                      |
-| [Number](#qt-number){#qt-number}                      | For quantities, hours, or rates you’ll calculate with. Set sensible limits (e.g., minimum 0) to prevent mistakes.                                       |
-| [File](#qt-file){#qt-file}                            | Collect documents like IDs or certificates. Tell participants the required format and quality so approvals aren’t delayed.                              |
-| [Date](#qt-date){#qt-date}                            | For start dates, birthdays, or expiry dates. Adding limits (no future DOBs) prevents common errors.                                                     |
-| [Single select](#qt-single-select){#qt-single-select} | Let participants choose one option (like role or site) and drive conditional steps. Keep options clear and stable for reporting.                        |
-| [Declaration](#qt-declaration){#qt-declaration}       | For disclosures that need a “Yes” plus an explanation (e.g., medical or legal). Make the explanation required only when “Yes.”                          |
-| [Yes/no](#qt-accept){#qt-accept}                      | Quick confirmations or consents. Use precise wording if acceptance is legally binding.                                                                  |
-| [Data](#qt-data){#qt-data}                            | Capture repeatable rows (e.g., previous jobs or equipment). Define the columns you need so contracts and exports are complete.                          |
-
-## Accessing Questions
-
-1. In the app header, select Setup.
-2. Under Applications, choose Questions.
-
-You’ll see:
-
-- A table of existing questions (type, prompt, last modified).
-- Pagination controls and filters.
-- An action menu for each question.
-
-## Creating a Question
-
-1. Click Create Question (top‑right).
-2. Enter the Prompt (what participants see).
-3. Choose the Type (e.g., Text, Multiple choice, File upload).
-4. Configure options:
-    - Required: prevent submission until answered.
-    - Help text: clarify what’s needed.
-    - Validation: constrain format/length where offered.
-    - For file uploads: specify acceptable formats or size limits if available.
-5. Save.
-
-Tip: Keep prompts short and specific (e.g., “Photo of passport page”).
-
-## Editing or Duplicating
-
-- From the Questions list, use the three‑dot menu:
-    - Edit to change the prompt, type settings, or validation.
-    - Duplicate to create a variant without starting from scratch.
-    - Archive/Delete if a question is no longer needed.
-
-Edits to a question affect future use. Active, in-progress participant sessions may not retroactively change.
-
-When duplicating a question, rename the copy clearly before adding it to workflows or integration mappings. See
-[Managing Duplicate Questions](./managing-duplicate-questions.md).
-
-## Organising and Finding Questions
-
-- Use the search bar to find by prompt text.
-- Filter by Type (e.g., File) or by other available filters.
-- Sort by Last modified to locate recent changes.
-- Use **customise columns** to show additional fields in the table:.
-  - **Additional Text:** Displays each question’s helper text/subtext so you can quickly review guidance shown to participants.
-  - **Choices:** Shows the option list for single-select questions to verify wording and coverage.
-  - **Hidden:** Adds a column indicating whether the question is hidden from the main questions list.
-  - **Workflows:** Lists the workflows where each question is used, helping you assess impact before editing.
-  - **Integrations:** Indicates mappings to external systems, so you know which questions affect downstream integrations.
-
-## Using Questions in Workflows
-
-- Open **Setup** > **Workflows** to add Questions from the **Library** panel.
-- Add the Question before or after the selected page or item, or drag it into the workflow.
-- Use the Inspector to check required state, visibility, validation, usage, and linked item details.
-- Reuse Questions across multiple workflows to keep data consistent.
-
-## Creating or editing Questions from the Workflow Builder
-
-Supported Questions can be created or edited while you are editing a workflow.
+## Create a question
 
 ::: instructions
 
-1. Go to **Setup** > **Question**.
-2. Locate the question row, click &vellip; (vertical dots) to open the menu.
-3. Select **Edit**.
-5. Create a new Question, or select a linked Question and edit it from the Inspector where available.
-6. Save your changes.
+1. Go to **Setup** > **Questions**.
+2. Select **Create question**.
+3. Enter the participant-facing **Prompt**.
+4. Add the **Hint prompt** or subtext when participants need extra guidance.
+5. Choose the **Question type**.
+6. Add answer choices or other type-specific settings when shown.
+7. Select the required file settings, finance profile, or table profile when applicable.
+8. Check the question preview.
+9. Save the question.
 
 :::
 
-::: prompt
-Editing a linked Question can affect every workflow using that Question. If one workflow needs different wording,
-options, or validation, create or link a separate Question instead.
+Keep prompts specific. For example, use “Upload a photo of the photo page of your passport” rather than “Passport”.
+
+## Edit a question
+
+::: instructions
+
+1. Go to **Setup** > **Questions**.
+2. Search for the question by its prompt or title.
+3. Open the question and choose **Edit**.
+4. Review the question's usage before changing shared wording, choices, or rules.
+5. Make your changes and check the preview.
+6. Save the question.
+
 :::
 
-## Best Practices
+The **Question type** of a **Single select** question cannot be changed after creation. Create a new question when a
+different type is needed.
 
-- Ask only what you need; fewer questions improve completion rates.
-- Group related questions in the same workflow step.
-- For document uploads, include an example or note about quality (e.g., “All corners visible, no glare”).
-- Review and update Questions periodically to reflect current compliance or business needs.
+## Hide or delete a question
 
-## See also
+Use **Hide from lists** when you want to keep a question available to workflows that already use it but prevent it from
+appearing in normal question lists. Hiding is different from deleting: it does not remove the question from existing
+workflows.
 
-- Workflows: add, order, and conditionally show Questions.
-- Services and Employment setup: guided configuration paths from the Setup menu.
+Before deleting or removing a question, check where it is used and what participant or integration process depends on
+it. The exact deletion behavior can depend on the question's links and permissions.
 
-## Configuration
+## Reuse a question in a workflow
 
-Use these fields when creating or editing a Question.
+::: instructions
 
-|                                                               | Description                                                                                              | Type          | Notes                                              |
-|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------|----------------------------------------------------|
-| [Question Type](#cfg-question-type){#cfg-question-type}       | Controls the kind of response (text, choice, file, etc.). Becomes read-only for Single select questions. | Select        | Read-only if Single select                         |
-| [Prompt](#cfg-prompt){#cfg-prompt}                            | The question or prompt that needs an answer                                                              | Text          | Max length: TextField limit                        |
-| [Hint prompt on a question](#cfg-subtext){#cfg-subtext}       | Any general information that needs to be provided                                                        | Text          | Max length: TextField limit                        |
-| [Files accepted](#cfg-accept){#cfg-accept}                    | Available for files; choose allowed file categories                                                      | Multi-select  | Visible only when type is File                     |
-| [Required (file)](#cfg-answer-required){#cfg-answer-required} | At least one file must be included                                                                       | Select (List) | Default: Mandatory; visible only when type is File |
-| [Hide from lists](#cfg-is-deleted){#cfg-is-deleted}           | Do not show in the questions list                                                                        | Checkbox      | Off by default                                     |
+1. Open **Setup** > **Workflows** and select **Edit** mode.
+2. Open the **Library** panel.
+3. Search for the question by its title or description.
+4. Filter by **Question type** if needed.
+5. Add the question before or after the selected item, or drag it onto a page.
+6. Select the workflow item and review its details in the **Inspector**.
+7. Save the workflow.
+
+:::
+
+The workflow controls where the question appears. The reusable question controls its prompt, type, choices, and
+question-specific settings.
+
+## Question configuration
+
+| Field                | What it does                                                            |
+|----------------------|-------------------------------------------------------------------------|
+| **Prompt**           | The question participants answer.                                       |
+| **Hint prompt**      | Supporting text or subtext shown with the prompt.                       |
+| **Question type**    | Determines the kind of answer collected.                                |
+| **Answer choices**   | Options shown for **Single select** and **Multi-select** questions.     |
+| **Files accepted**   | File categories accepted by a **File** question.                        |
+| **Required**         | Whether the participant must answer the question.                       |
+| **Question preview** | Shows how the question is expected to appear.                           |
+| **Hide from lists**  | Removes the question from normal lists without removing existing links. |
+
+Finance and table questions also require a profile.
+See [Configure file, finance, and table questions](./question-profiles.md).
+
+## Example
+
+Create a **Single select** question called “Which worksite will you attend?” with options for each site. Reuse it in
+the seasonal and permanent onboarding workflows. If one workflow needs different options, create a separate question
+rather than changing the shared one.
+
+## Common mistakes
+
+- Using **Text** when **Email**, **Phone**, **Number**, or **Date** would provide better validation.
+- Editing a shared question without checking where it is used.
+- Hiding a question when the intention is to remove it from a workflow.
+- Expecting to change a **Single select** question into another type after creation.
+
+## Related articles
+
+- [Choosing the right question type](./question-types.md)
+- [Configure file, finance, and table questions](./question-profiles.md)
+- [Add and reuse Library Items](./adding-library-items.md)
+- [Manage duplicate questions](./managing-duplicate-questions.md)

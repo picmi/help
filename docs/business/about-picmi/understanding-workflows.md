@@ -50,15 +50,15 @@ Pages group related content together to make the application process manageable 
 
 Each page contains **items** that serve different purposes:
 
-| Item Type                | Purpose                                                                           |
-|--------------------------|-----------------------------------------------------------------------------------|
-| **Questions**            | Collect information from participants (text, dates, files, choices, declarations) |
-| **Information**          | Known fields or details about the participant, organisation, or opportunity       |
-| **Heading**              | Break up content with titles and explanatory text                                 |
-| **Image**                | Show visual content like photos or diagrams                                       |
-| **Video**                | Embed video content to explain roles or environments                              |
-| **Data**                 | Show structured reusable information                                              |
-| **Contract**             | Embed contract template                                                           |
+| Item Type       | Purpose                                                                           |
+|-----------------|-----------------------------------------------------------------------------------|
+| **Questions**   | Collect information from participants (text, dates, files, choices, declarations) |
+| **Information** | Known fields or details about the participant, organisation, or opportunity       |
+| **Heading**     | Break up content with titles and explanatory text                                 |
+| **Image**       | Show visual content like photos or diagrams                                       |
+| **Video**       | Embed video content to explain roles or environments                              |
+| **Data**        | Show structured reusable information                                              |
+| **Contract**    | Embed contract template                                                           |
 
 ::: prompt
 Items appear in the order you configure them within each page. Thoughtful ordering improves completion rates.
@@ -70,14 +70,14 @@ Manage workflows from **Setup** > **Workflows**. Opening a workflow takes you to
 
 The Workflow Builder has three modes:
 
-| Mode        | Use it to                                                                                           |
-|-------------|-----------------------------------------------------------------------------------------------------|
-| **Preview** | Check the participant experience across desktop, tablet, and mobile frame sizes                     |
+| Mode        | Use it to                                                                                            |
+|-------------|------------------------------------------------------------------------------------------------------|
+| **Preview** | Check the participant experience across desktop, tablet, and mobile frame sizes                      |
 | **Edit**    | Change workflow pages, item placement, Library Items, required state, visibility, and linked details |
-| **Review**  | Audit workflow contents in a searchable table and export the review data                            |
+| **Review**  | Audit workflow contents in a searchable table and export the review data                             |
 
 Preview mode is for checking what participants will see. Review mode is for checking the workflow structure and item
-details as a business user. A **Review outcome** in routing is different again: it means a participant answer needs
+details as a business user. A **Review** outcome in Progressions is different again: it means a participant answer needs
 human review before the workflow can continue.
 
 ## Employment workflows vs Service workflows
@@ -120,8 +120,8 @@ Employment workflows may differ based on **employment type**:
 - Focus on long-term role suitability
 - Salary rather than hourly rate information
 
-::: prompt
-**Key difference:** Permanent workflows typically require **less** information than casual or fixed-term workflows
+::: prompt **Key difference:** Permanent workflows typically require **less** information than casual or fixed-term
+workflows
 because they assume long-term commitment and post-start induction.
 :::
 
@@ -180,7 +180,8 @@ Reusable cross-workflow items are managed through the Library. Library Items can
 - Content Blocks
 - Contracts
 
-When a Library Item is used in a workflow, the workflow controls where it appears. The Library Item controls the wording,
+When a Library Item is used in a workflow, the workflow controls where it appears. The Library Item controls the
+wording,
 content, template, answer type, validation, and other reusable details.
 
 Library Items can be:

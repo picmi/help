@@ -1,45 +1,50 @@
-# Previewing workflows
+# Preview a workflow
 
-Use workflow **Preview** mode to check the participant experience before using a workflow for new participants.
+Use **Preview** mode to check the participant experience before using a workflow. Preview is a visual check; it does
+not replace **Validate**.
 
-## Preview a workflow
+## Prerequisites
+
+You need access to the workflow and should have completed the structural changes you want to test.
+
+## Preview the participant experience
 
 ::: instructions
 
 1. Go to **Setup** > **Workflows**.
 2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
 3. Select **Preview** mode.
-4. Choose a desktop, tablet, or mobile frame size.
-5. Show or hide workflow navigation.
-6. Move through the workflow and check each page.
+4. Switch between the desktop, tablet, and mobile preview sizes.
+5. Turn preview navigation on or off.
+6. Move between pages and check each page set of items.
 
 :::
-
-Preview mode uses the same component mapping as the actual participant flow for:
-
-- pages
-- questions
-- Information
-- contracts
-- headings
-- images
-- videos
-- data
 
 ## What to check
 
 Check that:
 
 - pages appear in the right order
-- required and optional items are clear
-- visibility conditions show the right content
-- participant text is understandable
-- descriptions and choices are correct
-- images and videos load
-- contracts and Information appear where expected
+- required and optional questions are clear
+- participant-facing text, hints, and choices are correct
+- images, videos, information, contracts, and Data appear as expected
+- conditional visibility and required-question behavior work as expected when available
 - navigation works for the intended participant experience
 
+## Example
+
+For an orchard onboarding workflow, preview the **Personal information**, **Right to work**, and **Agreement** pages
+on mobile. Check that the passport upload is easy to find, required questions are clear, and the contract appears after
+the information participants need to provide.
+
 ::: prompt
-Preview mode checks the workflow experience. Use [Check Configuration](../article/checking-application-configuration.md)
-to confirm a specific opportunity can use the workflow, contract, opportunity fields, and integrations correctly.
+Preview checks what a participant sees. Use **Validate** to find workflow warnings and errors before making the
+workflow live.
 :::
+
+## Related articles
+
+- [Workflow Builder overview](./workflow-builder.md)
+- [Create and organise workflow pages](./updating-workflows.md)
+- [Review and export a workflow](./reviewing-workflow-contents.md)
+- [Validate and troubleshoot workflow issues](./validating-workflows.md)

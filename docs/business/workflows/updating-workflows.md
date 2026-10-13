@@ -1,171 +1,138 @@
-# Updating workflows in the Workflow Builder
+# Create and organise workflow pages
 
-Use the Workflow Builder to change workflow pages, item order, Library Items, required state, visibility, and linked item
-details.
+Use **Edit** mode to create and organise pages, place workflow items, and change the order participants see them.
 
 ::: prompt
 Workflow changes can affect every opportunity using that workflow. If the change should apply to one opportunity only,
-[duplicate the workflow](../guide/workflows/creating-a-workflow#step-3-duplicate-your-base-workflow) first.
+duplicate the workflow first.
 :::
 
-## Open a workflow
+## Prerequisites
 
-::: instructions
+You need access to **Setup** > **Workflows** and a clear plan for the participant journey. Before changing shared
+content, check whether the Library Item is used in other workflows.
 
-1. Go to **Setup** > **Workflows**.
-2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
-3. Choose **Preview**, **Edit**, or **Review** mode.
-
-:::
-
-## Choose the right mode
-
-| Mode        | Use it when you need to                                                                                 |
-|-------------|---------------------------------------------------------------------------------------------------------|
-| **Preview** | Check the participant experience, including desktop, tablet, and mobile layouts                         |
-| **Edit**    | Change pages, items, Library Item links, required state, visibility, and placement                       |
-| **Review**  | Audit workflow contents in a searchable table or export the workflow contents for checking outside PICMI |
-
-::: prompt
-**Review mode** is for auditing workflow contents. A routing **Review outcome** is different: it means a participant
-answer needs human review before the workflow can continue.
-:::
-
-## Edit workflow structure
+## Open a workflow in Edit mode
 
 ::: instructions
 
 1. Go to **Setup** > **Workflows**.
 2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
 3. Select **Edit** mode.
-4. Select a page or item in the workflow.
-5. Use drag and drop to move the selected page or item.
-6. Save your changes.
 
 :::
 
-Use structure changes when:
-
-- a page is missing, out of order, or no longer needed
-- an item should appear on a different page
-- questions, content, information, or contracts should be reordered
-- the participant journey needs a clearer sequence
-
-## Add a Library Item
-
-Library Items are reusable cross-workflow items, such as Questions, Information, Content Blocks, and Contracts.
+## Create a workflow
 
 ::: instructions
 
 1. Go to **Setup** > **Workflows**.
-2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
-3. Select **Edit** mode.
-4. Select the page or item near where the new item should appear.
-5. Open the **Library** panel.
-6. Search or filter the Library Items.
-7. Add the item:
-   - choose **Before** or **After** the selected page or item when placement matters
-   - drag the Library Item into the workflow when you want to place it visually
-8. Review the placement in the workflow.
-9. Save your changes.
+2. Select **Create workflow**.
+3. Enter the workflow **Title** and **Description**.
+4. Add the pages and Library Items needed for the participant journey.
+5. Save the workflow as a draft.
 
 :::
 
-You can add supported Library Item types from the builder, including:
+The exact action for changing a workflow from **Draft** to **Live** is not documented here. Confirm the publishing
+process with the PICMI product team before documenting or using it.
 
-- Questions
-- Information
-- Content Blocks, such as headings, images, videos, and data
-- Contracts, where supported by the workflow and opportunity classification
-
-::: prompt
-Contract and template search results may be filtered by the workflow's opportunity classification. For example, an
-employment workflow should use employment contract templates, and a services workflow should use service agreement
-templates.
-:::
-
-## Locate a linked Library Item
+## Add and organise pages
 
 ::: instructions
 
-1. Go to **Setup** > **Workflows**.
-2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
-3. Select **Edit** mode.
-4. Open the **Library** panel.
-5. Search for the Library Item name or text.
-6. If the item is already linked, use the linked item indicator or locate action to find where it appears in the workflow.
-7. Select the located page or item to review it in the Inspector.
+1. Open the workflow in **Edit** mode.
+2. Open the **Library** panel.
+3. Search for a page by its title or description.
+4. Add the page to the workflow.
+5. Drag pages to change their order.
+6. Select a page to view its details in the **Inspector**.
+7. Save the workflow.
 
 :::
 
-Use this before editing or removing shared content so you understand where the Library Item is already used.
+To remove a page, select it, check the items it contains, and choose the page removal action. Removing a page can also
+remove its workflow items from this workflow. Check the page contents first, especially if it contains required
+questions, contracts, or compliance information.
 
-## Show or hide Library Items in the Library
-
-Some Library Items are hidden from standard lists to stop older or outdated content being selected again.
+## Add and place a workflow item
 
 ::: instructions
 
-1. Go to **Setup** > **Workflows**.
-2. Locate the workflow row, click &vellip; (vertical dots) to open the menu.
-3. Select **Edit** mode.
-4. Open the **Library** panel.
-5. Use the Library filters to hide already linked items when you only want to see items that are not in the workflow.
-6. Show hidden items when you need to review or restore an older Library Item.
+1. Open the workflow in **Edit** mode.
+2. Select the page or item near where the new item should appear.
+3. Open the **Library** panel.
+4. Search or filter the Library.
+5. Add the item **Before** or **After** the selected page or item, or drag it into the workflow.
+6. Review the placement in the workflow and the details in the **Inspector**.
+7. Save your changes.
 
 :::
 
-::: prompt
-Hidden Library Items may still be linked to existing workflows. Hiding an item from lists is not the same as removing it
-from a workflow.
+You can add supported Library Item types including **Question**, **Information**, **Contract**, and Content Blocks such
+as **Page title**, **Heading**, **Image**, **Video**, and **Data**.
+
+## Search and filter the Library
+
+In the **Library** panel, search by an item's **Title** or **Description**. Use the available filters to narrow results:
+
+- Filter questions by **Question type**.
+- Filter Content Blocks by **Type**.
+- Turn on **Show hidden items** when you need to find older or hidden content.
+- Turn on **Hide already linked items** when you only want items not already in the workflow.
+
+## Move or remove a workflow item
+
+::: instructions
+
+1. Select an item in the workflow.
+2. Drag it up or down to reorder it within the page.
+3. Drag it to another page to move it.
+4. Select the item and choose the remove action when it should no longer appear in this workflow.
+5. Save the workflow.
+
 :::
+
+Removing a workflow item does not delete its reusable Library Item. The question, Information, contract, or Content
+Block
+can remain available for other workflows.
 
 ## Use the Inspector
 
-The Inspector shows details for the selected page or item.
+Select a page or workflow item to view its details in the **Inspector**. Depending on the selected item, the Inspector
+can show its placement, required or optional state, visibility, validation, linked Library Item, and usage.
 
-Use it to check:
+## Edit a reusable Library Item
 
-- where the page or item appears in the workflow
-- whether the item is required or optional
-- visibility conditions, such as **visible when...**
-- linked Library Item details
-- validation and answer rules
-- workflow usage and other linked opportunities, where shown
+::: instructions
 
-::: prompt
-The Inspector is for checking placement and linked item details before you change shared content. If a Library Item is
-used in more than one workflow, edit it only when the same change should apply everywhere.
+1. Select the linked page or workflow item.
+2. Check the **Used in other workflows** information in the **Inspector**.
+3. Edit the underlying Library Item when the same change should apply everywhere it is used.
+4. Save the Library Item and the workflow.
+
 :::
 
-## Create or edit Library Items from the builder
+Editing a reusable Library Item can affect every workflow that uses it. If only one workflow needs different wording,
+choices, rules, or content, create or link a separate Library Item instead.
 
-Some Library Items can be created or edited directly from the Workflow Builder.
+## Example
 
-Use the builder when you need to:
+For a seasonal orchard workflow, create pages for **Personal information**, **Right to work**, **Health and safety**,
+and **Agreement**. Add the passport question to **Right to work**, drag the safety video above the safety questions,
+and validate the workflow before making it live.
 
-- create a new Question
-- create a new Content Block
-- create a Contract, where supported
-- edit a linked Question
-- edit a linked Content Block
+## Common mistakes
 
-Some linked Library Item types may need to be edited from their main setup area instead of directly in the builder. For
-example, some contract template changes may need to be made under **Setup** > **Contracts**.
+- Removing a page without checking its required items.
+- Editing a shared question without checking **Used in other workflows**.
+- Leaving hidden or already linked items in the search results and adding the wrong duplicate.
+- Changing structure without previewing and validating the result.
 
-## How updates affect workflows
+## Related articles
 
-When you update a workflow:
-
-- changes to pages and item placement affect the workflow structure
-- changes to a linked Library Item can affect every workflow using that item
-- active applications continue using the workflow version from when they started
-- new participants see the updated workflow
-
-## Best practices
-
-- Use **Preview** mode after each meaningful change.
-- Use **Review** mode before publishing or assigning the workflow to more opportunities.
-- Keep headings short and clear.
-- Ask only for information you genuinely need.
-- Check whether a Library Item is shared before changing its wording or rules.
+- [Workflow Builder overview](./workflow-builder.md)
+- [Add and reuse Library Items](./adding-library-items.md)
+- [Create and manage reusable questions](./questions.md)
+- [Preview a workflow](./previewing-workflows.md)
+- [Validate and troubleshoot workflow issues](./validating-workflows.md)
