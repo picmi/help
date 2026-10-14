@@ -1,0 +1,451 @@
+# Design Prompt: PICMI — Creating, Using & Managing Provisional Users
+
+## Objective
+
+Create a professional, visually engaging **one-page infographic** titled:
+
+**"Provisional Users — From Creation to Completion"**
+
+Subtitle:
+
+*How to create, provide access, support and manage provisional users in PICMI.*
+
+The infographic should explain the **complete operational lifecycle of provisional users**, from initial creation through to application completion, ongoing access management and eventual transition to email-based access.
+
+This is a practical companion to the existing **"Understanding PICMI Users"** infographic.
+
+The first infographic explains *what provisional users are*. This infographic explains **how businesses create, use and maintain them**.
+
+The intended audience is PICMI business administrators who need to understand the process without reading detailed procedural documentation.
+
+Use the supplied PICMI documentation as the authoritative source.
+
+---
+
+## Visual Style
+
+Follow the design language of the supplied PICMI infographics:
+
+- PICMI logo and green branding.
+- White background with subtle green accents.
+- Rounded cards, connecting lines and clear iconography.
+- Strong visual hierarchy.
+- Short, concise explanations.
+- A central process diagram with supporting information.
+- Portrait orientation, approximately A4.
+- Suitable for printing or inclusion in the PICMI Help Centre.
+- New Zealand English.
+
+**Design principle:** The reader should understand the overall process in 30 seconds and be able to use the infographic as a reference when managing provisional users.
+
+Avoid making this look like a conventional instruction manual.
+
+---
+
+# Section 1 — The Provisional User Lifecycle
+
+### Primary visual: A six-stage process
+
+This should be the dominant element of the infographic.
+
+Use a connected flow diagram showing:
+
+**CREATE → PROVIDE ACCESS → START → COMPLETE → MANAGE → TRANSITION**
+
+Each stage should have a distinctive icon and a short explanation.
+
+### 1. CREATE
+
+**Business creates a provisional user**
+
+A business administrator creates a provisional user for a specific opportunity.
+
+- Create one or multiple users.
+- No email address required.
+- An application is created automatically.
+- Initial application status is *Invited*.
+
+**Key concept:** A provisional user is created with an application, not as an independent account awaiting an application.
+
+### 2. PROVIDE ACCESS
+
+**Business gives the person their credentials**
+
+Choose one of three access methods:
+
+- Access Key + Code
+- QR Code
+- Direct Link
+
+Credentials are provided directly to the intended person.
+
+**Key concept:** The business is responsible for distributing access details because the person does not initially have an available email address.
+
+### 3. START
+
+**Person accesses their application**
+
+The person uses the credentials supplied by the business.
+
+For Access Key + Code:
+
+1. Visit `jobs.picmi.io/go`.
+2. Enter the access code and access key (typically their name).
+3. Accept the terms.
+4. Select **Confirm And Start**.
+
+QR codes and direct links provide alternative entry methods.
+
+### 4. COMPLETE
+
+**Person works through their application**
+
+The person completes the normal PICMI application experience.
+
+This can include:
+
+- Answering questions.
+- Providing personal information.
+- Reviewing documents.
+- Completing contracts.
+- Submitting the application.
+
+**Key concept:** Provisional access does not change the underlying application functionality.
+
+### 5. MANAGE
+
+**Business maintains access**
+
+The administrator can:
+
+- View provisional user details.
+- Check whether access is active.
+- Review expiry dates.
+- Update access keys.
+- Regenerate access codes.
+- Extend or change expiry.
+- Stop access.
+
+**Key concept:** Access credentials and their validity are managed separately from the underlying application.
+
+### 6. TRANSITION
+
+**Person moves to email-based access**
+
+When a deliverable email address becomes available:
+
+- The email is entered on the person's profile.
+- PICMI can send email communications.
+- The person can use email-based access.
+- Standard account functionality becomes available across multiple applications.
+
+**Key concept:** The person does not need a different application simply because their access method changes.
+
+---
+
+# Section 2 — Creating Provisional Users
+
+### Primary visual: Two parallel creation pathways
+
+Show two alternatives that converge on the same result.
+
+### Individual Creation
+
+**Jobs → Select Opportunity → Create with provisional user**
+
+1. Find the relevant job.
+2. Open the job's action menu.
+3. Select **Create with provisional user**.
+4. Choose the access approach.
+5. Enter the person's details.
+6. Add the user.
+
+### Bulk Creation
+
+**Spreadsheet → Import → Create Users**
+
+1. Prepare names in Excel, Google Sheets or CSV.
+2. Open **Create with provisional user**.
+3. Select **Import bulk access codes**.
+4. Paste the prepared data.
+5. Review names and expiry periods.
+6. Create the users.
+
+The spreadsheet contains:
+
+| Field | Purpose |
+|---|---|
+| Name | Identifies the person |
+| Expiry | Number of days access remains valid |
+
+The default expiry for bulk access-code imports is **90 days**, unless otherwise specified.
+
+Both creation pathways converge on:
+
+**PROVISIONAL USER + APPLICATION CREATED**
+
+*The person appears in PICMI with an Invited application.*
+
+Include a small note:
+
+*Individual employment conditions can be configured after the application has been created.*
+
+---
+
+# Section 3 — Choosing an Access Method
+
+### Primary visual: Three horizontally arranged cards
+
+Present the three methods as alternatives, not different account types.
+
+| | Access Key + Code | QR Code | Direct Link |
+|---|---|---|---|
+| Icon | Keypad | QR code | Link |
+| How it works | Enter key and code | Scan QR code | Open unique link |
+| Distribution | Written or verbal instructions | Screen or printed copy | Messaging |
+| Validity | Configurable expiry | 30 days | 30 days |
+| Typical use | Assisted applications | In-person onboarding | Remote access |
+
+Underneath the cards:
+
+**All three methods provide access to the same provisional application.**
+
+Include a small note:
+
+*QR codes and direct links are regenerated when the access page reloads. Access codes can be regenerated by the business.*
+
+Do not imply that an access method automatically creates a new application.
+
+---
+
+# Section 4 — Maintaining and Controlling Access
+
+### Primary visual: Administrator control panel
+
+Use a compact visual representation of the PICMI **People** table, with five highlighted columns.
+
+**Provisional User | Access Key | Access Code | Active Access | Access Expires**
+
+Show the administrator's available actions grouped into four categories.
+
+**VIEW**
+
+Identify provisional users and inspect their access details.
+
+**UPDATE**
+
+Change access keys and expiry periods.
+
+**REGENERATE**
+
+Generate a replacement access code when necessary.
+
+**STOP**
+
+Revoke provisional access.
+
+Include a short navigation reference:
+
+**People → Select Person → Actions**
+
+For visibility:
+
+**Customise Columns → Provisional User**
+
+### Important distinction
+
+Show a small visual separation between:
+
+**APPLICATION**
+
+The person's employment application and information.
+
+**ACCESS**
+
+The credentials allowing the person to enter the application.
+
+**Changing or stopping access is not the same as deleting the application.**
+
+This distinction should be visually prominent.
+
+---
+
+# Section 5 — Email and Communication
+
+### Primary visual: Two scenarios
+
+Explain what happens when a provisional user does or does not have an email address.
+
+### Scenario A — No Email Available
+
+Icon: Person without email.
+
+- The person accesses PICMI using provisional credentials.
+- The business supplies access details directly.
+- PICMI emails are not sent until a deliverable email address is entered on the person's profile.
+
+### Scenario B — Shared Email
+
+Icon: Multiple people connected to one inbox.
+
+- Each person has their own provisional credentials.
+- Each person completes their own application.
+- All enter the designated shared email address.
+- Contracts and correspondence are delivered to that inbox.
+
+Examples include correctional facilities and assisted employment programmes.
+
+**Important:** Individual provisional credentials must not be shared between applicants.
+
+### Scenario C — Personal Email Becomes Available
+
+Icon: Person transitioning to email account.
+
+- Enter the deliverable email address on the person's profile.
+- Email communications become available.
+- The person can transition to standard email-based access.
+
+Use a progression arrow to demonstrate that this is an evolution of the person's access rather than the creation of another applicant.
+
+---
+
+# Section 6 — Common Questions and Misconceptions
+
+### Primary visual: Compact "Know the Difference" panel
+
+Use four or five concise questions with clear answers.
+
+**Does a provisional user need an email address?**
+
+No. They can start without one.
+
+**Can provisional users complete normal applications?**
+
+Yes. They have the same underlying application functionality.
+
+**Can access expire?**
+
+Yes. Provisional credentials have expiry periods that the business can manage.
+
+**Can a provisional user be used for multiple opportunities?**
+
+Existing provisional users can be invited to additional opportunities. Access arrangements need to be managed appropriately.
+
+**Can a provisional user become an email-based user?**
+
+Yes. Providing a deliverable email address on their profile enables email-based access.
+
+Keep the answers brief and avoid technical implementation details.
+
+---
+
+# Section 7 — The Operational Mental Model
+
+### Primary visual: Horizontal lifecycle summary
+
+At the bottom, reproduce the style of the **"Simpler User Mental Model"** from the Workflow Design Hierarchy infographic.
+
+Show:
+
+**BUSINESS CREATES**
+↓
+**PERSON RECEIVES ACCESS**
+↓
+**PERSON COMPLETES APPLICATION**
+↓
+**BUSINESS MANAGES ACCESS**
+↓
+**PERSON TRANSITIONS TO EMAIL**
+
+Underneath, highlight three fundamental principles.
+
+### 1. Application and Access Are Different
+
+The application contains the person's information and employment process.
+
+Access credentials determine how they enter PICMI.
+
+### 2. The Business Controls Provisional Access
+
+The business creates credentials, distributes them and manages their validity.
+
+### 3. Email-Based Access Is the Preferred Destination
+
+Where possible, help the person establish a deliverable email address so they can use standard account functionality.
+
+End with the statement:
+
+**"Create the application. Provide access. Manage credentials. Transition when ready."**
+
+---
+
+## Design Requirements
+
+1. **Single-page infographic**, portrait orientation.
+2. The six-stage lifecycle must be the dominant visual element.
+3. Creation and access methods should be secondary supporting sections.
+4. Distinguish clearly between actions performed by the **business administrator** and those performed by the **applicant**.
+5. Use different icons or visual treatments for business and applicant actions.
+6. Avoid lengthy procedural instructions.
+7. Use concise labels and descriptions.
+8. Maintain the terminology used in PICMI.
+9. Do not imply provisional users have reduced application functionality.
+10. Clearly explain that access can expire or be revoked without implying the underlying application is deleted.
+11. Make the transition to email-based access visually prominent.
+12. Use the supplied documentation as the source of truth. Do not invent functionality.
+13. Ensure text is readable at normal A4 size.
+
+### Reference Material
+
+Use the following supplied documents:
+
+- **provisional-user.md** — creating, importing, accessing and managing provisional users.
+- **provisional-user-with-shared-email.md** — shared email and assisted application scenarios.
+- **Provisional-User-Credentials-Template.docx** — applicant sign-in instructions.
+- **Understanding PICMI Users** — conceptual comparison and visual style.
+- **Workflow Design Hierarchy** — overall design language and visual hierarchy.
+
+### Expected Output
+
+A polished PICMI-branded infographic suitable for:
+
+- PICMI Help Centre documentation.
+- Customer onboarding.
+- Administrator training.
+- Internal product education.
+
+The infographic should stand alone without requiring readers to consult the underlying documentation.
+
+---
+
+## My Suggested Layout
+
+I would structure the page slightly differently from the first infographic because this one is **process-oriented rather than conceptual**.
+
+| Position | Content | Visual treatment |
+|---|---|---|
+| Top | Title and purpose | PICMI branding |
+| Upper | Six-stage lifecycle | Large connected flow |
+| Middle left | Creating users | Individual vs bulk |
+| Middle right | Access methods | Three comparison cards |
+| Lower left | Maintaining users | Administrator control panel |
+| Lower right | Email scenarios | Three small illustrated scenarios |
+| Bottom | Mental model | Lifecycle summary and principles |
+
+### One important design consideration
+
+I would make **the separation between the application and its access credentials** a recurring visual concept.
+
+This is probably the most useful operational distinction for administrators.
+
+A provisional user involves three related but different things:
+
+**1. Person** — the individual who is applying.
+
+**2. Application** — the employment or service application associated with an opportunity.
+
+**3. Access credentials** — the mechanism allowing that person to access PICMI.
+
+Creating a provisional user establishes the person and an application. Providing credentials allows them to access it. Updating or revoking credentials changes access, not the underlying application.
+
+That distinction, combined with the six-stage lifecycle, should give administrators a much clearer understanding of how to operate provisional users within PICMI.

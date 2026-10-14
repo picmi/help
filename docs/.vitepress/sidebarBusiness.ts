@@ -164,7 +164,7 @@ export function sidebarBusiness() {
                 { text: 'Change status', link: '/business/article/changing-application-status' },
                 { text: 'Bulk change status', link: '/business/article/bulk-status-change' },
                 { text: 'Invites', link: '/business/article/opportunity-send-invite' },
-                { text: 'Provisional user', link: '/business/article/provisional-user' },
+                { text: 'Provisional user', link: '/business/article/prsional-user' },
                 {
                     text: 'Provisional user with shared email',
                     link: '/business/article/provisional-user-with-shared-email'

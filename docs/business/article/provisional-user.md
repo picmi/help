@@ -8,6 +8,8 @@ Once you've [created a job](opportunity-create.md) (ideally [duplicated](opportu
 As a business you should help people set up an email account as quickly as possible.
 :::
 
+![Provisional users](../../img/provisional-users.png)
+
 :::: explanation
 ## Switch to email-based access
 

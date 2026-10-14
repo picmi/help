@@ -7,6 +7,8 @@ identifier for their account.
 PICMI only allows **one user account at a time** to be logged in a single browser profile
 :::
 
+![Understanding users](../../img/understanding-users.png)
+
 ## User types by access method
 
 | **User Type** | **Description**                                                      | **Password** | **Passwordless** | **Provisional** |
