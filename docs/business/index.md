@@ -4,6 +4,9 @@
 
 ## About PICMI
 
+PICMI is an opportunity and engagement platform for organisations. Start with [PICMI at a glance](about-picmi/picmi-at-a-glance)
+for a short explanation of how opportunities, applications, agreements, and ongoing participation fit together.
+
 - [Getting Started](about-picmi/getting-started)
 - [Upcoming season](guide/upcoming-season.md)—inviting returning and new workers as provision users
 - [Group hiring onsite](guide/group-hiring-onsite.md)

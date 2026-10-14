@@ -1,6 +1,7 @@
 export function sidebarBusiness() {
     return [
         { text: 'FAQs', link: '/business/faqs' },
+        { text: 'PICMI at a glance', link: '/business/about-picmi/picmi-at-a-glance' },
         {
             text: 'Getting Started',
             collapsed: true,
