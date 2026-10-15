@@ -54,9 +54,9 @@ Choose the option that matches the situation:
 
 * **The person is a genuine applicant:** invite an email address that is not already associated with their business account. If the organisation’s email system supports sub-aliases, an alias that delivers to the same inbox can be used as a separate PICMI participant account.
 
-* **You are testing the applicant experience:** [create a provisional user](article/provisional-user.md#add-a-provisional-user) and use the access details to test the application. This avoids reusing a business user account.
+* **You are testing the applicant experience:** [create a provisional user](article/provisional-user.md#add-a-single-user) and use the access details to test the application. This avoids reusing a business user account.
 
-* **The person has no suitable email address:** use a [provisional user](article/provisional-user.md). You can provide the applicant with the access code or direct access link. QR-code access may also be available where supported by the application.
+* **The person has no suitable email address:** use a [provisional user](article/provisional-user.md). After creation, provide the applicant with the access details where applicable.
 
 For the standard process, see [Sending invites](article/opportunity-send-invite.md).
 :::
@@ -74,7 +74,7 @@ application.
 ::: faq Can the jobseeker/worker switch a provisional user to an email-based login?
 Yes. Once a provisional user enters a valid, deliverable email address on their profile, they can use email-based
 access and receive PICMI emails. This gives them full access and communication across multiple applications.
-See [using email-based access for provisional users](article/provisional-user.md#switch-to-email-based-access).
+See [using email-based access for provisional users](article/provisional-user.md#after-creating-provisional-users).
 :::
 
 ::: faq What happens to a provisional user's applications when they switch to email-based access?
@@ -579,10 +579,10 @@ in [email not found](../email-not-found.md)
 
 ::: faq Can I Reissue for a provisional user?
 Yes, you can Reissue for a provisional user. You will need to be in contact with them and
-perhaps [provide access](article/provisional-user.md#type-of-access).
+perhaps [provide access details](article/provisional-user.md#after-creating-provisional-users).
 
-You should [confirm that the access details](article/provisional-user.md#view-provisional-user-details) are not
-expired. [Update existing provision user](article/provisional-user.md#update-existing-provisional-user) if needed.
+You should [confirm that the access details](article/provisional-user.md#after-creating-provisional-users) are not
+expired, and update the expiry in **People** if needed.
 
 Other than access details and no emails sent until the person enters a deliverable email address on their profile, they
 are identical to a normal user.

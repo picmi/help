@@ -27,8 +27,8 @@ Users can sign in to PICMI in different ways:
   to their email to retrieve the code. This code is then entered into PICMI to sign in.
 - **Provisional** This is convenient access that expires based on a relative time. A
   key and a code are provided to the person by the business. These details are known to the business but must be
-  entered by the other person to access PICMI and can be provided
-  by [link, QR code or by details](../article/provisional-user.md#type-of-access) as required.
+  entered by the other person to access PICMI. After the user is created, the business provides the access details where
+  applicable.
   ::::
 
 ## Important to know limitation

@@ -30,16 +30,14 @@ steps to avoid duplicate records and ensure access codes remain valid. Note ther
 1. Identify and plan the total number of workers, separating new and returning workers (e.g. 5 new and 6 existing
    workers)
 2. [Create the new job](../article/opportunity-create.md#create-opportunity) in PICMI where both sets of workers will be invited
-3. Invite the new workers by creating provisional users through
-   the [create provisional user](../article/provisional-user.md#add-a-provisional-user) process one at a time
-   or [bulk creation](../article/provisional-user.md#add-multiple-existing-provisional-users) (e.g. invite 5 new workers)
+3. Invite the new workers by [adding provisional users](../article/provisional-user.md#choose-how-to-add-users), either
+   one at a time or by importing multiple users (e.g. invite 5 new workers)
 4. Invite the returning workers by using the [job's invite option](../article/opportunity-send-invite.md#send-invites), searching for
    their [existing provisional user](../article/opportunity-send-invite.md#search-existing-people)
    accounts (emails ending with "@noreply.picmi.io" and identifying them through their access code) and adding them to
    the new job (e.g. invite 6 existing workers)
-5. [Review all provisional users](../article/provisional-user.md#view-provisional-user-details) (new and returning) to confirm (
-   or [update](../article/provisional-user.md#update-existing-provisional-user)) that their access codes and expiry dates are
-   valid for the current job period (e.g. all 11 workers)
+5. [Review all provisional users](../article/provisional-user.md#after-creating-provisional-users) (new and returning) to
+   confirm their access details and expiry dates are valid for the current job period (e.g. all 11 workers)
 
 Continue with processing and monitoring the workers:
 
@@ -89,19 +87,18 @@ See [sending bulk invites](https://help.picmi.io/business/article/opportunity-se
 
 Use [table 3](#table-3-csv-data-to-create-provisional-user-per-job) for **each** job:
 
-1. **Use CSV data** (ie table) with the required details (name and expiry)—note: easier to
-   use [clipboard](https://help.picmi.io/business/article/provisional-user.html#download-access-codes-template) in/out
-   of sheets application
+1. **Prepare spreadsheet data** with the required **Name** and **Expiry** details, then [import the users by pasting the
+   rows](../article/provisional-user.md#import-users), including the headings
 2. Set the **expiry** in days (default is 90 days/3 months unless otherwise specified).
 3. If necessary, extend the expiry beyond 90 days to accommodate hiring timelines—probably a year 365 days!
-4. **Upload the CSV file** to bulk-create provisional users.
+4. Review the imported rows and [create the selected users](../article/provisional-user.md#review-and-create-users).
 
 Below, we have created four separate tables (Tables 3-6), one for each of the jobs, to help structure the process
 effectively. Also, those with one or two people per job can be just as
-easily [added as a single provisional user](https://help.picmi.io/business/article/provisional-user.html#add-a-provisional-user)
+easily [added as a single provisional user](../article/provisional-user.md#add-a-single-user)
 with the name copy and pasted.
 
-See [import multiple provisional users](https://help.picmi.io/business/article/provisional-user.html#import-multiple-provisional-users)
+See [import users](../article/provisional-user.md#import-users)
 
 :::: instructions
 ## Table 1: new or existing planning by job
@@ -149,7 +146,7 @@ Create a table of all the worker by job who are existing
 ## Table 3: csv data to create provisional user per job
 
 Each job will have a CSV data file to be imported. In practice, if there is one or two,
-just [add provisional](../article/provisional-user.md#add-a-provisional-user) user without import.
+just [add a single provisional](../article/provisional-user.md#add-a-single-user) user without importing.
 
 ### Harvest Workers Vanuatu 2025
 

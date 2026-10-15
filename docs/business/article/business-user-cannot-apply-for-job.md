@@ -24,9 +24,8 @@ Do not **cancel** the application and invite again—that can make it harder for
 
 2. **Business**
     - [Cancel](changing-application-status.md) the application with a [status message](status-message)
-    - Invite by [adding a provisional user](provisional-user.md#add-a-provisional-user)
+    - Invite by [adding a provisional user](provisional-user.md#add-a-single-user)
 ::::
-
 
 
 
