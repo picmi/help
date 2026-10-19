@@ -129,6 +129,36 @@ in PICMI and can download the contract.
 
 ## Invites
 
+:::: faq How can I see who has received an invite?
+Go to **People** and filter the applications by the relevant **Job** and **Invited** status. The **Invited** status
+shows people who have been invited but have not started the application. People who have started are shown as **In
+Progress** instead.
+
+This is an application status, not a read receipt for the email. If an email could not be delivered, PICMI reports a
+delivery failure; see [what to do when the invite has delivery status notification failure](#what-can-i-do-when-the-invite-has-delivery-status-notification-failure).
+If the jobseeker cannot find the email, ask them to check their Junk folder; see [what to do when the person does not
+receive an invite email](#what-should-do-when-the-person-i-have-invited-doesnt-receive-an-email).
+You can also use **Customise Columns** in **People** to show the **Status Message**, which may include a known delivery
+error. See [view status message](article/status-message.md#view-status-message) for the steps.
+
+See [searching for people and their application](article/searching-for-people.md) and
+[application statuses](about-picmi/applications.md#application-status).
+::::
+
+:::: faq If I send the same invite more than once, will the person get more than one contract to sign?
+No. Sending an invite again for the same person and job reuses the existing application, so it does not create a
+second application or contract. If the application is still **Invited**, PICMI sends the invitation notification
+again. If the person has already started or progressed the application, PICMI keeps the existing status and does not
+send a new invitation.
+
+If the contract or agreement terms need to be reviewed again, use [Reissue](about-picmi/applications.md#reopen-and-reissue)
+intentionally. Reissue is different from sending the same invite again and can return the application to the
+participant-facing agreement process.
+
+See [sending invites](article/opportunity-send-invite.md#service-proposal-invites-how-name-and-email-are-interpreted)
+for the existing-application rules.
+::::
+
 ::: faq Why did Check Configuration appear when I tried to send invites?
 PICMI checks the opportunity before sending invites so people are not invited into an application that cannot later
 produce a contract or send required integration data. Fix any failed rows, then send the invite again.
