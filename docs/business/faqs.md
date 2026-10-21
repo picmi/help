@@ -678,6 +678,22 @@ to <a href="mailto:help@picmi.com" target="_blank">help@picmi.io</a>.
 
 ## Jobs/roles
 
+::: faq Where do Job Type Label and Work Hours appear in a contract?
+They appear in a generated contract only when the contract template includes the matching substitution fields.
+
+In the contract field list, these are named **Opportunity Type Label** and **Work Hours**. **Job Type Label** in the job
+details corresponds to **Opportunity Type Label** in the contract field list. The job description is available as
+**Description (Job)**.
+
+If the template does not contain one of these chips, the value is not added to the contract automatically. Check the
+template in [Insert fields](article/insert-fields-in-a-contract-template) and use [Navigate inserted](article/navigate-inserted-fields-in-a-contract-template)
+to see which fields are already used.
+
+Keep fixed contract wording for information that applies across jobs, and use substitutions for information that
+changes. Do not repeat variable information as fixed wording in the template, because the two versions can be duplicated
+or contradict each other. In particular, avoid fixed dates or years when the date should come from the job or application.
+:::
+
 ::: faq What is the process when someone changes their role and their contract needs to be updated?
 When someone changes roles, the next steps depend on whether it’s a **new role** or just a **contract amendment**.
 

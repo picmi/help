@@ -35,6 +35,36 @@ The following active fields are defined in PICMI's `InformationField` enum. They
 field groups shown in a contract template. The available groups still depend on whether the contract is for employment
 or a service proposal.
 
+## How job information is used in a contract
+
+Contract templates should contain the fixed wording that applies across jobs. Add a field substitution for information
+that changes between jobs or people.
+
+For example, a template can contain fixed wording such as “The employee will work in the role described below”,
+followed by the **Description (Job)** substitution. The job description is then supplied by the job rather than typed
+again into the contract template.
+
+The job fields below are not added to a contract automatically. They appear in the generated contract only when the
+matching substitution chip has been inserted into the template:
+
+| Job information | Contract field |
+|-----------------|----------------|
+| Job description | **Description (Job)** |
+| Work hours | **Work Hours** |
+| Job Type Label | **Opportunity Type Label** |
+
+The contract field list uses **Opportunity Type Label** for the value that may be shown as **Job Type Label** in the job
+details. If the template does not contain one of these chips, changing that job field will not add it to the contract.
+
+Avoid entering the same variable information as fixed wording in the template. For example, do not write fixed work
+hours in the contract and also insert **Work Hours** unless both statements are intended to agree. Avoid putting dates,
+especially a year, in fixed template wording when the date should come from a job or application substitution.
+
+Before sending an invite, review the job details and the contract template together to check that the fixed wording and
+the inserted values are complete and do not duplicate or contradict each other. Use [Preview and edit](preview-and-edit-a-contract-template)
+to review the template and [Navigate inserted](navigate-inserted-fields-in-a-contract-template) to find the chips already
+used in it.
+
 ### Information (Individual)
 
 | **Field**        | **Description**                                 |

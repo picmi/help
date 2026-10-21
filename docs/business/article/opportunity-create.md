@@ -8,7 +8,7 @@ can be expected.
 | **Field**                       | **Description**                                                                                                        |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | **Title**                       |                                                                                                                        |
-| **Work hours**                  |                                                                                                                        |
+| **Work hours**                  | The job's general work hours.                                                                                            |
 | **Description**                 | The primary description of the job or service                                                                          |
 | **Summary**                     | Additional information about the job that can be useful                                                                |
 | **Pay rate/remuneration**       | The amount of money to be paid and the frequency (usually hourly). It is defaulted to your organisation local currency |
