@@ -4,6 +4,9 @@ The **Integrations** page in PICMI allows your organisation to connect with exte
 reporting tools—see [here](integrations.md#how-it-works) for more details. This page explains how to view, configure, and manage these integrations. Actual integration are
 listed [here](integrations.md) and general steps are explained [here](integrations.md#steps-for-using-integrations-with-picmi).
 
+Before setting up an API integration, check [API integration authentication and planning](api-authentication.md) to see
+where its credential comes from and whether provider or PICMI coordination is needed.
+
 ## Connecting PICMI to Other Systems
 Sharing data with other systems is an important part of how PICMI works. To do this, each integration connects through a job on the applications you are wanting to share data from.
 

@@ -1,5 +1,8 @@
 # Xero integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration view of how
+this connection is authorised and whether advance planning is needed.
+
 PICMI offers two versions of its Xero integration for payroll: one tailored for New Zealand (NZ) and the other for
 Australia (AU). To ensure the integration works correctly, your organisation in Xero must match the corresponding
 region—NZ or AU—based on where your business operates. This is because Xero's payroll systems have region-specific

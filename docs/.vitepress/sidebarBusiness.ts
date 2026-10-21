@@ -263,6 +263,7 @@ export function sidebarBusiness() {
             text: 'Integrations',
             collapsed: true,
             items: [
+                { text: 'API authentication and planning', link: '/business/integrations/api-authentication' },
                 { text: 'Setting up', link: '/business/integrations/setting-up-integrations' },
                 {
                     text: 'Types', link: '/business/integrations/integrations',

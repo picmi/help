@@ -1,5 +1,8 @@
 # EmploymentHero integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration
+view of how this credential is obtained and whether advance planning is needed.
+
 ## EmploymentHero: integration configuration
 
 | Configuration                                                                            | Description                                                                      | Values                                                             |
@@ -115,4 +118,3 @@ PICMI will automatically keep your token up to date by refreshing it before it e
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 ::::
-

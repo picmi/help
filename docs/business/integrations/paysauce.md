@@ -1,5 +1,8 @@
 # PaySauce integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration view of
+how this connection is authorised and whether advance planning is needed.
+
 ## PaySauce: Integration configuration
 
 | Configuration                                                                                                                   | Description                                                                | Values                                                                                   |

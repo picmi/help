@@ -1,5 +1,8 @@
 # Dataphyll integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration view of
+how this credential is obtained and whether advance planning is needed.
+
 For Dataphyll customers who want to use the integration with PICMI, please note to see employees created through the
 integration, users must be working in the Dataphyll Business App.
 

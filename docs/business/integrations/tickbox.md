@@ -1,5 +1,8 @@
 # Tickbox integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration view of
+how this token is obtained and whether advance planning is needed.
+
 By setting up PICMI’s integration with Tickbox correctly, businesses can ensure smooth, compliant hiring processes with
 minimal administrative burden for a job inductions.
 

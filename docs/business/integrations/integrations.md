@@ -64,6 +64,9 @@ There are two main ways:
 
 ## Available integrations
 
+For a cross-integration view of API credentials and advance setup requirements, see [API integration authentication and
+planning](api-authentication.md).
+
 | **System**                                               | **Type**          | **API** | **CSV** | **PDF**    |
 |----------------------------------------------------------|-------------------|:-------:|:-------:|------------|
 | [AgriSmart](agrismart){#agrismart}                       | All in one        |         |    ✓    |            |

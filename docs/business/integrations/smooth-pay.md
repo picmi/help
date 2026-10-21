@@ -1,5 +1,8 @@
 # SmoothPay integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration view of
+how this key is obtained and whether advance planning is needed.
+
 ::: prompt
 **Warning:** Bank Account is not yet supported by the PICMI-SmoothPay integration through the API—it is a known issue to
 SmoothPay.

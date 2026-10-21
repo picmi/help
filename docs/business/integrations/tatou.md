@@ -1,5 +1,8 @@
 # Tātou integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration view of how
+this token is obtained and whether advance planning is needed.
+
 ::: prompt
 Each job may have only one active Tātou integration. Disabled integrations do not count as active. If you need help
 setting up integrations, see [Setting up integrations](setting-up-integrations.md).

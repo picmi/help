@@ -1,5 +1,8 @@
 # CheckWorkRights integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration
+view of how this credential is obtained and whether advance planning is needed.
+
 By setting up PICMI’s integration with [CheckWorkRights](https://checkworkrights.com.au) correctly, businesses can
 ensure smooth, compliant hiring processes with
 minimal administrative burden for checking the right to work and monitoring visa conditions (in Australia).
@@ -176,4 +179,3 @@ const toggleExpandAll = () => {
   expandAll.value = !expandAll.value;
 }
 </script>
-

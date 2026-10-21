@@ -1,5 +1,8 @@
 # iPayroll integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration view of
+how this token is obtained and whether advance planning is needed.
+
 ::: prompt
 iPayroll does not accept non-NZ addresses
 :::
@@ -138,4 +141,3 @@ const toggleExpandAll = () => {
 expandAll.value = !expandAll.value;
 }
 </script>
-

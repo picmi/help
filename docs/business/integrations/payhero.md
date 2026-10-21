@@ -1,5 +1,8 @@
 # PayHero integration overview
 
+See [API integration authentication and planning](api-authentication.md) for the cross-integration view of
+how the partner key is obtained and whether advance planning is needed.
+
 ## PayHero: Integration configuration
 
 | Configuration                                                                                                                      | Description                                                                                            | Values                                                                              |
@@ -48,57 +51,28 @@
 | [Email pay slips](#email-pay-slips)                                                           | Preference for receiving payslips via email.                                     | Email payslip to provided email address                | Integration Configuration |
 | [Payment cycle](#payment-cycle)                                                               | Cycle for payment processing.                                                    | API + No Pay Cycle, No PayCycle                        | Integration Configuration |
 
-## API Key Management for PayHero Integration
+## Customer API credentials
 
-To create an employee in PayHero requires a PICMI partner API access key.
-
-::: prompt
-PICMI supports only one API access key to be used across all PayHero integrations on an organisation. Please contact PICMI support if you require more than one API access key for your organisation.
-:::
-
-### Request a PICMI partner API access key
-
-The key can only be received by email from an email request to PayHero Support. Click <a href="mailto:
-support@payhero.co.nz?subject=PICMI partner API access key&body=Please provide me with the PICMI partner API access key
-to be used for my organisation">this link</a> to open an email template in your mail client.
-
-> **To:** <a href="mailto:
-> support@payhero.co.nz?subject=PICMI partner API access key&body=Please provide me with the PICMI partner API access
-> key
-> to be used for my organisation">support@payhero.co.nz</a><br/>
-> **Subject:** PICMI partner API access key<br/>
-> **Body** Please provide me with the PICMI partner API access key to be used for my organisation
-
-
-:::: explanation
-
-### Who is doing what
-
-| **Actor**           | **Description**                                                                        |
-|---------------------|----------------------------------------------------------------------------------------|
-| **Shared Customer** | Business using both PICMI and PayHero.                                                 |
-| **PICMI**           | Integration partner facilitating the connection between shared customer and PayHero.   |
-| **PayHero Team**    | Owner of the API infrastructure, responsible for generating partner-specific API keys. |
+To create an employee in PayHero, PICMI needs API credentials belonging to your own PayHero company.
 
 ::: prompt
-The customer can have their own private API keys to act for themselves and provide partner keys to third-party
-like PICMI
+Do not use another organisation's API key or a personal credential. Your PayHero credentials should only be used for
+your own company's connection.
 :::
 
-### Responsibilities
+### Apply for PayHero API access
 
-| **Actor**           | **Responsibilities**                                                                                                                                                           |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Shared Customer** | Notify PayHero that they are using PICMI as their integration partner and request a PICMI-specific API key from the PayHero team to ensure compatibility with the integration. |
-| **PICMI**           | Use the PICMI-specific API key for each request to ensure both the customer and PayHero know the request is from PICMI.                                                        |
-| **PayHero Team**    | Generate PICMI-specific API keys upon request for shared customers, ensuring they are added to the PICMI integration for verification.                                         |
+PayHero documents private integrations for companies on its Universe plan. Review the [PayHero API integration
+requirements](https://support.payhero.co.nz/en/articles/12015635-payhero-api-integration), complete the private
+integration application, and email it to `api@flexitime.works`.
+
+PayHero says it will respond within 10 working days. Once your application is approved, use the credentials PayHero
+issues for your company and enter the required API credential in PICMI.
 
 ::: prompt
-The **partner API key** for PICMI is **not viewable** to the customer through the PayHero application but is provided
-via
-email
+PayHero also documents a separate partner-integration process. That process is for software providers building an
+integration for multiple PayHero customers, not for a customer connecting its own PayHero company to PICMI.
 :::
-::::
 
 :::: explanation
 
@@ -107,27 +81,29 @@ email
 - [General integration troubleshooting](integrations#troubleshooting)
 - [Integration FAQs](../faqs#integrations)
 
-:::: faq How long does it take for PayHero to respond with an API access key?
-It is usually same working day, but get onto it as soon as possible.
+:::: faq How long does it take for PayHero to respond to a private API application?
+PayHero says it will respond within 10 working days. Start the application early if the integration is needed by a
+specific date.
 
 ::: prompt
-See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
+See [Apply for PayHero API access](#apply-for-payhero-api-access)
 :::
 ::::
 
-:::: faq Where is the PICMI partner API access key in the application?
-It is not available for self-service and must be provided from PayHero support.
+:::: faq Where do I get the PayHero API credential for my company?
+Apply for private API access through PayHero if your company is on the Universe plan. PayHero will provide the
+credentials needed for your approved private integration.
 
 ::: prompt
-See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
+See [Apply for PayHero API access](#apply-for-payhero-api-access)
 :::
 ::::
 
-:::: faq I have the error 'Invalid API key', what should I do?
-You need to ensure that you have a PICMI partner API access key. You may be using your private API access key that is
-self-service from the PayHero application.
+:::: faq I have an invalid PayHero API credential error, what should I do?
+Check that the credential belongs to the PayHero company connected to PICMI and that your private API access has been
+approved. Do not substitute another organisation's or a partner integration credential.
 
 ::: prompt
-See [request a PICMI partner API access key](#request-a-picmi-partner-api-access-key)
+See [Apply for PayHero API access](#apply-for-payhero-api-access)
 :::
 ::::
