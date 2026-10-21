@@ -1,12 +1,16 @@
 # Insert fields in a contract template
 
-Field substitutions are inserted into a contract template using **Insert Fields :::icon plus-circle-outline:::** mode. These fields appear as chips and are replaced with actual job, organisation, workflow, or personal details when a contract is generated. 
+Field substitutions are inserted into a contract template using **Insert Fields :::icon plus-circle-outline:::** mode.
+These fields appear as chips and are replaced with actual job, organisation, workflow, or personal details when a
+contract is generated.
 
 Also see
+
 * [Field groups and search text](filter-fields-by-group-label-in-a-contract-template.md)
 * [Navigate Inserted :::icon crosshairs-gps:::](navigate-inserted-fields-in-a-contract-template.md) mode
 
 :::: instructions
+
 ## Switch to insert mode
 
 1. Open the contract template using [Preview/edit](preview-and-edit-a-contract-template)
@@ -16,6 +20,7 @@ The available field groups and chips will be shown below the contract text.
 ::::
 
 :::: instructions
+
 ## Insert a field substitution
 
 1. Click in the contract text where the field should be added
@@ -47,11 +52,11 @@ again into the contract template.
 The job fields below are not added to a contract automatically. They appear in the generated contract only when the
 matching substitution chip has been inserted into the template:
 
-| Job information | Contract field |
-|-----------------|----------------|
-| Job description | **Description (Job)** |
-| Work hours | **Work Hours** |
-| Job Type Label | **Opportunity Type Label** |
+| Job information | Contract field             |
+|-----------------|----------------------------|
+| Job description | **Description (Job)**      |
+| Work hours      | **Work Hours**             |
+| Job Type Label  | **Opportunity Type Label** |
 
 The contract field list uses **Opportunity Type Label** for the value that may be shown as **Job Type Label** in the job
 details. If the template does not contain one of these chips, changing that job field will not add it to the contract.
@@ -61,8 +66,10 @@ hours in the contract and also insert **Work Hours** unless both statements are 
 especially a year, in fixed template wording when the date should come from a job or application substitution.
 
 Before sending an invite, review the job details and the contract template together to check that the fixed wording and
-the inserted values are complete and do not duplicate or contradict each other. Use [Preview and edit](preview-and-edit-a-contract-template)
-to review the template and [Navigate inserted](navigate-inserted-fields-in-a-contract-template) to find the chips already
+the inserted values are complete and do not duplicate or contradict each other.
+Use [Preview and edit](preview-and-edit-a-contract-template)
+to review the template and [Navigate inserted](navigate-inserted-fields-in-a-contract-template) to find the chips
+already
 used in it.
 
 ### Information (Individual)
@@ -74,10 +81,10 @@ used in it.
 | Middle Name      | The person's middle name.                       |
 | Nickname         | The person's nickname.                          |
 | Preferred Name   | The person's preferred name.                    |
-| Email            | The person's email address.                    |
+| Email            | The person's email address.                     |
 | Email (Verified) | Whether the person's email address is verified. |
-| Phone            | The person's phone number.                     |
-| Phone (Verified) | Whether the person's phone number is verified. |
+| Phone            | The person's phone number.                      |
+| Phone (Verified) | Whether the person's phone number is verified.  |
 | Height           | The person's height in metres.                  |
 | Zone             | The person's time zone information.             |
 | Locale           | The person's locale.                            |
@@ -91,25 +98,25 @@ used in it.
 
 These fields are available for employment contracts and describe the job or listing.
 
-| **Field**                    | **Description**                                                            |
-|------------------------------|----------------------------------------------------------------------------|
-| Title                        | The job title.                                                             |
-| Description (Job)            | The main job description.                                                  |
-| Date Posted (Listing)        | The date the listing was posted.                                          |
-| Valid Through (Listing)      | The date the listing is valid through.                                    |
-| Work Hours                   | The job's general work hours.                                             |
-| Remuneration                 | The job's pay rate or remuneration.                                       |
-| Street Address               | The job's street address.                                                 |
-| Location (Additional Details)| Additional location details for the job.                                  |
-| Start                        | The job start date.                                                        |
-| End                          | The job end date.                                                          |
-| Summary (Start & End)        | The job's summary of start and end dates or conditions.                    |
-| Opportunity Type Label       | The opportunity type label.                                                |
-| Incentive Compensation       | Incentive compensation details for the job.                                |
-| Benefits                     | Benefits provided for the job.                                             |
-| Special Commitments          | Special commitments for the job.                                           |
-| Top up to hourly rate        | Whether the employee's earnings should be topped up to their hourly rate.  |
-| Weekly minimum earnings      | The minimum weekly earnings agreed for the employee.                       |
+| **Field**                     | **Description**                                                           |
+|-------------------------------|---------------------------------------------------------------------------|
+| Title                         | The job title.                                                            |
+| Description (Job)             | The main job description.                                                 |
+| Date Posted (Listing)         | The date the listing was posted.                                          |
+| Valid Through (Listing)       | The date the listing is valid through.                                    |
+| Work Hours                    | The job's general work hours.                                             |
+| Remuneration                  | The job's pay rate or remuneration.                                       |
+| Street Address                | The job's street address.                                                 |
+| Location (Additional Details) | Additional location details for the job.                                  |
+| Start                         | The job start date.                                                       |
+| End                           | The job end date.                                                         |
+| Summary (Start & End)         | The job's summary of start and end dates or conditions.                   |
+| Opportunity Type Label        | The opportunity type label.                                               |
+| Incentive Compensation        | Incentive compensation details for the job.                               |
+| Benefits                      | Benefits provided for the job.                                            |
+| Special Commitments           | Special commitments for the job.                                          |
+| Top up to hourly rate         | Whether the employee's earnings should be topped up to their hourly rate. |
+| Weekly minimum earnings       | The minimum weekly earnings agreed for the employee.                      |
 
 For Tātou, **Top up to hourly rate** and **Weekly minimum earnings** can use the job values or the person's [personal
 overrides](creating-individual-employment-conditions.md#fields-that-can-be-overridden). A personal override takes
@@ -138,30 +145,31 @@ These fields describe the organisation sending the contract.
 
 ### External Identifier
 
-| **Field**           | **Description**                          |
-|---------------------|------------------------------------------|
+| **Field**           | **Description**                           |
+|---------------------|-------------------------------------------|
 | External Identifier | An external identifier provided by PICMI. |
 
 ### Organisation (Receiving)
 
 These fields describe the organisation receiving the contract, where applicable.
 
-| **Field**            | **Description**                                        |
-|----------------------|--------------------------------------------------------|
-| Name                 | The receiving organisation's name.                     |
-| Description          | The receiving organisation's description.              |
-| Email                | The receiving organisation's email address.            |
-| Email Verified       | Whether the receiving organisation's email is verified.|
-| Phone                | The receiving organisation's phone number.             |
-| Phone Verified       | Whether the receiving organisation's phone is verified.|
-| Zone Info            | The receiving organisation's time zone information.    |
-| Locale               | The receiving organisation's locale.                   |
-| Profile              | The receiving organisation's profile.                  |
-| Picture              | The receiving organisation's picture.                  |
-| Website              | The receiving organisation's website.                  |
-| Authorised Signature | The receiving organisation's authorised signature.     |
+| **Field**            | **Description**                                         |
+|----------------------|---------------------------------------------------------|
+| Name                 | The receiving organisation's name.                      |
+| Description          | The receiving organisation's description.               |
+| Email                | The receiving organisation's email address.             |
+| Email Verified       | Whether the receiving organisation's email is verified. |
+| Phone                | The receiving organisation's phone number.              |
+| Phone Verified       | Whether the receiving organisation's phone is verified. |
+| Zone Info            | The receiving organisation's time zone information.     |
+| Locale               | The receiving organisation's locale.                    |
+| Profile              | The receiving organisation's profile.                   |
+| Picture              | The receiving organisation's picture.                   |
+| Website              | The receiving organisation's website.                   |
+| Authorised Signature | The receiving organisation's authorised signature.      |
 
 :::: instructions
+
 ## Find a field chip
 
 1. Use the field group chips at the top to move between sections
@@ -172,6 +180,7 @@ This helps when a section contains many available fields.
 ::::
 
 :::: instructions
+
 ## Check selected chips in the list
 
 1. Review the chips shown as selected in each field group

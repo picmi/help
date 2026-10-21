@@ -8,7 +8,7 @@ can be expected.
 | **Field**                       | **Description**                                                                                                        |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | **Title**                       |                                                                                                                        |
-| **Work hours**                  | The job's general work hours.                                                                                            |
+| **Work hours**                  | The job's general work hours.                                                                                          |
 | **Description**                 | The primary description of the job or service                                                                          |
 | **Summary**                     | Additional information about the job that can be useful                                                                |
 | **Pay rate/remuneration**       | The amount of money to be paid and the frequency (usually hourly). It is defaulted to your organisation local currency |
@@ -20,12 +20,38 @@ can be expected.
 | **End date**                    | Date the job is expected to finish                                                                                     |
 | **Summary/additional details**  | Description about other information around the job start/stop or conditions                                            |
 
-::: prompt
-**See also**
+## Keep the opportunity description, workflow, and contract consistent
+
+The opportunity **Description** is the variable, opportunity-specific part of the information used in a contract. This
+works the same way for an employment job and a service proposal. It is also publicly facing, so people may read it before
+they apply or accept the opportunity. Write it so that it gives a clear overview of the work or service and sets the
+right expectations without trying to repeat every question or contractual term.
+
+Use each part for a different purpose:
+
+| Part | Purpose |
+|------|---------|
+| **Opportunity description** | Publicly describe the work or service, scope, and key expectations for this opportunity. |
+| **Workflow** | Ask structured questions that clarify the person's circumstances, availability, qualifications, or agreement to specific expectations. |
+| **Contract template** | Provide the fixed agreement wording and insert changing job or person information using [field substitutions](insert-fields-in-a-contract-template). |
+
+The description should provide the context around the workflow. For example, describe the role or service and its main
+scope in the opportunity description, then use workflow questions to confirm the details that need to be understood or
+agreed for each person. Where an opportunity detail needs to appear in the contract, use the matching substitution rather
+than typing a second version into the fixed contract wording. For employment contracts, the **Description (Job)**
+substitution can insert the opportunity description into the contract.
+
+Avoid duplicating the same information in the opportunity description, workflow questions, and contract template.
+Duplication makes it more likely that one version will be missed when the opportunity changes, or that two versions will
+contradict each other. Check that the public description, workflow expectations, and contractual wording describe the
+same arrangement before sending invites.
+
+::: prompt **See also**
 
 * [opportunity status](opportunity-status)
 * [opportunity controls](opportunity-controls) for managing intake
 * [preview a job](opportunity-preview)
+* [insert fields in a contract template](insert-fields-in-a-contract-template)
   :::
 
 ## Job settings
