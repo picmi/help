@@ -95,7 +95,8 @@ system. This is a machine-to-machine approach through [integration events](integ
 
 **CSV:** stands for comma-separated values type of file and means that data is sent indirectly such that records are
 downloaded to a file and then uploaded into the other system. Access these
-through [download reports](download-reports.md)
+through [download reports](download-reports.md). If you edit a CSV before uploading it, see [How to open and edit CSV
+files without changing bank account numbers](../article/open-edit-csv-without-changing-identifiers).
 :::
 
 ## Steps for Using Integrations with PICMI

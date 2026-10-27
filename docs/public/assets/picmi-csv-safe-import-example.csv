@@ -1,0 +1,5 @@
+employee_name,employee_number,bank_account,telephone,long_identifier,fields,description
+"Aroha Rangi",000123,"02-0340-0008252-09","+6421234567","12345678901234567890","Aroha Rangi|000123|02-0340-0008252-09|+6421234567|12345678901234567890","Preserve the leading zeros in the employee number and bank account, the plus sign in the telephone number, and all long-number digits."
+"Ben Smith",000124,"010123000045607","0212345678","98765432109876543210","Ben Smith|000124|010123000045607|0212345678|98765432109876543210","This row contains identifiers that may be interpreted as numbers, causing leading zeros or long-number digits to change."
+"Cara Lee",000125,"03-0456-0000789-12","+6493771234","00000000000012345678","Cara Lee|000125|03-0456-0000789-12|+6493771234|00000000000012345678","Preserve the bank account formatting, telephone plus sign, employee number, and leading zeros in the long identifier."
+"Dylan Jones",000126,"12-0001-0000001-01","0201234567","00123456789012345678","Dylan Jones|000126|12-0001-0000001-01|0201234567|00123456789012345678","This row demonstrates leading zeros in identifiers and CSV escaping for the quoted word ""value"" in this note."

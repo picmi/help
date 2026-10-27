@@ -273,7 +273,8 @@ If there is no activity for a metric, its value may appear as zero.
 
 1. Select one or more rows in the results table.
 2. Click **Export Insights**.
-3. Download the CSV file.
+3. Download the CSV file. If you need to inspect or edit it, see [How to open and edit CSV files without changing bank
+   account numbers](open-edit-csv-without-changing-identifiers).
 
 The export contains the visible report columns for the rows you selected. Open the CSV in Excel, Numbers, or Google
 Sheets for further analysis.

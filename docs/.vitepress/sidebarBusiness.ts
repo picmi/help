@@ -199,6 +199,10 @@ export function sidebarBusiness() {
                     text: 'Export application details',
                     link: '/business/article/export'
                 },
+                {
+                    text: 'Open and edit CSV files safely',
+                    link: '/business/article/open-edit-csv-without-changing-identifiers'
+                },
                 { text: 'Archive and restore', link: '/business/article/archiving-and-restoring' },
             ],
         },

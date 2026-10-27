@@ -66,6 +66,7 @@ for a short explanation of how opportunities, applications, agreements, and ongo
 - [Available integrations](integrations/integrations)
 - [Integration events](integrations/integration-events)
 - [Download reports](integrations/download-reports)
+- [Open and edit CSV files safely](article/open-edit-csv-without-changing-identifiers)
 - [External Identifiers](integrations/external-identifiers)
 
 ## Your account

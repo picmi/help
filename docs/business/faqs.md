@@ -1206,7 +1206,8 @@ need to edit the CSV.
 This can happen with any CSV payroll integration that includes bank account numbers. If the raw PICMI CSV is correct but
 the spreadsheet version is missing the leading zero, the change happened after download.
 
-See [CSV report troubleshooting](integrations/download-reports.md#how-can-i-open-my-csv-without-changing-the-dates) and
+See [How to open and edit CSV files without changing bank account numbers](article/open-edit-csv-without-changing-identifiers),
+[CSV report troubleshooting](integrations/download-reports.md#how-can-i-open-my-csv-without-changing-the-dates) and
 [MYOB IMS bank account troubleshooting](integrations/myob-ims.md#why-is-the-first-zero-missing-from-a-bank-account-number-after-i-open-the-csv).
 :::
 

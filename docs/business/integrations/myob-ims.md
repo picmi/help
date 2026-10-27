@@ -163,7 +163,8 @@ To check where the change happened:
 
 1. Download the MYOB IMS report from PICMI again.
 2. Compare the raw PICMI CSV with the spreadsheet file you are trying to import.
-3. If the raw CSV is correct, import the CSV into your spreadsheet program and set the bank account column as text.
+3. If the raw CSV is correct, [import the CSV safely](../article/open-edit-csv-without-changing-identifiers) and set the
+   bank account column as text before editing.
 
 ::: prompt
 When asking PICMI support to investigate, include both the raw file downloaded from PICMI and the edited file you are

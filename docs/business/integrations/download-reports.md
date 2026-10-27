@@ -5,6 +5,9 @@ These instructions refer to all integrations in which [data is sent via CSV](int
 PICMI provides CSV files via **Reports**. There is also [export applications details](../article/export) to create your
 own ad hoc extracts.
 
+If you need to inspect or edit a CSV before uploading it to payroll, follow [How to open and edit CSV files without
+changing bank account numbers](../article/open-edit-csv-without-changing-identifiers).
+
 When data is shared with other systems via CSV, this is generally still called an "integration". Each time data is
 downloaded this is called an "integration
 event". Inside each event are data is "record" made up of "fields" which are the values that are shared. Each field will
@@ -106,11 +109,9 @@ When you open the CSV, the program guesses which one to use — and sometimes it
 To keep your dates and other formatted values correct:
 
 1. **Don’t double-click** the CSV file to open it.
-2. Instead, **import** it into your spreadsheet program. During import, tell the program that the date columns are
-   “text” or specify the correct format (for example `YYYY-MM-DD` or `DD/MM/YYYY`).
-3. If the report includes bank account numbers, set the bank account column to “text” during import so leading zeroes
-   are not removed.
-4. Or, open the file in a **text editor** to check the original values.
+2. Instead, follow [How to open and edit CSV files without changing bank account numbers](../article/open-edit-csv-without-changing-identifiers)
+   to import it safely into Excel, Google Sheets or Apple Numbers.
+3. Or, open the file in a **text editor** to check the original values.
 
 This way, your dates and bank account numbers will display exactly as PICMI provided them.
 :::
@@ -119,8 +120,8 @@ This way, your dates and bank account numbers will display exactly as PICMI prov
 Spreadsheet programs often treat bank account numbers as ordinary numbers when a CSV is opened or edited. If that
 happens, a value such as `02-0340-0008252-09` or `020340000825209` may be changed or displayed without the first zero.
 
-Download the report again and compare the raw PICMI CSV with the spreadsheet file. If the raw CSV is correct, import
-the file into your spreadsheet program and set the bank account column as text before editing or saving it.
+Download the report again and compare the raw PICMI CSV with the spreadsheet file. If the raw CSV is correct, [import
+the file safely](../article/open-edit-csv-without-changing-identifiers) before editing or saving it.
 :::
 
 ::: faq What’s the safest format for sharing data?

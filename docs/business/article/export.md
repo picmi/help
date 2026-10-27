@@ -4,6 +4,9 @@ Exporting in PICMI allows users to extract application data into a customisable 
 businesses to work with application data in other tools, like Google Sheets, MacOS Numbers, or Excel. This flexibility
 ensures your exported data meets the specific requirements of your business or system integration.
 
+If you edit an export before sending it to payroll, see [How to open and edit CSV files without changing bank account
+numbers](open-edit-csv-without-changing-identifiers).
+
 ## What is export?
 
 The export function lets you dynamically extract data from applications, fully customising what is included. You can
