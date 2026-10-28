@@ -30,10 +30,10 @@ access methods inside them, and finally the workflow structure that makes the ex
 :::
 
 <div class="one-pager-gallery">
-  <details class="one-pager-card one-pager-card--wide">
+  <details id="recruiting-people" class="one-pager-card one-pager-card--wide">
     <summary>
       <span class="one-pager-card__preview"><img src="/img/recruiting-people.png" alt="Recruiting people lifecycle preview"></span>
-      <span class="one-pager-card__body"><strong>Recruiting people</strong><small>How PICMI supports the employment journey from attracting people to onboarding them.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+      <span class="one-pager-card__body"><h2>Recruiting people</h2><small>How PICMI supports the employment journey from attracting people to onboarding them.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
       <div class="one-pager-card__toolbar"><strong>Recruiting people</strong><a href="/img/recruiting-people.png" download>Download PNG</a></div>
@@ -41,10 +41,10 @@ access methods inside them, and finally the workflow structure that makes the ex
     </div>
   </details>
 
-  <details class="one-pager-card one-pager-card--wide">
+  <details id="managing-applications" class="one-pager-card one-pager-card--wide">
     <summary>
       <span class="one-pager-card__preview"><img src="/img/managing-applications.png" alt="Managing applications lifecycle preview"></span>
-      <span class="one-pager-card__body"><strong>Managing applications</strong><small>Track an application from invitation through completion, including progressions, actions, and outcomes.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+      <span class="one-pager-card__body"><h2>Managing applications</h2><small>Track an application from invitation through completion, including progressions, actions, and outcomes.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
       <div class="one-pager-card__toolbar"><strong>Managing applications</strong><a href="/img/managing-applications.png" download>Download PNG</a></div>
@@ -52,10 +52,10 @@ access methods inside them, and finally the workflow structure that makes the ex
     </div>
   </details>
 
-  <details class="one-pager-card one-pager-card--wide">
+  <details id="engaging-organisations" class="one-pager-card one-pager-card--wide">
     <summary>
       <span class="one-pager-card__preview"><img src="/img/engaging-organisations.png" alt="Engaging organisations lifecycle preview"></span>
-      <span class="one-pager-card__body"><strong>Engaging organisations</strong><small>How PICMI supports service relationships from first connection through delivery.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+      <span class="one-pager-card__body"><h2>Engaging organisations</h2><small>How PICMI supports service relationships from first connection through delivery.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
       <div class="one-pager-card__toolbar"><strong>Engaging organisations</strong><a href="/img/engaging-organisations.png" download>Download PNG</a></div>
@@ -63,10 +63,10 @@ access methods inside them, and finally the workflow structure that makes the ex
     </div>
   </details>
 
-  <details class="one-pager-card">
+  <details id="understanding-users" class="one-pager-card">
     <summary>
       <span class="one-pager-card__preview"><img src="/img/understanding-users.png" alt="Understanding PICMI users preview"></span>
-      <span class="one-pager-card__body"><strong>Understanding users</strong><small>The two access paths into the same PICMI application experience.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+      <span class="one-pager-card__body"><h2>Understanding users</h2><small>The two access paths into the same PICMI application experience.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
       <div class="one-pager-card__toolbar"><strong>Understanding users</strong><a href="/img/understanding-users.png" download>Download PNG</a></div>
@@ -74,10 +74,10 @@ access methods inside them, and finally the workflow structure that makes the ex
     </div>
   </details>
 
-  <details class="one-pager-card">
+  <details id="provisional-users" class="one-pager-card">
     <summary>
       <span class="one-pager-card__preview"><img src="/img/provisional-users.png" alt="Provisional users lifecycle preview"></span>
-      <span class="one-pager-card__body"><strong>Provisional users</strong><small>From creation and access through completion and transition to email-based access.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+      <span class="one-pager-card__body"><h2>Provisional users</h2><small>From creation and access through completion and transition to email-based access.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
       <div class="one-pager-card__toolbar"><strong>Provisional users</strong><a href="/img/provisional-users.png" download>Download PNG</a></div>
@@ -85,10 +85,10 @@ access methods inside them, and finally the workflow structure that makes the ex
     </div>
   </details>
 
-  <details class="one-pager-card">
+  <details id="upcoming-season" class="one-pager-card">
     <summary>
       <span class="one-pager-card__preview"><img src="/img/upcoming-season.png" alt="Upcoming season preparation preview"></span>
-      <span class="one-pager-card__body"><strong>Upcoming season</strong><small>A practical checklist for preparing people, workflows, contracts, jobs, and integrations before hiring begins.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+      <span class="one-pager-card__body"><h2>Upcoming season</h2><small>A practical checklist for preparing people, workflows, contracts, jobs, and integrations before hiring begins.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
       <div class="one-pager-card__toolbar"><strong>Upcoming season</strong><a href="/img/upcoming-season.png" download>Download PNG</a></div>
@@ -96,10 +96,10 @@ access methods inside them, and finally the workflow structure that makes the ex
     </div>
   </details>
 
-  <details class="one-pager-card">
+  <details id="workflow-design-hierarchy" class="one-pager-card">
     <summary>
       <span class="one-pager-card__preview"><img src="/img/workflow-design-hierarchy.png" alt="Workflow design hierarchy preview"></span>
-      <span class="one-pager-card__body"><strong>Workflow design hierarchy</strong><small>How workflows, pages, items, rules, routing, and review fit together.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+      <span class="one-pager-card__body"><h2>Workflow design hierarchy</h2><small>How workflows, pages, items, rules, routing, and review fit together.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
       <div class="one-pager-card__toolbar"><strong>Workflow design hierarchy</strong><a href="/img/workflow-design-hierarchy.png" download>Download PNG</a></div>
@@ -227,8 +227,10 @@ access methods inside them, and finally the workflow structure that makes the ex
   color: var(--vp-c-text-1);
 }
 
-.one-pager-card__body strong {
+.one-pager-card__body h2 {
+  margin: 0;
   font-size: 1.05rem;
+  line-height: 1.25;
 }
 
 .one-pager-card__body small {
