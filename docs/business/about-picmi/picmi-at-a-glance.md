@@ -43,6 +43,17 @@ access methods inside them, and finally the workflow structure that makes the ex
 
   <details class="one-pager-card one-pager-card--wide">
     <summary>
+      <span class="one-pager-card__preview"><img src="/img/managing-applications.png" alt="Managing applications lifecycle preview"></span>
+      <span class="one-pager-card__body"><strong>Managing applications</strong><small>Track an application from invitation through completion, including progressions, actions, and outcomes.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+    </summary>
+    <div class="one-pager-card__detail">
+      <div class="one-pager-card__toolbar"><strong>Managing applications</strong><a href="/img/managing-applications.png" download>Download PNG</a></div>
+      <a href="/img/managing-applications.png" target="_blank" rel="noreferrer"><img src="/img/managing-applications.png" alt="Managing applications through their lifecycle"></a>
+    </div>
+  </details>
+
+  <details class="one-pager-card one-pager-card--wide">
+    <summary>
       <span class="one-pager-card__preview"><img src="/img/engaging-organisations.png" alt="Engaging organisations lifecycle preview"></span>
       <span class="one-pager-card__body"><strong>Engaging organisations</strong><small>How PICMI supports service relationships from first connection through delivery.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>

@@ -1,0 +1,503 @@
+# Design Prompt: PICMI — Managing Applications Through Their Lifecycle
+
+## Objective
+
+Create a professional, visually engaging **one-page infographic** titled:
+
+**"Managing Applications Through Their Lifecycle"**
+
+Subtitle:
+
+*Track progress, take the right action and keep applicants informed in PICMI.*
+
+The infographic should give PICMI business administrators a clear mental model for managing an application from
+invitation through completion. It should explain the normal progression, the actions available at each stage, the
+ways an application can leave the main path, and the tools businesses use to monitor and communicate progress.
+
+Use the supplied PICMI documentation as the authoritative source. This should be a practical visual reference, not a
+full procedural guide.
+
+## Visual Style
+
+Follow the design language of the supplied PICMI infographics:
+
+- PICMI green branding and colour palette. Do not generate, redraw or approximate the PICMI logo. Omit the logo unless
+  the exact official logo asset from `www.picmi.io` is supplied for use.
+- White background with subtle green accents.
+- Rounded cards, connecting lines and clear iconography.
+- Strong visual hierarchy and generous spacing.
+- Short, concise explanations.
+- A central process diagram with supporting information panels.
+- Portrait orientation, approximately A4.
+- Suitable for printing or inclusion in the PICMI Help Centre.
+- New Zealand English.
+
+**Design principle:** The reader should understand the main application journey in 30 seconds, then be able to use the
+infographic to decide what to do when an application needs attention.
+
+Avoid making this look like a conventional instruction manual or a dense status table. Use the main path, side paths
+and action labels to create a simple visual model.
+
+---
+
+# Section 1 — The Application Lifecycle
+
+### Primary visual: A five-stage horizontal or vertical process
+
+Make this the dominant element of the infographic. Show the normal successful journey as a connected flow:
+
+**INVITED → IN PROGRESS → OFFERED → ACCEPTED → COMPLETED**
+
+Use a distinctive icon and a short explanation for each stage. Keep the lifecycle cards visually clean and reserve a
+single, thin **Status Message** layer beneath the lifecycle. The layer follows the current application state and shows
+the message visibility as either **Shared** or **Internal**.
+
+### 1. INVITED
+
+**The applicant has been invited**
+
+The business has invited the person to apply, but the application has not yet been started.
+
+Business focus:
+
+- Check that the opportunity and application workflow are ready.
+- Monitor whether the applicant starts.
+- Cancel the invitation if it should no longer continue.
+
+Applicant action: **Apply** or **Decline**.
+
+### 2. IN PROGRESS
+
+**The central working phase: the applicant answers the criteria**
+
+The applicant has started the workflow and is answering the questions and criteria that determine whether they can
+continue. This should be the most visually prominent stage in the lifecycle.
+
+This stage may include:
+
+- Answering questions.
+- Providing personal information or documents.
+- Reviewing declarations and agreement terms.
+- Completing required workflow pages.
+
+Embed the Progressions state machine inside this stage, rather than showing it as a separate stage between application
+statuses:
+
+**ANSWER CRITERIA → PROGRESSION OUTCOME → CONTINUE / BUSINESS REVIEW / UNABLE TO PROCEED**
+
+Show the applicant and business on opposite sides of this inner loop:
+
+- **Applicant / jobseeker** answers the configured questions.
+- **Progressions** evaluates the answers.
+- **Business** reviews exceptions when the outcome is **Review**.
+
+The application remains **In Progress** while the participant is completing the workflow or a Progressions **Review** is
+being handled. A **Continue** outcome allows the workflow to move forward. **Unable to Proceed** should show a clear
+explanation and an opportunity to correct an incorrect answer where appropriate; if the outcome stands, someone must stop
+the application. Both sides can stop it: the business can **Cancel**, and the jobseeker can **Decline** or stop.
+
+Business focus:
+
+- Review progress and the current status message.
+- Send an update or reminder when appropriate.
+- Reissue the application if the participant needs to review updated information.
+- Cancel the application if it should stop.
+
+### 3. OFFERED
+
+**The applicant has met the criteria and received an offer**
+
+The offer is waiting for the applicant to agree or decline. Include a small visual cue for the agreement or cooling-off
+stage where relevant.
+
+Business focus:
+
+- Monitor whether the offer is accepted.
+- Cancel the offer if it should no longer continue.
+- Keep the applicant informed with a status message or notification.
+
+Applicant action: **Agree** or **Decline**.
+
+### 4. ACCEPTED
+
+**The offer has been accepted and the engagement is active**
+
+The application has reached an active agreement but is not yet complete.
+
+Business focus:
+
+- Manage the active engagement.
+- Complete the application when all obligations are fulfilled.
+- Terminate it if the engagement ends before completion.
+- Reissue it when information or agreement terms must be reviewed again.
+
+Applicant action: **Cancel** if they need to end the agreement.
+
+### 5. COMPLETED
+
+**The engagement has been successfully completed**
+
+The participant has fulfilled the engagement and required obligations.
+
+Business focus:
+
+- Retain the application record and history.
+- Reopen it when internal follow-up is needed.
+- Reissue it when the participant must review or accept updated terms.
+
+Include a small note:
+
+*Completed is a lifecycle status. It is not the same as archived.*
+
+---
+
+# Section 2 — When an Application Leaves the Main Path
+
+### Primary visual: Side routes branching from the central lifecycle
+
+Show three clearly labelled side outcomes. Use red or amber accents sparingly so they remain visually distinct from the
+green successful path.
+
+### DECLINED — Applicant chooses not to continue
+
+An applicant can decline an invitation, application or offer. Declined applications do not have a business action
+available; the participant may be able to reopen the application.
+
+### CANCELLED — Business stops the process
+
+The business can cancel at the invitation, application or offer stage. Label the stage-specific outcomes clearly:
+
+- Cancelled (Invite)
+- Cancelled (Application)
+- Cancelled (Offer)
+
+Show a **Reopen** arrow returning to the appropriate earlier stage.
+
+### TERMINATED — Active engagement ends early
+
+An accepted engagement can be terminated before completion. Show a **Reopen** or **Reissue** path as an administrative
+follow-up, without implying that the application automatically returns to the normal path.
+
+Include a compact distinction card:
+
+| Outcome | Who ended the process? | Meaning |
+|---|---|---|
+| Declined | Applicant | Chose not to continue |
+| Cancelled | Business | Chose to stop or withdraw |
+| Terminated | Business or engagement outcome | Accepted arrangement ended before completion |
+
+Do not imply that every application follows the same route or that a declined application can always be reopened by a
+business administrator.
+
+---
+
+# Section 3 — The Business Action Layer
+
+### Primary visual: Action chips aligned below the lifecycle
+
+Show that statuses describe **where the application is**, while actions determine **what can happen next**.
+
+Use short action cards:
+
+**CANCEL**
+
+Stop an invitation, in-progress application or offer when the business no longer wants the process to continue.
+
+**REISSUE**
+
+Send the application back through the participant-facing agreement process when information or agreement terms need to
+be updated and the participant must review or accept them again.
+
+**REOPEN**
+
+Change the internal status so the business can continue managing an application. Reopen does not invalidate existing
+signatures or agreements.
+
+**COMPLETE**
+
+Mark an accepted engagement as successfully finished when all required obligations have been fulfilled.
+
+**TERMINATE**
+
+End an accepted engagement before it is completed.
+
+Use directional arrows or small labels to show that available actions depend on the current status. Do not show every
+action on every stage.
+
+---
+
+# Section 4 — One Status Message Layer Across All States
+
+### Primary visual: A thin message layer beneath the lifecycle
+
+Show Status Message as one small, consistent layer spanning the lifecycle. It is the same concept regardless of whether
+the application is **Invited**, **In Progress**, **Offered**, **Accepted**, **Completed**, **Declined**, **Cancelled** or
+**Terminated**. The active message follows the current state; do not create a different visual component or a different
+message model for each state.
+
+The layer should show:
+
+**STATUS MESSAGE** · **SHARED** or **INTERNAL**
+
+Then show an application row with:
+
+**Applicant | Opportunity | Status | Status message | Last updated**
+
+Show that a Status Message can be appended when a business action changes the application's state. The message is stored
+against the resulting application status and becomes part of the application's message history. The active message is
+the message currently attached to that state. Keep this relationship visible without repeating a full message card in
+every lifecycle column.
+
+Use this visual sequence:
+
+**STATUS ACTION → NEW STATUS + STATUS MESSAGE → MESSAGE HISTORY → NOTIFICATION IF SHARED**
+
+Explain that every application state can carry a Status Message. It adds context to the current state and can tell the
+applicant and business:
+
+- What is happening now.
+- What is needed next.
+- What to expect.
+
+Include a simple progression:
+
+**STATUS CHANGES → OPTIONAL MESSAGE ADDED → ACTIVE MESSAGE UPDATED → NOTIFICATION MAY BE SENT**
+
+Use a small callout:
+
+*A status message is attached to an application status. When the status changes, the previous message is no longer the
+active message unless a new message is added, but it remains available in the history.*
+
+Show the two visibility choices on the shared message layer:
+
+- **Shared** — visible to the jobseeker and included in notifications.
+- **Internal** — visible only to the business.
+
+Make the visibility badge visually prominent and consistent across all states. Shared and Internal are not separate
+application statuses; they are visibility settings for the message attached to the current status.
+
+Do not imply that every status change always sends a notification. Say that notifications may be sent according to the
+action and configuration.
+
+---
+
+# Section 5 — Monitor the Whole Pipeline
+
+### Primary visual: People table flowing into a small Stats report
+
+Show the business view as a pipeline rather than a collection of isolated records.
+
+**People → Filter applications → Review status → Take action**
+
+Use four small capabilities:
+
+**FIND**
+
+Use **People** and application filters to locate applications by person, opportunity, status or dates.
+
+**REVIEW**
+
+Check the current status, status message, application history and relevant details before acting.
+
+**UPDATE**
+
+Use the available status action for the individual application, or apply a supported bulk status change to multiple
+applications.
+
+**MEASURE**
+
+Use **Stats** to review application activity by day, week or month and compare movement across organisations or job
+listings.
+
+Include a small note:
+
+*Archive state is separate from lifecycle status. An archived application can still be Accepted, Completed or
+Terminated.*
+
+---
+
+# Section 6 — Progressions Happen Inside In Progress
+
+### Primary visual: Expand the **IN PROGRESS** stage into an inner loop
+
+Do not draw Progressions as a sixth lifecycle stage or as a gate between **In Progress** and **Offered**. Draw it inside
+the enlarged **In Progress** card, because this is where the participant answers the criteria and the workflow decides
+what happens next.
+
+Use two connected lanes inside the In Progress card:
+
+**JOBSEEKER / PARTICIPANT**
+
+Answers workflow questions and moves through the application.
+
+↓
+
+**PROGRESSION OUTCOME**
+
+The workflow evaluates configured answer rules.
+
+↓
+
+**BUSINESS / APPLICATION MANAGEMENT**
+
+The business sees whether the participant can continue automatically, needs human review, or is unable to proceed. The
+result then feeds back into the application lifecycle.
+
+Show the three outcomes as a small state machine within **In Progress**:
+
+### CONTINUE
+
+The participant meets the configured criteria and the workflow continues automatically.
+
+### REVIEW
+
+The participant has otherwise met the requirements, but one or more answers need human judgement or verification.
+
+Show a **Business review** loop with two explicit business outcomes:
+
+**BUSINESS ACCEPTS → CONTINUE**
+
+**BUSINESS DECLINES → CANCEL**
+
+The jobseeker may continue with the application while the review is pending, but continuing is optional. Make clear that
+the business does not see the participant's review details until the business accepts the review outcome. Keep the
+application in **In Progress** during the review.
+
+### UNABLE TO PROCEED
+
+The participant does not meet mandatory criteria for the opportunity based on the answers provided. Show a clear
+explanation and allow the participant to correct an answer if it was entered incorrectly. If the outcome remains
+**Unable to Proceed**, the application must be stopped: the business can **Cancel**, or the jobseeker can **Decline** or
+stop.
+
+Include a strong distinction card:
+
+| Concept | What it describes |
+|---|---|
+| Application status | The broad lifecycle, such as **In Progress**, **Offered** or **Accepted** |
+| Progression outcome | Whether workflow answers allow **Continue**, require **Review**, or mean **Unable to Proceed** |
+| Business action | What the business can do at the current application status |
+
+Include a callout:
+
+*Progressions decide whether the workflow can continue. They do not replace the application lifecycle and do not manage
+the full application status.*
+
+Show that Progressions are configured in the workflow's **Progressions** panel. The default path inside In Progress is
+**Continue**, so
+only configured **Review** and **Unable to Proceed** rules may appear in the progression summary.
+
+Do not confuse a Progressions **Review** outcome with Workflow Builder **Review** mode, which is for auditing workflow
+contents.
+
+---
+
+# Section 7 — Check the Setup Before the Application Moves Forward
+
+### Primary visual: Two configuration gates on the lifecycle
+
+Show **Check Configuration** as a setup check on the job or opportunity, not as an applicant progress status.
+
+Use two small gates on the main lifecycle:
+
+**JOB SETUP → CHECK CONFIGURATION → INVITE**
+
+and:
+
+**IN PROGRESS → CHECK CONFIGURATION → OFFERED**
+
+Show this as a separate setup check from the Progressions loop. It is not the same as the participant answering criteria
+or receiving a Progressions outcome.
+
+Explain that PICMI checks whether the job's workflow, contract, organisation and opportunity fields, and any enabled
+integration mappings are ready. The purpose is to confirm that, when the application is completed, PICMI can produce the
+required contract and successfully send required data to the third-party integration.
+
+Show the operational sequence:
+
+**CHECK THE JOB → FIX FAILED FIELDS → SAVE → CHECK AGAIN → CONTINUE**
+
+### What the check can find
+
+Use a compact diagnostic card with these examples:
+
+- **Not found** — PICMI cannot find a valid source for a required field, often because an integration mapping points to
+  the wrong or duplicate workflow question.
+- **Empty** — a required contract field has no value in the organisation, opportunity or related setup.
+- **Not Available** — a field or template does not apply to the opportunity type.
+
+Include a small note:
+
+*A field can pass the setup check even when the participant has not answered it yet, because PICMI is checking where the
+future value will come from.*
+
+### Do not confuse setup with applicant progress
+
+Make it clear that **In Progress** is not automatically an error or a sign that the applicant is stuck. The applicant may
+have chosen not to finish yet. Intake settings can also restrict what happens next, including **Intake Closed**,
+**Invites only**, or **No availability left**.
+
+Do not present **Check Configuration** as a status, imply that it checks whether the applicant has completed their
+answers, or suggest that every integration issue can be fixed by the business administrator.
+
+---
+
+# Section 8 — The Administrator Mental Model
+
+At the bottom, reproduce the style of a concise mental-model summary.
+
+Use a clear progression:
+
+**ANSWERS → PROGRESSION → STATUS → ACTION → NEXT STAGE**
+
+Underneath, provide these three principles:
+
+**1. Status shows position**
+
+The application status tells you where the applicant is in the lifecycle.
+
+**2. Actions move the process**
+
+Available actions depend on the current status and who is performing the action.
+
+**3. Communication supports progress**
+
+Status messages and notifications help the applicant and business understand what is happening next.
+
+**4. Progressions guide decisions**
+
+Workflow answers determine whether the participant can continue, needs review, or is unable to proceed.
+
+End with a prominent takeaway:
+
+**Manage the status. Explain the next step. Keep the application moving.**
+
+---
+
+## Accuracy and Content Constraints
+
+- Use **participant** or **applicant** consistently with the surrounding PICMI documentation; avoid introducing a new
+  role name.
+- Use the exact status labels: **Invited**, **In Progress**, **Offered**, **Accepted**, **Completed**, **Declined**,
+  **Cancelled**, and **Terminated**.
+- Show **Progressions** inside the enlarged **In Progress** stage, where the participant answers criteria and the
+  business handles exceptions.
+- Do not show Progressions as a sixth lifecycle stage or as a direct gate between **In Progress** and **Offered**.
+- Make clear that Progressions are based on participant answers and are not application statuses.
+- Show the business review loop for **Review** and a clear explanation/correction path for **Unable to Proceed**.
+- Distinguish **Declined** from **Cancelled**: the applicant declines; the business cancels.
+- Show that a status message can be appended to a status change and retained in the application's history.
+- Distinguish **Shared** status messages from **Internal** status messages.
+- Use one small Status Message layer across all lifecycle states and side outcomes; do not duplicate a separate message
+  card in every state column.
+- Distinguish **Reopen** from **Reissue**. Reopen changes internal status; reissue sends the application through the
+  participant-facing agreement process again.
+- Show **Check Configuration** as a job/opportunity setup gate before inviting and before moving an application from **In
+  Progress** to **Offered**.
+- Explain that the check validates downstream contract and third-party integration readiness, not participant completion.
+- Do not imply that archiving changes lifecycle status.
+- Do not imply that every status change sends a notification.
+- Do not imply that every application follows the successful main path.
+- Keep all text concise enough to remain readable on one A4 page.
+- Prefer simple icons, arrows and short labels over paragraphs.
+- Use accessible colour contrast and ensure the lifecycle remains understandable without relying on colour alone.
