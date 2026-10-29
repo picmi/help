@@ -1,0 +1,163 @@
+# Design Prompt: Understanding PICMI Notifications
+
+Create a simple, one-page infographic for business users who are new to PICMI. The purpose is to explain what
+notifications are, when they are sent, where they appear, and how notification settings work.
+
+Only add PICMI logo if you have the original
+
+Design for a novice. Assume the reader does not know PICMI terms such as actor, recipient, event, workflow, or
+integration. Do not make the reader understand the system behind a notification. Explain only what they need to know
+to decide which notifications they want to receive.
+
+## The four things the reader needs to know
+
+Make these the main content of the infographic, in a simple numbered sequence:
+
+### 1. Notifications tell you when something important happens
+
+PICMI sends a notification when something changes that you may need to know about or act on.
+
+Examples include a job being updated, an application changing, or a review needing attention.
+
+Do not describe notifications as random reminders or generic alerts.
+
+### 2. Different notifications go to different people
+
+The people involved in the work do not all receive the same notifications.
+
+For example:
+
+- Business users may receive updates about jobs, applications, agreements, and reviews.
+- Jobseekers may receive invitations and updates about their applications.
+- Organisation users may receive updates about service agreements with other organisations.
+
+Keep this explanation short. The detailed audience for each notification can remain in the written help article.
+
+### 3. Notifications can appear in PICMI, by email, or both
+
+Show two simple delivery options:
+
+- **In PICMI** — view notifications from the notification bell.
+- **By email** — receive an email that may link back to the relevant place in PICMI.
+
+Make clear that email is a way to alert the user and bring them back to PICMI. PICMI is where they review the full
+details and continue the work.
+
+### 4. You can choose what you receive
+
+Show that business users can manage notification preferences in PICMI:
+
+**Notifications → Settings → choose the notification type and delivery method**
+
+Explain that a user can turn notification types or delivery methods on or off. Use simple toggle imagery, but do not
+show a detailed settings screen or many controls.
+
+## Notification groups
+
+Below the four key ideas, show three large, friendly groups. These groups explain what the notifications are about and
+help the reader decide what to keep enabled.
+
+### Employment
+
+Subtitle: **Work between a business and a jobseeker**
+
+Show a business icon connected to a jobseeker icon.
+
+Examples:
+
+- Job invitations
+- Application updates
+- Application accepted or cancelled
+- Review outcomes
+- Application cannot continue
+
+### Services
+
+Subtitle: **Work between organisations**
+
+Show one organisation icon connected to another organisation icon.
+
+Examples:
+
+- Service agreement invitations
+- Agreements accepted or started
+- Agreement reissued or cancelled
+- Updates from another organisation
+
+### Other PICMI notifications
+
+Subtitle: **Updates that support your work in PICMI**
+
+Show simple supporting icons for a job, message, review, intake, organisation, and integration.
+
+Examples:
+
+- Jobs created or updated
+- Messages received
+- Reviews requiring attention
+- Intake unavailable
+- Organisation users added
+- Integration updates or issues
+
+## Shared notifications
+
+Some notification types apply to both Employment and Services. Do not create a separate “shared notifications” group;
+that would add unnecessary complexity for a beginner.
+
+Instead, repeat shared examples in both relevant groups when applicable. For example:
+
+- Employment: **Application updates**
+- Services: **Service agreement updates**
+
+If messages or reviews apply to both contexts, show them in both groups using the wording appropriate to that context.
+
+Add one short note below the groups:
+
+> Some notifications can apply to both Employment and Services. You may see them in more than one category, depending
+> on the work involved.
+
+## Recommended visual structure
+
+Use a calm, easy-to-scan vertical layout rather than a complex left-to-right system diagram:
+
+1. Title and one-sentence explanation
+2. Four numbered beginner concepts
+3. Three notification groups: Employment, Services, Other PICMI notifications
+4. A short note about shared notifications
+5. A final reminder to open PICMI and review the details
+
+Use arrows only where they clarify a simple relationship:
+
+**Something important happens → you are notified → you review it in PICMI**
+
+Do not use a five-stage flow with Actor, Change, Recipient, Delivery, and Action. Those concepts are too abstract for
+the intended audience.
+
+## Visual direction
+
+- Use PICMI's calm, practical business interface style.
+- Use large headings, short sentences, and generous spacing.
+- Use accessible contrast and do not rely on colour alone.
+- Use icons for notification bell, email, business, jobseeker, organisation, job, application, agreement, message,
+  review, and settings.
+- Make Employment and Services visually distinct, but keep Other PICMI notifications visually simpler.
+- Make the infographic readable at Help Centre article width.
+- Keep the groups as examples, not a complete list of every notification label.
+
+## Suggested copy
+
+**Title:** Understanding PICMI notifications
+
+**Subtitle:** Notifications let you know when something important happens. You can choose which updates you receive in
+PICMI, by email, or both.
+
+**Final reminder:** Open the notification and return to PICMI to see the full details and take the next available action.
+
+## Avoid
+
+- Do not use unexplained terms such as actor, event, recipient, routing, trigger, workflow, or database change.
+- Do not show every notification as a separate card or step.
+- Do not imply that every notification is about an application.
+- Do not imply that every notification sends an email.
+- Do not make email look like the place where the work is completed.
+- Do not create a separate shared-notifications category.

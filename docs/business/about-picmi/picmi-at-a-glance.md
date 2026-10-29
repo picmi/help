@@ -63,6 +63,18 @@ access methods inside them, and finally the workflow structure that makes the ex
     </div>
   </details>
 
+  <details id="understanding-notifications" class="one-pager-card one-pager-card--wide">
+    <summary>
+      <span class="one-pager-card__preview"><img src="/img/understanding-notifications.png" alt="Understanding PICMI notifications preview"></span>
+      <span class="one-pager-card__body"><h2>Understanding notifications</h2><small>How PICMI lets you know about important updates in the app, by email, or both.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+    </summary>
+    <div class="one-pager-card__detail">
+      <div class="one-pager-card__toolbar"><strong>Understanding notifications</strong><a href="/img/understanding-notifications.png" download>Download PNG</a></div>
+      <a href="/img/understanding-notifications.png" target="_blank" rel="noreferrer"><img src="/img/understanding-notifications.png" alt="Understanding PICMI notifications"></a>
+      <p>For notification types and delivery settings, see <a href="/business/article/notifications">Notifications in PICMI</a>.</p>
+    </div>
+  </details>
+
   <details id="understanding-users" class="one-pager-card">
     <summary>
       <span class="one-pager-card__preview"><img src="/img/understanding-users.png" alt="Understanding PICMI users preview"></span>
@@ -112,6 +124,7 @@ access methods inside them, and finally the workflow structure that makes the ex
 
 - [Recruiting people](./recruiting-people.md) for the employment model
 - [Engaging organisations](./engaging-organisations.md) for the service model
+- [Notifications in PICMI](../article/notifications.md) for notification types and delivery settings
 - [Understanding users](./understanding-users.md) for access methods and account types
 - [Understanding workflows](./understanding-workflows.md) for the application structure
 
