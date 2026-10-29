@@ -36,96 +36,104 @@ access methods inside them, and finally the workflow structure that makes the ex
 <div class="one-pager-gallery">
   <details id="recruiting-people" class="one-pager-card one-pager-card--wide">
     <summary>
-      <span class="one-pager-card__preview"><img src="/img/recruiting-people.png" alt="Recruiting people lifecycle preview"></span>
+      <span class="one-pager-card__preview"><img :src="recruitingPeople" alt="Recruiting people lifecycle preview"></span>
       <span class="one-pager-card__body"><h2>Recruiting people</h2><small>How PICMI supports the employment journey from attracting people to onboarding them.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
-      <div class="one-pager-card__toolbar"><strong>Recruiting people</strong><span class="one-pager-card__downloads"><a href="/img/recruiting-people.png" download>Download PNG</a><a href="/img/recruiting-people.png" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
-      <a href="/img/recruiting-people.png" target="_blank" rel="noreferrer"><img src="/img/recruiting-people.png" alt="Recruiting people lifecycle"></a>
+      <div class="one-pager-card__toolbar"><strong>Recruiting people</strong><span class="one-pager-card__downloads"><a :href="recruitingPeople" download>Download PNG</a><a :href="recruitingPeople" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="recruitingPeople" target="_blank" rel="noreferrer"><img :src="recruitingPeople" alt="Recruiting people lifecycle"></a>
     </div>
   </details>
 
   <details id="managing-applications" class="one-pager-card one-pager-card--wide">
     <summary>
-      <span class="one-pager-card__preview"><img src="/img/managing-applications.png" alt="Managing applications lifecycle preview"></span>
+      <span class="one-pager-card__preview"><img :src="managingApplications" alt="Managing applications lifecycle preview"></span>
       <span class="one-pager-card__body"><h2>Managing applications</h2><small>Track an application from invitation through completion, including progressions, actions, and outcomes.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
-      <div class="one-pager-card__toolbar"><strong>Managing applications</strong><span class="one-pager-card__downloads"><a href="/img/managing-applications.png" download>Download PNG</a><a href="/img/managing-applications.png" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
-      <a href="/img/managing-applications.png" target="_blank" rel="noreferrer"><img src="/img/managing-applications.png" alt="Managing applications through their lifecycle"></a>
+      <div class="one-pager-card__toolbar"><strong>Managing applications</strong><span class="one-pager-card__downloads"><a :href="managingApplications" download>Download PNG</a><a :href="managingApplications" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="managingApplications" target="_blank" rel="noreferrer"><img :src="managingApplications" alt="Managing applications through their lifecycle"></a>
     </div>
   </details>
 
   <details id="engaging-organisations" class="one-pager-card one-pager-card--wide">
     <summary>
-      <span class="one-pager-card__preview"><img src="/img/engaging-organisations.png" alt="Engaging organisations lifecycle preview"></span>
+      <span class="one-pager-card__preview"><img :src="engagingOrganisations" alt="Engaging organisations lifecycle preview"></span>
       <span class="one-pager-card__body"><h2>Engaging organisations</h2><small>How PICMI supports service relationships from first connection through delivery.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
-      <div class="one-pager-card__toolbar"><strong>Engaging organisations</strong><span class="one-pager-card__downloads"><a href="/img/engaging-organisations.png" download>Download PNG</a><a href="/img/engaging-organisations.png" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
-      <a href="/img/engaging-organisations.png" target="_blank" rel="noreferrer"><img src="/img/engaging-organisations.png" alt="Engaging organisations lifecycle"></a>
+      <div class="one-pager-card__toolbar"><strong>Engaging organisations</strong><span class="one-pager-card__downloads"><a :href="engagingOrganisations" download>Download PNG</a><a :href="engagingOrganisations" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="engagingOrganisations" target="_blank" rel="noreferrer"><img :src="engagingOrganisations" alt="Engaging organisations lifecycle"></a>
     </div>
   </details>
 
   <details id="understanding-notifications" class="one-pager-card one-pager-card--wide">
     <summary>
-      <span class="one-pager-card__preview"><img src="/img/understanding-notifications.png" alt="Understanding PICMI notifications preview"></span>
+      <span class="one-pager-card__preview"><img :src="understandingNotifications" alt="Understanding PICMI notifications preview"></span>
       <span class="one-pager-card__body"><h2>Understanding notifications</h2><small>How PICMI lets you know about important updates in the app, by email, or both.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
-      <div class="one-pager-card__toolbar"><strong>Understanding notifications</strong><span class="one-pager-card__downloads"><a href="/img/understanding-notifications.png" download>Download PNG</a><a href="/img/understanding-notifications.png" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
-      <a href="/img/understanding-notifications.png" target="_blank" rel="noreferrer"><img src="/img/understanding-notifications.png" alt="Understanding PICMI notifications"></a>
+      <div class="one-pager-card__toolbar"><strong>Understanding notifications</strong><span class="one-pager-card__downloads"><a :href="understandingNotifications" download>Download PNG</a><a :href="understandingNotifications" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="understandingNotifications" target="_blank" rel="noreferrer"><img :src="understandingNotifications" alt="Understanding PICMI notifications"></a>
       <p>For notification types and delivery settings, see <a href="/business/article/notifications">Notifications in PICMI</a>.</p>
     </div>
   </details>
 
   <details id="understanding-users" class="one-pager-card">
     <summary>
-      <span class="one-pager-card__preview"><img src="/img/understanding-users.png" alt="Understanding PICMI users preview"></span>
+      <span class="one-pager-card__preview"><img :src="understandingUsers" alt="Understanding PICMI users preview"></span>
       <span class="one-pager-card__body"><h2>Understanding users</h2><small>The two access paths into the same PICMI application experience.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
-      <div class="one-pager-card__toolbar"><strong>Understanding users</strong><span class="one-pager-card__downloads"><a href="/img/understanding-users.png" download>Download PNG</a><a href="/img/understanding-users.png" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
-      <a href="/img/understanding-users.png" target="_blank" rel="noreferrer"><img src="/img/understanding-users.png" alt="Understanding PICMI users"></a>
+      <div class="one-pager-card__toolbar"><strong>Understanding users</strong><span class="one-pager-card__downloads"><a :href="understandingUsers" download>Download PNG</a><a :href="understandingUsers" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="understandingUsers" target="_blank" rel="noreferrer"><img :src="understandingUsers" alt="Understanding PICMI users"></a>
     </div>
   </details>
 
   <details id="provisional-users" class="one-pager-card">
     <summary>
-      <span class="one-pager-card__preview"><img src="/img/provisional-users.png" alt="Provisional users lifecycle preview"></span>
+      <span class="one-pager-card__preview"><img :src="provisionalUsers" alt="Provisional users lifecycle preview"></span>
       <span class="one-pager-card__body"><h2>Provisional users</h2><small>From creation and access through completion and transition to email-based access.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
-      <div class="one-pager-card__toolbar"><strong>Provisional users</strong><span class="one-pager-card__downloads"><a href="/img/provisional-users.png" download>Download PNG</a><a href="/img/provisional-users.png" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
-      <a href="/img/provisional-users.png" target="_blank" rel="noreferrer"><img src="/img/provisional-users.png" alt="Provisional users lifecycle"></a>
+      <div class="one-pager-card__toolbar"><strong>Provisional users</strong><span class="one-pager-card__downloads"><a :href="provisionalUsers" download>Download PNG</a><a :href="provisionalUsers" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="provisionalUsers" target="_blank" rel="noreferrer"><img :src="provisionalUsers" alt="Provisional users lifecycle"></a>
     </div>
   </details>
 
   <details id="upcoming-season" class="one-pager-card">
     <summary>
-      <span class="one-pager-card__preview"><img src="/img/upcoming-season.png" alt="Upcoming season preparation preview"></span>
+      <span class="one-pager-card__preview"><img :src="upcomingSeason" alt="Upcoming season preparation preview"></span>
       <span class="one-pager-card__body"><h2>Upcoming season</h2><small>A practical checklist for preparing people, workflows, contracts, jobs, and integrations before hiring begins.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
-      <div class="one-pager-card__toolbar"><strong>Upcoming season</strong><span class="one-pager-card__downloads"><a href="/img/upcoming-season.png" download>Download PNG</a><a href="/img/upcoming-season.png" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
-      <a href="/img/upcoming-season.png" target="_blank" rel="noreferrer"><img src="/img/upcoming-season.png" alt="Preparing for your upcoming season"></a>
+      <div class="one-pager-card__toolbar"><strong>Upcoming season</strong><span class="one-pager-card__downloads"><a :href="upcomingSeason" download>Download PNG</a><a :href="upcomingSeason" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="upcomingSeason" target="_blank" rel="noreferrer"><img :src="upcomingSeason" alt="Preparing for your upcoming season"></a>
     </div>
   </details>
 
   <details id="workflow-design-hierarchy" class="one-pager-card">
     <summary>
-      <span class="one-pager-card__preview"><img src="/img/workflow-design-hierarchy.png" alt="Workflow design hierarchy preview"></span>
+      <span class="one-pager-card__preview"><img :src="workflowDesignHierarchy" alt="Workflow design hierarchy preview"></span>
       <span class="one-pager-card__body"><h2>Workflow design hierarchy</h2><small>How workflows, pages, items, rules, routing, and review fit together.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
     </summary>
     <div class="one-pager-card__detail">
-      <div class="one-pager-card__toolbar"><strong>Workflow design hierarchy</strong><span class="one-pager-card__downloads"><a href="/img/workflow-design-hierarchy.png" download>Download PNG</a><a href="/img/workflow-design-hierarchy.png" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
-      <a href="/img/workflow-design-hierarchy.png" target="_blank" rel="noreferrer"><img src="/img/workflow-design-hierarchy.png" alt="Workflow design hierarchy"></a>
+      <div class="one-pager-card__toolbar"><strong>Workflow design hierarchy</strong><span class="one-pager-card__downloads"><a :href="workflowDesignHierarchy" download>Download PNG</a><a :href="workflowDesignHierarchy" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="workflowDesignHierarchy" target="_blank" rel="noreferrer"><img :src="workflowDesignHierarchy" alt="Workflow design hierarchy"></a>
     </div>
   </details>
 </div>
 
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted } from 'vue'
+import engagingOrganisations from '../../img/engaging-organisations.png'
+import managingApplications from '../../img/managing-applications.png'
+import provisionalUsers from '../../img/provisional-users.png'
+import recruitingPeople from '../../img/recruiting-people.png'
+import understandingNotifications from '../../img/understanding-notifications.png'
+import understandingUsers from '../../img/understanding-users.png'
+import upcomingSeason from '../../img/upcoming-season.png'
+import workflowDesignHierarchy from '../../img/workflow-design-hierarchy.png'
 
 let cards: NodeListOf<HTMLDetailsElement>
 
