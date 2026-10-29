@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Jobseeker
       link: /jobseeker/
+    - theme: alt
+      text: PICMI at a glance
+      link: /business/about-picmi/picmi-at-a-glance
 
 features:
   - title: "Anywhere, Anytime"
