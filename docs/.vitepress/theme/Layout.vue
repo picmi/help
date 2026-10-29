@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme';
 import AiExplainHost from '../../../components/AiExplainHost.vue';
 import AiExplainNavButton from '../../../components/AiExplainNavButton.vue';
+import OnePagerOutline from '../../../components/OnePagerOutline.vue';
 
 const { Layout } = DefaultTheme;
 </script>
@@ -14,6 +15,10 @@ const { Layout } = DefaultTheme;
 
     <template #layout-bottom>
       <AiExplainHost />
+    </template>
+
+    <template #aside-outline-after>
+      <OnePagerOutline />
     </template>
   </Layout>
 </template>
