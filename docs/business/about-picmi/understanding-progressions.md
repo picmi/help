@@ -11,6 +11,11 @@ lifecycle. They only decide whether the participant can:
 
 The goal is to maximise straight-through progression while still allowing human judgement where needed.
 
+![Understanding Progressions in workflows](../../img/understanding-progressions.png)
+
+See the [Progressions one-pager in PICMI at a glance](./picmi-at-a-glance.md#understanding-progressions) for a visual
+summary of the applicant, workflow, and business flows.
+
 ::: prompt
 Use a Review outcome only when the participant has otherwise passed and limited human judgement remains. This enables
 fast progression while preserving business flexibility where review is genuinely needed.

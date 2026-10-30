@@ -56,6 +56,18 @@ access methods inside them, and finally the workflow structure that makes the ex
     </div>
   </details>
 
+  <details id="understanding-progressions" class="one-pager-card one-pager-card--wide">
+    <summary>
+      <span class="one-pager-card__preview"><img :src="understandingProgressions" alt="Understanding Progressions preview"></span>
+      <span class="one-pager-card__body"><h2>Understanding Progressions</h2><small>How applicant answers guide automatic continuation, business review, or an unable-to-proceed outcome.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+    </summary>
+    <div class="one-pager-card__detail">
+      <div class="one-pager-card__toolbar"><strong>Understanding Progressions</strong><span class="one-pager-card__downloads"><a :href="understandingProgressions" download>Download PNG</a><a :href="understandingProgressions" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="understandingProgressions" target="_blank" rel="noreferrer"><img :src="understandingProgressions" alt="Understanding Progressions in workflows"></a>
+      <p>For the detailed explanation, see <a href="/business/about-picmi/understanding-progressions">Progressions in workflows</a>.</p>
+    </div>
+  </details>
+
   <details id="engaging-organisations" class="one-pager-card one-pager-card--wide">
     <summary>
       <span class="one-pager-card__preview"><img :src="engagingOrganisations" alt="Engaging organisations lifecycle preview"></span>
@@ -131,6 +143,7 @@ import managingApplications from '../../img/managing-applications.png'
 import provisionalUsers from '../../img/provisional-users.png'
 import recruitingPeople from '../../img/recruiting-people.png'
 import understandingNotifications from '../../img/understanding-notifications.png'
+import understandingProgressions from '../../img/understanding-progressions.png'
 import understandingUsers from '../../img/understanding-users.png'
 import upcomingSeason from '../../img/upcoming-season.png'
 import workflowDesignHierarchy from '../../img/workflow-design-hierarchy.png'
@@ -188,6 +201,7 @@ onBeforeUnmount(() => {
 - [Notifications in PICMI](../article/notifications.md) for notification types and delivery settings
 - [Understanding users](./understanding-users.md) for access methods and account types
 - [Understanding workflows](./understanding-workflows.md) for the application structure
+- [Progressions in workflows](./understanding-progressions.md) for how workflow answers guide the next step
 
 <style scoped>
 .one-pager-overview {

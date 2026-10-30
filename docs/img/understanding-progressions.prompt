@@ -1,0 +1,177 @@
+Create a professional one-page infographic for the PICMI Help Centre titled:
+
+“Progressions in PICMI”
+
+Subtitle:
+
+“How applicant answers guide the next step”
+
+The infographic should explain the interaction between an applicant, PICMI’s workflow, and the business when progression rules evaluate workflow answers.
+
+Audience:
+Business users who configure workflows and manage applications.
+
+Format and style:
+- Portrait A4 layout.
+- Clean PICMI visual style: white background, green primary accents, soft neutral panels, rounded cards, clear connecting arrows.
+- Use simple icons for applicant, workflow, business review, offer, and completion.
+- Use New Zealand English.
+- Make the main flow understandable in 30 seconds.
+- Keep text concise and suitable for printing.
+- Do not use screenshots.
+- Do not show Progressions as a separate application status or sixth lifecycle stage.
+
+Core concept:
+
+Progressions happen inside the application’s “In Progress” stage.
+
+Show the broader application lifecycle as a faint background or top-level context:
+
+INVITED → IN PROGRESS → OFFERED → ACCEPTED → COMPLETED
+
+Highlight IN PROGRESS as the main enlarged section. Inside it, show this interaction:
+
+APPLICANT ANSWERS QUESTIONS
+        ↓
+PICMI EVALUATES CONFIGURED RULES
+        ↓
+CONTINUE / REVIEW / UNABLE TO PROCEED
+
+Use three clearly separated outcome cards.
+
+1. CONTINUE
+
+Heading:
+“Continue”
+
+Short explanation:
+“The applicant meets the configured criteria and the workflow continues automatically.”
+
+Show the flow:
+
+Applicant answers → Criteria met → Workflow continues → Offer when complete
+
+Use a green accent and an automatic-forward arrow.
+
+2. REVIEW
+
+Heading:
+“Review”
+
+Short explanation:
+“The applicant otherwise meets the requirements, but one or more answers need human judgement or verification.”
+
+Show a business interaction loop:
+
+Applicant answers
+        ↓
+Review required
+        ↓
+Business reviews exception
+        ↓
+Business accepts → Workflow continues → Offer when complete
+Business does not approve → Business cancels/stops application
+
+Keep the application in “In Progress” while review is pending.
+
+Show that the applicant may continue only after the review is resolved. Use an amber accent, not a red error treatment.
+
+Include example review triggers:
+- Experience needs confirmation.
+- Licence or qualification needs verification.
+- An exception needs business judgement.
+
+3. UNABLE TO PROCEED
+
+Heading:
+“Unable to Proceed”
+
+Short explanation:
+“The applicant does not meet a mandatory criterion for this opportunity.”
+
+Show the correction loop:
+
+Unable to proceed result
+        ↓
+Applicant sees a clear explanation
+        ↓
+Applicant corrects answer if it was entered incorrectly
+        ↓
+Rule is evaluated again
+
+If the answer remains unchanged, show two possible exits:
+
+Business cancels
+OR
+Applicant declines/stops
+
+Use a red or muted warning accent, while keeping the language respectful and non-judgemental.
+
+Include an example message:
+
+“Based on this answer, you are unable to proceed with this opportunity. If the answer is incorrect, you can go back and change it.”
+
+Add a small side panel titled:
+
+“Who does what?”
+
+Applicant:
+- Answers workflow questions.
+- Provides required information or documents.
+- Corrects an answer when appropriate.
+- Accepts, declines, or stops the application.
+
+PICMI:
+- Evaluates configured answer rules.
+- Produces Continue, Review, or Unable to Proceed.
+- Shows clear messages to the applicant.
+- Records the answer that triggered the outcome.
+
+Business:
+- Configures progression rules.
+- Reviews exceptions.
+- Accepts or stops applications where business judgement is required.
+- Communicates status and next steps.
+
+Add a distinction panel titled:
+
+“Do not confuse these concepts”
+
+Use a three-row comparison:
+
+Application status:
+Where the applicant is in the broad lifecycle, such as In Progress, Offered, or Accepted.
+
+Progression outcome:
+What the workflow answers mean: Continue, Review, or Unable to Proceed.
+
+Business action:
+What the business can do at the current status, such as Review, Cancel, Reissue, Complete, or Terminate.
+
+Add a communication strip beneath the main flow:
+
+STATUS OR PROGRESSION RESULT
+        ↓
+OPTIONAL MESSAGE
+        ↓
+APPLICANT AND BUSINESS UNDERSTAND WHAT HAPPENS NEXT
+        ↓
+NOTIFICATION MAY BE SENT
+
+Explain that:
+- Shared messages are visible to the applicant and may generate notifications.
+- Internal messages are visible only to the business.
+- A Review outcome is different from Workflow Builder Review mode, which audits workflow contents.
+
+Add a final callout at the bottom:
+
+“Progressions decide whether the workflow can continue. They do not replace application statuses, required-field validation, visibility rules, interview scheduling, or the full application lifecycle.”
+
+Design requirements:
+- Make the applicant-to-business interaction visually obvious.
+- Use two labelled lanes where practical: APPLICANT and BUSINESS.
+- Use arrows to show automatic movement versus human decision-making.
+- Make Continue feel smooth and automatic.
+- Make Review feel like a temporary human decision loop.
+- Make Unable to Proceed feel clear, respectful, and correctable.
+- Ensure the main message is immediately clear: Progressions guide what happens inside In Progress.
