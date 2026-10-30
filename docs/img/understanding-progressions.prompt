@@ -81,14 +81,27 @@ Applicant answers
         ↓
 Review required
         ↓
-Business reviews exception
+Review consent required
+        ↓
+Applicant requests review
+        ↓
+Business reviews answer
         ↓
 Business accepts → Workflow continues → Offer when complete
-Business does not approve → Business cancels/stops application
+Business declines → Business cancels/stops application
 
 Keep the application in “In Progress” while review is pending.
 
 Show that the applicant may continue only after the review is resolved. Use an amber accent, not a red error treatment.
+
+Include the pending-consent state shown to the business:
+
+“Review consent required. The applicant has not yet requested a review.”
+
+Explain that this means the applicant has provided an answer that requires review, so the business can see that a review
+is needed, but the applicant has not yet consented to share that answer for review. The business cannot make the final
+Accept or Decline decision until the applicant requests the review. Once consent is provided, the business can review the
+answer and choose Accept or Decline.
 
 Include example review triggers:
 - Experience needs confirmation.
