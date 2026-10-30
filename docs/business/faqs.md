@@ -145,6 +145,12 @@ See [searching for people and their application](article/searching-for-people.md
 [application statuses](about-picmi/applications.md#application-status).
 ::::
 
+::: faq What subject line should a jobseeker look for in a PICMI invite email?
+Job invitations have a subject like `[business name] has a job waiting for you at PICMI!`. Ask the jobseeker to search
+their email for `PICMI` or `waiting`. The email is usually sent from `hello@picmi.io`. If they still cannot find it,
+see [finding emails](../email-not-found).
+:::
+
 :::: faq If I send the same invite more than once, will the person get more than one contract to sign?
 No. Sending an invite again for the same person and job reuses the existing application, so it does not create a
 second application or contract. If the application is still **Invited**, PICMI sends the invitation notification
@@ -241,7 +247,10 @@ An application cannot be moved to another email address—this is helpful to det
 The main problem is that emails do get filtered in JUNK folders and are hard to find. Sending them again won't help the
 person
 find their email. We don't recommend to cancel and then reissue as it does not help.
-See [finding emails](../email-not-found) for instructions
+The person can still access the application by signing in with the same email address you used for the invite. They can
+request a one-time code or reset and save a new password, then select the application from their list to continue. See
+[sign-in instructions](../jobseeker/article/sign-in.md#if-you-cannot-find-your-invite-email) and [finding emails](../email-not-found)
+for instructions.
 
 ::: prompt
 [Bounced emails are NOT delivered](#what-can-i-do-when-the-invite-has-delivery-status-notification-failure) but are

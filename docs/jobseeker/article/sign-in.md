@@ -1,5 +1,8 @@
 # Signing in as a Jobseeker
 
+Business users can share the [jobseeker sign-in visual explainer](/business/about-picmi/picmi-at-a-glance.md#jobseeker-sign-in)
+when someone needs help understanding the available ways to access an application.
+
 ## How to Sign In
 
 As a jobseeker, you can sign in to PICMI in multiple ways:
@@ -57,3 +60,16 @@ If you do not have an email address, continue using the provisional access detai
 - **Try passwordless sign-in** using your email address.
 - **Ensure you are using the correct email address** associated with your PICMI account.
 - **Reset your password** if necessary.
+
+## If You Cannot Find Your Invite Email
+
+An invite email is not the only way to access your application. You can always sign in using the same email address
+that the business used to invite you:
+
+1. Go to the [PICMI sign-in page](https://jobs.picmi.io/#/signin).
+2. Enter the email address the business used for your invite.
+3. Use the one-time code sent to that email address, or select **Forgot Password?** to reset your password and save a
+   new one.
+4. After signing in, select the relevant application from your list to continue.
+
+If you cannot find the code either, see [Email not found in inbox](../../email-not-found.md).

@@ -134,11 +134,24 @@ access methods inside them, and finally the workflow structure that makes the ex
       <a :href="workflowDesignHierarchy" target="_blank" rel="noreferrer"><img :src="workflowDesignHierarchy" alt="Workflow design hierarchy"></a>
     </div>
   </details>
+
+  <details id="jobseeker-sign-in" class="one-pager-card one-pager-card--wide">
+    <summary>
+      <span class="one-pager-card__preview"><img :src="jobseekerSignIn" alt="How jobseekers get back into PICMI preview"></span>
+      <span class="one-pager-card__body"><h2>How jobseekers get back into PICMI</h2><small>How jobseekers use their email address, a code or password to sign in and continue an application.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+    </summary>
+    <div class="one-pager-card__detail">
+      <div class="one-pager-card__toolbar"><strong>How jobseekers get back into PICMI</strong><span class="one-pager-card__downloads"><a :href="jobseekerSignIn" download>Download PNG</a><a :href="jobseekerSignIn" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="jobseekerSignIn" target="_blank" rel="noreferrer"><img :src="jobseekerSignIn" alt="How jobseekers get back into PICMI"></a>
+      <p>For detailed instructions, see <a href="/jobseeker/article/sign-in">Signing in as a jobseeker</a>. For help when an invite email cannot be found, see <a href="/email-not-found">Email not found in inbox</a>.</p>
+    </div>
+  </details>
 </div>
 
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted } from 'vue'
 import engagingOrganisations from '../../img/engaging-organisations.png'
+import jobseekerSignIn from '../../img/jobseeker-sign-in.png'
 import managingApplications from '../../img/managing-applications.png'
 import provisionalUsers from '../../img/provisional-users.png'
 import recruitingPeople from '../../img/recruiting-people.png'

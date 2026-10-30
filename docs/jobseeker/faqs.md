@@ -73,9 +73,17 @@ If you're having trouble signing in, first make sure you're using the correct em
 :::
 
 ::: faq I can't find emails from PICMI, what to do?
-Rarely is the email NOT delivered, but it isn't always to your inbox because we send emails from a service provider rather than from a person. See [finding emails](../email-not-found)
+An invite email is not the only way to access your application. Sign in using the same email address the business used
+for the invite, use the one-time code sent to that address, or reset and save a new password. After signing in, select
+the relevant application from your list to continue. See [sign-in instructions](article/sign-in.md#if-you-cannot-find-your-invite-email)
+or [finding emails](../email-not-found).
 :::
 
+::: faq What is the subject line of a PICMI invite email?
+Job invitations have a subject like `[business name] has a job waiting for you at PICMI!`. Search your email for
+`PICMI` or `waiting`. The email is usually sent from `hello@picmi.io`. If you still cannot find it, see [finding
+emails](../email-not-found).
+:::
 
 ::: faq I get the error 'Business cannot apply for a job', what to do?
 See [Error: Business user cannot apply for a job](article/business-user-cannot-apply-for-job.md)

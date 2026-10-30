@@ -38,6 +38,13 @@ These instructions are for AI coding agents working in this repository.
 - Prefer text instructions and inline icon references over screenshots. The site intentionally avoids image-heavy UI instructions.
 - If adding a new page that should be discoverable, update the appropriate sidebar file in `docs/.vitepress/`.
 - Use absolute VitePress links in sidebars, such as `/business/article/search`.
+- When adding a one-page explainer to `docs/business/about-picmi/picmi-at-a-glance.md`, complete the full registration:
+  add the PNG under `docs/img/`, import it in the page's `<script setup>`, add a card with a unique hash id and
+  descriptive alt text, add the same id and label to `components/OnePagerOutline.vue` so it appears in the right-hand
+  one-page explainers navigation, add the detailed-page and email-help cross-references, and run `yarn docs:build`.
+  Keep the ordering hierarchy consistent: the card order in `picmi-at-a-glance.md` is the primary visual order, the
+  array order in `OnePagerOutline.vue` must match it, and only actual help pages belong in `sidebarBusiness.ts`.
+  Add a new explainer at the bottom of both orders unless the user explicitly requests a different position.
 - Use relative links inside markdown pages, matching the local style of nearby pages.
 
 ## Code Rules

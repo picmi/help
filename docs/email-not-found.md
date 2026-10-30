@@ -6,6 +6,20 @@ When PICMI sends emails through a service like AWS, there are a few reasons why 
 Provisional users do not receive emails!
 :::
 
+## You Can Still Sign In Without the Invite Email
+
+An invite email is not the only way to access an application. If a business has invited you, you can always sign in
+using the same email address the business used for the invite.
+
+1. Go to the [PICMI sign-in page](https://jobs.picmi.io/#/signin).
+2. Enter the email address used for the invite.
+3. Use the one-time code sent to that email address, or select **Forgot Password?** to reset your password and save a
+   new one.
+4. Select the relevant application from your list to continue.
+
+See [Signing in as a jobseeker](jobseeker/article/sign-in.md#if-you-cannot-find-your-invite-email) for more sign-in
+options.
+
 :::: explanation
 ## How to Find an Email You Can't See in Your Inbox
 
