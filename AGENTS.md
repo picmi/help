@@ -47,6 +47,35 @@ These instructions are for AI coding agents working in this repository.
   Add a new explainer at the bottom of both orders unless the user explicitly requests a different position.
 - Use relative links inside markdown pages, matching the local style of nearby pages.
 
+## Image Prompt Authoring Rules
+
+These rules apply when creating or updating the authoring prompts under `docs/img/*.prompt`. They describe how an agent
+should write the prompt; they are separate from instructions for running the prompt to generate an image.
+
+- Treat every image prompt as a standalone generation brief. Include the subject, audience, objective, required content,
+  visual structure, accuracy constraints, and expected output in the same file. Do not assume the image agent can read
+  another prompt, documentation file, earlier conversation, or reference infographic.
+- Inspect the sibling prompts before making changes and keep their shared visual language aligned. Repeat the essential
+  shared guidance in each standalone prompt rather than referring to a shared prompt.
+- For infographic prompts, use a consistent baseline: polished one-page portrait layout, white background, PICMI green
+  accents, soft neutral panels, rounded cards, simple consistent icons, clear connecting arrows, generous spacing,
+  accessible contrast, concise copy, and New Zealand English. Adapt the information architecture to the subject; do not
+  force every infographic into the same diagram or layout.
+- State the intended audience and the main takeaway explicitly. Prefer a clear reading order and content that can be
+  understood quickly, while retaining enough detail to make the infographic useful as a reference.
+- Keep the facts and labels grounded in the prompt or verified repository content. Do not invent product behaviour,
+  UI, statuses, settings, integrations, examples, personal data, or capabilities. Use qualified wording when behaviour
+  is uncertain.
+- Do not instruct the image agent to rely on unspecified supplied documentation or reference images. If a reference is
+  necessary, describe the relevant visual or factual requirements in the prompt itself.
+- Do not include a PICMI logo, wordmark, placeholder, or logo-like mark unless the exact official PICMI logo asset is
+  explicitly supplied for that generation. Never redraw, approximate, stylise, or invent the logo. If the official asset
+  is not supplied, instruct the image agent to omit it entirely.
+- Avoid screenshots and dense UI reproductions unless the user specifically requests them. Prefer text, simple diagrams,
+  cards, arrows, and inline icon concepts that are resilient to product UI changes.
+- Preserve useful subject-specific sections when normalising style. Make the smallest scoped edit needed, keep prose
+  readable and line-wrapped like nearby prompts, and use `git diff --check` after editing.
+
 ## Code Rules
 
 - Keep markdown-it plugin changes small and compatible with existing container syntax.

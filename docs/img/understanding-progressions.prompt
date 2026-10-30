@@ -1,3 +1,18 @@
+# Design Prompt: Progressions in PICMI
+
+## Shared generation rules
+
+Treat this prompt as complete and standalone. Do not rely on other prompts, files, reference images or hidden context.
+
+Use a polished, one-page portrait infographic with a white background, PICMI green as the primary accent, soft neutral
+panels, rounded cards, simple consistent line icons, clear connecting arrows, generous spacing and accessible contrast.
+Use New Zealand English and concise copy that can be understood in about 30 seconds. Keep the visual hierarchy clear at
+Help Centre article width and make the infographic suitable for printing.
+
+Do not include a PICMI logo, wordmark or logo-like mark unless the exact official PICMI logo asset is explicitly provided
+for this generation. Never draw, recreate, approximate or invent a PICMI logo. If the official asset is not provided,
+omit the logo entirely.
+
 Create a professional one-page infographic for the PICMI Help Centre titled:
 
 “Progressions in PICMI”
@@ -12,8 +27,7 @@ Audience:
 Business users who configure workflows and manage applications.
 
 Format and style:
-- Portrait A4 layout.
-- Clean PICMI visual style: white background, green primary accents, soft neutral panels, rounded cards, clear connecting arrows.
+- Portrait A4 layout using the shared generation rules above.
 - Use simple icons for applicant, workflow, business review, offer, and completion.
 - Use New Zealand English.
 - Make the main flow understandable in 30 seconds.

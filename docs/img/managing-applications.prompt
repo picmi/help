@@ -1,5 +1,18 @@
 # Design Prompt: PICMI — Managing Applications Through Their Lifecycle
 
+## Shared generation rules
+
+Treat this prompt as complete and standalone. Do not rely on other prompts, files, reference images or hidden context.
+
+Use a polished, one-page portrait infographic with a white background, PICMI green as the primary accent, soft neutral
+panels, rounded cards, simple consistent line icons, clear connecting arrows, generous spacing and accessible contrast.
+Use New Zealand English and concise copy that can be understood in about 30 seconds. Keep the visual hierarchy clear at
+Help Centre article width and make the infographic suitable for printing.
+
+Do not include a PICMI logo, wordmark or logo-like mark unless the exact official PICMI logo asset is explicitly provided
+for this generation. Never draw, recreate, approximate or invent a PICMI logo. If the official asset is not provided,
+omit the logo entirely.
+
 ## Objective
 
 Create a professional, visually engaging **one-page infographic** titled:
@@ -14,15 +27,13 @@ The infographic should give PICMI business administrators a clear mental model f
 invitation through completion. It should explain the normal progression, the actions available at each stage, the
 ways an application can leave the main path, and the tools businesses use to monitor and communicate progress.
 
-Use the supplied PICMI documentation as the authoritative source. This should be a practical visual reference, not a
-full procedural guide.
+Use only the facts, labels and constraints stated in this prompt. This should be a practical visual reference, not a full
+procedural guide.
 
 ## Visual Style
 
-Follow the design language of the supplied PICMI infographics:
+Apply the shared generation rules above:
 
-- PICMI green branding and colour palette. Do not generate, redraw or approximate the PICMI logo. Omit the logo unless
-  the exact official logo asset from `www.picmi.io` is supplied for use.
 - White background with subtle green accents.
 - Rounded cards, connecting lines and clear iconography.
 - Strong visual hierarchy and generous spacing.

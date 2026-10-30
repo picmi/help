@@ -1,5 +1,18 @@
 # Design Prompt: PICMI — Creating, Using & Managing Provisional Users
 
+## Shared generation rules
+
+Treat this prompt as complete and standalone. Do not rely on other prompts, files, reference images or hidden context.
+
+Use a polished, one-page portrait infographic with a white background, PICMI green as the primary accent, soft neutral
+panels, rounded cards, simple consistent line icons, clear connecting arrows, generous spacing and accessible contrast.
+Use New Zealand English and concise copy that can be understood in about 30 seconds. Keep the visual hierarchy clear at
+Help Centre article width and make the infographic suitable for printing.
+
+Do not include a PICMI logo, wordmark or logo-like mark unless the exact official PICMI logo asset is explicitly provided
+for this generation. Never draw, recreate, approximate or invent a PICMI logo. If the official asset is not provided,
+omit the logo entirely.
+
 ## Objective
 
 Create a professional, visually engaging **one-page infographic** titled:
@@ -12,21 +25,19 @@ Subtitle:
 
 The infographic should explain the **complete operational lifecycle of provisional users**, from initial creation through to application completion, ongoing access management and eventual transition to email-based access.
 
-This is a practical companion to the existing **"Understanding PICMI Users"** infographic.
-
-The first infographic explains *what provisional users are*. This infographic explains **how businesses create, use and maintain them**.
+This prompt explains **how businesses create, use and maintain provisional users**. It is a practical process-oriented
+infographic, not a conceptual comparison.
 
 The intended audience is PICMI business administrators who need to understand the process without reading detailed procedural documentation.
 
-Use the supplied PICMI documentation as the authoritative source.
+Use only the facts, labels and constraints stated in this prompt. Do not invent functionality.
 
 ---
 
 ## Visual Style
 
-Follow the design language of the supplied PICMI infographics:
+Apply the shared generation rules above:
 
-- PICMI logo and green branding.
 - White background with subtle green accents.
 - Rounded cards, connecting lines and clear iconography.
 - Strong visual hierarchy.
@@ -343,7 +354,8 @@ Keep the answers brief and avoid technical implementation details.
 
 ### Primary visual: Horizontal lifecycle summary
 
-At the bottom, reproduce the style of the **"Simpler User Mental Model"** from the Workflow Design Hierarchy infographic.
+At the bottom, include a concise mental-model summary using the same cards, spacing and typography as the rest of this
+infographic.
 
 Show:
 
@@ -392,22 +404,12 @@ End with the statement:
 9. Do not imply provisional users have reduced application functionality.
 10. Clearly explain that access can expire or be revoked without implying the underlying application is deleted.
 11. Make the transition to email-based access visually prominent.
-12. Use the supplied documentation as the source of truth. Do not invent functionality.
+12. Use only the facts, labels and constraints stated in this prompt. Do not invent functionality.
 13. Ensure text is readable at normal A4 size.
-
-### Reference Material
-
-Use the following supplied documents:
-
-- **provisional-user.md** — creating, importing, accessing and managing provisional users.
-- **provisional-user-with-shared-email.md** — shared email and assisted application scenarios.
-- **Provisional-User-Credentials-Template.docx** — applicant sign-in instructions.
-- **Understanding PICMI Users** — conceptual comparison and visual style.
-- **Workflow Design Hierarchy** — overall design language and visual hierarchy.
 
 ### Expected Output
 
-A polished PICMI-branded infographic suitable for:
+A polished PICMI-styled infographic suitable for:
 
 - PICMI Help Centre documentation.
 - Customer onboarding.

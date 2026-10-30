@@ -1,6 +1,19 @@
 # Design Prompt: PICMI User Access — Provisional vs Email-Based Users
 
-### Objective
+## Shared generation rules
+
+Treat this prompt as complete and standalone. Do not rely on other prompts, files, reference images or hidden context.
+
+Use a polished, one-page portrait infographic with a white background, PICMI green as the primary accent, soft neutral
+panels, rounded cards, simple consistent line icons, clear connecting arrows, generous spacing and accessible contrast.
+Use New Zealand English and concise copy that can be understood in about 30 seconds. Keep the visual hierarchy clear at
+Help Centre article width and make the infographic suitable for printing.
+
+Do not include a PICMI logo, wordmark or logo-like mark unless the exact official PICMI logo asset is explicitly provided
+for this generation. Never draw, recreate, approximate or invent a PICMI logo. If the official asset is not provided,
+omit the logo entirely.
+
+## Objective
 
 Create a professional, visually engaging **one-page infographic** titled:
 
@@ -14,11 +27,9 @@ The infographic should help PICMI business administrators understand provisional
 
 This is a **conceptual mental model**, not a step-by-step instruction manual.
 
-Use the supplied "Workflow Design Hierarchy" infographic as the visual design reference.
-
 ### Visual style
 
-- PICMI branding, logo and green colour palette.
+- PICMI green as the primary accent colour.
 - White background with subtle green accents.
 - Clear visual hierarchy and generous spacing.
 - Rounded containers, simple icons and connecting lines.
@@ -95,7 +106,7 @@ Use a compact comparison table with two columns, distinguishing email-based and 
 
 Use simple ticks, symbols and brief explanatory notes rather than excessive text.
 
-Where behaviour is not explicitly established in the source documentation, avoid making absolute claims.
+Where behaviour is not explicitly established in this prompt, avoid making absolute claims.
 
 **Key takeaway:**
 
@@ -224,7 +235,7 @@ Include a small note:
 
 ## Bottom Section — The Mental Model
 
-Reproduce the style of the "Simpler User Mental Model" section in the supplied workflow infographic.
+Use a concise mental-model summary with the same cards, spacing and typography as the rest of this infographic.
 
 Use a clear progression:
 
@@ -256,17 +267,9 @@ End with a concise statement:
 5. Clearly distinguish user access from application functionality.
 6. Make the provisional-to-email transition visually prominent.
 7. Do not imply provisional users are inherently temporary workers or have restricted application capabilities.
-8. Do not invent functionality not described in the supplied documentation.
+8. Do not invent functionality not described in this prompt.
 9. Where a capability is ambiguous, use qualified language rather than claiming it is supported or unsupported.
 10. Ensure all text is legible and accurately rendered.
 
-### Reference material
-
-Use these supplied documents as the authoritative sources:
-
-- `provisional-user.md` — provisional user creation, access methods, expiry, administration and transition.
-- `provisional-user-with-shared-email.md` — shared-email use cases and communication.
-- `Provisional-User-Credentials-Template.docx` — example applicant access instructions.
-- `workflow-design-hierarchy.png` — visual style, hierarchy and overall layout reference.
-
-**Output:** One polished, portrait-oriented infographic suitable for PICMI's Help Centre, product documentation and customer training.
+**Output:** One polished, portrait-oriented PICMI-styled infographic suitable for the Help Centre, product documentation
+and customer training.
