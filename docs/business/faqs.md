@@ -180,6 +180,20 @@ Need to learn about [application statuses](about-picmi/applications.md#applicati
 :::
 ::::
 
+:::: faq Can I send one invitation that lets someone choose between two jobs?
+Not at the moment. Each invitation creates an application for a specific job or role. That application is linked to
+the job's available positions, so PICMI can track how many people you are recruiting for each role.
+
+For now, you can either:
+
+* invite the person to both jobs and ask them to choose one. When they have chosen, [cancel the duplicate
+  application](article/changing-application-status); or
+* ask which job they prefer first, then invite them to that job.
+
+This means the person cannot choose between jobs within a single invitation. PICMI is aware that this would be a more
+straightforward process and is considering ways to support it while keeping recruitment numbers accurate.
+::::
+
 :::: faq Can I invite a jobseeker to a job if they already have an invite to a job?
 If the jobseeker has already accepted the invite to a job, you cannot invite them again as they have already accepted
 the application. see [application statuses](about-picmi/applications.md#application-status)
