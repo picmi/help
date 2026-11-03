@@ -41,6 +41,7 @@ for a short explanation of how opportunities, applications, agreements, and ongo
 
 ## Workflows
 
+- [Workflow Progression Explorer](workflows/workflow-progression-explorer.md)
 - [Managing duplicate questions](workflows/managing-duplicate-questions.md)
 - [Linked files](workflows/linked-files)
 - [Linked videos](workflows/linked-videos)

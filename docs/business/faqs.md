@@ -42,21 +42,28 @@ See our [guide on writing emails to help us diagnose the issue](../how-write-ema
 
 ::: faq Can a business user also apply for opportunities using the same email address?
 
-No. PICMI treats an account as either an **organisation/business user** or an **individual/participant user**. The same email address cannot normally be used to create a separate participant account if it already belongs to a business user.
+No. PICMI treats an account as either an **organisation/business user** or an **individual/participant user**. The same
+email address cannot normally be used to create a separate participant account if it already belongs to a business user.
 
 If an invitation is sent to an email address that PICMI identifies as a business user, it may show an error such as:
 
 `Cannot change user type to 'individual'. No worker found for user`
 
-This means PICMI found an existing business account for that email address and could not use it as an individual applicant. It does not necessarily mean the person is deliberately inviting themselves.
+This means PICMI found an existing business account for that email address and could not use it as an individual
+applicant. It does not necessarily mean the person is deliberately inviting themselves.
 
 Choose the option that matches the situation:
 
-* **The person is a genuine applicant:** invite an email address that is not already associated with their business account. If the organisation’s email system supports sub-aliases, an alias that delivers to the same inbox can be used as a separate PICMI participant account.
+* **The person is a genuine applicant:** invite an email address that is not already associated with their business
+  account. If the organisation’s email system supports sub-aliases, an alias that delivers to the same inbox can be used
+  as a separate PICMI participant account.
 
-* **You are testing the applicant experience:** [create a provisional user](article/provisional-user.md#add-a-single-user) and use the access details to test the application. This avoids reusing a business user account.
+* **You are testing the applicant
+  experience:** [create a provisional user](article/provisional-user.md#add-a-single-user) and use the access details to
+  test the application. This avoids reusing a business user account.
 
-* **The person has no suitable email address:** use a [provisional user](article/provisional-user.md). After creation, provide the applicant with the access details where applicable.
+* **The person has no suitable email address:** use a [provisional user](article/provisional-user.md). After creation,
+  provide the applicant with the access details where applicable.
 
 For the standard process, see [Sending invites](article/opportunity-send-invite.md).
 :::
@@ -82,7 +89,6 @@ The existing person and their applications remain associated with the same accou
 created again, and their previous application history is not lost.
 :::
 
-
 ::: faq Can the business still see the provisional user's old access details after conversion?
 Not necessarily. After the person switches to email-based access, the old provisional access details may no longer be
 shown as the person's current access information. If you need to retain those details for your records, note them
@@ -91,7 +97,8 @@ before the conversion.
 
 ::: faq Can I make an email question optional in a workflow?
 No. A regular **Email** question is always required in the question or workflow settings. The email
-address used for a participant's email-based account is different: it is required for email-based access. But the email can be changed in the profile.
+address used for a participant's email-based account is different: it is required for email-based access. But the email
+can be changed in the profile.
 :::
 
 ## Emails
@@ -135,7 +142,8 @@ shows people who have been invited but have not started the application. People 
 Progress** instead.
 
 This is an application status, not a read receipt for the email. If an email could not be delivered, PICMI reports a
-delivery failure; see [what to do when the invite has delivery status notification failure](#what-can-i-do-when-the-invite-has-delivery-status-notification-failure).
+delivery failure;
+see [what to do when the invite has delivery status notification failure](#what-can-i-do-when-the-invite-has-delivery-status-notification-failure).
 If the jobseeker cannot find the email, ask them to check their Junk folder; see [what to do when the person does not
 receive an invite email](#what-should-do-when-the-person-i-have-invited-doesnt-receive-an-email).
 You can also use **Customise Columns** in **People** to show the **Status Message**, which may include a known delivery
@@ -157,7 +165,8 @@ second application or contract. If the application is still **Invited**, PICMI s
 again. If the person has already started or progressed the application, PICMI keeps the existing status and does not
 send a new invitation.
 
-If the contract or agreement terms need to be reviewed again, use [Reissue](about-picmi/applications.md#reopen-and-reissue)
+If the contract or agreement terms need to be reviewed again,
+use [Reissue](about-picmi/applications.md#reopen-and-reissue)
 intentionally. Reissue is different from sending the same invite again and can return the application to the
 participant-facing agreement process.
 
@@ -263,7 +272,8 @@ person
 find their email. We don't recommend to cancel and then reissue as it does not help.
 The person can still access the application by signing in with the same email address you used for the invite. They can
 request a one-time code or reset and save a new password, then select the application from their list to continue. See
-[sign-in instructions](../jobseeker/article/sign-in.md#if-you-cannot-find-your-invite-email) and [finding emails](../email-not-found)
+[sign-in instructions](../jobseeker/article/sign-in.md#if-you-cannot-find-your-invite-email)
+and [finding emails](../email-not-found)
 for instructions.
 
 ::: prompt
@@ -272,7 +282,8 @@ notified and should be cancelled
 :::
 ::::
 
-:::: faq I cancelled an invite and tried to send it again, but PICMI says the person application is already completed. What should I do?
+:::: faq I cancelled an invite and tried to send it again, but PICMI says the person application is already completed.
+What should I do?
 An invite creates an application for that person against the job. Cancelling the invite changes the application status,
 but it does not remove the application. Because the application still exists, sending another invite to the same person
 for the same job is not the right action.
@@ -337,8 +348,8 @@ also see this):
 
 1. not able to **apply** because of the sign in problems (see [user account](about-picmi/understanding-users.md))
 2. not able to **apply** (or **proceed to accept**) because [opportunity controls](article/opportunity-controls)
-3. **in progress** and has not completed all the fields in the application (
-   see [check job configuration](article/checking-application-configuration))
+3. **in progress** and has not completed all the fields in the application
+   (see [check job configuration](article/checking-application-configuration))
 4. **in progress** and the contract page reports an error (also
    see [check job configuration](article/checking-application-configuration))
 5. in **offered** status but is unable to proceed to accept, instruct them to
@@ -458,8 +469,8 @@ staff member will need to accept it again for the updated rate to take effect.
 
 :::: faq I have a person who I terminated their contract who said they were unavailable to work, but now they are
 available and wish to work. Should I reissue their contract or reopen it?
-If you want to maintain the original contract then **reopen** back to accepted (
-and [add a status message](article/status-message.md) of the reason).
+If you want to maintain the original contract then **reopen** back to accepted
+(and [add a status message](article/status-message.md) of the reason).
 If some details need to be updated then **reissue** back to in-progress and request the changes as part of the status
 message.
 
@@ -512,8 +523,8 @@ When they open the new application, previously entered information will already 
 * [What is a status message?](article/status-message)
   :::
 
-::: explanation
-**Note:** If this happened due to a genuine mistake, you can contact PICMI support to request either a credit or that
+::: explanation **Note:** If this happened due to a genuine mistake, you can contact PICMI support to request either a
+credit or that
 the cancelled application is not charged.
 :::
 
@@ -709,12 +720,14 @@ details corresponds to **Opportunity Type Label** in the contract field list. Th
 **Description (Job)**.
 
 If the template does not contain one of these chips, the value is not added to the contract automatically. Check the
-template in [Insert fields](article/insert-fields-in-a-contract-template) and use [Navigate inserted](article/navigate-inserted-fields-in-a-contract-template)
+template in [Insert fields](article/insert-fields-in-a-contract-template) and
+use [Navigate inserted](article/navigate-inserted-fields-in-a-contract-template)
 to see which fields are already used.
 
 Keep fixed contract wording for information that applies across jobs, and use substitutions for information that
 changes. Do not repeat variable information as fixed wording in the template, because the two versions can be duplicated
-or contradict each other. In particular, avoid fixed dates or years when the date should come from the job or application.
+or contradict each other. In particular, avoid fixed dates or years when the date should come from the job or
+application.
 :::
 
 ::: faq What is the process when someone changes their role and their contract needs to be updated?
@@ -1205,7 +1218,8 @@ CSV reports include **Accepted** applications only. To include an application th
 3. Download the CSV report and confirm it was created successfully.
 4. Change the application back to **Completed** or **Terminated**.
 
-**Reopen** is an internal status change. It does not invalidate the existing agreement or require the participant to sign
+**Reopen** is an internal status change. It does not invalidate the existing agreement or require the participant to
+sign
 again. Use **Reissue** only when information or agreement terms need to be reviewed or accepted again.
 
 See [Download reports](integrations/download-reports.md#export-a-completed-or-terminated-application).
@@ -1291,6 +1305,15 @@ External ID and employee information) to our support team so we can investigate 
 :::
 
 ## Billing
+
+::: faq Why does an application still show as In Progress after a Business Declined progression review?
+A **Business Declined** progression review records the outcome of that review; it does not automatically change the
+application's overall status. The application can remain **In Progress** while it is still active. If the business
+wants to end the application, it must [cancel it](article/changing-application-status).
+
+See [Understanding Progressions](about-picmi/understanding-progressions#progression-outcomes) for how progression
+outcomes differ from application statuses.
+:::
 
 ::: faq What should I do if I mistakenly send an application to the wrong person (or the wrong application to someone),
 and they accept it?

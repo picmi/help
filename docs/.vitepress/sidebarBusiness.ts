@@ -215,6 +215,7 @@ export function sidebarBusiness() {
                 { text: 'Previewing workflows', link: '/business/workflows/previewing-workflows' },
                 { text: 'Updating workflows', link: '/business/workflows/updating-workflows' },
                 { text: 'Progressions', link: '/business/about-picmi/understanding-progressions' },
+                { text: 'Workflow Progression Explorer', link: '/business/workflows/workflow-progression-explorer' },
                 { text: 'Adding questions', link: '/business/workflows/questions' },
                 { text: 'Choosing the right question type', link: '/business/workflows/question-types' },
                 { text: 'File, finance, and table questions', link: '/business/workflows/question-profiles' },

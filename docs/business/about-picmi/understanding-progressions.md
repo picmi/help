@@ -42,6 +42,12 @@ withdrawn)
 
 Progressions only determine whether the workflow can continue automatically.
 
+A **Business Declined** progression review records the outcome of a review. It does not automatically change the
+application's overall status. For example, an application can remain **In Progress** while the business decides what to
+do next. If the business wants to end the application, it must [cancel the application](../article/changing-application-status).
+Keeping cancellation separate allows the business to manage status messages and applications with more than one item
+requiring review.
+
 :::: explanation
 
 ## Continue
