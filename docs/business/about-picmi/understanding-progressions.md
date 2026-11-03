@@ -301,25 +301,6 @@ Use respectful, clear, and transparent language in all cases.
 - reduced uncertainty
 - less repeated information gathering
 
-### Frequently asked questions
+## Troubleshooting
 
-::: faq Do all questions need to be answered before requesting review?
-No. A jobseeker can request review after answering one question that triggers review, even if other questions with
-progression rules are unanswered. Unanswered questions are not treated as completed or reviewed.
-:::
-
-::: faq Is completing the first page mandatory?
-No. Jobseekers can request review without completing the first page. First-page progression checks provide guidance and
-are not enforced.
-:::
-
-::: faq Why does PICMI recommend completing the first page first?
-Completing all questions on the first page gives the business a fuller picture of the application when it reviews it.
-This is guidance to help the review, not a condition for requesting one.
-:::
-
-::: faq What should a business do if jobseekers repeatedly request reviews too early?
-Add clear instructions to the workflow explaining why jobseekers should complete more questions before requesting
-review. If this remains a business problem, contact PICMI with the workflow details and the number of people affected.
-PICMI can investigate and consider possible solutions.
-:::
+- [Workflow progression FAQs](../faqs.md#workflow-progressions)

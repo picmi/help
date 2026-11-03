@@ -929,6 +929,38 @@ Intake End Date: 31 August
 This can be used for seasonal recruitment, service periods, or programme windows.
 :::
 
+### Workflow progressions
+
+::: faq Why does an application still show as In Progress after a Business Declined progression review?
+A **Business Declined** progression review records the outcome of that review; it does not automatically change the
+application's overall status. The application can remain **In Progress** while it is still active. If the business
+wants to end the application, it must [cancel it](article/changing-application-status).
+
+See [Understanding Progressions](about-picmi/understanding-progressions#progression-outcomes) for how progression
+outcomes differ from application statuses.
+:::
+
+::: faq Do all questions need to be answered before requesting review?
+No. A jobseeker can request review after answering one question that triggers review, even if other questions with
+progression rules are unanswered. Unanswered questions are not treated as completed or reviewed.
+:::
+
+::: faq Is completing the first page mandatory?
+No. Jobseekers can request review without completing the first page. First-page progression checks provide guidance and
+are not enforced.
+:::
+
+::: faq Why does PICMI recommend completing the first page first?
+Completing all questions on the first page gives the business a fuller picture of the application when it reviews it.
+This is guidance to help the review, not a condition for requesting one.
+:::
+
+::: faq What should a business do if jobseekers repeatedly request reviews too early?
+Add clear instructions to the workflow explaining why jobseekers should complete more questions before requesting
+review. If this remains a business problem, contact PICMI with the workflow details and the number of people affected.
+PICMI can investigate and consider possible solutions.
+:::
+
 ## Changing Jobs, Roles, Contracts, and Applications
 
 ::: faq Can I send invites for a new role while people are still working in their current role?
@@ -1305,15 +1337,6 @@ External ID and employee information) to our support team so we can investigate 
 :::
 
 ## Billing
-
-::: faq Why does an application still show as In Progress after a Business Declined progression review?
-A **Business Declined** progression review records the outcome of that review; it does not automatically change the
-application's overall status. The application can remain **In Progress** while it is still active. If the business
-wants to end the application, it must [cancel it](article/changing-application-status).
-
-See [Understanding Progressions](about-picmi/understanding-progressions#progression-outcomes) for how progression
-outcomes differ from application statuses.
-:::
 
 ::: faq What should I do if I mistakenly send an application to the wrong person (or the wrong application to someone),
 and they accept it?
