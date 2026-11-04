@@ -9,13 +9,14 @@ to your business. For information about billing, issued invoices, and historical
 [billing guide](../about-picmi/billing.md).
 
 :::: instructions
+
 ## Open the Invoices page
 
 1. Goto Profile :::icon account-circle-outline::: > Invoices
 2. Use the filters to find accepted applications:
-   * **Organisation**: you may belong to multiple organisations
-   * **Dates**: expand the search beyond the current invoice period
-   * click Apply to each after selection to search
+    * **Organisation**: you may belong to multiple organisations
+    * **Dates**: expand the search beyond the current invoice period
+    * click Apply to each after selection to search
 3. Locate the applications of interest
 
 When you open the current invoice view, PICMI uses the current month as the default invoice period. The selected period
@@ -28,6 +29,7 @@ invoice search area to choose the organisations included in the report.
 :::
 
 ::::
+
 ## Filter invoice results
 
 Use the invoice search area to choose the organisations and dates included in the report.
@@ -45,38 +47,77 @@ If the figures look different from what you expected, check the selected date ra
 
 The summary cards show a quick count of the accepted applications found for the selected period.
 
-| **Card**              | **What it means**                                                                                                                                                                                                                          |
-|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Billable**          | The number of accepted applications in the selected period that are considered billable. An application is billable when its first acceptance occurred within the selected invoice period.                                                 |
-| **Non-billable**      | The number of accepted applications in the selected period that are not considered billable. This usually means the application had already been accepted before the selected period and was accepted or reissued again during the period. |
-| **Accepted total**    | The total number of accepted applications found for the selected period. This equals **Billable** plus **Non-billable**.                                                                                                                   |
-| **First accepts**     | The number of applications that have been accepted once. These are generally first-time accepted applications.                                                                                                                             |
-| **Single reissue**    | The number of applications that have been accepted twice. This indicates one reissue or second acceptance for the same application.                                                                                                        |
-| **Multiple reissues** | The number of applications that have been accepted more than twice. This indicates repeated reissues or acceptances for the same application.                                                                                              |
+The report includes each employment application with a genuine transition into **Accepted** during the selected period,
+using the organisation's time zone. Each application appears once. Archiving or restoring an application does not count
+as another acceptance.
+
+| **Card**              | **What it means**                                                                                                                                                                        |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Billable**          | Applications with exactly one genuine acceptance in their complete history. Because the report includes applications accepted in the selected period, this acceptance is in that period. |
+| **Non-billable**      | Applications with more than one genuine acceptance. Reissued applications are not billable, even if an acceptance occurred in the selected period.                                       |
+| **Accepted total**    | The total number of application rows returned for the period. This equals **First accepts** plus **Single reissue** plus **Multiple reissues**.                                          |
+| **First accepts**     | Applications with exactly one genuine acceptance in their complete history.                                                                                                              |
+| **Single reissue**    | Applications with exactly two genuine acceptances in their complete history.                                                                                                             |
+| **Multiple reissues** | Applications with three or more genuine acceptances in their complete history.                                                                                                           |
 
 ## Understand the invoice table
 
 The invoice table shows the individual accepted application records behind the summary cards. You can sort the table by
 its columns to review the results by worker, organisation, job, acceptance date, accepted count, or billable status.
 
-| **Column**         | **What it means**                                                                                                                                                                                                      |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Name**           | The worker or applicant's name.                                                                                                                                                                                        |
-| **Email**          | The worker or applicant's email address.                                                                                                                                                                               |
-| **Organisation**   | The organisation connected to the accepted application (useful if only multiple organisations)                                                                                                                         |
-| **Job title**      | The job or opportunity title for the application.                                                                                                                                                                      |
-| **Last accepted**  | The most recent date the application was accepted.                                                                                                                                                                     |
-| **Accepted times** | The number of times this application has reached the accepted state. A value of **1** means a first accept, **2** means a single reissue, and a value greater than **2** means multiple reissues.                      |
-| **Billable**       | Shows **Yes** when the application is billable for the selected period. Shows **No** when the application appears in the period but is not billable, usually because it was first accepted before the selected period. |
+| **Column**         | **What it means**                                                                                                                                                                                                               |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name**           | The worker or applicant's name.                                                                                                                                                                                                 |
+| **Email**          | The worker or applicant's email address.                                                                                                                                                                                        |
+| **Organisation**   | The organisation connected to the accepted application (useful if only multiple organisations)                                                                                                                                  |
+| **Job title**      | The job or opportunity title for the application.                                                                                                                                                                               |
+| **Last accepted**  | The most recent date the application was accepted.                                                                                                                                                                              |
+| **Accepted times** | The number of genuine transitions into **Accepted** in the application's complete history. A value of **1** means accepted once, **2** means accepted twice, and a value greater than **2** means accepted three or more times. |
+| **Billable**       | Shows **Yes** when the application has exactly one genuine acceptance in its complete history. Shows **No** when it has been accepted more than once.                                                                           |
 
-## Why an item may be non-billable
+## Worked examples
 
-An accepted application may appear as non-billable when it was first accepted before the selected invoice period, then
-accepted or reissued again during the selected period.
+Each row below represents one application in the report. The report includes it because at least one genuine acceptance
+occurred during the selected period. Acceptance history is counted across the application's complete history, including
+acceptances before the selected period.
 
-For example, if an application was first accepted during July, it appears as billable in a July invoice report. If the
-same application was already accepted in June and accepted again in July, it can appear in the July report as
-non-billable because it was not first accepted in July.
+| Application history                                        | Acceptance-history category                      | Accepted times | Billable? |
+|------------------------------------------------------------|--------------------------------------------------|----------------|-----------|
+| Accepted                                                   | First accepts (accepted once)                    | 1              | Yes       |
+| Accepted → In progress → Accepted                          | Single reissue (accepted twice)                  | 2              | No        |
+| Accepted last month → In progress → Accepted this month    | Single reissue (accepted twice)                  | 2              | No        |
+| Accepted → In progress → Accepted → In progress → Accepted | Multiple reissues (accepted three or more times) | 3              | No        |
+
+The second and third examples have the same classification: each application has two genuine acceptances. It does not
+matter whether both happened in the selected period or the first happened earlier. A reissue is not billable.
+
+### How the totals reconcile
+
+The report shows two classifications of the same applications. Do not add the billing cards to the acceptance-history
+cards. Within the acceptance-history classification, **Accepted total** equals **First accepts** plus **Single reissue**
+plus **Multiple reissues**. Within the billing classification, **Billable** equals **First accepts**, and
+**Non-billable** equals **Single reissue** plus **Multiple reissues**.
+
+For example:
+
+| Acceptance-history card | Applications |
+|-------------------------|--------------|
+| Accepted total          | 1,366        |
+| First accepts           | 1,286        |
+| Single reissue          | 62           |
+| Multiple reissues       | 18           |
+
+These acceptance-history figures produce the billing totals:
+
+| Billing card | Calculation                                  | Applications |
+|--------------|----------------------------------------------|--------------|
+| Billable     | First accepts                                | 1,286        |
+| Non-billable | Single reissue + Multiple reissues (62 + 18) | 80           |
+| Total        | Billable + Non-billable                      | 1,366        |
+
+An earlier calculation could show 1,304 billable and 62 non-billable because it allowed an application to remain
+billable after a reissue. The corrected calculation counts every application with more than one genuine acceptance as
+non-billable.
 
 ## Troubleshooting no results
 
