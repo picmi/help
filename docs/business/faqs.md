@@ -929,7 +929,7 @@ Intake End Date: 31 August
 This can be used for seasonal recruitment, service periods, or programme windows.
 :::
 
-### Workflow progressions
+## Workflow progressions
 
 ::: faq Do all questions need to be answered before requesting review?
 No. A jobseeker can request review after answering one question that triggers review, even if other questions with
