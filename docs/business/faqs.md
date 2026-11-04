@@ -931,15 +931,6 @@ This can be used for seasonal recruitment, service periods, or programme windows
 
 ### Workflow progressions
 
-::: faq Why does an application still show as In Progress after a Business Declined progression review?
-A **Business Declined** progression review records the outcome of that review; it does not automatically change the
-application's overall status. The application can remain **In Progress** while it is still active. If the business
-wants to end the application, it must [cancel it](article/changing-application-status).
-
-See [Understanding Progressions](about-picmi/understanding-progressions#progression-outcomes) for how progression
-outcomes differ from application statuses.
-:::
-
 ::: faq Do all questions need to be answered before requesting review?
 No. A jobseeker can request review after answering one question that triggers review, even if other questions with
 progression rules are unanswered. Unanswered questions are not treated as completed or reviewed.
@@ -959,6 +950,15 @@ This is guidance to help the review, not a condition for requesting one.
 Add clear instructions to the workflow explaining why jobseekers should complete more questions before requesting
 review. If this remains a business problem, contact PICMI with the workflow details and the number of people affected.
 PICMI can investigate and consider possible solutions.
+:::
+
+::: faq Why does an application still show as In Progress after a Business Declined progression review?
+A **Business Declined** progression review records the outcome of that review; it does not automatically change the
+application's overall status. The application can remain **In Progress** while it is still active. If the business
+wants to end the application, it must [cancel it](article/changing-application-status).
+
+See [Understanding Progressions](about-picmi/understanding-progressions#progression-outcomes) for how progression
+outcomes differ from application statuses.
 :::
 
 ## Changing Jobs, Roles, Contracts, and Applications
