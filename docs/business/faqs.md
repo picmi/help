@@ -961,6 +961,7 @@ See [Understanding Progressions](about-picmi/understanding-progressions#progress
 outcomes differ from application statuses.
 :::
 
+
 ## Changing Jobs, Roles, Contracts, and Applications
 
 ::: faq Can I send invites for a new role while people are still working in their current role?
