@@ -322,6 +322,23 @@ by one until the person is ready to apply.
 
 ## Applications
 
+::: faq Can a business see an applicant's answers or uploaded documents before the application is accepted?
+Generally, no. Before acceptance, a business can see which questions the applicant has answered, but cannot see the
+answer details or uploaded files. The exception is an answer with a **Review** rule set in
+[Progressions](about-picmi/understanding-progressions.md); the applicant has consented to that answer being available
+for review. At acceptance, the applicant explicitly consents to their answers being available to the business. After
+acceptance, view answers and files in **People** > the application > **Contract and details**. See
+[Contract and personal details](article/contract-and-personal-details.md).
+:::
+
+::: faq Where can a business view an accepted applicant's answers and uploaded files?
+Go to **People**, open the application row's menu, and select **Contract and details**. Answers are under **Personal
+Details** and uploaded documents are under **Personal Files**. These details are available after the applicant accepts.
+Before acceptance, the business sees question progress but not answer details or files, except for an answer with a
+**Review** rule in [Progressions](about-picmi/understanding-progressions.md), which the applicant has consented to share
+for review. See [Contract and personal details](article/contract-and-personal-details.md).
+:::
+
 ::: faq How do I view and manage applications?
 Once you've posted a job, you can manage applications by navigating to the <b>People</b> page. Here, you'll be able to
 review peoples' applications.

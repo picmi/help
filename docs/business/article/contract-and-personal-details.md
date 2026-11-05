@@ -1,6 +1,11 @@
 # Contract and personal details
 
-PICMI allows you to view all application contract and personal details saved in the process, including files. Finding an application requires using the search fields correctly. Here are the [general search filter instructions](search.md).
+After an application is accepted, PICMI allows you to view the contract and personal details shared by the applicant,
+including uploaded files. Finding an application requires using the search fields correctly. Here are the [general search
+filter instructions](search.md).
+
+Before acceptance, businesses can see question progress but not answer details or uploaded files. An answer with a
+**Review** rule in Progressions is the exception: the applicant has consented to that answer being visible for review.
 
 :::: explanation
 ## Details available

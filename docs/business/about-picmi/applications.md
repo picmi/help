@@ -40,6 +40,17 @@ like *in progress* (while answering questions or submitting documents), *offer m
 and an offer is extended, including the cooling-off period before acceptance), and *accepted* (when the contract is
 finalised). The status changes dynamically based on the actions taken by the participant and the business.
 
+## When businesses can see application answers and files
+
+Before an application is accepted, the business can see progress through the questions, such as which questions have
+been answered, but cannot see the applicant's answer details or uploaded files. The exception is an answer with a
+**Review** rule set in [Progressions](understanding-progressions.md). The applicant has consented to that answer being
+available for review, so the business can see that answer.
+
+At acceptance, the applicant explicitly consents to their answers being available to the business. After acceptance,
+business users can view answers and uploaded files from **People** > the application > **Contract and details**. See
+[Contract and personal details](../article/contract-and-personal-details.md) for the available tabs and steps.
+
 ## Application actions
 
 Statuses can be changed by **specific actions**, and these actions are dependent on the current status and who is
