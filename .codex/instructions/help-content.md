@@ -2,6 +2,16 @@
 
 These instructions apply to markdown content under `docs/`.
 
+## Help Centre Responses
+
+- When drafting an email or support response that refers to a Help Centre article, link directly to the relevant
+  production page on `https://help.picmi.io/` rather than the Help Centre home page or a development URL.
+- Construct the URL from the article's path under `docs/`, removing the `.md` extension and preserving the audience
+  and section path. For example, `docs/business/article/invoices.md` becomes
+  `https://help.picmi.io/business/article/invoices`.
+- Check that the target article exists and that its content supports the linked guidance. Link to the most specific
+  relevant page; include a descriptive link label in the response.
+
 ## Before Writing
 
 - Read `guidelines.md` before creating or materially rewriting Help Centre pages.
