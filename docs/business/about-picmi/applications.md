@@ -51,6 +51,25 @@ At acceptance, the applicant explicitly consents to their answers being availabl
 business users can view answers and uploaded files from **People** > the application > **Contract and details**. See
 [Contract and personal details](../article/contract-and-personal-details.md) for the available tabs and steps.
 
+## Questions answered
+
+Organisation application tables show a **Questions answered** column for both employment and service applications. It
+indicates how far the jobseeker or service applicant has progressed through the current application workflow, based on
+the workflow and answers currently available.
+
+| Value           | Meaning                                                                                                                           |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **Not started** | No applicable questions have been answered (0%).                                                                                  |
+| **42% (21/50)** | An example of intermediate progress: 21 of 50 applicable questions have been answered. The percentage is the proportion answered. |
+| **Complete**    | All applicable questions have been answered (100%).                                                                               |
+| **-**           | Progress is not applicable, for example when the application is not currently in progress or there are no applicable questions.   |
+
+The column displays counts and percentages only; it does not expose answer content. You can sort the table by
+**Questions
+answered**, but you cannot search or filter by this column. This indicator does not change the application's status,
+validation behaviour, or submission rules. The existing **Check completion status** experience remains available and
+unchanged for detailed completion information.
+
 ## Application actions
 
 Statuses can be changed by **specific actions**, and these actions are dependent on the current status and who is
@@ -66,17 +85,17 @@ specific messages added per participant
 
 ## Business actions
 
-| **Status**              | **Description**                                                                                          | **Action**                         | **Explanation**                                                                                                                                      |
-|-------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Invited                 | The participant has been invited but has not yet started the application process.                        | *Cancel*                           | Business can cancel the invite, moving the application to the cancelled invite status.                                                               |
-| In Progress             | The participant has started the application and has not yet reached an outcome.                          | *Reissue*, *Cancel*                | Business can reissue the application (to send out a notification to the participant again) or cancel it, moving to the cancelled application status. |
-| Offered                 | The participant has met the criteria and received an offer that has not yet been accepted or declined.   | *Cancel*                           | Business can cancel the offer, transitioning to the cancelled offer status.                                                                          |
-| Accepted                | The participant has accepted the offer and the engagement is active but not yet complete.                | *Terminate*, *Complete*, *Reissue* | Business can terminate the application, complete the process, or reissue it to the in-progress status.                                               |
-| Completed               | The participant fulfilled the engagement and all required obligations successfully.                      | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status. Reopen changes the internal status and does not invalidate the existing agreement. |
-| Terminated              | The engagement ended before completion and required obligations were not fully fulfilled.                | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the active application flow. Reopen changes the internal status and does not invalidate the existing agreement. |
-| Cancelled (Invite)      | The invitation was withdrawn before the participant entered the application process.                     | *Reopen*                           | Business can reopen the cancelled invitation to transition back to the invited status.                                                               |
-| Cancelled (Application) | The application was withdrawn while in progress and before reaching an outcome.                          | *Reopen*                           | Business can reopen the cancelled application to transition back to the in-progress status.                                                          |
-| Declined                | The participant chose not to continue with or accept the opportunity.                                    |                                    | Business cannot perform any actions—only the participant can reopen the application                                                                  |
+| **Status**              | **Description**                                                                                        | **Action**                         | **Explanation**                                                                                                                                                                       |
+|-------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Invited                 | The participant has been invited but has not yet started the application process.                      | *Cancel*                           | Business can cancel the invite, moving the application to the cancelled invite status.                                                                                                |
+| In Progress             | The participant has started the application and has not yet reached an outcome.                        | *Reissue*, *Cancel*                | Business can reissue the application (to send out a notification to the participant again) or cancel it, moving to the cancelled application status.                                  |
+| Offered                 | The participant has met the criteria and received an offer that has not yet been accepted or declined. | *Cancel*                           | Business can cancel the offer, transitioning to the cancelled offer status.                                                                                                           |
+| Accepted                | The participant has accepted the offer and the engagement is active but not yet complete.              | *Terminate*, *Complete*, *Reissue* | Business can terminate the application, complete the process, or reissue it to the in-progress status.                                                                                |
+| Completed               | The participant fulfilled the engagement and all required obligations successfully.                    | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the accepted status. Reopen changes the internal status and does not invalidate the existing agreement.         |
+| Terminated              | The engagement ended before completion and required obligations were not fully fulfilled.              | *Reissue*, *Reopen*                | Business can reissue the application back to accepted or reopen it to the active application flow. Reopen changes the internal status and does not invalidate the existing agreement. |
+| Cancelled (Invite)      | The invitation was withdrawn before the participant entered the application process.                   | *Reopen*                           | Business can reopen the cancelled invitation to transition back to the invited status.                                                                                                |
+| Cancelled (Application) | The application was withdrawn while in progress and before reaching an outcome.                        | *Reopen*                           | Business can reopen the cancelled application to transition back to the in-progress status.                                                                                           |
+| Declined                | The participant chose not to continue with or accept the opportunity.                                  |                                    | Business cannot perform any actions—only the participant can reopen the application                                                                                                   |
 
 ## Reopen and Reissue
 
@@ -88,7 +107,8 @@ These actions have different effects:
   agreement terms need to be updated and the participant must review or accept them again.
 
 When an application must be included in a CSV report after it has been completed or terminated, reopen it and return it
-to an eligible status before downloading the report. After the download has completed, the application can be returned to
+to an eligible status before downloading the report. After the download has completed, the application can be returned
+to
 its original status.
 
 ## Participant actions
