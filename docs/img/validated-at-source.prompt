@@ -1,0 +1,81 @@
+# Design Prompt: Validated at Source
+
+## Standalone generation brief
+
+Create a polished, one-page portrait infographic for PICMI business administrators. Use a white background, calm blue,
+teal and green accents, soft neutral panels, rounded cards, simple consistent line icons, clear arrows, generous spacing,
+accessible contrast and New Zealand English. Keep the content readable on one A4 page and at Help Centre article width.
+Use concise business-friendly language. Do not include a PICMI logo, wordmark or logo-like mark unless the exact official
+asset is supplied; otherwise omit it entirely. Do not use screenshots or dense interface details.
+
+## Objective
+
+Explain PICMI's core product philosophy: information is collected directly from applicants, validated through the
+application lifecycle, and made available for handoff according to each organisation's configured workflow and
+integrations.
+
+Title: **Validated at source**
+
+Subtitle: **Collect once. Validate continuously. Hand off when ready.**
+
+Main takeaway: PICMI collects information directly from the applicant, validates it throughout the application
+lifecycle, and makes it available for handoff according to the organisation's configured workflow and integrations.
+
+## Main visual: left-to-right lifecycle
+
+Show this journey prominently, with distinct icons for applicant, data collection, workflow Progressions and integrations:
+
+**Applicant provides information → PICMI collects and validates it → Progressions determine when the application can move forward → Configured integrations receive ready-to-use data**
+
+### 1. Collect at source
+
+The applicant provides their own information through the application. PICMI captures data where it originates, reducing
+reliance on downstream correction or re-entry.
+
+### 2. Validate continuously
+
+Validation can happen throughout the application lifecycle, not only at final submission. Show compact check points for:
+inviting someone to apply; changing the job or application context; moving through workflow Progressions; preparing or
+making an offer; and accepting an offer.
+
+### 3. Confirm readiness
+
+Make progress and readiness visually distinct. Progress is how far someone has answered questions; readiness is whether
+the data and workflow allow the next step. Use four clearly separated labels:
+
+- **Questions answered** — how far the applicant has progressed through the application questions.
+- **Application checks** — whether data is complete and valid for the next stage.
+- **Progressions** — whether workflow requirements allow the application to move forward.
+- **Integrations** — whether data satisfies configured external system requirements.
+
+Include this example in a legible status card:
+
+```text
+Questions answered: 42% (21/50)
+Application checks: Needs attention
+Progressions: Waiting for required information
+Integrations: Checked where configured
+```
+
+### 4. Hand off when ready
+
+PICMI makes validated data available to downstream systems according to the organisation's configured workflow and
+integrations. State clearly that configurations vary between organisations; integration checks apply where integrations
+are configured; handoff depends on the configured process and the application reaching its required state. PICMI aims to
+reduce incorrect, incomplete or unusable data reaching downstream systems.
+
+## Closing statement
+
+Make this prominent and easy to scan:
+
+**The goal is correct, validated data at the source—ready to move through the configured process and be handed off when appropriate.**
+
+## Accuracy constraints
+
+- Use **Progressions** as the user-facing term. Never use “Routing”.
+- Do not promise that data will always be handed off.
+- Do not imply every organisation has the same workflow or integrations.
+- Do not imply integration checks run where no integration is configured.
+- Keep the distinction between question progress and application readiness unmistakable.
+- Do not include API endpoints, implementation details, ETags, caching, or answer content.
+- Do not invent product behaviour, statuses, settings, integrations or guarantees.

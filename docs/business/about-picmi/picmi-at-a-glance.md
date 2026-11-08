@@ -146,12 +146,25 @@ access methods inside them, and finally the workflow structure that makes the ex
       <p>For detailed instructions, see <a href="/jobseeker/article/sign-in">Signing in as a jobseeker</a>. For help when an invite email cannot be found, see <a href="/email-not-found">Email not found in inbox</a>.</p>
     </div>
   </details>
+
+  <details id="validated-at-source" class="one-pager-card one-pager-card--wide">
+    <summary>
+      <span class="one-pager-card__preview"><img :src="validatedAtSource" alt="Validated at source infographic preview"></span>
+      <span class="one-pager-card__body"><h2>Validated at source</h2><small>How PICMI collects applicant information, validates it throughout the lifecycle, and prepares it for configured handoff.</small><span class="one-pager-card__action"><span class="one-pager-card__open-label">Open one-pager <span aria-hidden="true">↗</span></span><span class="one-pager-card__close-label">Close one-pager <span aria-hidden="true">↑</span></span></span></span>
+    </summary>
+    <div class="one-pager-card__detail">
+      <div class="one-pager-card__toolbar"><strong>Validated at source</strong><span class="one-pager-card__downloads"><a :href="validatedAtSource" download>Download PNG</a><a :href="validatedAtSource" target="_blank" rel="noreferrer">Print / save as PDF</a></span></div>
+      <a :href="validatedAtSource" target="_blank" rel="noreferrer"><img :src="validatedAtSource" alt="Validated at source: collect once, validate continuously, and hand off data when ready"></a>
+      <p>For more about application progress and workflow decisions, see <a href="/business/about-picmi/understanding-progressions">Progressions in workflows</a> and <a href="/business/article/managing-applications">Managing applications</a>. For help, <a href="/email-help">contact PICMI support</a>.</p>
+    </div>
+  </details>
 </div>
 
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted } from 'vue'
 import engagingOrganisations from '../../img/engaging-organisations.png'
 import jobseekerSignIn from '../../img/jobseeker-sign-in.png'
+import validatedAtSource from '../../img/validated-at-source.png'
 import managingApplications from '../../img/managing-applications.png'
 import provisionalUsers from '../../img/provisional-users.png'
 import recruitingPeople from '../../img/recruiting-people.png'

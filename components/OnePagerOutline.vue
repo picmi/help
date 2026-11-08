@@ -20,6 +20,7 @@ const explainers = [
   ['upcoming-season', 'Upcoming season'],
   ['workflow-design-hierarchy', 'Workflow design hierarchy'],
   ['jobseeker-sign-in', 'How jobseekers get back into PICMI'],
+  ['validated-at-source', 'Validated at source'],
 ]
 </script>
 
