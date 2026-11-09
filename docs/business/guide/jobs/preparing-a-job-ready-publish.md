@@ -1,46 +1,37 @@
-# Preparing a job ready to publish
+# Preparing a job to publish or invite
 
-All jobs must have a valid configuration for a person to complete an application that includes, send an invite as well as receive an offer or agree on their application. Below explains why there is more than just the fields on the job to consider in most cases that is part of [previewing a listing](../../article/opportunity-preview). By checking a configuration on a job, you can identify and resolve any issues that may prevent a jobseeker from completing an application.
+Before you publish a job or invite someone to apply, check that its application setup is complete. The job listing is
+only one part of the application: the workflow, contract, organisation details, and any enabled integrations must also
+work together. A job can look ready because its title and description are filled in, while a required field elsewhere
+is still missing.
+
+Use **Check Configuration** as a readiness check. It confirms that PICMI can use the job's workflow, create its contract,
+and send data to enabled integrations. This check matters because those parts depend on one another: a missing value or
+mapping in the workflow, organisation, contract, job, or integration can interrupt an application even when the job
+listing itself looks complete.
+
+This is the same preparation principle shown in [PICMI at a glance](../../about-picmi/picmi-at-a-glance.md#upcoming-season):
+prepare the connected pieces (people, workflows, contracts, jobs, and integrations) before hiring begins. This guide
+explains when and why to check a job; the article on [Check Configuration and field validation](../../article/checking-application-configuration.md)
+explains how to run it, read the results, and fix failures.
 
 ::: prompt
-PICMI also checks the job configuration when [inviting a person](../../article/opportunity-send-invite),
-[duplicating a job](../../article/opportunity-duplicate), making an offer, and completing an application. See
-[Check Configuration and field validation](../../article/checking-application-configuration) for detailed fixes.
+If a configuration error appears when you try to [send an invite](../../article/opportunity-send-invite), the job still
+has a setup issue to resolve. Run **Check Configuration** and follow the result to the field that needs attention. The
+[field validation article](../../article/checking-application-configuration.md) walks through the results and common fixes.
 :::
 
-:::: explanation
-## Validating job configurations for applications
+<br/>
 
-Job configurations can be validated at any stage to confirm that jobseekers can successfully complete an application. Each configuration follows a set of rules with increasing complexity, depending on the presence of certain elements, like contracts or integrations.
+::: prompt
+Checking configuration does not check the wording or appearance of the job listing. Use [Previewing an opportunity](../../article/opportunity-preview.md)
+to review what a person can access, and workflow **Preview** mode to review the application steps.
+:::
 
-## Rules for validation
+## When to check
 
-### Basic checks
-1. **Application Workflow Exists:** Confirm that an application workflow has been created for the job
-2. **Contract Included in Workflow:** Ensure that a contract is part of the application workflow
+Check after setting up or changing a job's workflow, contract, or integrations, and before publishing or inviting people.
+PICMI also runs the check automatically when you send an invite, duplicate a job, make an offer, or complete an
+application. Running it beforehand gives you a chance to resolve setup issues before they interrupt one of those steps.
 
-### Intermediate checks (for contracts with field substitutions)
-For workflows with contracts that use **field substitutions**:
-1. **Organisation Fields Completed:** Verify that all required organisation fields are filled out
-2. **Job Fields Completed:** Check that all necessary job fields are filled in
-
-### Advanced checks (for jobs with integrations)
-If the job configuration includes **integrations**:
-1. Ensure that **all integration fields** have a valid mapping. Each field should be mapped to one of the following:
-   - A job field
-   - An organisation field
-   - Personal information from the jobseeker
-   - A question from the application workflow
-::::
-
-:::: instructions
-## Check that the job configuration is valid
-
-1. Go to **Jobs**
-2. Locate the **job** row :::icon checkbox-marked-outline:::
-3. Click &vellip; (vertical dots) to open the menu
-4. Select **Check Configuration** 
-5. Confirm the **Check Configuration** status
-   * :::icon check primary::: for success 
-   * :::icon exclamation::: for errors&mdash;ensure they are fixed before sending invites
-::::
+For the steps and troubleshooting, go to [Check Configuration and field validation](../../article/checking-application-configuration.md).
