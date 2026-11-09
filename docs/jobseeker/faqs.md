@@ -40,6 +40,14 @@ This means you will need to complete the application answers again, including an
 However, within the same organisation, if there are subsequent applications or an application is reissued, your previously provided answers will be retained and available.
 :::
 
+::: faq How do I cancel my application?
+The action depends on your application status. If your application is **In Progress**, choose **Decline** to stop it. If
+you have already accepted an offer and the application is **Accepted**, choose **Cancel** to withdraw your acceptance.
+See [Understanding applications](article/applications.md#actions-you-can-take) for the actions available at each stage.
+If you need to access your application, see [how to sign in](article/sign-in.md) or [what to do if you can't find an email](../email-not-found).
+
+:::
+
 ## Platform Usage
 
 ::: faq How do I sign up for PICMI?
@@ -55,7 +63,6 @@ You can still **sign in passwordless** with the same email address. [Sign in](ht
 
 ::: prompt
 If you use the same browser as last time, you will still be signed in when you go to [PICMI](https://jobs.picmi.io)
-:::
 :::
 
 ::: faq My link has expired and I have never used it, what do I do?
