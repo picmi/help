@@ -8,12 +8,24 @@ In the table below, the **actor** is the person, organisation, or system that ca
 
 ## Notification types
 
-| Notification                       | What happened                                                  | Who made the change                               | Who receives it |
-|------------------------------------|----------------------------------------------------------------|---------------------------------------------------|-----------------|
-| **Job invitation — received**      | You were invited to apply for a job.                           | Organisation user                                 | Jobseeker       |
-| **Application — updates**          | Your application, agreement, or related messages were updated. | Organisation user, system, or another participant | Jobseeker       |
-| **Application — review completed** | Your application review was completed and it can continue.     | Organisation reviewer                             | Jobseeker       |
-| **Application — cannot continue**  | Your application cannot continue based on your answers.        | System, based on application answers              | Jobseeker       |
+| Notification                       | What happened                                                                                                                                 | Who made the change                               | Who receives it |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|-----------------|
+| **Job invitation — received**      | You were invited to apply for a job.                                                                                                          | Organisation user                                 | Jobseeker       |
+| **Application — updates**          | Your application, agreement, or related messages were updated.                                                                                | Organisation user, system, or another participant | Jobseeker       |
+| **Application — review completed** | Your application has been reviewed and can continue. The notification summarizes the review decisions and directs you to PICMI for details.   | Organisation reviewer                             | Jobseeker       |
+| **Application — cannot continue**  | Your application cannot proceed based on your answers. The notification summarizes any review decisions and directs you to PICMI for details. | System, based on application answers              | Jobseeker       |
+
+## Review outcomes in application notifications
+
+You receive an update when review decisions are complete and your application can continue, or when routing determines
+that your application cannot proceed. The notification summarizes the review items and their outcomes, including any
+message from the business. Sign in to PICMI to see details about your application.
+
+A notification saying your application can continue does not mean that you have been accepted or that a contract is
+ready. Continue with any next steps shown in PICMI.
+
+If your application cannot proceed, the notification explains that overall outcome even if some review items do not
+have a decision. You do not receive a separate notification for each individual review decision.
 
 ## Managing your notifications
 

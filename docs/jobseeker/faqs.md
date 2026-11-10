@@ -40,6 +40,19 @@ This means you will need to complete the application answers again, including an
 However, within the same organisation, if there are subsequent applications or an application is reissued, your previously provided answers will be retained and available.
 :::
 
+::: faq What does an application review notification mean?
+You receive an update when the business has completed its review decisions and your application can continue, or when
+PICMI determines that your application cannot proceed. The notification summarizes review outcomes and any messages
+from the business. Sign in to PICMI for details. An update saying your application can continue does not mean you have
+been accepted or that a contract is ready. See [application notifications](article/notifications.md#review-outcomes-in-application-notifications).
+:::
+
+::: faq Does each business review decision send me a notification?
+No. You receive an update when review decisions are complete or routing determines your application cannot proceed.
+The update summarizes the review outcomes; individual decisions do not generate separate notifications. See
+[application notifications](article/notifications.md#review-outcomes-in-application-notifications).
+:::
+
 ::: faq How do I cancel my application?
 The action depends on your application status. If your application is **In Progress**, choose **Decline** to stop it. If
 you have already accepted an offer and the application is **Accepted**, choose **Cancel** to withdraw your acceptance.
