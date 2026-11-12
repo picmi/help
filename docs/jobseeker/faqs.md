@@ -17,7 +17,7 @@ Yes, your job position is confirmed and you are hired. Your employer will be in 
 :::
 
 ::: faq How do I get access to my employment agreement (contract) and job details?
-All the details from the application process are available to you are any time. You need remember the **email address** you used and have access to your email inbox to receive codes to sign in. Once signed in, the information is available—you'll see your list of applications.
+Your application details and employment agreement are available after you sign in with the email address you used for your application. See [Signing in](article/sign-in.md) for help. For how agreement records are made available to you and the employer, and how an employer may transfer information to other systems, see [Employment agreements and your information](article/employment-agreements-and-your-information.md).
 
 Use [this link](https://jobs.picmi.io/#/signin) to continue.
 

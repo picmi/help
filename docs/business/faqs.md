@@ -1146,7 +1146,17 @@ We can guide you on the correct process.
 Because their **application to that job is already complete**.  
 PICMI prevents duplicate applications for the same job.
 
-Instead, create a **new job for the new date range**.
+If the worker is returning for a new work period, create a **new job for the new date range**, then invite them to that job. You can duplicate the existing job to reuse its setup.
+
+See [inviting returning workers to a new job](guide/understanding-picmi-vs-you.md#how-to-start-a-new-work-period) and [sending invites](article/opportunity-send-invite.md).
+:::
+
+::: faq Why can't I send a contract to a returning worker when PICMI says they are already completed?
+The worker's application for that job is already **Completed**. PICMI allows only one application per person for each job, so you cannot send another application and contract for that same job.
+
+For a new work period, create a new job with the new dates and invite the worker to it. You can duplicate the previous job to reuse its setup. PICMI will create a new application and agreement for the new job.
+
+See [inviting returning workers to a new job](guide/understanding-picmi-vs-you.md#how-to-start-a-new-work-period) and [sending invites](article/opportunity-send-invite.md).
 :::
 
 ::: faq The role is the same. Why do I need a new job?

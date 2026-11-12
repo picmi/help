@@ -9,6 +9,7 @@ export function sidebarJobseeker() {
                 { text: 'Signing in', link: '/jobseeker/article/sign-in' },
                 { text: 'Adding a photo', link: '/jobseeker/article/adding-a-photo' },
                 { text: 'Understanding applications', link: '/jobseeker/article/applications' },
+                { text: 'Employment agreements and your information', link: '/jobseeker/article/employment-agreements-and-your-information' },
                 { text: 'Understanding notifications', link: '/jobseeker/article/notifications' },
                 { text: 'Translate PICMI into your language', link: '/jobseeker/article/translation-support' },
             ]
