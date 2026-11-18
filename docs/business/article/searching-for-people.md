@@ -2,6 +2,9 @@
 
 Use the application filters in **Employment** > **People** to monitor onboarding and follow-up work. They help you find
 applications by their current status, when that status was applied, and when the application was last updated.
+These filters show current application status and status-change dates; they do not reproduce the Invoices report, which
+uses acceptance history during an invoice period. See [how the Invoices report selects applications and calculates
+billable totals](invoices.md#understand-the-summary-cards) when comparing the two.
 
 :::: instructions
 

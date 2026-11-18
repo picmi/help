@@ -4,6 +4,24 @@
 
 ## General Questions
 
+::: faq Why don't the Invoices report and People page show the same number of accepted applications?
+
+The **Invoices** report counts employment applications that had a first-time transition into **Accepted** during the
+selected invoice period, using the organisation's time zone. It then checks the application's complete acceptance
+history to decide whether it is billable. An application accepted again after being reissued is included in that
+period's accepted total, but is non-billable if it has more than one genuine acceptance.
+
+The **People** page filters applications by their current status, and its **Last Status Changed** filter finds when
+that status was most recently applied. These may not be billable that we see in invoices. For example, an application accepted during the month may now have another status, while an application that
+is currently **Accepted** may have been accepted before the month. So filtering People for **Accepted** and a month
+is often unlikely to match the Invoices report. The invoice report's billable calculation is based on acceptance history,
+not the current status shown in People.
+
+See [how the Invoices report selects applications and calculates billable totals](article/invoices.md#understand-the-summary-cards),
+[search for people and their applications using status and date filters](article/searching-for-people.md), and
+[how search filters work](article/search.md).
+:::
+
 ::: faq What is PICMI?
 PICMI is an opportunity and engagement platform. It helps organisations manage opportunities, intake, applications,
 placements, and ongoing participation across employment and services contexts.

@@ -33,6 +33,9 @@ These instructions are for AI coding agents working in this repository.
 
 ## Content Rules
 
+- When drafting or reviewing a customer support response based on Help Centre content, read and follow
+  `.codex/instructions/customer-support-responses.md`. Treat requests to answer a customer question using the Help
+  Centre as support-response requests, even when the user does not name this instruction file.
 - For any help article or FAQ work under `docs/`, also follow `.codex/instructions/help-content.md`.
 - Before writing or substantially revising help content, read `guidelines.md` and nearby pages in the same section.
 - Prefer text instructions and inline icon references over screenshots. The site intentionally avoids image-heavy UI instructions.

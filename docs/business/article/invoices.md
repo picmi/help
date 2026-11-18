@@ -43,6 +43,11 @@ Use the invoice search area to choose the organisations and dates included in th
 If the figures look different from what you expected, check the selected date range and selected organisations first.
 :::
 
+The Invoices report is based on acceptance history during the selected period, not an application's current status. The
+**People** page shows current application statuses; its **Last Status Changed** filter finds when the current status
+was most recently applied. As a result, filtering People for **Accepted** and the same month will not necessarily
+match the Invoices report. For details, see [searching for people and their applications](searching-for-people.md).
+
 ## Understand the summary cards
 
 The summary cards show a quick count of the accepted applications found for the selected period.
@@ -148,5 +153,7 @@ paid, approved by finance, or exported to an accounting system.
 
 ## See also
 
+- [Searching for people and their applications](searching-for-people.md) to find applications by current status and
+  status-change date.
 - [Billing guide](../about-picmi/billing.md) for billing frequency, issued invoices, payment options, and historical
   invoice records.
