@@ -21,9 +21,10 @@ Your application details and employment agreement are available after you sign i
 
 Use [this link](https://jobs.picmi.io/#/signin) to continue.
 
-::: prompt
+:::: prompt
 If you use the same browser as last time, you will remain signed in until you sign out
-:::
+::::
+
 :::
 
 ## Application 
@@ -54,8 +55,9 @@ The update summarizes the review outcomes; individual decisions do not generate 
 :::
 
 ::: faq How do I cancel my application?
-The action depends on your application status. If your application is **In Progress**, choose **Decline** to stop it. If
-you have already accepted an offer and the application is **Accepted**, choose **Cancel** to withdraw your acceptance.
+You can cancel an application at anytime and the employer will see this and be notified.
+The action depends on your application status. If your application is **To Complete**, choose **Decline** to stop it. If
+you have already accepted an offer and the application is **Accepted**, you will need to look in the contract for employer details and contact them directly to cancel the contract.
 See [Understanding applications](article/applications.md#actions-you-can-take) for the actions available at each stage.
 If you need to access your application, see [how to sign in](article/sign-in.md) or [what to do if you can't find an email](../email-not-found).
 
