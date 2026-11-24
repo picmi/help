@@ -64,7 +64,7 @@ An intake window defines the period during which applications or intake are perm
 
 ### Fixed Capacity
 
-Use **Fixed Capacity** when you have a defined total intake limit.
+Use **Fixed Capacity** when the limit represents the total number of engagements allowed over the opportunity's intake period.
 
 Typical usage:
 
@@ -79,7 +79,7 @@ Typical calculation:
 Remaining availability = Capacity limit - counted engagements
 ```
 
-Counted engagements are usually:
+Counted engagements are:
 
 ```text
 Offered + Accepted + Completed
@@ -87,7 +87,7 @@ Offered + Accepted + Completed
 
 ### Active Allocation
 
-Use **Active Allocation** when you want to maintain a current active level over time.
+Use **Active Allocation** when the limit represents how many engagements can be active or reserved at one time.
 
 Typical usage:
 
@@ -101,12 +101,19 @@ Typical calculation:
 ```text
 Remaining availability = Capacity limit - currently active or reserved engagements
 ```
+Currently active or reserved engagements are:
 
-Reserved engagements often include offers to prevent over-allocation.
+```text
+Offered + Accepted
+```
+
+This model assumes that people with an offer are available to start and are about to begin, while people who have accepted are working or are about to start. Both statuses therefore count toward the limit. **Completed** engagements are excluded, so capacity can become available again.
 
 ### Unlimited
 
-Use **Unlimited** when no capacity limit applies.
+Use **Unlimited** when you do not want a capacity limit to restrict offers or acceptances.
+
+There is no finite capacity limit, so remaining availability is not calculated. Configuring a maximum does not limit availability while **Unlimited** is selected.
 
 Typical usage:
 
