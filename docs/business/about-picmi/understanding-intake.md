@@ -74,19 +74,19 @@ Typical usage:
 
 Typical calculation:
 
-```text
+```
 Remaining availability = Capacity limit - counted engagements
 ```
 
 Counted engagements are:
 
-```text
+```
 Offered + Accepted + Completed
 ```
 
-:::prompt
+:::: prompt
 **Terminated** engagements are excluded, so capacity can become available again.
-:::
+::::
 
 ### Active Allocation
 
@@ -101,12 +101,12 @@ Typical usage:
 
 Typical calculation:
 
-```text
+```
 Remaining availability = Capacity limit - currently active or reserved engagements
 ```
 Currently active or reserved engagements are:
 
-```text
+```
 Offered + Accepted
 ```
 
@@ -117,6 +117,7 @@ This model assumes that people with an offer are available to start and are abou
 ::::
 
 :::
+
 ### Unlimited
 
 Use **Unlimited** when you do not want a capacity limit to restrict offers or acceptances.
