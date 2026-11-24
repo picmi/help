@@ -112,9 +112,9 @@ Offered + Accepted
 
 This model assumes that people with an offer are available to start and are about to begin, while people who have accepted are working or are about to start. Both statuses therefore count toward the limit.
 
-:::prompt
+:::: prompt
 **Completed** and **Terminated** engagements are excluded, so capacity can become available again.
-:::
+::::
 
 :::
 ### Unlimited
