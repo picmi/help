@@ -68,7 +68,6 @@ Use **Fixed Capacity** when the limit represents the total number of engagements
 
 Typical usage:
 
-- seasonal hiring rounds
 - fixed-number placements
 - capped programme intake
 - limited service slots
@@ -84,6 +83,10 @@ Counted engagements are:
 ```text
 Offered + Accepted + Completed
 ```
+
+:::prompt
+**Terminated** engagements are excluded, so capacity can become available again.
+:::
 
 ### Active Allocation
 
@@ -107,8 +110,13 @@ Currently active or reserved engagements are:
 Offered + Accepted
 ```
 
-This model assumes that people with an offer are available to start and are about to begin, while people who have accepted are working or are about to start. Both statuses therefore count toward the limit. **Completed** engagements are excluded, so capacity can become available again.
+This model assumes that people with an offer are available to start and are about to begin, while people who have accepted are working or are about to start. Both statuses therefore count toward the limit.
 
+:::prompt
+**Completed** and **Terminated** engagements are excluded, so capacity can become available again.
+:::
+
+:::
 ### Unlimited
 
 Use **Unlimited** when you do not want a capacity limit to restrict offers or acceptances.
