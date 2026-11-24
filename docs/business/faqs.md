@@ -966,6 +966,17 @@ This can be used for seasonal recruitment, service periods, or programme windows
 
 ## Workflow progressions
 
+::: faq What does “Review Consent Required. The applicant has not yet requested a review.” mean?
+This message means a progression rule requires a review, but the applicant has not yet asked the business to review
+their application. The rule may have been triggered by an answer, but the applicant's request for review is a separate
+step. The message does not mean the application is complete or that the review has already been requested.
+
+Open the application and check its progression details to identify the answer that triggered the review. The applicant
+can request review from their application when they are ready. Until then, the consent-required message remains.
+
+See [Progressions in workflows](about-picmi/understanding-progressions.md) for how progression reviews work.
+:::
+
 ::: faq Do all questions need to be answered before requesting review?
 No. A jobseeker can request review after answering one question that triggers review, even if other questions with
 progression rules are unanswered. Unanswered questions are not treated as completed or reviewed.
