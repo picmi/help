@@ -116,8 +116,6 @@ This model assumes that people with an offer are available to start and are abou
 **Completed** and **Terminated** engagements are excluded, so capacity can become available again.
 ::::
 
-:::
-
 ### Unlimited
 
 Use **Unlimited** when you do not want a capacity limit to restrict offers or acceptances.
